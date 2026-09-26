@@ -85,3 +85,22 @@ Also: the idea that the coins never moved *because* Sassaman died has a logic ga
   - SourceForge and forum profiles show no timezone (forum offset left at UTC; the 2021 "nakamoto2 / Japan" profile is a re-registration).
   - No raw GMX headers with client IP are public.
   - Satoshi never wrote "tonight", "this morning" or "weekend".
+
+## 7. Final dig (2026-09-26, evening)
+
+- **Ducrée (arXiv 2206.10257) read and citation-checked** (`notes/ducree-review.md`). His central "Benelux" argument is that white paper ref [2] was print-only, so Satoshi or someone close must have attended the 1999 Haasrode symposium. **That is false.**
+  - The Massias paper was on UCL's public site: listed from 1999; PS download from 2002; file captured in 2003 and Aug 2007, byte-identical.
+  - It was also indexed by CiteSeer (2004–2008). VERIFIED.
+  - **New: bibliographic fingerprint.** White paper [2] reproduces the authors' own self-citation in their WETICE 1999 paper, as shown on CiteSeer, errors included: "X. S. Avila" (for Serret Avila) and plural "requirements". [3], [4] and [7] reproduce the reference list of [5], Haber & Stornetta's "Secure Names for Bit-Strings", on Haber's site from 2000. The Massias paper's own list doesn't match. INFERENCE (high): Satoshi built the timestamping bibliography from online sources available to anyone by 2007. Not found published.
+  - **For the theory:** this removes Ducrée's grounds for excluding Finney and Szabo and his special KU Leuven route for Sassaman. It neither supports nor refutes the collective.
+  - The Bank of Japan/IMES report (Quisquater lead) isn't the source: it shares only Haber & Stornetta 1991.
+  - Ducrée errors: Feller 1957 is the 2nd edition; his PDF "CET" reading is his own viewer's zone; the P2P Foundation birthdate-based age was shown by Mar 2011 (not "2012"); Patterson's "according to its creator" tweet followed Satoshi's public 5 Dec 2010 post by 54 h; Mixmaster is C.
+- **2011 time-of-day break** (`notes/2011-break.md`).
+  - 4 of 11 items from 2011 fall in Satoshi's quietest 8 h window (06–14 UTC; 2.8% of 887 base events): p ≈ 2 × 10⁻⁴; window-free permutation test p ≈ 5 × 10⁻⁵.
+  - Hearn's display zone, calibrated on his 2009–10 dumps, fits Zurich (UTC+1/+2) and rejects US displays.
+  - Gavin's 26 Apr 2011 email is independently ≈08:29 UTC.
+  - The farewell emails (20, 23, 26 Apr 2011) fall on weekday mornings in the UK Easter holiday: mundane for a UK person with daytime commitments, pre-dawn for a US one. Change of routine: medium-high. UK-favouring: low-medium. Hand-over to another writer: possible, not shown.
+- **Back's "ruled out anyone in Europe" (24 Apr 2026)** (`notes/back-europe-claim.md`). It's the documentary's reasoning relayed against Sassaman.
+  - Hours rule out a European with ordinary daytime hours, not a UK night owl.
+  - The machine clocks (UK, not CET) cut against CET-based operators: Sassaman *and* Back himself.
+  - The behavioural DST test weakly favours EU clock-change timing.
