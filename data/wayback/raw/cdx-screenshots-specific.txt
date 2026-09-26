@@ -282,3 +282,5 @@ org,bitcoin)/satoshi_nakamoto.asc 20140911014743 http://www.bitcoin.org/Satoshi_
 org,bitcoin)/satoshi_nakamoto.asc 20140911014745 http://bitcoin.org/Satoshi_Nakamoto.asc text/html 301 AIWXR45JQIG2LBFWDNQESDVS2CA3NYA2 475
 org,bitcoin)/satoshi_nakamoto.asc 20140911014748 https://bitcoin.org/Satoshi_Nakamoto.asc text/html 404 5JSNRF376L5L63J7XM7W4CC67GQQY3SH 2851
 
+
+[exited with code 0]

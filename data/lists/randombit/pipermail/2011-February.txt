@@ -1,0 +1,1563 @@
+From zooko at zooko.com  Wed Feb  2 11:34:57 2011
+From: zooko at zooko.com (Zooko O'Whielacronx)
+Date: Wed, 2 Feb 2011 09:34:57 -0700
+Subject: [cryptography] ANNOUNCING Tahoe, the Least-Authority File System,
+	v1.8.2
+Message-ID: <AANLkTikDNQO5HbdrRyhZ6wVTVXWvJqocS_ckpqfwJvLb@mail.gmail.com>
+
+ANNOUNCING Tahoe, the Least-Authority File System, v1.8.2
+
+The Tahoe-LAFS team is pleased to announce the immediate
+availability of version 1.8.2 of Tahoe-LAFS, an extremely
+reliable distributed storage system. Get it here:
+
+http://tahoe-lafs.org/source/tahoe/trunk/docs/quickstart.html
+
+Tahoe-LAFS is the first distributed storage system to offer
+"provider-independent security" ? meaning that not even the
+operators of your storage servers can read or alter your data
+without your consent. Here is the one-page explanation of its
+unique security and fault-tolerance properties:
+
+http://tahoe-lafs.org/source/tahoe/trunk/docs/about.html
+
+The previous stable release of Tahoe-LAFS was v1.8.1, which was
+released October 28, 2010 [1].
+
+v1.8.2 is a stable bugfix release, adding compatibility with
+the recently-released Twisted-10.2, and correcting a number of
+minor issues. See the NEWS file [2] for details.
+
+
+WHAT IS IT GOOD FOR?
+
+With Tahoe-LAFS, you distribute your filesystem across
+multiple servers, and even if some of the servers fail or are
+taken over by an attacker, the entire filesystem continues to
+work correctly, and continues to preserve your privacy and
+security. You can easily share specific files and directories
+with other people.
+
+In addition to the core storage system itself, volunteers
+have built other projects on top of Tahoe-LAFS and have
+integrated Tahoe-LAFS with existing systems, including
+Windows, JavaScript, iPhone, Android, Hadoop, Flume, Django,
+Puppet, bzr, mercurial, perforce, duplicity, TiddlyWiki, and
+more. See the Related Projects page on the wiki [3].
+
+We believe that strong cryptography, Free and Open Source
+Software, erasure coding, and principled engineering practices
+make Tahoe-LAFS safer than RAID, removable drive, tape,
+on-line backup or cloud storage.
+
+This software is developed under test-driven development, and
+there are no known bugs or security flaws which would
+compromise confidentiality or data integrity under recommended
+use. (For all important issues that we are currently aware of
+please see the known_issues.rst file [4].)
+
+
+COMPATIBILITY
+
+This release is compatible with the version 1 series of
+Tahoe-LAFS. Clients from this release can write files and
+directories in the format used by clients of all versions back
+to v1.0 (which was released March 25, 2008). Clients from this
+release can read files and directories produced by clients of
+all versions since v1.0. Servers from this release can serve
+clients of all versions back to v1.0 and clients from this
+release can use servers of all versions back to v1.0.
+
+This is the thirteenth release in the version 1 series. This
+series of Tahoe-LAFS will be actively supported and maintained
+for the forseeable future, and future versions of Tahoe-LAFS
+will retain the ability to read and write files compatible
+with this series.
+
+
+LICENCE
+
+You may use this package under the GNU General Public License,
+version 2 or, at your option, any later version. See the file
+"COPYING.GPL" [5] for the terms of the GNU General Public
+License, version 2.
+
+You may use this package under the Transitive Grace Period
+Public Licence, version 1 or, at your option, any later
+version. (The Transitive Grace Period Public Licence has
+requirements similar to the GPL except that it allows you to
+delay for up to twelve months after you redistribute a derived
+work before releasing the source code of your derived work.)
+See the file "COPYING.TGPPL.html" [6] for the terms of the
+Transitive Grace Period Public Licence, version 1.
+
+(You may choose to use this package under the terms of either
+licence, at your option.)
+
+
+INSTALLATION
+
+Tahoe-LAFS works on Linux, Mac OS X, Windows, Cygwin, Solaris,
+*BSD, and probably most other systems. Start with
+"docs/quickstart.html" [7].
+
+
+HACKING AND COMMUNITY
+
+Please join us on the mailing list [8]. Patches are gratefully
+accepted -- the RoadMap page [9] shows the next improvements
+that we plan to make and CREDITS [10] lists the names of people
+who've contributed to the project. The Dev page [11] contains
+resources for hackers.
+
+
+SPONSORSHIP
+
+Tahoe-LAFS was originally developed by Allmydata, Inc., a
+provider of commercial backup services. After discontinuing
+funding of Tahoe-LAFS R&D in early 2009, they continued
+to provide servers, bandwidth, small personal gifts as tokens
+of appreciation, and bug reports.
+
+Google, Inc. sponsored Tahoe-LAFS development as part of the
+Google Summer of Code 2010. They awarded four sponsorships to
+students from around the world to hack on Tahoe-LAFS that
+summer.
+
+Thank you to Allmydata and Google for their generous and
+public-spirited support.
+
+
+HACK TAHOE-LAFS!
+
+If you can find a security flaw in Tahoe-LAFS which is serious
+enough that we feel compelled to warn our users and issue a fix,
+then we will award you with a customized t-shirts with your
+exploit printed on it and add you to the "Hack Tahoe-LAFS Hall
+Of Fame" [12].
+
+
+ACKNOWLEDGEMENTS
+
+This is the seventh release of Tahoe-LAFS to be created solely
+as a labor of love by volunteers. Thank you very much to the
+team of "hackers in the public interest" who make Tahoe-LAFS
+possible.
+
+Brian Warner
+on behalf of the Tahoe-LAFS team
+
+January 30, 2011
+San Francisco, California, USA
+
+
+[1] http://tahoe-lafs.org/trac/tahoe/browser/relnotes.txt?rev=4865
+[2] http://tahoe-lafs.org/trac/tahoe/browser/NEWS?rev=5000
+[3] http://tahoe-lafs.org/trac/tahoe/wiki/RelatedProjects
+[4] http://tahoe-lafs.org/trac/tahoe/browser/docs/known_issues.rst
+[5] http://tahoe-lafs.org/trac/tahoe/browser/COPYING.GPL
+[6] http://tahoe-lafs.org/source/tahoe/trunk/COPYING.TGPPL.html
+[7] http://tahoe-lafs.org/source/tahoe/trunk/docs/quickstart.html
+[8] http://tahoe-lafs.org/cgi-bin/mailman/listinfo/tahoe-dev
+[9] http://tahoe-lafs.org/trac/tahoe/roadmap
+[10] http://tahoe-lafs.org/trac/tahoe/browser/CREDITS?rev=5000
+[11] http://tahoe-lafs.org/trac/tahoe/wiki/Dev
+[12] http://tahoe-lafs.org/hacktahoelafs/
+
+
+From thierry.moreau at connotech.com  Wed Feb  9 15:24:14 2011
+From: thierry.moreau at connotech.com (Thierry Moreau)
+Date: Wed, 09 Feb 2011 15:24:14 -0500
+Subject: [cryptography] Factorization Downgrade Backdoor and the
+	"Evanescent" Security Module
+Message-ID: <4D52F7EE.8030509@connotech.com>
+
+Dear crypto enthusiasts!
+
+The backdoor generation of weak public modulus for integer-factorization 
+cryptosystems is not a new topic. It is nonetheless difficult to solve 
+once and for all.
+
+I came across the Cunningham project periodic reports of factorization 
+achievements (e.g. 
+http://homes.cerias.purdue.edu/~ssw/cun/oldp/dir120/index.html ) in 
+which factorizations of composite numbers in the range 2^600 to 2^1100 
+are reported. These composite numbers are not as hard to factorize as a 
+well-formed RSA (or R-W) public modulus. However, it appears that 
+putting a factorization downgrade backdoor is really easy in a closed 
+system that generates key pairs: simply force one of the two private 
+factors to be much smaller than the other one (the source code may 
+already have explicit limits on the difference in size between the two 
+private factors). In high security systems, nobody ever has an 
+opportunity to look at the private key in a way that would allow the 
+detection of the backdoor.
+
+It appears that the only solution is an open source implementation of 
+the key pair generation. This may remain compatible with high security 
+application environments if a) the private key is output in a form 
+factor compatible with a regular HSM, and b) all data used during key 
+pair generation is reliably deleted. Actually, HSM vendors usually 
+provide some means of key backup and restore so that key import from an 
+independent key generation system is (in theory) possible.
+
+This introduces the major characteristics of an "Evanescent" Security 
+Module:
+   1) used for one-shot cryptographic operations,
+   2) loaded with sofware fully subject to independent party audit,
+   3) no network conection,
+   4) output cryptographic secrets in a form factor and split-storage 
+techniques compatible with a (non-evanescent) HSM product family,
+   5) reliable means of destroying all internal data,
+   6) operated under constant monitoring by "trusted" personnel, and
+   7) has some reliable means of secret random number generation.
+
+Obviously, this is a disturbing proposition because it highlights the 
+limitations of certification for closed implementations, and it trades 
+tamper-{evidence,detection,resistance} for "trusted" personnel 
+assignments (managers might choose to buy "strong" hardware and ignore 
+the criticalness of trusted personnel).
+
+Realistically, no closed HSM vendor will ever allow an open source 
+implementation outputting anything compatible with their key import 
+capability. Thus, the next step is the "open source HSM" in which 
+critical cryptographic secrets must be continuously protected.
+
+Any comment?
+
+Any work being done on something like the "Evanescent" Security Module 
+or the "open source HSM" ?
+
+Incidentally, here is a recent study of of FIPS-140-2 compliant HSM:
+http://www.opendnssec.org/wp-content/uploads/2011/01/A-Review-of-Hardware-Security-Modules-Fall-2010.pdf
+No threat model, no critical security review, but compatibility, 
+performance, and usability review. Informative about a type of crypto 
+systems with a price tag that make then outside the reach of most of us.
+
+Regards,
+
+-- 
+- Thierry Moreau
+
+CONNOTECH Experts-conseils inc.
+9130 Place de Montgolfier
+Montreal, QC, Canada H2M 2A1
+
+Tel. +1-514-385-5691
+
+
+From smb at cs.columbia.edu  Sun Feb 13 21:09:31 2011
+From: smb at cs.columbia.edu (Steven Bellovin)
+Date: Sun, 13 Feb 2011 21:09:31 -0500
+Subject: [cryptography] Radiocarbon dating of the Voynich manuscript
+Message-ID: <A74DF599-CD3C-42D5-903D-6175851AB2A3@cs.columbia.edu>
+
+http://www.physorg.com/news/2011-02-experts-age.html
+
+		--Steve Bellovin, http://www.cs.columbia.edu/~smb
+
+
+
+
+
+
+
+From david_koontz at xtra.co.nz  Mon Feb 14 00:08:35 2011
+From: david_koontz at xtra.co.nz (David G. Koontz)
+Date: Mon, 14 Feb 2011 18:08:35 +1300
+Subject: [cryptography] Radiocarbon dating of the Voynich manuscript
+In-Reply-To: <A74DF599-CD3C-42D5-903D-6175851AB2A3@cs.columbia.edu>
+References: <A74DF599-CD3C-42D5-903D-6175851AB2A3@cs.columbia.edu>
+Message-ID: <4D58B8D3.8050007@xtra.co.nz>
+
+On 14/02/11 3:09 PM, Steven Bellovin wrote:
+> http://www.physorg.com/news/2011-02-experts-age.html
+> 
+
+Well that puts it out of the range of Roger Bacon, doesn't it?  Or does it?
+
+For those of us who have wondered what the  Voynich manuscript is about
+after seeing Chapter 23 of Kahn's book 'The Codebreakers' (2nd edition), the
+page of the Voynich manuscript used as an illustration can be found here:
+http://voynichcentral.com/gallery/Quire-13/f77v?full=1
+934KB, 4428???5609
+
+David Kahn writes of it's history from 1666, consistent with the radio
+carbon dating:
+
+
+Mystery has beclouded the manuscript since its recorded history began.  That
+was on August 19, 1666, when Joannes Marcus Marci, the highly respected
+rector of the University of Prague, sent the book to his former teacher,
+Athanasius Kircher, the most famous Jesuit scholar of his time.
+Kircher had, three years earlier, published a book on cryptology and a
+universal language, and had boasted of having solved the riddle of
+hieroglyphics.  In a letter accompanying the book, Marci recalled that the
+former owner of the book had sent Kircher a portion of the text for possible
+solution.  To that work the owner "devoted unflagging toil...and he
+relinquished hope only with his life.  But his toil was in vain, for such
+Sphinxes as these obey no one but their master, Kircher.  Accept now this
+token, such as it is and long overdue though it may be, of my affection for
+you, and burst through it's bars, if any there be, with your wonted
+success."  Bars there were, but Kircher, who never shrank from bragging of
+what he thought were his successes, did not burst through them, for his
+silence on this point is eloquent.
+
+ --
+
+>From the article found in Physorg:
+
+Currently owned by the Beinecke Rare Book and Manuscript Library of Yale
+University, the manuscript was discovered in the Villa Mondragone near Rome
+in 1912 by antique book dealer Wilfrid Voynich while sifting through a chest
+of books offered for sale by the Society of Jesus. Voynich dedicated the
+remainder of his life to unveiling the mystery of the book's origin and
+deciphering its meanings. He died 18 years later, without having wrestled
+any its secrets from the book.
+
+ --
+
+The book having apparently languished since 1666 in the hands of the Society
+of Jesus, without further challenge.  There being purportedly providence to
+show the presence of the manuscript at the court of Holy Roman Emperor
+Rudolf II.  (The Kahn book).  Marci speculated apparently incorrectly that
+the author was Roger Bacon, although you could ask if the work had been copied.
+
+A commonly held belief of those who have attempted decryption since WWII is
+that it may be an artificial language (Friedman via Tiltman).  There's a
+Scotsman named George Dalgarno (1626-1687) accredited with being the author
+of the first artificial language and contemporary until 1659 of John
+Wilkins, a founder of the Royal Society and author of An Essay towards a
+Real Character and a Philosophical Language.
+
+There is anecdotal evidence of the scribes at the Library of Alexandria
+being able to perform so accurate copies, that they could be substituted for
+the originals being returned to the unwary owners in what ever language.
+Even writing down a cipher or artificial language might be a remarkable feat
+for an original author when you note high quality penmanship exhibited.
+Worthy of the scribes at the Library of Alexandria.  Discounting the
+manuscript being a copy seems premature.
+
+There's nothing in the notes on Chapter 23 that point directly to a source
+for the Marci reference.   The likely source one of the 20th century books
+on the ciphers of Roger Bacon.  You could also speculate after reading the
+chapter that Dr. John Dee may have had the skills to duplicate an earlier work.
+
+Apparently Brigadier Tiltman collaborated with David Kahn on the subject.  T
+http://www.nsa.gov/about/_files/cryptologic_heritage/publications/misc/tiltman.pdf
+
+(Pages 57, 58, brief mention)
+
+There are one or two sites you can download fairly high res images of the
+entire manuscript.
+
+http://voynichcentral.com/gallery/
+
+http://www.voynich.nu/gallery.html
+This one shows there are 10 pages of the document not available see MS
+Folios. David Kahn claims 204 pages, with 28 lost.  Likely a difference in
+counting.
+
+There appears to be nothing new known about it's origin or contents other
+than it not being produced or copied later than 1666.  The Wilkins/Dee
+connection and computer analysis not performed by Friedman in the '60s are
+likely avenues of further investigation.  While Dr. Dee introduced a sign
+language for communicating to the deaf, Wilkins appears to have gone further
+in 'philosophical language'.  The book could have originated shortly before
+1666 and not been copied, should the idea for an artificial language not
+have been plagiarized from Roger Bacon.
+
+Personally I'd hold out for the author being John Ray (1627 to 1705), a
+contributor to Wilkins book, an author on botany, zoology, and natural
+theology and author of Historia Generalis Plantarum - 3 vols 1686, 1688 and
+1704.  The Voynich manuscript perhaps containing earlier record of his
+classification system.  Ray is the first to use the notion of species as a
+term in biology and showed that tree rings record the passage of time.   His
+admission to the Royal Society enabled by John Wilkins in 1667.
+
+Answers require successful cryptanalysis.
+
+
+
+From pgut001 at cs.auckland.ac.nz  Mon Feb 14 00:48:12 2011
+From: pgut001 at cs.auckland.ac.nz (Peter Gutmann)
+Date: Mon, 14 Feb 2011 18:48:12 +1300
+Subject: [cryptography] Radiocarbon dating of the Voynich manuscript
+In-Reply-To: <4D58B8D3.8050007@xtra.co.nz>
+Message-ID: <E1PorIC-00024e-PN@login01.fos.auckland.ac.nz>
+
+"David G. Koontz" <david_koontz at xtra.co.nz> writes:
+
+>Personally I'd hold out for the author being John Ray
+
+I'd hold out for the author being a medieval monk who'd suffered a stroke.
+
+>Answers require successful cryptanalysis.
+
+If it's caused by expressive aphasia or something similar then there's nothing
+to cryptanalyse.
+
+Peter.
+
+
+From david_koontz at xtra.co.nz  Mon Feb 14 05:00:26 2011
+From: david_koontz at xtra.co.nz (David G. Koontz)
+Date: Mon, 14 Feb 2011 23:00:26 +1300
+Subject: [cryptography] Radiocarbon dating of the Voynich manuscript
+In-Reply-To: <E1PorIC-00024e-PN@login01.fos.auckland.ac.nz>
+References: <E1PorIC-00024e-PN@login01.fos.auckland.ac.nz>
+Message-ID: <4D58FD3A.5000606@xtra.co.nz>
+
+On 14/02/11 6:48 PM, Peter Gutmann wrote:
+> "David G. Koontz" <david_koontz at xtra.co.nz> writes:
+> 
+>> Personally I'd hold out for the author being John Ray
+> 
+> I'd hold out for the author being a medieval monk who'd suffered a stroke.
+> 
+>> Answers require successful cryptanalysis.
+> 
+> If it's caused by expressive aphasia or something similar then there's nothing
+> to cryptanalyse.
+> 
+
+
+The penmanship seems  clear for a stroke victim.  I think the same might
+hold true for most wasting diseases.
+
+David Kahn wrote:
+
+Is it, then, just a gigantic hoax, like the Cardiff giant or the Piltdown
+man or the fossils of Professor Beringer?  Nobody involved with it seems to
+think so - and this includes those who have been rebuffed by it.  The work
+is too well organized, too extensive, too homogeneous.  Nothing repeats
+larger than a group of five words, whereas in actual hoaxes, such as the
+fake hieroglyphic papyri sold to tourists in Egypt, much longer phrases are
+repeated.  Moreover, the words in the text recur, but in different
+combinations, just as in ordinary writing.  Even if it were a hoax, there
+seems to be no point to having made it so long.  Most critically, the
+medieval quasi-science that was seeking the philosopher's stone and the
+elixir of life while the manuscript was being written was to credulous to
+entertain the concept of a hoax.
+
+ -
+
+The bit about the language likely letting out someone talking in tongues or
+being syphilitic.  The longer tome more  in keeping with 'A Mid Summer
+Night's Dream'.
+
+The repetition would probably match Friedman's expectations for an
+artificial language.  Now is someone going to doodle on parchment to that
+extent?  Paper would have been cheaper unless parchment were necessary for a
+scam.
+
+The work seems intentional.  Whether or not it has meaning may be a separate
+issue.
+
+
+
+
+
+
+
+From jamesd at echeque.com  Mon Feb 14 22:13:43 2011
+From: jamesd at echeque.com (James A. Donald)
+Date: Tue, 15 Feb 2011 13:13:43 +1000
+Subject: [cryptography] deniable store and forward with integrity protection?
+In-Reply-To: <AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>
+	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>
+Message-ID: <4D59EF67.8010207@echeque.com>
+
+Existing algorithms for off the record messaging between
+entities identified by public keys require an initial round
+trip to set up a shared secret.  Once a shared secret exists,
+obviously routine encryption and MAC authentication will
+create an off the record message - the recipient will know
+that only someone who knows the shared secret could have
+created the message, but cannot prove to someone else which
+of the people holding the shared secret created the message -
+the message is authenticated but deniable, authenticated but
+unsigned.
+
+It is fairly easy to design a protocol that achieves this
+result without a round trip requirement, (authentication
+without round trips or signature), but has such a protocol
+already been published and examined?
+
+The requirement of the protocol if the possessor of the
+secret 'a' corresponding to public key A, sends the message
+to the possessor of the secret key b corresponding to public
+key B, the message can only be decrypted by someone who holds
+one of the two secrets, and only someone who holds one of the
+two secrets could have created the message - but either one
+could have created the message, hence, off the record.
+
+
+From dsilvers at digital-scurf.org  Tue Feb 15 05:05:38 2011
+From: dsilvers at digital-scurf.org (Daniel Silverstone)
+Date: Tue, 15 Feb 2011 10:05:38 +0000
+Subject: [cryptography] deniable store and forward with integrity
+ protection?
+In-Reply-To: <4D59EF67.8010207@echeque.com>
+References: <20110113184025.GB19713@subspacefield.org>
+	<4D33D20E.9040101@iang.org>
+	<20110120022402.GH25528@subspacefield.org>
+	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>
+	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>
+	<4D59EF67.8010207@echeque.com>
+Message-ID: <20110215100538.GB4759@digital-scurf.org>
+
+On Tue, Feb 15, 2011 at 01:13:43PM +1000, James A. Donald wrote:
+> It is fairly easy to design a protocol that achieves this
+> result without a round trip requirement, (authentication
+> without round trips or signature), but has such a protocol
+> already been published and examined?
+
+The closest I can think of is The Wrestlers Protocol[1] but I don't think it
+fits all your requirements.
+
+Perhaps it's a place to start?
+
+D.
+
+1. http://www.iacr.org/cryptodb/data/paper.php?pubkey=21877
+
+-- 
+Daniel Silverstone                         http://www.digital-scurf.org/
+PGP mail accepted and encouraged.            Key Id: 3CCE BABE 206C 3B69
+
+
+From jamesd at echeque.com  Tue Feb 15 16:03:58 2011
+From: jamesd at echeque.com (James A. Donald)
+Date: Wed, 16 Feb 2011 07:03:58 +1000
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <20110215100538.GB4759@digital-scurf.org>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>	<4D59EF67.8010207@echeque.com>
+	<20110215100538.GB4759@digital-scurf.org>
+Message-ID: <4D5AEA3E.4090406@echeque.com>
+
+On 2011-02-15 8:05 PM, Daniel Silverstone wrote:
+> On Tue, Feb 15, 2011 at 01:13:43PM +1000, James A. Donald wrote:
+>> It is fairly easy to design a protocol that achieves this
+>> result without a round trip requirement, (authentication
+>> without round trips or signature), but has such a protocol
+>> already been published and examined?
+>
+> The closest I can think of is The Wrestlers Protocol[1] but I don't think it
+> fits all your requirements.
+
+The wrestlers protocol is two round trips, or one and a half round trips 
+followed by a final trip for the message, for a total of two round 
+trips. I am pretty sure I it can be done in half a round trip using 
+pairing based cryptography, that is to say, a bilinear map, but do not 
+recall seeing that procedure studied in the literature, nor a proof of 
+security claimed for it, even though it seems to me the simplest and 
+most obvious application of pairing based cryptography.
+
+Indeed, one of the big benefits of pairing based crypography is a 
+reduction in round trips
+
+Ann and Bob have well known public keys, and are identified by those 
+keys, but do not yet have any shared secret.  If they have a shared 
+secret, then standard symmetric cryptography gives them authenticated, 
+encrypted, but deniable messages.  Trouble is, however, that 
+establishing the shared secret from public keys is not necessarily 
+deniable (which problem the Wrestler's protocol addresses.
+
+And if we do not care about contact deniability, and we probably don't, 
+since likely adversaries to whom the recipient might rat us out probably 
+have message tracing, we do care about round trips.
+
+We would like to send an authenticated encrypted message without a round 
+trip to establish a shared secret from shared keys.
+
+Ann constructs a message which must contain a large random value that 
+cannot be guessed by adversaries, or else it will be possible for an 
+adversary to verify guesses of what her message is. She constructs a 
+hash of this message, her public key, and Bob's public key.
+
+She constructs from this hash an elliptic point Q, by treating part of 
+the hash as a compressed point.
+
+Ann has secret key a, public key aG, Bob has secret key b, Public key bG
+
+Ann calculates the pairing e(aQ,bG), which will be the shared secret.
+
+She encrypts her message using this shared secret.  She then sends Bob 
+the encrypted message, the ellliptic point Q, her public key or 
+something that identifies her public key, and Bob's public key, or 
+something that identifies his public key.
+
+Bob then calculates the pairing e(aG,bQ), uses it as shared secret to 
+decrypt the message.  He then calculates the hash, and verifies that the 
+hash does in fact yield Q, which shows that the message did indeed come 
+from Ann.
+
+The message he received from Ann must contain what is now a strong 
+shared secret, which can be used for subsequent messages.
+
+
+From david-sarah at jacaranda.org  Tue Feb 15 19:04:34 2011
+From: david-sarah at jacaranda.org (David-Sarah Hopwood)
+Date: Wed, 16 Feb 2011 00:04:34 +0000
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <4D59EF67.8010207@echeque.com>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>
+	<4D59EF67.8010207@echeque.com>
+Message-ID: <4D5B1492.503@jacaranda.org>
+
+On 2011-02-15 03:13, James A. Donald wrote:
+> Existing algorithms for off the record messaging between
+> entities identified by public keys require an initial round
+> trip to set up a shared secret.  Once a shared secret exists,
+> obviously routine encryption and MAC authentication will
+> create an off the record message - the recipient will know
+> that only someone who knows the shared secret could have
+> created the message, but cannot prove to someone else which
+> of the people holding the shared secret created the message -
+> the message is authenticated but deniable, authenticated but
+> unsigned.
+> 
+> It is fairly easy to design a protocol that achieves this
+> result without a round trip requirement, (authentication
+> without round trips or signature), but has such a protocol
+> already been published and examined?
+
+Note that a disadvantage of such protocols relative to
+multi-round ones is that, as far as I know, they cannot
+achieve forward secrecy.
+
+> The requirement of the protocol if the possessor of the
+> secret 'a' corresponding to public key A, sends the message
+> to the possessor of the secret key b corresponding to public
+> key B, the message can only be decrypted by someone who holds
+> one of the two secrets, and only someone who holds one of the
+> two secrets could have created the message - but either one
+> could have created the message, hence, off the record.
+
+This kind of protocol is called a "public key authenticator".
+For this purpose Dan Bernstein suggests using static
+Diffie-Hellman to agree a key for a symmetric authenticated-
+encryption scheme. For example the 'crypto_box' scheme in his
+NaCl library uses static Diffie-Hellman in an elliptic-curve
+group: <http://nacl.cace-project.eu/box.html>
+I don't know whether it has had any published analysis.
+
+Here's another way to achieve this generically using any
+signature and (IND-CCA2-secure) public key encryption schemes:
+
+  Generate a key for a symmetric authenticated-encryption scheme
+  (such as encrypt-then-MAC). Encrypt this key to the recipient's
+  public encryption key. Sign the result and an identifier for the
+  recipient with the sender's private signing key.
+
+Even though a signature is used to authenticate the symmetric
+authenticated-encryption key, the protocol has the "off-the-record"
+property, because the recipient knows the symmetric key and
+therefore could claim any message to have been authenticated by
+that key.
+
+Note that this protocol must use encrypt-then-sign in that order.
+If it were sign-then-encrypt, the recipient could strip off the
+encryption and reuse a signature to forge a message appearing to
+be from the original sender. With encrypt-then-sign, this attack
+does not work: because the encryption scheme is IND-CCA2-secure,
+the message will only be accepted by someone who can decrypt it
+using the correct private decryption key (subject to the caveat
+below).
+
+
+Most such schemes, including crypto_box and the generic scheme
+above, have a potential vulnerability that needs to be prevented
+at a higher protocol level. Suppose that an attacker, Carol,
+claims her public key to be the same as that of another user Bob
+(depending on the protocol, it may be possible to modify this
+attack to work with a key that is different but related to Bob's
+key). Now Alice sends Carol a message, which Carol relays to Bob.
+Carol cannot change the message since she does not know the
+symmetric key, but Bob will believe that Alice intended to send
+him that message, when actually Alice intended to send it only
+to Carol.
+
+This attack can be countered by including an identifier for
+the *intended* recipient in the message. This should be checked
+automatically by the recipient's software, and the message not
+presented as genuine unless it matches the recipient's expected
+ID.
+
+Alternatively, each party that claims a public key can be
+required to prove knowledge of the corresponding private key.
+(Most multi-round protocols essentially do that in a key
+confirmation step.)
+
+-- 
+David-Sarah Hopwood  ?  http://davidsarah.livejournal.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 292 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110216/8a09bd43/attachment.asc>
+
+From noloader at gmail.com  Tue Feb 15 21:28:32 2011
+From: noloader at gmail.com (Jeffrey Walton)
+Date: Tue, 15 Feb 2011 21:28:32 -0500
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <4D5AEA3E.4090406@echeque.com>
+References: <20110113184025.GB19713@subspacefield.org>
+	<4D33D20E.9040101@iang.org>
+	<20110120022402.GH25528@subspacefield.org>
+	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>
+	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>
+	<4D59EF67.8010207@echeque.com>
+	<20110215100538.GB4759@digital-scurf.org>
+	<4D5AEA3E.4090406@echeque.com>
+Message-ID: <AANLkTimVqEa-xiya7F4bCD+3C8HWYuXY0soEtgCT6LeO@mail.gmail.com>
+
+Hi James,
+
+Off topic:
+
+> I am pretty sure I it can be done in half a round trip using pairing
+> based cryptography, that is to say, a bilinear map,
+Are you aware of any C++ implementations of PBC? I have a need, but
+have only found Ben Lynn's stuff over at Standford. Last time I looked
+at it, I felt it best to pass on the implementation.
+
+Jeff
+
+On Tue, Feb 15, 2011 at 4:03 PM, James A. Donald <jamesd at echeque.com> wrote:
+> On 2011-02-15 8:05 PM, Daniel Silverstone wrote:
+>>
+>> On Tue, Feb 15, 2011 at 01:13:43PM +1000, James A. Donald wrote:
+>>>
+>>> It is fairly easy to design a protocol that achieves this
+>>> result without a round trip requirement, (authentication
+>>> without round trips or signature), but has such a protocol
+>>> already been published and examined?
+>>
+>> The closest I can think of is The Wrestlers Protocol[1] but I don't think
+>> it
+>> fits all your requirements.
+>
+> The wrestlers protocol is two round trips, or one and a half round trips
+> followed by a final trip for the message, for a total of two round trips. I
+> am pretty sure I it can be done in half a round trip using pairing based
+> cryptography, that is to say, a bilinear map, but do not recall seeing that
+> procedure studied in the literature, nor a proof of security claimed for it,
+> even though it seems to me the simplest and most obvious application of
+> pairing based cryptography.
+>
+> Indeed, one of the big benefits of pairing based crypography is a reduction
+> in round trips
+>
+> Ann and Bob have well known public keys, and are identified by those keys,
+> but do not yet have any shared secret. ?If they have a shared secret, then
+> standard symmetric cryptography gives them authenticated, encrypted, but
+> deniable messages. ?Trouble is, however, that establishing the shared secret
+> from public keys is not necessarily deniable (which problem the Wrestler's
+> protocol addresses.
+>
+> And if we do not care about contact deniability, and we probably don't,
+> since likely adversaries to whom the recipient might rat us out probably
+> have message tracing, we do care about round trips.
+>
+> We would like to send an authenticated encrypted message without a round
+> trip to establish a shared secret from shared keys.
+>
+> Ann constructs a message which must contain a large random value that cannot
+> be guessed by adversaries, or else it will be possible for an adversary to
+> verify guesses of what her message is. She constructs a hash of this
+> message, her public key, and Bob's public key.
+>
+> She constructs from this hash an elliptic point Q, by treating part of the
+> hash as a compressed point.
+>
+> Ann has secret key a, public key aG, Bob has secret key b, Public key bG
+>
+> Ann calculates the pairing e(aQ,bG), which will be the shared secret.
+>
+> She encrypts her message using this shared secret. ?She then sends Bob the
+> encrypted message, the ellliptic point Q, her public key or something that
+> identifies her public key, and Bob's public key, or something that
+> identifies his public key.
+>
+> Bob then calculates the pairing e(aG,bQ), uses it as shared secret to
+> decrypt the message. ?He then calculates the hash, and verifies that the
+> hash does in fact yield Q, which shows that the message did indeed come from
+> Ann.
+>
+> The message he received from Ann must contain what is now a strong shared
+> secret, which can be used for subsequent messages.
+>
+
+
+From jamesd at echeque.com  Tue Feb 15 22:28:12 2011
+From: jamesd at echeque.com (James A. Donald)
+Date: Wed, 16 Feb 2011 13:28:12 +1000
+Subject: [cryptography] deniable store and forward with
+	integrity	protection?
+In-Reply-To: <4D5B1492.503@jacaranda.org>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>	<4D59EF67.8010207@echeque.com>
+	<4D5B1492.503@jacaranda.org>
+Message-ID: <4D5B444C.4000404@echeque.com>
+
+On 2011-02-16 10:04 AM, David-Sarah Hopwood wrote:
+ > Note that a disadvantage of such protocols relative to
+ > multi-round ones is that, as far as I know, they cannot
+ > achieve forward secrecy.
+
+In that if either party to the protocol described loses
+control of his secret key, all messages can be retroactively
+decrypted.
+
+I was unaware that any half round protocols had been
+described, though you proceed to describe one blow.
+
+ > This kind of protocol is called a "public key
+ > authenticator". For this purpose Dan Bernstein suggests
+ > using static Diffie-Hellman to agree a key for a symmetric
+ > authenticated- encryption scheme. For example the
+ > 'crypto_box' scheme in his NaCl library uses static
+ > Diffie-Hellman in an elliptic-curve
+ > group:<http://nacl.cace-project.eu/box.html> I don't know
+ > whether it has had any published analysis.
+ >
+ > Here's another way to achieve this generically using any
+ > signature and (IND-CCA2-secure) public key encryption
+ > schemes:
+ >
+ >    Generate a key for a symmetric authenticated-encryption
+ >    scheme (such as encrypt-then-MAC). Encrypt this key to
+ >    the recipient's public encryption key. Sign the result
+ >    and an identifier for the recipient with the sender's
+ >    private signing key.
+
+This accomplishes the same result (no round trips) with the
+minor disadvantage that one cannot deny sending *a* message
+(which is a very minor disadvantage since traffic is
+generally traceable), and the considerable advantage that it
+uses only long established cryptographic primitives.
+
+ > Note that this protocol must use encrypt-then-sign in that
+ > order. If it were sign-then-encrypt, the recipient could
+ > strip off the encryption and reuse a signature to forge a
+ > message appearing to be from the original sender. With
+ > encrypt-then-sign, this attack does not work: because the
+ > encryption scheme is IND-CCA2-secure, the message will only
+ > be accepted by someone who can decrypt it using the correct
+ > private decryption key (subject to the caveat below).
+ >
+ > Most such schemes, including crypto_box and the generic
+ > scheme above, have a potential vulnerability that needs to
+ > be prevented at a higher protocol level. Suppose that an
+ > attacker, Carol, claims her public key to be the same as
+ > that of another user Bob (depending on the protocol, it may
+ > be possible to modify this attack to work with a key that
+ > is different but related to Bob's key). Now Alice sends
+ > Carol a message, which Carol relays to Bob. Carol cannot
+ > change the message since she does not know the symmetric
+ > key, but Bob will believe that Alice intended to send him
+ > that message, when actually Alice intended to send it only
+ > to Carol.
+ >
+ > This attack can be countered by including an identifier for
+ > the *intended* recipient in the message. This should be
+ > checked automatically by the recipient's software, and the
+ > message not presented as genuine unless it matches the
+ > recipient's expected ID.
+ >
+ > Alternatively, each party that claims a public key can be
+ > required to prove knowledge of the corresponding private
+ > key. (Most multi-round protocols essentially do that in a
+ > key confirmation step.)
+
+It would seem that forward secrecy inherently requires at
+least one and a half round trips, since the recipient of the
+message has to have a transient secret.
+
+This problem can be somewhat mitigated by caching shared
+secrets for a moderate period.
+
+
+From jamesd at echeque.com  Tue Feb 15 22:31:27 2011
+From: jamesd at echeque.com (James A. Donald)
+Date: Wed, 16 Feb 2011 13:31:27 +1000
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <AANLkTimVqEa-xiya7F4bCD+3C8HWYuXY0soEtgCT6LeO@mail.gmail.com>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>	<4D59EF67.8010207@echeque.com>	<20110215100538.GB4759@digital-scurf.org>	<4D5AEA3E.4090406@echeque.com>
+	<AANLkTimVqEa-xiya7F4bCD+3C8HWYuXY0soEtgCT6LeO@mail.gmail.com>
+Message-ID: <4D5B450F.7080701@echeque.com>
+
+On 2011-02-16 12:28 PM, Jeffrey Walton wrote:
+> Hi James,
+>
+> Off topic:
+>
+>> I am pretty sure I it can be done in half a round trip using pairing
+>> based cryptography, that is to say, a bilinear map,
+> Are you aware of any C++ implementations of PBC? I have a need, but
+> have only found Ben Lynn's stuff over at Standford. Last time I looked
+> at it, I felt it best to pass on the implementation.
+
+All I know is the PBC stuff.  What do you think is wrong with it, other 
+than that it assumes it is running on a completely secure machine, which 
+is hard to avoid?
+
+I have not gotten sufficiently deeply into it, nor am I sufficiently 
+good at cryptography, to criticize it.
+
+
+From adam at cypherspace.org  Tue Feb 15 22:49:38 2011
+From: adam at cypherspace.org (Adam Back)
+Date: Wed, 16 Feb 2011 04:49:38 +0100
+Subject: [cryptography] deniable store and forward with integrity
+ protection?
+In-Reply-To: <4D5AEA3E.4090406@echeque.com>
+References: <20110113184025.GB19713@subspacefield.org>
+	<4D33D20E.9040101@iang.org>
+	<20110120022402.GH25528@subspacefield.org>
+	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>
+	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>
+	<4D59EF67.8010207@echeque.com>
+	<20110215100538.GB4759@digital-scurf.org>
+	<4D5AEA3E.4090406@echeque.com>
+Message-ID: <20110216034938.GA4217@netbook.cypherspace.org>
+
+Ian Brown and I proposed a simpler, non-interactive, approach for use in
+openPGP we called "non-transferable signatures"
+
+	http://www.cs.ucl.ac.uk/staff/i.brown/nts.htm
+
+The basic idea is you use an integrity protected (non-malleable) symmetric
+encryption option in PGP, and then change the signature packet to be a
+public key signature of the hash of the symmetric key and the recipients
+public key.
+
+	RSA_Enc( B_pub, sk ) +
+	RSA_Sig( A_pri, H( sk, B_pub ) ) +
+	c = Sym_Enc( sk, M ) +
+	Mac( sk, c )
+
+it proves A sent B a message, but only proves the content of the message to
+B, if B attempts to transfer the signature to C, C cant distinguish whether
+B forged the message vs A signed the message.
+
+Adam
+
+On Wed, Feb 16, 2011 at 07:03:58AM +1000, James A. Donald wrote:
+>On 2011-02-15 8:05 PM, Daniel Silverstone wrote:
+>>On Tue, Feb 15, 2011 at 01:13:43PM +1000, James A. Donald wrote:
+>>>It is fairly easy to design a protocol that achieves this
+>>>result without a round trip requirement, (authentication
+>>>without round trips or signature), but has such a protocol
+>>>already been published and examined?
+>>
+>>The closest I can think of is The Wrestlers Protocol[1] but I don't think it
+>>fits all your requirements.
+>
+>The wrestlers protocol is two round trips, or one and a half round 
+>trips followed by a final trip for the message, for a total of two 
+>round trips. I am pretty sure I it can be done in half a round trip 
+>using pairing based cryptography, that is to say, a bilinear map, but 
+>do not recall seeing that procedure studied in the literature, nor a 
+>proof of security claimed for it, even though it seems to me the 
+>simplest and most obvious application of pairing based cryptography.
+>
+>Indeed, one of the big benefits of pairing based crypography is a 
+>reduction in round trips
+>
+>Ann and Bob have well known public keys, and are identified by those 
+>keys, but do not yet have any shared secret.  If they have a shared 
+>secret, then standard symmetric cryptography gives them 
+>authenticated, encrypted, but deniable messages.  Trouble is, 
+>however, that establishing the shared secret from public keys is not 
+>necessarily deniable (which problem the Wrestler's protocol 
+>addresses.
+>
+>And if we do not care about contact deniability, and we probably 
+>don't, since likely adversaries to whom the recipient might rat us 
+>out probably have message tracing, we do care about round trips.
+>
+>We would like to send an authenticated encrypted message without a 
+>round trip to establish a shared secret from shared keys.
+>
+>Ann constructs a message which must contain a large random value that 
+>cannot be guessed by adversaries, or else it will be possible for an 
+>adversary to verify guesses of what her message is. She constructs a 
+>hash of this message, her public key, and Bob's public key.
+>
+>She constructs from this hash an elliptic point Q, by treating part 
+>of the hash as a compressed point.
+>
+>Ann has secret key a, public key aG, Bob has secret key b, Public key bG
+>
+>Ann calculates the pairing e(aQ,bG), which will be the shared secret.
+>
+>She encrypts her message using this shared secret.  She then sends 
+>Bob the encrypted message, the ellliptic point Q, her public key or 
+>something that identifies her public key, and Bob's public key, or 
+>something that identifies his public key.
+>
+>Bob then calculates the pairing e(aG,bQ), uses it as shared secret to 
+>decrypt the message.  He then calculates the hash, and verifies that 
+>the hash does in fact yield Q, which shows that the message did 
+>indeed come from Ann.
+>
+>The message he received from Ann must contain what is now a strong 
+>shared secret, which can be used for subsequent messages.
+>_______________________________________________
+>cryptography mailing list
+>cryptography at randombit.net
+>http://lists.randombit.net/mailman/listinfo/cryptography
+
+
+From david-sarah at jacaranda.org  Tue Feb 15 23:35:52 2011
+From: david-sarah at jacaranda.org (David-Sarah Hopwood)
+Date: Wed, 16 Feb 2011 04:35:52 +0000
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <20110216034938.GA4217@netbook.cypherspace.org>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>	<4D59EF67.8010207@echeque.com>	<20110215100538.GB4759@digital-scurf.org>	<4D5AEA3E.4090406@echeque.com>
+	<20110216034938.GA4217@netbook.cypherspace.org>
+Message-ID: <4D5B5428.8030801@jacaranda.org>
+
+On 2011-02-16 03:49, Adam Back wrote:
+> Ian Brown and I proposed a simpler, non-interactive, approach for use in
+> openPGP we called "non-transferable signatures"
+> 
+>     http://www.cs.ucl.ac.uk/staff/i.brown/nts.htm
+> 
+> The basic idea is you use an integrity protected (non-malleable) symmetric
+> encryption option in PGP, and then change the signature packet to be a
+> public key signature of the hash of the symmetric key and the recipients
+> public key.
+> 
+>     RSA_Enc( B_pub, sk ) +
+>     RSA_Sig( A_pri, H( sk, B_pub ) ) +
+>     c = Sym_Enc( sk, M ) +
+>     Mac( sk, c )
+> 
+> it proves A sent B a message, but only proves the content of the message to
+> B, if B attempts to transfer the signature to C, C cant distinguish whether
+> B forged the message vs A signed the message.
+
+This protocol and the one I gave in my earlier reply on this thread are
+similar, but this one uses Encrypt-and-Sign rather than Encrypt-then-Sign.
+It relies on the fact that B_pub is included in H( sk, B_pub ) to prevent
+the forgery attacks I pointed out there.
+
+-- 
+David-Sarah Hopwood  ?  http://davidsarah.livejournal.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 292 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110216/84be1aa1/attachment.asc>
+
+From david-sarah at jacaranda.org  Tue Feb 15 23:51:47 2011
+From: david-sarah at jacaranda.org (David-Sarah Hopwood)
+Date: Wed, 16 Feb 2011 04:51:47 +0000
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <4D5B444C.4000404@echeque.com>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>	<4D59EF67.8010207@echeque.com>	<4D5B1492.503@jacaranda.org>
+	<4D5B444C.4000404@echeque.com>
+Message-ID: <4D5B57E3.1090404@jacaranda.org>
+
+On 2011-02-16 03:28, James A. Donald wrote:
+> On 2011-02-16 10:04 AM, David-Sarah Hopwood wrote:
+>> Note that a disadvantage of such protocols relative to
+>> multi-round ones is that, as far as I know, they cannot
+>> achieve forward secrecy.
+> 
+> In that if either party to the protocol described loses
+> control of his secret key, all messages can be retroactively
+> decrypted.
+
+That's correct for static Diffie-Hellman. For the Encrypt-then-Sign
+protocol I gave, messages can be retroactively decrypted
+if-and-only-if the recipient's decryption key is compromised.
+For a given message, the sender's decryption key is not used
+(and compromise of its signing key does not allow decrypting
+past messages).
+
+> I was unaware that any half round protocols had been
+> described, though you proceed to describe one blow.
+
+Ian Brown and Adam Back's suggestion is another, which appears
+equally secure. It also has the property that messages can be
+retroactively decrypted if-and-only-if the recipient's decryption
+key is compromised.
+
+> It would seem that forward secrecy inherently requires at
+> least one and a half round trips, since the recipient of the
+> message has to have a transient secret.
+
+If the sender of the message is the protocol initiator, yes.
+
+If the receiver is the protocol initiator (which is unusual,
+but possible if the receiver is polling for messages), then
+I think it only requires one round-trip.
+
+> This problem can be somewhat mitigated by caching shared
+> secrets for a moderate period.
+
+Yes.
+
+-- 
+David-Sarah Hopwood  ?  http://davidsarah.livejournal.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 292 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110216/7d694f38/attachment.asc>
+
+From thierry.moreau at connotech.com  Wed Feb 16 09:01:57 2011
+From: thierry.moreau at connotech.com (Thierry Moreau)
+Date: Wed, 16 Feb 2011 09:01:57 -0500
+Subject: [cryptography] deniable store and forward with integrity
+	protection?
+In-Reply-To: <20110216034938.GA4217@netbook.cypherspace.org>
+References: <20110113184025.GB19713@subspacefield.org>	<4D33D20E.9040101@iang.org>	<20110120022402.GH25528@subspacefield.org>	<AANLkTinXconhqKzZ0uNsMh5KTV=Oxwnq-spz=4PZFGDV@mail.gmail.com>	<AANLkTi=VuoOBhoCsa8H-U0k4fS4=SXOfXe+H5AgMV-AX@mail.gmail.com>	<4D59EF67.8010207@echeque.com>	<20110215100538.GB4759@digital-scurf.org>	<4D5AEA3E.4090406@echeque.com>
+	<20110216034938.GA4217@netbook.cypherspace.org>
+Message-ID: <4D5BD8D5.5070802@connotech.com>
+
+Adam Back wrote:
+> Ian Brown and I proposed a simpler, non-interactive, approach for use in
+> openPGP we called "non-transferable signatures"
+> 
+>     http://www.cs.ucl.ac.uk/staff/i.brown/nts.htm
+> 
+> The basic idea is you use an integrity protected (non-malleable) symmetric
+> encryption option in PGP, and then change the signature packet to be a
+> public key signature of the hash of the symmetric key and the recipients
+> public key.
+> 
+>     RSA_Enc( B_pub, sk ) +
+>     RSA_Sig( A_pri, H( sk, B_pub ) ) +
+>     c = Sym_Enc( sk, M ) +
+>     Mac( sk, c )
+> 
+> it proves A sent B a message, but only proves the content of the message to
+> B, if B attempts to transfer the signature to C, C cant distinguish whether
+> B forged the message vs A signed the message.
+> 
+> Adam
+
+What about
+      c'=RSA_Enc( B_pub, sk ) +
+      RSA_Sig( A_pri, H( sk, c' ) ) +
+
+This achieves at least the same security level. It *might* achieve more.
+
+Also, H( sk, B_Pub ) must have context data (time window, reference to 
+transport mechanism, ...) so that replay attacks are detected.
+
+Finally, you may have an optional proof of freshness (to the benefit of 
+B) with a preliminary step:
+
+      A gets sk' from B, else uses sk'=0
+
+      c'=RSA_Enc( B_Pub, sk" ) +
+      RSA_Sig( A_pri, sk' || H( sk", sk', c' ) ) +
+      sk=H(sk",sk')
+
+B maintains a database of outstanding values for sk' if it wishes to 
+validate the freshness.
+
+Regards,
+
+
+-- 
+- Thierry Moreau
+
+CONNOTECH Experts-conseils inc.
+9130 Place de Montgolfier
+Montreal, QC, Canada H2M 2A1
+
+Tel. +1-514-385-5691
+
+
+From paul at ciphergoth.org  Thu Feb 17 07:08:16 2011
+From: paul at ciphergoth.org (Paul Crowley)
+Date: Thu, 17 Feb 2011 12:08:16 +0000
+Subject: [cryptography] Error in PKCS #1 v2.1?
+Message-ID: <4D5D0FB0.4090109@ciphergoth.org>
+
+http://www.rsa.com/rsalabs/node.asp?id=2125
+
+Page 27 of PKCS #1 v2.1 states (step 1):
+
+"EMSA-PSS encoding: Apply the EMSA-PSS encoding operation (Section 
+9.1.1) to the message M to produce an encoded message EM of length 
+ceil((modBits ? 1)/8) octets such that the bit length of the integer 
+OS2IP (EM) (see Section 4.2) is at most modBits ? 1, where modBits is 
+the length in bits of the RSA modulus n"
+
+Surely where it says ceil((modBits ? 1)/8) it has to mean floor((modBits 
+? 1)/8)?  For a simple example, suppose the modulus were 10 bits.  Then 
+ceil((modBits ? 1)/8) = 2, so EM will be two bytes long, too long for a 
+10 bit modulus.  If the floor function is used, then EM will always be 
+exactly the maximum length in bytes that a modulus of length modBits can 
+be guaranteed to handle properly.
+
+The same problem I think applies to the references to the ceiling 
+function on pages 35 and 36. Note that where I write "ceil", the 
+standard uses the usual notation for this, as defined on page 5. I can't 
+find this in the errata or by searching - is this a real error, or am I 
+misreading the standard?
+
+Thanks!
+-- 
+   __
+\/ o\ Paul Crowley, paul at ciphergoth.org
+/\__/ http://www.ciphergoth.org/
+
+
+
+From alserkli at inbox.ru  Thu Feb 17 09:20:06 2011
+From: alserkli at inbox.ru (Alexander Klimov)
+Date: Thu, 17 Feb 2011 16:20:06 +0200
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D0FB0.4090109@ciphergoth.org>
+References: <4D5D0FB0.4090109@ciphergoth.org>
+Message-ID: <TheMailAgent.37c4f261b5b814@1fe27ea633c7278c5d0ac>
+
+On Thu, 17 Feb 2011, Paul Crowley wrote:
+> Surely where it says ceil((modBits ? 1)/8) it has to mean
+> floor((modBits ? 1)/8)?  For a simple example, suppose the modulus
+> were 10 bits.  Then ceil((modBits ? 1)/8) = 2, so EM will be two
+> bytes long, too long for a 10 bit modulus.  If the floor function is
+> used, then EM will always be exactly the maximum length in bytes
+> that a modulus of length modBits can be guaranteed to handle
+> properly.
+
+I guess the standard is correct: consider that
+
+ EMSA-PSS-ENCODE (M, emBits)
+
+outputs EM consisting of ceil(emBits/8) octets or gives an error and
+similarly
+
+ RSASP1 (K, m)
+
+outputs (integer) signature or gives "message representative out of
+range". So, if
+
+ RSASSA-PSS-SIGN (K, M)
+
+gets M which is too large, then one of the above operations will
+detect the problem.
+
+-- 
+Regards,
+ASK
+
+
+From paul at ciphergoth.org  Thu Feb 17 09:26:35 2011
+From: paul at ciphergoth.org (Paul Crowley)
+Date: Thu, 17 Feb 2011 14:26:35 +0000
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <TheMailAgent.37c4f261b5b814@1fe27ea633c7278c5d0ac>
+References: <4D5D0FB0.4090109@ciphergoth.org>
+	<TheMailAgent.37c4f261b5b814@1fe27ea633c7278c5d0ac>
+Message-ID: <4D5D301B.8070906@ciphergoth.org>
+
+On 17/02/11 14:20, Alexander Klimov wrote:
+> So, if
+>
+>   RSASSA-PSS-SIGN (K, M)
+>
+> gets M which is too large, then one of the above operations will
+> detect the problem.
+
+The size of M doesn't enter into it; if M is small enough that the hash 
+function can handle it, its size doesn't change the size of anything 
+else used to generate or verify the signature.  It's the size of the 
+intermediate quantity EM I'm looking at here; it seems clear to me that 
+it has to be small enough to guarantee that OS2IP (EM) < n, or RSASP1 
+will return "message representative out of range", which shouldn't 
+happen in normal circumstances.
+
+-- 
+   __
+\/ o\ Paul Crowley, paul at ciphergoth.org
+/\__/ http://www.ciphergoth.org/
+
+
+From lloyd at randombit.net  Thu Feb 17 10:33:00 2011
+From: lloyd at randombit.net (Jack Lloyd)
+Date: Thu, 17 Feb 2011 10:33:00 -0500
+Subject: [cryptography] NIST's SHA-3 finalist report published
+Message-ID: <20110217153300.GT12218@randombit.net>
+
+
+NIST's report explaining the reasoning behind the choice of the 5
+finalists in the SHA-3 competition has been released. No big
+surprises.
+
+http://csrc.nist.gov/groups/ST/hash/sha-3/Round2/documents/Round2_Report_NISTIR_7764.pdf
+
+
+From muir.james.a at gmail.com  Thu Feb 17 11:17:28 2011
+From: muir.james.a at gmail.com (James Muir)
+Date: Thu, 17 Feb 2011 11:17:28 -0500
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D0FB0.4090109@ciphergoth.org>
+References: <4D5D0FB0.4090109@ciphergoth.org>
+Message-ID: <4D5D4A18.3050901@gmail.com>
+
+On 11-02-17 07:08 AM, Paul Crowley wrote:
+> http://www.rsa.com/rsalabs/node.asp?id=2125
+> 
+> Page 27 of PKCS #1 v2.1 states (step 1):
+> 
+> "EMSA-PSS encoding: Apply the EMSA-PSS encoding operation (Section
+> 9.1.1) to the message M to produce an encoded message EM of length
+> ceil((modBits ? 1)/8) octets such that the bit length of the integer
+> OS2IP (EM) (see Section 4.2) is at most modBits ? 1, where modBits is
+> the length in bits of the RSA modulus n"
+> 
+> Surely where it says ceil((modBits ? 1)/8) it has to mean floor((modBits
+> ? 1)/8)?  For a simple example, suppose the modulus were 10 bits.  Then
+> ceil((modBits ? 1)/8) = 2, so EM will be two bytes long, too long for a
+> 10 bit modulus.  If the floor function is used, then EM will always be
+> exactly the maximum length in bytes that a modulus of length modBits can
+> be guaranteed to handle properly.
+> 
+> The same problem I think applies to the references to the ceiling
+> function on pages 35 and 36. Note that where I write "ceil", the
+> standard uses the usual notation for this, as defined on page 5. I can't
+> find this in the errata or by searching - is this a real error, or am I
+> misreading the standard?
+
+I think the standard is correct (i.e. it is ceiling rather than floor).
+ Remember that the numbers involved in the RSA computation are all
+encoded as strings of octets.
+
+In your example, a 10-bit modulus would be represented using
+ceiling(10/8) = 2 octets.  And EM is represented using ceiling((10-1)/2)
+= 2 octets.
+
+-James
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110217/4ef6bc6f/attachment.asc>
+
+From muir.james.a at gmail.com  Thu Feb 17 11:19:27 2011
+From: muir.james.a at gmail.com (James Muir)
+Date: Thu, 17 Feb 2011 11:19:27 -0500
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D4A18.3050901@gmail.com>
+References: <4D5D0FB0.4090109@ciphergoth.org> <4D5D4A18.3050901@gmail.com>
+Message-ID: <4D5D4A8F.4040205@gmail.com>
+
+On 11-02-17 11:17 AM, James Muir wrote:
+> On 11-02-17 07:08 AM, Paul Crowley wrote:
+>> http://www.rsa.com/rsalabs/node.asp?id=2125
+>>
+>> Page 27 of PKCS #1 v2.1 states (step 1):
+>>
+>> "EMSA-PSS encoding: Apply the EMSA-PSS encoding operation (Section
+>> 9.1.1) to the message M to produce an encoded message EM of length
+>> ceil((modBits ? 1)/8) octets such that the bit length of the integer
+>> OS2IP (EM) (see Section 4.2) is at most modBits ? 1, where modBits is
+>> the length in bits of the RSA modulus n"
+>>
+>> Surely where it says ceil((modBits ? 1)/8) it has to mean floor((modBits
+>> ? 1)/8)?  For a simple example, suppose the modulus were 10 bits.  Then
+>> ceil((modBits ? 1)/8) = 2, so EM will be two bytes long, too long for a
+>> 10 bit modulus.  If the floor function is used, then EM will always be
+>> exactly the maximum length in bytes that a modulus of length modBits can
+>> be guaranteed to handle properly.
+>>
+>> The same problem I think applies to the references to the ceiling
+>> function on pages 35 and 36. Note that where I write "ceil", the
+>> standard uses the usual notation for this, as defined on page 5. I can't
+>> find this in the errata or by searching - is this a real error, or am I
+>> misreading the standard?
+> 
+> I think the standard is correct (i.e. it is ceiling rather than floor).
+>  Remember that the numbers involved in the RSA computation are all
+> encoded as strings of octets.
+> 
+> In your example, a 10-bit modulus would be represented using
+> ceiling(10/8) = 2 octets.  And EM is represented using ceiling((10-1)/2)
+> = 2 octets.
+
+sorry.  typo in last sentence:  "ceiling((10-1)/8) = 2 octets".
+
+-James
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110217/ed77893c/attachment.asc>
+
+From david-sarah at jacaranda.org  Thu Feb 17 15:17:30 2011
+From: david-sarah at jacaranda.org (David-Sarah Hopwood)
+Date: Thu, 17 Feb 2011 20:17:30 +0000
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D0FB0.4090109@ciphergoth.org>
+References: <4D5D0FB0.4090109@ciphergoth.org>
+Message-ID: <4D5D825A.7080205@jacaranda.org>
+
+On 2011-02-17 12:08, Paul Crowley wrote:
+> http://www.rsa.com/rsalabs/node.asp?id=2125
+> 
+> Page 27 of PKCS #1 v2.1 states (step 1):
+> 
+> "EMSA-PSS encoding: Apply the EMSA-PSS encoding operation (Section 9.1.1) to
+> the message M to produce an encoded message EM of length ceil((modBits ? 1)/8)
+> octets such that the bit length of the integer OS2IP (EM) (see Section 4.2) is
+> at most modBits ? 1, where modBits is the length in bits of the RSA modulus n"
+> 
+> Surely where it says ceil((modBits ? 1)/8) it has to mean floor((modBits ?
+> 1)/8)?
+
+No. The octet length may be longer than 8 times the bit length, but never
+shorter. It is only the bit length that actually matters.
+
+-- 
+David-Sarah Hopwood  ?  http://davidsarah.livejournal.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 292 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110217/154a0f59/attachment.asc>
+
+From muir.james.a at gmail.com  Thu Feb 17 16:15:12 2011
+From: muir.james.a at gmail.com (James Muir)
+Date: Thu, 17 Feb 2011 16:15:12 -0500
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D825A.7080205@jacaranda.org>
+References: <4D5D0FB0.4090109@ciphergoth.org> <4D5D825A.7080205@jacaranda.org>
+Message-ID: <4D5D8FE0.8060701@gmail.com>
+
+On 11-02-17 03:17 PM, David-Sarah Hopwood wrote:
+> No. The octet length may be longer than 8 times the bit length, but never
+> shorter. It is only the bit length that actually matters.
+
+??
+
+did you mean this:
+
+"The octet length may be >= than the bit length divided by 8, but never
+smaller."
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110217/11f4a708/attachment.asc>
+
+From david-sarah at jacaranda.org  Thu Feb 17 16:29:11 2011
+From: david-sarah at jacaranda.org (David-Sarah Hopwood)
+Date: Thu, 17 Feb 2011 21:29:11 +0000
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D8FE0.8060701@gmail.com>
+References: <4D5D0FB0.4090109@ciphergoth.org> <4D5D825A.7080205@jacaranda.org>
+	<4D5D8FE0.8060701@gmail.com>
+Message-ID: <4D5D9327.5060809@jacaranda.org>
+
+On 2011-02-17 21:15, James Muir wrote:
+> On 11-02-17 03:17 PM, David-Sarah Hopwood wrote:
+>> No. The octet length may be longer than 8 times the bit length, but never
+>> shorter. It is only the bit length that actually matters.
+> 
+> ??
+> 
+> did you mean this:
+> 
+> "The octet length may be >= than the bit length divided by 8, but never
+> smaller."
+
+Yes. Should have proofread that more carefully.
+
+-- 
+David-Sarah Hopwood  ?  http://davidsarah.livejournal.com
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 292 bytes
+Desc: OpenPGP digital signature
+URL: <http://lists.randombit.net/pipermail/cryptography/attachments/20110217/bfa8d32d/attachment.asc>
+
+From paul at ciphergoth.org  Fri Feb 18 08:11:53 2011
+From: paul at ciphergoth.org (Paul Crowley)
+Date: Fri, 18 Feb 2011 13:11:53 +0000
+Subject: [cryptography] Error in PKCS #1 v2.1?
+In-Reply-To: <4D5D9327.5060809@jacaranda.org>
+References: <4D5D0FB0.4090109@ciphergoth.org>
+	<4D5D825A.7080205@jacaranda.org>	<4D5D8FE0.8060701@gmail.com>
+	<4D5D9327.5060809@jacaranda.org>
+Message-ID: <4D5E7019.3050106@ciphergoth.org>
+
+Aha, I have discovered my mistake: I did not see step 11 of the procedure:
+
+11. Set the leftmost 8emLen ? emBits bits of the leftmost octet in 
+maskedDB to zero. (page 36)
+
+As a result of this step, OS2IP(EM) < 2^emBits < n < 2^modBits and so 
+the signature works.  Sorry for the false alarm!
+-- 
+   __
+\/ o\ Paul Crowley, paul at ciphergoth.org
+/\__/ http://www.ciphergoth.org/
+
+
+
+From alserkli at inbox.ru  Mon Feb 21 04:48:22 2011
+From: alserkli at inbox.ru (Alexander Klimov)
+Date: Mon, 21 Feb 2011 11:48:22 +0200
+Subject: [cryptography] Reliably Erasing Data From Flash-Based Solid State
+	Drives
+Message-ID: <TheMailAgent.56853481b5b814@9f40088099df1b8f5be2>
+
+<http://www.usenix.org/events/fast11/tech/full_papers/Wei.pdf>:
+
+  We empirically evaluate the effectiveness of hard
+  drive-oriented techniques and of the SSDs' built-in
+  sanitization commands by extracting raw data from the SSD's
+  flash chips after applying these techniques and commands. Our
+  results lead to three conclusions: First, built-in commands
+  are effective, but manufacturers sometimes implement them
+  incorrectly. Second, overwriting the entire visible address
+  space of an SSD twice is usually, but not always, sufficient
+  to sanitize the drive. Third, none of the existing hard
+  drive-oriented techniques for individual file sanitization are
+  effective on SSDs.
+
+-- 
+Regards,
+ASK
+
+
