@@ -22,11 +22,11 @@ Supporting, weaker:
 
 ## 2. What this means for the named candidates
 
-None of the four people in the article's collective theory lived on UK time in 2010:
-- **Adam Back.** His own mail (mutt) Date headers track where he lived over 12 years: UK 2001–02, North American Eastern 2004–07, **CET +0100 Nov 2010 – Feb 2011** and CEST +0200 June 2011 (Malta; the NYT says he moved there in 2009), plus UK +0000 at Christmas 2010. On **1 Dec 2010** and **25 Jan 2011** Back's own emails are stamped +0100 while Satoshi's are +0000 (VERIFIED). A Back-as-Satoshi theory therefore needs a separate machine kept on UK time. That's possible, but it's an extra assumption the NYT doesn't address, and an odd cover choice for a Briton living in Malta. INFERENCE: evidence against a single-machine Back is strong; against Back overall, low–medium.
-- **Hal Finney.** California: his machines were on UTC−8 (tar headers, Gmail display). In the Jan 2009 emails he behaves as an outside tester receiving builds. It weighs against Finney as the builder or mailer, unless he kept deliberate London clocks (INFERENCE, medium).
-- **Len Sassaman** (Leuven, Belgium, CET) and **Nick Szabo** (US) are in the same position: they'd need deliberate UK-time machines.
-- The collective theory isn't ruled out, but whoever ran the Satoshi machines kept them on UK time. The simplest reading is a UK/Ireland-based operator.
+The finding narrows the field to someone **UK-based or UK-connected**, or someone who deliberately kept London clocks. How the named candidates fare (all INFERENCE):
+- **Adam Back: compatible, with one extra step.** He is British, and his Gmail was on UK time in Aug 2008. His own mail (mutt) Date headers track where he lived over 12 years: UK 2001–02, North American Eastern 2004–07, **CET +0100 Nov 2010 – Feb 2011** and CEST +0200 June 2011 (Malta; the NYT says he moved there in 2009), plus UK +0000 at Christmas 2010 (VERIFIED). On **1 Dec 2010** and **25 Jan 2011** Back's own emails are stamped +0100 while Satoshi's are +0000 (VERIFIED). So a Back-as-Satoshi theory needs two differently configured machines: his personal one following his location (possibly automatic, e.g. Mac OS X 10.6's location-based zone), and a Satoshi Windows machine set up on UK time and **never re-zoned after the move to Malta** (for 1–2 years). That's plausible for someone keeping identities separate, so it's a *constraint* on the Back theory, not a refutation. It also slightly favours a UK-connected person like Back over the other three.
+- **Hal Finney.** California: his machines were on UTC−8 (tar headers, Gmail display). In the Jan 2009 emails he behaves as an outside tester receiving builds. For Finney to be the builder or mailer he'd have to keep deliberate London clocks for two years. It weighs against Finney (medium).
+- **Len Sassaman** (Leuven, Belgium, CET) and **Nick Szabo** (US) are in the same position: they'd need a deliberate UK-time decoy, which is a bigger step than "never re-zoned".
+- **Collective theory.** It isn't ruled out, but whoever operated the build and mail machines kept them on UK time with correct DST. Among the four, the only person that fits without a deliberate decoy is Back, and only if his Satoshi machine stayed on UK time after he moved to Malta.
 
 ## 3. Checking the NYT case against primary data
 
