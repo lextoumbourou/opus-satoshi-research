@@ -11,7 +11,7 @@ Carreyrou's case is textual: shared vocabulary, hyphenation errors, a filter of 
 - **What I found** (`notes/timezone-evidence.md`; VERIFIED data):
   - Satoshi's Thunderbird mail machine (Feb 2009 – Feb 2011) stamped UK offsets (+0000 in winter, +0100 in summer, switching on EU dates), confirmed to the second against Message-ID times.
   - His Windows development machine was ≥ UTC+0:55 on 3 Oct 2010 (his own posted `diff` output), which fits BST.
-  - His release-packing machine showed +0 in Dec 2009, +1 on every file Jul–Oct 2010, and +0 in Nov–Dec 2010 (17 original releases).
+  - His release-packing machine showed +0 in Dec 2009, +1 on every file Jul–Oct 2010, and +0 in Nov–Dec 2010 (16 original Windows releases).
 - **Why it matters to the NYT case.**
   - It supports Carreyrou's premise that "Satoshi really was British", with machine-level evidence rather than spelling.
   - But the NYT itself reports that Back **moved to Malta in 2009**. Back's own mutt-sent emails are stamped **+0100 (CET) from Nov 2010 to Feb 2011** and +0200 in June 2011 (VERIFIED, raw randombit archives). On **1 Dec 2010** and **25 Jan 2011** Back's emails carry +0100 while Satoshi's carry +0000 (VERIFIED).

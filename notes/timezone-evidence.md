@@ -19,7 +19,7 @@ This note is about **machine settings** (clocks, time zones), which are differen
 | 2010-10-03 | bitcointalk msg15116 ("Version 0.3.13, please upgrade", posted **20:02:24 UTC**, never edited). It contains Satoshi's own `diff -u` output with Windows paths and ctime-style local mtimes: `--- old\main.cpp  Sun Oct 03 20:57:20 2010` / `+++ new\main.cpp  Sun Oct 03 20:57:54 2010` (also serialize.h at 20:57:45/20:57:54). | The edited file must predate the post, so the **dev machine's local time was ≥ UTC+0:55**. That rules out fixed UTC and every American zone. On **BST (+1)** the file was saved at 19:57:54 UTC, **4.5 min before he posted**, between his 19:49 and 20:02 posts. CEST (+2) is possible (18:57 UTC, also inside his session). The same evening his Thunderbird email to Malmi is stamped `Sun, 03 Oct 2010 21:27:29 +0100`. | VERIFIED data; INFERENCE: not UTC/Americas (high), BST (medium-high) | Spotted by the corpus subagent; not found in prior art |
 | 2010-08-15 | bitcointalk msg9359 (03:40:29 UTC): `--- \old\sha.cpp Mon Jul 26 13:31:11 2010` / `+++ \new\sha.cpp Sat Aug 14 20:21:08 2010` | Only requires ≥ UTC−7h19m. Consistent with BST (saved 19:21 UTC, posted 8 h later at 04:40 BST, night-owl pattern). Not discriminating on its own. | VERIFIED; weak | — |
 
-### The build machine across 17 releases (0.2.0 – 0.3.19), VERIFIED
+### The build machine across 16 Windows releases (0.2.0 – 0.3.19), VERIFIED
 
 Source: 61 original release files recovered by a subagent from Software Heritage (by hash). All 61 match the SHA1 and MD5 that SourceForge published in 2010–11, and the 0.3.10 set also matches the SHA1s Satoshi posted himself (bitcointalk topic 827, 2010-08-15). See `data/releases/later/PROVENANCE.md`.
 
