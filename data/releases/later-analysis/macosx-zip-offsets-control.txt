@@ -1,0 +1,12 @@
+bitcoin-0.3.0-macosx.zip         creators=[(3, 21)] utc-fields=0/221 offsets: 
+bitcoin-0.3.2-macosx.zip         creators=[(3, 21)] utc-fields=0/187 offsets: 
+bitcoin-0.3.3-macosx.zip         creators=[(3, 21)] utc-fields=0/251 offsets: 
+bitcoin-0.3.6-macosx.zip         creators=[(3, 21)] utc-fields=0/286 offsets: 
+bitcoin-0.3.7-macosx.zip         creators=[(3, 21)] utc-fields=0/286 offsets: 
+bitcoin-0.3.8-macosx.zip         creators=[(3, 21)] utc-fields=0/288 offsets: 
+bitcoin-0.3.10-macosx.zip        creators=[(3, 21)] utc-fields=0/285 offsets: 
+bitcoin-0.3.11-macosx.zip        creators=[(3, 21)] utc-fields=0/286 offsets: 
+bitcoin-0.3.13-macosx.zip        creators=[(3, 21)] utc-fields=0/286 offsets: 
+bitcoin-0.3.17-macosx.zip        creators=[(3, 21)] utc-fields=0/298 offsets: 
+bitcoin-0.3.18-macosx.zip        creators=[(3, 21)] utc-fields=0/298 offsets: 
+bitcoin-0.3.19-macosx.zip        creators=[(3, 21)] utc-fields=0/298 offsets: 

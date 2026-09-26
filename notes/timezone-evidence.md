@@ -40,6 +40,8 @@ The Linux tarballs (GNU tar as root, `root/root` 0/0, so no personal username) s
 
 Reading: +0 in winter and +1 in summer is the **Western European (UK, Ireland, Portugal, Canaries, Faroes)** rule. It rules out CET (+1/+2), West Africa (+1 all year), Morocco (+0 by Sep–Oct 2010; the Sep and Oct zips are +1), Iceland, and all American and Asian zones. This is the *build/packaging* machine, independent of the email evidence.
 
+Control attempt: Laszlo Hanyecz's Mac ZIPs (Florida, US Eastern) were made by the Mac OS X archiver (host Unix, v2.1) and have **no** UT fields, so no offset can be computed (`macosx-zip-offsets-control.txt`). The working control is still Hal Finney's Jan 2009 tarball, which correctly shows UTC−8.
+
 The 0.3.19 exe was linked at **01:54 GMT on 13 Dec 2010**. SourceForge lists the zip at 22:38 UTC on 12 Dec, but its newest non-normalised entry is 22:38:40 on 12 Dec, which fits Info-ZIP `-o` (archive stamped with its latest entry) and an upload that preserved that time. So there's no conflict. It also explains why SourceForge dates often show `xx:01:00`.
 
 ### Same-message check: Date offset vs Message-ID time (VERIFIED)
