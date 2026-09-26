@@ -39,3 +39,5 @@ Times are AEST (UTC+10) on the date shown, approximate.
 - Satoshi's typed numeric dates are all day-first (50/0, mostly the msg249 difficulty table; prior art: In Search Of Satoshi 2018).
 - ~14:15 Same-message verification: for 8 GMX messages (Feb 2009-Dec 2010), Date-header local time minus offset equals the Thunderbird Message-ID hex time to the second. So the offset is Thunderbird's OS zone, and it follows UK rules. Thunderbird+GMX was in use from at least 11 Feb 2009 (p2p-research posts).
 - Checked prior-research survey entries for obxium/Fox Chapel: nobody combined RAR dir times (local) with the PE time (UTC); Fox Chapel explicitly calls the dir times local wall-clock but draws no zone conclusion.
+- ~14:25 Stacker News GraphQL: Waltz's Apr 2025 post only establishes block 49; his June 2026 full thread isn't accessible without X or web search. It confirms Hal's debug.log was posted to the SF bitcoin-list (so 19:13:18 is SF UTC).
+- ~14:30 Wrote notes/findings-summary.md (consolidated findings, labels, novelty status, candidate implications, NYT checks, article fixes).

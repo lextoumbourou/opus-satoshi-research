@@ -1,0 +1,65 @@
+# Findings summary (working draft, 2026-09-26)
+
+Labels: **VERIFIED** (I checked the primary source), **REPORTED** (someone else says so), **INFERENCE** (mine, with confidence). "New?" records whether I found it already published. Web search ran out mid-session (200-query cap, then Brave rate-limited), so "not found" means *not found in the prior-research survey plus targeted checks*, not a guarantee.
+
+Detailed notes: `notes/timezone-evidence.md`, `notes/release-forensics.md`, `notes/prior-research.md`, `notes/article-claims-check.md`. Research log: `log.md`.
+
+## 1. The main finding: Satoshi's working computers ran on UK time (2009–2010)
+
+Every *machine-level* timestamp I could tie to Satoshi's own computers in 2009–2010 points to a clock set to **UK time (GMT in winter, BST in summer, switching on the EU dates)**. The data come from three independent mechanisms:
+
+| # | Mechanism | Evidence | Reading | Label | New? |
+|---|---|---|---|---|---|
+| 1 | Thunderbird email headers | 8 GMX messages (Feb 2009 – Dec 2010) where Date-header local time minus offset equals the Thunderbird Message-ID's embedded UTC time **to the second**. 180+ more private emails to Malmi and Gavin show the same offsets. The switches fall exactly on the EU dates (+0100 on 21 and 24 Oct 2009, +0000 on 26 Oct 2009, and so on). | Thunderbird stamps the OS time zone. **UK/Irish/Portuguese rules** fit; CET, Iceland, Morocco and every US zone don't. His clock was accurate to about a minute. | VERIFIED data and mechanism; INFERENCE on meaning (high) | **Not found published.** The header offsets had been tabulated by others without identifying the mechanism. |
+| 2 | Satoshi's own `diff -u` output | bitcointalk msg15116, posted 20:02:24 UTC on 3 Oct 2010 and never edited. His files show Windows-local mtimes of 20:57:54. | Dev machine ≥ UTC+0:55, so **not fixed UTC and not any American zone**. BST fits with the save 4.5 min before the post, and a +0100 Thunderbird email went out the same evening. | VERIFIED; INFERENCE (high for the exclusion, medium-high for BST) | **Not found published** |
+| 3 | Release-archive folder times vs linker time | bitcoin-0.1.1 RAR: `src` dir modified 23:15:06 local on 10 Jan 2009; bitcoin.exe linked 23:16:00 UTC; the archive was emailed to Hal by ~02:55 UTC and repacked by him at 02:34 UTC on his UTC−8 machine. | Build machine ≥ UTC−3h40m (so not a US zone), and most likely **exactly GMT** (54-second match). | VERIFIED inputs; INFERENCE (bound high; GMT medium) | **The combination is not found published.** The ingredients were published separately: Chain Bulletin 2020, obxium Jan 2026, Fox Chapel May 2026. |
+
+Supporting, weaker:
+- The earliest client screenshot (taken 3 Jan 2009, published 4 Feb 2009) shows `03/01/2009 23:45`. The released 0.1.0/0.1.5 code would have printed `01/03/09` (C locale; I checked the wx 2.8.9 and Bitcoin sources). So the screenshot came from an earlier locale-aware or hard-coded day-first path, consistent with **UK regional defaults** (dd/MM/yyyy, 24-hour) and not US defaults. INFERENCE, medium. New? The dd/mm reading was noted before (deepceleron 2013); the C-locale argument appears new.
+- White paper PDFs are tagged `/Lang (en-GB)` (VERIFIED; published by obxium).
+
+**What it doesn't show.** It isn't proof of residence. A careful person can set a computer to London time. The exceptions are the two white paper PDFs (Oct 2008 −07'00', Mar 2009 −06'00'; VERIFIED; long published), which show US offsets. So at least once Satoshi's machine settings pointed away from the UK: a second machine or VM, a default, or deliberate misdirection. INFERENCE (medium): a UK-based person who used US time zones on the PDF machine is more economical than a non-UK person who kept his everyday mail and development machines on London time, with DST, for two years. That's because the latter would also have to match the British spellings, the day-first dates, the en-GB PDFs and the *Times* print headline.
+
+## 2. What this means for the named candidates
+
+None of the four people in the article's collective theory lived on UK time in 2010:
+- **Adam Back.** His own mail (mutt) Date headers track where he lived over 12 years: UK 2001–02, North American Eastern 2004–07, **CET +0100 Nov 2010 – Feb 2011** and CEST +0200 June 2011 (Malta; the NYT says he moved there in 2009), plus UK +0000 at Christmas 2010. On **1 Dec 2010** and **25 Jan 2011** Back's own emails are stamped +0100 while Satoshi's are +0000 (VERIFIED). A Back-as-Satoshi theory therefore needs a separate machine kept on UK time. That's possible, but it's an extra assumption the NYT doesn't address, and an odd cover choice for a Briton living in Malta. INFERENCE: evidence against a single-machine Back is strong; against Back overall, low–medium.
+- **Hal Finney.** California: his machines were on UTC−8 (tar headers, Gmail display). In the Jan 2009 emails he behaves as an outside tester receiving builds. It weighs against Finney as the builder or mailer, unless he kept deliberate London clocks (INFERENCE, medium).
+- **Len Sassaman** (Leuven, Belgium, CET) and **Nick Szabo** (US) are in the same position: they'd need deliberate UK-time machines.
+- The collective theory isn't ruled out, but whoever ran the Satoshi machines kept them on UK time. The simplest reading is a UK/Ireland-based operator.
+
+## 3. Checking the NYT case against primary data
+
+- **"Back went silent."**
+  - On the metzdowd Cryptography list, Back's silence began in **Nov 2007**, nine months before Satoshi's first known email. He posted twice in Mar 2010, and the list itself was nearly dormant Nov 2010–2013. VERIFIED (`data/lists/metzdowd-adam-back-counts.txt`).
+  - On the **randombit** Cryptography list, the successor list, Back posted **15 times between Mar 2010 and Feb 2011** while Satoshi was active. VERIFIED.
+- **"First public comment on Bitcoin six weeks after Satoshi vanished" (June 2011).** Nobody on the randombit list mentioned Bitcoin at all until **9 June 2011**. Back's first mention was 12 June, in the week of the June 2011 price spike and Silk Road coverage, when the whole list started discussing it. In the Dec 2010 thread "current digital cash / anonymous payment projects?" nobody mentioned Bitcoin, including James A. Donald, who had reviewed Satoshi's code in 2008. So Back's silence matched the list's. VERIFIED data; INFERENCE that it weakens the NYT's timing argument (medium-high). New? I didn't find it in the critiques we collected.
+- The NYT itself (VERIFIED) contains no time-zone or machine-metadata analysis and calls the "Southern California IP" a dead end.
+
+## 4. Other results
+
+- **Satoshi's build environment** (VERIFIED):
+  - OpenSSL 0.9.8h "no-everything" build, `DATE` = Thu Aug 28 01:18:38 2008 (gmtime), linked 01:23:15 UTC, eight days after his first email to Back.
+  - wxWidgets debug build compiled Nov 28 2008 08:05:59 (local).
+  - Berkeley DB 4.7.25; MinGW GCC 3.4.5 plus MSVC 6.0 SP6 (per Satoshi).
+  - No usernames or home paths in the binaries (negative result).
+  - New? OpenSSL/wx dates not found published; the PE time is published (obxium).
+- **The claim that "SVN commits show Satoshi used BST" (In Search Of Satoshi, 2018) is an artefact.** `svn log` prints UTC in the *reader's* zone (VERIFIED by running it in three zones). Ironically the conclusion (UK time) now has real support from the evidence above.
+- **Hal's debug log (Jan 2009).**
+  - The IRC channel operator at 68.164.57.219 (Covad DSL, Los Angeles) accepted Hal's incoming connection. On 12 Jan 2009 Satoshi told Hal: "I can't receive incoming connections from where I am … Your node receiving incoming connections was the main thing keeping the network going the first day or two." By Satoshi's own account the LA node wasn't his (or not at "where I am"). The Tor-connected node fits his description.
+  - Alex Waltz (June 2026) assumes both nodes were Satoshi's. I couldn't access his full thread to see whether he addressed this. INFERENCE, medium.
+- **Satoshi's release timestamps** encode the version number (01:00 = 0.1.0, and so on), a Microsoft-style release habit. Already published (Chain Bulletin 2020).
+- **DST natural experiment** (did his activity shift on EU or US dates?): underpowered, 0–1 nights in the key windows. Inconclusive.
+
+## 5. Claims in the article that need fixing
+
+See `notes/article-claims-check.md`. None is flatly wrong; seven need nuance:
+- the NYT co-author and headline;
+- the Back-denial citation;
+- the Reddit theory is a division of labour;
+- Back was *the first* known correspondent;
+- "only person *credited* by name" in the white paper;
+- the bit gold date;
+- Hatch overstated.
+
+Also: the idea that the coins never moved *because* Sassaman died has a logic gap, since they didn't move while Satoshi was active either.
