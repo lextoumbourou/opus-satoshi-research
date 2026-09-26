@@ -68,3 +68,20 @@ See `notes/article-claims-check.md`. None is flatly wrong; seven need nuance:
 - Hatch overstated.
 
 Also: the idea that the coins never moved *because* Sassaman died has a logic gap, since they didn't move while Satoshi was active either.
+
+## 6. Added after the search cap was raised (2026-09-26, afternoon)
+
+- **Prior-art sweep** (`notes/prior-art-search.md`): nothing found for any of the session's main findings (Thunderbird/UK-time headers, release-zip offsets, diff mtimes, the RAR+PE+Hal bound, the screenshot argument, the OpenSSL date, the NYT list-data checks, the DST analysis, the Gavin control).
+- **NYT review** (`notes/nyt-review.md`): read the full article. It has no machine-metadata or timing analysis. Its "disappeared from the Cryptography list" claim is contradicted by Back's 15 randombit posts and 2 metzdowd posts during Satoshi's active period. Its "six weeks" timing coincides with everyone's first Bitcoin posts in June 2011. It relies on the 2015 vistomail email, whose headers show a genuine vistomail send but can't show who sent it.
+- **Control that weakens the build-machine leg**: Gavin's Windows build box (2011) was also on London time. Build-box time zone is weak location evidence. Overall "UK residence" confidence is now medium-low; "UK-time working environment" confidence is high.
+- **Behavioural DST test** (`notes/dst-behaviour.md`): Satoshi's activity follows a DST clock (robust; +12–20 log-lik over UTC). EU dates are favoured over US dates (+1.9–4.3), driven by one week in Oct 2009. Low-to-medium confidence. It addresses the operator's routine, not machine settings.
+- **Packaging habits** (`notes/packaging-habits.md`): none of Back (hashcash/credlib), Dai (Crypto++), Sassaman (Mixmaster) or Finney shows Satoshi's Windows-native, version-number-timestamp release habit. Back and Sassaman packaged on Linux. Weak-moderate.
+- **Sassaman at Black Hat 2010** (`notes/sassaman-blackhat-2010.md`): Satoshi was silent during the talk and active before and after. But that evening's Satoshi email (+0100) and the next day's 0.3.6 build (+1) were on London time while Sassaman was in Las Vegas (home: Belgium). Weak-moderate evidence against Sassaman as operator.
+- **Filter strength** (`notes/uk-time-filter.md`): only ~7% of 2008–11 crypto-list regulars show a clean UK clock rule. A filter, not an identification.
+- **Negative results**:
+  - Patoshi miner ran continuously in early 2009 (no DST test possible).
+  - Satoshi's difficulty table uses UTC dates (23/23).
+  - Holiday test inconclusive after a local baseline.
+  - SourceForge and forum profiles show no timezone (forum offset left at UTC; the 2021 "nakamoto2 / Japan" profile is a re-registration).
+  - No raw GMX headers with client IP are public.
+  - Satoshi never wrote "tonight", "this morning" or "weekend".
