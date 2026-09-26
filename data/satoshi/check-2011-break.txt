@@ -1,0 +1,89 @@
+base events (explicit/verified UTC, 2008-2010): 887
+2011 items (Jan-Apr, any basis): 11
+
+quietest 8h window in base: 06.0-14.0 UTC holds 25/887 (2.8%)
+2011 items in that window: 4/11; binomial P(>= 4) = 1.78e-04
+      2011-01-06 Thu 18:31Z  Martti Malmi  basis=explicit
+   IN 2011-01-07 Fri 12:00Z  Mike Hearn  basis=assumed
+      2011-01-10 Mon 15:34Z  Mike Hearn  basis=assumed
+      2011-01-10 Mon 19:47Z  Mike Hearn  basis=assumed
+      2011-01-25 Tue 18:34Z  Martti Malmi  basis=explicit
+      2011-02-22 Tue 19:49Z  Martti Malmi  basis=explicit
+      2011-03-09 Wed 16:15Z  Mike Hearn  basis=assumed
+      2011-03-09 Wed 18:39Z  Mike Hearn  basis=assumed
+   IN 2011-04-20 Wed 09:39Z  Mike Hearn  basis=assumed
+   IN 2011-04-23 Sat 13:40Z  Mike Hearn  basis=assumed
+   IN 2011-04-26 Tue 08:29Z  Gavin Andresen  basis=inferred
+
+mean log-density of 2011 items under base KDE = -3.750; random 11-draws from base as low or lower: 5/100000 (p = 5.0e-05)
+   (2011 items with explicit zone only: 3; mean log-density -2.340)
+
+Hearn-thread Satoshi items: 16 (calibration set pre-2011: 9)
+   display UTC-12: mean log-dens  -6.408 
+   display UTC-11: mean log-dens  -6.219 
+   display UTC-10: mean log-dens  -5.999 
+   display UTC -9: mean log-dens  -5.585 ##
+   display UTC -8: mean log-dens  -4.835 ######
+   display UTC -7: mean log-dens  -4.242 ##########
+   display UTC -6: mean log-dens  -3.951 ############
+   display UTC -5: mean log-dens  -3.686 #############
+   display UTC -4: mean log-dens  -3.405 ###############
+   display UTC -3: mean log-dens  -3.155 #################
+   display UTC -2: mean log-dens  -2.960 ##################
+   display UTC -1: mean log-dens  -2.793 ###################
+   display UTC +0: mean log-dens  -2.633 ####################
+   display UTC +1: mean log-dens  -2.525 ####################
+   display UTC +2: mean log-dens  -2.524 ####################  <- best
+   display UTC +3: mean log-dens  -2.570 ####################
+   display UTC +4: mean log-dens  -2.615 ####################
+   display UTC +5: mean log-dens  -2.721 ###################
+   display UTC +6: mean log-dens  -2.991 ##################
+   display UTC +7: mean log-dens  -3.492 ###############
+   display UTC +8: mean log-dens  -4.033 ###########
+   display UTC +9: mean log-dens  -4.577 ########
+   display UTC+10: mean log-dens  -5.002 #####
+   display UTC+11: mean log-dens  -5.653 ##
+   display UTC+12: mean log-dens  -6.408 
+   offsets within 0.5 of best: [-2, -1, 0, 1, 2, 3, 4, 5, 6]
+   2011 Hearn items under those offsets (UTC hours):
+     Fri, Jan 7, 2011 at 1:00 PM      -> 15:00, 14:00, 13:00, 12:00, 11:00, 10:00, 09:00, 08:00, 07:00
+     Mon, Jan 10, 2011 at 4:34 PM     -> 18:34, 17:34, 16:34, 15:34, 14:34, 13:34, 12:34, 11:34, 10:34
+     Mon, Jan 10, 2011 at 8:47 PM     -> 22:47, 21:47, 20:47, 19:47, 18:47, 17:47, 16:47, 15:47, 14:47
+     Wed, Mar 9, 2011 at 5:15 PM      -> 19:15, 18:15, 17:15, 16:15, 15:15, 14:15, 13:15, 12:15, 11:15
+     Wed, Mar 9, 2011 at 7:39 PM      -> 21:39, 20:39, 19:39, 18:39, 17:39, 16:39, 15:39, 14:39, 13:39
+     Wed, Apr 20, 2011 at 11:39 AM    -> 13:39, 12:39, 11:39, 10:39, 09:39, 08:39, 07:39, 06:39, 05:39
+     Sat, Apr 23, 2011 at 3:40 PM     -> 17:40, 16:40, 15:40, 14:40, 13:40, 12:40, 11:40, 10:40, 09:40
+
+2008-2010 base events between 07:00 and 15:00 UTC:
+   2009-01-13 Tue 07:39Z
+   2009-11-21 Sat 07:02Z
+   2010-02-28 Sun 14:47Z
+   2010-05-27 Thu 14:11Z
+   2010-05-27 Thu 14:18Z
+   2010-06-25 Fri 14:10Z
+   2010-06-26 Sat 14:28Z
+   2010-06-27 Sun 12:43Z
+   2010-06-27 Sun 13:02Z
+   2010-07-10 Sat 12:58Z
+   2010-07-10 Sat 13:36Z
+   2010-07-15 Thu 14:05Z
+   2010-07-15 Thu 14:33Z
+   2010-07-15 Thu 14:59Z
+   2010-07-16 Fri 14:46Z
+   2010-07-16 Fri 14:52Z
+   2010-07-16 Fri 14:55Z
+   2010-07-24 Sat 14:38Z
+   2010-07-25 Sun 14:46Z
+   2010-07-31 Sat 14:38Z
+   2010-08-16 Mon 12:59Z
+   2010-08-16 Mon 13:11Z
+   2010-08-16 Mon 13:37Z
+   2010-08-16 Mon 13:38Z
+   2010-08-25 Wed 14:18Z
+   2010-08-28 Sat 14:27Z
+   2010-08-28 Sat 14:54Z
+   2010-12-05 Sun 09:08Z
+   2010-12-05 Sun 09:29Z
+   2010-12-09 Thu 14:37Z
+   2010-12-11 Sat 13:08Z
+   2010-12-11 Sat 13:32Z
