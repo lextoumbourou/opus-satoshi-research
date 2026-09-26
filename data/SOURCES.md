@@ -11,7 +11,7 @@ Web pages change, so a fresh download of a live page may not match the recorded 
 | Folder | Files | Where to get them |
 |---|---|---|
 | `data/candidates/sassaman-alibi/` | 1 | https://www.blackhat.com/html/bh-us-10/bh-us-10-schedule.html (via the Wayback Machine, 2010-07-25) |
-| `data/claims/` | 79 | per-file sources in `sources.csv` |
+| `data/claims/` | 2 | the 2015 vistomail email (see `notes/nyt-review.md`) and Hal Finney's "Bitcoin and me" post (see `notes/prior-research.md`) |
 | `data/prior-research/` | 15 | per-file sources in `sources.csv` |
 | `data/prior-research/citations/` | 3 | per-file sources in `sources.csv` |
 | `data/prior-research/code-forensics/` | 119 | per-file sources in `sources.csv` |

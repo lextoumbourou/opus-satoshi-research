@@ -2,7 +2,7 @@
 
 Labels: **VERIFIED** (I checked the primary source), **REPORTED** (someone else says so), **INFERENCE** (mine, with confidence). "New?" records whether I found it already published. Web search ran out mid-session (200-query cap, then Brave rate-limited), so "not found" means *not found in the prior-research survey plus targeted checks*, not a guarantee.
 
-Detailed notes: `notes/timezone-evidence.md`, `notes/release-forensics.md`, `notes/prior-research.md`, `notes/article-claims-check.md`. Research log: `log.md`.
+Detailed notes: `notes/timezone-evidence.md`, `notes/release-forensics.md`, `notes/prior-research.md`. Research log: `log.md`.
 
 ## 1. The main finding: Satoshi's working computers ran on UK time (2009–2010)
 
@@ -30,6 +30,7 @@ The finding narrows the field to someone **UK-based or UK-connected**, or someon
 - **Adam Back: compatible, with one extra step.** He is British, and his Gmail was on UK time in Aug 2008. His own mail (mutt) Date headers track where he lived over 12 years: UK 2001–02, North American Eastern 2004–07, **CET +0100 Nov 2010 – Feb 2011** and CEST +0200 June 2011 (Malta; the NYT says he moved there in 2009), plus UK +0000 at Christmas 2010 (VERIFIED). On **1 Dec 2010** and **25 Jan 2011** Back's own emails are stamped +0100 while Satoshi's are +0000 (VERIFIED). So a Back-as-Satoshi theory needs two differently configured machines: his personal one following his location (possibly automatic, e.g. Mac OS X 10.6's location-based zone), and a Satoshi Windows machine set up on UK time and **never re-zoned after the move to Malta** (for 1–2 years). That's plausible for someone keeping identities separate, so it's a *constraint* on the Back theory, not a refutation. It also slightly favours a UK-connected person like Back over the other three.
 - **Hal Finney.** California: his machines were on UTC−8 (tar headers, Gmail display). In the Jan 2009 emails he behaves as an outside tester receiving builds. For Finney to be the builder or mailer he'd have to keep deliberate London clocks for two years. It weighs against Finney (medium).
 - **Len Sassaman** (Leuven, Belgium, CET) and **Nick Szabo** (US) are in the same position: they'd need a deliberate UK-time decoy, which is a bigger step than "never re-zoned".
+- **The keys argument.** The idea that the coins never moved *because* Sassaman died has a logic gap, since they didn't move while Satoshi was active either.
 - **Collective theory.** It isn't ruled out, but whoever operated the build and mail machines kept them on UK time with correct DST. Among the four, the only person that fits without a deliberate decoy is Back, and only if his Satoshi machine stayed on UK time after he moved to Malta.
 
 ## 3. Checking the NYT case against primary data
@@ -56,20 +57,7 @@ The finding narrows the field to someone **UK-based or UK-connected**, or someon
 - **Activity rhythm: Back vs Satoshi** (`scripts/hour_compare.py`; VERIFIED data, INFERENCE weak). **30.1%** of Back's 156 randombit posts (2010–15) fall in 05:00–10:59 UTC, against **4.4%** of Satoshi's 919 timed items. Satoshi is essentially never active 07:00–12:00 UTC. During the overlap (Mar 2010 – Feb 2011), 4 of Back's 15 posts fall in Satoshi's dead zone (19–21 Nov 2010, 08:18–10:09 UTC). But there is **no direct conflict**: the closest pair is Back 21:19 / Satoshi 22:46 on 21 Nov 2010, and the 20 Nov sequence (Satoshi 02:12 → Back 10:03 → Satoshi 17:24) is compatible with one person sleeping in between. So the rhythms differ, but a single person who kept "Satoshi" to afternoons and nights can't be excluded. The NYT did no timing analysis; not found in prior art.
 - **DST natural experiment** (did his activity shift on EU or US dates?): underpowered, 0–1 nights in the key windows. Inconclusive.
 
-## 5. Claims in the article that need fixing
-
-See `notes/article-claims-check.md`. None is flatly wrong; seven need nuance:
-- the NYT co-author and headline;
-- the Back-denial citation;
-- the Reddit theory is a division of labour;
-- Back was *the first* known correspondent;
-- "only person *credited* by name" in the white paper;
-- the bit gold date;
-- Hatch overstated.
-
-Also: the idea that the coins never moved *because* Sassaman died has a logic gap, since they didn't move while Satoshi was active either.
-
-## 6. Added after the search cap was raised (2026-09-26, afternoon)
+## 5. Added after the search cap was raised (2026-09-26, afternoon)
 
 - **Prior-art sweep** (`notes/prior-art-search.md`): nothing found for any of the session's main findings (Thunderbird/UK-time headers, release-zip offsets, diff mtimes, the RAR+PE+Hal bound, the screenshot argument, the OpenSSL date, the NYT list-data checks, the DST analysis, the Gavin control).
 - **NYT review** (`notes/nyt-review.md`): read the full article. It has no machine-metadata or timing analysis. Its "disappeared from the Cryptography list" claim is contradicted by Back's 15 randombit posts and 2 metzdowd posts during Satoshi's active period. Its "six weeks" timing coincides with everyone's first Bitcoin posts in June 2011. It relies on the 2015 vistomail email, whose headers show a genuine vistomail send but can't show who sent it.
@@ -86,7 +74,7 @@ Also: the idea that the coins never moved *because* Sassaman died has a logic ga
   - No raw GMX headers with client IP are public.
   - Satoshi never wrote "tonight", "this morning" or "weekend".
 
-## 7. Final dig (2026-09-26, evening)
+## 6. Final dig (2026-09-26, evening)
 
 - **Ducrée (arXiv 2206.10257) read and citation-checked** (`notes/ducree-review.md`). His central "Benelux" argument is that white paper ref [2] was print-only, so Satoshi or someone close must have attended the 1999 Haasrode symposium. **That is false.**
   - The Massias paper was on UCL's public site: listed from 1999; PS download from 2002; file captured in 2003 and Aug 2007, byte-identical.
