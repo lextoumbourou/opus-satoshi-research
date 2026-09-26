@@ -1,0 +1,32 @@
+bitcoin-0.2.0-win32.zip          creators=[(11, 23)] utc-fields=67/67 offsets: +0.00h x67
+                                 bitcoin.exe local=2009-12-13 02:00:00 utc=2009-12-13 02:00:00
+bitcoin-0.3.0-win32.zip          creators=[(11, 23)] utc-fields=105/105 offsets: +1.00h x105
+                                 bitcoin.exe local=2010-07-03 01:03:00 utc=2010-07-03 00:03:00
+bitcoin-0.3.1-win32.zip          creators=[(11, 23)] utc-fields=109/109 offsets: +1.00h x109
+                                 bitcoin.exe local=2010-07-15 01:01:00 utc=2010-07-15 00:01:00
+bitcoin-0.3.2-win32.zip          creators=[(11, 23)] utc-fields=117/117 offsets: +1.00h x117
+                                 bitcoin.exe local=2010-07-16 01:01:00 utc=2010-07-16 00:01:00
+bitcoin-0.3.3-win32.zip          creators=[(11, 23)] utc-fields=117/117 offsets: +1.00h x117
+                                 bitcoin.exe local=2010-07-24 20:16:10 utc=2010-07-24 19:16:10
+bitcoin-0.3.6-win32.zip          creators=[(11, 23)] utc-fields=133/133 offsets: +1.00h x133
+                                 bitcoin.exe local=2010-07-29 01:01:00 utc=2010-07-29 00:01:00
+bitcoin-0.3.7-win32.zip          creators=[(11, 23)] utc-fields=133/133 offsets: +1.00h x133
+                                 bitcoin.exe local=2010-07-31 18:10:30 utc=2010-07-31 17:10:30
+bitcoin-0.3.10-win32.zip         creators=[(11, 23)] utc-fields=134/134 offsets: +1.00h x134
+                                 bitcoin.exe local=2010-08-15 01:01:00 utc=2010-08-15 00:01:00
+bitcoin-0.3.11-win32.zip         creators=[(11, 23)] utc-fields=134/134 offsets: +1.00h x134
+                                 bitcoin.exe local=2010-08-27 01:01:00 utc=2010-08-27 00:01:00
+bitcoin-0.3.12-win32.zip         creators=[(11, 23)] utc-fields=134/134 offsets: +1.00h x134
+                                 bitcoin.exe local=2010-09-07 01:01:00 utc=2010-09-07 00:01:00
+bitcoin-0.3.13-win32.zip         creators=[(11, 23)] utc-fields=134/134 offsets: +1.00h x134
+                                 bitcoin.exe local=2010-09-30 01:01:00 utc=2010-09-30 00:01:00
+bitcoin-0.3.14-win32.zip         creators=[(11, 23)] utc-fields=138/138 offsets: +1.00h x138
+                                 bitcoin.exe local=2010-10-20 20:56:42 utc=2010-10-20 19:56:41
+bitcoin-0.3.15-win32.zip         creators=[(11, 23)] utc-fields=138/138 offsets: +0.00h x84, +1.00h x54
+                                 bitcoin.exe local=2010-11-13 01:01:00 utc=2010-11-13 01:01:00
+bitcoin-0.3.17-win32.zip         creators=[(11, 23)] utc-fields=138/138 offsets: +0.00h x84, +1.00h x54
+                                 bitcoin.exe local=2010-11-25 01:01:00 utc=2010-11-25 01:01:00
+bitcoin-0.3.18-win32.zip         creators=[(11, 23)] utc-fields=138/138 offsets: +0.00h x85, +1.00h x53
+                                 bitcoin.exe local=2010-12-08 01:01:00 utc=2010-12-08 01:01:00
+bitcoin-0.3.19-win32.zip         creators=[(11, 23)] utc-fields=138/138 offsets: +0.00h x99, +1.00h x39
+                                 bitcoin.exe local=2010-12-12 01:01:00 utc=2010-12-12 01:01:00

@@ -11,3 +11,9 @@ data/copa/
 # bulky extracted trees (reproducible from committed sources/tarballs)
 data/releases/wx28/wxWidgets-WX_2_8_9/
 data/satoshi-hal/bitcoin-org-20090303/
+# Recovered 2009-2010 release binaries (~375 MB). Verified by SourceForge-published
+# SHA1+MD5 (see data/releases/later/PROVENANCE.md); retrievable by hash from
+# Software Heritage. Metadata files in that folder ARE committed.
+data/releases/later/*.zip
+data/releases/later/*.exe
+data/releases/later/*.tar.gz

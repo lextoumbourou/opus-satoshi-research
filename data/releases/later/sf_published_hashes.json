@@ -1,0 +1,811 @@
+{
+ "README.txt": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/README.txt"
+  ],
+  "md5": "3f08eab37a934a991a81997dd2ac458d",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "a88a20c302d0151c41ec5f2cfb074a760e282876"
+ },
+ "bitcoin-0.2.0-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.2.0-linux.tar.gz",
+   "Bitcoin/bitcoin-0.2.0/bitcoin-0.2.0-linux.tar.gz"
+  ],
+  "md5": "7c1647daf4600dd1aee9f85a9d76e6e1",
+  "sf_pages": [
+   "sf_20101210071124_Bitcoin.html",
+   "sf_20110101170926_Bitcoin.html",
+   "sf_20110503224008_Bitcoin_bitcoin-0.2.0.html"
+  ],
+  "sha1": "6ff749851e66801f2c82a199eec595d853c9fa8d"
+ },
+ "bitcoin-0.2.0-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.2.0-win32-setup.exe",
+   "Bitcoin/bitcoin-0.2.0/bitcoin-0.2.0-win32-setup.exe"
+  ],
+  "md5": "5127d59185356b759e2fe69ebe0cb3b5",
+  "sf_pages": [
+   "sf_20101210071124_Bitcoin.html",
+   "sf_20110101170926_Bitcoin.html",
+   "sf_20110503224008_Bitcoin_bitcoin-0.2.0.html"
+  ],
+  "sha1": "b8acb0008c5ce8a3c30f67491d7a85d1a7f73174"
+ },
+ "bitcoin-0.2.0-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.2.0-win32.zip",
+   "Bitcoin/bitcoin-0.2.0/bitcoin-0.2.0-win32.zip"
+  ],
+  "md5": "6755e297440dfd28133a33fb58e50e37",
+  "sf_pages": [
+   "sf_20101210071124_Bitcoin.html",
+   "sf_20110101170926_Bitcoin.html",
+   "sf_20110503224008_Bitcoin_bitcoin-0.2.0.html"
+  ],
+  "sha1": "9efbdd7ba31989f477d3006b3b867942579c4695"
+ },
+ "bitcoin-0.3.0-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.0/bitcoin-0.3.0-linux.tar.gz"
+  ],
+  "md5": "e68a4d94794d4a61e41858206e7ed2be",
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "sha1": "581180331641ac773a323b43bf444ecaae137211"
+ },
+ "bitcoin-0.3.0-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.0/bitcoin-0.3.0-macosx.zip"
+  ],
+  "md5": "3e192236fbc0ab815f05bc428658a763",
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "sha1": "b940af414cb267f10fe586193d997462c1e0d497"
+ },
+ "bitcoin-0.3.0-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.0/bitcoin-0.3.0-win32-setup.exe"
+  ],
+  "md5": "1184f8486e8f8ae8583b7738f3c3d781",
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "sha1": "63f4b20c9456d436e193033e7cb6f35265612707"
+ },
+ "bitcoin-0.3.0-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.0/bitcoin-0.3.0-win32.zip"
+  ],
+  "md5": "82895ecc531e77027d7da96fc07fee0a",
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "sha1": "f6453e7978b309da201a3061a7257837d8fe0ce6"
+ },
+ "bitcoin-0.3.1-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.1/bitcoin-0.3.1-linux.tar.gz"
+  ],
+  "md5": "355e505cabc1e66a95904c8cc4c51b7e",
+  "sf_pages": [
+   "sf_20110504150702_Bitcoin_bitcoin-0.3.1.html"
+  ],
+  "sha1": "d29d71c1f22b110f677d8973f0bf63b32db9fed6"
+ },
+ "bitcoin-0.3.1-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.1/bitcoin-0.3.1-win32-setup.exe"
+  ],
+  "md5": "b1b99f0c46b1bd7a5c5ff996eec72721",
+  "sf_pages": [
+   "sf_20110504150702_Bitcoin_bitcoin-0.3.1.html"
+  ],
+  "sha1": "f5c864b1b69c58c4d4c89acd24e23660747091e0"
+ },
+ "bitcoin-0.3.1-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.1/bitcoin-0.3.1-win32.zip"
+  ],
+  "md5": "1029860b008e29955abb895019eb058f",
+  "sf_pages": [
+   "sf_20110504150702_Bitcoin_bitcoin-0.3.1.html"
+  ],
+  "sha1": "fa9c1c474faf590e242b282ca0fc47fcf7035f37"
+ },
+ "bitcoin-0.3.10-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.10/bitcoin-0.3.10-linux.tar.gz"
+  ],
+  "md5": "e9e8616b6de23942251861750ee93d75",
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "sha1": "e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423"
+ },
+ "bitcoin-0.3.10-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.10/bitcoin-0.3.10-macosx.zip"
+  ],
+  "md5": "6f94bfeadc971a07fda261a9ce6d7199",
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "sha1": "b812ccff4881778b9090f7c0b0255bcba7b078ac"
+ },
+ "bitcoin-0.3.10-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.10/bitcoin-0.3.10-win32-setup.exe"
+  ],
+  "md5": "ab9cbb01e705c166770edc20edc55a81",
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "sha1": "16645ec5fcdb35bc54bc7195309a1a81105242bb"
+ },
+ "bitcoin-0.3.10-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.10/bitcoin-0.3.10-win32.zip"
+  ],
+  "md5": "2abc7f82df94b964a829bc180d5860c7",
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "sha1": "4f35ad7711a38fe8c880c6c9beab430824c426d3"
+ },
+ "bitcoin-0.3.11-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.11/bitcoin-0.3.11-linux.tar.gz"
+  ],
+  "md5": "d46c2c17783ea42ee5b62cda456c01b4",
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "sha1": "a725f95f8cb78356d349d2222513c8085d6690ec"
+ },
+ "bitcoin-0.3.11-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.11/bitcoin-0.3.11-macosx.zip"
+  ],
+  "md5": "56dcd3061f20bf6e2f4f38ef5926e0a8",
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "sha1": "cb6737211718332f2a27c71506d00f04a17ae0fc"
+ },
+ "bitcoin-0.3.11-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.11/bitcoin-0.3.11-win32-setup.exe"
+  ],
+  "md5": "da30dc3e2008617e05abd1517028d527",
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "sha1": "84b4416864cc3946f4079e84b9d2a70ec17fe238"
+ },
+ "bitcoin-0.3.11-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.11/bitcoin-0.3.11-win32.zip"
+  ],
+  "md5": "38a141d674b1822314f834848977db06",
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "sha1": "d98890e22d829cb10ec2f113219e6b9c56f39c42"
+ },
+ "bitcoin-0.3.12-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.12/bitcoin-0.3.12-linux.tar.gz"
+  ],
+  "md5": "c7d98df1ba6c48c3260a0f4cfd1ee973",
+  "sf_pages": [
+   "sf_20110504095916_Bitcoin_bitcoin-0.3.12.html"
+  ],
+  "sha1": "650678608e97b23437fcfb716473db75859c9bae"
+ },
+ "bitcoin-0.3.12-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.12/bitcoin-0.3.12-win32-setup.exe"
+  ],
+  "md5": "f9edc8fb3dc7430a02f95b47f2459df0",
+  "sf_pages": [
+   "sf_20110504095916_Bitcoin_bitcoin-0.3.12.html"
+  ],
+  "sha1": "a4cde0674bed1bc67d0957f0a3d3b1f45e0cdf82"
+ },
+ "bitcoin-0.3.12-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.12/bitcoin-0.3.12-win32.zip"
+  ],
+  "md5": "f4d6f756edd98c5b15d142124fd3c912",
+  "sf_pages": [
+   "sf_20110504095916_Bitcoin_bitcoin-0.3.12.html"
+  ],
+  "sha1": "10dc62c55131058fa135bdf737be5f8fdf3bb684"
+ },
+ "bitcoin-0.3.13-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.13/bitcoin-0.3.13-linux.tar.gz"
+  ],
+  "md5": "afbe01f096b5f79b14b7ec973a2249fa",
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "sha1": "bbb478de3df9c26d2c6dba483bd10a360e8be260"
+ },
+ "bitcoin-0.3.13-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.13/bitcoin-0.3.13-macosx.zip"
+  ],
+  "md5": "659efdddaf49d6b8651ff5dd82a80069",
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "sha1": "64fc3b2807bcb2f9dbdde75be078efca421b571b"
+ },
+ "bitcoin-0.3.13-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.13/bitcoin-0.3.13-win32-setup.exe"
+  ],
+  "md5": "a21f27a11d3e3179e807402b5e0987e6",
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "sha1": "6ca595bbf1301012dc04daed4843ea9255cefef3"
+ },
+ "bitcoin-0.3.13-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.13/bitcoin-0.3.13-win32.zip"
+  ],
+  "md5": "17424ee39734d76fdab3216c4e70c202",
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "sha1": "7531d7c0963bfb47601d26672e4d78d01dfc8117"
+ },
+ "bitcoin-0.3.14-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.14/bitcoin-0.3.14-linux.tar.gz"
+  ],
+  "md5": "c34c62bc5a79abdbafb1c4e9a7b3949f",
+  "sf_pages": [
+   "sf_20110504021623_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110627095449_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110806195827_Bitcoin_bitcoin-0.3.14.html"
+  ],
+  "sha1": "8be982a61a0a0dcf7ac102b108d857c50fdcd602"
+ },
+ "bitcoin-0.3.14-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.14/bitcoin-0.3.14-win32-setup.exe"
+  ],
+  "md5": "78551f4e1e91a698ec47550129b36b1d",
+  "sf_pages": [
+   "sf_20110504021623_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110627095449_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110806195827_Bitcoin_bitcoin-0.3.14.html"
+  ],
+  "sha1": "f6ad09343b1330f63ea72ed828a18aba9eacd0db"
+ },
+ "bitcoin-0.3.14-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.14/bitcoin-0.3.14-win32.zip"
+  ],
+  "md5": "81651d27669f10d17dbaccfa0480f871",
+  "sf_pages": [
+   "sf_20110504021623_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110627095449_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110806195827_Bitcoin_bitcoin-0.3.14.html"
+  ],
+  "sha1": "4375f36eafb68802d7ce3dc6b0d3f4a890c684da"
+ },
+ "bitcoin-0.3.15-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.15/bitcoin-0.3.15-linux.tar.gz"
+  ],
+  "md5": "af5420069fa0b6f039c90eda4cb29e33",
+  "sf_pages": [
+   "sf_20110503043039_Bitcoin_bitcoin-0.3.15.html"
+  ],
+  "sha1": "4462b4831a5c5bfcf2561ee7c7d68a6dc77fe335"
+ },
+ "bitcoin-0.3.15-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.15/bitcoin-0.3.15-win32-setup.exe"
+  ],
+  "md5": "dce851818115961f526477d4e9d52c9e",
+  "sf_pages": [
+   "sf_20110503043039_Bitcoin_bitcoin-0.3.15.html"
+  ],
+  "sha1": "32ba692d983c447b4af09efe298176e1ede4af26"
+ },
+ "bitcoin-0.3.15-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.15/bitcoin-0.3.15-win32.zip"
+  ],
+  "md5": "2ee3561e643548da78b262dda5595bbd",
+  "sf_pages": [
+   "sf_20110503043039_Bitcoin_bitcoin-0.3.15.html"
+  ],
+  "sha1": "751383dd72c0cd5758e28e3c1fe76716b98c5bc5"
+ },
+ "bitcoin-0.3.17-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.17/bitcoin-0.3.17-linux.tar.gz"
+  ],
+  "md5": "ac458481c8c76d093b7bea39dfbe9252",
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "sha1": "c81637bc78d697e212846cf8b68c281eb8edfaec"
+ },
+ "bitcoin-0.3.17-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.17/bitcoin-0.3.17-macosx.zip"
+  ],
+  "md5": "2adafebace5c90bfb8eb482299258779",
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "sha1": "fdbf10994e73be9b0fe984a5ad0c0c6e4ae4654f"
+ },
+ "bitcoin-0.3.17-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.17/bitcoin-0.3.17-win32-setup.exe"
+  ],
+  "md5": "a894563bfe5d2af49f22c103688793d9",
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "sha1": "e3976c327dab063e34d6b6ed8f5ef24f408de0e4"
+ },
+ "bitcoin-0.3.17-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.17/bitcoin-0.3.17-win32.zip"
+  ],
+  "md5": "f88cf555c3c90a059be8d56bbac6d4a3",
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "sha1": "8be548c591dff7963250ca849e0648710cc26dad"
+ },
+ "bitcoin-0.3.18-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.18/bitcoin-0.3.18-linux.tar.gz"
+  ],
+  "md5": "776ec88604a17c8f1af44f87f72a203b",
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "sha1": "9d6911cb35f51e68177a0253c1f25b834c0e4b67"
+ },
+ "bitcoin-0.3.18-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.18/bitcoin-0.3.18-macosx.zip"
+  ],
+  "md5": "d74c77eb4fe5de6790d46cb9bcd0bbf5",
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "sha1": "5c1e80796f0fbc30604fda5305a98f233f87ea31"
+ },
+ "bitcoin-0.3.18-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.18/bitcoin-0.3.18-win32-setup.exe"
+  ],
+  "md5": "193153ec62277628f35eee72626499c5",
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "sha1": "1f51b0dbe84b000bd7688db76d8a1648b40b84f8"
+ },
+ "bitcoin-0.3.18-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.18/bitcoin-0.3.18-win32.zip"
+  ],
+  "md5": "44a469469be3a9572d740d896dab87c6",
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "sha1": "117b34809776968b794db6aaee46eb86ab02c9d2"
+ },
+ "bitcoin-0.3.19-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.19/bitcoin-0.3.19-linux.tar.gz"
+  ],
+  "md5": "67c0d4a5c7310a94ee1ed8b2effa22cb",
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "sha1": "6b3e3edb3cc0a167166ace9f18e20f191415d560"
+ },
+ "bitcoin-0.3.19-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.19/bitcoin-0.3.19-macosx.zip"
+  ],
+  "md5": "0a6e6f0b351ca59a61a2d7de5b057464",
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "sha1": "415813cb46179b79fc278db42fd34027fff02b7b"
+ },
+ "bitcoin-0.3.19-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.19/bitcoin-0.3.19-win32-setup.exe"
+  ],
+  "md5": "b09f028f47fa26fc91ab494611322b26",
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "sha1": "e8f06fbac8ac82cc5e89211aebeeea3a8f5e5823"
+ },
+ "bitcoin-0.3.19-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.19/bitcoin-0.3.19-win32.zip"
+  ],
+  "md5": "b39dd6f18e0e08cdb60a8ae7b4aad6b4",
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "sha1": "83a957c667e0bd84b24e2bbc39196c02bcbdf705"
+ },
+ "bitcoin-0.3.2-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.2/bitcoin-0.3.2-linux.tar.gz"
+  ],
+  "md5": "4479e1c69d2faddb64d25b8c7d30a5c6",
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "sha1": "11e85f29eec76817a3e4c8d82854219a97f27a0e"
+ },
+ "bitcoin-0.3.2-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.2/bitcoin-0.3.2-macosx.zip"
+  ],
+  "md5": "8d82d58d893b8fdb7b6bf814b4975305",
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "sha1": "ae6d87723318c18c93249acb5b23f18ebcbed06d"
+ },
+ "bitcoin-0.3.2-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.2/bitcoin-0.3.2-win32-setup.exe"
+  ],
+  "md5": "cf214f5e7ad4cf1c5f844c88908e25a3",
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "sha1": "bce706477154f81813cebab2c7c5d370636ffbe0"
+ },
+ "bitcoin-0.3.2-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.2/bitcoin-0.3.2-win32.zip"
+  ],
+  "md5": "0f0d5686b106b7c60a219cd653707024",
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "sha1": "891b1e33e0306e6922c08c8339721a842e23aff8"
+ },
+ "bitcoin-0.3.20-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20-linux.tar.gz"
+  ],
+  "md5": "485f1179a49ebb09e37dc28e46c1ab0b",
+  "sf_pages": [
+   "sf_20110214195749_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "b2240f99da5a5bb339752fc1d2423af32d72cba6"
+ },
+ "bitcoin-0.3.20-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20-win32-setup.exe"
+  ],
+  "md5": "ceb683f2083be7843f006739f2a464be",
+  "sf_pages": [
+   "sf_20110214195749_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "af3326eae3f8df4582825fecb247a81d7c32a13a"
+ },
+ "bitcoin-0.3.20.01-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.01-linux.tar.gz"
+  ],
+  "md5": "e10954969479c0bcee16cce5061ddb20",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "7dfbc05b36112f59886a29f044cfd21c6c253169"
+ },
+ "bitcoin-0.3.20.01-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.01-macosx.zip"
+  ],
+  "md5": "7647795a0137eb7ef6b8c43a72e8f52f",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "b540825d864e7561cc21465ad072fb299e0d817a"
+ },
+ "bitcoin-0.3.20.01-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.01-win32-setup.exe"
+  ],
+  "md5": "39463119408045774a80c58d925d78ee",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "3fe4c5f2a5406322a2f116b30aefbd402b079940"
+ },
+ "bitcoin-0.3.20.01-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.01-win32.zip"
+  ],
+  "md5": "d08095a40c85cdaf4cd54113b39a687a",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "dffb709a90a7abcff08c2ef1e79d3f9b54751786"
+ },
+ "bitcoin-0.3.20.2-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.2-linux.tar.gz"
+  ],
+  "md5": "f527a2669f4cfe82abf1fe9bea070c64",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "5c73031ee872884e741a3cd77d50732b7168f127"
+ },
+ "bitcoin-0.3.20.2-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.2-win32-setup.exe"
+  ],
+  "md5": "33cfc15e9918c67a31d57a4b2dd9a01f",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "402be898806c380eb1f488bd1a7f06b595460be3"
+ },
+ "bitcoin-0.3.20.2-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.20/bitcoin-0.3.20.2-win32.zip"
+  ],
+  "md5": "052f310b52aa2645c044a5abede58146",
+  "sf_pages": [
+   "sf_20110430233535_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110502125522_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110625141459_Bitcoin_bitcoin-0.3.20.html",
+   "sf_20110810181300_Bitcoin_bitcoin-0.3.20.html"
+  ],
+  "sha1": "9f4e4ea10c15fbd12ed8120f62e17b1968efa75d"
+ },
+ "bitcoin-0.3.3-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.3/bitcoin-0.3.3-linux.tar.gz"
+  ],
+  "md5": "4591798392bd357f476d56af51a44a11",
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "sha1": "ddb975bcaa2b673f2f312abce51f085f68527968"
+ },
+ "bitcoin-0.3.3-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.3/bitcoin-0.3.3-macosx.zip"
+  ],
+  "md5": "5b905063d7e1dbcfd300e18ed086f692",
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "sha1": "1eb3550fcd94edeb2f6c02d5977739b541745b3a"
+ },
+ "bitcoin-0.3.3-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.3/bitcoin-0.3.3-win32-setup.exe"
+  ],
+  "md5": "1686432dabdde46f2fbcd2ac6f072a9b",
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "sha1": "71b24201d4893c4fdea88388f4376ddee3b38a6b"
+ },
+ "bitcoin-0.3.3-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.3/bitcoin-0.3.3-win32.zip"
+  ],
+  "md5": "e1feee4048539603d3d98c569434cbd5",
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "sha1": "6e638fa0c46e901e58bc66130a4b8ff4b6340083"
+ },
+ "bitcoin-0.3.6-a-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.6/bitcoin-0.3.6-a-linux.tar.gz"
+  ],
+  "md5": "aa9f467117bfcf325e78cd555ee651a7",
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "sha1": "a64b28c73a2cddad660c13422adb3c9bbfed074b"
+ },
+ "bitcoin-0.3.6-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.6/bitcoin-0.3.6-linux.tar.gz"
+  ],
+  "md5": "26373b23a1b01398b1dd2b2d1d856cb3",
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "sha1": "c1d7645130b883643fc7d8de1a825dcba7c00765"
+ },
+ "bitcoin-0.3.6-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.6/bitcoin-0.3.6-macosx.zip"
+  ],
+  "md5": "2145fc625535b06dd56dadd0e1cf1c9b",
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "sha1": "e4f54860640ece769b4a4f0e48a4989b92e1536e"
+ },
+ "bitcoin-0.3.6-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.6/bitcoin-0.3.6-win32-setup.exe"
+  ],
+  "md5": "3f54787c3a240108cc431cc4e11e918b",
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "sha1": "a301873afa3e1ba605df5f8546ed693bcf7180cf"
+ },
+ "bitcoin-0.3.6-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.6/bitcoin-0.3.6-win32.zip"
+  ],
+  "md5": "e6e5e055dc548e3284febaca564d0266",
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "sha1": "92b49e26dcd0315c5ece9cb635a6e2a5f520b551"
+ },
+ "bitcoin-0.3.7-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.7/bitcoin-0.3.7-linux.tar.gz"
+  ],
+  "md5": "f0bffb9724bc5d41f9c74be105cb3024",
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "sha1": "95106b220dc69ddec4570b5e7e0595d0eb220dbe"
+ },
+ "bitcoin-0.3.7-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.7/bitcoin-0.3.7-macosx.zip"
+  ],
+  "md5": "cfbe0ec519b3dc9418a911ab2887b230",
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "sha1": "624b95d4e6e0c77d745a27747db69c62936a5743"
+ },
+ "bitcoin-0.3.7-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.7/bitcoin-0.3.7-win32-setup.exe"
+  ],
+  "md5": "87eb5ea7d2c920e530e73ddc86e6e934",
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "sha1": "50c018970e42c63461923747c6c1b7a89ba0a04b"
+ },
+ "bitcoin-0.3.7-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.7/bitcoin-0.3.7-win32.zip"
+  ],
+  "md5": "3e371fac3decb8d37732479a92c271ae",
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "sha1": "599bdfc3234275ef8dbb901509f7a169f29eaa8e"
+ },
+ "bitcoin-0.3.8-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.8/bitcoin-0.3.8-linux.tar.gz"
+  ],
+  "md5": "9a92c9f45e3ac720d591396aed0f0afa",
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "sha1": "e49166270520873a1e7b723c701221d3738e90cc"
+ },
+ "bitcoin-0.3.8-macosx.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.8/bitcoin-0.3.8-macosx.zip"
+  ],
+  "md5": "3942d55a07ef99a09d050e6aa2a474f2",
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "sha1": "8d0f72c7c43fc94e959bdb139c50b3e37c6391f5"
+ },
+ "bitcoin-0.3.8-win32-setup.exe": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.8/bitcoin-0.3.8-win32-setup.exe"
+  ],
+  "md5": "683c65b4c6aac1668de0d0739111bd17",
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "sha1": "5d8abb2f088da21de8667795c7af90a3a739e173"
+ },
+ "bitcoin-0.3.8-win32.zip": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.8/bitcoin-0.3.8-win32.zip"
+  ],
+  "md5": "5d4300dce3005753c3c41cb7eee8c7e3",
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "sha1": "2e31f575e346ea3cb9daab988a14f50dc74c8731"
+ },
+ "bitcoin-0.3.8.1-linux.tar.gz": {
+  "full_paths": [
+   "Bitcoin/bitcoin-0.3.8/bitcoin-0.3.8.1-linux.tar.gz"
+  ],
+  "md5": "52eb8ed3cd04f6bf350e2c2183242112",
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "sha1": "d6402bdbe29ec6fb7df96425aa521b90ff7ad0de"
+ }
+}

@@ -1,0 +1,15 @@
+# SHA1 hashes published by Satoshi Nakamoto on bitcointalk (verbatim hash+filename; source post URL after #)
+SHA1 a36ea00cce27b4b083755df73a3d1e5e5729884e bitcoin-0.3.9.rc1-win32.zip  # https://bitcointalk.org/index.php?topic=806.msg9046#msg9046
+SHA1 bbb333b0ea57302740ad1bb9948520d00f884f9d bitcoin-0.3.9.rc1-linux.tar.gz  # https://bitcointalk.org/index.php?topic=806.msg9046#msg9046
+SHA1 47d9998f7d15fe81234a5c89a542da9d0664df40 bitcoin-0.3.9.rc2-linux.tar.gz  # https://bitcointalk.org/index.php?topic=806.msg9046#msg9046
+SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe  # https://bitcointalk.org/index.php?topic=823.msg9573#msg9573
+SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip  # https://bitcointalk.org/index.php?topic=823.msg9573#msg9573
+SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe  # https://bitcointalk.org/index.php?topic=823.msg9584#msg9584
+SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip  # https://bitcointalk.org/index.php?topic=823.msg9584#msg9584
+SHA1 e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423 bitcoin-0.3.10-linux.tar.gz  # https://bitcointalk.org/index.php?topic=823.msg9584#msg9584
+SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe  # https://bitcointalk.org/index.php?topic=827.msg9590#msg9590
+SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip  # https://bitcointalk.org/index.php?topic=827.msg9590#msg9590
+SHA1 e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423 bitcoin-0.3.10-linux.tar.gz  # https://bitcointalk.org/index.php?topic=827.msg9590#msg9590
+SHA1 b812ccff4881778b9090f7c0b0255bcba7b078ac bitcoin-0.3.10-macosx.zip  # https://bitcointalk.org/index.php?topic=827.msg9590#msg9590
+SHA1 fb7c66270281ed058c570627cf7baff0bdc16e5d bitcoin-0.3.13.1-specialbuild-win32.zip  # https://bitcointalk.org/index.php?topic=1327.msg15110#msg15110
+SHA1 9fc44ea5f2109618073e2cfd887e2cc266eb31a9 bitcoin-0.3.13.1-specialbuild-linux64.tar.gz  # https://bitcointalk.org/index.php?topic=1327.msg15110#msg15110

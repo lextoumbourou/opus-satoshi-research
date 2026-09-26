@@ -1,0 +1,111 @@
+# Verbatim text of Satoshi Nakamoto bitcointalk posts that publish SHA1 hashes of release/test binaries.
+# Source: data/satoshi/intermediate/bitcointalk.jsonl (project corpus; original URLs below).
+
+===== https://bitcointalk.org/index.php?topic=806.msg9046#msg9046
+===== posted 2010-08-13T17:40:00Z | subject: Version 0.3.9 rc1, please test
+Here's a test build if you'd like to help test before 0.3.9 is released.
+(or if you'd rather get upgrading out of the way now instead of waiting)
+
+Downloads:  (binaries only)
+http://www.bitcoin.org/download/bitcoin-0.3.9.rc1-win32.zip
+(http://www.bitcoin.org/download/bitcoin-0.3.9.rc1-linux.tar.gz)
+
+SHA1 a36ea00cce27b4b083755df73a3d1e5e5729884e bitcoin-0.3.9.rc1-win32.zip
+SHA1 bbb333b0ea57302740ad1bb9948520d00f884f9d bitcoin-0.3.9.rc1-linux.tar.gz
+
+Edit:
+Linux please test rc2 instead.  This adds a -4way switch for tcatm's 4-way SSE2.  This will only be for Linux:
+http://www.bitcoin.org/download/bitcoin-0.3.9.rc2-linux.tar.gz
+
+SHA1 47d9998f7d15fe81234a5c89a542da9d0664df40 bitcoin-0.3.9.rc2-linux.tar.gz
+
+Please report back your results
+http://bitcointalk.org/index.php?topic=820
+
+===== https://bitcointalk.org/index.php?topic=823.msg9573#msg9573
+===== posted 2010-08-15T22:58:08Z | subject: Re: overflow bug SERIOUS
+Don't update the block chain download.  When you take someone's block chain download, you don't want it right up to the end.  A somewhat old one is better so it can download and verify the most recent blocks.
+
+tcatm's 4-way SSE2 SHA-256 is in the file sha256.cpp and already uploaded a few revs ago.
+
+I just now uploaded rev 134 which is the makefile.unix that enables building with it on Linux.  If you build rev 134 on Linux now you'll get the -4way switch.
+
+If you have problems building because of it, then edit makefile.unix and:
+- remove -DFOURWAYSSE2
+- remove obj/sha256.o from the end of these lines:
+bitcoin: $(OBJS) obj/ui.o obj/uibase.o obj/sha256.o
+bitcoind: $(OBJS:obj/%=obj/nogui/%) obj/sha256.o
+
+The 0.3.10 linux build will have the -4way option when I build it.
+
+Here are the patch downloads for Windows:
+
+http://www.bitcoin.org/download/bitcoin-0.3.10-win32-setup.exe
+http://www.bitcoin.org/download/bitcoin-0.3.10-win32.zip
+
+SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe
+SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip
+
+Steps:
+1) Shut down.
+2) Download knightmb's blk files and replace your blk0001.dat and blkindex.dat files.
+http://knightmb.dyndns.org/files/bitcoin/blocks/
+http://rapidshare.com/files/413168038/BitcoinBlocks.torrent
+3) Upgrade to 0.3.10.
+4) It should start out with less than 74000 blocks and redownload the rest.
+
+Or if you don't want to mess with downloading blk files, you can just do this:
+
+1) Shut down.
+2) Delete (or move) blk*.dat
+3) Upgrade to 0.3.10.
+4) It redownloads all blocks, probably take about an hour.
+
+===== https://bitcointalk.org/index.php?topic=823.msg9584#msg9584
+===== posted 2010-08-15T23:36:10Z | subject: Re: overflow bug SERIOUS
+Starting at 67000 is perfect.  
+
+Yeah, at the moment you'll stop at 74638.  It should start slowly creeping up as more nodes upgrade and generate.
+
+Linux build links below.
+
+The Linux version includes tcatm's 4-way SSE2 SHA-256 that makes generating faster on i5 and AMD CPU's.  Use the "-4way" switch to enable it and check if it's faster for you.
+
+Download links:
+http://www.bitcoin.org/download/bitcoin-0.3.10-win32-setup.exe
+http://www.bitcoin.org/download/bitcoin-0.3.10-win32.zip
+http://www.bitcoin.org/download/bitcoin-0.3.10-linux.tar.gz
+
+SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe
+SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip
+SHA1 e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423 bitcoin-0.3.10-linux.tar.gz
+
+===== https://bitcointalk.org/index.php?topic=827.msg9590#msg9590
+===== posted 2010-08-15T23:48:22Z | subject: Version 0.3.10 - block 74638 overflow PATCH!
+Version 0.3.10 patches the block 74638 overflow bug.   http://bitcointalk.org/index.php?topic=823
+
+The Linux version includes tcatm's 4-way SSE2 SHA-256 that makes generating faster on i5, i7 (with hyperthreading) and AMD CPU's.  Try the "-4way" switch to enable it and check if it's faster for you.  
+
+Download from sourceforge:
+http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.3.10/
+
+SHA1 16645ec5fcdb35bc54bc7195309a1a81105242bb bitcoin-0.3.10-win32-setup.exe
+SHA1 4f35ad7711a38fe8c880c6c9beab430824c426d3 bitcoin-0.3.10-win32.zip
+SHA1 e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423 bitcoin-0.3.10-linux.tar.gz
+SHA1 b812ccff4881778b9090f7c0b0255bcba7b078ac bitcoin-0.3.10-macosx.zip
+
+It is no longer necessary to delete blk*.dat.  The good block chain has overtaken the bad block chain, so you can just upgrade and it'll automatically reorg away the bad block chain.
+
+===== https://bitcointalk.org/index.php?topic=1327.msg15110#msg15110
+===== posted 2010-10-03T19:39:06Z | subject: Re: Version 0.3.13, please upgrade
+Could a few people please run this special build?  It'll amnesty the dust spam transactions, which will clear up the 0/unconfirmed problem for now.  We really just need one block letting them through to clear up the previous transactions.  Post if you generate a block with this.
+
+These are binaries only.  The linux version is 64-bit only.
+http://www.bitcoin.org/download/bitcoin-0.3.13.1-specialbuild-win32.zip
+http://www.bitcoin.org/download/bitcoin-0.3.13.1-specialbuild-linux64.tar.gz
+
+SHA1 fb7c66270281ed058c570627cf7baff0bdc16e5d bitcoin-0.3.13.1-specialbuild-win32.zip
+SHA1 9fc44ea5f2109618073e2cfd887e2cc266eb31a9 bitcoin-0.3.13.1-specialbuild-linux64.tar.gz
+
+The linux 64-bit version includes a change to the cpuid 4-way 128-bit SSE2 autodetect for AMD in 64-bit mode, if you'd like to test that and see if that's better.
+

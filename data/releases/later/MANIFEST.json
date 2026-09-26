@@ -1,0 +1,1203 @@
+[
+ {
+  "name": "bitcoin-0.2.0-linux.tar.gz",
+  "size": 2403209,
+  "sha256": "b66be11f9772e786e0c8b92d3612a81ed24e5790b3b6ea886d3b4cc6ec4eb883",
+  "sha1": "6ff749851e66801f2c82a199eec595d853c9fa8d",
+  "md5": "7c1647daf4600dd1aee9f85a9d76e6e1",
+  "swhid": "swh:1:cnt:10d4f1360442b16c794fec908f647c6097200481",
+  "file": "gzip compressed data, last modified: Mon Dec 14 01:20:19 2009, from Unix, original size modulo 2^32 8048640",
+  "sf_sha1": "6ff749851e66801f2c82a199eec595d853c9fa8d",
+  "sf_md5": "7c1647daf4600dd1aee9f85a9d76e6e1",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210071124_Bitcoin.html",
+   "sf_20110101170926_Bitcoin.html",
+   "sf_20110503224008_Bitcoin_bitcoin-0.2.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:6ff749851e66801f2c82a199eec595d853c9fa8d/raw/",
+  "retrieved_utc": "2026-09-26T02:46:19.024059Z"
+ },
+ {
+  "name": "bitcoin-0.2.0-win32-setup.exe",
+  "size": 3135392,
+  "sha256": "8fd5fefced48112b03e9683c52a62daac0b2e007a0a83dc4dd9b856d3dfbe487",
+  "sha1": "b8acb0008c5ce8a3c30f67491d7a85d1a7f73174",
+  "md5": "5127d59185356b759e2fe69ebe0cb3b5",
+  "swhid": "swh:1:cnt:7467f8e57dc1cba6be5a51cec9a46bbcd1e36396",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "b8acb0008c5ce8a3c30f67491d7a85d1a7f73174",
+  "sf_md5": "5127d59185356b759e2fe69ebe0cb3b5",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210071124_Bitcoin.html",
+   "sf_20110101170926_Bitcoin.html",
+   "sf_20110503224008_Bitcoin_bitcoin-0.2.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:b8acb0008c5ce8a3c30f67491d7a85d1a7f73174/raw/",
+  "retrieved_utc": "2026-09-26T02:43:39.590624Z"
+ },
+ {
+  "name": "bitcoin-0.2.0-win32.zip",
+  "size": 3062752,
+  "sha256": "916af281e75c3546fa87caee20edab3264c3729e0db89324a9dc9c9604d6f56c",
+  "sha1": "9efbdd7ba31989f477d3006b3b867942579c4695",
+  "md5": "6755e297440dfd28133a33fb58e50e37",
+  "swhid": "swh:1:cnt:10d27b4d875e756df386fbe95b0933fe2ee1539b",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "9efbdd7ba31989f477d3006b3b867942579c4695",
+  "sf_md5": "6755e297440dfd28133a33fb58e50e37",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210071124_Bitcoin.html",
+   "sf_20110101170926_Bitcoin.html",
+   "sf_20110503224008_Bitcoin_bitcoin-0.2.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:9efbdd7ba31989f477d3006b3b867942579c4695/raw/",
+  "retrieved_utc": "2026-09-26T02:42:30Z"
+ },
+ {
+  "name": "bitcoin-0.3.0-linux.tar.gz",
+  "size": 7928980,
+  "sha256": "c180d0433dc7572f66975886ff5450025831d24fbc96f4a484604bff5f4f6d89",
+  "sha1": "581180331641ac773a323b43bf444ecaae137211",
+  "md5": "e68a4d94794d4a61e41858206e7ed2be",
+  "swhid": "swh:1:cnt:2c35abb3a4100b1b92f1bb164702d2e8869aba17",
+  "file": "gzip compressed data, last modified: Fri Jun 25 22:48:07 2010, from Unix, original size modulo 2^32 29542400",
+  "sf_sha1": "581180331641ac773a323b43bf444ecaae137211",
+  "sf_md5": "e68a4d94794d4a61e41858206e7ed2be",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:581180331641ac773a323b43bf444ecaae137211/raw/",
+  "retrieved_utc": "2026-09-26T02:46:25.131729Z"
+ },
+ {
+  "name": "bitcoin-0.3.0-macosx.zip",
+  "size": 6562056,
+  "sha256": "f8bf7c1e3190a34d9d32e520fba1d246111df1f23be8bb2c1ed193f911805c36",
+  "sha1": "b940af414cb267f10fe586193d997462c1e0d497",
+  "md5": "3e192236fbc0ab815f05bc428658a763",
+  "swhid": "swh:1:cnt:680fdbdfe75ae76aac64117d02c42677cd91f416",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "b940af414cb267f10fe586193d997462c1e0d497",
+  "sf_md5": "3e192236fbc0ab815f05bc428658a763",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:b940af414cb267f10fe586193d997462c1e0d497/raw/",
+  "retrieved_utc": "2026-09-26T03:06:52.906939Z"
+ },
+ {
+  "name": "bitcoin-0.3.0-win32-setup.exe",
+  "size": 5122537,
+  "sha256": "7133093bd73826fb9e286d8f1cd08d9c32ba6372fc6a5e67ce7b9ee5267425e6",
+  "sha1": "63f4b20c9456d436e193033e7cb6f35265612707",
+  "md5": "1184f8486e8f8ae8583b7738f3c3d781",
+  "swhid": "swh:1:cnt:99d2dfb83696cc6c5772113072a04002089b1b85",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "63f4b20c9456d436e193033e7cb6f35265612707",
+  "sf_md5": "1184f8486e8f8ae8583b7738f3c3d781",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:63f4b20c9456d436e193033e7cb6f35265612707/raw/",
+  "retrieved_utc": "2026-09-26T02:43:44.837789Z"
+ },
+ {
+  "name": "bitcoin-0.3.0-win32.zip",
+  "size": 5068582,
+  "sha256": "221609e7fb0d0036f22b758fc625c9c0fe7d931dd0aa8d30d788e203e0f794fd",
+  "sha1": "f6453e7978b309da201a3061a7257837d8fe0ce6",
+  "md5": "82895ecc531e77027d7da96fc07fee0a",
+  "swhid": "swh:1:cnt:3a3cda316cf45f315fe47a4b5c09840820fdd3ea",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "f6453e7978b309da201a3061a7257837d8fe0ce6",
+  "sf_md5": "82895ecc531e77027d7da96fc07fee0a",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152229_Bitcoin_bitcoin-0.3.0.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:f6453e7978b309da201a3061a7257837d8fe0ce6/raw/",
+  "retrieved_utc": "2026-09-26T02:43:35.402943Z"
+ },
+ {
+  "name": "bitcoin-0.3.1-linux.tar.gz",
+  "size": 8681266,
+  "sha256": "a16cd6a5167fcc7e705dce2fcf1f8065f7d127b561c994dc4530fef60724ce2b",
+  "sha1": "d29d71c1f22b110f677d8973f0bf63b32db9fed6",
+  "md5": "355e505cabc1e66a95904c8cc4c51b7e",
+  "swhid": "swh:1:cnt:5cba98ab21b9df45528212d32961157d2b7a4237",
+  "file": "gzip compressed data, last modified: Thu Jul 15 20:56:56 2010, from Unix, original size modulo 2^32 31375360",
+  "sf_sha1": "d29d71c1f22b110f677d8973f0bf63b32db9fed6",
+  "sf_md5": "355e505cabc1e66a95904c8cc4c51b7e",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150702_Bitcoin_bitcoin-0.3.1.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:d29d71c1f22b110f677d8973f0bf63b32db9fed6/raw/",
+  "retrieved_utc": "2026-09-26T02:46:31.163278Z"
+ },
+ {
+  "name": "bitcoin-0.3.1-win32-setup.exe",
+  "size": 5155154,
+  "sha256": "674b6fd64ca27ad8096e80c50a35bf3c993e6f190df9c05961e4f781b788c37a",
+  "sha1": "f5c864b1b69c58c4d4c89acd24e23660747091e0",
+  "md5": "b1b99f0c46b1bd7a5c5ff996eec72721",
+  "swhid": "swh:1:cnt:48acaca9245f3dd2d98dae04bee882c525e18ed3",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "f5c864b1b69c58c4d4c89acd24e23660747091e0",
+  "sf_md5": "b1b99f0c46b1bd7a5c5ff996eec72721",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150702_Bitcoin_bitcoin-0.3.1.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:f5c864b1b69c58c4d4c89acd24e23660747091e0/raw/",
+  "retrieved_utc": "2026-09-26T02:45:08.215038Z"
+ },
+ {
+  "name": "bitcoin-0.3.1-win32.zip",
+  "size": 5102069,
+  "sha256": "dc60314445889f9787c489407a3f166eb81d1518e5d67316a408cdaadc09f2e8",
+  "sha1": "fa9c1c474faf590e242b282ca0fc47fcf7035f37",
+  "md5": "1029860b008e29955abb895019eb058f",
+  "swhid": "swh:1:cnt:6b098202da6623f33533a0cf4d698a1a5a4f57ae",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "fa9c1c474faf590e242b282ca0fc47fcf7035f37",
+  "sf_md5": "1029860b008e29955abb895019eb058f",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150702_Bitcoin_bitcoin-0.3.1.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:fa9c1c474faf590e242b282ca0fc47fcf7035f37/raw/",
+  "retrieved_utc": "2026-09-26T02:43:49.781518Z"
+ },
+ {
+  "name": "bitcoin-0.3.10-linux.tar.gz",
+  "size": 8283934,
+  "sha256": "8b5dc1d5663c99ca1c1c7e32b4971fb1d242a8ba3bda92ace3bdadc728f94f9e",
+  "sha1": "e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423",
+  "md5": "e9e8616b6de23942251861750ee93d75",
+  "swhid": "swh:1:cnt:10c0f442520e4032372d6d27e16ebb1b4bf278d2",
+  "file": "gzip compressed data, last modified: Sun Aug 15 23:20:22 2010, from Unix, original size modulo 2^32 26951680",
+  "sf_sha1": "e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423",
+  "sf_md5": "e9e8616b6de23942251861750ee93d75",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "satoshi_sha1_posts": [
+   "https://bitcointalk.org/index.php?topic=823.msg9584#msg9584",
+   "https://bitcointalk.org/index.php?topic=827.msg9590#msg9590"
+  ],
+  "satoshi_match": true,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:e3fda1ddb31b0d5c35156cacd80dee6ea6ae6423/raw/",
+  "retrieved_utc": "2026-09-26T03:03:59.755896Z"
+ },
+ {
+  "name": "bitcoin-0.3.10-macosx.zip",
+  "size": 6910043,
+  "sha256": "810cd7f1d4da2b5e561f5cd67932b5b80b68976946f89207d13b2de629cf9937",
+  "sha1": "b812ccff4881778b9090f7c0b0255bcba7b078ac",
+  "md5": "6f94bfeadc971a07fda261a9ce6d7199",
+  "swhid": "swh:1:cnt:a4641a5d2079858d6964e6123a0759d9ccfbae8a",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "b812ccff4881778b9090f7c0b0255bcba7b078ac",
+  "sf_md5": "6f94bfeadc971a07fda261a9ce6d7199",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "satoshi_sha1_posts": [
+   "https://bitcointalk.org/index.php?topic=827.msg9590#msg9590"
+  ],
+  "satoshi_match": true,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:b812ccff4881778b9090f7c0b0255bcba7b078ac/raw/",
+  "retrieved_utc": "2026-09-26T03:07:28.090109Z"
+ },
+ {
+  "name": "bitcoin-0.3.10-win32-setup.exe",
+  "size": 5071286,
+  "sha256": "c8b05138230431380ca47f8c3a9ec200b177163d43fd582d627e94130942b001",
+  "sha1": "16645ec5fcdb35bc54bc7195309a1a81105242bb",
+  "md5": "ab9cbb01e705c166770edc20edc55a81",
+  "swhid": "swh:1:cnt:0a271ca85d56e0967003300e6b7125536e2e2e74",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "16645ec5fcdb35bc54bc7195309a1a81105242bb",
+  "sf_md5": "ab9cbb01e705c166770edc20edc55a81",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "satoshi_sha1_posts": [
+   "https://bitcointalk.org/index.php?topic=823.msg9573#msg9573",
+   "https://bitcointalk.org/index.php?topic=823.msg9584#msg9584",
+   "https://bitcointalk.org/index.php?topic=827.msg9590#msg9590"
+  ],
+  "satoshi_match": true,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:16645ec5fcdb35bc54bc7195309a1a81105242bb/raw/",
+  "retrieved_utc": "2026-09-26T02:45:37.902563Z"
+ },
+ {
+  "name": "bitcoin-0.3.10-win32.zip",
+  "size": 5025315,
+  "sha256": "e877262af60d5856a0bb82be404bf85f8dc099476c7bad7e40d7e8c299d9f3f8",
+  "sha1": "4f35ad7711a38fe8c880c6c9beab430824c426d3",
+  "md5": "2abc7f82df94b964a829bc180d5860c7",
+  "swhid": "swh:1:cnt:abf6c1144e62c0f249009e300d3158aa8909dae8",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "4f35ad7711a38fe8c880c6c9beab430824c426d3",
+  "sf_md5": "2abc7f82df94b964a829bc180d5860c7",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224013_Bitcoin_bitcoin-0.3.10.html",
+   "sf_20110505040854_Bitcoin_bitcoin-0.3.10.html"
+  ],
+  "satoshi_sha1_posts": [
+   "https://bitcointalk.org/index.php?topic=823.msg9573#msg9573",
+   "https://bitcointalk.org/index.php?topic=823.msg9584#msg9584",
+   "https://bitcointalk.org/index.php?topic=827.msg9590#msg9590"
+  ],
+  "satoshi_match": true,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:4f35ad7711a38fe8c880c6c9beab430824c426d3/raw/",
+  "retrieved_utc": "2026-09-26T02:44:19.946817Z"
+ },
+ {
+  "name": "bitcoin-0.3.11-linux.tar.gz",
+  "size": 8331636,
+  "sha256": "6dd2d854b0b99ae3eb75cb872a4b712ac59ca3c3fc90d5bef9c9fe605df5a174",
+  "sha1": "a725f95f8cb78356d349d2222513c8085d6690ec",
+  "md5": "d46c2c17783ea42ee5b62cda456c01b4",
+  "swhid": "swh:1:cnt:7d12579df819d84bc8802f5fe3240f8122e3878c",
+  "file": "gzip compressed data, last modified: Fri Aug 27 19:34:11 2010, from Unix, original size modulo 2^32 27043840",
+  "sf_sha1": "a725f95f8cb78356d349d2222513c8085d6690ec",
+  "sf_md5": "d46c2c17783ea42ee5b62cda456c01b4",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:a725f95f8cb78356d349d2222513c8085d6690ec/raw/",
+  "retrieved_utc": "2026-09-26T03:04:04.989838Z"
+ },
+ {
+  "name": "bitcoin-0.3.11-macosx.zip",
+  "size": 6956407,
+  "sha256": "4db5c81c987eaa43cbc174b8c2c7ab960f2e0fb5775851c3e5b9fbefc282ddb8",
+  "sha1": "cb6737211718332f2a27c71506d00f04a17ae0fc",
+  "md5": "56dcd3061f20bf6e2f4f38ef5926e0a8",
+  "swhid": "swh:1:cnt:66d5e1359d4d547ce8856e6636991c3a99efb139",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "cb6737211718332f2a27c71506d00f04a17ae0fc",
+  "sf_md5": "56dcd3061f20bf6e2f4f38ef5926e0a8",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:cb6737211718332f2a27c71506d00f04a17ae0fc/raw/",
+  "retrieved_utc": "2026-09-26T03:07:50.646185Z"
+ },
+ {
+  "name": "bitcoin-0.3.11-win32-setup.exe",
+  "size": 5117341,
+  "sha256": "7f02518cdf20dfe2ecea51aad2e5a0333736f669883b958ff388fab1854ea845",
+  "sha1": "84b4416864cc3946f4079e84b9d2a70ec17fe238",
+  "md5": "da30dc3e2008617e05abd1517028d527",
+  "swhid": "swh:1:cnt:939aeabb1b86d074a276681a3d6b60a708423075",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "84b4416864cc3946f4079e84b9d2a70ec17fe238",
+  "sf_md5": "da30dc3e2008617e05abd1517028d527",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:84b4416864cc3946f4079e84b9d2a70ec17fe238/raw/",
+  "retrieved_utc": "2026-09-26T02:45:42.784746Z"
+ },
+ {
+  "name": "bitcoin-0.3.11-win32.zip",
+  "size": 5070315,
+  "sha256": "1685b233a2d4bc946a1814ac8e1e9c88677b776c4fe6a422987755967d6ae5df",
+  "sha1": "d98890e22d829cb10ec2f113219e6b9c56f39c42",
+  "md5": "38a141d674b1822314f834848977db06",
+  "swhid": "swh:1:cnt:ba1c70cd7b24e03d70395b7dcafe79077f892940",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "d98890e22d829cb10ec2f113219e6b9c56f39c42",
+  "sf_md5": "38a141d674b1822314f834848977db06",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503224026_Bitcoin_bitcoin-0.3.11.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:d98890e22d829cb10ec2f113219e6b9c56f39c42/raw/",
+  "retrieved_utc": "2026-09-26T02:44:25.613468Z"
+ },
+ {
+  "name": "bitcoin-0.3.12-linux.tar.gz",
+  "size": 8329591,
+  "sha256": "62161d12abb484735bee307fffc52c49adac458f6b47c618e7ab1521588830d7",
+  "sha1": "650678608e97b23437fcfb716473db75859c9bae",
+  "md5": "c7d98df1ba6c48c3260a0f4cfd1ee973",
+  "swhid": "swh:1:cnt:89cc239f25d9aa49712a4497cf53a78d86ea030f",
+  "file": "gzip compressed data, last modified: Tue Sep  7 16:21:14 2010, from Unix, original size modulo 2^32 26910720",
+  "sf_sha1": "650678608e97b23437fcfb716473db75859c9bae",
+  "sf_md5": "c7d98df1ba6c48c3260a0f4cfd1ee973",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504095916_Bitcoin_bitcoin-0.3.12.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:650678608e97b23437fcfb716473db75859c9bae/raw/",
+  "retrieved_utc": "2026-09-26T03:04:10.615730Z"
+ },
+ {
+  "name": "bitcoin-0.3.12-win32-setup.exe",
+  "size": 5122967,
+  "sha256": "b04e8386e188c65951e40dda74b92a7ef8d50395d248b99bcb9c506b1421f40a",
+  "sha1": "a4cde0674bed1bc67d0957f0a3d3b1f45e0cdf82",
+  "md5": "f9edc8fb3dc7430a02f95b47f2459df0",
+  "swhid": "swh:1:cnt:c460b91bc4dc94cff67c3ba599b794c9501ea268",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "a4cde0674bed1bc67d0957f0a3d3b1f45e0cdf82",
+  "sf_md5": "f9edc8fb3dc7430a02f95b47f2459df0",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504095916_Bitcoin_bitcoin-0.3.12.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:a4cde0674bed1bc67d0957f0a3d3b1f45e0cdf82/raw/",
+  "retrieved_utc": "2026-09-26T02:45:47.498151Z"
+ },
+ {
+  "name": "bitcoin-0.3.12-win32.zip",
+  "size": 5075903,
+  "sha256": "ddb6625625c6d49b000e6265707f0aeb2dfb4d0c122ab5e2c2b44dea337b2b7e",
+  "sha1": "10dc62c55131058fa135bdf737be5f8fdf3bb684",
+  "md5": "f4d6f756edd98c5b15d142124fd3c912",
+  "swhid": "swh:1:cnt:8a688fda017391f3eda2a61c7a87fa2465749b3a",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "10dc62c55131058fa135bdf737be5f8fdf3bb684",
+  "sf_md5": "f4d6f756edd98c5b15d142124fd3c912",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504095916_Bitcoin_bitcoin-0.3.12.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:10dc62c55131058fa135bdf737be5f8fdf3bb684/raw/",
+  "retrieved_utc": "2026-09-26T02:44:30.814159Z"
+ },
+ {
+  "name": "bitcoin-0.3.13-linux.tar.gz",
+  "size": 8342676,
+  "sha256": "f68fd55d3349c0fc3dff4480112997af1e070007616994330416efd8ef22fc8d",
+  "sha1": "bbb478de3df9c26d2c6dba483bd10a360e8be260",
+  "md5": "afbe01f096b5f79b14b7ec973a2249fa",
+  "swhid": "swh:1:cnt:1a43d95c9188b7b015727225e5ffdb07a14a0c90",
+  "file": "gzip compressed data, last modified: Thu Sep 30 23:43:53 2010, from Unix, original size modulo 2^32 26941440",
+  "sf_sha1": "bbb478de3df9c26d2c6dba483bd10a360e8be260",
+  "sf_md5": "afbe01f096b5f79b14b7ec973a2249fa",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:bbb478de3df9c26d2c6dba483bd10a360e8be260/raw/",
+  "retrieved_utc": "2026-09-26T03:04:17.140708Z"
+ },
+ {
+  "name": "bitcoin-0.3.13-macosx.zip",
+  "size": 6919783,
+  "sha256": "ba63815e120757bc72712ee0050720f1e8a491db49b92c6dc075490e124c7c78",
+  "sha1": "64fc3b2807bcb2f9dbdde75be078efca421b571b",
+  "md5": "659efdddaf49d6b8651ff5dd82a80069",
+  "swhid": "swh:1:cnt:f5651292eb451b289821b6494918d088134bca2f",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "64fc3b2807bcb2f9dbdde75be078efca421b571b",
+  "sf_md5": "659efdddaf49d6b8651ff5dd82a80069",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:64fc3b2807bcb2f9dbdde75be078efca421b571b/raw/",
+  "retrieved_utc": "2026-09-26T03:08:09.060100Z"
+ },
+ {
+  "name": "bitcoin-0.3.13-win32-setup.exe",
+  "size": 5128219,
+  "sha256": "0dc382212b552a1506cf4c0c34fc04850a60d0420a0660c304fddf8e4bda397c",
+  "sha1": "6ca595bbf1301012dc04daed4843ea9255cefef3",
+  "md5": "a21f27a11d3e3179e807402b5e0987e6",
+  "swhid": "swh:1:cnt:72e9c96ec2fc29aa45a4ac5385bb4f22c3ff19ad",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "6ca595bbf1301012dc04daed4843ea9255cefef3",
+  "sf_md5": "a21f27a11d3e3179e807402b5e0987e6",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:6ca595bbf1301012dc04daed4843ea9255cefef3/raw/",
+  "retrieved_utc": "2026-09-26T02:45:52.228254Z"
+ },
+ {
+  "name": "bitcoin-0.3.13-win32.zip",
+  "size": 5081179,
+  "sha256": "a2eb51b1b027df2991d23bc41f28149131b4b4bb1260aa5c7b0150678135c51a",
+  "sha1": "7531d7c0963bfb47601d26672e4d78d01dfc8117",
+  "md5": "17424ee39734d76fdab3216c4e70c202",
+  "swhid": "swh:1:cnt:256132980f933337bd900fbd2d167a7f9b65a3fd",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "7531d7c0963bfb47601d26672e4d78d01dfc8117",
+  "sf_md5": "17424ee39734d76fdab3216c4e70c202",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504231515_Bitcoin_bitcoin-0.3.13.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:7531d7c0963bfb47601d26672e4d78d01dfc8117/raw/",
+  "retrieved_utc": "2026-09-26T02:44:35.537079Z"
+ },
+ {
+  "name": "bitcoin-0.3.14-linux.tar.gz",
+  "size": 9492110,
+  "sha256": "6cb1e360f433089423c3223753e4598fabc497f2bb707b1578c0e865a5da3391",
+  "sha1": "8be982a61a0a0dcf7ac102b108d857c50fdcd602",
+  "md5": "c34c62bc5a79abdbafb1c4e9a7b3949f",
+  "swhid": "swh:1:cnt:9d9aed86bbfb8a4c28baecfae8607bb03e5c11ca",
+  "file": "gzip compressed data, last modified: Wed Oct 20 20:28:17 2010, from Unix, original size modulo 2^32 29706240",
+  "sf_sha1": "8be982a61a0a0dcf7ac102b108d857c50fdcd602",
+  "sf_md5": "c34c62bc5a79abdbafb1c4e9a7b3949f",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504021623_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110627095449_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110806195827_Bitcoin_bitcoin-0.3.14.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:8be982a61a0a0dcf7ac102b108d857c50fdcd602/raw/",
+  "retrieved_utc": "2026-09-26T03:04:23.418465Z"
+ },
+ {
+  "name": "bitcoin-0.3.14-win32-setup.exe",
+  "size": 5163884,
+  "sha256": "b922ac559014f4eabceadb774a0dc350e87579e1b4061a231bec588cdd5ac3af",
+  "sha1": "f6ad09343b1330f63ea72ed828a18aba9eacd0db",
+  "md5": "78551f4e1e91a698ec47550129b36b1d",
+  "swhid": "swh:1:cnt:f94781223daeb5ab64fcabdd60e5c4378d649da4",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "f6ad09343b1330f63ea72ed828a18aba9eacd0db",
+  "sf_md5": "78551f4e1e91a698ec47550129b36b1d",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504021623_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110627095449_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110806195827_Bitcoin_bitcoin-0.3.14.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:f6ad09343b1330f63ea72ed828a18aba9eacd0db/raw/",
+  "retrieved_utc": "2026-09-26T02:45:57.851993Z"
+ },
+ {
+  "name": "bitcoin-0.3.14-win32.zip",
+  "size": 5117122,
+  "sha256": "8af64635938ccfc033ca3d21badc04a1d29392159c3990329905371333283b22",
+  "sha1": "4375f36eafb68802d7ce3dc6b0d3f4a890c684da",
+  "md5": "81651d27669f10d17dbaccfa0480f871",
+  "swhid": "swh:1:cnt:2602d18957b8b32714c880da4a4e2fc4d3f7f113",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "4375f36eafb68802d7ce3dc6b0d3f4a890c684da",
+  "sf_md5": "81651d27669f10d17dbaccfa0480f871",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504021623_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110627095449_Bitcoin_bitcoin-0.3.14.html",
+   "sf_20110806195827_Bitcoin_bitcoin-0.3.14.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:4375f36eafb68802d7ce3dc6b0d3f4a890c684da/raw/",
+  "retrieved_utc": "2026-09-26T02:44:40.969757Z"
+ },
+ {
+  "name": "bitcoin-0.3.15-win32.zip",
+  "size": 5123072,
+  "sha256": "628e13cba236f4a914b2f43747f0d43ee09882cb5f438582e7b9af09d5c7c26e",
+  "sha1": "751383dd72c0cd5758e28e3c1fe76716b98c5bc5",
+  "md5": "2ee3561e643548da78b262dda5595bbd",
+  "swhid": "swh:1:cnt:4461aa2ba1df9c589e4091c3cef48bdeea002cd4",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "751383dd72c0cd5758e28e3c1fe76716b98c5bc5",
+  "sf_md5": "2ee3561e643548da78b262dda5595bbd",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110503043039_Bitcoin_bitcoin-0.3.15.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:751383dd72c0cd5758e28e3c1fe76716b98c5bc5/raw/",
+  "retrieved_utc": "2026-09-26T02:44:45.981171Z"
+ },
+ {
+  "name": "bitcoin-0.3.17-linux.tar.gz",
+  "size": 9585023,
+  "sha256": "ad5e99cdec1d787594b6792fba43611ef9bd8a023840e3c15282dfa3347879a1",
+  "sha1": "c81637bc78d697e212846cf8b68c281eb8edfaec",
+  "md5": "ac458481c8c76d093b7bea39dfbe9252",
+  "swhid": "swh:1:cnt:9cf7f72004f538515f3e90b9cb29f99da867464a",
+  "file": "gzip compressed data, last modified: Thu Nov 25 19:15:25 2010, from Unix, original size modulo 2^32 29931520",
+  "sf_sha1": "c81637bc78d697e212846cf8b68c281eb8edfaec",
+  "sf_md5": "ac458481c8c76d093b7bea39dfbe9252",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:c81637bc78d697e212846cf8b68c281eb8edfaec/raw/",
+  "retrieved_utc": "2026-09-26T03:04:29.446677Z"
+ },
+ {
+  "name": "bitcoin-0.3.17-macosx.zip",
+  "size": 7615800,
+  "sha256": "12ae25ab4c297ace6945ff552a48d4d2f3af082f7b3c2ee51ef171766065a202",
+  "sha1": "fdbf10994e73be9b0fe984a5ad0c0c6e4ae4654f",
+  "md5": "2adafebace5c90bfb8eb482299258779",
+  "swhid": "swh:1:cnt:ef7c1d7d03e8d27148939a1671707e701f623c35",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "fdbf10994e73be9b0fe984a5ad0c0c6e4ae4654f",
+  "sf_md5": "2adafebace5c90bfb8eb482299258779",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:fdbf10994e73be9b0fe984a5ad0c0c6e4ae4654f/raw/",
+  "retrieved_utc": "2026-09-26T03:08:31.006803Z"
+ },
+ {
+  "name": "bitcoin-0.3.17-win32-setup.exe",
+  "size": 5216850,
+  "sha256": "f51bc86986b1d1166b0dc13c835d5fe279aa107f40ed8fc571ed71d645fa9611",
+  "sha1": "e3976c327dab063e34d6b6ed8f5ef24f408de0e4",
+  "md5": "a894563bfe5d2af49f22c103688793d9",
+  "swhid": "swh:1:cnt:5dda7969abc504013d57028d73cf76b28cfb268d",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "e3976c327dab063e34d6b6ed8f5ef24f408de0e4",
+  "sf_md5": "a894563bfe5d2af49f22c103688793d9",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:e3976c327dab063e34d6b6ed8f5ef24f408de0e4/raw/",
+  "retrieved_utc": "2026-09-26T02:46:03.103009Z"
+ },
+ {
+  "name": "bitcoin-0.3.17-win32.zip",
+  "size": 5171178,
+  "sha256": "7bca036e14f9ef127a13aa17e323b2fe57895b769ee2d2e2e30fd8b375d95352",
+  "sha1": "8be548c591dff7963250ca849e0648710cc26dad",
+  "md5": "f88cf555c3c90a059be8d56bbac6d4a3",
+  "swhid": "swh:1:cnt:d2f70eaba8e807558c744e1e9ac70fbf5ec94c0c",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "8be548c591dff7963250ca849e0648710cc26dad",
+  "sf_md5": "f88cf555c3c90a059be8d56bbac6d4a3",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101210060713_Bitcoin_bitcoin-0.3.17.html",
+   "sf_20110504150717_Bitcoin_bitcoin-0.3.17.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:8be548c591dff7963250ca849e0648710cc26dad/raw/",
+  "retrieved_utc": "2026-09-26T02:44:50.770882Z"
+ },
+ {
+  "name": "bitcoin-0.3.18-linux.tar.gz",
+  "size": 9653312,
+  "sha256": "e85039c4bc3f3ce1a66f89e82152d9724589d6851428bc1d645aaafc682578e3",
+  "sha1": "9d6911cb35f51e68177a0253c1f25b834c0e4b67",
+  "md5": "776ec88604a17c8f1af44f87f72a203b",
+  "swhid": "swh:1:cnt:16c7594f081a014b47c990001968ac5cb6b9e5bb",
+  "file": "gzip compressed data, last modified: Wed Dec  8 22:01:58 2010, from Unix, original size modulo 2^32 30074880",
+  "sf_sha1": "9d6911cb35f51e68177a0253c1f25b834c0e4b67",
+  "sf_md5": "776ec88604a17c8f1af44f87f72a203b",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:9d6911cb35f51e68177a0253c1f25b834c0e4b67/raw/",
+  "retrieved_utc": "2026-09-26T03:06:47.694791Z"
+ },
+ {
+  "name": "bitcoin-0.3.18-macosx.zip",
+  "size": 7662914,
+  "sha256": "18283aff58613da0abdea80723bb68c243c6094daebf6d92846ffe14c3fc41d1",
+  "sha1": "5c1e80796f0fbc30604fda5305a98f233f87ea31",
+  "md5": "d74c77eb4fe5de6790d46cb9bcd0bbf5",
+  "swhid": "swh:1:cnt:1c3d1bf2ca8c275bf542525aa73f8f6abbe0c0f6",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "5c1e80796f0fbc30604fda5305a98f233f87ea31",
+  "sf_md5": "d74c77eb4fe5de6790d46cb9bcd0bbf5",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:5c1e80796f0fbc30604fda5305a98f233f87ea31/raw/",
+  "retrieved_utc": "2026-09-26T03:08:53.025457Z"
+ },
+ {
+  "name": "bitcoin-0.3.18-win32-setup.exe",
+  "size": 5292977,
+  "sha256": "68f8163f6db991dbaadb8605fd9cd43a06c58bb4413a3684fdaa5c329a5732df",
+  "sha1": "1f51b0dbe84b000bd7688db76d8a1648b40b84f8",
+  "md5": "193153ec62277628f35eee72626499c5",
+  "swhid": "swh:1:cnt:d331982a0113f242aebae4a2f66033a4a71192b0",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "1f51b0dbe84b000bd7688db76d8a1648b40b84f8",
+  "sf_md5": "193153ec62277628f35eee72626499c5",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:1f51b0dbe84b000bd7688db76d8a1648b40b84f8/raw/",
+  "retrieved_utc": "2026-09-26T02:46:09.628779Z"
+ },
+ {
+  "name": "bitcoin-0.3.18-win32.zip",
+  "size": 5247277,
+  "sha256": "7364aea6a06f15eece39281cab6108d83b873550819d0586377e4a17bb93497c",
+  "sha1": "117b34809776968b794db6aaee46eb86ab02c9d2",
+  "md5": "44a469469be3a9572d740d896dab87c6",
+  "swhid": "swh:1:cnt:be82346081ddd97364d627d7fac0ff137716b820",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "117b34809776968b794db6aaee46eb86ab02c9d2",
+  "sf_md5": "44a469469be3a9572d740d896dab87c6",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502125512_Bitcoin_bitcoin-0.3.18.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:117b34809776968b794db6aaee46eb86ab02c9d2/raw/",
+  "retrieved_utc": "2026-09-26T02:44:56.490447Z"
+ },
+ {
+  "name": "bitcoin-0.3.19-macosx.zip",
+  "size": 7664061,
+  "sha256": "2427e1153d91cc21c9c41bfa406b701b243f24361397e1e4639c4f026aba0dc0",
+  "sha1": "415813cb46179b79fc278db42fd34027fff02b7b",
+  "md5": "0a6e6f0b351ca59a61a2d7de5b057464",
+  "swhid": "swh:1:cnt:bf0b5f9d968e88e5843609caa22da42bf5d63dc0",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "415813cb46179b79fc278db42fd34027fff02b7b",
+  "sf_md5": "0a6e6f0b351ca59a61a2d7de5b057464",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:415813cb46179b79fc278db42fd34027fff02b7b/raw/",
+  "retrieved_utc": "2026-09-26T03:08:58.549314Z"
+ },
+ {
+  "name": "bitcoin-0.3.19-win32-setup.exe",
+  "size": 5293635,
+  "sha256": "cc58d655f417e01dc818c985b4a95dad80fce73075be14da99bf669263c02cdf",
+  "sha1": "e8f06fbac8ac82cc5e89211aebeeea3a8f5e5823",
+  "md5": "b09f028f47fa26fc91ab494611322b26",
+  "swhid": "swh:1:cnt:b7f2bd4f90b711b70fb87774b7fe6733f2243b4d",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "e8f06fbac8ac82cc5e89211aebeeea3a8f5e5823",
+  "sf_md5": "b09f028f47fa26fc91ab494611322b26",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:e8f06fbac8ac82cc5e89211aebeeea3a8f5e5823/raw/",
+  "retrieved_utc": "2026-09-26T02:46:14.353147Z"
+ },
+ {
+  "name": "bitcoin-0.3.19-win32.zip",
+  "size": 5247644,
+  "sha256": "cca58b90a6ea77b3a7525753cbdf94fbf4b10e00d1ce30d7ee1de189e6a8faea",
+  "sha1": "83a957c667e0bd84b24e2bbc39196c02bcbdf705",
+  "md5": "b39dd6f18e0e08cdb60a8ae7b4aad6b4",
+  "swhid": "swh:1:cnt:fc57719d0505c24ce1bc213e87749a7d4501ee67",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "83a957c667e0bd84b24e2bbc39196c02bcbdf705",
+  "sf_md5": "b39dd6f18e0e08cdb60a8ae7b4aad6b4",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20101220023342_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110303060005_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110504095931_Bitcoin_bitcoin-0.3.19.html",
+   "sf_20110514064543_Bitcoin_bitcoin-0.3.19.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:83a957c667e0bd84b24e2bbc39196c02bcbdf705/raw/",
+  "retrieved_utc": "2026-09-26T02:45:03.345529Z"
+ },
+ {
+  "name": "bitcoin-0.3.2-linux.tar.gz",
+  "size": 8680166,
+  "sha256": "23994b1d154ddf2d4be7df7cfb010b1e459cb3de664b392d346b297e2e9af570",
+  "sha1": "11e85f29eec76817a3e4c8d82854219a97f27a0e",
+  "md5": "4479e1c69d2faddb64d25b8c7d30a5c6",
+  "swhid": "swh:1:cnt:b8e8f38d7e9304eccc82a875383e68d13b14ff6b",
+  "file": "gzip compressed data, last modified: Sat Jul 17 14:39:35 2010, from Unix, original size modulo 2^32 31375360",
+  "sf_sha1": "11e85f29eec76817a3e4c8d82854219a97f27a0e",
+  "sf_md5": "4479e1c69d2faddb64d25b8c7d30a5c6",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:11e85f29eec76817a3e4c8d82854219a97f27a0e/raw/",
+  "retrieved_utc": "2026-09-26T02:46:37.345232Z"
+ },
+ {
+  "name": "bitcoin-0.3.2-macosx.zip",
+  "size": 13448509,
+  "sha256": "78a7a3cb6892c6f3658f4697ccbbc1db91630252eb270d2c0874674335d99ba3",
+  "sha1": "ae6d87723318c18c93249acb5b23f18ebcbed06d",
+  "md5": "8d82d58d893b8fdb7b6bf814b4975305",
+  "swhid": "swh:1:cnt:f680bf7267539daa327bf9a2e27000346b26dfb7",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "ae6d87723318c18c93249acb5b23f18ebcbed06d",
+  "sf_md5": "8d82d58d893b8fdb7b6bf814b4975305",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:ae6d87723318c18c93249acb5b23f18ebcbed06d/raw/",
+  "retrieved_utc": "2026-09-26T03:06:59.851136Z"
+ },
+ {
+  "name": "bitcoin-0.3.2-win32-setup.exe",
+  "size": 5181740,
+  "sha256": "4687564b87eaa8566a719ff5dba90c2da75117aba76b8cd9e103c9e81f676a15",
+  "sha1": "bce706477154f81813cebab2c7c5d370636ffbe0",
+  "md5": "cf214f5e7ad4cf1c5f844c88908e25a3",
+  "swhid": "swh:1:cnt:ab9ab1f41f801008c28da31228c07e7ef9ef48e8",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "bce706477154f81813cebab2c7c5d370636ffbe0",
+  "sf_md5": "cf214f5e7ad4cf1c5f844c88908e25a3",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:bce706477154f81813cebab2c7c5d370636ffbe0/raw/",
+  "retrieved_utc": "2026-09-26T02:45:12.946891Z"
+ },
+ {
+  "name": "bitcoin-0.3.2-win32.zip",
+  "size": 5130971,
+  "sha256": "92c8451d48d49adb1e78ef8d8b3d31018c92844891ad3276589d4dda84a276c1",
+  "sha1": "891b1e33e0306e6922c08c8339721a842e23aff8",
+  "md5": "0f0d5686b106b7c60a219cd653707024",
+  "swhid": "swh:1:cnt:e3451043499cd0bdc3b564abc6aace471394bcde",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "891b1e33e0306e6922c08c8339721a842e23aff8",
+  "sf_md5": "0f0d5686b106b7c60a219cd653707024",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502203704_Bitcoin_bitcoin-0.3.2.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:891b1e33e0306e6922c08c8339721a842e23aff8/raw/",
+  "retrieved_utc": "2026-09-26T02:43:55.190245Z"
+ },
+ {
+  "name": "bitcoin-0.3.3-linux.tar.gz",
+  "size": 8813011,
+  "sha256": "ce806358a0378806478118094ceaa87789fdebc8e34bbe9e05350ab17c7f3af3",
+  "sha1": "ddb975bcaa2b673f2f312abce51f085f68527968",
+  "md5": "4591798392bd357f476d56af51a44a11",
+  "swhid": "swh:1:cnt:29a1ff23e1e2934e5a7caab51c8878fa5dafc047",
+  "file": "gzip compressed data, last modified: Sat Jul 24 14:21:51 2010, from Unix, original size modulo 2^32 31682560",
+  "sf_sha1": "ddb975bcaa2b673f2f312abce51f085f68527968",
+  "sf_md5": "4591798392bd357f476d56af51a44a11",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:ddb975bcaa2b673f2f312abce51f085f68527968/raw/",
+  "retrieved_utc": "2026-09-26T02:46:43.540441Z"
+ },
+ {
+  "name": "bitcoin-0.3.3-macosx.zip",
+  "size": 6787568,
+  "sha256": "cdfa4ad837cd2cb4777da4dfabc2dae148ac052d7ee27cc71a1e14a46619ef32",
+  "sha1": "1eb3550fcd94edeb2f6c02d5977739b541745b3a",
+  "md5": "5b905063d7e1dbcfd300e18ed086f692",
+  "swhid": "swh:1:cnt:8c406e5b5add3293e69a122ad74c690b3dc4407c",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "1eb3550fcd94edeb2f6c02d5977739b541745b3a",
+  "sf_md5": "5b905063d7e1dbcfd300e18ed086f692",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:1eb3550fcd94edeb2f6c02d5977739b541745b3a/raw/",
+  "retrieved_utc": "2026-09-26T03:07:05.171389Z"
+ },
+ {
+  "name": "bitcoin-0.3.3-win32-setup.exe",
+  "size": 5348110,
+  "sha256": "76b2a2ff5c66211c8800ec412361cc46ac4957ada3974558ec8ed3607f5d9029",
+  "sha1": "71b24201d4893c4fdea88388f4376ddee3b38a6b",
+  "md5": "1686432dabdde46f2fbcd2ac6f072a9b",
+  "swhid": "swh:1:cnt:a8c85973f408a12a73ae6f52e6e0d7a161b94c00",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "71b24201d4893c4fdea88388f4376ddee3b38a6b",
+  "sf_md5": "1686432dabdde46f2fbcd2ac6f072a9b",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:71b24201d4893c4fdea88388f4376ddee3b38a6b/raw/",
+  "retrieved_utc": "2026-09-26T02:45:18.199655Z"
+ },
+ {
+  "name": "bitcoin-0.3.3-win32.zip",
+  "size": 5298104,
+  "sha256": "0eb62914c8b4370ec6f5b3a8dacc670e743ad2a2a6c7e03a707ddd14acc407da",
+  "sha1": "6e638fa0c46e901e58bc66130a4b8ff4b6340083",
+  "md5": "e1feee4048539603d3d98c569434cbd5",
+  "swhid": "swh:1:cnt:4eae92b1d165e6f34def08f8c6b562ac2ca6708a",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "6e638fa0c46e901e58bc66130a4b8ff4b6340083",
+  "sf_md5": "e1feee4048539603d3d98c569434cbd5",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502204559_Bitcoin_bitcoin-0.3.3.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:6e638fa0c46e901e58bc66130a4b8ff4b6340083/raw/",
+  "retrieved_utc": "2026-09-26T02:44:01.068010Z"
+ },
+ {
+  "name": "bitcoin-0.3.6-a-linux.tar.gz",
+  "size": 8161672,
+  "sha256": "5ec23cccdc6704e001e35d08e273d7befc7e0dc4db0bdeb08e61610ed823e4a6",
+  "sha1": "a64b28c73a2cddad660c13422adb3c9bbfed074b",
+  "md5": "aa9f467117bfcf325e78cd555ee651a7",
+  "swhid": "swh:1:cnt:96665f5a9c1b039bb643febdf7083e52ecb88633",
+  "file": "gzip compressed data, last modified: Fri Jul 30 23:38:36 2010, from Unix, original size modulo 2^32 26593280",
+  "sf_sha1": "a64b28c73a2cddad660c13422adb3c9bbfed074b",
+  "sf_md5": "aa9f467117bfcf325e78cd555ee651a7",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:a64b28c73a2cddad660c13422adb3c9bbfed074b/raw/",
+  "retrieved_utc": "2026-09-26T02:46:55.235054Z"
+ },
+ {
+  "name": "bitcoin-0.3.6-linux.tar.gz",
+  "size": 8077580,
+  "sha256": "c2efabcd9d93a0e80e3239846f91f2b3ea27817d5c37ec05caf57681be2c7a08",
+  "sha1": "c1d7645130b883643fc7d8de1a825dcba7c00765",
+  "md5": "26373b23a1b01398b1dd2b2d1d856cb3",
+  "swhid": "swh:1:cnt:da98929aa66059a841bfddc74e5ce38d4f40fe8d",
+  "file": "gzip compressed data, last modified: Thu Jul 29 19:56:06 2010, from Unix, original size modulo 2^32 26081280",
+  "sf_sha1": "c1d7645130b883643fc7d8de1a825dcba7c00765",
+  "sf_md5": "26373b23a1b01398b1dd2b2d1d856cb3",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:c1d7645130b883643fc7d8de1a825dcba7c00765/raw/",
+  "retrieved_utc": "2026-09-26T02:46:49.189222Z"
+ },
+ {
+  "name": "bitcoin-0.3.6-macosx.zip",
+  "size": 6958566,
+  "sha256": "b403bafa2ee5d98cd54d0b0efb7e931a19430b344481d74618847666b7a25dfe",
+  "sha1": "e4f54860640ece769b4a4f0e48a4989b92e1536e",
+  "md5": "2145fc625535b06dd56dadd0e1cf1c9b",
+  "swhid": "swh:1:cnt:510ef0352a2a8bd9ac807969c2b49abbe43e908f",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "e4f54860640ece769b4a4f0e48a4989b92e1536e",
+  "sf_md5": "2145fc625535b06dd56dadd0e1cf1c9b",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:e4f54860640ece769b4a4f0e48a4989b92e1536e/raw/",
+  "retrieved_utc": "2026-09-26T03:07:11.059409Z"
+ },
+ {
+  "name": "bitcoin-0.3.6-win32-setup.exe",
+  "size": 5029461,
+  "sha256": "babe81a96cb7943b1f445936a4ce5566673af82a25d10f4406dcbb0fd6902e33",
+  "sha1": "a301873afa3e1ba605df5f8546ed693bcf7180cf",
+  "md5": "3f54787c3a240108cc431cc4e11e918b",
+  "swhid": "swh:1:cnt:922c1238b00debd75ce16adf45dcf64ed480fa99",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "a301873afa3e1ba605df5f8546ed693bcf7180cf",
+  "sf_md5": "3f54787c3a240108cc431cc4e11e918b",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:a301873afa3e1ba605df5f8546ed693bcf7180cf/raw/",
+  "retrieved_utc": "2026-09-26T02:45:22.868296Z"
+ },
+ {
+  "name": "bitcoin-0.3.6-win32.zip",
+  "size": 4980253,
+  "sha256": "63e81e78f2ea7d9420eaeb29f37a51eaef964e289575dce212490428f257bc83",
+  "sha1": "92b49e26dcd0315c5ece9cb635a6e2a5f520b551",
+  "md5": "e6e5e055dc548e3284febaca564d0266",
+  "swhid": "swh:1:cnt:48491d64a9f4589be120d61aa76c0f69c0d5310a",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "92b49e26dcd0315c5ece9cb635a6e2a5f520b551",
+  "sf_md5": "e6e5e055dc548e3284febaca564d0266",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110502152247_Bitcoin_bitcoin-0.3.6.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:92b49e26dcd0315c5ece9cb635a6e2a5f520b551/raw/",
+  "retrieved_utc": "2026-09-26T02:44:08.473899Z"
+ },
+ {
+  "name": "bitcoin-0.3.7-linux.tar.gz",
+  "size": 8157862,
+  "sha256": "12adab0862fb760155d58df5244ed41e9a457b462f18c73d77892fefafe94a90",
+  "sha1": "95106b220dc69ddec4570b5e7e0595d0eb220dbe",
+  "md5": "f0bffb9724bc5d41f9c74be105cb3024",
+  "swhid": "swh:1:cnt:6cb6c7126e8d6bcd8c274564854d8133342804d5",
+  "file": "gzip compressed data, last modified: Sat Jul 31 18:28:53 2010, from Unix, original size modulo 2^32 26583040",
+  "sf_sha1": "95106b220dc69ddec4570b5e7e0595d0eb220dbe",
+  "sf_md5": "f0bffb9724bc5d41f9c74be105cb3024",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:95106b220dc69ddec4570b5e7e0595d0eb220dbe/raw/",
+  "retrieved_utc": "2026-09-26T02:47:01.626957Z"
+ },
+ {
+  "name": "bitcoin-0.3.7-macosx.zip",
+  "size": 6896817,
+  "sha256": "00556cebb96c827a1644b6020e66ff430dd28b7a912bf9ea25bca8bf86896f39",
+  "sha1": "624b95d4e6e0c77d745a27747db69c62936a5743",
+  "md5": "cfbe0ec519b3dc9418a911ab2887b230",
+  "swhid": "swh:1:cnt:4e3640bf94d44ebc542c03673b288c5fa6b8d7d7",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "624b95d4e6e0c77d745a27747db69c62936a5743",
+  "sf_md5": "cfbe0ec519b3dc9418a911ab2887b230",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:624b95d4e6e0c77d745a27747db69c62936a5743/raw/",
+  "retrieved_utc": "2026-09-26T03:07:16.924356Z"
+ },
+ {
+  "name": "bitcoin-0.3.7-win32-setup.exe",
+  "size": 5028348,
+  "sha256": "5baec1f0127f8c1175c97f0f9101f75c8446bdc96258aea86ff4e072ac211a07",
+  "sha1": "50c018970e42c63461923747c6c1b7a89ba0a04b",
+  "md5": "87eb5ea7d2c920e530e73ddc86e6e934",
+  "swhid": "swh:1:cnt:4e32b3690146f2b4424169cdb7758c73a599b00e",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "50c018970e42c63461923747c6c1b7a89ba0a04b",
+  "sf_md5": "87eb5ea7d2c920e530e73ddc86e6e934",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:50c018970e42c63461923747c6c1b7a89ba0a04b/raw/",
+  "retrieved_utc": "2026-09-26T02:45:27.635101Z"
+ },
+ {
+  "name": "bitcoin-0.3.7-win32.zip",
+  "size": 4979611,
+  "sha256": "c5ef79989bfbd74cdf7162a3920c05cadc4ad4354e6e43f84fd0daf9f4201ff3",
+  "sha1": "599bdfc3234275ef8dbb901509f7a169f29eaa8e",
+  "md5": "3e371fac3decb8d37732479a92c271ae",
+  "swhid": "swh:1:cnt:5d2dabdde7791021e08ccde326227208d057b36e",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "599bdfc3234275ef8dbb901509f7a169f29eaa8e",
+  "sf_md5": "3e371fac3decb8d37732479a92c271ae",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504150728_Bitcoin_bitcoin-0.3.7.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:599bdfc3234275ef8dbb901509f7a169f29eaa8e/raw/",
+  "retrieved_utc": "2026-09-26T02:44:14.364239Z"
+ },
+ {
+  "name": "bitcoin-0.3.8-linux.tar.gz",
+  "size": 8168620,
+  "sha256": "f01b986cca6f221a7aa8c64869a668ad13c0b73308a6899c9a0ab93d78572e2a",
+  "sha1": "e49166270520873a1e7b723c701221d3738e90cc",
+  "md5": "9a92c9f45e3ac720d591396aed0f0afa",
+  "swhid": "swh:1:cnt:5826408049867439f09d047b8b2f923c08e99d56",
+  "file": "gzip compressed data, last modified: Tue Aug  3 19:58:37 2010, from Unix, original size modulo 2^32 26603520",
+  "sf_sha1": "e49166270520873a1e7b723c701221d3738e90cc",
+  "sf_md5": "9a92c9f45e3ac720d591396aed0f0afa",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:e49166270520873a1e7b723c701221d3738e90cc/raw/",
+  "retrieved_utc": "2026-09-26T02:47:06.853274Z"
+ },
+ {
+  "name": "bitcoin-0.3.8-macosx.zip",
+  "size": 6907755,
+  "sha256": "ff67b0ff8ade90077685617e9e5dc3e07f32fd56979d19f92cd2786d91a566a9",
+  "sha1": "8d0f72c7c43fc94e959bdb139c50b3e37c6391f5",
+  "md5": "3942d55a07ef99a09d050e6aa2a474f2",
+  "swhid": "swh:1:cnt:492a0e067c1658fefd272e1617f6c96fcf5fe233",
+  "file": "Zip archive data, at least v1.0 to extract, compression method=store",
+  "sf_sha1": "8d0f72c7c43fc94e959bdb139c50b3e37c6391f5",
+  "sf_md5": "3942d55a07ef99a09d050e6aa2a474f2",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:8d0f72c7c43fc94e959bdb139c50b3e37c6391f5/raw/",
+  "retrieved_utc": "2026-09-26T03:07:22.904360Z"
+ },
+ {
+  "name": "bitcoin-0.3.8-win32-setup.exe",
+  "size": 5043499,
+  "sha256": "dd945ef1b52afef4f599e0ee091a04c1c637ec0a43e67f179e0de7ee515f4acc",
+  "sha1": "5d8abb2f088da21de8667795c7af90a3a739e173",
+  "md5": "683c65b4c6aac1668de0d0739111bd17",
+  "swhid": "swh:1:cnt:05f181cb97a785e00128e6119967e5836e7fa2a4",
+  "file": "PE32 executable (GUI) Intel 80386, for MS Windows, Nullsoft Installer self-extracting archive",
+  "sf_sha1": "5d8abb2f088da21de8667795c7af90a3a739e173",
+  "sf_md5": "683c65b4c6aac1668de0d0739111bd17",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/api/1/content/sha1:5d8abb2f088da21de8667795c7af90a3a739e173/raw/",
+  "retrieved_utc": "2026-09-26T02:45:32.653656Z"
+ },
+ {
+  "name": "bitcoin-0.3.8.1-linux.tar.gz",
+  "size": 8168849,
+  "sha256": "970fcebb615b3594ce9548e5706b4c3187111d5a7c1f5e0136d43ef0b3476b2d",
+  "sha1": "d6402bdbe29ec6fb7df96425aa521b90ff7ad0de",
+  "md5": "52eb8ed3cd04f6bf350e2c2183242112",
+  "swhid": "swh:1:cnt:a9e873365cd6f6c8ff8cd03b05017fd3d87aff72",
+  "file": "gzip compressed data, last modified: Mon Aug  9 20:20:51 2010, from Unix, original size modulo 2^32 26603520",
+  "sf_sha1": "d6402bdbe29ec6fb7df96425aa521b90ff7ad0de",
+  "sf_md5": "52eb8ed3cd04f6bf350e2c2183242112",
+  "sf_match": true,
+  "sf_pages": [
+   "sf_20110504100113_Bitcoin_bitcoin-0.3.8.html"
+  ],
+  "satoshi_sha1_posts": [],
+  "satoshi_match": null,
+  "source_url": "https://archive.softwareheritage.org/browse/content/sha1:d6402bdbe29ec6fb7df96425aa521b90ff7ad0de/raw/",
+  "retrieved_utc": "2026-09-26T03:03:54.145942Z"
+ }
+]

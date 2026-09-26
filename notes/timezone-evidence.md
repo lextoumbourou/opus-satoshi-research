@@ -19,6 +19,29 @@ This note is about **machine settings** (clocks, time zones), which are differen
 | 2010-10-03 | bitcointalk msg15116 ("Version 0.3.13, please upgrade", posted **20:02:24 UTC**, never edited). It contains Satoshi's own `diff -u` output with Windows paths and ctime-style local mtimes: `--- old\main.cpp  Sun Oct 03 20:57:20 2010` / `+++ new\main.cpp  Sun Oct 03 20:57:54 2010` (also serialize.h at 20:57:45/20:57:54). | The edited file must predate the post, so the **dev machine's local time was ≥ UTC+0:55**. That rules out fixed UTC and every American zone. On **BST (+1)** the file was saved at 19:57:54 UTC, **4.5 min before he posted**, between his 19:49 and 20:02 posts. CEST (+2) is possible (18:57 UTC, also inside his session). The same evening his Thunderbird email to Malmi is stamped `Sun, 03 Oct 2010 21:27:29 +0100`. | VERIFIED data; INFERENCE: not UTC/Americas (high), BST (medium-high) | Spotted by the corpus subagent; not found in prior art |
 | 2010-08-15 | bitcointalk msg9359 (03:40:29 UTC): `--- \old\sha.cpp Mon Jul 26 13:31:11 2010` / `+++ \new\sha.cpp Sat Aug 14 20:21:08 2010` | Only requires ≥ UTC−7h19m. Consistent with BST (saved 19:21 UTC, posted 8 h later at 04:40 BST, night-owl pattern). Not discriminating on its own. | VERIFIED; weak | — |
 
+### The build machine across 17 releases (0.2.0 – 0.3.19), VERIFIED
+
+Source: 61 original release files recovered by a subagent from Software Heritage (by hash). All 61 match the SHA1 and MD5 that SourceForge published in 2010–11, and the 0.3.10 set also matches the SHA1s Satoshi posted himself (bitcointalk topic 827, 2010-08-15). See `data/releases/later/PROVENANCE.md`.
+
+Satoshi packed the Windows ZIPs with **Info-ZIP Zip 2.3 on Win32** (host 11, NT security-descriptor extra field). They carry his version-number timestamps (`01:01:00`). Every entry stores **both** the DOS local time **and** a UT extra field with the UTC mtime. Local minus UTC is the packing machine's offset (`scripts/zip_offsets.py`, output in `data/releases/later-analysis/win32-zip-offsets.txt`):
+
+| Release | Packed | Offset on every entry |
+|---|---|---|
+| 0.2.0 | Dec 2009 | **+0:00** (67/67) |
+| 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.6, 0.3.7 | Jul 2010 | **+1:00** (all entries) |
+| 0.3.10, 0.3.11 | Aug 2010 | **+1:00** |
+| 0.3.12, 0.3.13 | Sep 2010 | **+1:00** |
+| 0.3.14 | 20 Oct 2010 | **+1:00** |
+| 0.3.15, 0.3.17, 0.3.18, 0.3.19 | Nov–Dec 2010 | **+0:00** for files modified after 13 Nov; **+1:00** for files last modified in summer (26 Jun – 6 Oct 2010), because the Windows CRT applies each file's own date's DST rule |
+
+Cross-check: in the three releases where Satoshi didn't normalise the exe time (0.3.3, 0.3.7, 0.3.14), the zip's UTC mtime equals the PE link timestamp **to the second**, and the local time is exactly 1 h ahead. For example, 0.3.14 `bitcoin.exe` was linked at 19:56:41Z, with zip UTC 19:56:41 and zip local 20:56:42. So the clock was consistent and the local display was BST.
+
+The Linux tarballs (GNU tar as root, `root/root` 0/0, so no personal username) store the version-scheme times as **00:01:00Z in summer** and **01:01:00Z in winter**. That's "01:01" set on a machine that was UTC+1 in summer and UTC+0 in winter (`data/releases/later-analysis/linux-tar-headers.txt`).
+
+Reading: +0 in winter and +1 in summer is the **Western European (UK, Ireland, Portugal, Canaries, Faroes)** rule. It rules out CET (+1/+2), West Africa (+1 all year), Morocco (+0 by Sep–Oct 2010; the Sep and Oct zips are +1), Iceland, and all American and Asian zones. This is the *build/packaging* machine, independent of the email evidence.
+
+The 0.3.19 exe was linked at **01:54 GMT on 13 Dec 2010**. SourceForge lists the zip at 22:38 UTC on 12 Dec, but its newest non-normalised entry is 22:38:40 on 12 Dec, which fits Info-ZIP `-o` (archive stamped with its latest entry) and an upload that preserved that time. So there's no conflict. It also explains why SourceForge dates often show `xx:01:00`.
+
 ### Same-message check: Date offset vs Message-ID time (VERIFIED)
 
 For the same message, Thunderbird writes the Message-ID (hex UTC seconds from `PR_Now()`) and the `Date:` header (local time + OS offset) at the moment of sending. Where both survive (Malmi's or the list archive's copies, via `data/satoshi/posts.jsonl`), **local time − offset equals the Message-ID time to the second**:
