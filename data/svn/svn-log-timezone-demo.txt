@@ -1,0 +1,12 @@
+== TZ=Europe/London svn log -r 15:17 https://svn.code.sf.net/p/bitcoin/code
+r15 | s_nakamoto | 2009-10-21 02:08:05 +0100 (Wed, 21 Oct 2009) | 1 line
+r17 | s_nakamoto | 2009-10-25 04:35:01 +0000 (Sun, 25 Oct 2009) | 1 line
+== TZ=America/New_York svn log -r 15:17 https://svn.code.sf.net/p/bitcoin/code
+r15 | s_nakamoto | 2009-10-20 21:08:05 -0400 (Tue, 20 Oct 2009) | 1 line
+r17 | s_nakamoto | 2009-10-25 00:35:01 -0400 (Sun, 25 Oct 2009) | 1 line
+== TZ=Asia/Tokyo svn log -r 15:17 https://svn.code.sf.net/p/bitcoin/code
+r15 | s_nakamoto | 2009-10-21 10:08:05 +0900 (Wed, 21 Oct 2009) | 1 line
+r17 | s_nakamoto | 2009-10-25 13:35:01 +0900 (Sun, 25 Oct 2009) | 1 line
+== svn propget --revprop svn:date (stored value)
+r15 2009-10-21T01:08:05.296300Z
+r17 2009-10-25T04:35:01.974325Z
