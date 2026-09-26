@@ -1,0 +1,35 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 26 Sep 2026 02:33:58 GMT
+content-type: image/png
+content-length: 13815
+x-archive-orig-date: Sun, 10 Apr 2011 02:47:34 GMT
+x-archive-orig-server: Apache
+x-archive-orig-last-modified: Wed, 04 Feb 2009 22:57:10 GMT
+x-archive-orig-etag: "cc728-35f7-4621fb52d5d80"
+x-archive-orig-accept-ranges: bytes
+x-archive-orig-content-length: 13815
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sun, 10 Apr 2011 02:47:34 GMT
+link: <http://www.bitcoin.org/screen3.png>; rel="original", <https://web.archive.org/web/timemap/link/http://www.bitcoin.org/screen3.png>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://www.bitcoin.org/screen3.png>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: live-20110409200519735-03732-03826/live-20110410020621419-03789.arc.gz
+server-timing: captures_list;dur=0.356555, exclusion.robots;dur=0.029170, exclusion.robots.policy;dur=0.020929, esindex;dur=0.008258, cdx.remote;dur=8.985333, LoadShardBlock;dur=123.721211, PetaboxLoader3.resolve;dur=91.821028, PetaboxLoader3.datanode;dur=107.810612, load_resource;dur=112.586856
+x-app-server: wwwb-app262-dc8
+x-ts: 200
+x-tr: 257
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app262; path=/
+cache-control: private
+x-location: All
+x-as: 7545
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: TPG Telecom Limited
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

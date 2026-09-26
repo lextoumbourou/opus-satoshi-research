@@ -1,0 +1,310 @@
+2001-03  total=   11  match=  0
+2001-04  total=   64  match=  0
+2001-05  total=   84  match=  0
+2001-06  total=  158  match=  0
+2001-07  total=  158  match=  0
+2001-08  total=   94  match=  1
+2001-09  total=  426  match=  3
+2001-10  total=  205  match=  4
+2001-11  total=  138  match=  0
+2001-12  total=  158  match=  0
+2002-01  total=  301  match=  1
+2002-02  total=  187  match=  3
+2002-03  total=  140  match=  8
+2002-04  total=   78  match=  2
+2002-05  total=   80  match=  0
+2002-06  total=  184  match=  4
+2002-07  total=  247  match=  0
+2002-08  total=  332  match= 25
+2002-09  total=  182  match=  1
+2002-10  total=  176  match=  8
+2002-11  total=  140  match=  0
+2002-12  total=  101  match=  0
+2003-01  total=  240  match=  3
+2003-02  total=  163  match=  2
+2003-03  total=  339  match=  1
+2003-04  total=  215  match=  5
+2003-05  total=  228  match=  9
+2003-06  total=  363  match=  2
+2003-07  total=  160  match=  1
+2003-08  total=   82  match=  2
+2003-09  total=  376  match=  4
+2003-10  total=  368  match=  1
+2003-11  total=  106  match=  1
+2003-12  total=  288  match=  2
+2004-01  total=   89  match=  0
+2004-02  total=    3  match=  0
+2004-03  total=    5  match=  0
+2004-04  total=  152  match=  0
+2004-05  total=  147  match=  9
+2004-06  total=  154  match=  0
+2004-07  total=  187  match=  2
+2004-08  total=  199  match=  3
+2004-09  total=  205  match=  5
+2004-10  total=  123  match=  1
+2004-11  total=   90  match=  0
+2004-12  total=  128  match=  5
+2005-01  total=  151  match=  0
+2005-02  total=  227  match=  0
+2005-03  total=  201  match=  2
+2005-04  total=   29  match=  0
+2005-05  total=   81  match=  1
+2005-06  total=  291  match=  2
+2005-07  total=  257  match=  1
+2005-08  total=  245  match=  5
+2005-09  total=  192  match=  1
+2005-10  total=  170  match=  0
+2005-11  total=  167  match=  0
+2005-12  total=  281  match=  0
+2006-01  total=  122  match=  2
+2006-02  total=  179  match=  1
+2006-03  total=  144  match=  1
+2006-04  total=   99  match=  4
+2006-05  total=  157  match=  1
+2006-06  total=  115  match=  0
+2006-07  total=  123  match=  0
+2006-08  total=   83  match=  2
+2006-09  total=  226  match=  2
+2006-10  total=  103  match=  2
+2006-11  total=   63  match=  0
+2006-12  total=   77  match=  1
+2007-01  total=  172  match=  0
+2007-02  total=  131  match=  4
+2007-03  total=   32  match=  0
+2007-04  total=  113  match=  0
+2007-05  total=  170  match=  0
+2007-06  total=  145  match=  0
+2007-07  total=  121  match=  2
+2007-08  total=   76  match=  0
+2007-09  total=  142  match=  1
+2007-10  total=  154  match=  1
+2007-11  total=   76  match=  1
+2007-12  total=  144  match=  0
+2008-01  total=  235  match=  0
+2008-02  total=  197  match=  0
+2008-03  total=   91  match=  0
+2008-04  total=   96  match=  0
+2008-05  total=  163  match=  0
+2008-06  total=  138  match=  0
+2008-07  total=  175  match=  0
+2008-08  total=  216  match=  0
+2008-09  total=  126  match=  0
+2008-10  total=   58  match=  0
+2008-11  total=   68  match=  0
+2008-12  total=  106  match=  0
+2009-01  total=  113  match=  0
+2009-02  total=  117  match=  0
+2009-03  total=   56  match=  0
+2009-04  total=   19  match=  0
+2009-05  total=  112  match=  0
+2009-06  total=   43  match=  0
+2009-07  total=  112  match=  0
+2009-08  total=  139  match=  0
+2009-09  total=  100  match=  0
+2009-10  total=   85  match=  0
+2009-11  total=  106  match=  0
+2010-03  total=   55  match=  2
+2010-04  total=   59  match=  0
+2010-05  total=    4  match=  0
+2010-06  total=    7  match=  0
+2010-07  total=  254  match=  0
+2010-08  total=  231  match=  0
+2010-09  total=  152  match=  0
+2010-10  total=   58  match=  0
+2011-08  total=   23  match=  0
+2013-06  total=   10  match=  0
+2013-07  total=   11  match=  0
+2013-08  total=  169  match=  0
+2013-09  total=  891  match=  6
+2013-10  total=  552  match=  9
+2013-11  total=  409  match=  1
+2013-12  total=  535  match=  0
+2014-01  total=  436  match=  2
+2014-02  total=  304  match=  0
+2014-03  total=  498  match=  0
+2014-04  total=  557  match=  0
+2014-05  total=  348  match=  0
+2014-06  total=  533  match=  0
+2014-07  total=  235  match=  0
+2014-08  total=  357  match=  0
+2014-09  total=  413  match=  0
+2014-10  total=  371  match=  0
+2014-11  total=  278  match=  0
+2014-12  total=  457  match=  0
+
+# matching posts
+2001-08 | Thu, 2 Aug 2001 20:28:59 -0400 | adam at cypherspace.org (Adam Back) | GESG Identity-Based Public Key Cryptography (ID-PKC)
+2001-09 | Fri, 21 Sep 2001 00:04:10 +0100 | adam at cypherspace.org (Adam Back) | <nettime> "Pirate Utopia," FEED, February 20, 2001
+2001-09 | Fri, 21 Sep 2001 18:19:43 +0100 | adam at cypherspace.org (Adam Back) | <nettime> "Pirate Utopia," FEED, February 20, 2001
+2001-09 | Sat, 22 Sep 2001 16:11:08 +0100 | adam at cypherspace.org (Adam Back) | <nettime> "Pirate Utopia," FEED, February 20, 2001
+2001-10 | Mon, 15 Oct 2001 23:43:25 +0100 | adam at cypherspace.org (Adam Back) | First Steganographic Image in the Wild
+2001-10 | Wed, 17 Oct 2001 02:20:28 +0100 | adam at cypherspace.org (Adam Back) | limits of watermarking (Re: First Steganographic Image in the Wild)
+2001-10 | Wed, 17 Oct 2001 14:54:17 +0100 | adam at cypherspace.org (Adam Back) | limits of watermarking (Re: First Steganographic Image in the Wild)
+2001-10 | Sat, 20 Oct 2001 00:07:03 +0100 | adam at cypherspace.org (Adam Back) | limits of watermarking (Re: First Steganographic Image in theWild)
+2002-01 | Mon, 21 Jan 2002 20:50:22 +0000 | adam at cypherspace.org (Adam Back) | PGP & GPG compatibility
+2002-02 | Mon, 11 Feb 2002 09:33:32 +0000 | adam at cypherspace.org (Adam Back) | why there is no WoT in S/MIME (Re: PGP & GPG compatibility)
+2002-02 | Mon, 11 Feb 2002 09:48:56 +0000 | adam at cypherspace.org (Adam Back) | whats bad about RFIDs in currency (Re: Where's the smart money?)
+2002-02 | Tue, 12 Feb 2002 23:16:17 +0000 | adam at cypherspace.org (Adam Back) | CFS vs. loopback encryption (was Re: [open-source] File encryption)
+2002-03 | Fri, 22 Mar 2002 00:06:15 +0000 | adam at cypherspace.org (Adam Back) | Secure peripheral cards
+2002-03 | Fri, 22 Mar 2002 12:24:25 +0000 | adam at cypherspace.org (Adam Back) | fast SSL accelerators (Re: Secure peripheral cards)
+2002-03 | Mon, 25 Mar 2002 12:14:49 +0000 | adam at cypherspace.org (Adam Back) | RSA on general-purpose CPU's [was:RE: Secure peripheral cards]
+2002-03 | Tue, 26 Mar 2002 18:15:22 +0000 | adam at cypherspace.org (Adam Back) | ciphersaber-2 human memorable test vectors
+2002-03 | Fri, 29 Mar 2002 23:02:44 +0000 | adam at cypherspace.org (Adam Back) | ciphersaber-2 human memorable test vectors
+2002-03 | Sat, 30 Mar 2002 19:50:12 +0000 | adam at cypherspace.org (Adam Back) | ciphersaber-2 human memorable test vectors
+2002-03 | Sun, 31 Mar 2002 18:08:51 +0100 | adam at cypherspace.org (Adam Back) | on the state of PGP compatibility (2nd try)
+2002-03 | Mon, 1 Apr 2002 01:34:35 +0100 | adam at cypherspace.org (Adam Back) | what is GPG's #1 objective: security or anti-patent stance ( Re: on th
+2002-04 | Fri, 19 Apr 2002 14:51:59 +0100 | adam at cypherspace.org (Adam Back) | objectivity and factoring analysis
+2002-04 | Tue, 23 Apr 2002 00:37:50 +0100 | adam at cypherspace.org (Adam Back) | objectivity and factoring analysis
+2002-06 | Fri, 21 Jun 2002 16:26:38 +0100 | adam at cypherspace.org (Adam Back) | Shortcut digital signature verification failure
+2002-06 | Fri, 21 Jun 2002 17:01:02 +0100 | adam at cypherspace.org (Adam Back) | Shortcut digital signature verification failure
+2002-06 | Wed, 26 Jun 2002 20:37:12 +0100 | adam at cypherspace.org (Adam Back) | Ross's TCPA paper
+2002-06 | Wed, 26 Jun 2002 23:03:08 +0100 | adam at cypherspace.org (Adam Back) | DRMs vs internet privacy (Re: Ross's TCPA paper)
+2002-08 | Mon, 5 Aug 2002 06:00:31 +0100 | adam at cypherspace.org (Adam Back) | dangers of TCPA/palladium
+2002-08 | Mon, 5 Aug 2002 21:46:43 +0100 | adam at cypherspace.org (Adam Back) | dangers of TCPA/palladium
+2002-08 | Mon, 5 Aug 2002 22:26:28 +0100 | adam at cypherspace.org (Adam Back) | more TCPA stuff (Re: "trust me" pseudonyms in TCPA)
+2002-08 | Wed, 7 Aug 2002 00:57:43 +0100 | adam at cypherspace.org (Adam Back) | USENIX Security TCPA/Palladium Panel Wednesday
+2002-08 | Wed, 7 Aug 2002 07:20:16 +0100 | adam at cypherspace.org (Adam Back) | dangers of TCPA/palladium
+2002-08 | Wed, 7 Aug 2002 18:54:31 +0100 | adam at cypherspace.org (Adam Back) | Palladium: technical limits and implications (Re: more TCPA stuff (Re:
+2002-08 | Wed, 7 Aug 2002 21:38:55 +0100 | adam at cypherspace.org (Adam Back) | Palladium: hardware layering model (Re: Palladium: technical limits an
+2002-08 | Wed, 7 Aug 2002 22:21:42 +0100 | adam at cypherspace.org (Adam Back) | Challenge to TCPA/Palladium detractors
+2002-08 | Thu, 8 Aug 2002 06:34:15 +0100 | adam at cypherspace.org (Adam Back) | Palladium: hardware layering model
+2002-08 | Fri, 9 Aug 2002 17:08:49 +0100 | adam at cypherspace.org (Adam Back) | md5 for bootstrap checksum of md5 implementations? (Re: [ANNOUNCE] Ope
+2002-08 | Fri, 9 Aug 2002 22:13:56 +0100 | adam at cypherspace.org (Adam Back) | TCPA/Palladium -- likely future implications (Re: dangers of TCPA/pall
+2002-08 | Sat, 10 Aug 2002 05:37:30 +0100 | adam at cypherspace.org (Adam Back) | p2p DoS resistance and network stability (Re: Thanks, Lucky, for helpi
+2002-08 | Mon, 12 Aug 2002 17:14:42 +0100 | adam at cypherspace.org (Adam Back) | Palladium: technical limits and implications
+2002-08 | Mon, 12 Aug 2002 19:30:00 +0100 | adam at cypherspace.org (Adam Back) | Palladium: technical limits and implications
+2002-08 | Mon, 12 Aug 2002 21:07:59 +0100 | adam at cypherspace.org (Adam Back) | trade-offs of secure programming with Palladium (Re: Palladium: techni
+2002-08 | Mon, 12 Aug 2002 22:13:58 +0100 | adam at cypherspace.org (Adam Back) | trade-offs of secure programming with Palladium (Re: Palladium: techni
+2002-08 | Wed, 14 Aug 2002 16:09:24 +0100 | adam at cypherspace.org (Adam Back) | MS on Palladium, DRM and copy-protection (via job ad)
+2002-08 | Wed, 14 Aug 2002 20:02:21 +0100 | adam at cypherspace.org (Adam Back) | TCPA/Palladium user interst vs third party interest (Re: responding to
+2002-08 | Thu, 15 Aug 2002 07:06:04 +0100 | adam at cypherspace.org (Adam Back) | TCPA not virtualizable during ownership change (Re: Overcoming the pot
+2002-08 | Fri, 16 Aug 2002 01:44:58 +0100 | adam at cypherspace.org (Adam Back) | TCPA not virtualizable during ownership change (Re: Overcoming the pot
+2002-08 | Fri, 16 Aug 2002 02:23:05 +0100 | adam at cypherspace.org (Adam Back) | employment market for applied cryptographers?
+2002-08 | Sun, 18 Aug 2002 16:58:56 +0100 | adam at cypherspace.org (Adam Back) | Cryptographic privacy protection in TCPA
+2002-08 | Wed, 21 Aug 2002 03:24:21 +0100 | adam at cypherspace.org (Adam Back) | Cryptographic privacy protection in TCPA
+2002-08 | Thu, 22 Aug 2002 16:54:51 +0100 | adam at cypherspace.org (Adam Back) | the underground software vulnerability marketplace and its hazards (fw
+2002-08 | Sat, 24 Aug 2002 17:11:42 +0100 | adam at cypherspace.org (Adam Back) | Cryptographic privacy protection in TCPA
+2002-09 | Tue, 17 Sep 2002 22:05:36 +0100 | adam at cypherspace.org (Adam Back) | but _is_ the pentium securely virtualizable? (Re: Cryptogram: Palladiu
+2002-10 | Thu, 17 Oct 2002 19:15:38 +0100 | adam at cypherspace.org (Adam Back) | palladium presentation - anyone going?
+2002-10 | Mon, 21 Oct 2002 22:52:20 +0100 | adam at cypherspace.org (Adam Back) | palladium presentation - anyone going?
+2002-10 | Tue, 22 Oct 2002 06:09:32 +0100 | adam at cypherspace.org (Adam Back) | Why is RMAC resistant to birthday attacks?
+2002-10 | Tue, 22 Oct 2002 16:52:16 +0100 | adam at cypherspace.org (Adam Back) | Palladium -- trivially weak in hw but "secure in software"?? (Re: pall
+2002-10 | Tue, 22 Oct 2002 22:53:33 +0100 | adam at cypherspace.org (Adam Back) | comparing RMAC to AES+CBC-MAC or XCBC (Re: Why is RMAC resistant to bi
+2002-10 | Wed, 23 Oct 2002 20:49:24 +0100 | adam at cypherspace.org (Adam Back) | comparing RMAC to AES+CBC-MAC or XCBC (Re: Why is RMAC resistant to bi
+2002-10 | Thu, 24 Oct 2002 21:00:19 +0100 | adam at cypherspace.org (Adam Back) | comparing RMAC to AES+CBC-MAC or XCBC (Re: Why is RMAC resistant to bi
+2002-10 | Thu, 31 Oct 2002 00:28:56 +0000 | adam at cypherspace.org (Adam Back) | patent free(?) anonymous credential system pre-print
+2003-01 | Fri, 10 Jan 2003 00:51:13 +0000 | adam at cypherspace.org (Adam Back) | DeCSS, crypto, law, and economics
+2003-01 | Tue, 21 Jan 2003 17:07:58 +0000 | adam at cypherspace.org (Adam Back) | deadbeef attack was choose low order RSA bits (Re: Key Pair Agreement?
+2003-01 | Thu, 23 Jan 2003 18:01:52 +0000 | adam at cypherspace.org (Adam Back) | deadbeef attack was choose low order RSA bits (Re: Key Pair Agreement?
+2003-02 | Tue, 4 Feb 2003 22:16:50 +0000 | adam at cypherspace.org (Adam Back) | DRM with remote attestation (Re: A talk on Intellectual Property and N
+2003-02 | Fri, 7 Feb 2003 01:07:16 +0000 | adam at cypherspace.org (Adam Back) | password based key-wrap (Re: The Crypto Gardening Guide and Planting T
+2003-03 | Mon, 3 Mar 2003 02:04:43 +0000 | adam at cypherspace.org (Adam Back) | NSA being used to influence UN votes on Iraq
+2003-04 | Fri, 18 Apr 2003 22:12:30 +0100 | adam at cypherspace.org (Adam Back) | the futility of DRM (Re: DMCA Crypto Software)
+2003-04 | Wed, 23 Apr 2003 21:40:07 +0100 | adam at cypherspace.org (Adam Back) | DRM technology and policy
+2003-04 | Thu, 24 Apr 2003 18:56:21 +0100 | adam at cypherspace.org (Adam Back) | sw and films after copyright? (Re: DRM technology and policy)
+2003-04 | Thu, 24 Apr 2003 19:04:17 +0100 | adam at cypherspace.org (Adam Back) | what moral obligation? (Re: DRM technology and policy)
+2003-04 | Tue, 29 Apr 2003 23:36:21 +0100 | adam at cypherspace.org (Adam Back) | [Lucrative-L] double spends, identity agnosticism, and Lucrative
+2003-05 | Sun, 4 May 2003 19:08:18 +0100 | adam at cypherspace.org (Adam Back) | pgp-in-50-lines-of-perl? (Re: The Pure Crypto Project's Hash Function)
+2003-05 | Tue, 6 May 2003 04:06:30 +0100 | adam at cypherspace.org (Adam Back) | pgp-in-50-lines-of-perl? (Re: The Pure Crypto Project's Hash Function)
+2003-05 | Fri, 9 May 2003 03:40:24 +0100 | adam at cypherspace.org (Adam Back) | A Trial Balloon to Ban Email?
+2003-05 | Mon, 12 May 2003 21:45:57 +0100 | adam at cypherspace.org (Adam Back) | economics of spam (Re: A Trial Balloon to Ban Email?)
+2003-05 | Tue, 13 May 2003 20:08:54 +0100 | adam at cypherspace.org (Adam Back) | Payments as an answer to spam
+2003-05 | Tue, 13 May 2003 20:50:17 +0100 | adam at cypherspace.org (Adam Back) | economics of spam (Re: A Trial Balloon to Ban Email?)
+2003-05 | Thu, 15 May 2003 06:41:32 +0100 | adam at cypherspace.org (Adam Back) | deterring coin re-use with offline coins (Re: A Trial Balloon to Ban E
+2003-05 | Thu, 15 May 2003 09:56:17 +0100 | adam at cypherspace.org (Adam Back) | using PoW + filters to avoid false positives (Re: Re: A Trial Balloon 
+2003-05 | Fri, 16 May 2003 18:33:49 +0100 | adam at cypherspace.org (Adam Back) | cryptographic whitelist tokens (Re: economics of spam)
+2003-06 | Sat, 14 Jun 2003 23:04:12 +0100 | adam at cypherspace.org (Adam Back) | Session Fixation Vulnerability in Web Based Apps
+2003-06 | Mon, 16 Jun 2003 03:29:30 +0100 | adam at cypherspace.org (Adam Back) | Session Fixation Vulnerability in Web Based Apps
+2003-07 | Wed, 16 Jul 2003 00:33:08 +0100 | adam at cypherspace.org (Adam Back) | httpsy, SSH and eternal resource locator/WAX (Re: Announcing httpsy://
+2003-08 | Wed, 27 Aug 2003 22:05:07 -0700 | adam at cypherspace.org (Adam Back) | traffix analysis
+2003-08 | Thu, 28 Aug 2003 17:02:35 -0700 | adam at cypherspace.org (Adam Back) | traffic analysis
+2003-09 | Sat, 6 Sep 2003 18:11:20 -0700 | adam at cypherspace.org (Adam Back) | cryptographic ergodic sequence generators?
+2003-09 | Wed, 24 Sep 2003 15:33:56 -0700 | adam at cypherspace.org (Adam Back) | why are CAs charging so much for certs anyway? (Re: End of the line fo
+2003-09 | Wed, 24 Sep 2003 19:18:06 -0700 | adam at cypherspace.org (Adam Back) | why are CAs charging so much for certs anyway? (Re: End of the line fo
+2003-09 | Fri, 26 Sep 2003 15:28:13 -0700 | adam at cypherspace.org (Adam Back) | efficiency?? vs security with symmetric crypto? (Re: Tinc's response t
+2003-10 | Wed, 1 Oct 2003 14:21:31 -0700 | adam at cypherspace.org (Adam Back) | how simple is SSL? (Re: Monoculture)
+2003-11 | Wed, 12 Nov 2003 15:57:42 -0800 | adam at cypherspace.org (Adam Back) | Protection against offline dictionary attack on static files
+2003-12 | Fri, 26 Dec 2003 21:37:18 -0500 | adam at cypherspace.org (Adam Back) | Microsoft publicly announces Penny Black PoW postage project
+2003-12 | Sun, 28 Dec 2003 13:29:27 -0500 | adam at cypherspace.org (Adam Back) | Microsoft publicly announces Penny Black PoW postage project
+2004-05 | Sun, 9 May 2004 05:08:09 -0400 | adam at cypherspace.org (Adam Back) | Brands' private credentials
+2004-05 | Sun, 9 May 2004 05:15:59 -0400 | adam at cypherspace.org (Adam Back) | chaum's patent expiry? (Re: Brands' private credentials)
+2004-05 | Sun, 9 May 2004 06:04:31 -0400 | adam at cypherspace.org (Adam Back) | Brands' private credentials
+2004-05 | Mon, 10 May 2004 05:35:28 -0400 | adam at cypherspace.org (Adam Back) | Brands' private credentials
+2004-05 | Mon, 10 May 2004 06:02:51 -0400 | adam at cypherspace.org (Adam Back) | blinding & BF IBE CA assisted credential system (Re: chaum's patent ex
+2004-05 | Mon, 10 May 2004 17:54:59 -0400 | adam at cypherspace.org (Adam Back) | more hiddencredentials comments (Re: Brands' private credentials)
+2004-05 | Mon, 10 May 2004 18:24:31 -0400 | adam at cypherspace.org (Adam Back) | blinding & BF IBE CA assisted credential system (Re: chaum's patent ex
+2004-05 | Tue, 18 May 2004 23:49:11 +0100 | adam at cypherspace.org (Adam Back) | 3. Proof-of-work analysis
+2004-05 | Tue, 25 May 2004 16:10:21 -0400 | adam at cypherspace.org (Adam Back) | Reusable hashcash for spam prevention
+2004-07 | Wed, 28 Jul 2004 14:09:03 -0400 | adam at cypherspace.org (Adam Back) | should you trust CAs? (Re: dual-use digital signature vulnerability)
+2004-07 | Fri, 30 Jul 2004 17:54:56 -0400 | adam at cypherspace.org (Adam Back) | should you trust CAs? (Re: dual-use digital signature vulnerability)
+2004-08 | Wed, 18 Aug 2004 16:33:12 -0400 | adam at cypherspace.org (Adam Back) | hash attacks and hashcash (SHA1 partial preimage of 0^160)
+2004-08 | Sat, 21 Aug 2004 01:39:12 -0400 | adam at cypherspace.org (Adam Back) | RPOW - Reusable Proofs of Work
+2004-08 | Thu, 26 Aug 2004 21:05:10 -0400 | adam at cypherspace.org (Adam Back) | finding key pairs with colliding fingerprints (Re: How thorough are th
+2004-09 | Tue, 7 Sep 2004 16:13:13 -0400 | adam at cypherspace.org (Adam Back) | will spammers early adopt hashcash? (Re: Spam Spotlight on Reputation)
+2004-09 | Wed, 8 Sep 2004 17:30:51 -0400 | adam at cypherspace.org (Adam Back) | Seth Schoen's Hard to Verify Signatures
+2004-09 | Sat, 11 Sep 2004 13:49:23 -0400 | adam at cypherspace.org (Adam Back) | anonymous IP terminology (Re: [anonsec] Re: potential new IETF WG on a
+2004-09 | Sat, 11 Sep 2004 15:09:54 -0400 | adam at cypherspace.org (Adam Back) | anonymous IP terminology (Re: [anonsec] Re: potential new IETF WG on a
+2004-09 | Mon, 13 Sep 2004 16:43:57 -0400 | adam at cypherspace.org (Adam Back) | will spammers early adopt hashcash? (Re: Spam Spotlight on Reputation)
+2004-10 | Tue, 5 Oct 2004 17:18:30 -0400 | adam at cypherspace.org (Adam Back) | Brands credential book online (pdf)
+2004-12 | Tue, 14 Dec 2004 18:09:39 -0500 | adam at cypherspace.org (Adam Back) | The Pointlessness of the MD5 "attacks"
+2004-12 | Tue, 14 Dec 2004 18:47:27 -0500 | adam at cypherspace.org (Adam Back) | The Pointlessness of the MD5 "attacks"
+2004-12 | Wed, 15 Dec 2004 06:24:49 -0500 | adam at cypherspace.org (Adam Back) | The Pointlessness of the MD5 "attacks"
+2004-12 | Thu, 16 Dec 2004 05:50:22 -0500 | adam at cypherspace.org (Adam Back) | pgp "global directory" bugged instructions
+2004-12 | Wed, 22 Dec 2004 16:47:55 -0500 | adam at cypherspace.org (Adam Back) | Cryptography Research wants piracy speed bump on HD DVDs
+2005-03 | Thu, 24 Mar 2005 18:51:25 -0500 | adam at cypherspace.org (Adam Back) | and constrained subordinate CA costs? (Re: SSL Cert prices ($10 to $15
+2005-03 | Fri, 25 Mar 2005 17:06:17 -0500 | adam at cypherspace.org (Adam Back) | and constrained subordinate CA costs?
+2005-05 | Sun, 29 May 2005 17:09:05 -0400 | adam at cypherspace.org (Adam Back) | Microsoft info-cards to use blind signatures?
+2005-06 | Tue, 14 Jun 2005 04:21:39 -0400 | adam at cypherspace.org (Adam Back) | use KDF2 / IEEE1363a (Re: expanding a password into many keys)
+2005-06 | Tue, 14 Jun 2005 15:42:45 -0400 | adam at cypherspace.org (Adam Back) | use KDF2 / IEEE1363a (Re: expanding a password into many keys)
+2005-07 | Fri, 15 Jul 2005 17:20:24 -0400 | adam at cypherspace.org (Adam Back) | mother's maiden names...
+2005-08 | Mon, 8 Aug 2005 10:55:49 -0400 | adam at cypherspace.org (Adam Back) | locking door when window is open? (Re: solving the wrong problem)
+2005-08 | Wed, 17 Aug 2005 09:51:52 -0400 | adam at cypherspace.org (Adam Back) | How many wrongs do you need to make a right?
+2005-08 | Fri, 26 Aug 2005 04:24:32 -0400 | adam at cypherspace.org (Adam Back) | Another entry in the internet security hall of shame....
+2005-08 | Fri, 26 Aug 2005 13:59:47 -0400 | adam at cypherspace.org (Adam Back) | e2e all the way (Re: Another entry in the internet security hall of sh
+2005-08 | Sat, 27 Aug 2005 03:05:03 -0400 | adam at cypherspace.org (Adam Back) | e2e & security by default (Re: e2e all the way)
+2005-09 | Tue, 20 Sep 2005 18:39:10 -0400 | adam at cypherspace.org (Adam Back) | Defending users of unprotected login pages with TrustBar 0.4.9.93
+2006-01 | Tue, 3 Jan 2006 17:51:08 -0500 | adam at cypherspace.org (Adam Back) | OpenSSL BIGNUM vs. GMP
+2006-01 | Wed, 11 Jan 2006 09:22:30 -0500 | adam at cypherspace.org (Adam Back) | long-term GPG signing key
+2006-02 | Thu, 9 Feb 2006 09:43:20 -0500 | adam at cypherspace.org (Adam Back) | conservative choice: encrypt then MAC (Re: general defensive crypto co
+2006-03 | Thu, 30 Mar 2006 02:22:58 -0500 | adam at cypherspace.org (Adam Back) | Your secrets are safe with quasar encryption
+2006-04 | Sun, 2 Apr 2006 13:29:26 -0400 | adam at cypherspace.org (Adam Back) | Unforgeable Blinded Credentials
+2006-04 | Tue, 4 Apr 2006 14:24:38 -0400 | adam at cypherspace.org (Adam Back) | Unforgeable Blinded Credentials
+2006-04 | Sat, 8 Apr 2006 16:16:03 -0400 | adam at cypherspace.org (Adam Back) | Unforgeable Blinded Credentials
+2006-04 | Wed, 19 Apr 2006 15:23:36 -0400 | adam at cypherspace.org (Adam Back) | Unforgeable Blinded Credentials
+2006-05 | Fri, 5 May 2006 04:17:36 -0400 | adam at cypherspace.org (Adam Back) | encrypted filesystem integrity threat-model (Re: Linux RNG paper)
+2006-08 | Mon, 14 Aug 2006 17:31:39 -0400 | adam at cypherspace.org (Adam Back) | Hamiltonian path as protection against DOS.
+2006-08 | Tue, 22 Aug 2006 15:58:17 -0400 | adam at cypherspace.org (Dr Adam Back) | A security bug in PGP products?
+2006-09 | Sat, 9 Sep 2006 10:01:31 -0400 | adam at cypherspace.org (Adam Back) | IGE mode is broken (Re: IGE mode in OpenSSL)
+2006-09 | Sat, 9 Sep 2006 17:21:51 -0400 | adam at cypherspace.org (Adam Back) | IGE mode is broken (Re: IGE mode in OpenSSL)
+2006-10 | Mon, 9 Oct 2006 11:45:53 -0400 | adam at cypherspace.org (Adam Back) | TPM & disk crypto
+2006-10 | Tue, 10 Oct 2006 12:35:16 -0400 | adam at cypherspace.org (Adam Back) | TPM & disk crypto
+2006-12 | Tue, 26 Dec 2006 15:58:44 -0500 | adam at cypherspace.org (Adam Back) | secure CRNGs and FIPS (Re: How important is FIPS 140-2 Level 1 cert?)
+2007-02 | Wed, 14 Feb 2007 18:35:53 -0500 | adam at cypherspace.org (Adam Back) | see also credentica announcement about U-prove (Re: IBM donates new pr
+2007-02 | Fri, 16 Feb 2007 11:14:39 -0500 | adam at cypherspace.org (Adam Back) | announce: credlib library with brands and chaum credentials (Re: see a
+2007-02 | Tue, 20 Feb 2007 19:40:29 -0500 | adam at cypherspace.org (Adam Back) | private credential/ecash thread on slashdot (Re: announce: credlib lib
+2007-02 | Sat, 24 Feb 2007 08:58:03 -0500 | adam at cypherspace.org (Adam Back) | New digital bearer cash site launched
+2007-07 | Tue, 3 Jul 2007 08:21:57 -0400 | adam at cypherspace.org (Adam Back) | remote-attestation is not required (Re: The bank fraud blame game)
+2007-07 | Wed, 4 Jul 2007 03:45:40 -0400 | adam at cypherspace.org (Adam Back) | remote-attestation is not required (Re: The bank fraud blame game)
+2007-09 | Tue, 18 Sep 2007 03:20:14 -0400 | adam at cypherspace.org (Adam Back) | open source digital cash packages
+2007-10 | Fri, 12 Oct 2007 14:40:20 -0400 | adam at cypherspace.org (Adam Back) | Password hashing
+2007-11 | Mon, 5 Nov 2007 17:41:57 -0500 | adam at cypherspace.org (Adam Back) | forward-secrecy for email? (Re: Hushmail in U.S. v. Tyler Stumbo)
+2010-03 | Wed, 24 Mar 2010 00:23:10 +0100 | adam at cypherspace.org (Adam Back) | "Against Rekeying"
+2010-03 | Wed, 24 Mar 2010 09:35:12 +0100 | adam at cypherspace.org (Adam Back) | "Against Rekeying"
+2013-09 | Sat, 14 Sep 2013 20:38:37 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] RSA equivalent key length/strength
+2013-09 | Sun, 15 Sep 2013 13:47:13 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] prism proof email, namespaces, and anonymity
+2013-09 | Wed, 25 Sep 2013 14:25:06 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] forward-secrecy >=2048-bit in legacy  browser/servers? 
+2013-09 | Mon, 30 Sep 2013 10:02:09 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] TLS2
+2013-09 | Mon, 30 Sep 2013 11:47:37 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] TLS2
+2013-09 | Mon, 30 Sep 2013 12:27:43 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] three crypto lists - why and which
+2013-10 | Tue, 1 Oct 2013 12:08:22 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] are ECDSA curves provably not cooked? (Re: RSA  equival
+2013-10 | Tue, 1 Oct 2013 18:51:59 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] are ECDSA curves provably not cooked? (Re: RSA  equival
+2013-10 | Thu, 10 Oct 2013 15:30:20 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] was this FIPS 186-1 (first DSA) an attemped NSA 	backdo
+2013-10 | Mon, 14 Oct 2013 16:51:43 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] please dont weaken pre-image resistance of SHA3 (Re:  N
+2013-10 | Tue, 15 Oct 2013 20:22:50 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] please dont weaken pre-image resistance of SHA3  (Re: N
+2013-10 | Tue, 15 Oct 2013 23:59:32 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] please dont weaken pre-image resistance of SHA3  (Re: N
+2013-10 | Thu, 17 Oct 2013 14:32:57 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] /dev/random is not robust
+2013-10 | Sat, 19 Oct 2013 18:36:33 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] [RNG] on RNGs, VM state, rollback, etc.
+2013-10 | Mon, 21 Oct 2013 16:49:27 +0200 | adam at cypherspace.org (Adam Back) | [Cryptography] Mail Lists In the Post-Snowden Era
+2013-11 | Tue, 12 Nov 2013 10:10:13 +0100 | adam at cypherspace.org (Adam Back) | [Cryptography] NIST Randomness Beacon
+2014-01 | Tue, 7 Jan 2014 04:41:08 +0100 | adam at cypherspace.org (Adam Back) | [Cryptography] NSA co-chair claimed sabotage on CFRG list/group  (was 
+2014-01 | Sun, 12 Jan 2014 11:07:55 +0100 | adam at cypherspace.org (Adam Back) | [Cryptography] Advances in homomorphic encryption

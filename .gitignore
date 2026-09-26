@@ -5,3 +5,6 @@ data/releases/x*/
 # Malmi at https://mmalmi.github.io/satoshi/). Re-download rather than commit.
 data/claims/C-malmi-satoshi-emails.txt
 data/claims/C-malmi-satoshi-index.html
+# COPA v Wright court exhibits: contain private individuals' contact details
+# and old passwords. Kept locally only; see data/copa-README.md for the source.
+data/copa/

@@ -1,0 +1,38 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 26 Sep 2026 02:41:42 GMT
+content-type: image/jpeg
+content-length: 2054
+x-archive-orig-x-powered-by: PHP/5.2.9
+x-archive-orig-expires: Thu, 19 Nov 1981 08:52:00 GMT
+x-archive-orig-cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+x-archive-orig-pragma: no-cache
+content-disposition: filename=screenshot_thumb.jpg
+x-archive-orig-content-length: 2054
+x-archive-orig-connection: close
+x-archive-orig-date: Sat, 12 Jun 2010 23:18:35 GMT
+x-archive-orig-server: lighttpd/1.4.26
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Sat, 12 Jun 2010 23:18:34 GMT
+link: <http://sourceforge.net/dbimage.php?id=203603>; rel="original", <https://web.archive.org/web/timemap/link/http://sourceforge.net/dbimage.php?id=203603>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://sourceforge.net/dbimage.php?id=203603>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: ARCHIVEIT-1514-20090609102026-00000-crawling04-c/ARCHIVEIT-1514-ANNUAL-HCLOIE-20100612230312-00032-crawling10.us.archive.org-6684.warc.gz
+server-timing: captures_list;dur=0.604330, exclusion.robots;dur=0.058324, exclusion.robots.policy;dur=0.044609, esindex;dur=0.010175, cdx.remote;dur=27.304813, LoadShardBlock;dur=103.992168, PetaboxLoader3.datanode;dur=144.878747, load_resource;dur=568.319894, PetaboxLoader3.resolve;dur=484.729883
+x-app-server: wwwb-app249-dc8
+x-ts: 200
+x-tr: 743
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app249; path=/
+cache-control: private
+x-location: All
+x-as: 7545
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: TPG Telecom Limited
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

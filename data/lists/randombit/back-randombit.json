@@ -1,0 +1,938 @@
+[
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00000.html",
+  "subject": "Re: [cryptography] \"Against Rekeying\"",
+  "date_display": "Tue, 23 Mar 2010 16:23:19 -0700",
+  "date_header": "Tue, 23 Mar 2010 16:23:19 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00010.html",
+  "subject": "Re: [cryptography] OpenSSL 1.0.0 released",
+  "date_display": "Wed, 31 Mar 2010 07:08:11 -0700",
+  "date_header": "Wed, 31 Mar 2010 07:08:11 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00197.html",
+  "subject": "Re: [cryptography] short signature scheme?",
+  "date_display": "Mon, 08 Nov 2010 08:42:07 -0800",
+  "date_header": "Mon, 08 Nov 2010 08:42:07 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00235.html",
+  "subject": "Re: [cryptography] Embrace the decline!",
+  "date_display": "Tue, 16 Nov 2010 15:01:30 -0800",
+  "date_header": "Tue, 16 Nov 2010 15:01:30 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00251.html",
+  "subject": "Re: [cryptography] NSA's position in the dominance stakes",
+  "date_display": "Thu, 18 Nov 2010 14:21:41 -0800",
+  "date_header": "Thu, 18 Nov 2010 14:21:41 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00262.html",
+  "subject": "Re: [cryptography] NSA's position in the dominance stakes",
+  "date_display": "Fri, 19 Nov 2010 00:18:42 -0800",
+  "date_header": "Fri, 19 Nov 2010 00:18:42 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00278.html",
+  "subject": "[cryptography] patents and stuff (Re: NSA's position in the dominance stakes)",
+  "date_display": "Sat, 20 Nov 2010 02:03:47 -0800",
+  "date_header": "Sat, 20 Nov 2010 02:03:47 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00279.html",
+  "subject": "Re: [cryptography] NSA's position in the dominance stakes",
+  "date_display": "Sat, 20 Nov 2010 02:09:43 -0800",
+  "date_header": "Sat, 20 Nov 2010 02:09:43 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00296.html",
+  "subject": "Re: [cryptography] patents and stuff (Re: NSA's position in the dominance stakes)",
+  "date_display": "Sun, 21 Nov 2010 00:33:30 -0800",
+  "date_header": "Sun, 21 Nov 2010 00:33:30 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00303.html",
+  "subject": "Re: [cryptography] patents and stuff (Re: NSA's position in\tthe\tdominance stakes)",
+  "date_display": "Sun, 21 Nov 2010 13:19:42 -0800",
+  "date_header": "Sun, 21 Nov 2010 13:19:42 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00337.html",
+  "subject": "Re: [cryptography] current digital cash / anonymous payment projects?",
+  "date_display": "Wed, 01 Dec 2010 09:54:08 -0800",
+  "date_header": "Wed, 01 Dec 2010 09:54:08 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00432.html",
+  "subject": "Re: [cryptography] is Perry ok?",
+  "date_display": "Thu, 23 Dec 2010 08:39:21 -0800",
+  "date_header": "Thu, 23 Dec 2010 08:39:21 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00496.html",
+  "subject": "Re: [cryptography] True Random Source, Thoughts about a Global System Perspective",
+  "date_display": "Tue, 25 Jan 2011 14:59:38 -0800",
+  "date_header": "Tue, 25 Jan 2011 14:59:38 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00504.html",
+  "subject": "Re: [cryptography] True Random Source, Thoughts about a Global System Perspective",
+  "date_display": "Wed, 26 Jan 2011 05:41:38 -0800",
+  "date_header": "Wed, 26 Jan 2011 05:41:38 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00549.html",
+  "subject": "Re: [cryptography] deniable store and forward with integrity protection?",
+  "date_display": "Tue, 15 Feb 2011 19:49:56 -0800",
+  "date_header": "Tue, 15 Feb 2011 19:49:56 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00658.html",
+  "subject": "[cryptography] RSA admits securID tokens have been compromised",
+  "date_display": "Tue, 07 Jun 2011 07:19:43 -0700",
+  "date_header": "Tue, 07 Jun 2011 07:19:43 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00727.html",
+  "subject": "Re: [cryptography] attacks against bitcoin",
+  "date_display": "Sun, 12 Jun 2011 05:15:48 -0700",
+  "date_header": "Sun, 12 Jun 2011 05:15:48 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00750.html",
+  "subject": "Re: [cryptography] Digital cash in the news...",
+  "date_display": "Mon, 13 Jun 2011 00:54:25 -0700",
+  "date_header": "Mon, 13 Jun 2011 00:54:25 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00760.html",
+  "subject": "Re: [cryptography] Digital cash in the news...",
+  "date_display": "Mon, 13 Jun 2011 07:54:00 -0700",
+  "date_header": "Mon, 13 Jun 2011 07:54:00 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00781.html",
+  "subject": "[cryptography] sander & ta-shma + bitcoin, b-money, hashcash (Re:  Is BitCoin a triple entry system?)",
+  "date_display": "Tue, 14 Jun 2011 01:13:51 -0700",
+  "date_header": "Tue, 14 Jun 2011 01:13:51 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00812.html",
+  "subject": "Re: [cryptography] sander & ta-shma + bitcoin, b-money, hashcash (Re:  Is BitCoin a triple entry system?)",
+  "date_display": "Wed, 15 Jun 2011 01:16:44 -0700",
+  "date_header": "Wed, 15 Jun 2011 01:16:44 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00813.html",
+  "subject": "[cryptography] crypto & security/privacy balance (Re: Digital cash in the news...)",
+  "date_display": "Wed, 15 Jun 2011 01:22:13 -0700",
+  "date_header": "Wed, 15 Jun 2011 01:22:13 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg00838.html",
+  "subject": "[cryptography] not unsubscribing (Re:  Unsubscribing)",
+  "date_display": "Thu, 16 Jun 2011 12:18:01 -0700",
+  "date_header": "Thu, 16 Jun 2011 12:18:01 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01015.html",
+  "subject": "Re: [cryptography] Bitcoin observation",
+  "date_display": "Tue, 05 Jul 2011 03:52:27 -0700",
+  "date_header": "Tue, 05 Jul 2011 03:52:27 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01016.html",
+  "subject": "Re: [cryptography] Bitcoin observation",
+  "date_display": "Tue, 05 Jul 2011 04:05:47 -0700",
+  "date_header": "Tue, 05 Jul 2011 04:05:47 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01056.html",
+  "subject": "Re: [cryptography] Bitcoin observation",
+  "date_display": "Fri, 08 Jul 2011 03:29:37 -0700",
+  "date_header": "Fri, 08 Jul 2011 03:29:37 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01086.html",
+  "subject": "[cryptography] ssh-keys only and EKE for web too (Re: preventing\tprotocol failings)",
+  "date_display": "Wed, 13 Jul 2011 03:48:51 -0700",
+  "date_header": "Wed, 13 Jul 2011 03:48:51 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01263.html",
+  "subject": "Re: [cryptography] Symantec gets it wrong",
+  "date_display": "Thu, 08 Sep 2011 11:56:50 -0700",
+  "date_header": "Thu, 08 Sep 2011 11:56:50 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01282.html",
+  "subject": "[cryptography] wont CA hackers CA pin also? and other musings (Re: PKI \"fixes\" that don't fix PKI (part III))",
+  "date_display": "Sat, 10 Sep 2011 03:14:45 -0700",
+  "date_header": "Sat, 10 Sep 2011 03:14:45 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01596.html",
+  "subject": "[cryptography] server-signed client certs (Re: SSL is not \"broken by design\")",
+  "date_display": "Sun, 25 Sep 2011 23:47:28 -0700",
+  "date_header": "Sun, 25 Sep 2011 23:47:28 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01687.html",
+  "subject": "[cryptography] ECDSA - patent free?",
+  "date_display": "Wed, 09 Nov 2011 10:28:02 -0800",
+  "date_header": "Wed, 09 Nov 2011 10:28:02 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01706.html",
+  "subject": "Re: [cryptography] fyi: Sovereign Keys: an EFF proposal for more secure TLS authentication",
+  "date_display": "Sat, 26 Nov 2011 14:42:40 -0800",
+  "date_header": "Sat, 26 Nov 2011 14:42:40 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01708.html",
+  "subject": "Re: [cryptography] fyi: Sovereign Keys: an EFF proposal for more secure TLS authentication",
+  "date_display": "Sun, 27 Nov 2011 05:37:39 -0800",
+  "date_header": "Sun, 27 Nov 2011 05:37:39 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01778.html",
+  "subject": "Re: [cryptography] trustable self-signed certs in a P2P environment (freedombox)",
+  "date_display": "Wed, 30 Nov 2011 12:18:14 -0800",
+  "date_header": "Wed, 30 Nov 2011 12:18:14 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01782.html",
+  "subject": "[cryptography] really sub-CAs for MitM deep packet inspectors? (Re: Auditable CAs)",
+  "date_display": "Wed, 30 Nov 2011 16:43:25 -0800",
+  "date_header": "Wed, 30 Nov 2011 16:43:25 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01810.html",
+  "subject": "Re: [cryptography] really sub-CAs for MitM deep packet inspectors? (Re: Auditable CAs)",
+  "date_display": "Thu, 01 Dec 2011 15:10:31 -0800",
+  "date_header": "Thu, 01 Dec 2011 15:10:31 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01834.html",
+  "subject": "Re: [cryptography] really sub-CAs for MitM deep packet inspectors? (Re: Auditable CAs)",
+  "date_display": "Fri, 02 Dec 2011 00:33:01 -0800",
+  "date_header": "Fri, 02 Dec 2011 00:33:01 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01838.html",
+  "subject": "[cryptography] if MitM via sub-CA is going on, need a name-and-shame catalog (Re: really sub-CAs for MitM deep packet inspectors?)",
+  "date_display": "Fri, 02 Dec 2011 03:25:04 -0800",
+  "date_header": "Fri, 02 Dec 2011 03:25:04 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01841.html",
+  "subject": "Re: [cryptography] if MitM via sub-CA is going on, need a name-and-shame catalog (Re: really sub-CAs for MitM deep packet inspectors?)",
+  "date_display": "Fri, 02 Dec 2011 04:59:24 -0800",
+  "date_header": "Fri, 02 Dec 2011 04:59:24 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01843.html",
+  "subject": "Re: [cryptography] if MitM via sub-CA is going on, need a name-and-shame catalog (Re: really sub-CAs for MitM deep packet inspectors?)",
+  "date_display": "Fri, 02 Dec 2011 05:40:39 -0800",
+  "date_header": "Fri, 02 Dec 2011 05:40:39 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01886.html",
+  "subject": "[cryptography] so can we find a public MitM cert sample? (Re: really sub-CAs for MitM deep packet inspectors?)",
+  "date_display": "Mon, 05 Dec 2011 14:57:07 -0800",
+  "date_header": "Mon, 05 Dec 2011 14:57:07 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01892.html",
+  "subject": "Re: [cryptography] really sub-CAs for MitM deep packet inspectors? (Re: Auditable CAs)",
+  "date_display": "Tue, 06 Dec 2011 03:39:43 -0800",
+  "date_header": "Tue, 06 Dec 2011 03:39:43 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01894.html",
+  "subject": "Re: [cryptography] really sub-CAs for MitM deep packet inspectors? (Re: Auditable CAs)",
+  "date_display": "Tue, 06 Dec 2011 03:56:34 -0800",
+  "date_header": "Tue, 06 Dec 2011 03:56:34 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01941.html",
+  "subject": "Re: [cryptography] Another CA hacked, it seems.",
+  "date_display": "Thu, 08 Dec 2011 06:45:42 -0800",
+  "date_header": "Thu, 08 Dec 2011 06:45:42 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01961.html",
+  "subject": "Re: [cryptography] airgaps in CAs",
+  "date_display": "Fri, 09 Dec 2011 00:26:17 -0800",
+  "date_header": "Fri, 09 Dec 2011 00:26:17 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg01989.html",
+  "subject": "Re: [cryptography] airgaps in CAs",
+  "date_display": "Tue, 13 Dec 2011 03:44:48 -0800",
+  "date_header": "Tue, 13 Dec 2011 03:44:48 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02000.html",
+  "subject": "Re: [cryptography] How are expired code-signing certs revoked? (nonrepudiation)",
+  "date_display": "Thu, 22 Dec 2011 00:47:33 -0800",
+  "date_header": "Thu, 22 Dec 2011 00:47:33 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02014.html",
+  "subject": "[cryptography] implementation of NIST SP-108 KDFs?",
+  "date_display": "Wed, 28 Dec 2011 14:50:21 -0800",
+  "date_header": "Wed, 28 Dec 2011 14:50:21 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02053.html",
+  "subject": "Re: [cryptography] Password non-similarity?",
+  "date_display": "Mon, 02 Jan 2012 01:46:24 -0800",
+  "date_header": "Mon, 02 Jan 2012 01:46:24 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02116.html",
+  "subject": "Re: [cryptography] reports of T-Mobile actively blocking crypto",
+  "date_display": "Wed, 11 Jan 2012 05:42:15 -0800",
+  "date_header": "Wed, 11 Jan 2012 05:42:15 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02215.html",
+  "subject": "[cryptography] trustwave admits issuing corporate mitm certs",
+  "date_display": "Sun, 12 Feb 2012 01:02:17 -0800",
+  "date_header": "Sun, 12 Feb 2012 01:02:17 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02242.html",
+  "subject": "Re: [cryptography] how many MITM-enabling sub-roots chain up to public-facing CAs ?",
+  "date_display": "Tue, 14 Feb 2012 06:38:31 -0800",
+  "date_header": "Tue, 14 Feb 2012 06:38:31 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02244.html",
+  "subject": "Re: [cryptography] how many MITM-enabling sub-roots chain up to public-facing CAs ?",
+  "date_display": "Tue, 14 Feb 2012 07:18:52 -0800",
+  "date_header": "Tue, 14 Feb 2012 07:18:52 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02335.html",
+  "subject": "Re: [cryptography] Duplicate primes in lots of RSA moduli",
+  "date_display": "Fri, 17 Feb 2012 15:18:28 -0800",
+  "date_header": "Fri, 17 Feb 2012 15:18:28 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02337.html",
+  "subject": "Re: [cryptography] Duplicate primes in lots of RSA moduli",
+  "date_display": "Sat, 18 Feb 2012 01:41:18 -0800",
+  "date_header": "Sat, 18 Feb 2012 01:41:18 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02341.html",
+  "subject": "Re: [cryptography] Duplicate primes in lots of RSA moduli",
+  "date_display": "Sat, 18 Feb 2012 04:25:10 -0800",
+  "date_header": "Sat, 18 Feb 2012 04:25:10 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02550.html",
+  "subject": "Re: [cryptography] Duplicate primes in lots of RSA moduli",
+  "date_display": "Mon, 05 Mar 2012 23:34:53 -0800",
+  "date_header": "Mon, 05 Mar 2012 23:34:53 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02594.html",
+  "subject": "Re: [cryptography] The NSA Is Building the Country's Biggest Spy Center (Watch What You Say)",
+  "date_display": "Fri, 23 Mar 2012 06:50:17 -0700",
+  "date_header": "Fri, 23 Mar 2012 06:50:17 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02596.html",
+  "subject": "Re: [cryptography] RSA Moduli (NetLock Minositett Kozjegyzoi Certificate)",
+  "date_display": "Fri, 23 Mar 2012 07:03:32 -0700",
+  "date_header": "Fri, 23 Mar 2012 07:03:32 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02598.html",
+  "subject": "Re: [cryptography] RSA Moduli (NetLock Minositett Kozjegyzoi Certificate)",
+  "date_display": "Fri, 23 Mar 2012 08:11:19 -0700",
+  "date_header": "Fri, 23 Mar 2012 08:11:19 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02640.html",
+  "subject": "Re: [cryptography] Key escrow 2012",
+  "date_display": "Fri, 30 Mar 2012 00:42:52 -0700",
+  "date_header": "Fri, 30 Mar 2012 00:42:52 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02692.html",
+  "subject": "Re: [cryptography] PINS and [Short] Passwords",
+  "date_display": "Wed, 04 Apr 2012 14:03:59 -0700",
+  "date_header": "Wed, 04 Apr 2012 14:03:59 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02705.html",
+  "subject": "Re: [cryptography] PINS and [Short] Passwords",
+  "date_display": "Fri, 06 Apr 2012 01:35:40 -0700",
+  "date_header": "Fri, 06 Apr 2012 01:35:40 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02717.html",
+  "subject": "[cryptography] SHA1 extension limitations (Re: Doubts over necessity of SHA-3 cryptography standard)",
+  "date_display": "Tue, 10 Apr 2012 00:47:44 -0700",
+  "date_header": "Tue, 10 Apr 2012 00:47:44 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02793.html",
+  "subject": "Re: [cryptography] data integrity: secret key vs. non-secret verifier; and: are we winning? (was: \u201cOn the limits of the use cases for authenticated encryption\u201d)",
+  "date_display": "Thu, 26 Apr 2012 02:56:34 -0700",
+  "date_header": "Thu, 26 Apr 2012 02:56:34 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02794.html",
+  "subject": "Re: [cryptography] data integrity: secret key vs. non-secret verifier; and: are we winning? (was: \u201cOn the limits of the use cases for authenticated encryption\u201d)",
+  "date_display": "Thu, 26 Apr 2012 03:40:29 -0700",
+  "date_header": "Thu, 26 Apr 2012 03:40:29 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02840.html",
+  "subject": "Re: [cryptography] Bitcoin-mining Botnets observed in the wild? (was: Re: Bitcoin in endgame",
+  "date_display": "Fri, 11 May 2012 16:23:47 -0700",
+  "date_header": "Fri, 11 May 2012 16:23:47 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02842.html",
+  "subject": "Re: [cryptography] Bitcoin-mining Botnets observed in the wild? (was: Re: Bitcoin in endgame",
+  "date_display": "Fri, 11 May 2012 16:40:41 -0700",
+  "date_header": "Fri, 11 May 2012 16:40:41 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg02906.html",
+  "subject": "Re: [cryptography] Master Password",
+  "date_display": "Thu, 31 May 2012 08:43:43 -0700",
+  "date_header": "Thu, 31 May 2012 08:43:43 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03132.html",
+  "subject": "Re: [cryptography] Can there be a cryptographic \"dead man switch\"?",
+  "date_display": "Thu, 06 Sep 2012 00:07:03 -0700",
+  "date_header": "Thu, 06 Sep 2012 00:07:03 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03204.html",
+  "subject": "Re: [cryptography] [zfs] SHA-3 winner announced",
+  "date_display": "Wed, 03 Oct 2012 05:24:10 -0700",
+  "date_header": "Wed, 03 Oct 2012 05:24:10 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03209.html",
+  "subject": "[cryptography] ZFS dedup? hashes (Re: [zfs] SHA-3 winner announced)",
+  "date_display": "Wed, 03 Oct 2012 07:18:45 -0700",
+  "date_header": "Wed, 03 Oct 2012 07:18:45 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03222.html",
+  "subject": "Re: [cryptography] ZFS dedup? hashes (Re: [zfs] SHA-3\twinner\tannounced)",
+  "date_display": "Thu, 04 Oct 2012 05:38:38 -0700",
+  "date_header": "Thu, 04 Oct 2012 05:38:38 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03408.html",
+  "subject": "Re: [cryptography] Questions about crypto in Oracle TDE",
+  "date_display": "Thu, 08 Nov 2012 10:09:43 -0800",
+  "date_header": "Thu, 08 Nov 2012 10:09:43 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03414.html",
+  "subject": "Re: [cryptography] Questions about crypto in Oracle TDE",
+  "date_display": "Fri, 09 Nov 2012 00:03:41 -0800",
+  "date_header": "Fri, 09 Nov 2012 00:03:41 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03416.html",
+  "subject": "Re: [cryptography] Questions about crypto in Oracle TDE",
+  "date_display": "Fri, 09 Nov 2012 09:51:03 -0800",
+  "date_header": "Fri, 09 Nov 2012 09:51:03 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03421.html",
+  "subject": "Re: [cryptography] Why using asymmetric crypto like symmetric crypto isn't secure",
+  "date_display": "Sun, 11 Nov 2012 05:13:36 -0800",
+  "date_header": "Sun, 11 Nov 2012 05:13:36 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03471.html",
+  "subject": "[cryptography] current limits of proving MITM (Re: Gmail and SSL)",
+  "date_display": "Sun, 16 Dec 2012 00:48:07 -0800",
+  "date_header": "Sun, 16 Dec 2012 00:48:07 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03488.html",
+  "subject": "Re: [cryptography] ElGamal Encryption and Signature: Key Generation Requirements?",
+  "date_display": "Mon, 17 Dec 2012 16:15:24 -0800",
+  "date_header": "Mon, 17 Dec 2012 16:15:24 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03492.html",
+  "subject": "Re: [cryptography] ElGamal Encryption and Signature: Key Generation Requirements?",
+  "date_display": "Tue, 18 Dec 2012 02:53:22 -0800",
+  "date_header": "Tue, 18 Dec 2012 02:53:22 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03495.html",
+  "subject": "Re: [cryptography] ElGamal Encryption and Signature: Key Generation Requirements?",
+  "date_display": "Tue, 18 Dec 2012 17:29:35 -0800",
+  "date_header": "Tue, 18 Dec 2012 17:29:35 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03497.html",
+  "subject": "Re: [cryptography] ElGamal Encryption and Signature: Key Generation Requirements?",
+  "date_display": "Wed, 19 Dec 2012 01:00:50 -0800",
+  "date_header": "Wed, 19 Dec 2012 01:00:50 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03510.html",
+  "subject": "[cryptography] fragilities of CTR vs CBC (Re: Tigerspike claims world first with Karacell for mobile security)",
+  "date_display": "Thu, 27 Dec 2012 10:54:51 -0800",
+  "date_header": "Thu, 27 Dec 2012 10:54:51 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03593.html",
+  "subject": "Re: [cryptography] Why anon-DH is less damaging than current browser PKI (a rant in five paragraphs)",
+  "date_display": "Tue, 08 Jan 2013 04:17:19 -0800",
+  "date_header": "Tue, 08 Jan 2013 04:17:19 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03634.html",
+  "subject": "Re: [cryptography] yet another certificate MITM attack",
+  "date_display": "Fri, 11 Jan 2013 10:39:27 -0800",
+  "date_header": "Fri, 11 Jan 2013 10:39:27 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03669.html",
+  "subject": "[cryptography] phishing/password end-game (Re:  Why anon-DH ...)",
+  "date_display": "Wed, 16 Jan 2013 15:03:16 -0800",
+  "date_header": "Wed, 16 Jan 2013 15:03:16 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03713.html",
+  "subject": "Re: [cryptography] Bonding or Insuring of CAs?",
+  "date_display": "Fri, 25 Jan 2013 17:16:42 -0800",
+  "date_header": "Fri, 25 Jan 2013 17:16:42 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03727.html",
+  "subject": "[cryptography] blinding to protect against timing-attacks on RSA sigs (Re: OAEP for RSA signatures?)",
+  "date_display": "Sun, 27 Jan 2013 04:59:26 -0800",
+  "date_header": "Sun, 27 Jan 2013 04:59:26 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03734.html",
+  "subject": "Re: [cryptography] openssl on git",
+  "date_display": "Mon, 28 Jan 2013 00:45:58 -0800",
+  "date_header": "Mon, 28 Jan 2013 00:45:58 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03805.html",
+  "subject": "[cryptography] ZKPs and other stuff at Zero Knowledge Systems (Re: \"Zero knowledge\" as a term for end-to-end encryption)",
+  "date_display": "Wed, 13 Feb 2013 00:13:28 -0800",
+  "date_header": "Wed, 13 Feb 2013 00:13:28 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03829.html",
+  "subject": "Re: [cryptography] Bitmessage",
+  "date_display": "Sat, 16 Feb 2013 12:45:39 -0800",
+  "date_header": "Sat, 16 Feb 2013 12:45:39 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03850.html",
+  "subject": "Re: [cryptography] Bitmessage",
+  "date_display": "Wed, 20 Feb 2013 00:34:36 -0800",
+  "date_header": "Wed, 20 Feb 2013 00:34:36 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03870.html",
+  "subject": "Re: [cryptography] Interesting Webcrypto question",
+  "date_display": "Sun, 03 Mar 2013 13:42:19 -0800",
+  "date_header": "Sun, 03 Mar 2013 13:42:19 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03874.html",
+  "subject": "Re: [cryptography] Interesting Webcrypto question",
+  "date_display": "Sun, 03 Mar 2013 15:43:41 -0800",
+  "date_header": "Sun, 03 Mar 2013 15:43:41 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg03995.html",
+  "subject": "[cryptography] msft skype IM snooping stats & PGP/X509 in IM?? (Re: why did OTR succeed in IM?)",
+  "date_display": "Sat, 23 Mar 2013 07:05:10 -0700",
+  "date_header": "Sat, 23 Mar 2013 07:05:10 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04012.html",
+  "subject": "Re: [cryptography] msft skype IM snooping stats & PGP/X509 in IM?? (Re: why did OTR succeed in IM?)",
+  "date_display": "Sun, 24 Mar 2013 09:06:22 -0700",
+  "date_header": "Sun, 24 Mar 2013 09:06:22 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04018.html",
+  "subject": "Re: [cryptography] Cypherpunks mailing list",
+  "date_display": "Mon, 25 Mar 2013 01:26:13 -0700",
+  "date_header": "Mon, 25 Mar 2013 01:26:13 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04028.html",
+  "subject": "Re: [cryptography] Cypherpunks mailing list",
+  "date_display": "Mon, 25 Mar 2013 09:50:30 -0700",
+  "date_header": "Mon, 25 Mar 2013 09:50:30 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04030.html",
+  "subject": "Re: [cryptography] Cypherpunks mailing list",
+  "date_display": "Mon, 25 Mar 2013 11:03:16 -0700",
+  "date_header": "Mon, 25 Mar 2013 11:03:16 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04077.html",
+  "subject": "Re: [cryptography] Here's What Law Enforcement Can Recover From A Seized iPhone",
+  "date_display": "Fri, 29 Mar 2013 05:31:55 -0700",
+  "date_header": "Fri, 29 Mar 2013 05:31:55 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04116.html",
+  "subject": "Re: [cryptography] an untraceability extension to Bitcoin using a combination of digital commitments, one-way accumulators and zero-knowledge proofs,",
+  "date_display": "Sat, 13 Apr 2013 04:01:34 -0700",
+  "date_header": "Sat, 13 Apr 2013 04:01:34 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04117.html",
+  "subject": "[cryptography] summary of zerocoin (Re: an untraceability extension to Bitcoin using a combination of digital commitments, one-way accumulators and zero-knowledge proofs, )",
+  "date_display": "Wed, 17 Apr 2013 14:49:15 -0700",
+  "date_header": "Wed, 17 Apr 2013 14:49:15 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04119.html",
+  "subject": "[cryptography] bitcoin stats (Re: OT: Skype-Based Malware Forces Computers into Bitcoin Mining)",
+  "date_display": "Thu, 18 Apr 2013 01:20:01 -0700",
+  "date_header": "Thu, 18 Apr 2013 01:20:01 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04120.html",
+  "subject": "Re: [cryptography] summary of zerocoin (Re: an untraceability extension to Bitcoin using a combination of digital commitments, one-way accumulators and zero-knowledge proofs, )",
+  "date_display": "Thu, 18 Apr 2013 04:12:51 -0700",
+  "date_header": "Thu, 18 Apr 2013 04:12:51 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04138.html",
+  "subject": "Re: [cryptography] Regarding Zerocoin and alternative cryptographic accumulators",
+  "date_display": "Sun, 05 May 2013 03:58:43 -0700",
+  "date_header": "Sun, 05 May 2013 03:58:43 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04139.html",
+  "subject": "Re: [cryptography] Regarding Zerocoin and alternative cryptographic accumulators",
+  "date_display": "Sun, 05 May 2013 09:01:02 -0700",
+  "date_header": "Sun, 05 May 2013 09:01:02 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04153.html",
+  "subject": "[cryptography] skype backdoor confirmation",
+  "date_display": "Thu, 16 May 2013 12:52:37 -0700",
+  "date_header": "Thu, 16 May 2013 12:52:37 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04156.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Thu, 16 May 2013 14:48:45 -0700",
+  "date_header": "Thu, 16 May 2013 14:48:45 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04171.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Sat, 18 May 2013 06:49:30 -0700",
+  "date_header": "Sat, 18 May 2013 06:49:30 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04177.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Sat, 18 May 2013 12:15:27 -0700",
+  "date_header": "Sat, 18 May 2013 12:15:27 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04207.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Mon, 20 May 2013 11:02:40 -0700",
+  "date_header": "Mon, 20 May 2013 11:02:40 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04208.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Mon, 20 May 2013 11:11:17 -0700",
+  "date_header": "Mon, 20 May 2013 11:11:17 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04209.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Mon, 20 May 2013 11:17:20 -0700",
+  "date_header": "Mon, 20 May 2013 11:17:20 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04241.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Wed, 22 May 2013 10:20:39 -0700",
+  "date_header": "Wed, 22 May 2013 10:20:39 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04244.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Wed, 22 May 2013 11:29:22 -0700",
+  "date_header": "Wed, 22 May 2013 11:29:22 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04245.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Wed, 22 May 2013 11:50:01 -0700",
+  "date_header": "Wed, 22 May 2013 11:50:01 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04271.html",
+  "subject": "Re: [cryptography] skype backdoor confirmation",
+  "date_display": "Fri, 24 May 2013 11:27:02 -0700",
+  "date_header": "Fri, 24 May 2013 11:27:02 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04376.html",
+  "subject": "Re: [cryptography] Is the NSA now a civilian intelligence agency? (Was: Re: Snowden: Fabricating Digital Keys?)",
+  "date_display": "Sun, 30 Jun 2013 05:04:10 -0700",
+  "date_header": "Sun, 30 Jun 2013 05:04:10 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04439.html",
+  "subject": "Re: [cryptography] What project would you finance? [WAS: Potential funding for crypto-related projects]",
+  "date_display": "Tue, 02 Jul 2013 03:26:16 -0700",
+  "date_header": "Tue, 02 Jul 2013 03:26:16 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04450.html",
+  "subject": "[cryptography] SSL session resumption defective (Re: What project would you finance? [WAS: Potential funding for crypto-related projects])",
+  "date_display": "Tue, 02 Jul 2013 08:08:28 -0700",
+  "date_header": "Tue, 02 Jul 2013 08:08:28 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04472.html",
+  "subject": "Re: [cryptography] SSL session resumption defective (Re: What project would you finance? [WAS: Potential funding for crypto-related projects])",
+  "date_display": "Thu, 04 Jul 2013 08:57:53 -0700",
+  "date_header": "Thu, 04 Jul 2013 08:57:53 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04476.html",
+  "subject": "Re: [cryptography] SSL session resumption defective (Re: What project would you finance? [WAS: Potential funding for crypto-related projects])",
+  "date_display": "Thu, 04 Jul 2013 11:34:13 -0700",
+  "date_header": "Thu, 04 Jul 2013 11:34:13 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg04604.html",
+  "subject": "Re: [cryptography] a Cypherpunks comeback",
+  "date_display": "Mon, 22 Jul 2013 00:41:57 -0700",
+  "date_header": "Mon, 22 Jul 2013 00:41:57 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05046.html",
+  "subject": "Re: [cryptography] Forward Secrecy Extensions for OpenPGP: Is this still a good proposal?",
+  "date_display": "Tue, 10 Sep 2013 13:19:41 -0700",
+  "date_header": "Tue, 10 Sep 2013 13:19:41 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05061.html",
+  "subject": "[cryptography] motivation, research ethics & organizational criminality (Re: Forward Secrecy Extensions for OpenPGP: Is this still a good proposal?)",
+  "date_display": "Fri, 13 Sep 2013 05:10:49 -0700",
+  "date_header": "Fri, 13 Sep 2013 05:10:49 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05084.html",
+  "subject": "Re: [cryptography] [Cryptography] prism proof email, namespaces,\tand anonymity",
+  "date_display": "Sun, 15 Sep 2013 04:47:34 -0700",
+  "date_header": "Sun, 15 Sep 2013 04:47:34 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05088.html",
+  "subject": "Re: [cryptography] Asynchronous forward secrecy encryption",
+  "date_display": "Mon, 16 Sep 2013 06:52:15 -0700",
+  "date_header": "Mon, 16 Sep 2013 06:52:15 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05095.html",
+  "subject": "Re: [cryptography] [Bitcoin-development] REWARD offered for hash collisions for SHA1, SHA256, RIPEMD160 and others",
+  "date_display": "Mon, 16 Sep 2013 10:21:10 -0700",
+  "date_header": "Mon, 16 Sep 2013 10:21:10 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05109.html",
+  "subject": "Re: [cryptography] Asynchronous forward secrecy encryption",
+  "date_display": "Wed, 18 Sep 2013 00:12:27 -0700",
+  "date_header": "Wed, 18 Sep 2013 00:12:27 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05130.html",
+  "subject": "Re: [cryptography] Asynchronous forward secrecy encryption",
+  "date_display": "Fri, 20 Sep 2013 02:20:33 -0700",
+  "date_header": "Fri, 20 Sep 2013 02:20:33 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05131.html",
+  "subject": "Re: [cryptography] Asynchronous forward secrecy encryption",
+  "date_display": "Fri, 20 Sep 2013 02:50:33 -0700",
+  "date_header": "Fri, 20 Sep 2013 02:50:33 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05173.html",
+  "subject": "Re: [cryptography] Deleting data on a flash?",
+  "date_display": "Mon, 23 Sep 2013 01:25:43 -0700",
+  "date_header": "Mon, 23 Sep 2013 01:25:43 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05181.html",
+  "subject": "[cryptography] secure deletion on SSDs (Re: Asynchronous forward secrecy encryption)",
+  "date_display": "Mon, 23 Sep 2013 15:04:01 -0700",
+  "date_header": "Mon, 23 Sep 2013 15:04:01 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05184.html",
+  "subject": "[cryptography] secure deletion on SSDs (Re: Asynchronous forward secrecy encryption)",
+  "date_display": "Mon, 23 Sep 2013 16:19:00 -0700",
+  "date_header": "Mon, 23 Sep 2013 16:19:00 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05193.html",
+  "subject": "[cryptography] forward-secrecy >=2048-bit in legacy browser/servers? (Re: [Cryptography] RSA equivalent key length/strength)",
+  "date_display": "Wed, 25 Sep 2013 05:25:40 -0700",
+  "date_header": "Wed, 25 Sep 2013 05:25:40 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05256.html",
+  "subject": "Re: [cryptography] [Cryptography] TLS2",
+  "date_display": "Mon, 30 Sep 2013 02:48:09 -0700",
+  "date_header": "Mon, 30 Sep 2013 02:48:09 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05258.html",
+  "subject": "[cryptography] three crypto lists - why and which",
+  "date_display": "Mon, 30 Sep 2013 03:28:06 -0700",
+  "date_header": "Mon, 30 Sep 2013 03:28:06 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05264.html",
+  "subject": "[cryptography] PBKDF2 + current GPU or ASIC farms = game over for passwords (Re: TLS2)",
+  "date_display": "Mon, 30 Sep 2013 08:44:11 -0700",
+  "date_header": "Mon, 30 Sep 2013 08:44:11 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05268.html",
+  "subject": "Re: [cryptography] PBKDF2 + current GPU or ASIC farms = game over for passwords (Re: TLS2)",
+  "date_display": "Mon, 30 Sep 2013 11:23:16 -0700",
+  "date_header": "Mon, 30 Sep 2013 11:23:16 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05271.html",
+  "subject": "Re: [cryptography] PBKDF2 + current GPU or ASIC farms = game over for passwords (Re: TLS2)",
+  "date_display": "Mon, 30 Sep 2013 12:23:31 -0700",
+  "date_header": "Mon, 30 Sep 2013 12:23:31 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05278.html",
+  "subject": "[cryptography] replacing passwords with keys is not so hard (Re: PBKDF2 + current GPU or ASIC farms = game over for passwords)",
+  "date_display": "Tue, 01 Oct 2013 02:13:17 -0700",
+  "date_header": "Tue, 01 Oct 2013 02:13:17 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05283.html",
+  "subject": "[cryptography] are ECDSA curves provably not cooked? (Re: [Cryptography] RSA equivalent key length/strength)",
+  "date_display": "Tue, 01 Oct 2013 03:09:23 -0700",
+  "date_header": "Tue, 01 Oct 2013 03:09:23 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05289.html",
+  "subject": "Re: [cryptography] [Cryptography] are ECDSA curves provably not cooked? (Re: RSA equivalent key length/strength)",
+  "date_display": "Tue, 01 Oct 2013 09:52:46 -0700",
+  "date_header": "Tue, 01 Oct 2013 09:52:46 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05293.html",
+  "subject": "Re: [cryptography] replacing passwords with keys is not so hard (Re: PBKDF2 + current GPU or ASIC farms = game over for passwords)",
+  "date_display": "Tue, 01 Oct 2013 12:02:58 -0700",
+  "date_header": "Tue, 01 Oct 2013 12:02:58 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05296.html",
+  "subject": "[cryptography] oneid single-sign on stuff (Re: PBKDF2 + current GPU or ASIC farms = game over for passwords (Re: TLS2)",
+  "date_display": "Tue, 01 Oct 2013 13:17:59 -0700",
+  "date_header": "Tue, 01 Oct 2013 13:17:59 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05298.html",
+  "subject": "[cryptography] more oneid stuff 2-factor when smartphone offline scenarios (Re: replacing passwords with keys is not so hard (Re: PBKDF2 + current GPU or ASIC farms = game over for passwords))",
+  "date_display": "Tue, 01 Oct 2013 13:55:49 -0700",
+  "date_header": "Tue, 01 Oct 2013 13:55:49 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05329.html",
+  "subject": "Re: [cryptography] A question about public keys",
+  "date_display": "Thu, 03 Oct 2013 07:15:11 -0700",
+  "date_header": "Thu, 03 Oct 2013 07:15:11 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05340.html",
+  "subject": "Re: [cryptography] A question about public keys",
+  "date_display": "Thu, 03 Oct 2013 10:46:34 -0700",
+  "date_header": "Thu, 03 Oct 2013 10:46:34 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05377.html",
+  "subject": "[cryptography] ciphersuite revocation model? (Re: the spell is broken)",
+  "date_display": "Sat, 05 Oct 2013 04:42:08 -0700",
+  "date_header": "Sat, 05 Oct 2013 04:42:08 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05417.html",
+  "subject": "[cryptography] was this FIPS 186-1 (first DSA) an attemped NSA\tbackdoor?",
+  "date_display": "Thu, 10 Oct 2013 06:37:33 -0700",
+  "date_header": "Thu, 10 Oct 2013 06:37:33 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05458.html",
+  "subject": "Re: [cryptography] [Cryptography] Mail Lists In the Post-Snowden Era",
+  "date_display": "Mon, 21 Oct 2013 07:50:45 -0700",
+  "date_header": "Mon, 21 Oct 2013 07:50:45 -0700"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05546.html",
+  "subject": "Re: [cryptography] NIST Randomness Beacon",
+  "date_display": "Tue, 12 Nov 2013 01:10:55 -0800",
+  "date_header": "Tue, 12 Nov 2013 01:10:55 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05916.html",
+  "subject": "[cryptography] NSA co-chair claimed sabotage on CFRG list/group (was Re: ECC patent FUD revisited",
+  "date_display": "Mon, 06 Jan 2014 19:49:01 -0800",
+  "date_header": "Mon, 06 Jan 2014 19:49:01 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg05927.html",
+  "subject": "[cryptography] NSA, FBI creep & rule of law, democracy itself (Re:  To Protect and Infect Slides)",
+  "date_display": "Tue, 07 Jan 2014 07:24:53 -0800",
+  "date_header": "Tue, 07 Jan 2014 07:24:53 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg06726.html",
+  "subject": "Re: [cryptography] John Gilmore: Cryptography list is censoring my\temails",
+  "date_display": "Thu, 01 Jan 2015 10:12:33 -0800",
+  "date_header": "Thu, 01 Jan 2015 10:12:33 -0800"
+ },
+ {
+  "href": "https://www.mail-archive.com/cryptography@randombit.net/msg06728.html",
+  "subject": "Re: [cryptography] John Gilmore: Cryptography list is censoring my\temails",
+  "date_display": "Thu, 01 Jan 2015 10:40:48 -0800",
+  "date_header": "Thu, 01 Jan 2015 10:40:48 -0800"
+ }
+]

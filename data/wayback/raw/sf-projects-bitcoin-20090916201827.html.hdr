@@ -1,0 +1,38 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 26 Sep 2026 02:36:41 GMT
+content-type: text/html; charset=utf-8
+content-length: 34423
+x-archive-orig-server: nginx/0.7.61
+x-archive-orig-date: Wed, 16 Sep 2009 20:18:27 GMT
+x-archive-orig-connection: close
+x-archive-orig-pragma: no-cache
+x-archive-orig-cache-control: no-cache
+x-archive-orig-set-cookie: VISITOR=1348b14ae1aa1fcd4b421400; expires="Sat, 14-Sep-2019 20:18:27 GMT"; Max-Age=315360000; Path=/
+x-archive-orig-set-cookie: sf.consume=618615f2503fb416d5fab03119f2d334437babc4gAJ9cQEoVQhfZXhwaXJlc3ECY2RhdGV0aW1lCmRhdGV0aW1lCnEDVQoH9gETAw4HAAAAhVJxBFUFcHJlZnNxBX1xBlUOdXNlc19yZWxhdGlvbnNxB4lVB3ZlcnNpb25xCFUBMlUDa2V5cQlVGDEzNDhiMTRhZTFhYTFmY2Q0YjQyMTQwMHEKVQNfaWRxC1UgM2U0OGQ2ZmU3ZjcyM2VjOTFlYzc3Y2Q4NzkyOGIzNzNxDFUOX2FjY2Vzc2VkX3RpbWVxDUdB0qxSBMmCClUOX2NyZWF0aW9uX3RpbWVxDkdB0qxSBMmBQXUu; expires=Tue, 19-Jan-2038 03:14:07 GMT; Path=/
+x-archive-orig-content-length: 34423
+x-archive-orig-vary: Accept-Encoding, User-Agent
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Wed, 16 Sep 2009 20:18:27 GMT
+link: <http://sourceforge.net:80/projects/bitcoin/>; rel="original", <https://web.archive.org/web/timemap/link/http://sourceforge.net:80/projects/bitcoin/>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://sourceforge.net:80/projects/bitcoin/>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: 52_11_20090916185537_crawl100_IndexOnly.gpg-c/52_11_20090916201705_crawl102.arc.gz
+server-timing: captures_list;dur=0.359704, exclusion.robots;dur=0.029340, exclusion.robots.policy;dur=0.021970, esindex;dur=0.006991, cdx.remote;dur=5.719586, LoadShardBlock;dur=112.016412, PetaboxLoader3.datanode;dur=117.734033, PetaboxLoader3.resolve;dur=543.220442, load_resource;dur=588.901451
+x-app-server: wwwb-app219-dc8
+x-ts: 200
+x-tr: 732
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app219; path=/
+cache-control: private
+x-location: All
+x-as: 7545
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: TPG Telecom Limited
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

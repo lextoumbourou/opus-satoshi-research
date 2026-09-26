@@ -1,0 +1,39 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 26 Sep 2026 02:41:37 GMT
+content-type: text/html
+x-archive-orig-connection: close
+x-archive-orig-x-powered-by: PHP/5.2.6
+x-archive-orig-x-sfx-webhead: sfs-web-4
+x-archive-orig-x-sfx-revision: release_20090210.01
+x-archive-orig-expires: Thu, 19 Nov 1981 08:52:00 GMT
+x-archive-orig-cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+x-archive-orig-pragma: no-cache
+x-archive-orig-etag: "jpd-3748357224.18984"
+x-archive-orig-date: Wed, 18 Feb 2009 17:17:04 GMT
+x-archive-orig-server: lighttpd/1.4.19
+x-archive-orig-vary: Accept-Encoding, User-Agent
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Wed, 18 Feb 2009 17:17:04 GMT
+link: <http://sourceforge.net:80/project/screenshots.php?group_id=244765>; rel="original", <https://web.archive.org/web/timemap/link/http://sourceforge.net:80/project/screenshots.php?group_id=244765>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://sourceforge.net:80/project/screenshots.php?group_id=244765>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: 52_8_20090218133233_crawl102-c/52_8_20090218171549_crawl102.arc.gz
+server-timing: captures_list;dur=0.384138, exclusion.robots;dur=0.039184, exclusion.robots.policy;dur=0.031592, esindex;dur=0.006071, cdx.remote;dur=6.104513, LoadShardBlock;dur=183.124771, PetaboxLoader3.datanode;dur=172.878230, load_resource;dur=115.128290, PetaboxLoader3.resolve;dur=92.561700
+x-app-server: wwwb-app253-dc8
+x-ts: 200
+x-tr: 318
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app253; path=/
+cache-control: private
+x-location: All
+x-as: 7545
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: TPG Telecom Limited
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

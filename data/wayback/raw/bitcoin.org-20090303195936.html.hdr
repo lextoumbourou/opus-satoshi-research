@@ -1,0 +1,33 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 26 Sep 2026 02:35:06 GMT
+content-type: text/html
+content-length: 5794
+x-archive-orig-date: Tue, 03 Mar 2009 19:59:36 GMT
+x-archive-orig-server: Apache
+x-archive-orig-content-length: 5794
+x-archive-orig-connection: close
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Tue, 03 Mar 2009 19:59:36 GMT
+link: <http://bitcoin.org:80/>; rel="original", <https://web.archive.org/web/timemap/link/http://bitcoin.org:80/>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://bitcoin.org:80/>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: 51_8_20090303154441_crawl101-c/51_8_20090303195731_crawl102.arc.gz
+server-timing: captures_list;dur=0.351697, exclusion.robots;dur=0.020456, exclusion.robots.policy;dur=0.014574, esindex;dur=0.006124, cdx.remote;dur=64.031772, LoadShardBlock;dur=303.008753, PetaboxLoader3.datanode;dur=258.406192, load_resource;dur=159.351177, PetaboxLoader3.resolve;dur=144.580674
+x-app-server: wwwb-app206-dc6
+x-ts: 200
+x-tr: 555
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=0
+set-cookie: wb-p-SERVER=wwwb-app206; path=/
+cache-control: private
+x-location: All
+x-as: 7545
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: TPG Telecom Limited
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

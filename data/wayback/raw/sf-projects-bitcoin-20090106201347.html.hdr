@@ -1,0 +1,38 @@
+HTTP/2 200 
+server: nginx
+date: Sat, 26 Sep 2026 02:36:40 GMT
+content-type: text/html
+x-archive-orig-connection: close
+x-archive-orig-x-powered-by: PHP/5.2.6
+x-archive-orig-x-sfx-webhead: sfs-web-7
+x-archive-orig-x-sfx-revision: release_20081219.01
+x-archive-orig-expires: Thu, 19 Nov 1981 08:52:00 GMT
+x-archive-orig-cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+x-archive-orig-pragma: no-cache
+x-archive-orig-date: Tue, 06 Jan 2009 20:13:47 GMT
+x-archive-orig-server: lighttpd/1.4.19
+x-archive-orig-vary: Accept-Encoding, User-Agent
+cache-control: max-age=1800
+accept-ranges: bytes
+memento-datetime: Tue, 06 Jan 2009 20:13:47 GMT
+link: <http://sourceforge.net:80/projects/bitcoin/>; rel="original", <https://web.archive.org/web/timemap/link/http://sourceforge.net:80/projects/bitcoin/>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/http://sourceforge.net:80/projects/bitcoin/>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: 52_7_20090106162716_crawl107-c/52_7_20090106201010_crawl106.arc.gz
+server-timing: captures_list;dur=0.473311, exclusion.robots;dur=0.044649, exclusion.robots.policy;dur=0.035200, esindex;dur=0.007626, cdx.remote;dur=8.688575, LoadShardBlock;dur=91.710041, PetaboxLoader3.datanode;dur=70.971767, PetaboxLoader3.resolve;dur=66.652581, load_resource;dur=109.725633
+x-app-server: wwwb-app244-dc8
+x-ts: 200
+x-tr: 265
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+set-cookie: wb-p-SERVER=wwwb-app244; path=/
+cache-control: private
+x-location: All
+x-as: 7545
+x-rl: 0
+x-na: 0
+x-page-cache: MISS
+server-timing: MISS
+x-nid: TPG Telecom Limited
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: interest-cohort=()
+x-sd: 0
+

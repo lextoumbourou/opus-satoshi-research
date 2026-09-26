@@ -1,0 +1,284 @@
+== bitcoin.org/screen1.png
+org,bitcoin)/screen1.png 20110410024725 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110410024732 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1564
+org,bitcoin)/screen1.png 20110411103247 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 358
+org,bitcoin)/screen1.png 20110411103251 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1566
+org,bitcoin)/screen1.png 20110411211711 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 357
+org,bitcoin)/screen1.png 20110411211712 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1567
+org,bitcoin)/screen1.png 20110427033538 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 361
+org,bitcoin)/screen1.png 20110427033548 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1569
+org,bitcoin)/screen1.png 20110427160616 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110427160617 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1566
+org,bitcoin)/screen1.png 20110429002940 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 359
+org,bitcoin)/screen1.png 20110429002940 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1568
+org,bitcoin)/screen1.png 20110501074113 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110501074114 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1562
+org,bitcoin)/screen1.png 20110502040622 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110502040622 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1568
+org,bitcoin)/screen1.png 20110503070536 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 362
+org,bitcoin)/screen1.png 20110503070539 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1567
+org,bitcoin)/screen1.png 20110504140751 http://www.bitcoin.org/screen1.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 347
+org,bitcoin)/screen1.png 20110504201020 http://www.bitcoin.org/screen1.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 347
+
+== www.bitcoin.org/screen1.png
+org,bitcoin)/screen1.png 20110410024725 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110410024732 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1564
+org,bitcoin)/screen1.png 20110411103247 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 358
+org,bitcoin)/screen1.png 20110411103251 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1566
+org,bitcoin)/screen1.png 20110411211711 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 357
+org,bitcoin)/screen1.png 20110411211712 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1567
+org,bitcoin)/screen1.png 20110427033538 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 361
+org,bitcoin)/screen1.png 20110427033548 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1569
+org,bitcoin)/screen1.png 20110427160616 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110427160617 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1566
+org,bitcoin)/screen1.png 20110429002940 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 359
+org,bitcoin)/screen1.png 20110429002940 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1568
+org,bitcoin)/screen1.png 20110501074113 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110501074114 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1562
+org,bitcoin)/screen1.png 20110502040622 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 360
+org,bitcoin)/screen1.png 20110502040622 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1568
+org,bitcoin)/screen1.png 20110503070536 http://bitcoin.org/screen1.png text/html 301 CKUYM2FWVMRB5OYCDGC3UUDIDFPR23KC 362
+org,bitcoin)/screen1.png 20110503070539 http://www.bitcoin.org/screen1.png text/html 404 7EUG5WZECS7Z7XLVG6LUFGSNT3E7ACDA 1567
+org,bitcoin)/screen1.png 20110504140751 http://www.bitcoin.org/screen1.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 347
+org,bitcoin)/screen1.png 20110504201020 http://www.bitcoin.org/screen1.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 347
+
+== bitcoin.org/screen2.png
+org,bitcoin)/screen2.png 20110410024725 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 360
+org,bitcoin)/screen2.png 20110410024734 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1565
+org,bitcoin)/screen2.png 20110411103247 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 358
+org,bitcoin)/screen2.png 20110411103249 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1567
+org,bitcoin)/screen2.png 20110411211711 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 357
+org,bitcoin)/screen2.png 20110411211712 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1568
+org,bitcoin)/screen2.png 20110427033538 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 361
+org,bitcoin)/screen2.png 20110427033548 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1569
+org,bitcoin)/screen2.png 20110427160616 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 361
+org,bitcoin)/screen2.png 20110427160617 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1565
+org,bitcoin)/screen2.png 20110429002940 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 363
+org,bitcoin)/screen2.png 20110429002940 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1566
+org,bitcoin)/screen2.png 20110501074113 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 360
+org,bitcoin)/screen2.png 20110501074114 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1562
+org,bitcoin)/screen2.png 20110502040622 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 363
+org,bitcoin)/screen2.png 20110502040622 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1567
+org,bitcoin)/screen2.png 20110503070536 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 362
+org,bitcoin)/screen2.png 20110503070538 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1566
+org,bitcoin)/screen2.png 20110504140751 http://www.bitcoin.org/screen2.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 348
+org,bitcoin)/screen2.png 20110504201020 http://www.bitcoin.org/screen2.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 347
+
+== www.bitcoin.org/screen2.png
+org,bitcoin)/screen2.png 20110410024725 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 360
+org,bitcoin)/screen2.png 20110410024734 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1565
+org,bitcoin)/screen2.png 20110411103247 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 358
+org,bitcoin)/screen2.png 20110411103249 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1567
+org,bitcoin)/screen2.png 20110411211711 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 357
+org,bitcoin)/screen2.png 20110411211712 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1568
+org,bitcoin)/screen2.png 20110427033538 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 361
+org,bitcoin)/screen2.png 20110427033548 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1569
+org,bitcoin)/screen2.png 20110427160616 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 361
+org,bitcoin)/screen2.png 20110427160617 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1565
+org,bitcoin)/screen2.png 20110429002940 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 363
+org,bitcoin)/screen2.png 20110429002940 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1566
+org,bitcoin)/screen2.png 20110501074113 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 360
+org,bitcoin)/screen2.png 20110501074114 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1562
+org,bitcoin)/screen2.png 20110502040622 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 363
+org,bitcoin)/screen2.png 20110502040622 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1567
+org,bitcoin)/screen2.png 20110503070536 http://bitcoin.org/screen2.png text/html 301 SBHVBX3J4LY6LPLITHIALU4KFFEUNQ5L 362
+org,bitcoin)/screen2.png 20110503070538 http://www.bitcoin.org/screen2.png text/html 404 QYS7I6TR5KR4CXSDYRNKR2DABM6E57KC 1566
+org,bitcoin)/screen2.png 20110504140751 http://www.bitcoin.org/screen2.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 348
+org,bitcoin)/screen2.png 20110504201020 http://www.bitcoin.org/screen2.png text/html 404 RDUHOU524QGVPQ2SGN2DIOH655GTYEKR 347
+
+== bitcoin.org/screen3.png
+org,bitcoin)/screen3.png 20110410024725 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 360
+org,bitcoin)/screen3.png 20110410024734 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12820
+org,bitcoin)/screen3.png 20110411224132 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 358
+org,bitcoin)/screen3.png 20110411224132 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12819
+org,bitcoin)/screen3.png 20110427033535 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 361
+org,bitcoin)/screen3.png 20110427033536 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12816
+org,bitcoin)/screen3.png 20110427160614 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 360
+org,bitcoin)/screen3.png 20110427160615 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12816
+org,bitcoin)/screen3.png 20110429003039 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 363
+org,bitcoin)/screen3.png 20110429003039 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12821
+org,bitcoin)/screen3.png 20110501074129 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 360
+org,bitcoin)/screen3.png 20110501074129 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12822
+org,bitcoin)/screen3.png 20110502040636 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 363
+org,bitcoin)/screen3.png 20110502040637 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12823
+org,bitcoin)/screen3.png 20110503070536 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 362
+org,bitcoin)/screen3.png 20110503070537 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12823
+org,bitcoin)/screen3.png 20110504140751 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12815
+org,bitcoin)/screen3.png 20110504201020 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12813
+org,bitcoin)/screen3.png 20110523224410 http://bitcoin.org/screen3.png text/html 404 DL6RX5KAP3DDO46EU42KOYSHXGBBYW3H 1056
+org,bitcoin)/screen3.png 20110525101250 http://bitcoin.org/screen3.png text/html 404 4RDQRIFOWOTLNKTRUQWTJZD4ODXK6BO5 1058
+
+== www.bitcoin.org/screen3.png
+org,bitcoin)/screen3.png 20110410024725 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 360
+org,bitcoin)/screen3.png 20110410024734 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12820
+org,bitcoin)/screen3.png 20110411224132 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 358
+org,bitcoin)/screen3.png 20110411224132 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12819
+org,bitcoin)/screen3.png 20110427033535 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 361
+org,bitcoin)/screen3.png 20110427033536 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12816
+org,bitcoin)/screen3.png 20110427160614 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 360
+org,bitcoin)/screen3.png 20110427160615 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12816
+org,bitcoin)/screen3.png 20110429003039 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 363
+org,bitcoin)/screen3.png 20110429003039 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12821
+org,bitcoin)/screen3.png 20110501074129 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 360
+org,bitcoin)/screen3.png 20110501074129 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12822
+org,bitcoin)/screen3.png 20110502040636 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 363
+org,bitcoin)/screen3.png 20110502040637 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12823
+org,bitcoin)/screen3.png 20110503070536 http://bitcoin.org/screen3.png text/html 301 EKL3MSRB4HEWF3YSCWYMCAH5KESIKCWL 362
+org,bitcoin)/screen3.png 20110503070537 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12823
+org,bitcoin)/screen3.png 20110504140751 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12815
+org,bitcoin)/screen3.png 20110504201020 http://www.bitcoin.org/screen3.png image/png 200 EGTDOQINDRWYD6RKRZ4PZIUYL6KWEMZ7 12813
+org,bitcoin)/screen3.png 20110523224410 http://bitcoin.org/screen3.png text/html 404 DL6RX5KAP3DDO46EU42KOYSHXGBBYW3H 1056
+org,bitcoin)/screen3.png 20110525101250 http://bitcoin.org/screen3.png text/html 404 4RDQRIFOWOTLNKTRUQWTJZD4ODXK6BO5 1058
+
+== bitcoin.org/screen4.png
+org,bitcoin)/screen4.png 20110410024729 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 360
+org,bitcoin)/screen4.png 20110410024736 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10306
+org,bitcoin)/screen4.png 20110411224132 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 358
+org,bitcoin)/screen4.png 20110411224132 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10304
+org,bitcoin)/screen4.png 20110427033535 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 361
+org,bitcoin)/screen4.png 20110427033536 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10298
+org,bitcoin)/screen4.png 20110427160614 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 361
+org,bitcoin)/screen4.png 20110427160615 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10298
+org,bitcoin)/screen4.png 20110429003039 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 363
+org,bitcoin)/screen4.png 20110429003040 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10304
+org,bitcoin)/screen4.png 20110501074129 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 360
+org,bitcoin)/screen4.png 20110501074129 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10303
+org,bitcoin)/screen4.png 20110502040636 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 363
+org,bitcoin)/screen4.png 20110502040637 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10305
+org,bitcoin)/screen4.png 20110503070536 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 362
+org,bitcoin)/screen4.png 20110503070537 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10305
+org,bitcoin)/screen4.png 20110504140751 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10298
+org,bitcoin)/screen4.png 20110504201020 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10297
+org,bitcoin)/screen4.png 20110523224410 http://bitcoin.org/screen4.png text/html 404 IUTSBCUZCZ7JHMM2CR2TBNGIAEVRHM7P 1056
+org,bitcoin)/screen4.png 20110525101243 http://bitcoin.org/screen4.png text/html 404 CYRIOK5VFLQBZHNGPWND55NOFEML7FGM 1057
+
+== www.bitcoin.org/screen4.png
+org,bitcoin)/screen4.png 20110410024729 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 360
+org,bitcoin)/screen4.png 20110410024736 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10306
+org,bitcoin)/screen4.png 20110411224132 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 358
+org,bitcoin)/screen4.png 20110411224132 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10304
+org,bitcoin)/screen4.png 20110427033535 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 361
+org,bitcoin)/screen4.png 20110427033536 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10298
+org,bitcoin)/screen4.png 20110427160614 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 361
+org,bitcoin)/screen4.png 20110427160615 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10298
+org,bitcoin)/screen4.png 20110429003039 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 363
+org,bitcoin)/screen4.png 20110429003040 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10304
+org,bitcoin)/screen4.png 20110501074129 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 360
+org,bitcoin)/screen4.png 20110501074129 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10303
+org,bitcoin)/screen4.png 20110502040636 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 363
+org,bitcoin)/screen4.png 20110502040637 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10305
+org,bitcoin)/screen4.png 20110503070536 http://bitcoin.org/screen4.png text/html 301 MUUJYGIPOVF2OMLOCEQCG3WJKM5B57RV 362
+org,bitcoin)/screen4.png 20110503070537 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10305
+org,bitcoin)/screen4.png 20110504140751 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10298
+org,bitcoin)/screen4.png 20110504201020 http://www.bitcoin.org/screen4.png image/png 200 NUI4TT44BW6VPKB4PZU2D2D4WQK3XJC7 10297
+org,bitcoin)/screen4.png 20110523224410 http://bitcoin.org/screen4.png text/html 404 IUTSBCUZCZ7JHMM2CR2TBNGIAEVRHM7P 1056
+org,bitcoin)/screen4.png 20110525101243 http://bitcoin.org/screen4.png text/html 404 CYRIOK5VFLQBZHNGPWND55NOFEML7FGM 1057
+
+== bitcoin.org/something.png
+org,bitcoin)/something.png 20110410024725 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110410024735 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 836
+org,bitcoin)/something.png 20110411103250 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 360
+org,bitcoin)/something.png 20110411103251 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 832
+org,bitcoin)/something.png 20110411211711 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 359
+org,bitcoin)/something.png 20110411211712 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 834
+org,bitcoin)/something.png 20110411224132 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 361
+org,bitcoin)/something.png 20110411224132 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 834
+org,bitcoin)/something.png 20110427033536 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110427033536 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 836
+org,bitcoin)/something.png 20110427160614 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110427160615 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 838
+org,bitcoin)/something.png 20110429002940 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 362
+org,bitcoin)/something.png 20110429002940 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 838
+org,bitcoin)/something.png 20110501074113 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 362
+org,bitcoin)/something.png 20110501074114 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 840
+org,bitcoin)/something.png 20110502040622 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110502040622 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 835
+org,bitcoin)/something.png 20110503070536 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 364
+org,bitcoin)/something.png 20110503070538 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 842
+
+== www.bitcoin.org/something.png
+org,bitcoin)/something.png 20110410024725 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110410024735 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 836
+org,bitcoin)/something.png 20110411103250 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 360
+org,bitcoin)/something.png 20110411103251 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 832
+org,bitcoin)/something.png 20110411211711 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 359
+org,bitcoin)/something.png 20110411211712 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 834
+org,bitcoin)/something.png 20110411224132 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 361
+org,bitcoin)/something.png 20110411224132 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 834
+org,bitcoin)/something.png 20110427033536 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110427033536 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 836
+org,bitcoin)/something.png 20110427160614 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110427160615 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 838
+org,bitcoin)/something.png 20110429002940 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 362
+org,bitcoin)/something.png 20110429002940 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 838
+org,bitcoin)/something.png 20110501074113 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 362
+org,bitcoin)/something.png 20110501074114 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 840
+org,bitcoin)/something.png 20110502040622 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 363
+org,bitcoin)/something.png 20110502040622 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 835
+org,bitcoin)/something.png 20110503070536 http://bitcoin.org/something.png text/html 301 J5A57ULEUTRWL7L76UAQHW4NSCS3IXEN 364
+org,bitcoin)/something.png 20110503070538 http://www.bitcoin.org/something.png image/png 200 LETPJMF4G5IHPKIRSU2RT6LUAGJNP7JD 842
+
+== bitcoin.org/files/screen1.png
+
+== www.bitcoin.org/files/screen1.png
+
+== bitcoin.org/files/screen2.png
+
+== www.bitcoin.org/files/screen2.png
+
+== bitcoin.org/files/screen3.png
+
+== www.bitcoin.org/files/screen3.png
+
+== bitcoin.org/files/screen4.png
+
+== www.bitcoin.org/files/screen4.png
+
+== bitcoin.org/files/something.png
+
+== www.bitcoin.org/files/something.png
+
+== bitcoin.org/Satoshi_Nakamoto.asc
+org,bitcoin)/satoshi_nakamoto.asc 20110228054007 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1615
+org,bitcoin)/satoshi_nakamoto.asc 20110514165210 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1616
+org,bitcoin)/satoshi_nakamoto.asc 20110523224044 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1662
+org,bitcoin)/satoshi_nakamoto.asc 20110527094932 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1660
+org,bitcoin)/satoshi_nakamoto.asc 20110607154206 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1658
+org,bitcoin)/satoshi_nakamoto.asc 20110613054153 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1675
+org,bitcoin)/satoshi_nakamoto.asc 20110619151239 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1661
+org,bitcoin)/satoshi_nakamoto.asc 20110620165844 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1660
+org,bitcoin)/satoshi_nakamoto.asc 20110623125316 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1659
+org,bitcoin)/satoshi_nakamoto.asc 20110627152533 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1661
+org,bitcoin)/satoshi_nakamoto.asc 20110705112057 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1658
+org,bitcoin)/satoshi_nakamoto.asc 20110707065949 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1663
+org,bitcoin)/satoshi_nakamoto.asc 20110713214626 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1662
+org,bitcoin)/satoshi_nakamoto.asc 20110714094756 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1674
+org,bitcoin)/satoshi_nakamoto.asc 20110721230207 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1659
+org,bitcoin)/satoshi_nakamoto.asc 20110814110311 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1671
+org,bitcoin)/satoshi_nakamoto.asc 20110816103711 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1656
+org,bitcoin)/satoshi_nakamoto.asc 20140911014743 http://www.bitcoin.org/Satoshi_Nakamoto.asc text/html 301 AIWXR45JQIG2LBFWDNQESDVS2CA3NYA2 477
+org,bitcoin)/satoshi_nakamoto.asc 20140911014745 http://bitcoin.org/Satoshi_Nakamoto.asc text/html 301 AIWXR45JQIG2LBFWDNQESDVS2CA3NYA2 475
+org,bitcoin)/satoshi_nakamoto.asc 20140911014748 https://bitcoin.org/Satoshi_Nakamoto.asc text/html 404 5JSNRF376L5L63J7XM7W4CC67GQQY3SH 2851
+
+== www.bitcoin.org/Satoshi_Nakamoto.asc
+org,bitcoin)/satoshi_nakamoto.asc 20110228054007 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1615
+org,bitcoin)/satoshi_nakamoto.asc 20110514165210 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1616
+org,bitcoin)/satoshi_nakamoto.asc 20110523224044 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1662
+org,bitcoin)/satoshi_nakamoto.asc 20110527094932 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1660
+org,bitcoin)/satoshi_nakamoto.asc 20110607154206 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1658
+org,bitcoin)/satoshi_nakamoto.asc 20110613054153 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1675
+org,bitcoin)/satoshi_nakamoto.asc 20110619151239 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1661
+org,bitcoin)/satoshi_nakamoto.asc 20110620165844 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1660
+org,bitcoin)/satoshi_nakamoto.asc 20110623125316 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1659
+org,bitcoin)/satoshi_nakamoto.asc 20110627152533 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1661
+org,bitcoin)/satoshi_nakamoto.asc 20110705112057 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1658
+org,bitcoin)/satoshi_nakamoto.asc 20110707065949 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1663
+org,bitcoin)/satoshi_nakamoto.asc 20110713214626 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1662
+org,bitcoin)/satoshi_nakamoto.asc 20110714094756 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1674
+org,bitcoin)/satoshi_nakamoto.asc 20110721230207 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1659
+org,bitcoin)/satoshi_nakamoto.asc 20110814110311 http://www.bitcoin.org:80/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1671
+org,bitcoin)/satoshi_nakamoto.asc 20110816103711 http://bitcoin.org/Satoshi_Nakamoto.asc text/plain 200 WXS4HAOQMWLXFL32WFUOLTSR7DQZSZWT 1656
+org,bitcoin)/satoshi_nakamoto.asc 20140911014743 http://www.bitcoin.org/Satoshi_Nakamoto.asc text/html 301 AIWXR45JQIG2LBFWDNQESDVS2CA3NYA2 477
+org,bitcoin)/satoshi_nakamoto.asc 20140911014745 http://bitcoin.org/Satoshi_Nakamoto.asc text/html 301 AIWXR45JQIG2LBFWDNQESDVS2CA3NYA2 475
+org,bitcoin)/satoshi_nakamoto.asc 20140911014748 https://bitcoin.org/Satoshi_Nakamoto.asc text/html 404 5JSNRF376L5L63J7XM7W4CC67GQQY3SH 2851
+
