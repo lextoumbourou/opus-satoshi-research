@@ -1,0 +1,66 @@
+From mboxrd@z Thu Jan  1 00:00:00 1970
+Return-Path: <satoshi@vistomail.com>
+Received: from smtp1.linuxfoundation.org (smtp1.linux-foundation.org
+	[172.17.192.35])
+	by mail.linuxfoundation.org (Postfix) with ESMTPS id 69E05847
+	for <bitcoin-dev@lists.linuxfoundation.org>;
+	Sat, 15 Aug 2015 19:00:07 +0000 (UTC)
+X-Greylist: delayed 00:09:57 by SQLgrey-1.7.6
+Received: from mail.vistomail.com (vistomail.com [190.97.163.93])
+	by smtp1.linuxfoundation.org (Postfix) with ESMTP id 2175813F
+	for <bitcoin-dev@lists.linuxfoundation.org>;
+	Sat, 15 Aug 2015 19:00:05 +0000 (UTC)
+Received: from DS04 ([190.97.163.93]) by vistomail.com with MailEnable ESMTP;
+	Sat, 15 Aug 2015 13:51:14 -0500
+MIME-Version: 1.0
+Date: Sat, 15 Aug 2015 12:43:54 -0500
+Message-ID: <6EC9DDF352DC4838AE9B088AB372428A25E1F42A@DS04>
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-Priority: 3 (Normal)
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Reply-To: satoshi@vistomail.com
+To: bitcoin-dev@lists.linuxfoundation.org
+X-Cyberoam-smtpxy-version: 1.0.6.3
+X-Cyberoam-AV-Policy: default
+X-CTCH-PVer: 0000001
+X-CTCH-Spam: Unknown
+X-CTCH-VOD: Unknown
+X-CTCH-Flags: 0
+X-CTCH-RefID: str=0001.0A020201.55CF8C36.0096:SCFSTAT30427477, ss=1, re=-4.000,
+	recu=0.000, reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-Score: -4.000
+X-CTCH-ScoreCust: 0.000
+X-CTCH-Rules: 
+X-CTCH-SenderID: satoshi@vistomail.com
+X-CTCH-SenderID-Flags: 0
+X-Spam-Status: No, score=0.8 required=5.0 tests=BAYES_50,T_RP_MATCHES_RCVD
+	autolearn=ham version=3.3.1
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on
+	smtp1.linux-foundation.org
+Subject: [bitcoin-dev] Bitcoin XT Fork
+X-BeenThere: bitcoin-dev@lists.linuxfoundation.org
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: Bitcoin Development Discussion <bitcoin-dev.lists.linuxfoundation.org>
+List-Unsubscribe: <https://lists.linuxfoundation.org/mailman/options/bitcoin-dev>,
+	<mailto:bitcoin-dev-request@lists.linuxfoundation.org?subject=unsubscribe>
+List-Archive: <http://lists.linuxfoundation.org/pipermail/bitcoin-dev/>
+List-Post: <mailto:bitcoin-dev@lists.linuxfoundation.org>
+List-Help: <mailto:bitcoin-dev-request@lists.linuxfoundation.org?subject=help>
+List-Subscribe: <https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev>,
+	<mailto:bitcoin-dev-request@lists.linuxfoundation.org?subject=subscribe>
+X-List-Received-Date: Sat, 15 Aug 2015 19:00:07 -0000
+
+I have been following the recent block size debates through the mailing list.  I had hoped the debate would resolve and that a fork proposal would achieve widespread consensus.  However with the formal release of Bitcoin XT 0.11A, this looks unlikely to happen, and so I am forced to share my concerns about this very dangerous fork.
+
+The developers of this pretender-Bitcoin claim to be following my original vision, but nothing could be further from the truth.  When I designed Bitcoin, I designed it in such a way as to make future modifications to the consensus rules difficult without near unanimous agreement.  Bitcoin was designed to be protected from the influence of charismatic leaders, even if their name is Gavin Andresen, Barack Obama, or Satoshi Nakamoto.  Nearly everyone has to agree on a change, and they have to do it without being forced or pressured into it.  By doing a fork in this way, these developers are violating the "original vision" they claim to honour.
+
+They use my old writings to make claims about what Bitcoin was supposed to be.  However I acknowledge that a lot has changed since that time, and new knowledge has been gained that contradicts some of my early opinions.  For example I didn't anticipate pooled mining and its effects on the security of the network.  Making Bitcoin a competitive monetary system while also preserving its security properties is not a trivial problem, and we should take more time to come up with a robust solution.  I suspect we need a better incentive for users to run nodes instead of relying solely on altruism.
+
+If two developers can fork Bitcoin and succeed in redefining what "Bitcoin" is, in the face of widespread technical criticism and through the use of populist tactics, then I will have no choice but to declare Bitcoin a failed project.  Bitcoin was meant to be both technically and socially robust.  This present situation has been very disappointing to watch unfold.
+
+Satoshi Nakamoto
+
+
+
