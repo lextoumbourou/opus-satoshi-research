@@ -1,0 +1,252 @@
+ADAM BACK POSTING RHYTHM, FOUR VENUES 1996-2021, VS SATOSHI
+==============================================================================
+Satoshi 'all timed' (hour_compare.py convention): n=919, share 05:00-10:59 UTC = 4.4%
+Satoshi KDE reference (dst_likelihood.py convention): n=902 (2008-08-20 .. 2011-04-26)
+  quietest 8 h UTC window: 06:00-14:00 with 3.0% of events; 05:00-10:59 share 4.3%; 06:00-13:59 share 3.0%
+  Satoshi leave-one-out mean log-lik/event under own KDE (bw 0.9 h): -2.754 (uniform = -3.178)
+
+1. CYPHERPUNKS 1996-98: IS BACK'S SENDMAIL MESSAGE-ID TIME GMT OR LOCAL?
+------------------------------------------------------------------------------
+Excluded from the cypherpunks set: {'Exeter/olib (non-sendmail id format, zone unverified)': 14, 'toad.com (list-server id)': 30}
+(a) Back's own Date header (venona copy, sender's header preserved) vs the Message-ID
+    time of the same post (cryptoanarchy.wiki copy), matched by subject within 2 days.
+    If the Message-ID were BST local time, summer diffs would be about -60 min.
+    BST (+0100) : 24 matched posts; Date(UTC) - MID time: min +0.0, max +0.9 min (unique-candidate matches only: n=16, max |diff| 0.8)
+    GMT         : 19 matched posts; Date(UTC) - MID time: min +0.0, max +1.0 min (unique-candidate matches only: n=13, max |diff| 0.9)
+    unmatched: 0
+    examples:
+      Date: Sun, 14 Jul 1996 19:28:19 +0100   Message-ID: <199607141828.TAA00441@server.test.net>    diff +0.3 min
+      Date: Sun, 14 Jul 1996 12:48:37 +0100   Message-ID: <199607141148.MAA00279@server.test.net>    diff +0.6 min
+      Date: Thu, 1 Aug 1996 19:55:16 +0100    Message-ID: <199608011855.TAA02027@server.test.net>    diff +0.3 min
+      Date: Fri, 2 Aug 1996 01:34:39 +0100    Message-ID: <199608020034.BAA02423@server.test.net>    diff +0.7 min
+      Date: Tue, 6 Aug 1996 06:04:28 +0100    Message-ID: <199608060504.GAA00115@server.test.net>    diff +0.5 min
+      Date: Mon, 19 Aug 1996 05:07:41 +0100   Message-ID: <199608190407.FAA00152@server.test.net>    diff +0.7 min
+      Date: Sat, 3 Aug 1996 08:49:17 +0100    Message-ID: <199608030749.IAA00194@server.test.net>    diff +0.3 min
+      Date: Fri, 6 Dec 1996 10:27:02 GMT      Message-ID: <199612061027.KAA00273@server.test.net>    diff +0.0 min
+(b) sendmail queue-ID first letter (A=00 ... X=23) minus Message-ID hour, all 703 posts:
+      UK winter (GMT): letter - MID hour = +0 h  in 253 posts
+      UK summer (BST): letter - MID hour = +1 h  in 450 posts
+    -> the queue letter follows UK civil time (BST in summer) while the Message-ID
+       time stays on GMT; i.e. Message-ID time = UTC, and the machine's zone was Europe/London.
+(c) archive date minus MID time, GMT months: n=253, 10th pct 8 min, median 50 min, negative: 1 (of which 1 within -61..0 min)
+(c) archive date minus MID time, BST months: n=450, 10th pct 7 min, median 51 min, negative: 34 (of which 0 within -61..0 min)
+    (archive dates come from list servers with mixed/odd zone labels, so (c) is only a sanity
+     check: a BST-local Message-ID would push the summer lags ~60 min negative. The large
+     negatives are Sep-Oct 1998 posts whose archive '+0800' dates are ~12-13 h early, i.e.
+     mislabelled by the archive, plus one post filed under the wrong month.)
+
+2. SUMMARY TABLE (Satoshi KDE reference n=902)
+------------------------------------------------------------------------------
+dataset                         n range                  05-11 UTC      06-14 UTC  LL/ev    dLL  OVL%     U2   p(U2)
+randombit 2010-15             156 2010-03..2015-01   30.1 [23-38] 48.7 [41-56]  -4.35  -1.37  48.7  2.827  0.0005
+bitcointalk 2013-21           399 2013-04..2021-01   15.8 [13-20] 35.1 [31-40]  -3.93  -0.91  60.1  4.071  0.0005
+bitcoin-dev 2013-21           197 2013-05..2021-04   17.8 [13-24] 37.6 [31-45]  -4.03  -1.00  58.6  2.308  0.0005
+cypherpunks 1996-98           703 1996-03..1998-12   16.9 [14-20] 28.3 [25-32]  -3.64  -0.64  70.5  1.928  0.0005
+POOLED 2010-21 (Malta era)    752 2010-03..2021-04   19.3 [17-22] 38.6 [35-42]  -4.05  -1.02  57.6  6.354  0.0005
+POOLED all venues            1455 1996-03..2021-04   18.1 [16-20] 33.6 [31-36]  -3.85  -0.82  65.2  5.136  0.0005
+Satoshi KDE ref               902 2008-08..2011-04    4.3          3.0          -2.75
+Columns: share of posts in 05:00-10:59 and 06:00-13:59 UTC with Wilson 95% CI;
+  LL/ev = mean log-likelihood per post of Back's UTC hour under Satoshi's circular KDE
+  (bw 0.9 h; Satoshi's own leave-one-out value -2.75, uniform -3.18);
+  dLL = LL/ev minus Back's own leave-one-out LL/ev (how much worse Satoshi's rhythm explains
+  Back's posts than Back's own rhythm does; exp(dLL) = average likelihood ratio per post);
+  OVL = overlap of the 24-bin hour histograms (100 = identical); U2 = two-sample Watson U^2
+  (circular), p from 2000 label permutations (minimum attainable p = 0.0005).
+
+3. HOUR-OF-DAY HISTOGRAM, UTC (% of posts) -- cypherpunks 1996-98
+  hour |    cypherpunks 1996-98 |          Satoshi (UTC)
+   00  |   6.5 #######          |   5.9 ######          
+   01  |   3.7 ####             |   4.8 #####           
+   02  |   1.7 ##               |   3.7 ####            
+   03  |   0.3                  |   2.1 ##              
+   04  |   0.6 #                |   2.2 ##              
+   05  |   0.7 #                |   2.4 ##              
+   06  |   0.6 #                |   1.2 #               
+   07  |   2.6 ###              |   0.3                 
+   08  |   2.8 ###              |   0.1                 
+   09  |   4.8 #####            |   0.2                 
+   10  |   5.4 #####            |   0.0                 
+   11  |   4.3 ####             |   0.0                 
+   12  |   3.6 ####             |   0.3                 
+   13  |   4.3 ####             |   0.8 #               
+   14  |   2.6 ###              |   2.0 ##              
+   15  |   2.7 ###              |   3.9 ####            
+   16  |   4.4 ####             |   8.6 #########       
+   17  |   4.7 #####            |  10.6 ###########     
+   18  |   7.0 #######          |  11.2 ###########     
+   19  |   5.1 #####            |   8.4 ########        
+   20  |   6.4 ######           |   7.4 #######         
+   21  |   8.7 #########        |   8.5 #########       
+   22  |   7.8 ########         |   8.5 #########       
+   23  |   8.8 #########        |   6.7 #######         
+
+4. HOUR-OF-DAY HISTOGRAM, BACK'S LOCAL CIVIL TIME (Europe/London); Satoshi shown in Europe/London civil time (the zone his machine timestamps follow)
+  hour |    cypherpunks 1996-98 |       Satoshi (London)
+   00  |   7.3 #######          |   6.8 #######         
+   01  |   5.3 #####            |   5.7 ######          
+   02  |   2.6 ###              |   4.0 ####            
+   03  |   1.3 #                |   3.0 ###             
+   04  |   0.3                  |   2.8 ###             
+   05  |   0.6 #                |   2.9 ###             
+   06  |   0.7 #                |   1.3 #               
+   07  |   0.7 #                |   0.4                 
+   08  |   2.6 ###              |   0.0                 
+   09  |   4.6 #####            |   0.3                 
+   10  |   4.7 #####            |   0.0                 
+   11  |   4.8 #####            |   0.0                 
+   12  |   4.4 ####             |   0.0                 
+   13  |   3.4 ###              |   0.6 #               
+   14  |   3.8 ####             |   0.8 #               
+   15  |   2.4 ##               |   3.1 ###             
+   16  |   3.7 ####             |   5.5 ######          
+   17  |   3.8 ####             |   8.9 #########       
+   18  |   6.0 ######           |  12.2 ############    
+   19  |   6.3 ######           |  10.3 ##########      
+   20  |   5.7 ######           |   7.4 #######         
+   21  |   7.8 ########         |   6.4 ######          
+   22  |   7.7 ########         |   9.9 ##########      
+   23  |   9.7 ##########       |   7.8 ########        
+
+3. HOUR-OF-DAY HISTOGRAM, UTC (% of posts) -- randombit 2010-15, bitcointalk 2013-21, bitcoin-dev 2013-21, POOLED 2010-21 (Malta era)
+  hour |      randombit 2010-15 |    bitcointalk 2013-21 |    bitcoin-dev 2013-21 | POOLED 2010-21 (Malta  |          Satoshi (UTC)
+   00  |   1.3 #                |   6.3 ######           |   1.5 ##               |   4.0 ####             |   5.9 ######          
+   01  |   1.3 #                |   3.0 ###              |   1.0 #                |   2.1 ##               |   4.8 #####           
+   02  |   0.0                  |   2.0 ##               |   0.5 #                |   1.2 #                |   3.7 ####            
+   03  |   1.3 #                |   1.0 #                |   1.0 #                |   1.1 #                |   2.1 ##              
+   04  |   0.0                  |   0.0                  |   1.0 #                |   0.3                  |   2.2 ##              
+   05  |   0.0                  |   1.0 #                |   1.0 #                |   0.8 #                |   2.4 ##              
+   06  |   0.6 #                |   0.8 #                |   1.5 ##               |   0.9 #                |   1.2 #               
+   07  |   4.5 ####             |   0.5 #                |   1.0 #                |   1.5 #                |   0.3                 
+   08  |  10.9 ###########      |   2.8 ###              |   3.0 ###              |   4.5 #####            |   0.1                 
+   09  |   6.4 ######           |   5.3 #####            |   5.1 #####            |   5.5 #####            |   0.2                 
+   10  |   7.7 ########         |   5.5 ######           |   6.1 ######           |   6.1 ######           |   0.0                 
+   11  |   5.8 ######           |   6.0 ######           |   7.6 ########         |   6.4 ######           |   0.0                 
+   12  |   7.1 #######          |   6.0 ######           |   5.6 ######           |   6.1 ######           |   0.3                 
+   13  |   5.8 ######           |   8.3 ########         |   7.6 ########         |   7.6 ########         |   0.8 #               
+   14  |   6.4 ######           |   7.0 #######          |   8.1 ########         |   7.2 #######          |   2.0 ##              
+   15  |   4.5 ####             |   5.8 ######           |   4.6 #####            |   5.2 #####            |   3.9 ####            
+   16  |   3.8 ####             |   5.5 ######           |   5.6 ######           |   5.2 #####            |   8.6 #########       
+   17  |   3.2 ###              |   4.5 #####            |   5.6 ######           |   4.5 #####            |  10.6 ###########     
+   18  |  10.3 ##########       |   3.8 ####             |   6.6 #######          |   5.9 ######           |  11.2 ###########     
+   19  |   3.2 ###              |   3.5 ####             |   4.1 ####             |   3.6 ####             |   8.4 ########        
+   20  |   3.2 ###              |   3.3 ###              |   6.1 ######           |   4.0 ####             |   7.4 #######         
+   21  |   3.2 ###              |   5.3 #####            |   6.6 #######          |   5.2 #####            |   8.5 #########       
+   22  |   3.8 ####             |   6.8 #######          |   4.1 ####             |   5.5 #####            |   8.5 #########       
+   23  |   5.8 ######           |   6.3 ######           |   5.1 #####            |   5.9 ######           |   6.7 #######         
+
+4. HOUR-OF-DAY HISTOGRAM, BACK'S LOCAL CIVIL TIME (Europe/Malta); Satoshi shown in Europe/London civil time (the zone his machine timestamps follow)
+  hour |      randombit 2010-15 |    bitcointalk 2013-21 |    bitcoin-dev 2013-21 | POOLED 2010-21 (Malta  |       Satoshi (London)
+   00  |   4.5 ####             |   7.5 ########         |   5.6 ######           |   6.4 ######           |   6.8 #######         
+   01  |   3.2 ###              |   7.0 #######          |   2.5 ###              |   5.1 #####            |   5.7 ######          
+   02  |   1.3 #                |   3.5 ####             |   1.5 ##               |   2.5 ###              |   4.0 ####            
+   03  |   0.0                  |   3.3 ###              |   1.0 #                |   2.0 ##               |   3.0 ###             
+   04  |   1.3 #                |   0.8 #                |   1.0 #                |   0.9 #                |   2.8 ###             
+   05  |   0.0                  |   0.3                  |   0.5 #                |   0.3                  |   2.9 ###             
+   06  |   0.0                  |   0.8 #                |   1.5 ##               |   0.8 #                |   1.3 #               
+   07  |   0.0                  |   0.5 #                |   0.5 #                |   0.4                  |   0.4                 
+   08  |   1.3 #                |   0.8 #                |   1.5 ##               |   1.1 #                |   0.0                 
+   09  |  10.9 ###########      |   1.5 ##               |   1.5 ##               |   3.5 ###              |   0.3                 
+   10  |   7.1 #######          |   4.0 ####             |   4.1 ####             |   4.7 #####            |   0.0                 
+   11  |   5.1 #####            |   5.0 #####            |   5.1 #####            |   5.1 #####            |   0.0                 
+   12  |   8.3 ########         |   6.5 #######          |   7.6 ########         |   7.2 #######          |   0.0                 
+   13  |   6.4 ######           |   5.5 ######           |   8.6 #########        |   6.5 #######          |   0.6 #               
+   14  |   7.7 ########         |   8.3 ########         |   3.6 ####             |   6.9 #######          |   0.8 #               
+   15  |   4.5 ####             |   5.3 #####            |   7.6 ########         |   5.7 ######           |   3.1 ###             
+   16  |   5.8 ######           |   8.3 ########         |   7.6 ########         |   7.6 ########         |   5.5 ######          
+   17  |   5.1 #####            |   5.3 #####            |   4.6 #####            |   5.1 #####            |   8.9 #########       
+   18  |   2.6 ###              |   4.8 #####            |   6.1 ######           |   4.7 #####            |  12.2 ############    
+   19  |   6.4 ######           |   4.3 ####             |   4.1 ####             |   4.7 #####            |  10.3 ##########      
+   20  |   5.8 ######           |   3.8 ####             |   7.1 #######          |   5.1 #####            |   7.4 #######         
+   21  |   4.5 ####             |   3.3 ###              |   5.6 ######           |   4.1 ####             |   6.4 ######          
+   22  |   3.2 ###              |   3.5 ####             |   5.1 #####            |   3.9 ####             |   9.9 ##########      
+   23  |   5.1 #####            |   6.5 #######          |   6.1 ######           |   6.1 ######           |   7.8 ########        
+
+5. BITCOIN-DEV DATE-HEADER OFFSETS (Back's machine / mail-account zone) by year and mailer
+   2013: mutt +0100: 6, mutt +0200: 42
+   2014: gmail +0000: 4, gmail +0100: 2, gmail -0700: 2, mutt +0100: 16, mutt +0200: 7, mutt -0700: 2, mutt -0800: 1
+   2015: gmail +0000: 11, gmail +0100: 30, gmail +0200: 33, gmail +0800: 2, gmail -0400: 5, gmail -0700: 11, gmail -0800: 1
+   2016: gmail +0100: 4
+   2017: gmail +0000: 2, gmail +0100: 4, gmail +0200: 1, gmail -0700: 2
+   2018: gmail +0100: 2, gmail -0800: 1
+   2019: gmail +0100: 1
+   2020: gmail +0100: 1, gmail +0200: 2
+   2021: gmail +0000: 2
+   posts whose offset equals Malta civil time at that date: 120 of 197
+   Malta-consistent subset: 05-11 UTC 19.2%, 06-14 UTC 42.5%
+   in header-offset local time: share 00:00-07:59 11.7%, 08:00-15:59 43.1%, 16:00-23:59 45.2%
+
+6. SHAPE IN LOCAL CIVIL TIME (night-owl or daytime?)
+------------------------------------------------------------------------------
+                                                 00-06  06-09  09-13  13-18  18-24  quietest 8h (local)
+   Satoshi, Europe/London time                    25.1    1.8    0.3   18.8   54.0  07-15 (2.1%)
+   Satoshi, Europe/Malta time                     29.9    4.7    0.3   10.0   55.1  08-16 (2.1%)
+   Back cypherpunks 1996-98, London time          17.2    4.0   18.5   17.2   43.1  02-10 (13.2%)
+   Back randombit 2010-15, Malta time             10.3    1.3   31.4   29.5   27.6  01-09 (7.1%)
+   Back bitcointalk 2013-21, Malta time           22.3    2.0   17.0   32.6   26.1  02-10 (11.3%)
+   Back bitcoin-dev 2013-21, Malta time           12.2    3.6   18.3   32.0   34.0  02-10 (9.1%)
+   Back POOLED 2010-21 (Malta era), Malta time    17.2    2.3   20.3   31.8   28.5  02-10 (11.4%)
+
+   Best time-shift: shift Back's local hours by s to maximise LL/ev under Satoshi's London-time
+   KDE (tests whether the SHAPES match up to a zone difference).
+   cypherpunks 1996-98         : unshifted LL/ev -3.71 OVL 69.3%; best-LL shift +4.75 h -> LL/ev -3.34, OVL 63.9%; best-OVL shift +1 h -> OVL 69.7%  (Satoshi self LOO -2.74)
+   POOLED 2010-21 (Malta era)  : unshifted LL/ev -3.93 OVL 62.2%; best-LL shift +4.50 h -> LL/ev -3.18, OVL 76.8%; best-OVL shift +6 h -> OVL 77.0%  (Satoshi self LOO -2.74)
+   Back 1996-98 (London) vs Satoshi (London): Watson U2 = 1.872, permutation p = 0.0005
+   share of posts in Satoshi's quiet window 06:00-13:59 UTC (07-15 BST / 06-14 GMT): Back 1996-98 28.3% vs Satoshi 3.0% (|diff| 23.2 pts, permutation p = 0.0005)
+
+   Weekday vs weekend (day and hour in each person's local civil time; Satoshi in London time):
+     Satoshi                    Mon-Fri: n= 670  share at 07:00-14:59 local   1.2%  at 09:00-12:59 local   0.1%
+     Satoshi                    Sat-Sun: n= 232  share at 07:00-14:59 local   4.7%  at 09:00-12:59 local   0.9%
+     Back cypherpunks 1996-98   Mon-Fri: n= 535  share at 07:00-14:59 local  26.9%  at 09:00-12:59 local  16.8%
+     Back cypherpunks 1996-98   Sat-Sun: n= 168  share at 07:00-14:59 local  35.7%  at 09:00-12:59 local  23.8%
+     Back POOLED 2010-21        Mon-Fri: n= 565  share at 07:00-14:59 local  34.2%  at 09:00-12:59 local  20.4%
+     Back POOLED 2010-21        Sat-Sun: n= 187  share at 07:00-14:59 local  38.5%  at 09:00-12:59 local  20.3%
+
+7. BY YEAR (all venues pooled)
+   1996: n= 106  05-11 UTC  20.8%  06-14 UTC  31.1%
+   1997: n= 446  05-11 UTC  17.9%  06-14 UTC  30.7%
+   1998: n= 151  05-11 UTC  11.3%  06-14 UTC  19.2%
+   2010: n=  12  05-11 UTC  33.3%  06-14 UTC  33.3%
+   2011: n=  36  05-11 UTC  33.3%  06-14 UTC  61.1%
+   2012: n=  35  05-11 UTC  40.0%  06-14 UTC  57.1%
+   2013: n= 348  05-11 UTC  19.0%  06-14 UTC  39.4%
+   2014: n= 109  05-11 UTC  16.5%  06-14 UTC  38.5%
+   2015: n= 176  05-11 UTC  14.2%  06-14 UTC  30.7%
+   2016: n=  14  05-11 UTC   7.1%  06-14 UTC  14.3%
+   2017: n=   9  05-11 UTC  33.3%  06-14 UTC  44.4%
+   2018: n=   5  05-11 UTC  20.0%  06-14 UTC  40.0%
+   2019: n=   1  05-11 UTC   0.0%  06-14 UTC   0.0%
+   2020: n=   3  05-11 UTC  33.3%  06-14 UTC  66.7%
+   2021: n=   4  05-11 UTC   0.0%  06-14 UTC  25.0%
+
+8. SATOSHI'S ACTIVE PERIOD (Nov 2008 - Apr 2011): BACK ITEMS AND CLOSEST APPROACHES
+------------------------------------------------------------------------------
+   Back posts in the four venues inside the period: 15 (all randombit; bitcointalk and
+   bitcoin-dev activity starts 2013)
+     2010-03-23 23:23Z  nearest Satoshi item    5.8 h away
+     2010-03-31 14:08Z  nearest Satoshi item  164.1 h away
+     2010-11-08 16:42Z  nearest Satoshi item    5.4 h away
+     2010-11-16 23:01Z  nearest Satoshi item   28.4 h away
+     2010-11-18 22:21Z  nearest Satoshi item   22.0 h away
+     2010-11-19 08:18Z  nearest Satoshi item   12.1 h away  <-- in Satoshi quiet window 06-14 UTC
+     2010-11-20 10:03Z  nearest Satoshi item    7.3 h away  <-- in Satoshi quiet window 06-14 UTC
+     2010-11-20 10:09Z  nearest Satoshi item    7.2 h away  <-- in Satoshi quiet window 06-14 UTC
+     2010-11-21 08:33Z  nearest Satoshi item   14.2 h away  <-- in Satoshi quiet window 06-14 UTC
+     2010-11-21 21:19Z  nearest Satoshi item    1.4 h away
+     2010-12-01 17:54Z  nearest Satoshi item    3.5 h away
+     2010-12-23 16:39Z  nearest Satoshi item   70.5 h away
+     2011-01-25 22:59Z  nearest Satoshi item    4.4 h away
+     2011-01-26 13:41Z  nearest Satoshi item   19.1 h away  <-- in Satoshi quiet window 06-14 UTC
+     2011-02-16 03:49Z  nearest Satoshi item  160.0 h away
+   Back's own emails to Satoshi (COPA exhibit AB1, before the period):
+     2008-08-21 12:55:59Z  nearest Satoshi item  303.8 min away  <-- in Satoshi quiet window
+     2008-08-21 18:17:17Z  nearest Satoshi item   17.5 min away
+   closest Back-post / Satoshi-item pairs during the period:
+     Back 2010-11-21 21:19Z  Satoshi 2010-11-21 22:46Z  gap 87 min
+     Back 2010-12-01 17:54Z  Satoshi 2010-12-01 21:25Z  gap 212 min
+     Back 2011-01-25 22:59Z  Satoshi 2011-01-25 18:34Z  gap 266 min
+     Back 2010-11-08 16:42Z  Satoshi 2010-11-08 22:06Z  gap 324 min
+     Back 2010-03-23 23:23Z  Satoshi 2010-03-23 17:35Z  gap 348 min
+
+Caveat: a single person can keep a pseudonym to chosen hours (e.g. evenings) and post under
+his own name at other times, so a rhythm mismatch is weak evidence against identity, and a
+match would be weak evidence for it.

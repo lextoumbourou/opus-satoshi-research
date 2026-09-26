@@ -104,3 +104,8 @@ Also: the idea that the coins never moved *because* Sassaman died has a logic ga
   - Hours rule out a European with ordinary daytime hours, not a UK night owl.
   - The machine clocks (UK, not CET) cut against CET-based operators: Sassaman *and* Back himself.
   - The behavioural DST test weakly favours EU clock-change timing.
+- **Extended Back rhythm test** (`notes/back-rhythm-extended.md`; subagent, rerun and reproduced by me). 1,455 Back posts: randombit 156, Bitcointalk 399, bitcoin-dev 197, cypherpunks 1996–98 703.
+  - In Satoshi's quiet window (06–14 UTC; 3.0% of Satoshi's 902 items), Back has 28–49% per venue. In the UK era, 1996–98 in London time, Back is a late-evening poster (peak 21:00–01:00), but 18.5% of his posts fall at 09–13 against Satoshi's 0.3%. Watson U² p ≤ 0.0005 for every venue; weekends don't close the gap.
+  - VERIFIED: Back's 1990s sendmail Message-ID times are GMT (43 Date-header matches), and his 1990s machine ran UK time with daylight saving.
+  - During Nov 2008 – Apr 2011, 5 of his 15 randombit posts fall in Satoshi's quiet window; the closest pair is 87 min apart (no direct conflict).
+  - Weak-to-moderate evidence against Back = Satoshi. A person could confine a pseudonym to evenings, so it can't exclude him. No published Back-vs-Satoshi timing comparison found (7 queries).
