@@ -1,0 +1,23 @@
+== US-only holidays (US Eastern dates)
+   Thanksgiving 2009              2009-11-26 (Thu)  events=  1  typical Thu mean= 2.6, active on 53% of Thus
+   MLK Day 2010                   2010-01-18 (Mon)  events=  0  typical Mon mean= 1.7, active on 48% of Mons
+   Presidents' Day 2010           2010-02-15 (Mon)  events=  4  typical Mon mean= 1.7, active on 48% of Mons
+   Independence Day 2010          2010-07-04 (Sun)  events=  2  typical Sun mean= 2.4, active on 46% of Suns
+   Independence Day (obs) 2010    2010-07-05 (Mon)  events=  2  typical Mon mean= 1.7, active on 48% of Mons
+   Labor Day 2010                 2010-09-06 (Mon)  events=  6  typical Mon mean= 1.7, active on 48% of Mons
+   Columbus Day 2010              2010-10-11 (Mon)  events=  1  typical Mon mean= 1.7, active on 48% of Mons
+   Veterans Day 2010              2010-11-11 (Thu)  events=  0  typical Thu mean= 2.6, active on 53% of Thus
+   Thanksgiving 2010              2010-11-25 (Thu)  events=  4  typical Thu mean= 2.6, active on 53% of Thus
+   TOTAL observed=20 expected~18.8  ratio=1.07
+== UK-only holidays (UK dates)
+   Boxing Day (obs) 2009          2009-12-28 (Mon)  events=  0  typical Mon mean= 2.0, active on 48% of Mons
+   Easter Monday 2010             2010-04-05 (Mon)  events=  0  typical Mon mean= 2.0, active on 48% of Mons
+   Early May BH 2010              2010-05-03 (Mon)  events=  0  typical Mon mean= 2.0, active on 48% of Mons
+   Summer BH 2010                 2010-08-30 (Mon)  events=  0  typical Mon mean= 2.0, active on 48% of Mons
+   Good Friday 2010               2010-04-02 (Fri)  events=  0  typical Fri mean= 2.2, active on 49% of Fris
+   TOTAL observed=0 expected~10.2  ratio=0.00
+== Shared holidays (UK dates)
+   Christmas 2009                 2009-12-25 (Fri)  events=  1  typical Fri mean= 2.2, active on 49% of Fris
+   New Year's Day 2010            2010-01-01 (Fri)  events=  0  typical Fri mean= 2.2, active on 49% of Fris
+   Memorial Day / Spring BH 2010  2010-05-31 (Mon)  events=  0  typical Mon mean= 2.0, active on 48% of Mons
+   TOTAL observed=1 expected~6.5  ratio=0.15

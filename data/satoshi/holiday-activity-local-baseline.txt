@@ -1,0 +1,18 @@
+== US-only holidays (America/New_York dates)
+   Thanksgiving 2009          2009-11-26 Thu events=1  active share +/-10d=70%  P(inactive|chance)=0.30  [23:1 24:1 25:3 26:1 27:3 28:0 29:0]
+   MLK Day 2010               2010-01-18 Mon events=0  active share +/-10d=20%  P(inactive|chance)=0.80  [15:0 16:0 17:0 18:0 19:0 20:2 21:0]
+   Presidents' Day 2010       2010-02-15 Mon events=4  active share +/-10d=85%  P(inactive|chance)=0.15  [12:6 13:1 14:5 15:4 16:1 17:4 18:0]
+   Independence Day 2010      2010-07-04 Sun events=2  active share +/-10d=55%  P(inactive|chance)=0.45  [01:0 02:6 03:0 04:2 05:2 06:6 07:0]
+   Independence Day (obs)     2010-07-05 Mon events=2  active share +/-10d=55%  P(inactive|chance)=0.45  [02:6 03:0 04:2 05:2 06:6 07:0 08:7]
+   Labor Day 2010             2010-09-06 Mon events=6  active share +/-10d=55%  P(inactive|chance)=0.45  [03:0 04:0 05:2 06:6 07:2 08:6 09:2]
+   Columbus Day 2010          2010-10-11 Mon events=1  active share +/-10d=40%  P(inactive|chance)=0.60  [08:0 09:2 10:0 11:1 12:0 13:0 14:0]
+   Veterans Day 2010          2010-11-11 Thu events=0  active share +/-10d=45%  P(inactive|chance)=0.55  [08:1 09:1 10:0 11:0 12:1 13:3 14:1]
+   Thanksgiving 2010          2010-11-25 Thu events=4  active share +/-10d=75%  P(inactive|chance)=0.25  [22:0 23:3 24:2 25:4 26:4 27:1 28:3]
+   inactive on 2/9; product of chance probabilities for the inactive ones = 0.4400
+== UK-only holidays (Europe/London dates)
+   Boxing Day (obs) 2009      2009-12-28 Mon events=0  active share +/-10d=25%  P(inactive|chance)=0.75  [25:1 26:0 27:0 28:0 29:0 30:0 31:0]
+   Good Friday 2010           2010-04-02 Fri events=0  active share +/-10d=10%  P(inactive|chance)=0.90  [30:0 31:0 01:0 02:0 03:0 04:0 05:0]
+   Easter Monday 2010         2010-04-05 Mon events=0  active share +/-10d=0%  P(inactive|chance)=1.00  [02:0 03:0 04:0 05:0 06:0 07:0 08:0]
+   Early May BH 2010          2010-05-03 Mon events=0  active share +/-10d=0%  P(inactive|chance)=1.00  [30:0 01:0 02:0 03:0 04:0 05:0 06:0]
+   Summer BH 2010 (Eng/Wal)   2010-08-30 Mon events=0  active share +/-10d=65%  P(inactive|chance)=0.35  [27:9 28:2 29:2 30:0 31:0 01:0 02:0]
+   inactive on 5/5; product of chance probabilities for the inactive ones = 0.2362
