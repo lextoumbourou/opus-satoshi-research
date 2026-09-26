@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head data-layout-view="default">
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+<script>(function(){var d={date:8,app:"s",host:"s",ip:4,ua:"s",user:"s",url:"s",html:4,css:4,render:4,js:4,nlr:4,nlr_eval:4,img:4,embed:4,obj:4,mcc:4,mcr:4,mct:4,nac:4,pac:4,l_t:"s"},h=document,e="getElementsByTagName",i=window,c=function(){return(new Date).getTime()},f=c(),g={},b={},a={},j=i.bzplcm={listen:{},start:function(k){b[k]=c();return j},stop:function(k){g[k]=c()-b[k];return j},ts:function(k){g[k]=c()-f;return j},abs_ts:function(k){g[k]=c();return j},add:function(l){for(var k in l){if("function"!=typeof l[k]){a[k]=l[k]}}},send:function(){if(!g.he){j.ts("he")}a.date=["xdate"];a.host=["xhost"];a.ip=["xip"];a.ua=["xua"];a.url=["xpath"];a.html=g.he-g.hb;a.css=g.ca-g.cb;a.render=g.jb-g.hb;a.js=g.ja-g.jb;a.nlr=g.nr-g.ns;a.nlr_eval=g.ni+g.ne;a.img=h[e]("img").length;a.embed=h[e]("embed").length;a.obj=h[e]("object").length;if(i.xg&&i.xg.xnTrackEvent){i.xg.xnTrackEvent(d,"BazelCSPerfLite",a)}}}})();</script><script>if(window.bzplcm)window.bzplcm.ts('hb')</script>    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Satoshi Nakamoto&#039;s Page - P2P Foundation</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Satoshi Nakamoto's Page on P2P Foundation" />
+    <meta name="keywords" content="" />
+<meta name="title" content="Satoshi Nakamoto&#039;s Page - P2P Foundation" />
+<link rel="image_src" href="http://api.ning.com/files/NShDyS7CREOfyb81CKDjgVwFixMUkCFhRzsjXtKhqvLuFwlAnJQfKYiE*5Wwb7IOFApl39WapPb8DEadeEueKZUS7xVgcSSY/226212010.png?width=183&amp;height=183&amp;crop=1%3A1&amp;xj_user_default=1" />
+<script type="text/javascript">
+djConfig = { baseScriptUri: 'http://p2pfoundation.ning.com/xn/static-6.11.8.1/js/dojo-0.3.1-ning/', isDebug: false }
+ning = {"CurrentApp":{"premium":true,"iconUrl":"http:\/\/api.ning.com\/icons\/appatar\/2003008?default=2003008&width=64&height=64","url":"http:\/\/p2pfoundation.ning.com","domains":[],"online":true,"privateSource":true,"id":"p2pfoundation","appId":"2003008","description":"We study the impact of Peer to Peer technology and thought on society","name":"P2P Foundation","owner":"jdaviescoates","createdDate":"2008-02-14T13:54:16.851Z","runOwnAds":false},"CurrentProfile":null,"maxFileUploadSize":5};
+    (function(){
+        if (!window.ning) { return; }
+
+        var age, gender, rand, obfuscated, combined;
+
+	    obfuscated = document.cookie.match(/xgdi=([^;]+)/);
+	    if (obfuscated) {
+	          var offset = 100000;
+	          obfuscated = parseInt(obfuscated[1]);
+	          rand = obfuscated / offset;
+	          combined = (obfuscated % offset) ^ rand;
+	          age = combined % 1000;
+	          gender = (combined / 1000) & 3;
+	          gender = (gender == 1 ? 'm' : gender == 2 ? 'f' : 0);
+	          ning.viewer = {"age":age,"gender":gender};
+	    }
+	 })();
+
+if (window.location.hash.indexOf('#!/') == 0) {
+    window.location.replace(window.location.hash.substr(2));
+}
+
+
+window.xg = {};
+xg.addOnRequire = function(f) { xg.addOnRequire.functions.push(f); };
+xg.addOnRequire.functions = [];
+xg.addOnFacebookLoad = function (f) { xg.addOnFacebookLoad.functions.push(f); };
+xg.addOnFacebookLoad.functions = [];
+xg._loader = {
+    p: 0,
+    loading: function(set) { xg._loader.p++; },
+    onLoad: function(set) {
+        xg._loader.p--;
+        if (xg._loader.p == 0 && typeof(xg._loader.onDone) == 'function') {
+            xg._loader.onDone();
+        }
+    }
+};
+xg._loader.loading('xnloader');
+if (window.bzplcm) {
+    window.bzplcm._profileCount = 0;
+    window.bzplcm._profileSend = function() { if (window.bzplcm._profileCount++ == 1) window.bzplcm.send(); };
+}
+xg._loader.onDone = function() {
+        if(window.bzplcm)window.bzplcm.start('ni');
+    xg.shared.util.parseWidgets();    var addOnRequireFunctions = xg.addOnRequire.functions;
+    xg.addOnRequire = function(f) { f(); };
+    try {
+        if (addOnRequireFunctions) { dojo.lang.forEach(addOnRequireFunctions, function(onRequire) { onRequire.apply(); }); }
+    } catch (e) {
+        if(window.bzplcm)window.bzplcm.ts('nx').send();
+        throw e;
+    }
+    if(window.bzplcm) { window.bzplcm.stop('ni'); window.bzplcm._profileSend(); }
+};
+window.xn = { track: { _globals: { screen_name: null, subdomain: "p2pfoundation", is_owner: false, is_admin: false, is_member: false, join_date: 0, request_method: "GET", trace: "c3d00005-a316-4a66-9bba-1a9591ce2859"}, event: function() {}, pageView: function() {}, registerCompletedFlow: function() {}, registerError: function() {}, timer: function() { return { lapTime: function() {} }; }, _trackingHost: "track.ning.com", _jsDebug: false } }    </script>
+<script type="text/javascript">
+    var ning_gaq = ning_gaq || [];
+    ning_gaq.push(['_ning_ga._setAccount', 'UA-2270114-6']); 
+    ning_gaq.push(['_ning_ga._setNamespace', 'ning']);
+               ning_gaq.push(['_ning_ga._setCustomVar', 1,'member_type',   'anonymous', 3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 2,'subdomain',     'p2pfoundation.ning.com' ,3]); 
+       ning_gaq.push(['_ning_ga._setCustomVar', 3,'category',      'non_profit' ,3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 4,'product_type',  'plus' ,3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 5,'member_segment','150-999' ,3]);
+    ning_gaq.push(['_ning_ga._trackPageview']);
+    ning_gaq.push(['_ning_ga._trackPageLoadTime']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = "http://static.ning.com/socialnetworkmain/widgets/index/js/google-analytics/ga.js?v=201107272117";
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+<link rel="alternate" type="application/atom+xml" title="Satoshi Nakamoto&#039;s Friends - P2P Foundation" href="http://p2pfoundation.ning.com/profiles/friend/feed?user=0ye0gncqg772o&amp;xn_auth=no" /><link rel="alternate" type="application/atom+xml" title="Forum - P2P Foundation" href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=0ye0gncqg772o&amp;feed=yes&amp;xn_auth=no" /><link rel="alternate" type="application/rss+xml" title="Latest Activity - P2P Foundation" href="http://p2pfoundation.ning.com/activity/log/list?fmt=rss&amp;screenName=0ye0gncqg772o" /><script>if(window.bzplcm)window.bzplcm.ts('cb')</script>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/common.min.css?xn_version=125722289);
+@import url(http://static.ning.com/socialnetworkmain/widgets/profiles/css/component.min.css?xn_version=3093718460);
+
+</style>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/socialnetworkmain/widgets/forum/css/module.min.css?xn_version=3885199945);
+@import url(http://static.ning.com/socialnetworkmain/widgets/gifts/css/module.min.css?xn_version=899294536);
+@import url(http://static.ning.com/socialnetworkmain/widgets/activity/css/module.min.css?xn_version=25305666);
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/inline-comments.min.css?xn_version=3063652947);
+
+</style>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/p2pfoundation/instances/css/theme_1311804438.css?xn_version=201107272117);
+
+</style>
+
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://static.ning.com/socialnetworkmain/widgets/index/css/common-ie6.min.css?v=201107272117" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://static.ning.com/socialnetworkmain/widgets/index/css/common-ie7.css?v=201107272117" />
+<![endif]-->
+<script>if(window.bzplcm)window.bzplcm.ts('ca')</script><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://p2pfoundation.ning.com/profiles/blog/rsd" />
+
+    </head>
+    <body>
+                <div id="xn_bar">
+            <div id="xn_bar_menu">
+                <div id="xn_bar_menu_branding" >
+                                    </div>
+
+                <div id="xn_bar_menu_more">
+                    <form id="xn_bar_menu_search" method="GET" action="http://p2pfoundation.ning.com/main/search/search">
+                        <fieldset>
+                            <input type="text" name="q" id="xn_bar_menu_search_query" value="Search P2P Foundation" _hint="Search P2P Foundation" accesskey="4" class="text xj_search_hint" />
+                            <a id="xn_bar_menu_search_submit" href="#" onclick="document.getElementById('xn_bar_menu_search').submit();return false">Search</a>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <ul id="xn_bar_menu_tabs">
+                                            <li><a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofiles%2Fprofile%2Fshow%3Fid%3DSatoshiNakamoto%26">Sign Up</a></li>
+                        <li><a href="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofiles%2Fprofile%2Fshow%3Fid%3DSatoshiNakamoto%26">Sign In</a></li>
+                        
+                </ul>
+            </div>
+        </div>
+        
+        
+        <div id="xg" class="xg_theme xg_widget_profiles xg_widget_profiles_profile xg_widget_profiles_profile_show" data-layout-pack="classic">
+            <div id="xg_head">
+                <div id="xg_masthead">
+                    <p id="xg_sitename"><a id="application_name_header_link" href="/">P2P Foundation</a></p>
+                    <p id="xg_sitedesc" class="xj_site_desc">The Foundation for Peer to Peer Alternatives</p>
+                </div>
+                <div id="xg_navigation">
+                    <ul>
+    <li id="xg_tab_main"><a href='http://p2pfoundation.ning.com/'><span>Main</span></a></li>
+<li id="xg_tab_profile"><a href='http://p2pfoundation.ning.com/profiles'><span>My Page</span></a></li>
+<li id="xg_tab_members" class='this'><a href='http://p2pfoundation.ning.com/profiles/members/'><span>Members</span></a></li>
+<li id="xg_tab_video"><a href='http://p2pfoundation.ning.com/video'><span>Videos</span></a></li>
+<li id="xg_tab_forum"><a href='http://p2pfoundation.ning.com/forum'><span>Forum</span></a></li>
+<li id="xg_tab_groups"><a href='http://p2pfoundation.ning.com/groups'><span>Groups</span></a></li>
+<li id="xg_tab_blogs"><a href='http://p2pfoundation.ning.com/profiles/blog/list'><span>Blogs</span></a></li>
+<li id="xg_tab_chat"><a href='http://p2pfoundation.ning.com/chat'><span>Chat</span></a></li>
+</ul>
+
+                </div>
+            </div>
+            
+            <div id="xg_body">
+                
+                <div class="xg_column xg_span-16 xj_classic_canvas">
+                    <div  class='xg_colgroup first-child last-child'>
+<div _maxEmbedWidth="730" _columnCount="3"  class='xg_3col first-child'>
+<div  class='xg_colgroup last-child'>
+<div _maxEmbedWidth="171" _columnCount="1"  id="xg_layout_column_1" class='xg_1col first-child'>
+<div class="xg_module xg_module_with_dialog module_user_summary">
+    <div class="module_user_thumbnail">
+        <img class="photo" src="http://api.ning.com/files/NShDyS7CREOfyb81CKDjgVwFixMUkCFhRzsjXtKhqvLuFwlAnJQfKYiE*5Wwb7IOFApl39WapPb8DEadeEueKZUS7xVgcSSY/226212010.png?width=183&amp;height=183&amp;crop=1%3A1&amp;xj_user_default=1" width="183" alt="" />
+        </div><!-- module_user_thumbnail -->
+    <div class="xg_module_body profile vcard">
+        <dl class="last-child">
+            <dt class="fn">
+                <span class="fn">Satoshi Nakamoto</span>
+                <span><ul class="member_detail"><li>36, Male</li><li>Japan</li></ul></span>            </dt>
+            	            <dd class="profile-social-buttons">        <a class="post_to_facebook xj_post_to_facebook" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofile%2FSatoshiNakamoto%3Fxg_source%3Dfacebookshare&amp;t=" _url="http://p2pfoundation.ning.com/profile/SatoshiNakamoto?xg_source=facebookshare" _title="" _log="{&quot;module&quot;:&quot;profiles&quot;,&quot;page&quot;:&quot;profile&quot;,&quot;action&quot;:&quot;show&quot;}">Share on Facebook</a>
+    <a class="xg_sprite xg_sprite-share" href="http://p2pfoundation.ning.com/main/sharing/share?id=2003008%253AUser%253A9400">Share</a>        <a class="post_to_twitter" href="http://twitter.com/home?status=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofile%2FSatoshiNakamoto" _message="Checking out Satoshi Nakamoto&#039;s Profile on P2P Foundation:" _url="http://p2pfoundation.ning.com/profile/SatoshiNakamoto" _urlShortenerKey="336870754079" _screenName="" _twitterAuthenticationNeeded="" _source="fromlink" target="_blank">Twitter</a>
+        </dd>        </dl>
+    </div>
+    <div class="xg_module_body">
+        <ul class="nobullets last-child">
+            <li class="disabled">Blog Posts</li><li><a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=0ye0gncqg772o">Discussions</a> (3)</li><li class="disabled">Groups</li><li class="disabled">Videos</li>        </ul>
+    </div>
+
+            <div class="xg_module_body">
+            <ul class="nobullets last-child">
+                <li  class="disabled"><a href="http://p2pfoundation.ning.com/profiles/profile/apps?screenName=0ye0gncqg772o">Satoshi Nakamoto's Apps</a></li>            </ul>
+        </div>
+    </div>
+<div class="no_cross_container xg_module module_members">
+    <div class="xg_module_head">
+        <h2>Satoshi Nakamoto's Friends</h2>
+    </div>
+
+    <div class="xg_module_body body_small">
+    <ul class="clist">            <li><a href="/profile/Sepp" title="Sepp Hasslberger"><img class="newrow photo" src="http://api.ning.com/files/fWRvRJn3uAAs6UP1sk7qMW7bvrZ*Imaz2FZ4KEwiD3Q_/seppfoto.gif?width=48&height=48&crop=1%3A1" alt="" height="48" width="48" style="width:48px; height:48px"></a></li>
+                <li><a href="/profile/JosefDaviesCoates" title="Josef Davies-Coates"><img class="photo" src="http://api.ning.com/files/oCiOQxZSEthroVhES5gYF9dSXcxve61fnID0s8u94mw_/19566165.bin?width=48&height=48&crop=1%3A1" alt="" height="48" width="48" style="width:48px; height:48px"></a></li>
+    </ul>
+    </div>
+            <div class="xg_module_foot">
+            <ul>
+                <li class="right"><a href="/friends/SatoshiNakamoto">View All</a></li>            </ul>
+        </div>
+    </div>
+    <div class="xg_module module_forum indented_content xg_reset" data-module_name="forum">
+            <div class="xg_module_head">
+            <h2>Satoshi Nakamoto&#039;s Discussions</h2>
+        </div>
+        <div class="xg_module_body">
+                <div class="vcard">
+                <div class="topic ">
+            <h3>
+                <a href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source" _snid="2003008:Topic:9402">Bitcoin open source implementation of P2P currency</a>
+                <br />    <small  >12&nbsp;Replies</small>
+            </h3>
+                        <p class="dy-small xg_lightfont  ">
+                    Started this discussion. <a href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source/showLastReply">Last reply</a> by Jost Reinert Jan 7.            </p>
+                    </div>
+    </div>
+        </div>
+            <div class="xg_module_foot">
+            <ul>
+                                <li class="right"><a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=0ye0gncqg772o">View All</a></li>
+            </ul>
+        </div>    </div>
+<div class="xg_module module_gift" data-module_name="gift" id="xj_module_gift">
+    <div class="xg_module_head">
+        <h2>Gifts Received</h2>
+    </div>
+
+    <div class="xg_module_body">
+                    <div class="ib">
+                <img src="http://api.ning.com/files/bIwSu60QsKkNiCoaNh65A-YOZN1cg6sFzBFVgXJ6R*kJN0uZxemDksrE1czlRsBr3G7BjDgx0oSYMtY*CQSPoMxCsrv6rIl-/117035833.png" alt="Gift" height="64" width="64"/>
+            </div>
+            <div class="tb">
+                <p class="msg">Satoshi Nakamoto has not received any gifts yet</p>
+                <p><strong><a href="http://p2pfoundation.ning.com/gifts/item/list?to=0ye0gncqg772o&amp;xg_source=pemb">Give a Gift</a></strong></p>
+            </div>
+            </div>
+    </div>
+&nbsp;</div>
+<div _maxEmbedWidth="540" _columnCount="2"  id="xg_layout_column_2" class='xg_2col last-child'>
+    <div class="xg_headline">
+    <div class="tb">
+        <h1>Satoshi Nakamoto&#039;s Page</h1>
+    </div>
+</div>
+<div class="xg_module xg_module_activity indented_content profile  column_2"
+    dojotype="ActivityModule"
+    data-module_name="activity"
+    _isProfile="1"
+    _isAdmin=""
+    _columnCount="2"
+
+        _delDeleteLinkText="Delete"
+    _delItemUrl="http://p2pfoundation.ning.com/activity/log/remove"
+    _delIconTooltip="Remove"  >
+    <div class="xg_module_head">
+        <h2>Latest Activity</h2>
+    </div>
+    <div class="xg_module_body ">
+            <div class="module module-feed">
+            <div class="feed-story  xg_separator"><div class='activity-close-wrapper'></div><a href="/profile/JostReinert?xg_source=activity"><img class="xj_user_default feed-avatar" width="48" height="48" alt="" src="http://api.ning.com/files/NShDyS7CREOfyb81CKDjgVwFixMUkCFhRzsjXtKhqvLuFwlAnJQfKYiE*5Wwb7IOFApl39WapPb8DEadeEueKZUS7xVgcSSY/226212010.png?width=48&amp;height=48&amp;crop=1%3A1&amp;xj_user_default=1" /></a>            <div class="feed-event-info">
+                <span class="event-info-action xg_lightfont"><a href="http://p2pfoundation.ning.com/profile/JostReinert?xg_source=activity">Jost Reinert</a> <a href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:18222?xg_source=activity">replied</a> to <a href="http://p2pfoundation.ning.com/profile/SatoshiNakamoto?xg_source=activity">Satoshi Nakamoto's</a> discussion '<a href="http://p2pfoundation.ning.com/xn/detail/2003008:Topic:9402?xg_source=activity">Bitcoin open source implementation of P2P currency</a>'</span>
+                <div class="content-comment"><div class="xg_sprite feed-quote"></div><em>Quite interesting project. I am curator of a micro-currency in Germany called Rheingold.
+It is based on cash. Therefore the problem of "trust" is not solved. However, we do not have a central bank giving money as credit, but here, every single issue…</em><span class="xg_sprite feed-endquote"></span></div>                                <span class="event-info-timestamp xg_lightfont">Jan 7</span>
+            </div>
+        </div><div class="feed-story  xg_separator"><div class='activity-close-wrapper'></div><a href="/profile/MichelBauwens?xg_source=activity"><img class=" feed-avatar" width="48" height="48" alt="" src="http://api.ning.com/files/iq2xSTJt753N0RijuuMWmhCjDrTVsi0S4SYVe7UuUXw_/19574025.bin?width=48&amp;height=48&amp;crop=1%3A1" /></a>            <div class="feed-event-info">
+                <span class="event-info-action xg_lightfont"><a href="http://p2pfoundation.ning.com/profile/MichelBauwens?xg_source=activity">Michel Bauwens</a> <a href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:17285?xg_source=activity">replied</a> to <a href="http://p2pfoundation.ning.com/profile/SatoshiNakamoto?xg_source=activity">Satoshi Nakamoto's</a> discussion '<a href="http://p2pfoundation.ning.com/xn/detail/2003008:Topic:9402?xg_source=activity">Bitcoin open source implementation of P2P currency</a>'</span>
+                <div class="content-comment"><div class="xg_sprite feed-quote"></div><em>Dear Satoshi,
+
+Could you propose a text for our regular p2p blog, with eventual responses to the main questions here? Our regular blog has a lot more readers (about 10x) than our Ning community blog,
+
+Michel</em><span class="xg_sprite feed-endquote"></span></div>                                <span class="event-info-timestamp xg_lightfont">Mar. 24, 2010</span>
+            </div>
+        </div><div class="feed-story  xg_separator"><div class='activity-close-wrapper'></div><a href="/profile/RussNelson?xg_source=activity"><img class="xj_user_default feed-avatar" width="48" height="48" alt="" src="http://api.ning.com/files/NShDyS7CREOfyb81CKDjgVwFixMUkCFhRzsjXtKhqvLuFwlAnJQfKYiE*5Wwb7IOFApl39WapPb8DEadeEueKZUS7xVgcSSY/226212010.png?width=48&amp;height=48&amp;crop=1%3A1&amp;xj_user_default=1" /></a>            <div class="feed-event-info">
+                <span class="event-info-action xg_lightfont"><a href="http://p2pfoundation.ning.com/profile/RussNelson?xg_source=activity">Russ Nelson</a> <a href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:17280?xg_source=activity">replied</a> to <a href="http://p2pfoundation.ning.com/profile/SatoshiNakamoto?xg_source=activity">Satoshi Nakamoto's</a> discussion '<a href="http://p2pfoundation.ning.com/xn/detail/2003008:Topic:9402?xg_source=activity">Bitcoin open source implementation of P2P currency</a>'</span>
+                <div class="content-comment"><div class="xg_sprite feed-quote"></div><em>No, nothing like LETS at all. LETS is book entry for one, and for another the total amount of currency is always zero. When you issue a credit to someone else because they've done something for you, you receive a debit. The trouble with a LETS is th…</em><span class="xg_sprite feed-endquote"></span></div>                                <span class="event-info-timestamp xg_lightfont">Mar. 22, 2010</span>
+            </div>
+        </div><div class="feed-story  xg_separator"><div class='activity-close-wrapper'></div><a href="/profile/RobertSearle?xg_source=activity"><img class="xj_user_default feed-avatar" width="48" height="48" alt="" src="http://api.ning.com/files/NShDyS7CREOfyb81CKDjgVwFixMUkCFhRzsjXtKhqvLuFwlAnJQfKYiE*5Wwb7IOFApl39WapPb8DEadeEueKZUS7xVgcSSY/226212010.png?width=48&amp;height=48&amp;crop=1%3A1&amp;xj_user_default=1" /></a>            <div class="feed-event-info">
+                <span class="event-info-action xg_lightfont"><a href="http://p2pfoundation.ning.com/profile/RobertSearle?xg_source=activity">Robert Searle</a> <a href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:17278?xg_source=activity">replied</a> to <a href="http://p2pfoundation.ning.com/profile/SatoshiNakamoto?xg_source=activity">Satoshi Nakamoto's</a> discussion '<a href="http://p2pfoundation.ning.com/xn/detail/2003008:Topic:9402?xg_source=activity">Bitcoin open source implementation of P2P currency</a>'</span>
+                <div class="content-comment"><div class="xg_sprite feed-quote"></div><em>As far as I can understand it we are dealing here with another glorified form of LETS, or CCs in electronic form ofcourse. The question is this. How will this help to change the big issues of our world such as global warming, food security, populati…</em><span class="xg_sprite feed-endquote"></span></div>                                <span class="event-info-timestamp xg_lightfont">Mar. 20, 2010</span>
+            </div>
+        </div><div class="feed-story  xg_separator"><div class='activity-close-wrapper'></div><a href="/profile/RussNelson?xg_source=activity"><img class="xj_user_default feed-avatar" width="48" height="48" alt="" src="http://api.ning.com/files/NShDyS7CREOfyb81CKDjgVwFixMUkCFhRzsjXtKhqvLuFwlAnJQfKYiE*5Wwb7IOFApl39WapPb8DEadeEueKZUS7xVgcSSY/226212010.png?width=48&amp;height=48&amp;crop=1%3A1&amp;xj_user_default=1" /></a>            <div class="feed-event-info">
+                <span class="event-info-action xg_lightfont"><a href="http://p2pfoundation.ning.com/profile/RussNelson?xg_source=activity">Russ Nelson</a> <a href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:17271?xg_source=activity">replied</a> to <a href="http://p2pfoundation.ning.com/profile/SatoshiNakamoto?xg_source=activity">Satoshi Nakamoto's</a> discussion '<a href="http://p2pfoundation.ning.com/xn/detail/2003008:Topic:9402?xg_source=activity">Bitcoin open source implementation of P2P currency</a>'</span>
+                <div class="content-comment"><div class="xg_sprite feed-quote"></div><em>The London Mint was unable to make enough small coins in Isaac Newton's day. Private minters stepped in. If bitcoin can't make enough coins and small enough coins so that people can trade at the value they want, then it will be replaced by something…</em><span class="xg_sprite feed-endquote"></span></div>                                <span class="event-info-timestamp xg_lightfont">Mar. 15, 2010</span>
+            </div>
+        </div>        </div>
+    </div>
+        <div class="xg_module_foot">
+        <ul>            <li class="left"><a class="xg_icon xg_icon-rss" href="http://p2pfoundation.ning.com/activity/log/list?fmt=rss&amp;screenName=0ye0gncqg772o">RSS</a></li>
+        </ul>
+    </div></div>
+<div class="xg_module module_about_user">
+    <div class="xg_module_head">
+		<h2>Profile Information</h2>
+                    </div>
+            <div class="xg_module_body">
+                    <dl >
+                <dt>Website:</dt>
+                <dd><a rel=nofollow href="http://www.bitcoin.org">http://www.bitcoin.org</a></dd>
+            </dl>
+                            </div>
+    </div>
+<div class="no_cross_container xg_module xg_module_comment_wall">
+    <div id="com" class="xg_module_head">
+    <h2 id="chatter_box_heading" numComments="0">Comment Wall</h2>
+</div>        <div class="xg_module_body xj_ajax">
+            <div id="xg_profiles_chatterwall_list" _scrollTo="">
+  <ul class="list chatter nobullets">
+    <li class="sparse" id="xg_profiles_chatterwall_empty" >No comments yet!</li>
+  </ul>
+</div>
+
+        </div>            <div class="xg_module_body">
+            <a name="add_comment"></a>
+  <h3>You need to be a member of P2P Foundation to add comments!</h3>
+             <p><a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofiles%2Fprofile%2Fshow%3Fid%3DSatoshiNakamoto%26">Join P2P Foundation</a></p>
+          </div>
+    </div>
+&nbsp;</div>
+</div>
+&nbsp;</div>
+<div _maxEmbedWidth="173" _columnCount="1"  class='xg_1col last-child'>
+&nbsp;</div>
+</div>
+
+                </div>
+                <div class="xg_column xg_span-4 xg_last xj_classic_sidebar">
+                        <div class="xg_module" id="xg_module_account">
+        <div class="xg_module_body xg_signup xg_lightborder">
+            <p>Welcome to<br />P2P Foundation</p>
+            <p class="last-child">
+                <big><strong><a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofiles%2Fprofile%2Fshow%3Fid%3DSatoshiNakamoto%26">Sign Up</a></strong></big><br/>
+                or <a href="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofiles%2Fprofile%2Fshow%3Fid%3DSatoshiNakamoto%26" style="white-space:nowrap">Sign In</a>            </p>
+                    </div>
+    </div>
+	<div class="xg_module module_badge">
+		<div class="xg_module_head">
+	    <h2>Badge</h2>
+	    </div>
+	    <div class="xg_module_body xj_badge_body xj_embed_container" data-module_name="badge" _embedCode="&lt;object classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot; codebase=&quot;http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab&quot;
+    id=&quot;badgeSwf&quot; width=&quot;100%&quot; height=&quot;174&quot; &gt;
+    &lt;param name=&quot;movie&quot; value=&quot;http://static.ning.com/socialnetworkmain/widgets/index/swf/badge.swf?v=201107272117&quot; /&gt;
+    &lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;
+    &lt;param name=&quot;bgcolor&quot; value=&quot;#000000&quot; /&gt;
+    &lt;param name=&quot;flashvars&quot; value=&quot;hideVisit=1&amp;amp;config=http%3A%2F%2Fp2pfoundation.ning.com%2Fmain%2Fbadge%2FshowPlayerConfig%3Fsize%3Dmedium%26v%3D3&amp;amp;backgroundColor=0x000000&amp;amp;textColor=0x69523B&quot; /&gt;
+    &lt;param name=&quot;wmode&quot; value=&quot;opaque&quot;/&gt;
+    &lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;
+&lt;embed
+    class=&quot;xj_badge_embed&quot;
+    src=&quot;http://static.ning.com/socialnetworkmain/widgets/index/swf/badge.swf?v=201107272117&quot;
+    quality=high
+    bgColor=&quot;#000000&quot;
+    width=&quot;100%&quot;
+    height=&quot;174&quot;
+    name=&quot;badgeSwf&quot;
+    type=&quot;application/x-shockwave-flash&quot;
+    pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot;
+    wmode=&quot;opaque&quot;
+    FlashVars=&quot;hideVisit=1&amp;amp;config=http%3A%2F%2Fp2pfoundation.ning.com%2Fmain%2Fbadge%2FshowPlayerConfig%3Fsize%3Dmedium%26v%3D3&amp;amp;backgroundColor=0x000000&amp;amp;textColor=0x69523B&quot;
+    scale=&quot;noscale&quot;
+    allowScriptAccess=&quot;always&quot;&gt;
+&lt;/embed&gt;
+&lt;/object&gt;">
+    Loading…</div>
+	    <div class="xg_module_foot">
+	        <p class="right"><a href="http://p2pfoundation.ning.com/main/embeddable/list">Get Badge</a></p>
+	    </div>
+	</div>
+
+                </div>
+            </div>
+            <div id="xg_foot">
+                <p class="left">
+    © 2011 &nbsp; Created by <a href="/profile/JosefDaviesCoates">Josef Davies-Coates</a>        &nbsp;
+    Powered by <a href="http://www.ning.com/?utm_source=online&utm_content=bazfooter&utm_medium=prd&utm_term=p2pfoundation"><img src="http://static.ning.com/socialnetworkmain/widgets/index/gfx/logo_ningbar.png?v=201107272117" width="48" height="15" alt="Ning" class="poweredbylogo" /></a>.
+    </p>
+    <p class="right xg_lightfont">
+                <a href="http://p2pfoundation.ning.com/main/embeddable/list">Badges</a> &nbsp;|&nbsp;
+                            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fmain%2Findex%2Freport" dojoType="PromptToJoinLink" _joinPromptText="Please sign up or sign in to complete this step." _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fmain%2Findex%2Freport">Report an Issue</a> &nbsp;|&nbsp;
+                <a href="http://p2pfoundation.ning.com/main/authorization/termsOfService?previousUrl=http%3A%2F%2Fp2pfoundation.ning.com%2Fprofiles%2Fprofile%2Fshow%3Fid%3DSatoshiNakamoto%26">Terms of Service</a>
+    </p>
+
+            </div>
+        </div>
+        
+        <div id="xj_baz17246" class="xg_theme"></div>
+<div id="xg_overlay" style="display:none;">
+<!--[if lte IE 6.5]><iframe></iframe><![endif]-->
+</div>
+<!--googleoff: all--><noscript>
+	<style type="text/css" media="screen">
+        #xg { position:relative;top:120px; }
+        #xn_bar { top:120px; }
+	</style>
+	<div class="errordesc noscript">
+		<div>
+            <h3><strong>Hello, you need to enable JavaScript to use P2P Foundation.</strong></h3>
+            <p>Please check your browser settings or contact your system administrator.</p>
+			<img src="/xn_resources/widgets/index/gfx/jstrk_off.gif" height="1" width="1" />
+		</div>
+	</div>
+</noscript><!--googleon: all-->
+<script>if(window.bzplcm)window.bzplcm.ts('jb')</script><script type="text/javascript" src="http://static.ning.com/socialnetworkmain/widgets/lib/core.min.js?v=201107272117"></script>        <script>
+            var sources = ["http:\/\/static.ning.com\/p2pfoundation\/instances\/shared\/js\/set_common.min.js?r=1312048326","http:\/\/static.ning.com\/p2pfoundation\/instances\/shared\/js\/set_sidebar_u.min.js?r=1310419865"];
+            var numSources = sources.length;
+            var heads = document.getElementsByTagName('head');
+            var node = heads.length > 0 ? heads[0] : document.body;
+            for (var i = 0; i < numSources; i++) {
+                var source = sources[i];
+                xg._loader.loading(source);
+                var script = document.createElement('script');
+                
+                script.type = 'text/javascript';
+                var cb = (function(source) { return function() { xg._loader.onLoad(source); }; })(source);
+                script.onerror = script.onload = cb;
+                script.onreadystatechange = function() {
+                    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+                        cb();
+                    }
+                }
+                script.src = source;
+                node.appendChild(script);
+            }
+        </script>
+    <script type="text/javascript">
+if (!ning._) {ning._ = {}}
+ning._.compat = { encryptedToken: "<empty>" }
+ning._.CurrentServerTime = "2011-07-31T06:51:04+00:00";
+ning._.probableScreenName = "";
+ning._.domains = {
+    base: 'ning.com',
+    ports: { http: '80', ssl: '443' }
+};
+ning.loader.version = '201107272117_3'; // DEP-6785:ba78705 31
+djConfig.parseWidgets = false;
+</script>
+<script>if(window.bzplcm)window.bzplcm.ts('ja')</script><script>window.bzplcm.add({"app":"p2pfoundation","user":null,"l_t":"profiles","mcr":14,"mct":14});</script><script type="text/javascript">
+    xg.token = '';
+    xg.cdnHost = 'static.ning.com';
+    xg.version = '201107272117';
+    xg.useMultiCdn = true;
+        xg.staticRoot = 'socialnetworkmain';
+    xg.xnTrackHost = "track.ning.com";
+            xg.cdnDefaultPolicyHost = 'static';
+        xg.cdnPolicy = [];
+        xg.global = xg.global||{}; xg.global.currentMozzle = 'profiles';
+    xg.global.userCanInvite = false;
+    xg.global.requestBase = '';
+    xg.global.locale = 'en_GB';
+    xg.num_thousand_sep = ",";
+    xg.num_decimal_sep = ".";
+        (function() {
+        dojo.addOnLoad(function() {
+            if(window.bzplcm) { window.bzplcm.ts('hr'); window.bzplcm._profileSend(); }
+                    });
+                            ning.loader.require('xg.index.likeCommentLinks', 'xg.shared.PostToFacebookLink', 'xg.index.tweet.PostToTwitterLink', 'xg.index.actionicons', 'xg.profiles.embed.chatterwall', 'xg.shared.BlockMessagesLink', 'xg.profiles.embed.unfriend', 'xg.profiles.embed.publisher', 'xg.index.index.inlineComments', 'xg.shared.expandContent', 'xg.activity.embed.RemoveActivityLink', 'xg.activity.embed.ActivityModule', 'xg.music.shared.buttonplayer', 'xg.feed.embed.UpdateFeed', 'xg.gifts.embed.embed', function() { xg._loader.onLoad('xnloader'); });
+            })();
+</script>
+<div id="xgDock" class="xg_dock">
+            <div class="jsContainer">
+            <a class="xg_info" href="/main/authorization/signIn?chat=true">Sign in to chat!</a>            <a href="#" class="xg_status xg_status-offline" title="You are Offline" ></a>
+        </div>
+    </div>
+<div class="xg_dock_spacer"></div><script type="text/javascript" src="http://static.ning.com/socialnetworkmain/widgets/lib/js/thrift/xn_track.min.js?v=201107272117"></script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-184755-20";
+urchinTracker();
+</script><script>if(window.bzplcm)window.bzplcm.ts('he')</script>
+
+    </body>
+</html>
