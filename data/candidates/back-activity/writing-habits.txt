@@ -1,0 +1,17 @@
+Adam Back, randombit Cryptography list (Nov 2010 - Jun 2011): 21 items, 3678 words
+   bracketed full sentence, full stop outside  "(Xxx ...)."     4   ( 10.9 per 10,000 words)
+   "(ie" / "(eg" without dots                                  4   ( 10.9 per 10,000 words)
+   "i.e." / "e.g." with dots                                   0   (  0.0 per 10,000 words)
+   "nor" as a word                                             2   (  5.4 per 10,000 words)
+
+Satoshi, forum posts + emails + list messages: 764 items, 90773 words
+   bracketed full sentence, full stop outside  "(Xxx ...)."     1   (  0.1 per 10,000 words)
+   "(ie" / "(eg" without dots                                  0   (  0.0 per 10,000 words)
+   "i.e." / "e.g." with dots                                   7   (  0.8 per 10,000 words)
+   "nor" as a word                                             0   (  0.0 per 10,000 words)
+
+Expected Satoshi counts at Back's rates, for Satoshi's word count:
+   bracketed full sentence, full stop outside  "(Xxx ...)." expected     99   observed    1
+   "(ie" / "(eg" without dots                              expected     99   observed    0
+   "i.e." / "e.g." with dots                               expected      0   observed    7
+   "nor" as a word                                         expected     49   observed    0
