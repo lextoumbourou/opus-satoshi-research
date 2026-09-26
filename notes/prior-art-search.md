@@ -1,0 +1,20 @@
+# Prior-art search for this session's candidate findings (2026-09-26, after search cap raised)
+
+Method: WebSearch (built-in), plus ninjastic.space (bitcointalk full-text), GitHub code search and fetched pages. Each query is listed with its outcome. "Not found" = not found by these searches plus the earlier survey (notes/prior-research.md), not a proof of absence.
+
+| Finding | Queries (abridged) | Closest prior art | Verdict |
+|---|---|---|---|
+| Satoshi used Thunderbird; GMX Date-header offsets = UK rules (verified vs Message-ID) | "Satoshi Nakamoto Thunderbird email client Message-ID"; "satoshin@gmx.com email headers time zone +0100 British Summer Time"; "Satoshi … Date header timezone GMT BST … Malmi emails"; "Satoshi emails Martti Malmi timezone +0100 +0000 daylight saving UK"; ninjastic "satoshi thunderbird", "satoshin gmx thunderbird"; GitHub code search for the Message-IDs | Chain Bulletin, 2020-11-26 ("No, CoinDesk…"): states that desktop clients like Thunderbird stamp the local zone, but applies it only to the vistomail +0800 (webmail, server-side). 2026 "25 facts" pieces repeat the SVN-offset artefact. | **Not found** |
+| Release ZIPs 0.2.0–0.3.19 local vs UTC offsets = UK rules; folder ctimes; MSVCRT DST signature | "bitcoin 0.3.0 win32.zip timestamps Satoshi timezone build machine"; "bitcoin-0.3.10-win32.zip … analysis metadata"; "Satoshi … release zip file timestamps UTC offset GMT" | Chain Bulletin 2020 (0.1.x RAR only; asked for later archives); obxium 2026 (PE of 0.1.0 only) | **Not found** |
+| diff -u mtimes in msg15116 ⇒ dev machine ≥ UTC+0:55 on 2010-10-03 | "Satoshi bitcointalk diff -u old\\main.cpp timestamps local time 0.3.13 timezone" | none | **Not found** |
+| RAR dir times + PE time + Hal repack ⇒ ≥UTC−3h40, likely GMT (Jan 2009) | earlier survey queries (see prior-research.md §9b) | ingredients published separately (Chain Bulletin 2020; obxium 2026; Fox Chapel 2026) | **Combination not found** |
+| Screenshot "03/01/2009 23:45" from a different code path than 0.1.x (C-locale %x would give 01/03/09) | "Satoshi screenshot bitcoin v0.1 "03/01/2009" UK date format locale" | deepceleron 2013 read it as 3 Jan; no locale argument | **Argument not found** |
+| OpenSSL 0.9.8h build DATE 2008-08-28 01:18:38 UTC in libeay32.dll | "bitcoin 0.1 libeay32.dll OpenSSL 0.9.8h built Aug 28 2008" | none | **Not found** |
+| NYT "disappeared from Cryptography list": Back posted on randombit list 15× (Mar 2010–Feb 2011) and 2× on metzdowd (Mar 2010); silence began Nov 2007 | "Adam Back randombit cryptography mailing list 2010 posts …"; "critique Carreyrou … mailing list silence …" | critiques (Fortune, Brave New Coin, Lopp, CryptoSlate, Decrypt, coincentral, toca.site) attack stylometry, not the list-silence data | **Not found** |
+| NYT "six weeks" = June 2011 news wave; first ever Bitcoin mention on randombit list 2011-06-09 | "NYT Carreyrou Adam Back six weeks June 2011 rebuttal …" | none | **Not found** |
+| Back's own mutt Date headers (CET 2010–11) vs Satoshi's UK-time headers, same days | "Adam Back Malta time zone emails CET Satoshi UK time zone contradiction" | CoinDesk 2020 +0800 puzzle; lovinmalta piece (no analysis) | **Not found** |
+| Gavin's 0.3.20.x/0.3.21 Windows build box on London time (control) | "Gavin Andresen 2011 windows build machine …"; "bitcointalk Gavin windows build 0.3.20 …" | none | **Not found** |
+| DST-rule likelihood on Satoshi's activity (EU vs US vs UTC) | "Satoshi … daylight saving time transition activity shift analysis EU vs US"; "daylight saving Satoshi posting times October 2009 clock change" | Chain Bulletin 2020 & Buchanan (activity histograms in fixed zones); chainless.hk 2023 (argues Pacific from PDF); no DST-transition analysis | **Not found** |
+| LA IRC node vs Satoshi's "can't receive incoming connections" | "Hal Finney debug log 68.164.57.219 … can't receive incoming connections" | whoissatoshi.wordpress (2016) geolocated the IP (Van Nuys); Waltz 2026 assumed Satoshi | **Contradiction not found published** |
+
+Also checked: timezoneweird.substack.com "Satoshi Revealed" (2023) is fiction.
