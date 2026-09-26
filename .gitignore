@@ -1,3 +1,7 @@
 # extracted archive contents (reproducible from the archives in data/releases)
 data/releases/x*/
 .DS_Store
+# Raw Satoshi–Malmi email dumps contain old plaintext passwords (published by
+# Malmi at https://mmalmi.github.io/satoshi/). Re-download rather than commit.
+data/claims/C-malmi-satoshi-emails.txt
+data/claims/C-malmi-satoshi-index.html
