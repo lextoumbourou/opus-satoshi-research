@@ -1,6 +1,6 @@
 # Satoshi research
 
-Working repo for the "Can Opus 5.5 find Satoshi Nakamoto?" experiment.
+Working repo for the "Can Claude Opus 5.5 find any new leads on Satoshi Nakamoto?" experiment. Read the write-up: [Can Claude Opus 5.5 find any new leads on Satoshi Nakamoto?](https://notesbylex.com/can-claude-opus-5-5-find-any-new-leads-on-satoshi-nakamoto)
 
 - `log.md`: research log (what was tried, when, and the result)
 - `notes/`: write-ups and findings, with every claim labelled
