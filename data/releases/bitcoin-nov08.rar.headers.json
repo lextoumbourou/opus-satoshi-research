@@ -1,0 +1,126 @@
+[
+ {
+  "offset": 7,
+  "type": "0x73",
+  "flags": "0x0",
+  "head_size": 13,
+  "kind": "archive",
+  "solid": false,
+  "has_comment": false,
+  "locked": false,
+  "authenticity_info": false,
+  "recovery_record": false
+ },
+ {
+  "offset": 20,
+  "type": "0x74",
+  "flags": "0x9020",
+  "head_size": 42,
+  "kind": "file",
+  "name": "main.cpp",
+  "packed": 14794,
+  "size": 66174,
+  "host_os": "Win32",
+  "crc32": "fda98018",
+  "unp_ver": 29,
+  "method": 51,
+  "attr": "0x20",
+  "is_dir": false,
+  "dos_time_raw": "0x396f0000",
+  "mtime_local": "2008-11-15 00:00:01.0000000",
+  "ext_times_local": {
+   "mtime": "2008-11-15 00:00:01.0000000"
+  }
+ },
+ {
+  "offset": 14856,
+  "type": "0x74",
+  "flags": "0x9020",
+  "head_size": 40,
+  "kind": "file",
+  "name": "main.h",
+  "packed": 6842,
+  "size": 29219,
+  "host_os": "Win32",
+  "crc32": "67a56e38",
+  "unp_ver": 29,
+  "method": 51,
+  "attr": "0x20",
+  "is_dir": false,
+  "dos_time_raw": "0x396f0000",
+  "mtime_local": "2008-11-15 00:00:01.0000000",
+  "ext_times_local": {
+   "mtime": "2008-11-15 00:00:01.0000000"
+  }
+ },
+ {
+  "offset": 21738,
+  "type": "0x74",
+  "flags": "0x9020",
+  "head_size": 42,
+  "kind": "file",
+  "name": "node.cpp",
+  "packed": 6685,
+  "size": 28112,
+  "host_os": "Win32",
+  "crc32": "d2fcc4d0",
+  "unp_ver": 29,
+  "method": 51,
+  "attr": "0x20",
+  "is_dir": false,
+  "dos_time_raw": "0x396f0000",
+  "mtime_local": "2008-11-15 00:00:01.0000000",
+  "ext_times_local": {
+   "mtime": "2008-11-15 00:00:01.0000000"
+  }
+ },
+ {
+  "offset": 28465,
+  "type": "0x74",
+  "flags": "0x9020",
+  "head_size": 40,
+  "kind": "file",
+  "name": "node.h",
+  "packed": 4797,
+  "size": 18491,
+  "host_os": "Win32",
+  "crc32": "e699c7d7",
+  "unp_ver": 29,
+  "method": 51,
+  "attr": "0x20",
+  "is_dir": false,
+  "dos_time_raw": "0x396f0000",
+  "mtime_local": "2008-11-15 00:00:01.0000000",
+  "ext_times_local": {
+   "mtime": "2008-11-15 00:00:01.0000000"
+  }
+ },
+ {
+  "offset": 33302,
+  "type": "0x74",
+  "flags": "0x9020",
+  "head_size": 44,
+  "kind": "file",
+  "name": "readme.txt",
+  "packed": 304,
+  "size": 451,
+  "host_os": "Win32",
+  "crc32": "0fc730ba",
+  "unp_ver": 29,
+  "method": 51,
+  "attr": "0x20",
+  "is_dir": false,
+  "dos_time_raw": "0x396f0000",
+  "mtime_local": "2008-11-15 00:00:01.0000000",
+  "ext_times_local": {
+   "mtime": "2008-11-15 00:00:01.0000000"
+  }
+ },
+ {
+  "offset": 33650,
+  "type": "0x7b",
+  "flags": "0x4000",
+  "head_size": 7,
+  "kind": "end"
+ }
+]
