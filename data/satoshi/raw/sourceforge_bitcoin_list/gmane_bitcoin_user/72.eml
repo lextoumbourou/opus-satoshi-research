@@ -1,0 +1,171 @@
+Path: news.gmane.org!not-for-mail
+From: Thy Shizzle <thashiznets@yahoo.com.au>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Bitcoind error at block 322082 (The network does
+ not appear to fully agree)
+Date: Thu, 12 Mar 2015 02:13:01 +0000 (UTC)
+Lines: 77
+Approved: news@gmane.org
+Message-ID: <1392201618.4392052.1426126381202.JavaMail.yahoo@mail.yahoo.com>
+Reply-To: Thy Shizzle <thashiznets@yahoo.com.au>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Trace: ger.gmane.org 1426126465 3518 80.91.229.3 (12 Mar 2015 02:14:25 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Thu, 12 Mar 2015 02:14:25 +0000 (UTC)
+Cc: "bitcoin-list@lists.sourceforge.net" <bitcoin-list@lists.sourceforge.net>
+To: "s7r@sky-ip.org" <s7r@sky-ip.org>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Thu Mar 12 03:14:15 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YVsdZ-0007rm-Oj
+	for gcbd-bitcoin-list@m.gmane.org; Thu, 12 Mar 2015 03:14:14 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YVscY-00069L-Kz; Thu, 12 Mar 2015 02:13:10 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <harro84@yahoo.com.au>) id 1YVscX-00069F-E5
+	for bitcoin-list@lists.sourceforge.net; Thu, 12 Mar 2015 02:13:09 +0000
+Original-Received: from nm48.bullet.mail.bf1.yahoo.com ([216.109.114.64])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1YVscV-00037p-FC
+	for bitcoin-list@lists.sourceforge.net; Thu, 12 Mar 2015 02:13:09 +0000
+Original-Received: from [98.139.215.142] by nm48.bullet.mail.bf1.yahoo.com with NNFMP;
+	12 Mar 2015 02:13:02 -0000
+Original-Received: from [98.139.212.202] by tm13.bullet.mail.bf1.yahoo.com with NNFMP;
+	12 Mar 2015 02:13:02 -0000
+Original-Received: from [127.0.0.1] by omp1011.mail.bf1.yahoo.com with NNFMP;
+	12 Mar 2015 02:13:02 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 93407.72328.bm@omp1011.mail.bf1.yahoo.com
+X-YMail-OSG: uuCzUyIVM1kYjqPTy2FczXlDQeFJBqjJIISnFseo59hGFj1Ra6L9r2KxRzqCfU8
+	rqaPotSpJikB_H18JFAOfoW5fQGWXNewmOE42ed0piPk1w6g0Fo6VGYpzQ0suMdVFfL.Ajzx7CMp
+	kkHMRLefzRbcS5G3MYzVNdW8sdUzuxReQL8cI32J66HDexsrXAuZhJli_Fgb_0egcZvC.cOCC7sS
+	P4AxzrBrtT8CUXYskhHx97L9944g2eMHR39rcu2UHJfk36XEX7Irjhgyw7OWc6p2sSslPJpDJQWA
+	cAtuKLquHrDFDLRGoQ1HrVNSSAtz4l5vn3fjqRxBaYQ35yfjaGfBGC3A33Ume.0Z6EttR0jdh.Gn
+	OYNU44mjgKRMhBIcj3rMXEeNfnZMQhPbs42jYdpXwiR0R2.BLk0p1ftZyBKj3dmtiHO0DN0ppEk5
+	_grOXn8zVehbToaR8Yv3zgLCm59D4GQQXkcgQGECYwbQM535MScSnNXDV1yjk.FkfmzKA.V3v._z
+	XrNR__O6M2.FmMvrTCYBHJO405HOSJhOpt7VS9nyFF3M7n3CSsfrOMQB.Oj.MuVLzXYoE_je7fdQ
+	jA1k3AT8t.WdpZeoZ14H4zePaV_NLfbIRvl9WMfSy6Kd83B1SpvYCY1VwmQ4Q_vXuHu.SpQaZoOE
+	s12az34HrK60QrjZ5TgRKcjLrdFOldbzgqNCSEE4.WGQ.1PYzG1Ru7EtnKo3d6ALXkKsMi..1bwq
+	VPE_FYrRktqtpvGii61NQKkrpcW4N_YNuHEL37fBHGJ7u7i.tiv6YdQawhYW_Kyp9xzgPRQ--
+Original-Received: by 76.13.26.107; Thu, 12 Mar 2015 02:13:01 +0000 
+Content-Length: 26685
+X-Spam-Score: 1.2 (+)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(harro84[at]yahoo.com.au)
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [216.109.114.64 listed in list.dnswl.org]
+	0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+	digit (harro84[at]yahoo.com.au)
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+	0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Headers-End: 1YVscV-00037p-FC
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:72
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/72>
+
+SGV5LCBJIHJlYWQgc29tZXRoaW5nIGFib3V0IDAuOS4zIG5vdCB3b3JraW5nIHByb3Blcmx5IHdp
+dGggdGhlIGxhdGVzdCBPcGVuU1NMLgpBcmUgeW91IGJ1aWxkaW5nIHlvdXIgb3duIDAuOS4zIG5v
+ZGVzIGFuZCBwdWxsaW5nIGluIHRoZSBsYXRlc3QgT3BlblNTTD8gVGhpcyBtaWdodCBiZSB5b3Vy
+IHByb2JsZW0/IFRoZXkgc2FpZCB0byBnZXQgMC45LjQgYW5kIHRoZW4gZ2V0IHRoZSBsYXRlc3Qg
+T3BlblNTTCBpZiB5b3UgYXJlIGRvaW5nIHRoYXQuCkFsc28ganVzdCBmb3VuZCB0aGlzICJMYXJn
+ZSB2YWxpZCBmb3JrIGZvdW5kIiAsIHN0dWNrIGF0IGJsb2NrIDMyMjA4MiDCtyBJc3N1ZSAjNTY0
+NSDCtyBiaXRjb2luL2JpdGNvaW4KfCDCoCB8CnwgwqAgfCAgfCDCoCB8IMKgIHwgwqAgfCDCoCB8
+IMKgIHwKfCAiTGFyZ2UgdmFsaWQgZm9yayBmb3VuZCIgLCBzdHVjayBhdCBibG9jayAzMjIwODIg
+wrcgSXNzdWUuLi5JIGdldCB0aGlzIGVycm9yOiAyMDE1LTAxLTEyIDA1OjAwOjI3IENoZWNrRm9y
+a1dhcm5pbmdDb25kaXRpb25zOiBXYXJuaW5nOiBMYXJnZSB2YWxpZCBmb3JrIGZvdW5kIGZvcmtp
+bmcgdGhlIGNoYWluIGF0IGhlaWdodCAzMjIwODIgKDAwMDAwMDAwMDAwMDAwMDAxZTZkYS4uLiB8
+CnwgIHwKfCBWaWV3IG9uIGdpdGh1Yi5jb20gfCBQcmV2aWV3IGJ5IFlhaG9vIHwKfCAgfAp8IMKg
+IHwKCiDCoMKgIEhvcGUgdGhpcyBoZWxwcyA6KQotLS0tLUJFR0lOIFBHUCBTSUdORUQgTUVTU0FH
+RS0tLS0tCkhhc2g6IFNIQTI1NgoKSGVsbG8sCgpJIHJ1biBzZXZlcmFsIGJpdGNvaW5kIGZ1bGwg
+bm9kZXMsIHNvbWUgYWNjZXNzaWJsZSBvbmx5IHZpYSBUb3IgaGlkZGVuCnNlcnZpY2VzIGFuZCBz
+b21lIGR1YWwtc3RhY2sgKFRvciBoaWRkZW4gc2VydmljZSArIGNsZWFybmV0KS4KClNpbmNlIFRh
+aWxzIExpbnV4IChodHRwczovL3RhaWxzLmJvdW0ub3JnLykgbm93IHNoaXBzIEVsZWN0cnVtIHdh
+bGxldApieSBkZWZhdWx0LCBJIGFsc28gYWRkZWQgc3VwcG9ydCBmb3IgRWxlY3RydW0tU2VydmVy
+LCBzbyB0aGUgVG9yCkVsZWN0cnVtIHdhbGxldCB1c2VycyBjYW4gYmVuZWZpdCBvZiBzb21lIHJl
+bGlhYmxlIHNlcnZlcnMgYWNjZXNzaWJsZQp2aWEgVG9yIGhpZGRlbiBzZXJ2aWNlcy4KCkp1c3Qg
+b25lIG9mIHRoZSBub2RlcyB3b24ndCBsZXQgbWUgY29tcGxldGUgdGhlIHNldHVwLiBXaGVuIGFk
+ZGluZwplbGVjdHJ1bS1zZXJ2ZXIsIHRoZXJlIGlzIGFsc28gdGhlIG5lZWQgdG8gYWRkIHR4aW5k
+ZXg9MSBpbgpiaXRjb2luLmNvbmYgYW5kIC1yZWluZGV4IHRoZSBibG9ja2NoYWluIChpbiBteSBz
+ZXR1cHMpLiBJIGRpZCBpdCBvbgp0aGUgb3RoZXIgbm9kZXMgd2l0aCBubyBwcm9ibGVtLiBPbiB0
+aGUgY3VycmVudCBvbmUsIEkgdHJpZWQgdG8gZG8gaXQKMiB0aW1lcyBhbmQgaXQgZnJlZXplcyBh
+dCB0aGlzIHN0YWdlOgoKewrCoMKgwqAgInZlcnNpb24iIDogOTAzMDAsCsKgwqDCoCAicHJvdG9j
+b2x2ZXJzaW9uIiA6IDcwMDAyLArCoMKgwqAgImJsb2NrcyIgOiAzMjIwODIsCsKgwqDCoCAidGlt
+ZW9mZnNldCIgOiAtMSwKwqDCoMKgICJjb25uZWN0aW9ucyIgOiA0MSwKwqDCoMKgICJwcm94eSIg
+OiAiIiwKwqDCoMKgICJkaWZmaWN1bHR5IiA6IDI5ODI5NzMzMTI0LjA0MDQxNjcyLArCoMKgwqAg
+InRlc3RuZXQiIDogZmFsc2UsCsKgwqDCoCAicmVsYXlmZWUiIDogMC4wMDAwMTAwMCwKwqDCoMKg
+ICJlcnJvcnMiIDogIldhcm5pbmc6IFRoZSBuZXR3b3JrIGRvZXMgbm90IGFwcGVhciB0byBmdWxs
+eSBhZ3JlZSEKU29tZSBtaW5lcnMgYXBwZWFyIHRvIGJlIGV4cGVyaWVuY2luZyBpc3N1ZXMuIgp9
+CgpBdCB0aGlzIHN0YWdlIGl0IGlzIG5vdCBjb25zdW1pbmcgYW55IENQVSwgd2hpbGUgdW50aWwg
+YmxvY2sgMzIyMDgyCndoaWxlIGl0IHdhcyByZWluZGV4aW5nIHRoZSBwcmV2aW91cyBibG9ja3Ms
+IHRoZSBDUFUgdXNhZ2Ugd2FzIGJldHdlZW4KOTAlIGFuZCAxMDAlLiBOb3cgaXQncyBmcm96ZW4g
+YXQgYmxvY2sgMzIyMDgyIGZvciBvdmVyIDcgaG91cnMuCgpUeXBlOiB2aXJ0dWFsIG1hY2hpbmUK
+T1M6IERlYmlhbiBXaGVlenkgNjQgYml0CkNQVTogSW50ZWwoUikgWGVvbihSKSBDUFXCoMKgwqDC
+oMKgwqDCoMKgwqDCoCBFNTYwNsKgIEAgMi4xM0dIeiAoMSB2aXJ0dWFsIGNvcmUpClJBTTogOCBH
+QgpCaXRjb2luOiBiaXRjb2luZCAwLjkuMyBpbnN0YWxsZWQgdmlhIGdpdCwgZnJvbSBnaXRodWIu
+CgpXaGF0IGFyZSB0aGUgcG9zc2libGUgc29sdXRpb25zPyBPbmUgd291bGQgYmUgdG8gZGVsZXRl
+IGFsbCB0aGUgZGF0YQphbmQgbGV0IGl0IHN5bmMgYWdhaW4gZnJvbSBzY3JhdGNoIHdpdGggdHhp
+bmRleD0xIGZyb20gc3RhcnRlcnMsIGJ1dApzdGlsbCwgSSB3b3VsZCBsaWtlIHRvIGZpZ3VyZSBv
+dXQsIHdoeSBpcyB0aGlzIG5vZGUgYmVoYXZpbmcgbGlrZSB0aGlzPwotLS0tLUJFR0lOIFBHUCBT
+SUdOQVRVUkUtLS0tLQpWZXJzaW9uOiBHbnVQRyB2Mi4wLjIyIChNaW5nVzMyKQoKaVFFY0JBRUJD
+QUFHQlFKVS92dzJBQW9KRUlOL3BTeUJKbHNSM3FNSUFKenEwTjQ3ZVhmUjNqY0RmSGhkWWw0NQpY
+MW9LY0podGZFdG41TklkUGZmbk9TRXJpUzc4bmpBM1BRY0FmdFdJQ2h0VkRYYS9uazZYWnQwdkRu
+TzVlakRXCjFWQmNrVm5mUTlwZzdvZ3hyQStDZlJnejBNeUdJa1paeGZYbVh5dXdDeXFWOWVsU3dS
+NFNYREUzeFZNdTRBOTUKSXIvYUpRWGVTZXlJbTNQbkV0aGxMYy84VDF1c3pabmhOYktXSklvdjYr
+TnJuSVZKdjlhZHNCeHdLVURjSUZqNgpJMkxycDZ2WXk1bmhUendWL2tRUW5sWFluaTIzbzcyRldm
+V2FqNlFLeTZZM1NOcnIwbGpGM1pENXhXbHdKUGlWCkxkd09XRGtGem9hMXRReWF3bVZkOW05Qloz
+NCswVkNJOVBBcllPaVlaZmdLczF6YzJneVJzNnNHSUZiWGFOcz0KPXRpQVcKLS0tLS1FTkQgUEdQ
+IFNJR05BVFVSRS0tLS0tCgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KRGl2ZSBpbnRvIHRoZSBXb3Js
+ZCBvZiBQYXJhbGxlbCBQcm9ncmFtbWluZyBUaGUgR28gUGFyYWxsZWwgV2Vic2l0ZSwgc3BvbnNv
+cmVkCmJ5IEludGVsIGFuZCBkZXZlbG9wZWQgaW4gcGFydG5lcnNoaXAgd2l0aCBTbGFzaGRvdCBN
+ZWRpYSwgaXMgeW91ciBodWIgZm9yIGFsbAp0aGluZ3MgcGFyYWxsZWwgc29mdHdhcmUgZGV2ZWxv
+cG1lbnQsIGZyb20gd2Vla2x5IHRob3VnaHQgbGVhZGVyc2hpcCBibG9ncyB0bwpuZXdzLCB2aWRl
+b3MsIGNhc2Ugc3R1ZGllcywgdHV0b3JpYWxzIGFuZCBtb3JlLiBUYWtlIGEgbG9vayBhbmQgam9p
+biB0aGUgCmNvbnZlcnNhdGlvbiBub3cuIGh0dHA6Ly9nb3BhcmFsbGVsLnNvdXJjZWZvcmdlLm5l
+dC8KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KYml0Y29p
+bi1saXN0IG1haWxpbmcgbGlzdApiaXRjb2luLWxpc3RAbGlzdHMuc291cmNlZm9yZ2UubmV0CmJp
+dGNvaW4tbGlzdCAtLQp8IMKgIHwKfCDCoCB8IMKgIHwgwqAgfCDCoCB8IMKgIHwKfCBiaXRjb2lu
+LWxpc3QgLS1UbyBzZWUgdGhlIGNvbGxlY3Rpb24gb2YgcHJpb3IgcG9zdGluZ3MgdG8gdGhlIGxp
+c3QsIHZpc2l0IHRoZSBiaXRjb2luLWxpc3QgQXJjaGl2ZXMuIHwKfCAgfAp8IFZpZXcgb24gbGlz
+dHMuc291cmNlZm9yZ2UubmV0IHwgUHJldmlldyBieSBZYWhvbyB8CnwgIHwKfCDCoCB8CgogwqAK
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tCkRpdmUgaW50byB0aGUgV29ybGQgb2YgUGFyYWxsZWwgUHJv
+Z3JhbW1pbmcgVGhlIEdvIFBhcmFsbGVsIFdlYnNpdGUsIHNwb25zb3JlZApieSBJbnRlbCBhbmQg
+ZGV2ZWxvcGVkIGluIHBhcnRuZXJzaGlwIHdpdGggU2xhc2hkb3QgTWVkaWEsIGlzIHlvdXIgaHVi
+IGZvciBhbGwKdGhpbmdzIHBhcmFsbGVsIHNvZnR3YXJlIGRldmVsb3BtZW50LCBmcm9tIHdlZWts
+eSB0aG91Z2h0IGxlYWRlcnNoaXAgYmxvZ3MgdG8KbmV3cywgdmlkZW9zLCBjYXNlIHN0dWRpZXMs
+IHR1dG9yaWFscyBhbmQgbW9yZS4gVGFrZSBhIGxvb2sgYW5kIGpvaW4gdGhlIApjb252ZXJzYXRp
+b24gbm93LiBodHRwOi8vZ29wYXJhbGxlbC5zb3VyY2Vmb3JnZS5uZXQvCl9fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCmJpdGNvaW4tbGlzdCBtYWlsaW5nIGxp
+c3QKYml0Y29pbi1saXN0QGxpc3RzLnNvdXJjZWZvcmdlLm5ldApodHRwczovL2xpc3RzLnNvdXJj
+ZWZvcmdlLm5ldC9saXN0cy9saXN0aW5mby9iaXRjb2luLWxpc3QK
+

@@ -1,0 +1,190 @@
+Path: news.gmane.org!not-for-mail
+From: Jeff Garzik <jgarzik@bitpay.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Difficulty adjustment mechanism
+Date: Sat, 13 Sep 2014 12:34:03 -0400
+Lines: 99
+Approved: news@gmane.org
+Message-ID: <CAJHLa0OQKTws8L_o729oFc3iacs9y-doznLA=QWRK+bNBSEVYA@mail.gmail.com>
+References: <54144387.8050406@sky-ip.org>
+	<CAJHLa0OVTwcFhgo392oReybgadGFcbH-MsgXj8U60aayAnq11w@mail.gmail.com>
+	<54146A38.7060001@sky-ip.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1410626124 20567 80.91.229.3 (13 Sep 2014 16:35:24 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 13 Sep 2014 16:35:24 +0000 (UTC)
+Cc: bitcoin-list <bitcoin-list@lists.sourceforge.net>
+To: s7r <s7r@sky-ip.org>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Sep 13 18:35:18 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XSqI9-0005Bf-Sa
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 13 Sep 2014 18:35:18 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XSqHR-0002np-OM; Sat, 13 Sep 2014 16:34:33 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <jgarzik@bitpay.com>) id 1XSqHQ-0002ni-PC
+	for bitcoin-list@lists.sourceforge.net; Sat, 13 Sep 2014 16:34:32 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of bitpay.com
+	designates 209.85.213.178 as permitted sender)
+	client-ip=209.85.213.178; envelope-from=jgarzik@bitpay.com;
+	helo=mail-ig0-f178.google.com; 
+Original-Received: from mail-ig0-f178.google.com ([209.85.213.178])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1XSqHN-000083-2o
+	for bitcoin-list@lists.sourceforge.net; Sat, 13 Sep 2014 16:34:32 +0000
+Original-Received: by mail-ig0-f178.google.com with SMTP id a13so2062330igq.5
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 13 Sep 2014 09:34:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+	:message-id:subject:to:cc:content-type;
+	bh=lT1WoeTe8DT4lnTkyWK/V6T4bmtuDRrcz5rymKBSYws=;
+	b=l5hJgoapEgEkKvuF62kLRqMh5mdk07yO4AfSBpmSdVQRD+I6z1dLhm00Df9t6R9GnB
+	NcyFAwOLvCH4a1Tpv+vM0XhM78eHKeCjBTedLP/lsfou6em+2RBcmDjzBZEq9MK7RGYQ
+	tTXE6rAZCFxQqNeesGvp8jhY54lb1wyXsr/5D83bqVjviQzbDoUvK1+6rnuKM95bvae6
+	TyRwos1MmCpGVTRf1OVRTW2v8ziCF0bI1MRpa54kKJrYDlQEK1BDdtLDlM8ehAlwxJsV
+	//dZWADXr63rVZ/dKMti5EnTxv5/s2JRTo7wkGV56kuujDoDWd4If70+mljJJSip/nac
+	/h+w==
+X-Gm-Message-State: ALoCoQkiF6nOwiUkIK6ONlQTPPMD9EpqJ+FbOL0Z9/thvFyLrLJuJxFbCENHu0ug0xKmP36kBJVU
+X-Received: by 10.50.12.4 with SMTP id u4mr11021102igb.22.1410626063319; Sat,
+	13 Sep 2014 09:34:23 -0700 (PDT)
+Original-Received: by 10.107.153.149 with HTTP; Sat, 13 Sep 2014 09:34:03 -0700 (PDT)
+In-Reply-To: <54146A38.7060001@sky-ip.org>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1XSqHN-000083-2o
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:52
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/52>
+
+Why not on mainnet?  It is simply much lower priority for bitcoin
+today than other problems.  It tends not to happen at higher
+difficulties for a variety of reasons.
+
+The difficulty adjustment is capped at a factor of 4, up or down, to
+address some other attacks that can happen in mining.
+
+Personally, I think there needs to be a mainnet safety rule such as
+"if 24 hours goes by without a block, you may mine a block" etc.  But
+I readily admit I've not thought through all the ramifications of such
+a policy.
+
+
+
+On Sat, Sep 13, 2014 at 12:00 PM, s7r <s7r@sky-ip.org> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+>
+>
+> On 9/13/2014 5:04 PM, Jeff Garzik wrote:
+>> This is why testnet has a special rule:  If 20 minutes passes
+>> without a block, you may mine a diff-1 block.
+>>
+>
+> Thanks for your point of view Mr. Garzik.
+> Why aren't we using this in the real bitcoin network too? If it's good
+> for balancing the functionality of the network in the context of
+> sudden hashrate moves? Specially down moves, since if the hash power
+> goes UP, the network will see blocks are created more often than at
+> every 10 minutes and adjust the difficulty directly proportional, correct?
+>
+>>
+>> On Sat, Sep 13, 2014 at 9:15 AM, s7r <s7r@sky-ip.org> wrote: Hi
+>> there,
+>>
+>> I have an contradictory discussion with an altcoin supporter and
+>> want to bring some solid arguments in a public talk, so require
+>> little help to respond to a question with simplest answer.
+>>
+>> The problem is within the difficulty adjustment mechanism, that it
+>> happens at every 2016 blocks. In case the hash power will suddenly
+>> decrease, the 2016 blocks will take a lot of time to solve,
+>> therefor freeze the network in a non-operational way. I know by far
+>> this is just a joke, because this is very unlikely to happen
+>> anytime (people paid for mining equipment and make money) but for
+>> the sake of discussion, let's just assume it 'could' happen.
+>>
+>> Can this really freeze the network for unlimited time and bitcoin
+>> has no mechanism to balance it back? A resourceful party with the
+>> intent to attack the network in an irrational way, brings lot of
+>> hashing power and keeps it for 2016 blocks, then removes it leaving
+>> the other 2016 blocks to solve at very high difficulty but with low
+>> hash power in the network causing a 'blackout'? Thank you in
+>> advance for your answers.
+>>
+>>
+>>>
+>>> ------------------------------------------------------------------------------
+>>>
+>>>
+> Want excitement?
+>>> Manually upgrade your production database. When you want
+>>> reliability, choose Perforce Perforce version control.
+>>> Predictably reliable.
+>>> http://pubads.g.doubleclick.net/gampad/clk?id=157508191&iu=/4140/ostg.clktrk
+>>>
+>>>
+> _______________________________________________
+>>> bitcoin-list mailing list bitcoin-list@lists.sourceforge.net
+>>> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+>>
+>>
+>>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2.0.22 (MingW32)
+>
+> iQEcBAEBAgAGBQJUFGo4AAoJEIN/pSyBJlsR3d0IAISkymj6mxOkifdmp6ujUL4y
+> 7lVoROugxAKTen9Fhg4rtWC10HQkTClJVfmaUYb+3D+oJ6YFjvZeyYT9TxFBrnvC
+> JfKG6m/yc9yp/R1MwSL81ez8TQvBt1UUVZcxApYW1TWXJDH95ua5IakQDkag/dET
+> HUtCAabPTDtQf0UaFqcycVXcXRYjvH73pOOD5j4WBeW1M2kd7pLm9Zdh1Up7nWVK
+> hfISwfq2S39vMBb5474/WP38YymW0izjh9yrxMaNT3MeuxR3PUo5ue9O470+YP5Y
+> 5k03vs+qF3GWYRIy+13x//WeiYPQQxONjxb4+mgcfoYpXjx611VKPpYjZGarTNU=
+> =JCev
+> -----END PGP SIGNATURE-----
+
+
+
+-- 
+Jeff Garzik
+Bitcoin core developer and open source evangelist
+BitPay, Inc.      https://bitpay.com/
+
+------------------------------------------------------------------------------
+Want excitement?
+Manually upgrade your production database.
+When you want reliability, choose Perforce
+Perforce version control. Predictably reliable.
+http://pubads.g.doubleclick.net/gampad/clk?id=157508191&iu=/4140/ostg.clktrk

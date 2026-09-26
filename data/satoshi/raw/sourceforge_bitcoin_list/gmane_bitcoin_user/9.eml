@@ -1,0 +1,160 @@
+Path: news.gmane.org!not-for-mail
+From: "Randolph D." <rdohm321@gmail.com>
+Newsgroups: gmane.comp.bitcoin.devel,gmane.comp.bitcoin.user
+Subject: BitMail - p2p Email 0.1. beta
+Date: Tue, 30 Jul 2013 07:01:02 +0200
+Lines: 83
+Approved: news@gmane.org
+Message-ID: <CAEvNM8=yQn8sE4Lrf5+xedfm4RomBkBVhVWOdFFXxPEk7wZYDw@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============6554391286917420604=="
+X-Trace: ger.gmane.org 1375160514 21682 80.91.229.3 (30 Jul 2013 05:01:54 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 30 Jul 2013 05:01:54 +0000 (UTC)
+To: bitcoin-development@lists.sourceforge.net, 
+	bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-development-bounces@lists.sourceforge.net Tue Jul 30 07:01:57 2013
+Return-path: <bitcoin-development-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-development@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-development-bounces@lists.sourceforge.net>)
+	id 1V424K-0005mC-SX
+	for gcbd-bitcoin-development@m.gmane.org; Tue, 30 Jul 2013 07:01:57 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-development-bounces@lists.sourceforge.net>)
+	id 1V423d-0006IO-OC; Tue, 30 Jul 2013 05:01:13 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <rdohm321@gmail.com>)
+	id 1V423b-0006IB-1j; Tue, 30 Jul 2013 05:01:11 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 74.125.82.177 as permitted sender)
+	client-ip=74.125.82.177; envelope-from=rdohm321@gmail.com;
+	helo=mail-we0-f177.google.com; 
+Original-Received: from mail-we0-f177.google.com ([74.125.82.177])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1V423Z-0002cA-98; Tue, 30 Jul 2013 05:01:11 +0000
+Original-Received: by mail-we0-f177.google.com with SMTP id m46so4633914wev.22
+	for <multiple recipients>; Mon, 29 Jul 2013 22:01:03 -0700 (PDT)
+X-Received: by 10.180.37.8 with SMTP id u8mr9218323wij.4.1375160462992; Mon,
+	29 Jul 2013 22:01:02 -0700 (PDT)
+Original-Received: by 10.216.40.76 with HTTP; Mon, 29 Jul 2013 22:01:02 -0700 (PDT)
+X-Spam-Score: -0.3 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(rdohm321[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+	digit (rdohm321[at]gmail.com)
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1V423Z-0002cA-98
+X-BeenThere: bitcoin-development@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-development.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-development>,
+	<mailto:bitcoin-development-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development>
+List-Post: <mailto:bitcoin-development@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-development-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-development>,
+	<mailto:bitcoin-development-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-development-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.devel:2622 gmane.comp.bitcoin.user:9
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.devel/2622>
+
+--===============6554391286917420604==
+Content-Type: multipart/alternative; boundary=e89a8f647023e7edb704e2b37edf
+
+--e89a8f647023e7edb704e2b37edf
+Content-Type: text/plain; charset=UTF-8
+
+http://bitmail.sourceforge.net/
+
+
+   - Secure P2P Email from Friend to Friend without relying on a central
+   server.
+   - Key- / Repleo-Exchange.
+   - Full decentral Email-Network using the Echo Protocol.
+   - Store Email for Offline-Friends in the P2P Network.
+   - Chat and Instant Messaging is build in. Define & Add your friends.
+   - Strong e2e Multi-Encryption (PGP-kind/AES over SSL: using
+libgcrypt<http://www.gnu.org/software/libgcrypt/>).
+
+   - Libspoton Integration.
+   - Additional Security Layer with the GB-Feature for Emails.
+   - Preventing Data Retention (VDS). WoT-less.
+   - HTTP & HTTPS Connections.
+   - Open Source. BSD License.
+
+anyone with a Server? Key?
+
+--e89a8f647023e7edb704e2b37edf
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div><a href=3D"http://bitmail.sourceforge.net/">http://bitmail.sourceforge=
+.net/</a></div><div>=C2=A0</div><ul>
+<li class=3D"Stil3">Secure P2P Email from Friend to Friend without relying =
+on a=20
+central server.=20
+<li class=3D"Stil3">Key- / Repleo-Exchange.=20
+<li class=3D"Stil3">Full decentral Email-Network using the Echo Protocol.=
+=20
+<li class=3D"Stil3">Store Email for Offline-Friends in the P2P Network.=20
+<li class=3D"Stil3">Chat and Instant Messaging is build in. Define &amp; Ad=
+d your=20
+friends.=20
+<li class=3D"Stil3">Strong e2e Multi-Encryption (PGP-kind/AES over SSL: usi=
+ng <a href=3D"http://www.gnu.org/software/libgcrypt/" target=3D"_blank"><fo=
+nt color=3D"#9e7c4e">libgcrypt</font></a>).=20
+<li class=3D"Stil3">Libspoton Integration.=20
+<li class=3D"Stil3">Additional Security Layer with the GB-Feature for Email=
+s.=20
+<li class=3D"Stil3">Preventing Data Retention (VDS). WoT-less.=20
+<li class=3D"Stil3">HTTP &amp; HTTPS Connections.=20
+<li class=3D"Stil3">Open Source. BSD License. </li></li></li></li></li></li=
+></li></li></li></li></li></ul><div class=3D"Stil3">anyone with a Server? K=
+ey?</div>
+
+--e89a8f647023e7edb704e2b37edf--
+
+
+--===============6554391286917420604==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+------------------------------------------------------------------------------
+Get your SQL database under version control now!
+Version control is standard for application code, but databases havent 
+caught up. So what steps can you take to put your SQL databases under 
+version control? Why should you start doing it? Read more to find out.
+http://pubads.g.doubleclick.net/gampad/clk?id=49501711&iu=/4140/ostg.clktrk
+--===============6554391286917420604==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Bitcoin-development mailing list
+Bitcoin-development@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/bitcoin-development
+
+--===============6554391286917420604==--
+
+

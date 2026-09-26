@@ -1,0 +1,84 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin v0.1 released
+Date: Sun, 25 Jan 2009 23:47:10 +0800
+Lines: 37
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-fe8337f6-2f9d-265e-4a2c-9535ff0028cb@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1232901281 12253 80.91.229.12 (25 Jan 2009 16:34:41 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 25 Jan 2009 16:34:41 +0000 (UTC)
+Cc: cryptography@metzdowd.com, jthorn@astro.indiana.edu
+To: hal@finney.org
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Sun Jan 25 17:35:54 2009
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1LR7xh-0004KW-Cz
+	for gcc-cryptography@m.gmane.org; Sun, 25 Jan 2009 17:35:53 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id E88086DA29; Sun, 25 Jan 2009 11:33:21 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id 3822C6DA1E
+	for <cryptography@metzdowd.com>; Sun, 25 Jan 2009 11:33:21 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 8726AEEE91
+	for <cryptography@metzdowd.com>; Sun, 25 Jan 2009 11:33:20 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id B57508D2071; Sun, 25 Jan 2009 11:33:13 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 34BC96DA15
+	for <cryptography@metzdowd.com>; Sun, 25 Jan 2009 11:03:17 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Mon, 26 Jan 2009 00:03:11 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12822
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12822>
+
+Hal Finney wrote:
+> > * Spammer botnets could burn through pay-per-send email filters
+> >   trivially
+> If POW tokens do become useful, and especially if they become money,
+> machines will no longer sit idle. Users will expect their computers to
+> be earning them money (assuming the reward is greater than the cost to
+> operate). A computer whose earnings are being stolen by a botnet will
+> be more noticeable to its owner than is the case today, hence we might
+> expect that in that world, users will work harder to maintain their
+> computers and clean them of botnet infestations.
+
+Another factor that would mitigate spam if POW tokens have value:
+there would be a profit motive for people to set up massive
+quantities of fake e-mail accounts to harvest POW tokens from
+spam.  They'd essentially be reverse-spamming the spammers with
+automated mailboxes that collect their POW and don't read the
+message.  The ratio of fake mailboxes to real people could become
+too high for spam to be cost effective.=20
+
+The process has the potential to establish the POW token's value
+in the first place, since spammers that don't have a botnet could
+buy tokens from harvesters.  While the buying back would
+temporarily let more spam through, it would only hasten the
+self-defeating cycle leading to too many harvesters exploiting the
+spammers.
+
+Interestingly, one of the e-gold systems already has a form of
+spam called "dusting".  Spammers send a tiny amount of gold dust
+in order to put a spam message in the transaction's comment field.
+ If the system let users configure the minimum payment they're
+willing to receive, or at least the minimum that can have a
+message with it, users could set how much they're willing to get
+paid to receive spam.
+
+Satoshi Nakamoto
+
+

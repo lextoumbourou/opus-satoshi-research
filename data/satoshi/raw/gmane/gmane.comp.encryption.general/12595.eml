@@ -1,0 +1,103 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Mon, 03 Nov 2008 09:37:43 +0800
+Lines: 55
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-23799d7c-5a6d-a530-cab8-e3cadeb300e7@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1225677397 29277 80.91.229.12 (3 Nov 2008 01:56:37 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Mon, 3 Nov 2008 01:56:37 +0000 (UTC)
+Cc: cryptography@metzdowd.com
+To: jamesd@echeque.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Mon Nov 03 02:57:39 2008
+connect(): Connection refused
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KwohE-0000VE-J9
+	for gcc-cryptography@m.gmane.org; Mon, 03 Nov 2008 02:57:36 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 07F766DA4E; Sun,  2 Nov 2008 20:56:15 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id 45B7D6DA45
+	for <cryptography@metzdowd.com>; Sun,  2 Nov 2008 20:56:14 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 4A079EEE71
+	for <cryptography@metzdowd.com>; Sun,  2 Nov 2008 20:56:10 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id EBEB38D1FCB; Sun,  2 Nov 2008 20:56:09 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 770B86DA35
+	for <cryptography@metzdowd.com>; Sun,  2 Nov 2008 20:44:58 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Mon, 03 Nov 2008 09:44:39 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12595
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12595>
+
+>Satoshi Nakamoto wrote:
+>> I've been working on a new electronic cash system that's fully
+>> peer-to-peer, with no trusted third party.
+>>=20
+>> The paper is available at:
+>> http://www.bitcoin.org/bitcoin.pdf
+>
+>We very, very much need such a system, but the way I understand your=20
+>proposal, it does not seem to scale to the required size.
+>
+>For transferable proof of work tokens to have value, they must have=20
+>monetary value.  To have monetary value, they must be transferred withi=
+n=20
+>a very large network - for example a file trading network akin to=20
+>bittorrent.
+>
+>To detect and reject a double spending event in a timely manner, one=20
+>must have most past transactions of the coins in the transaction, which=
+,=20
+>  naively implemented, requires each peer to have most past=20
+>transactions, or most past transactions that occurred recently. If=20
+>hundreds of millions of people are doing transactions, that is a lot of=
+=20
+>bandwidth - each must know all, or a substantial part thereof.
+>
+
+
+Long before the network gets anywhere near as large as that, it would be=
+ safe for users to use Simplified Payment Verification (section 8) to ch=
+eck for double spending, which only requires having the chain of block h=
+eaders, or about 12KB per day.  Only people trying to create new coins w=
+ould need to run network nodes.  At first, most users would run network =
+nodes, but as the network grows beyond a certain point, it would be left=
+ more and more to specialists with server farms of specialized hardware.=
+  A server farm would only need to have one node on the network and the =
+rest of the LAN connects with that one node.
+
+The bandwidth might not be as prohibitive as you think.  A typical trans=
+action would be about 400 bytes (ECC is nicely compact).  Each transacti=
+on has to be broadcast twice, so lets say 1KB per transaction.  Visa pro=
+cessed 37 billion transactions in FY2008, or an average of 100 million t=
+ransactions per day.  That many transactions would take 100GB of bandwid=
+th, or the size of 12 DVD or 2 HD quality movies, or about $18 worth of =
+bandwidth at current prices.
+
+If the network were to get that big, it would take several years, and by=
+ then, sending 2 HD movies over the Internet would probably not seem lik=
+e a big deal.=20
+
+Satoshi Nakamoto
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

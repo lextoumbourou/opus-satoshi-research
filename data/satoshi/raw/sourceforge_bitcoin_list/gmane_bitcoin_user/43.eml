@@ -1,0 +1,148 @@
+Path: news.gmane.org!not-for-mail
+From: Craig B Agricola <craig@theagricolas.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: decentralized exchange user-to-user using
+ contracts/multisig
+Date: Sat, 1 Mar 2014 20:46:11 -0500
+Lines: 63
+Approved: news@gmane.org
+Message-ID: <20140302014610.GH7454@theagricolas.org>
+References: <53128965.3070001@sky-ip.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393725795 16961 80.91.229.3 (2 Mar 2014 02:03:15 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 2 Mar 2014 02:03:15 +0000 (UTC)
+Cc: bitcoin-list@lists.sourceforge.net
+To: "s7r@sky-ip.org" <s7r@sky-ip.org>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Mar 02 03:03:23 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJvkQ-0002Wr-Ot
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 02 Mar 2014 03:03:23 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJvjz-0006zE-R6; Sun, 02 Mar 2014 02:02:55 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <craig@theagricolas.org>) id 1WJvjy-0006z5-8k
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 02:02:54 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of
+	theagricolas.org designates 199.119.226.154 as permitted
+	sender) client-ip=199.119.226.154;
+	envelope-from=craig@theagricolas.org; helo=mail.theagricolas.org;
+Original-Received: from theagricolas.org ([199.119.226.154] helo=mail.theagricolas.org)
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps
+	(TLSv1:AES256-SHA:256) (Exim 4.76) id 1WJvju-0001fp-Ib
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 02:02:54 +0000
+Original-Received: from localhost (localhost [127.0.0.1])
+	by mail.theagricolas.org (Postfix) with ESMTP id 4A5E24618B1D;
+	Sat,  1 Mar 2014 20:46:21 -0500 (EST)
+X-Virus-Scanned: Debian amavisd-new at theagricolas.org
+Original-Received: from mail.theagricolas.org ([127.0.0.1])
+	by localhost (kimble.theagricolas.org [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with LMTP id Q+Hlkcamai-3; Sat,  1 Mar 2014 20:46:16 -0500 (EST)
+Original-Received: from localhost (c-75-69-34-85.hsd1.vt.comcast.net [75.69.34.85])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: craig@theagricolas.org)
+	by mail.theagricolas.org (Postfix) with ESMTPSA id A7C924618282;
+	Sat,  1 Mar 2014 20:46:15 -0500 (EST)
+Content-Disposition: inline
+In-Reply-To: <53128965.3070001@sky-ip.org>
+User-Agent: Mutt/1.5.20 (2009-06-14)
+X-Spam-Score: -1.5 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain
+X-Headers-End: 1WJvju-0001fp-Ib
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:43
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/43>
+
+Only a half solution, but at least the BTC can be verified.  Have them provide
+an address that they own, and have them sign a message with the signing key for
+that address.  Now their BTC balance on the exchange is whatever is in that
+address.  Obviously, that does nothing for fiat accountability, though.
+
+ -Craig
+
+On Sun, Mar 02, 2014 at 03:29:09AM +0200, s7r@sky-ip.org wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+> 
+> Hi,
+> 
+> I want to build a marketplace where users can exchange bitcoin for
+> fiat currencies without having to go through a centralized escrow or
+> exchanger (directly user-to-user). This can be done by bitcoin
+> multisign option (contracts) where 2 users can agree on a mediator and
+> proceed with a transaction.
+> 
+> The problem is: if the users don't go through a centralized escrow or
+> exchanger and they don't add funds  or add bitcoins to their accounts,
+> how can we verify the authenticity of sell or buy postings and build a
+> strong and accurate order book, without users being able to abuse it
+> by posting abusive sell or buy offers which will break the supply and
+> demand calculation for price determination. This is a real possible
+> vulnerability since it's not a centralized system and users do not
+> deposit funds in their accounts, you cannot verify if the user has or
+> doesn't have the bitcoins or the fiat currency.
+> 
+> Any suggestions?
+> 
+> 
+> - -- 
+> U.
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2.0.17 (MingW32)
+> 
+> iQEcBAEBAgAGBQJTEollAAoJEIN/pSyBJlsRo3UIALEKep1mK1RL5EqftvMVZVTZ
+> b1kUu1kxkznETvgv5da6QqOYMj3LF5QTDSAuuRCxyme98hRTITxpVxnFBWi+agLl
+> hNeJl6wlYqWLINe3oQff1HQDzfcw6BPzy2wRkQFNTjdQla6KjhJ3/lO5Q5Pgdno0
+> rMpc3DCmhfAxRXl36tcn/4MLo4TeBR8OzxfpZo69K89q1Hd3+Wb3QGj2hf8vVMJP
+> HoRhgrUh78r8d24qAHpTu+qECY1DdhyTx1GPqgNT6lp7tA+2LhkjDlq4tThUtuuc
+> LZaI36ZrbgJv6P6PlmRQIb009sHQKxHBJVwkNXEG0DNbUF8Yw9zK67nEcsEUOIc=
+> =Cl2L
+> -----END PGP SIGNATURE-----
+> 
+> ------------------------------------------------------------------------------
+> Flow-based real-time traffic analytics software. Cisco certified tool.
+> Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+> Customize your own dashboards, set traffic alerts and generate reports.
+> Network behavioral analysis & security monitoring. All-in-one tool.
+> http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

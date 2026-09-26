@@ -1,0 +1,176 @@
+Path: news.gmane.org!not-for-mail
+From: Jameson Lopp <jameson.lopp@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Bitcoin theft countermeasure
+Date: Fri, 28 Feb 2014 14:56:09 -0500
+Lines: 91
+Approved: news@gmane.org
+Message-ID: <5310E9D9.2060108@gmail.com>
+References: <00be01cf34bb$db40f5f0$91c2e1d0$@genesisware.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393617395 29024 80.91.229.3 (28 Feb 2014 19:56:35 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 28 Feb 2014 19:56:35 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Feb 28 20:56:44 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJTY1-0001X6-MW
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 28 Feb 2014 20:56:41 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJTXf-00050I-Dw; Fri, 28 Feb 2014 19:56:19 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <jameson.lopp@gmail.com>) id 1WJTXd-00050B-Ny
+	for bitcoin-list@lists.sourceforge.net; Fri, 28 Feb 2014 19:56:17 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.216.42 as permitted sender)
+	client-ip=209.85.216.42; envelope-from=jameson.lopp@gmail.com;
+	helo=mail-qa0-f42.google.com; 
+Original-Received: from mail-qa0-f42.google.com ([209.85.216.42])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1WJTXc-0003Zq-GS
+	for bitcoin-list@lists.sourceforge.net; Fri, 28 Feb 2014 19:56:17 +0000
+Original-Received: by mail-qa0-f42.google.com with SMTP id k15so1151329qaq.29
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 28 Feb 2014 11:56:11 -0800 (PST)
+X-Received: by 10.140.26.43 with SMTP id 40mr6099289qgu.86.1393617371069;
+	Fri, 28 Feb 2014 11:56:11 -0800 (PST)
+Original-Received: from [192.168.204.56] ([209.59.24.52])
+	by mx.google.com with ESMTPSA id 3sm8873077qan.15.2014.02.28.11.56.09
+	for <bitcoin-list@lists.sourceforge.net>
+	(version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+	Fri, 28 Feb 2014 11:56:10 -0800 (PST)
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+In-Reply-To: <00be01cf34bb$db40f5f0$91c2e1d0$@genesisware.com>
+X-Enigmail-Version: 1.6
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(jameson.lopp[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1WJTXc-0003Zq-GS
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:41
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/41>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Your idea is to implement a centralized blacklist whereby we would keep track of 'tainted coins.' This idea has been proposed in the past, and is in fact being made a commercial venture by the Coinvalidation folks. This is, in fact, a terrible idea for multiple reasons, but primarily because it would destroy the fungibility of bitcoins.
+
+Here's some relevant reading material on the matter:
+
+http://www.reddit.com/r/Bitcoin/comments/1qomqt/what_a_landmark_legal_case_from_mid1700s_scotland/
+
+http://www.reddit.com/r/Bitcoin/comments/1qnqn1/a_pledge_i_invite_you_to_help_us_stop_the_threats/
+
+- - Jameson
+
+On 02/28/2014 02:32 PM, Stefan George wrote:
+> Hello Bitcoin-enthusiasts,
+> 
+> I am new to this mailing list and would like to share/discuss an idea that
+> crossed my mind today.
+> 
+> To lower the rate of thefts in the future there are 2 possible ways:
+> 
+> 	1. Increase the security. E.g. use of multi sig wallets.
+> 	2. Decrease the value of thefts.
+> 
+> For 2. stolen BTC have to be identified and there has to be a penalty for
+> them. 
+> 
+> There are two problems with it:
+> 
+> 1. Who has the responsibility to declare if a BTC is stolen or not and where
+> is the information available?
+> 2. BTC can spread over so many accounts easily and get new owners that it
+> becomes very difficult to actually 
+>      identify all stolen BTC and the penalty could affect people that didn't
+> stole them.
+> 
+> The idea:
+> 1. The big damage can be caused by hacking the biggest exchanges that hold
+> most of the Bitcoins (Coinbase, Kraken etc.). 
+> These exchanges should maintain and share a central database, where they
+> mark BTC as stolen. 
+> This database can be read by anyone but only big and legally trustworthy
+> services (exchanges) maintain them.
+> 
+> 2. To lower the possibility to spread stolen BTC, clients can (optionally)
+> check the database and refuse BTC that are listed here. 
+> Of course the theft will try to spread the BTC right after the theft.
+> Therefore it should be possible to REFUSE to receive Bitcoins 
+> that have been involved in any transaction within the last 24h/48h (or just
+> send them back). This way, if a big service detects a theft, it can act
+> within 
+> 24h/48h to submit this info into the central database and the theft could
+> not benefit from the stolen coins anymore.
+> 
+> This is just an idea but it would be great to hear your thoughts!
+> 
+> Thanks,
+> 
+> Stefan
+> 
+> 
+> ------------------------------------------------------------------------------
+> Flow-based real-time traffic analytics software. Cisco certified tool.
+> Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+> Customize your own dashboards, set traffic alerts and generate reports.
+> Network behavioral analysis & security monitoring. All-in-one tool.
+> http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+> 
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+Comment: Using GnuPG with Thunderbird - http://www.enigmail.net/
+
+iQEcBAEBAgAGBQJTEOnRAAoJEIch3FSFNiDc9q8IAKzU0860HtlyvluHizwkn/TB
+/uKexUaA5bRMLqekEmFcS3koBqMPyyXRiPDqmy7aYJTAuLKfRtjkyS7BsgZ501PZ
+fZajah/cks+9TBZb2MZ8Wy9dVhDIAit6v/WJAxU4pUi/mm/+vPdqjf+RxpaM4Qzs
+mB9bB/G256WFPX5Zw+awY6N2n5uzrpUwg+V8fMCotrEBME2CD+iFFFX6j1P/RUtQ
+yWfERK3XwHGfd0dw3bFq+ck/DdPD1L75ePrDjWJ6wzSxhoP1+rBF051srpNHKFc8
+ExPQT43SzKcft0q2vwweYROjAEhBa0xaQCXtwQH31UbbLAow6HAAwhl1xK4XF/c=
+=+BEI
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

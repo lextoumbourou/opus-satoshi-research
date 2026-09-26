@@ -1,0 +1,152 @@
+Path: news.gmane.org!not-for-mail
+From: Gavin Andresen <gavinandresen@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Critical denial-of-service vulnerability
+Date: Mon, 14 May 2012 13:09:55 -0400
+Lines: 75
+Approved: news@gmane.org
+Message-ID: <CABsx9T2XwdzUHy7q=NBUfeZNOXWL=y0iNCpMZ_QyPmPHaZxLqQ@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: dough.gmane.org 1337015433 27017 80.91.229.3 (14 May 2012 17:10:33 GMT)
+X-Complaints-To: usenet@dough.gmane.org
+NNTP-Posting-Date: Mon, 14 May 2012 17:10:33 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Mon May 14 19:10:32 2012
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1STyn2-0002R0-7j
+	for gcbd-bitcoin-list@m.gmane.org; Mon, 14 May 2012 19:10:32 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1STymZ-0008JP-2b; Mon, 14 May 2012 17:10:03 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gavinandresen@gmail.com>) id 1STymY-0008JF-Bc
+	for bitcoin-list@lists.sourceforge.net; Mon, 14 May 2012 17:10:02 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.212.175 as permitted sender)
+	client-ip=209.85.212.175; envelope-from=gavinandresen@gmail.com;
+	helo=mail-wi0-f175.google.com; 
+Original-Received: from mail-wi0-f175.google.com ([209.85.212.175])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1STymX-0007BI-EF
+	for bitcoin-list@lists.sourceforge.net; Mon, 14 May 2012 17:10:02 +0000
+Original-Received: by wibhn6 with SMTP id hn6so2421231wib.10
+	for <bitcoin-list@lists.sourceforge.net>;
+	Mon, 14 May 2012 10:09:55 -0700 (PDT)
+Original-Received: by 10.180.109.197 with SMTP id hu5mr21725705wib.8.1337015395265;
+	Mon, 14 May 2012 10:09:55 -0700 (PDT)
+Original-Received: by 10.223.155.203 with HTTP; Mon, 14 May 2012 10:09:55 -0700 (PDT)
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(gavinandresen[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+	0.0 AWL AWL: From: address is in the auto white-list
+X-Headers-End: 1STymX-0007BI-EF
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:5
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/5>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+CVE-2012-2459: Critical Vulnerability
+
+A denial-of-service vulnerability that affects all versions of
+bitcoind and Bitcoin-Qt has been reported and fixed. An attacker
+could isolate a victim's node and cause the creation of blockchain
+forks.
+
+Because this bug could be exploited to severely disrupt the Bitcoin
+network we consider this a critical vulnerability, and encourage
+everybody to upgrade to the latest version: 0.6.2.
+
+Backports for older releases (0.5.5 and 0.4.6) are also available if
+you cannot upgrade to version 0.6.2.
+
+Full technical details are being withheld to give people the
+opportunity to upgrade.
+
+Thanks to Forrest Voight for discovering and reporting the vulnerability.
+
+
+Questions that might be frequently asked:
+
+How would I know if I am the victim of this attack?
+
+Your bitcoin process would stop processing blocks and would have a
+different block count from the rest of the network (you can see the
+current block count at websites like blockexplorer.com or
+blockchain.info).  Eventually it would display the message:
+
+"WARNING: Displayed transactions may not be correct!  You may need to
+upgrade, or other nodes may need to upgrade."
+
+(note that this message is displayed whenever your bitcoin process
+detects that the rest of the network seems to have a different
+block count, which can happen for several reasons unrelated to
+this vulnerability).
+
+
+Could this bug be used to steal my wallet?
+
+No.
+
+
+Could this bug be used to install malware on my system?
+
+No.
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQIcBAEBCgAGBQJPsTpaAAoJECnZ7msfxzDB76cQALBqcEb40dQOtopbsk7vHDuL
+FL4xd56B1/s3idyHGeCuwJX5bgxGD9b3svayXhDiLo9O+5E3sxsLY1HehTXnU8KV
+BGpIQ7I+XLDcmarGYrDLMNMDLFOp/1hTipi08X3cr6oHNdYOxGbdtqCQR8xxtdfh
+Mmo07ReYYWamlF+QbwoXIJQOEka2UVeWWgmk1C+WW1phI3P3Of5EvWvkmOurZsY1
+zew7G3sk0Lu8glxSt8qq1SKlDXOaSqTBPxs+2FtgkUplNrAIyufu0vCTsnC44oie
+ndJD6XZAaG6cYr3adGQKmUjRR+oyZarMtBdDHBvYHkrQI4uQclL1aS7DhkLtH8kp
+fBRHdqmbBJpmpWOcs+OZeaQCzrArKihuVVZqP4HYbHgGHLV3Ls1bebyWm5eLZH6Z
+C5l3B4Hz/lp50gJpVsIZI291l3KWfoBW2qGyQv51U4uByLU8tPzgr5bdyo6YCo4N
+XQZHveNInMDI8jSimGyHg7WNm0YjkSAM8PEIJhQuL+RaHKgN/ghLPR+1K1YZnMjq
+BPdJZVDpP2bgClyj6P+UkhAplEoenxZUsjyRmcs9EWjHZo3UUI9MLZW96vkR0Wlv
+UBgq0/jSNQ6s3U3YwKM8CDFJ4OB7Mu1Ln6sn+Tu5sl3xtPyapARA5K67FYSpvqVX
+GNIME8aiNjICQmtIFiuX
+=9L8G
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/

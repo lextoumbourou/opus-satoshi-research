@@ -1,0 +1,127 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?RMOibmllbA==?= Fraga <fragabr@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Suggestion: easy way to restore wallet.dat backup
+Date: Wed, 20 Nov 2013 13:53:52 -0200
+Organization: http://www.youtube.com/DanielFragaBR
+Lines: 30
+Approved: news@gmane.org
+Message-ID: <l6ilu5$hsg$1@ger.gmane.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1384962882 23108 80.91.229.3 (20 Nov 2013 15:54:42 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Wed, 20 Nov 2013 15:54:42 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Wed Nov 20 16:54:48 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VjA75-0002n3-8J
+	for gcbd-bitcoin-list@m.gmane.org; Wed, 20 Nov 2013 16:54:47 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VjA6W-0005vN-A5; Wed, 20 Nov 2013 15:54:12 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VjA6U-0005vF-LN
+	for bitcoin-list@lists.sourceforge.net; Wed, 20 Nov 2013 15:54:10 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.3 as permitted sender)
+	client-ip=80.91.229.3;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org;
+	helo=plane.gmane.org; 
+Original-Received: from plane.gmane.org ([80.91.229.3])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1VjA6T-0001Pf-Cw
+	for bitcoin-list@lists.sourceforge.net; Wed, 20 Nov 2013 15:54:10 +0000
+Original-Received: from list by plane.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VjA6L-0002MF-Gs
+	for bitcoin-list@lists.sourceforge.net; Wed, 20 Nov 2013 16:54:01 +0100
+Original-Received: from 177.102.80.98 ([177.102.80.98])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Wed, 20 Nov 2013 16:54:01 +0100
+Original-Received: from fragabr by 177.102.80.98 with local (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Wed, 20 Nov 2013 16:54:01 +0100
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 22
+Original-X-Complaints-To: usenet@ger.gmane.org
+X-Gmane-NNTP-Posting-Host: 177.102.80.98
+X-Newsreader: Claws Mail 3.9.0cvs128 (GTK+ 2.24.20; x86_64-unknown-linux-gnu)
+X-Spam-Score: 1.7 (+)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [80.91.229.3 listed in list.dnswl.org]
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(fragabr[at]gmail.com)
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+	CUSTOM_MED
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.9 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	-0.5 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: libertarios.org.br]
+	1.7 FSL_HELO_BARE_IP_2     FSL_HELO_BARE_IP_2
+	1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit,
+	and not from a mailing list
+X-Headers-End: 1VjA6T-0001Pf-Cw
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:34
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/34>
+
+	Today, when a user uses bitcoin-qt client, it can make a backup
+of wallet.dat easily through menu, but when he/she needs to restore
+this backup, he/she must copy the file to the correct folder and
+execute "bitcoin-qt -rescan".
+
+	My suggestion: bitcoin-qt developers could implement an easier
+way to restore. For example: a option in the File menu "Restore Wallet"
+or "Recover Wallet" where it would show a dialog asking for the backup
+file and everything would be done automatically (no need to do it
+manually).
+
+	If we want everybody to use bitcoin, these operations should
+be as easy as possible.
+
+	What do you think?
+
+-- 
+Linux 3.12.0: One Giant Leap for Frogkind
+http://www.youtube.com/DanielFragaBR
+http://www.libertarios.org.br
+Bitcoin: 12H6661yoLDUZaYPdah6urZS5WiXwTAUgL
+
+
+
+------------------------------------------------------------------------------
+Shape the Mobile Experience: Free Subscription
+Software experts and developers: Be at the forefront of tech innovation.
+Intel(R) Software Adrenaline delivers strategic insight and game-changing 
+conversations that shape the rapidly evolving mobile landscape. Sign up now. 
+http://pubads.g.doubleclick.net/gampad/clk?id=63431311&iu=/4140/ostg.clktrk

@@ -1,0 +1,111 @@
+Path: news.gmane.org!not-for-mail
+From: grarpamp <grarpamp@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user,gmane.comp.bitcoin.devel
+Subject: Re: [Bitcoin-development] BitMail - p2p Email 0.1.
+	beta
+Date: Tue, 30 Jul 2013 16:43:31 -0400
+Lines: 29
+Approved: news@gmane.org
+Message-ID: <CAD2Ti29=Lzcun+0Jz7zn2Dt9G2a06f-0V8KEBUMHJTGxhHQV0A@mail.gmail.com>
+References: <CAEvNM8=yQn8sE4Lrf5+xedfm4RomBkBVhVWOdFFXxPEk7wZYDw@mail.gmail.com>
+	<CAAS2fgS=5ju1BFFDkjoRW65qdtojm3rYBHZcSMtUmHhyaTxMhA@mail.gmail.com>
+	<CANEZrP2+jOTHsEv+qXpqLKJS3UATB_so2ZwQdL+AyJTd2zti4A@mail.gmail.com>
+	<7B0891A4-7163-43AE-85EC-8BA7ADC28A2A@grabhive.com>
+	<CANEZrP0OYzz8p6zT_y7JGZyofZ=wTZ=6umCLu0AJy8KH6E0R5A@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1375217069 30216 80.91.229.3 (30 Jul 2013 20:44:29 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 30 Jul 2013 20:44:29 +0000 (UTC)
+Cc: bitcoin-development@lists.sourceforge.net
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Tue Jul 30 22:44:30 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1V4GmN-0002qG-TD
+	for gcbd-bitcoin-list@m.gmane.org; Tue, 30 Jul 2013 22:44:24 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1V4Glf-0004Dg-UE; Tue, 30 Jul 2013 20:43:40 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <grarpamp@gmail.com>)
+	id 1V4Gle-0004DY-N4; Tue, 30 Jul 2013 20:43:38 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.212.54 as permitted sender)
+	client-ip=209.85.212.54; envelope-from=grarpamp@gmail.com;
+	helo=mail-vb0-f54.google.com; 
+Original-Received: from mail-vb0-f54.google.com ([209.85.212.54])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1V4Glc-0007nc-Uq; Tue, 30 Jul 2013 20:43:38 +0000
+Original-Received: by mail-vb0-f54.google.com with SMTP id q14so2316393vbe.27
+	for <multiple recipients>; Tue, 30 Jul 2013 13:43:31 -0700 (PDT)
+X-Received: by 10.220.20.3 with SMTP id d3mr10725413vcb.55.1375217011129; Tue,
+	30 Jul 2013 13:43:31 -0700 (PDT)
+Original-Received: by 10.220.188.133 with HTTP; Tue, 30 Jul 2013 13:43:31 -0700 (PDT)
+In-Reply-To: <CANEZrP0OYzz8p6zT_y7JGZyofZ=wTZ=6umCLu0AJy8KH6E0R5A@mail.gmail.com>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(grarpamp[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1V4Glc-0007nc-Uq
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:14 gmane.comp.bitcoin.devel:2636
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/14>
+
+On Tue, Jul 30, 2013 at 8:12 AM, Mike Hearn <mike@plan99.net> wrote:
+> The TPM is a piece of secure* hardware
+
+I've seen some motherboards with a TPM module header but none
+came with it installed. I think the modules themselves might be
+$50-$100 range. They might come with some API docs.
+Some of you might have links to ones you've used...
+
+> As part of that role, the TPM provides some permanent storage in the form
+> of NVRAM. Because the TPM is designed to be as cheap as possible, it has a
+> limited number of write cycles. Normally you're meant to store Intel TXT
+> launch control policies and sealed keys there
+
+> the goal is to avoid wearing down the drive and extend its useful life.
+> Normally it doesn't matter, but if you want to delete data such that it's
+> really really gone, it obviously poses a problem. Using TPM NVRAM solves
+> it, albiet, at a high usability cost.
+
+If said TPM storage has a 'limited [but unfixed number of write cycles', that
+sounds unreliable. It would seem to me that both reliable and 'really gone'
+are achievable on platters (or lesser, with ssd) provided the disk was also
+encrypted. Nuke that key and it's reliably gone.
+
+------------------------------------------------------------------------------
+Get your SQL database under version control now!
+Version control is standard for application code, but databases havent 
+caught up. So what steps can you take to put your SQL databases under 
+version control? Why should you start doing it? Read more to find out.
+http://pubads.g.doubleclick.net/gampad/clk?id=49501711&iu=/4140/ostg.clktrk

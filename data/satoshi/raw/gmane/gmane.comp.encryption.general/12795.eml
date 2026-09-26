@@ -1,0 +1,102 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin v0.1 released
+Date: Sat, 17 Jan 2009 00:03:14 +0800
+Lines: 54
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-30c0e5a0-3435-5411-3f7b-3fe798efbe86@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1232204334 8086 80.91.229.12 (17 Jan 2009 14:58:54 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 17 Jan 2009 14:58:54 +0000 (UTC)
+Cc: bitcoin-list@lists.sourceforge.net,
+	 cryptography@metzdowd.com
+To: dtrammell@dustintrammell.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Sat Jan 17 16:00:07 2009
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1LOCea-0003Pp-RO
+	for gcc-cryptography@m.gmane.org; Sat, 17 Jan 2009 16:00:05 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id E4E5D6DA3C; Sat, 17 Jan 2009 09:58:16 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id 5A5826DA36
+	for <cryptography@metzdowd.com>; Sat, 17 Jan 2009 09:58:16 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 7C3ABEF320
+	for <cryptography@metzdowd.com>; Sat, 17 Jan 2009 09:58:14 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 39CE58D23F6; Sat, 17 Jan 2009 09:58:14 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 4DC4F6DA1E
+	for <cryptography@metzdowd.com>; Fri, 16 Jan 2009 13:35:24 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Sat, 17 Jan 2009 02:35:17 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12795
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12795>
+
+> Dustin D. Trammell wrote:
+> > Satoshi Nakamoto wrote:
+> > You know, I think there were a lot more people interested in the 90'=
+s,
+> > but after more than a decade of failed Trusted Third Party based sys=
+tems
+> > (Digicash, etc), they see it as a lost cause. I hope they can make t=
+he
+> > distinction that this is the first time I know of that we're trying =
+a
+> > non-trust-based system.
+>
+> Yea, that was the primary feature that caught my eye. The real trick
+> will be to get people to actually value the BitCoins so that they beco=
+me
+> currency.
+=20
+I would be surprised if 10 years from now we're not using
+electronic currency in some way, now that we know a way to do it
+that won't inevitably get dumbed down when the trusted third party
+gets cold feet.
+
+It could get started in a narrow niche like reward points,
+donation tokens, currency for a game or micropayments for adult
+sites.  Initially it can be used in proof-of-work applications
+for services that could almost be free but not quite.
+
+It can already be used for pay-to-send e-mail.  The send dialog is
+resizeable and you can enter as long of a message as you like.
+It's sent directly when it connects.  The recipient doubleclicks
+on the transaction to see the full message.  If someone famous is
+getting more e-mail than they can read, but would still like to
+have a way for fans to contact them, they could set up Bitcoin and
+give out the IP address on their website.  "Send X bitcoins to my
+priority hotline at this IP and I'll read the message personally."
+
+Subscription sites that need some extra proof-of-work for their
+free trial so it doesn't cannibalize subscriptions could charge
+bitcoins for the trial.
+
+It might make sense just to get some in case it catches on.  If
+enough people think the same way, that becomes a self fulfilling
+prophecy.  Once it gets bootstrapped, there are so many
+applications if you could effortlessly pay a few cents to a
+website as easily as dropping coins in a vending machine. =20
+
+Satoshi Nakamoto
+http://www.bitcoin.org
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

@@ -1,0 +1,101 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Tue, 18 Nov 2008 01:24:43 +0800
+Lines: 54
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-9478bb9b-47dd-9fa5-6f7c-500ac95fd377@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226957597 8698 80.91.229.12 (17 Nov 2008 21:33:17 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Mon, 17 Nov 2008 21:33:17 +0000 (UTC)
+Cc: bear@sonic.net, cryptography@metzdowd.com, hal@finney.org
+To: jamesd@echeque.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Mon Nov 17 22:34:20 2008
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1L2Bjc-00024o-5U
+	for gcc-cryptography@m.gmane.org; Mon, 17 Nov 2008 22:34:16 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id B8F886DA47; Mon, 17 Nov 2008 16:32:50 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id 645406DA3B
+	for <cryptography@metzdowd.com>; Mon, 17 Nov 2008 16:32:50 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 1D1A9EF34A
+	for <cryptography@metzdowd.com>; Mon, 17 Nov 2008 16:32:50 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id C37538D1FC2; Mon, 17 Nov 2008 16:32:49 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 3EF886DA3B
+	for <cryptography@metzdowd.com>; Mon, 17 Nov 2008 12:30:09 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Tue, 18 Nov 2008 01:29:51 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12643
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12643>
+
+James A. Donald wrote:
+> > Fortunately, it's only necessary to keep a
+> > pending-transaction pool for the current best branch.
+>=20
+> This requires that we know, that is to say an honest
+> well behaved peer whose communications and data storage
+> is working well knows, what the current best branch is -
+
+I mean a node only needs the pending-tx pool for the best branch it
+has.  The branch that it currently thinks is the best branch.
+That's the branch it'll be trying to make a block out of, which is
+all it needs the pool for.
+
+
+> > Broadcasts will probably be almost completely
+> > reliable.
+>=20
+> Rather than assuming that each message arrives at least
+> once, we have to make a mechanism such that the
+> information arrives even though conveyed by messages
+> that frequently fail to arrive.
+
+I think I've got the peer networking broadcast mechanism covered. =20
+
+Each node sends its neighbours an inventory list of hashes of the
+new blocks and transactions it has.  The neighbours request the
+items they don't have yet.  If the item never comes through after a
+timeout, they request it from another neighbour that had it.  Since
+all or most of the neighbours should eventually have each item,
+even if the coms get fumbled up with one, they can get it from any
+of the others, trying one at a time.
+
+The inventory-request-data scheme introduces a little latency, but
+it ultimately helps speed more by keeping extra data blocks off the
+transmit queues and conserving bandwidth.
+
+
+> You have an outline
+> and proposal for such a design, which is a big step
+> forward, but the devil is in the little details.
+
+I believe I've worked through all those little details over the
+last year and a half while coding it, and there were a lot of them.
+The functional details are not covered in the paper, but the
+sourcecode is coming soon.  I sent you the main files.
+(available by request at the moment, full release soon)
+
+Satoshi Nakamoto
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

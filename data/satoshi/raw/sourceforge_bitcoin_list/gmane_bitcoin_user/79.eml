@@ -1,0 +1,106 @@
+Path: news.gmane.org!.POSTED!not-for-mail
+From: SUMIT LAHIRI <shekharhiran@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: No-Fork Transactions.
+Date: Thu, 13 Jul 2017 22:29:27 +0530
+Lines: 8
+Approved: news@gmane.org
+Message-ID: <CA+9w0-5T2Xzqu3r+1SrmbsX_t94CLT=JfChcRLNU6ucJExpzKg@mail.gmail.com>
+References: <CA+9w0-4F4ngUMsadFux2fJ1Phz0oTCyVfmGXyxSJ0-3pNA3HKQ@mail.gmail.com>
+NNTP-Posting-Host: blaine.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: blaine.gmane.org 1499965340 9646 195.159.176.226 (13 Jul 2017 17:02:20 GMT)
+X-Complaints-To: usenet@blaine.gmane.org
+NNTP-Posting-Date: Thu, 13 Jul 2017 17:02:20 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Thu Jul 13 19:02:14 2017
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by blaine.gmane.org with esmtp (Exim 4.84_2)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1dVhVF-0002Ai-78
+	for gcbd-bitcoin-list@m.gmane.org; Thu, 13 Jul 2017 19:02:13 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1dVhSh-0004UU-FT; Thu, 13 Jul 2017 16:59:35 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <shekharhiran@gmail.com>) id 1dVhSg-0004UN-Ll
+	for bitcoin-list@lists.sourceforge.net; Thu, 13 Jul 2017 16:59:34 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=sourceforge.net; s=x; 
+	h=Content-Type:To:Subject:Message-ID:Date:From:References:In-Reply-To:MIME-Version;
+	bh=wVNLvWIWt0VDwjb1MmjI8O2I0b3wcZEPCMDs/VDjEG0=; 
+	b=VmwS+n154fQXTvFdIq9bb/fwmznaTl77X3th6g7JnuQbfEkzjqNLoMiU/5ApvQt54+onjG5GkHVBJjcihr9PmsyqsLayomB5oHObWoMHse64CIXlWuxbzYYaqDKU8lxaDSiCreMK7NanzqY3yBmXl0XtvrgBRcccX4Ri0oHGI6w=;
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=sf.net; s=x;
+	h=Content-Type:To:Subject:Message-ID:Date:From:References:In-Reply-To:MIME-Version;
+	bh=wVNLvWIWt0VDwjb1MmjI8O2I0b3wcZEPCMDs/VDjEG0=; 
+	b=V74Gh23fB8vCbz/aA4nuxBoPQQMpEAsuw9Ndh6wWUmJGT/iJ+weG3fYADpC/zC7SUFKfel1DGDG8unLfg8lhafL0hMVGFeiqDy/Lf2UDpnpT8Nm9M6bYN9Nev7DxPIzoAocHit9I57p65nDOUQhK4dyo8tsqSbctL9h3f2nR4Q0=;
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.218.43 as permitted sender)
+	client-ip=209.85.218.43; envelope-from=shekharhiran@gmail.com;
+	helo=mail-oi0-f43.google.com; 
+Original-Received: from mail-oi0-f43.google.com ([209.85.218.43])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:AES128-SHA:128)
+	(Exim 4.76) id 1dVhSf-0001kL-W2
+	for bitcoin-list@lists.sourceforge.net; Thu, 13 Jul 2017 16:59:34 +0000
+Original-Received: by mail-oi0-f43.google.com with SMTP id l130so51369278oib.1
+	for <bitcoin-list@lists.sourceforge.net>;
+	Thu, 13 Jul 2017 09:59:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20161025;
+	h=mime-version:in-reply-to:references:from:date:message-id:subject:to; 
+	bh=wVNLvWIWt0VDwjb1MmjI8O2I0b3wcZEPCMDs/VDjEG0=;
+	b=i7eHrAopqJHz44DDCY4kUfBEFsAVOhwgJ/Z5qu5UvvnVH2zwWZzO4cK1jTE0m4Nokh
+	KF8MSiU1IXMFR2A/XAryQSAUQHwgEk9uWTRuOD19CN5F63pvr4YH5kVwlGdHWPsOTRHM
+	x9dSc4d8VH4XfPBFjmWX1RT8LGt6mQTfZ5Oi+jqeZJUbEksfCcOFzFVAS1/LRxU4PUsA
+	JC1/G/BOPJfF9q/zDCK7ul32Qm6rNl7dlXTwsfxnA95jNyR+Rg5at4N3eURXQaulMAY3
+	BLbsrFKu8XPDcz2uKD2JgR3v10PlkCZHkLRa5WCKkx7p8wreiuhZ9XbZCviL26R98x9j
+	JxYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20161025;
+	h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+	:message-id:subject:to;
+	bh=wVNLvWIWt0VDwjb1MmjI8O2I0b3wcZEPCMDs/VDjEG0=;
+	b=ko0/L/hoDfoW+h+fLwPWaUHfZhBkjk/Ds3AIiOh9S6PLoLmg/AUw/k4r2RQ0oAeWNS
+	eQ0nKRTpIbQ2VBtsjHwR+NMUo0LTo0w863wspqup8pUHRXLeS+O3J7Tr74OM4QDCOFuF
+	GCgl4DSBFqNoEll7cvYyVCLxLvgoobiW5FAf6mKvG7186jIhdFfL2EpnE8L7l2dmk0fl
+	EGA/rGlmtSWAZ6RVJ/FTE72lxX+pJE4PN8vR98R9VFjMuOLK7iCCX7/dbRMjekk/rNW/
+	wZBk2y1P2opUonKNYHlJjQJE/Zzg7JC+2LUhq0vZkhhRgQCBoRYiY2Ws01Au/CVz4Irq
+	d4yA==
+X-Gm-Message-State: AIVw110+/8VBk4OAD4McDIlM9TwwMx5gIXvhaKaUH2jAI/j4jrWmJ1Xy
+	NtAuo2fy083DsLscZ4ona1X8cwO1PK97
+X-Received: by 10.202.105.147 with SMTP id e141mr2878643oic.66.1499965168297; 
+	Thu, 13 Jul 2017 09:59:28 -0700 (PDT)
+Original-Received: by 10.74.137.164 with HTTP; Thu, 13 Jul 2017 09:59:27 -0700 (PDT)
+Original-Received: by 10.74.137.164 with HTTP; Thu, 13 Jul 2017 09:59:27 -0700 (PDT)
+In-Reply-To: <CA+9w0-4F4ngUMsadFux2fJ1Phz0oTCyVfmGXyxSJ0-3pNA3HKQ@mail.gmail.com>
+X-Headers-End: 1dVhSf-0001kL-W2
+X-Content-Filtered-By: Mailman/MimeDel 2.1.21
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.21
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/options/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:79
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/79>
+
+Dear All.
+
+Want to propose a No-Fork transaction to make bitcoin unspendable on any
+one chain after fork and increase the block relay and decoding speed. How
+do I start with the BIP proposal formally?
+------------------------------------------------------------------------------
+Check out the vibrant tech community on one of the world's most
+engaging tech sites, Slashdot.org! http://sdm.link/slashdot

@@ -1,0 +1,67 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Fri, 07 Nov 2008 04:15:40 +0800
+Lines: 19
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-8342fe26-f3e0-089a-237e-6fa56bec088c@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226079065 30256 80.91.229.12 (7 Nov 2008 17:31:05 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 7 Nov 2008 17:31:05 +0000 (UTC)
+Cc: cryptography@metzdowd.com
+To: Nicolas.Williams@sun.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Fri Nov 07 18:32:07 2008
+connect(): Connection refused
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KyVBS-0006ge-Ih
+	for gcc-cryptography@m.gmane.org; Fri, 07 Nov 2008 18:31:46 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 326206DA3A; Fri,  7 Nov 2008 12:29:53 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id 7D3796DA34
+	for <cryptography@metzdowd.com>; Fri,  7 Nov 2008 12:29:52 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 212C0EF3E7
+	for <cryptography@metzdowd.com>; Fri,  7 Nov 2008 12:29:52 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id D63D98D2092; Fri,  7 Nov 2008 12:29:51 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 989486DA41
+	for <cryptography@metzdowd.com>; Thu,  6 Nov 2008 16:27:32 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Fri, 07 Nov 2008 05:27:20 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12603
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12603>
+
+>[Lengthy exposition of vulnerability of a systm to use-of-force
+>monopolies ellided.]
+>
+>You will not find a solution to political problems in cryptography.
+
+Yes, but we can win a major battle in the arms race and gain a new terri=
+tory of freedom for several years.
+
+Governments are good at cutting off the heads of a centrally controlled =
+networks like Napster, but pure P2P networks like Gnutella and Tor seem =
+to be holding their own. =20
+
+Satoshi
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

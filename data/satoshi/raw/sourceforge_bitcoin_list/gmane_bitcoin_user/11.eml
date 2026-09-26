@@ -1,0 +1,149 @@
+Path: news.gmane.org!not-for-mail
+From: Mike Hearn <mike@plan99.net>
+Newsgroups: gmane.comp.bitcoin.user,gmane.comp.bitcoin.devel
+Subject: Re: [Bitcoin-development] BitMail - p2p Email 0.1.
+	beta
+Date: Tue, 30 Jul 2013 10:40:45 +0200
+Lines: 68
+Approved: news@gmane.org
+Message-ID: <CANEZrP2+jOTHsEv+qXpqLKJS3UATB_so2ZwQdL+AyJTd2zti4A@mail.gmail.com>
+References: <CAEvNM8=yQn8sE4Lrf5+xedfm4RomBkBVhVWOdFFXxPEk7wZYDw@mail.gmail.com>
+	<CAAS2fgS=5ju1BFFDkjoRW65qdtojm3rYBHZcSMtUmHhyaTxMhA@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1375173703 24300 80.91.229.3 (30 Jul 2013 08:41:43 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 30 Jul 2013 08:41:43 +0000 (UTC)
+Cc: Bitcoin Dev <bitcoin-development@lists.sourceforge.net>,
+	bitcoin-list@lists.sourceforge.net
+To: Gregory Maxwell <gmaxwell@gmail.com>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Tue Jul 30 10:41:46 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1V45V4-00075a-2k
+	for gcbd-bitcoin-list@m.gmane.org; Tue, 30 Jul 2013 10:41:46 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1V45UE-0000e2-Mv; Tue, 30 Jul 2013 08:40:54 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <mh.in.england@gmail.com>)
+	id 1V45UC-0000ds-M9; Tue, 30 Jul 2013 08:40:52 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.219.48 as permitted sender)
+	client-ip=209.85.219.48; envelope-from=mh.in.england@gmail.com;
+	helo=mail-oa0-f48.google.com; 
+Original-Received: from mail-oa0-f48.google.com ([209.85.219.48])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1V45UA-00067f-UQ; Tue, 30 Jul 2013 08:40:52 +0000
+Original-Received: by mail-oa0-f48.google.com with SMTP id f4so15627897oah.35
+	for <multiple recipients>; Tue, 30 Jul 2013 01:40:45 -0700 (PDT)
+X-Received: by 10.60.95.198 with SMTP id dm6mr61759608oeb.44.1375173645500;
+	Tue, 30 Jul 2013 01:40:45 -0700 (PDT)
+Original-Received: by 10.76.23.36 with HTTP; Tue, 30 Jul 2013 01:40:45 -0700 (PDT)
+In-Reply-To: <CAAS2fgS=5ju1BFFDkjoRW65qdtojm3rYBHZcSMtUmHhyaTxMhA@mail.gmail.com>
+X-Google-Sender-Auth: 0yrgTUQc-_dSdOfB3BA_bl7NLl0
+X-Spam-Score: -0.5 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(mh.in.england[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1V45UA-00067f-UQ
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:11 gmane.comp.bitcoin.devel:2624
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/11>
+
+For people who are interested in such technologies, I recommend looking at
+Pond:
+
+https://pond.imperialviolet.org/
+
+It is written by Adam Langley, so it comes with some serious credentials
+behind it. It provides asynchronous email-like messaging that's forward
+secure, resistant to traffic analysis and the whole thing runs over Tor.
+Messages are stored for a week and are strictly limited in size. There's no
+spam because nobody has an address - instead you have to grant someone the
+ability to message you by giving them a small file. So, not really intended
+as an email competitor convenience wise, but it has many interesting ideas
+and a reasonable GUI.
+
+As a testament to the seriousness with which Pond takes forward security,
+it can use the NVRAM in a TPM chip to reliably destroy keys for data that
+an SSD device might have otherwise made un-erasable.
+
+The main downside - it's written in Go :)
+
+
+On Tue, Jul 30, 2013 at 8:50 AM, Gregory Maxwell <gmaxwell@gmail.com> wrote:
+
+> On Mon, Jul 29, 2013 at 10:01 PM, Randolph D. <rdohm321@gmail.com> wrote:
+> > Secure P2P Email from Friend to Friend without relying on a central
+> server.
+> > Key- / Repleo-Exchange.
+> > Full decentral Email-Network using the Echo Protocol.
+> > Store Email for Offline-Friends in the P2P Network.
+> > Chat and Instant Messaging is build in. Define & Add your friends.
+> > Strong e2e Multi-Encryption (PGP-kind/AES over SSL: using libgcrypt).
+> > Libspoton Integration.
+> > Additional Security Layer with the GB-Feature for Emails.
+> > Preventing Data Retention (VDS). WoT-less.
+> > HTTP & HTTPS Connections.
+> > Open Source. BSD License.
+> >
+> > anyone with a Server? Key?
+>
+> Keep safe everyone:
+>
+> A number of apparent sock accounts has been posting about what appears
+> to be the same software under the name "goldbug" for a couple days
+> now:
+>
+> e.g.
+> https://lists.torproject.org/pipermail/tor-talk/2013-July/029107.html
+> https://lists.torproject.org/pipermail/tor-talk/2013-July/029125.html
+> http://lists.gnupg.org/pipermail/gnupg-users/2013-July/047137.html
+>
+>
+> ------------------------------------------------------------------------------
+> Get your SQL database under version control now!
+> Version control is standard for application code, but databases havent
+> caught up. So what steps can you take to put your SQL databases under
+> version control? Why should you start doing it? Read more to find out.
+> http://pubads.g.doubleclick.net/gampad/clk?id=49501711&iu=/4140/ostg.clktrk
+> _______________________________________________
+> Bitcoin-development mailing list
+> Bitcoin-development@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-development
+>
+------------------------------------------------------------------------------
+Get your SQL database under version control now!
+Version control is standard for application code, but databases havent 
+caught up. So what steps can you take to put your SQL databases under 
+version control? Why should you start doing it? Read more to find out.
+http://pubads.g.doubleclick.net/gampad/clk?id=49501711&iu=/4140/ostg.clktrk

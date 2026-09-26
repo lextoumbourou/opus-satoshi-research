@@ -1,0 +1,71 @@
+allura 21033408
+    error HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with -> sleep 10s
+  no capture allura_message/21033408.html
+allura 21303153
+  saved allura_message/21303153.html 20141130200359 18087
+allura 21312004
+  saved allura_message/21312004.html 20151105193731 21901
+allura 21312757
+  saved allura_message/21312757.html 20200502164338 128613
+allura 21313152
+    error IA temporarily offline -> sleep 10s
+  saved allura_message/21313152.html 20171124135217 26428
+allura 21356305
+    error IA temporarily offline -> sleep 10s
+    error IA temporarily offline -> sleep 20s
+    error IA temporarily offline -> sleep 40s
+  saved allura_message/21356305.html 20171120200725 31457
+allura 21423198
+  saved allura_message/21423198.html 20150911161506 18529
+allura 21424626
+    error IA temporarily offline -> sleep 10s
+    error IA temporarily offline -> sleep 20s
+    error IA temporarily offline -> sleep 40s
+    error IA temporarily offline -> sleep 80s
+    error IA temporarily offline -> sleep 160s
+    error IA temporarily offline -> sleep 300s
+    error IA temporarily offline -> sleep 300s
+  saved allura_message/21424626.html 20210830175420 120305
+allura 21500063
+    error IA temporarily offline -> sleep 10s
+    error IA temporarily offline -> sleep 20s
+allura 21033408
+  cdx failed sourceforge.net/p/bitcoin/mailman/message/21033408/
+  no capture allura_message/21033408.html
+allura 21303153
+allura 21312004
+allura 21313152
+allura 21356305
+allura 21424626
+allura 21500063
+  saved allura_message/21500063.html 20150526123851 20867
+allura 21646307
+  saved allura_message/21646307.html 20141028164319 21356
+allura 21740046
+    error IA temporarily offline -> sleep 10s
+  saved allura_message/21740046.html 20150814192128 23947
+allura 23824064
+    error IA temporarily offline -> sleep 10s
+  no capture allura_message/23824064.html
+allura 24205662
+  saved allura_message/24205662.html 20141202194025 18253
+allura 25686730
+    error IA temporarily offline -> sleep 10s
+  saved allura_message/25686730.html 20171124135258 26321
+allura 25843947
+  no capture allura_message/25843947.html
+allura 25954806
+  saved allura_message/25954806.html 20131016004742 15688
+allura 26722835
+  no capture allura_message/26722835.html
+allura 26744510
+  saved allura_message/26744510.html 20140816045413 17459
+  saved legacy_month/nested_200812.html
+  saved legacy_month/nested_200901.html
+  saved legacy_month/nested_200902.html
+  saved legacy_month/nested_200903.html
+  saved legacy_month/nested_200910.html
+  saved legacy_month/nested_200912.html
+  saved legacy_month/nested_201007.html
+  no legacy month capture 201008
+  saved legacy_month/nested_201012.html

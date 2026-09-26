@@ -1,0 +1,99 @@
+Path: news.gmane.org!not-for-mail
+From: "Randolph D." <rdohm321@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user,gmane.comp.bitcoin.devel
+Subject: Re: [Bitcoin-development] BitMail - p2p Email 0.1.
+	beta
+Date: Wed, 31 Jul 2013 18:11:32 +0200
+Lines: 10
+Approved: news@gmane.org
+Message-ID: <CAEvNM8=tdSZ4h4esx7_J0Qvt4420itqPc+GiQLL+OrFZf32dXw@mail.gmail.com>
+References: <CAEvNM8=yQn8sE4Lrf5+xedfm4RomBkBVhVWOdFFXxPEk7wZYDw@mail.gmail.com>
+	<CAAS2fgS=5ju1BFFDkjoRW65qdtojm3rYBHZcSMtUmHhyaTxMhA@mail.gmail.com>
+	<CANEZrP2+jOTHsEv+qXpqLKJS3UATB_so2ZwQdL+AyJTd2zti4A@mail.gmail.com>
+	<7B0891A4-7163-43AE-85EC-8BA7ADC28A2A@grabhive.com>
+	<CANEZrP0OYzz8p6zT_y7JGZyofZ=wTZ=6umCLu0AJy8KH6E0R5A@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1375287142 25780 80.91.229.3 (31 Jul 2013 16:12:22 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Wed, 31 Jul 2013 16:12:22 +0000 (UTC)
+Cc: Bitcoin Dev <bitcoin-development@lists.sourceforge.net>,
+	Wendell <w@grabhive.com>, bitcoin-list@lists.sourceforge.net
+To: Mike Hearn <mike@plan99.net>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Wed Jul 31 18:12:23 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1V4Z0g-00061U-EF
+	for gcbd-bitcoin-list@m.gmane.org; Wed, 31 Jul 2013 18:12:22 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1V4Z02-0006JI-5G; Wed, 31 Jul 2013 16:11:42 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <rdohm321@gmail.com>)
+	id 1V4Yzz-0006Iz-J9; Wed, 31 Jul 2013 16:11:39 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.212.178 as permitted sender)
+	client-ip=209.85.212.178; envelope-from=rdohm321@gmail.com;
+	helo=mail-wi0-f178.google.com; 
+Original-Received: from mail-wi0-f178.google.com ([209.85.212.178])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1V4Yzy-0002Cr-PJ; Wed, 31 Jul 2013 16:11:39 +0000
+Original-Received: by mail-wi0-f178.google.com with SMTP id j17so848183wiw.17
+	for <multiple recipients>; Wed, 31 Jul 2013 09:11:32 -0700 (PDT)
+X-Received: by 10.180.12.243 with SMTP id b19mr4801526wic.6.1375287092498;
+	Wed, 31 Jul 2013 09:11:32 -0700 (PDT)
+Original-Received: by 10.216.40.76 with HTTP; Wed, 31 Jul 2013 09:11:32 -0700 (PDT)
+In-Reply-To: <CANEZrP0OYzz8p6zT_y7JGZyofZ=wTZ=6umCLu0AJy8KH6E0R5A@mail.gmail.com>
+X-Spam-Score: -0.3 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(rdohm321[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+	digit (rdohm321[at]gmail.com)
+	0.0 NORMAL_HTTP_TO_IP URI: Uses a dotted-decimal IP address in URL
+	0.0 WEIRD_PORT URI: Uses non-standard port number for HTTP
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1V4Yzy-0002Cr-PJ
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:21 gmane.comp.bitcoin.devel:2649
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/21>
+
+right the original Topic was BitMail
+here a Server running for the next few days to test BitMail.sf.net
+
+ 178.83.35.133:4710
+------------------------------------------------------------------------------
+Get your SQL database under version control now!
+Version control is standard for application code, but databases havent 
+caught up. So what steps can you take to put your SQL databases under 
+version control? Why should you start doing it? Read more to find out.
+http://pubads.g.doubleclick.net/gampad/clk?id=49501711&iu=/4140/ostg.clktrk

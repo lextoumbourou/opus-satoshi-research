@@ -1,0 +1,107 @@
+Path: news.gmane.org!not-for-mail
+From: "James A. Donald" <jamesd@echeque.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: decentralized exchange user-to-user using
+	contracts/multisig
+Date: Mon, 03 Mar 2014 08:49:55 +1000
+Lines: 24
+Approved: news@gmane.org
+Message-ID: <5313B593.4060708@echeque.com>
+References: <53128965.3070001@sky-ip.org> <5312ADF0.1030507@echeque.com>
+	<53132360.7090308@sky-ip.org>
+Reply-To: jamesd@echeque.com
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393802021 22560 80.91.229.3 (2 Mar 2014 23:13:41 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 2 Mar 2014 23:13:41 +0000 (UTC)
+Cc: bitcoin-list@lists.sourceforge.net
+To: s7r@sky-ip.org
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Mon Mar 03 00:13:47 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WKFZq-0003jv-O9
+	for gcbd-bitcoin-list@m.gmane.org; Mon, 03 Mar 2014 00:13:47 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WKFZR-000189-Ge; Sun, 02 Mar 2014 23:13:21 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <jamesd@echeque.com>) id 1WKFZQ-000182-58
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 23:13:20 +0000
+Received-SPF: neutral (sog-mx-2.v43.ch3.sourceforge.com: 61.9.189.231 is
+	neither permitted nor denied by domain of echeque.com)
+	client-ip=61.9.189.231; envelope-from=jamesd@echeque.com;
+	helo=nschwqsrv01p.mx.bigpond.com; 
+Original-Received: from nschwqsrv01p.mx.bigpond.com ([61.9.189.231])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1WKFZO-0007Hu-TK
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 23:13:20 +0000
+Original-Received: from nschwcmgw06p ([61.9.190.166]) by nschwmtas02p.mx.bigpond.com
+	with ESMTP
+	id <20140302225017.WBDZ12338.nschwmtas02p.mx.bigpond.com@nschwcmgw06p>; 
+	Sun, 2 Mar 2014 22:50:17 +0000
+Original-Received: from [10.0.0.8] ([121.222.158.166])
+	by nschwcmgw06p with BigPond Outbound
+	id YmqG1n00b3bhoBd01mqG0C; Sun, 02 Mar 2014 22:50:17 +0000
+X-Authority-Analysis: v=2.0 cv=Pdd9d1dd c=1 sm=1
+	a=ZTIVl5+jmhNOmRX2pfcgSg==:17 a=ygNaTn0in3EA:10 a=0hExjzEaPR0A:10
+	a=oja_tBSO8rAA:10 a=lN9ePCqjFVwA:10 a=IkcTkHD0fZMA:10 a=Lz0ecinzAAAA:8
+	a=bvjBBkZ6AAAA:8 a=_toXZ1tEtDZ43jrwS2IA:9 a=QEXdDO2ut3YA:10
+	a=9cIj92RLmygA:10 a=ZTIVl5+jmhNOmRX2pfcgSg==:117
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+In-Reply-To: <53132360.7090308@sky-ip.org>
+X-Spam-Score: 0.7 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [61.9.189.231 listed in list.dnswl.org]
+	0.7 SPF_NEUTRAL SPF: sender does not match SPF record (neutral)
+X-Headers-End: 1WKFZO-0007Hu-TK
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:46
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/46>
+
+On 3/2/2014 6:05 AM, James A. Donald wrote:
+>> For the fiat currency, need a reputation system that looks like
+>> silk road or ebay, but is decentralized.  This is a problem, since
+>> what is to stop someone from building reputation by doing a
+>> thousand fake transactions with himself?
+>>
+>> This sybil attack could be defeated by clustering analysis,
+>> identifying groups that give positive ratings to each other, but do
+>> not receive positive ratings from outsiders.
+
+On 2014-03-02 22:26, s7r@sky-ip.org wrote:
+> But in centralized exchangers, what prevents users from doing this?
+
+The operator detects spamming, censors it, and penalizes it, just like 
+any blog owner.
+
+
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

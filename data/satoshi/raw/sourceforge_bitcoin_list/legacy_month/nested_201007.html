@@ -1,0 +1,1592 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+    <head>
+        
+        <meta charset="utf-8">
+        <!--SourceForge.net: Find and Build Open Source Software-->
+        <!--Copyright (c) 1999-2013 SourceForge, Inc. All rights reserved.-->
+        <!-- Create Server: sfs-web-3 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Bitcoin is a decentralized P2P electronic cash system without a central server or trusted parties. Users hold the crypto keys to their own money and transact directly with each other, with the help of the network to check for double-spending." />
+        <meta name="keywords" content="Bitcoin, E-Commerce / Shopping, Open Source, Development, Community, Source Code, Downloads, Software" />
+                <title>SourceForge.net: Bitcoin: bitcoin-list</title>        <link href='//fonts.googleapis.com/css?family=Ubuntu:regular,bold' rel='stylesheet' type='text/css'>
+                <style type="text/css">
+            @font-face {
+                font-family: "Pictos";
+                src: url('http://static.sourceforge.net/include/fonts/sftheme/pictos-web.eot');
+                src: local("☺"), url('http://static.sourceforge.net/include/fonts/sftheme/pictos-web.woff') format('woff'), url('http://static.sourceforge.net/include/fonts/sftheme/pictos-web.ttf') format('truetype'), url('http://static.sourceforge.net/include/fonts/sftheme/pictos-web.svg') format('svg');
+            }
+            #site-header .logo span {
+              background-image: url("http://static.sourceforge.net/images/neotheme/sftheme/logo.png");
+            }
+            #site-footer .wrapper {
+              background-image: url("http://static.sourceforge.net/images/neotheme/sftheme/sf-footer-logo.png") !important;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="http://static.sourceforge.net/css/develop/style.php?secure=0&amp;1364194305" media="all" />
+        <link rel="stylesheet" type="text/css" href="http://static.sourceforge.net/css/develop/global.php?secure=0&amp;1364194305" media="all" />
+        
+        <link rel="stylesheet" type="text/css" href="http://static.sourceforge.net/css/neotheme/sfx.css?1364194305" media="all" />
+                       <link rel="stylesheet" type="text/css" href="http://static.sourceforge.net/css/phoneix/table.php?secure=0&amp;1364194305" media="all" />
+                        <link rel="stylesheet" type="text/css" href="http://static.sourceforge.net/css/develop/droppy.php?secure=0&amp;1364194305" media="all" />
+                                        <!--   -->
+        <script type="text/javascript" src="http://static.sourceforge.net/include/js/sftheme/modernizr.custom.90514.js"></script>
+        <script type="text/javascript" src="http://static.sourceforge.net/include/jquery/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript">
+            
+                jQuery.noConflict();
+            
+        </script>
+
+        <script type="text/javascript" src="http://static.sourceforge.net/include/jquery/jquery.cookie.js"></script>
+                        <script type='text/javascript'>
+          jQuery(function() {
+            jQuery('#fad19 p, .project_summary .downloadbar, .vertical_widget, .horizontal_widget').wrap('<div class="sc"><div class="l1"><div class="l2"><div class="l3"><div class="l4"></div></div></div></div></div>');
+          });
+        </script>
+                <script type="text/javascript" src="http://static.sourceforge.net/include/jquery/jquery.droppy.js"></script>
+        <script type="text/javascript" src="http://static.sourceforge.net/include/js/sylvester.js"></script>
+        <script type="text/javascript" src="http://static.sourceforge.net/include/js/pb.transformie.js"></script>
+        <script type='text/javascript'>
+            jQuery(function(){
+                jQuery('.b-hornav > li:last-child').addClass('last');
+                jQuery('.b-hornav > li').each(function() {
+                    jQuery('li[class!=disabled]', this).eq(0).addClass('first');
+                });
+                jQuery('.b-hornav').droppy({speed:0, delay:0});
+            });
+        </script>
+                <script type="text/javascript" src="http://static.sourceforge.net/include/c_jquerytabs.js"></script>
+
+        <script type="text/javascript">
+        
+            jQuery(function(){
+                jQuery('.vertical_widget_content ul.tab, #container2 ul.tab, #container3 ul.tab, #container4 ul.tab').tabs({ selected: 0 });
+            });
+        
+        </script>
+        <link rel="stylesheet" type="text/css" href="http://static.sourceforge.net/include/jquery/jquery.tabs.css?secure=0&amp;1364194305" media="all" />
+            
+                            <script type="text/javascript" src="http://static.sourceforge.net/include/js/preferences.js"></script>
+            <script type="text/javascript">
+                        var _visitor = "";
+            var jsonly = document.createElement('link');
+            jsonly.setAttribute('rel', 'stylesheet');
+            jsonly.setAttribute('type', 'text/css');
+            jsonly.setAttribute('href', 'http://static.sourceforge.net/css/phoneix/jsonly.css?secure=0&amp;1364194305');
+            document.getElementsByTagName('head')[0].appendChild(jsonly);
+                    </script>
+                                                                    <!-- DoubleClick Random Number -->
+    <script type="text/javascript">var dfp_ord=Math.random()*10000000000000000; var dfp_tile = 1; var dfp_ptile = 1;</script>
+    <!-- End DoubleClick Random Number -->
+    <!-- After META tags -->
+                                    
+        <script type="text/javascript" src="http://static.sourceforge.net/sfx.js"></script>
+        
+            <script type="text/javascript">
+                        var _gaq = _gaq || [];
+                        _gaq.push(['t1._setAccount', 'UA-32013-6']);
+                        _gaq.push(['t1._trackPageview']);
+                        _gaq.push(['t2._setAccount', 'UA-36130941-1']);
+                        _gaq.push(['t2._trackPageview']);
+                        (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+            })();
+        </script>
+        <script type="text/javascript" src="http://static.sourceforge.net/include/jquery/jquery.notify.js"></script>
+    <script type="text/javascript" src="http://static.sourceforge.net/include/js/header.js"></script>
+    </head>
+
+    <body id="c2" class="short-head">
+    
+    <!--[if IE 7]><div id="ie7only"><![endif]-->
+    <!--[if IE 6]><div id="ie6only"><![endif]-->
+    <!--[if IE]><div id="ieonly"><![endif]-->
+        
+        <div class="mail_archive">
+            <header id="site-header">
+                <div class="wrapper">
+                    <a href="/" class="logo">
+                        <span>SourceForge</span>
+                    </a>
+                    <form method="get" action="/directory/">
+                        <input type="text" id="words" name="q" placeholder="Search">
+                    </form>
+                    <nav id="nav-site">
+                        <a href="/directory/" title="Browse our software.">Browse</a>
+                        <a href="/directory/enterprise" title="Browse our Enterprise software.">Enterprise</a>
+                        <a href="/blog/" title="Read the latest news from the SF HQ.">Blog</a>
+                        <a href="/support" title="Contact us for help and feedback.">Help</a>
+                        <a href="/jobs?source=header" title="Search 80k+ tech jobs." class="featured-link">Jobs</a>
+                    </nav>
+                    <nav id="nav-account">
+                                                  <div class="logged_out">
+                            <a href="https://sourceforge.net/account/login.php">Log In</a>
+                            <span>or</span>
+                            <a href="https://sourceforge.net/user/registration">Join</a>
+                          </div>
+                                            </nav>
+                </div>
+            </header>
+            <header id="site-sec-header">
+                <div class="wrapper">
+                    <nav id="nav-hubs">
+                        <h4>Solution Centers</h4>
+                        <a href="http://ibmsmartercommerce.sourceforge.net/">Smarter Commerce</a>
+                        <a href="http://goparallel.sourceforge.net/">Go Parallel</a>
+                        <a href="http://html5center.sourceforge.net/">HTML5</a>
+                        <a href="http://ibmsmarteritservices.sourceforge.net/">Smarter IT</a>
+                    </nav>
+                    <nav id="nav-collateral">
+                        <a href="http://library.geeknetmedia.com">Resources</a>
+                                                <a href="https://sourceforge.net/user/registration/">Newsletters</a>
+                                            </nav>
+                </div>
+            </header>
+                            <!-- DoubleClick Ad Tag -->
+<script type="text/javascript">
+//<![CDATA[
+    document.write('<script src="http://ad.doubleclick.net/adj/ostg.sourceforge/sf_pg_mailarchive_leader;pg=/mailarchive/forum.php;psrch=0;logged_in=0;tile='+dfp_tile+';sz=728x90;ord='+dfp_ord+'?" type="text/javascript"><\/script>');
+    dfp_tile++;
+//]]>
+</script>
+<!-- End DoubleClick Ad Tag -->
+                                    <div id="page-body">
+            <div id="bd" class="inner-bd">
+                <div id="doc4" class="yui-t6">
+                                                            <div id="breadcrumbs">
+                                                    <a href="/">Home</a>
+ / <a href="/directory/" >Browse</a>
+ / <a href="/projects/bitcoin/" >Bitcoin</a>
+ / <a href="/mail/?group_id=244765" >Mail</a>
+ / <a href="/mailarchive/forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201007"  class="selected">Archive</a>
+                                            </div>
+                    <!-- begin content -->
+            <a name="projectnav"></a>
+        <div id="project_nav_container">
+            <div class="b-proj__side">
+                                
+                
+                
+                <span class="award-bar"></span>
+            </div>
+            <h1>
+                <a href="/projects/bitcoin/">Bitcoin</a>
+                            </h1>
+                    <div class="firstwave">
+                <ul class="b-hornav">
+                    <li id="menu_consume_summary"><a href="/projects/bitcoin/"><span><span>Summary</span></span></a></li>
+<li id="menu_consume_files"><a href="/projects/bitcoin/files/"><span><span>Files</span></span></a></li>
+<li id="menu_consume_reviews"><a href="/projects/bitcoin/reviews/"><span><span>Reviews</span></span></a></li>
+<li id="menu_project_support"><a href="/projects/bitcoin/support"><span><span>Support</span></span></a></li>
+<li id="menu_project_develop"><a href="/projects/bitcoin/develop"><span><span>Develop</span></span></a>
+<ul>
+<li id="menu_project_website"><a href="http://www.bitcoin.org">Web Site</a></li>
+<li id="menu_project_screenshots"><a href="/project/screenshots.php?group_id=244765">Screenshots</a></li>
+<li id="menu_project_news"><a href="/news/?group_id=244765">News</a></li>
+<li id="menu_stats"><a href="/projects/bitcoin/stats/traffic">Project Statistics</a></li>
+<li id="menu_download_stats_dist"><a href="/downloads/bitcoin/stats_timeline">Download Stats</a></li>
+</ul>
+</li>
+<li id="menu_hostedapps" class="disabled tier" style="display: none;"><a href="/hostedapp/?group_id=244765"><span><span>Hosted&nbsp;Apps</span></span></a></li>
+<li id="menu_tracker" class="disabled tier" style="display: none;"><a href="/tracker/?group_id=244765"><span><span>Tracker</span></span></a>
+<ul>
+<li id="menu_tracker_stats" class="tools"><a href="/projects/bitcoin/stats/tracker">Statistics for Trackers</a></li>
+<li id="menu_tracker_reports" class="disabled" style="display: none;"><a href="/tracker/reporting/?group_id=244765">Reporting for Trackers</a></li>
+<li id="menu_tracker_search"><a href="/search/?group_id=244765&amp;type_of_search=artifact">Search Trackers</a></li>
+</ul>
+</li>
+<li id="menu_mail" class="selected tier"><a href="/mail/?group_id=244765"><span><span>Mailing&nbsp;Lists</span></span></a>
+<ul>
+<li id="menu_mlist_bitcoin-list"><a href="/mailarchive/forum.php?forum_name=bitcoin-list">bitcoin-list</a></li>
+<li id="menu_mlist_bitcoin-development"><a href="/mailarchive/forum.php?forum_name=bitcoin-development">bitcoin-development</a></li>
+<li id="menu_mlist_bitcoin-test"><a href="/mailarchive/forum.php?forum_name=bitcoin-test">bitcoin-test</a></li>
+<li id="menu_mail_search" class="tools"><a href="/search/?group_id=244765&amp;type_of_search=mlists">Search Mail Lists</a></li>
+</ul>
+<div class="diamond"></div></li>
+<li id="menu_forums" class="disabled tier" style="display: none;"><a href="/projects/bitcoin/forums"><span><span>Forums</span></span></a>
+<ul>
+<li id="menu_forum_885784"><a href="/projects/bitcoin/forums/forum/885784">Help</a></li>
+<li id="menu_forum_885783"><a href="/projects/bitcoin/forums/forum/885783">Open Discussion</a></li>
+<li id="menu_forums_stats" class="tools"><a href="/projects/bitcoin/stats/forums">Statistics for Forums</a></li>
+<li id="menu_forums_search"><a href="/search/?group_id=244765&amp;type_of_search=forums">Search Forums</a></li>
+</ul>
+</li>
+<li id="menu_code"><a href="/scm/?type=svn&amp;group_id=244765"><span><span>Code</span></span></a>
+<ul>
+<li id="menu_git_about" class="disabled" style="display: none;"><a href="/scm/?type=git&amp;group_id=244765">Git</a></li>
+<li id="menu_git_browse" class="disabled" style="display: none;"><a href="http://bitcoin.git.sourceforge.net/">Git Browse</a></li>
+<li id="menu_git_stats" class="disabled" style="display: none;"><a href="/projects/bitcoin/stats/scm?repo=GitRepository">Git Statistics</a></li>
+<li id="menu_hg_about" class="disabled" style="display: none;"><a href="/scm/?type=hg&amp;group_id=244765">Mercurial</a></li>
+<li id="menu_hg_browse" class="disabled" style="display: none;"><a href="http://bitcoin.hg.sourceforge.net/hgweb/bitcoin/">Mercurial Browse</a></li>
+<li id="menu_hg_stats" class="disabled" style="display: none;"><a href="/projects/bitcoin/stats/scm?repo=HgRepository">Mercurial Statistics</a></li>
+<li id="menu_bzr_about" class="disabled" style="display: none;"><a href="/scm/?type=bzr&amp;group_id=244765">Bazaar</a></li>
+<li id="menu_bzr_browse" class="disabled" style="display: none;"><a href="http://bitcoin.bzr.sourceforge.net/bzr/bitcoin/">Bazaar Browse</a></li>
+<li id="menu_bzr_stats" class="disabled" style="display: none;"><a href="/projects/bitcoin/stats/scm?repo=BazaarBranch">Bazaar Statistics</a></li>
+<li id="menu_cvs_about" class="disabled" style="display: none;"><a href="/scm/?type=cvs&amp;group_id=244765">CVS</a></li>
+<li id="menu_cvs_browse" class="disabled" style="display: none;"><a href="http://bitcoin.cvs.sourceforge.net/bitcoin/">CVS Browse</a></li>
+<li id="menu_cvs_stats" class="disabled" style="display: none;"><a href="/projects/bitcoin/stats/scm?repo=CVSRepository">CVS Statistics</a></li>
+<li id="menu_svn_about"><a href="/scm/?type=svn&amp;group_id=244765">SVN</a></li>
+<li id="menu_svn_browse"><a href="http://bitcoin.svn.sourceforge.net/viewvc/bitcoin/">SVN Browse</a></li>
+<li id="menu_svn_stats"><a href="/projects/bitcoin/stats/scm?repo=SVNRepository">SVN Statistics</a></li>
+</ul>
+</li>
+<li id="menu_newadmin" class="disabled tier" style="display: none;"><a href="/project/admin/?group_id=244765"><span><span>Project&nbsp;Admin</span></span></a>
+<ul>
+<li id="menu_editgroupinfo" class="disabled" style="display: none;"><a href="/project/admin/public_info.php?group_id=244765">Settings</a></li>
+<li id="menu_features" class="disabled" style="display: none;"><a href="/project/admin/features.php?group_id=244765">Features</a></li>
+<li id="menu_userperms" class="disabled" style="display: none;"><a href="/project/admin/project_membership.php?group_id=244765">Members</a></li>
+<li id="menu_stats_admin" class="disabled" style="display: none;"><a href="/project/admin/stats.php?group_id=244765">Analytics</a></li>
+</ul>
+</li>
+
+                </ul>
+            </div>
+                </div>
+        <div style="clear: both;"></div>
+            
+
+
+
+
+<p>
+<h3>Email Archive: <a href="forum.php?forum_name=bitcoin-list"><!-- google_ad_section_start -->bitcoin-list<!-- google_ad_section_end --></A> (read-only)
+</h3>
+</p>
+
+<table width="450" border=0>
+    <tr>
+        <td>
+            <table width="100%" border="1" cellpadding="1" cellspacing="0">
+	<tr>
+		<th>
+			<center><b>2008:</b></center>
+		</th>
+			<td bgcolor="#eeeeee">
+			<sub>Jan</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Feb</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Mar</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Apr</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>May</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jun</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jul</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Aug</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Sep</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Oct</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Nov</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Dec</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200812">(1)</a>
+								</td>
+		<tr>
+		<th>
+			<center><b>2009:</b></center>
+		</th>
+			<td bgcolor="#eeeeee">
+			<sub>Jan</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200901">(9)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Feb</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200902">(4)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Mar</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200903">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Apr</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>May</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jun</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200906">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jul</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Aug</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200908">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Sep</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Oct</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200910">(5)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Nov</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Dec</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=200912">(1)</a>
+								</td>
+		<tr>
+		<th>
+			<center><b>2010:</b></center>
+		</th>
+			<td bgcolor="#eeeeee">
+			<sub>Jan</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Feb</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Mar</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Apr</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>May</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201005">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jun</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201006">(10)</a>
+								</td>
+			<td bgcolor="#cccccc">
+			<sub>Jul</sub><br />
+						<b>
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201007">(6)</a>
+									</b>
+					</td>
+			<td bgcolor="#eeeeee">
+			<sub>Aug</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201008">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Sep</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201009">(2)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Oct</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201010">(3)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Nov</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201011">(2)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Dec</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201012">(2)</a>
+								</td>
+		<tr>
+		<th>
+			<center><b>2011:</b></center>
+		</th>
+			<td bgcolor="#eeeeee">
+			<sub>Jan</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Feb</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201102">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Mar</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Apr</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>May</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jun</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jul</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Aug</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Sep</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201109">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Oct</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Nov</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201111">(3)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Dec</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+		<tr>
+		<th>
+			<center><b>2012:</b></center>
+		</th>
+			<td bgcolor="#eeeeee">
+			<sub>Jan</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Feb</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Mar</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Apr</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>May</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201205">(2)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jun</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jul</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Aug</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Sep</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Oct</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Nov</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Dec</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+		<tr>
+		<th>
+			<center><b>2013:</b></center>
+		</th>
+			<td bgcolor="#eeeeee">
+			<sub>Jan</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Feb</sub><br />
+									<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201302">(1)</a>
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Mar</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Apr</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>May</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jun</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Jul</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Aug</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Sep</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Oct</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Nov</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+			<td bgcolor="#eeeeee">
+			<sub>Dec</sub><br />
+									&nbsp;&nbsp;&nbsp;
+								</td>
+	</table>
+            <table width="100%" border="1" cellpadding="1" cellspacing="0">
+	<tr>
+		<th colspan="7">
+			
+		</th>
+	</tr>
+	<tr>
+		<th bgcolor="#cccccc">S</th>
+		<th bgcolor="#cccccc">M</th>
+		<th bgcolor="#cccccc">T</th>
+		<th bgcolor="#cccccc">W</th>
+		<th bgcolor="#cccccc">T</th>
+		<th bgcolor="#cccccc">F</th>
+		<th bgcolor="#cccccc">S</th>
+	</tr>
+	<tr>
+			<th bgcolor="#eeeeee">
+			
+		</th>
+			<th bgcolor="#eeeeee">
+			
+		</th>
+			<th bgcolor="#eeeeee">
+			
+		</th>
+			<th bgcolor="#eeeeee">
+			
+		</th>
+			<th bgcolor="#eeeeee">
+			1
+		</th>
+			<th bgcolor="#eeeeee">
+			2
+		</th>
+			<th bgcolor="#eeeeee">
+			3
+		</th>
+		</tr>
+	<tr>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+		</tr>
+	<tr>
+			<th bgcolor="#eeeeee">
+			4
+		</th>
+			<th bgcolor="#eeeeee">
+			5
+		</th>
+			<th bgcolor="#eeeeee">
+			6
+		</th>
+			<th bgcolor="#eeeeee">
+			7
+		</th>
+			<th bgcolor="#eeeeee">
+			8
+		</th>
+			<th bgcolor="#eeeeee">
+			9
+		</th>
+			<th bgcolor="#eeeeee">
+			10
+		</th>
+		</tr>
+	<tr>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201007&amp;viewday=6">
+					(1)
+					</a>
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+		</tr>
+	<tr>
+			<th bgcolor="#eeeeee">
+			11
+		</th>
+			<th bgcolor="#eeeeee">
+			12
+		</th>
+			<th bgcolor="#eeeeee">
+			13
+		</th>
+			<th bgcolor="#eeeeee">
+			14
+		</th>
+			<th bgcolor="#eeeeee">
+			15
+		</th>
+			<th bgcolor="#eeeeee">
+			16
+		</th>
+			<th bgcolor="#eeeeee">
+			17
+		</th>
+		</tr>
+	<tr>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201007&amp;viewday=13">
+					(3)
+					</a>
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+		</tr>
+	<tr>
+			<th bgcolor="#eeeeee">
+			18
+		</th>
+			<th bgcolor="#eeeeee">
+			19
+		</th>
+			<th bgcolor="#eeeeee">
+			20
+		</th>
+			<th bgcolor="#eeeeee">
+			21
+		</th>
+			<th bgcolor="#eeeeee">
+			22
+		</th>
+			<th bgcolor="#eeeeee">
+			23
+		</th>
+			<th bgcolor="#eeeeee">
+			24
+		</th>
+		</tr>
+	<tr>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+		</tr>
+	<tr>
+			<th bgcolor="#eeeeee">
+			25
+		</th>
+			<th bgcolor="#eeeeee">
+			26
+		</th>
+			<th bgcolor="#eeeeee">
+			27
+		</th>
+			<th bgcolor="#eeeeee">
+			28
+		</th>
+			<th bgcolor="#eeeeee">
+			29
+		</th>
+			<th bgcolor="#eeeeee">
+			30
+		</th>
+			<th bgcolor="#eeeeee">
+			31
+		</th>
+		</tr>
+	<tr>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							&nbsp;
+				</td>
+					<td align="center">
+							<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201007&amp;viewday=30">
+					(1)
+					</a>
+				</td>
+					<td align="center">
+							<a href="forum.php?forum_name=bitcoin-list&amp;max_rows=25&amp;style=nested&amp;viewmonth=201007&amp;viewday=31">
+					(1)
+					</a>
+				</td>
+		</tr>
+</table>
+        </td>
+    </tr>
+</table>
+
+<form action="/mailarchive/forum.php" method="get">
+<input type="hidden" name="set" value="custom">
+<input type="hidden" name="viewmonth" value="201007">
+<input type="hidden" name="viewday" value="">
+
+<table border="0" width="500">
+    <tr>
+        <td>
+            <small>
+            
+<select name="forum_name">
+	<option value="bitcoin-development">bitcoin-development</option>
+	<option value="bitcoin-test">bitcoin-test</option>
+	<option value="bitcoin-list" selected="selected">bitcoin-list</option>
+</select>
+
+            </small>
+        </td>
+        <td>
+            <small>
+            
+<select name="style">
+	<option value="nested" selected="selected">Nested</option>
+	<option value="flat">Flat</option>
+	<option value="threaded">Threaded</option>
+	<option value="ultimate">Ultimate</option>
+</select>
+
+            </small>
+        </td>
+        <td>
+            <small>
+            
+<select name="max_rows">
+	<option value="25" selected="selected">Show 25</option>
+	<option value="50">Show 50</option>
+	<option value="75">Show 75</option>
+	<option value="100">Show 100</option>
+</select>
+
+            </small>
+        </td>
+        <td>
+            <small>
+            <input type="submit" name="submit" value="Change View">
+            </small>
+        </td>
+    </tr>
+</table>
+
+    <!--
+/mailarchive/nested_messages.html - Copyright 1999-2006 (c) Open Source Technology Group
+@version $Id$
+-->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="0"> </td>
+        <td>
+            <table width="100%" border="0">
+                <tr>
+	<td bgcolor="#DDDDDD" nowrap><div class='forum'>
+		<div><b><!-- google_ad_section_start --><a href="/mailarchive/message.php?msg_id=25843947">[bitcoin-list] Alert: upgrade to bitcoin 0.3.6</a><!-- google_ad_section_end --></b></div>		<small>From: Satoshi Nakamoto &lt;satoshin@gm...&gt; -	2010-07-30 06:02</small><br>
+			</div></td>
+</tr>
+
+
+                <tr>
+                    <td class="email_body">
+                        <!-- google_ad_section_start --><pre>Please upgrade to 0.3.6 ASAP to get an important bugfix.
+
+See the bitcoin.org homepage for download links.
+
+</pre><!-- google_ad_section_end -->
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+    <br />
+    
+    <!--
+/mailarchive/nested_messages.html - Copyright 1999-2006 (c) Open Source Technology Group
+@version $Id$
+-->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="0"> </td>
+        <td>
+            <table width="100%" border="0">
+                <tr>
+	<td bgcolor="#DDDDDD" nowrap><div class='forum'>
+		<div><b><!-- google_ad_section_start --><a href="/mailarchive/message.php?msg_id=25729222">[bitcoin-list] [PATCH] create obj and obj/nogui folders before use</a><!-- google_ad_section_end --></b></div>		<small>From: Jack L. &lt;jackjrabbit@gm...&gt; -	2010-07-13 06:52</small><br>
+			</div></td>
+</tr>
+
+
+                <tr>
+                    <td class="email_body">
+                        <!-- google_ad_section_start --><pre>akefile.unix |    7 +++++--
+ 1 files changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/makefile.unix b/makefile.unix
+index f6ca110..e2834b0 100644
+--- a/makefile.unix
++++ b/makefile.unix
+@@ -56,14 +56,17 @@ OBJS= \
+     obj/rpc.o \
+     obj/init.o
+
+-bitcoin: $(OBJS) obj/ui.o obj/uibase.o obj/sha.o
++bitcoin: test -d obj || mkdir obj
++ $(OBJS) obj/ui.o obj/uibase.o obj/sha.o
+  g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(WXLIBS) $(LIBS)
+
+
+ obj/nogui/%.o: %.cpp $(HEADERS)
+  g++ -c $(CFLAGS) -DwxUSE_GUI=0 -o $@ lt;
+
+-bitcoind: $(OBJS:obj/%=obj/nogui/%) obj/sha.o
++bitcoind: test -d obj || mkdir obj
++ test -d obj/nogui || mkdir obj/nogui
++ $(OBJS:obj/%=obj/nogui/%) obj/sha.o
+  g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -l wx_baseud-2.9 $(LIBS)
+
+</pre><!-- google_ad_section_end -->
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+    <br />
+    
+<ul>
+
+<p>
+<!--
+/mailarchive/nested_messages.html - Copyright 1999-2006 (c) Open Source Technology Group
+@version $Id$
+-->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="0"> </td>
+        <td>
+            <table width="100%" border="0">
+                <tr>
+	<td bgcolor="#DDDDDD" nowrap><div class='forum'>
+		<div><b><!-- google_ad_section_start --><a href="/mailarchive/message.php?msg_id=25731509">Re: [bitcoin-list] [PATCH] create obj and obj/nogui folders before
+	use</a><!-- google_ad_section_end --></b></div>		<small>From: Bryan Donlan &lt;bdonlan@gm...&gt; -	2010-07-13 13:59</small><br>
+			</div></td>
+</tr>
+
+
+                <tr>
+                    <td class="email_body">
+                        <!-- google_ad_section_start --><pre>On Tue, Jul 13, 2010 at 02:51, Jack L. &lt;jackjrabbit@...&gt; wrote:
+&gt; akefile.unix |    7 +++++--
+&gt;  1 files changed, 5 insertions(+), 2 deletions(-)
+
+Did you copy and paste this manually? Gmail will munge patches
+(replacing tabs with spaces, etc, which _will_ break makefiles) if you
+copypaste them. Use git format-patch and git send-email.
+
+&gt; diff --git a/makefile.unix b/makefile.unix
+&gt; index f6ca110..e2834b0 100644
+&gt; --- a/makefile.unix
+&gt; +++ b/makefile.unix
+&gt; @@ -56,14 +56,17 @@ OBJS= \
+&gt;     obj/rpc.o \
+&gt;     obj/init.o
+&gt;
+&gt; -bitcoin: $(OBJS) obj/ui.o obj/uibase.o obj/sha.o
+&gt; +bitcoin: test -d obj || mkdir obj
+&gt; + $(OBJS) obj/ui.o obj/uibase.o obj/sha.o
+&gt;  g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ $(WXLIBS) $(LIBS)
+
+What kind of a dependency is 'test -d obj || mkdir obj'? I think you
+have your lines backwards...
+
+&gt;  obj/nogui/%.o: %.cpp $(HEADERS)
+&gt;  g++ -c $(CFLAGS) -DwxUSE_GUI=0 -o $@ lt;
+&gt;
+&gt; -bitcoind: $(OBJS:obj/%=obj/nogui/%) obj/sha.o
+&gt; +bitcoind: test -d obj || mkdir obj
+&gt; + test -d obj/nogui || mkdir obj/nogui
+&gt; + $(OBJS:obj/%=obj/nogui/%) obj/sha.o
+
+Same here.
+
+Moreover, creating the obj directory in the bitcoin or bitcoind rule
+is too late. They need to be created in the compilation rules (perhaps
+with a mkdir -p `dirname $@`)
+
+</pre><!-- google_ad_section_end -->
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</p>
+
+</ul>
+
+    <!--
+/mailarchive/nested_messages.html - Copyright 1999-2006 (c) Open Source Technology Group
+@version $Id$
+-->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="0"> </td>
+        <td>
+            <table width="100%" border="0">
+                <tr>
+	<td bgcolor="#DDDDDD" nowrap><div class='forum'>
+		<div><b><!-- google_ad_section_start --><a href="/mailarchive/message.php?msg_id=25728559">[bitcoin-list] [PATCH] Batch commit blocks to reduce syncs</a><!-- google_ad_section_end --></b></div>		<small>From: Bryan Donlan &lt;bdonlan@gm...&gt; -	2010-07-13 04:07</small><br>
+			</div></td>
+</tr>
+
+
+                <tr>
+                    <td class="email_body">
+                        <!-- google_ad_section_start --><pre>Previously, committing a block would require as many as four syncs:
+* A sync to the block file itself
+* A sync to open the block index database
+* A sync to commit the block index transaction (+1 for each subtxn)
+* A sync to close the block index transaction
+
+When this is performed for every block, and you have 60k+ to commit,
+these syncs take a significant amount of time.
+
+This patch queues blocks to be committed in a seperate thread, once
+every second. This commit performs a single commit/sync at the very
+end of the process, greatly reducing the amount of time spent syncing,
+without compromising data integrity.
+
+Signed-off-by: Bryan Donlan &lt;bdonlan@...&gt;
+---
+
+For your convenience, a web code-review page is also available here:
+<a href="http://codereview.appspot.com/1820042" target="_new">http://codereview.appspot.com/1820042</a>
+
+ db.h     |    7 +++-
+ main.cpp |  142 ++++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ main.h   |   14 ++----
+ net.cpp  |    8 +++-
+ 4 files changed, 134 insertions(+), 37 deletions(-)
+
+diff --git a/db.h b/db.h
+index 29ff199..68102ad 100644
+--- a/db.h
++++ b/db.h
+@@ -223,8 +223,13 @@ public:
+             return false;
+         if (vTxn.empty())
+             return false;
+-        int ret = vTxn.back()-&gt;commit(0);
++        DbTxn *txn = vTxn.back();
+         vTxn.pop_back();
++
++        // Only sync if this is the root transaction; for nested txns
++        // the root will handle the sync for us
++        int ret = txn-&gt;commit(vTxn.size() ? DB_TXN_NOSYNC : DB_TXN_SYNC);
++
+         return (ret == 0);
+     }
+ 
+diff --git a/main.cpp b/main.cpp
+index 803548e..f9fffb1 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -21,6 +21,7 @@ unsigned int nTransactionsUpdated = 0;
+ map&lt;COutPoint, CInPoint&gt; mapNextTx;
+ 
+ map&lt;uint256, CBlockIndex*&gt; mapBlockIndex;
++map&lt;uint256, CBlock*&gt; mapBlockPending;
+ const uint256 hashGenesisBlock("0x000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f");
+ CBlockIndex* pindexGenesisBlock = NULL;
+ int nBestHeight = -1;
+@@ -1189,7 +1190,7 @@ bool Reorganize(CTxDB&amp; txdb, CBlockIndex* pindexNew)
+ }
+ 
+ 
+-bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos)
++bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos, CTxDB &amp;txdb)
+ {
+     // Check for duplicate
+     uint256 hash = GetHash();
+@@ -1209,7 +1210,6 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos)
+         pindexNew-&gt;nHeight = pindexNew-&gt;pprev-&gt;nHeight + 1;
+     }
+ 
+-    CTxDB txdb;
+     txdb.TxnBegin();
+     txdb.WriteBlockIndex(CDiskBlockIndex(pindexNew));
+ 
+@@ -1232,7 +1232,6 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos)
+                 delete pindexNew;
+                 return error("AddToBlockIndex() : ConnectBlock failed");
+             }
+-            txdb.TxnCommit();
+             pindexNew-&gt;pprev-&gt;pnext = pindexNew;
+ 
+             // Delete redundant memory transactions
+@@ -1259,7 +1258,6 @@ bool CBlock::AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos)
+     }
+ 
+     txdb.TxnCommit();
+-    txdb.Close();
+ 
+     if (pindexNew == pindexBest)
+     {
+@@ -1322,6 +1320,9 @@ bool CBlock::AcceptBlock()
+     if (mapBlockIndex.count(hash))
+         return error("AcceptBlock() : block already in mapBlockIndex");
+ 
++    if (mapBlockPending.count(hash))
++        return error("AcceptBlock() : block already in mapBlockPending");
++
+     // Get prev block index
+     map&lt;uint256, CBlockIndex*&gt;::iterator mi = mapBlockIndex.find(hashPrevBlock);
+     if (mi == mapBlockIndex.end())
+@@ -1341,6 +1342,16 @@ bool CBlock::AcceptBlock()
+     if (nBits != GetNextWorkRequired(pindexPrev))
+         return error("AcceptBlock() : incorrect proof of work");
+ 
++    mapBlockPending[hash] = this;
++    return true;
++}
++
++bool CBlock::CommitBlock(CTxDB &amp;txdb)
++{
++    uint256 hash = GetHash();
++    assert(mapBlockPending.count(hash));
++    assert(mapBlockPending[hash] == this);
++
+     // Write block to history file
+     if (!CheckDiskSpace(::GetSerializeSize(*this, SER_DISK)))
+         return error("AcceptBlock() : out of disk space");
+@@ -1348,7 +1359,7 @@ bool CBlock::AcceptBlock()
+     unsigned int nBlockPos;
+     if (!WriteToDisk(!fClient, nFile, nBlockPos))
+         return error("AcceptBlock() : WriteToDisk failed");
+-    if (!AddToBlockIndex(nFile, nBlockPos))
++    if (!AddToBlockIndex(nFile, nBlockPos, txdb))
+         return error("AcceptBlock() : AddToBlockIndex failed");
+ 
+     // Relay inventory, but don't relay old inventory during initial block download
+@@ -1358,6 +1369,22 @@ bool CBlock::AcceptBlock()
+                 if (nBestHeight &gt; (pnode-&gt;nStartingHeight != -1 ? pnode-&gt;nStartingHeight - 2000 : 55000))
+                     pnode-&gt;PushInventory(CInv(MSG_BLOCK, hash));
+ 
++    // Recursively process any orphan blocks that depended on this one
++    uint256 hashPrev = GetHash();
++    for (multimap&lt;uint256, CBlock*&gt;::iterator mi = mapOrphanBlocksByPrev.lower_bound(hashPrev);
++         mi != mapOrphanBlocksByPrev.upper_bound(hashPrev);
++         ++mi)
++    {
++        CBlock* pblockOrphan = (*mi).second;
++        if (pblockOrphan-&gt;AcceptBlock()) {
++            cerr &lt;&lt; "Queued orphan: " &lt;&lt; pblockOrphan-&gt;GetHash().GetHex() &lt;&lt; endl;
++        }
++        mapOrphanBlocks.erase(pblockOrphan-&gt;GetHash());
++    }
++    mapOrphanBlocksByPrev.erase(hashPrev);
++
++    delete this;
++
+     return true;
+ }
+ 
+@@ -1396,26 +1423,6 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
+         delete pblock;
+         return error("ProcessBlock() : AcceptBlock FAILED");
+     }
+-    delete pblock;
+-
+-    // Recursively process any orphan blocks that depended on this one
+-    vector&lt;uint256&gt; vWorkQueue;
+-    vWorkQueue.push_back(hash);
+-    for (int i = 0; i &lt; vWorkQueue.size(); i++)
+-    {
+-        uint256 hashPrev = vWorkQueue[i];
+-        for (multimap&lt;uint256, CBlock*&gt;::iterator mi = mapOrphanBlocksByPrev.lower_bound(hashPrev);
+-             mi != mapOrphanBlocksByPrev.upper_bound(hashPrev);
+-             ++mi)
+-        {
+-            CBlock* pblockOrphan = (*mi).second;
+-            if (pblockOrphan-&gt;AcceptBlock())
+-                vWorkQueue.push_back(pblockOrphan-&gt;GetHash());
+-            mapOrphanBlocks.erase(pblockOrphan-&gt;GetHash());
+-            delete pblockOrphan;
+-        }
+-        mapOrphanBlocksByPrev.erase(hashPrev);
+-    }
+ 
+     printf("ProcessBlock: ACCEPTED\n");
+     return true;
+@@ -1523,6 +1530,14 @@ FILE* AppendBlockFile(unsigned int&amp; nFileRet)
+             nFileRet = nCurrentBlockFile;
+             return file;
+         }
++        // If we need to rotate to a new block file, the commit thread
++        // may not be able to sync the old file. So sync it now.
++#ifdef __WXMSW__
++        _commit(_fileno(file));
++#else
++        fsync(fileno(file));
++#endif
++
+         fclose(file);
+         nCurrentBlockFile++;
+     }
+@@ -1597,8 +1612,13 @@ bool LoadBlockIndex(bool fAllowNew)
+         unsigned int nBlockPos;
+         if (!block.WriteToDisk(!fClient, nFile, nBlockPos))
+             return error("LoadBlockIndex() : writing genesis block to disk failed");
+-        if (!block.AddToBlockIndex(nFile, nBlockPos))
++
++        CTxDB txdb;
++
++        if (!block.AddToBlockIndex(nFile, nBlockPos, txdb))
+             return error("LoadBlockIndex() : genesis block not accepted");
++
++        txdb.Close();
+     }
+ 
+     return true;
+@@ -1688,13 +1708,83 @@ void PrintBlockTree()
+ }
+ 
+ 
++//////////////////////////////////////////////////////////////////////////////
++//
++// Block writeback thread
++//
++
++void WritebackNow()
++{
++    CRITICAL_BLOCK(cs_main)
++    {
++        map&lt;uint256, CBlock *&gt;::iterator it;
++
++        if (!mapBlockPending.size())
++            return;
++
++        cerr &lt;&lt; "WRITEBACK PENDING: " &lt;&lt; mapBlockPending.size() &lt;&lt; endl;
++
++        CTxDB txdb;
++        txdb.TxnBegin();
++
++        int writebackct = 0;
+ 
++        while (mapBlockPending.size()) {
++            it = mapBlockPending.begin();
+ 
++            cerr &lt;&lt; "TRYING TO COMMIT " &lt;&lt; it-&gt;first.GetHex() &lt;&lt; " (block " &lt;&lt; it-&gt;second-&gt;GetHash().GetHex() &lt;&lt; ")\n";
++            it-&gt;second-&gt;CommitBlock(txdb);
++            mapBlockPending.erase(it);
+ 
++            writebackct++;
++        }
+ 
++        unsigned int unused;
++        FILE *fileout = AppendBlockFile(unused);
++        // Sync the new blocks to disk
++#ifdef __WXMSW__
++        _commit(_fileno(fileout));
++#else
++        fsync(fileno(fileout));
++#endif
++        fclose(fileout);
+ 
++        // Commit the db only once the blocks themselves are safely on-disk
++
++        txdb.TxnCommit();
++        txdb.Close();
++    }
++}
+ 
++void ThreadWriteback(void* parg)
++{
++    try
++    {
++        while (!fShutdown)
++        {
++            WritebackNow();
++            Sleep(1000);
++        }
++        vnThreadsRunning[5]--;
++    }
++    catch (std::exception&amp; e) {
++        vnThreadsRunning[5]--;
++        PrintException(&amp;e, "ThreadWriteback()");
++    } catch (...) {
++        vnThreadsRunning[5]--;
++        PrintException(NULL, "ThreadWriteback()");
++    }
++    printf("Threadwriteback exiting\n");
++}
+ 
++void StartWriteback()
++{
++    vnThreadsRunning[5]++;
++    if (!CreateThread(ThreadWriteback, NULL)) {
++        printf("FATAL: CreateThread(ThreadWriteback) failed!\n");
++        abort();
++    }
++}
+ 
+ //////////////////////////////////////////////////////////////////////////////
+ //
+diff --git a/main.h b/main.h
+index d8f257b..1e9f3c7 100644
+--- a/main.h
++++ b/main.h
+@@ -77,7 +77,10 @@ string SendMoneyToBitcoinAddress(string strAddress, int64 nValue, CWalletTx&amp; wtx
+ void GenerateBitcoins(bool fGenerate);
+ void ThreadBitcoinMiner(void* parg);
+ void BitcoinMiner();
++bool ProcessBlock(CNode* pfrom, CBlock* pblock);
+ 
++void WritebackNow();
++void StartWriteback();
+ 
+ 
+ 
+@@ -983,14 +986,6 @@ public:
+             return error("CBlock::WriteToDisk() : ftell failed");
+         fileout &lt;&lt; *this;
+ 
+-        // Flush stdio buffers and commit to disk before returning
+-        fflush(fileout);
+-#ifdef __WXMSW__
+-        _commit(_fileno(fileout));
+-#else
+-        fsync(fileno(fileout));
+-#endif
+-
+         return true;
+     }
+ 
+@@ -1044,9 +1039,10 @@ public:
+     bool DisconnectBlock(CTxDB&amp; txdb, CBlockIndex* pindex);
+     bool ConnectBlock(CTxDB&amp; txdb, CBlockIndex* pindex);
+     bool ReadFromDisk(const CBlockIndex* blockindex, bool fReadTransactions=true);
+-    bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos);
++    bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos, CTxDB &amp;txdb);
+     bool CheckBlock() const;
+     bool AcceptBlock();
++    bool CommitBlock(CTxDB &amp;txdb);
+ };
+ 
+ 
+diff --git a/net.cpp b/net.cpp
+index dc1debd..701ac79 100644
+--- a/net.cpp
++++ b/net.cpp
+@@ -1320,6 +1320,9 @@ void StartNode(void* parg)
+     if (!CreateThread(ThreadMessageHandler, NULL))
+         printf("Error: CreateThread(ThreadMessageHandler) failed\n");
+ 
++    // Writeback blocks
++    StartWriteback();
++
+     // Generate coins in the background
+     GenerateBitcoins(fGenerateBitcoins);
+ 
+@@ -1381,7 +1384,7 @@ bool StopNode()
+     fShutdown = true;
+     nTransactionsUpdated++;
+     int64 nStart = GetTime();
+-    while (vnThreadsRunning[0] &gt; 0 || vnThreadsRunning[2] &gt; 0 || vnThreadsRunning[3] &gt; 0 || vnThreadsRunning[4] &gt; 0)
++    while (vnThreadsRunning[0] &gt; 0 || vnThreadsRunning[2] &gt; 0 || vnThreadsRunning[3] &gt; 0 || vnThreadsRunning[4] &gt; 0 || vnThreadsRunning[5] &gt; 0)
+     {
+         if (GetTime() - nStart &gt; 20)
+             break;
+@@ -1392,10 +1395,13 @@ bool StopNode()
+     if (vnThreadsRunning[2] &gt; 0) printf("ThreadMessageHandler still running\n");
+     if (vnThreadsRunning[3] &gt; 0) printf("ThreadBitcoinMiner still running\n");
+     if (vnThreadsRunning[4] &gt; 0) printf("ThreadRPCServer still running\n");
++    if (vnThreadsRunning[5] &gt; 0) printf("ThreadWriteback still running\n");
+     while (vnThreadsRunning[2] &gt; 0 || vnThreadsRunning[4] &gt; 0)
+         Sleep(20);
+     Sleep(50);
+ 
++    WritebackNow();
++
+     return true;
+ }
+ 
+-- 
+1.7.0.4
+
+</pre><!-- google_ad_section_end -->
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+    <br />
+    
+    <!--
+/mailarchive/nested_messages.html - Copyright 1999-2006 (c) Open Source Technology Group
+@version $Id$
+-->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="0"> </td>
+        <td>
+            <table width="100%" border="0">
+                <tr>
+	<td bgcolor="#DDDDDD" nowrap><div class='forum'>
+		<div><b><!-- google_ad_section_start --><a href="/mailarchive/message.php?msg_id=25686730">[bitcoin-list] Bitcoin 0.3 released!</a><!-- google_ad_section_end --></b></div>		<small>From: Satoshi Nakamoto &lt;satoshin@gm...&gt; -	2010-07-06 21:53</small><br>
+			</div></td>
+</tr>
+
+
+                <tr>
+                    <td class="email_body">
+                        <!-- google_ad_section_start --><pre>Announcing version 0.3 of Bitcoin, the P2P cryptocurrency!  Bitcoin is a 
+digital currency using cryptography and a distributed network to replace 
+the need for a trusted central server.  Escape the arbitrary inflation 
+risk of centrally managed currencies!  Bitcoin's total circulation is 
+limited to 21 million coins.  The coins are gradually released to the 
+network's nodes based on the CPU power they contribute, so you can get a 
+share of them by contributing your idle CPU time.
+
+What's new:
+- Command line and JSON-RPC control
+- Includes a daemon version without GUI
+- Transaction filter tabs
+- 20% faster hashing
+- Hashmeter performance display
+- Mac OS X version (thanks to Laszlo)
+- German, Dutch and Italian translations (thanks to DataWraith, Xunie 
+and Joozero)
+
+Get it at <a href="http://www.bitcoin.org" target="_new">http://www.bitcoin.org</a>, and read the forum to find out more.
+
+</pre><!-- google_ad_section_end -->
+                        <br />
+                        <br />
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+    <br />
+    
+
+
+
+
+
+
+</form>
+
+            </div>
+        </div>
+      </div>
+    
+    <footer id="site-footer">
+        <div class="wrapper">
+            <nav>
+                <h5>SourceForge</h5>
+                <a href="/about">About</a>
+                <a href="/blog/category/sitestatus/">Site Status</a>
+                <a href="http://twitter.com/sfnet_ops">@sfnet_ops</a>
+            </nav>
+            <nav>
+                <h5>Find and Develop Software</h5>
+                <a href="/create/">Create a Project</a>
+                <a href="/directory/">Software Directory</a>
+                <a href="/top">Top Downloaded Projects</a>
+            </nav>
+            <nav>
+                <h5>Community</h5>
+                <a href="/blog/">Blog</a>
+                <a href="http://twitter.com/sourceforge">@sourceforge</a>
+                <a href="/jobs?source=footer">Job Board</a>
+            </nav>
+            <nav>
+                <h5>Help</h5>
+                <a href="http://p.sf.net/sourceforge/docs">Site Documentation</a>
+                <a href="/support">Support Request</a>
+                <a href="http://p.sf.net/sourceforge/irc">Real-Time Support</a>
+            </nav>
+        </div>
+    </footer>
+    <footer id="site-copyright-footer">
+        <div class="wrapper">
+            <div id="copyright">
+                Copyright &copy; 2013 SourceForge. All Rights Reserved.<br />
+                SourceForge is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&amp;p=irol-landing">Dice Holdings, Inc.</a> company.
+            </div>
+            <nav>
+                <a href="http://slashdotmedia.com/terms-of-use">Terms</a>
+                <a href="http://slashdotmedia.com/privacy-statement/">Privacy</a>
+                <a href="http://slashdotmedia.com/opt-out-choices">Cookies/Opt Out</a>
+                <a href="http://slashdotmedia.com">Advertise</a>
+                <a href="http://sourceforge.jp/">SourceForge.JP</a>
+            </nav>
+        </div>
+    </footer>
+        <!--[if lt IE 7 ]>
+    <script type="text/javascript" src="http://static.sourceforge.net/include/js/sftheme/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+    <![endif]-->
+<!--[if IE]></div><![endif]-->
+<!--[if IE 6]></div><![endif]-->
+<!--[if IE 7]></div><![endif]-->
+
+    
+    <!-- Begin comScore Tag -->
+    <script>
+        document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script>
+        COMSCORE.beacon({
+            c1:2,
+            c2:6035546,
+            c3:"",
+            c4:"",
+            c5:"",
+            c6:"",
+            c15:""
+        });
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+    
+
+
+
+
+        </div>
+    </body>
+</html>

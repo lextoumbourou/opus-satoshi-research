@@ -1,0 +1,84 @@
+Path: news.gmane.org!not-for-mail
+From: grarpamp <grarpamp@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user,gmane.comp.bitcoin.devel
+Subject: Re: Running a full node
+Date: Sun, 9 Nov 2014 12:52:37 -0500
+Lines: 5
+Approved: news@gmane.org
+Message-ID: <CAD2Ti2_AgRK=Fbz+i=HvUZis8ZwLx7PsHWHzgAUOF=jb19oGqQ@mail.gmail.com>
+References: <545B5323.3000403@numlog.fr>
+	<545F86AD.3050002@numlog.fr>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1415555601 9908 80.91.229.3 (9 Nov 2014 17:53:21 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 9 Nov 2014 17:53:21 +0000 (UTC)
+Cc: bitcoin-development@lists.sourceforge.net,
+	bitcoin-list@lists.sourceforge.net
+To: Francis GASCHET <fg@numlog.fr>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Nov 09 18:53:14 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XnWfp-0005kp-H6
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 09 Nov 2014 18:53:13 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XnWfN-00038r-T6; Sun, 09 Nov 2014 17:52:45 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <grarpamp@gmail.com>)
+	id 1XnWfL-00038i-K2; Sun, 09 Nov 2014 17:52:45 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.220.180 as permitted sender)
+	client-ip=209.85.220.180; envelope-from=grarpamp@gmail.com;
+	helo=mail-vc0-f180.google.com; 
+Original-Received: from mail-vc0-f180.google.com ([209.85.220.180])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1XnWfK-0005Gr-Td; Sun, 09 Nov 2014 17:52:43 +0000
+Original-Received: by mail-vc0-f180.google.com with SMTP id hy10so3261770vcb.39
+	for <multiple recipients>; Sun, 09 Nov 2014 09:52:37 -0800 (PST)
+X-Received: by 10.221.5.65 with SMTP id of1mr17504935vcb.6.1415555557363; Sun,
+	09 Nov 2014 09:52:37 -0800 (PST)
+Original-Received: by 10.221.64.74 with HTTP; Sun, 9 Nov 2014 09:52:37 -0800 (PST)
+In-Reply-To: <545F86AD.3050002@numlog.fr>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(grarpamp[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1XnWfK-0005Gr-Td
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:65 gmane.comp.bitcoin.devel:6511
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/65>
+
+You may also wish to consider linking your node into
+the Tor, I2P, and maybe even CJDNS networks. Details
+on their respective mailing lists.
+
+------------------------------------------------------------------------------

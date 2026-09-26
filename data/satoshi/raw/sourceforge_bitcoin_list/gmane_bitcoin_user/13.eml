@@ -1,0 +1,108 @@
+Path: news.gmane.org!not-for-mail
+From: Wendell <w@grabhive.com>
+Newsgroups: gmane.comp.bitcoin.devel,gmane.comp.bitcoin.user
+Subject: Re: BitMail - p2p Email 0.1. beta
+Date: Tue, 30 Jul 2013 13:27:02 +0200
+Lines: 16
+Approved: news@gmane.org
+Message-ID: <7B0891A4-7163-43AE-85EC-8BA7ADC28A2A@grabhive.com>
+References: <CAEvNM8=yQn8sE4Lrf5+xedfm4RomBkBVhVWOdFFXxPEk7wZYDw@mail.gmail.com>
+	<CAAS2fgS=5ju1BFFDkjoRW65qdtojm3rYBHZcSMtUmHhyaTxMhA@mail.gmail.com>
+	<CANEZrP2+jOTHsEv+qXpqLKJS3UATB_so2ZwQdL+AyJTd2zti4A@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0 (Apple Message framework v1283)
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1375186460 3441 80.91.229.3 (30 Jul 2013 12:14:20 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 30 Jul 2013 12:14:20 +0000 (UTC)
+Cc: Bitcoin Dev <bitcoin-development@lists.sourceforge.net>,
+	bitcoin-list@lists.sourceforge.net
+To: Mike Hearn <mike@plan99.net>
+Original-X-From: bitcoin-development-bounces@lists.sourceforge.net Tue Jul 30 14:14:22 2013
+Return-path: <bitcoin-development-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-development@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-development-bounces@lists.sourceforge.net>)
+	id 1V48on-000742-Pb
+	for gcbd-bitcoin-development@m.gmane.org; Tue, 30 Jul 2013 14:14:22 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-development-bounces@lists.sourceforge.net>)
+	id 1V48oG-0002IL-2s; Tue, 30 Jul 2013 12:13:48 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <wendel@314t.com>) id 1V48oE-0002IE-4n
+	for bitcoin-development@lists.sourceforge.net;
+	Tue, 30 Jul 2013 12:13:46 +0000
+X-ACL-Warn: 
+Original-Received: from mail-oa0-f51.google.com ([209.85.219.51])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1V48oC-0000nt-8Z
+	for bitcoin-development@lists.sourceforge.net;
+	Tue, 30 Jul 2013 12:13:46 +0000
+Original-Received: by mail-oa0-f51.google.com with SMTP id h2so3590260oag.24
+	for <bitcoin-development@lists.sourceforge.net>;
+	Tue, 30 Jul 2013 05:13:38 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=google.com; s=20120113;
+	h=sender:subject:mime-version:content-type:from:in-reply-to:date:cc
+	:content-transfer-encoding:message-id:references:to:x-mailer
+	:x-gm-message-state;
+	bh=f8hKJjTe+qk5ITa/Zfh3VyQqJt5xwrEHctZ6UzQp+eY=;
+	b=cSEaWxxgCTyS0T8VWZrmoJsADoyPlWjYUfoWjNsSmiEoX3CMYyXAmKuN/TSOVDqHMO
+	FPzLgbXgUSbxrrteD8InEI8QXCBRT+zvEYDniOqZaFnx7pTENKV6XPELDMjDfp37edv0
+	oNgBA4pRDxoCl6CAlkHYP3wq0vwQK5n61jU6mSOjHHWcSXYjKB5mP0Z4cZwkhUi82TbJ
+	8hbA5j+2Y0JQByGVHZcVCzanpkSGtFV9k7JCqRJ4tP10In5Td6akOJ+gLjuBRW6Bsf3t
+	4eV0SdveRq2Q0I6rVDfi8SaYImNB1XwZlTSg9aiH/exZJSEzJLFILDmRQun61nV1dso0
+	gBGw==
+X-Received: by 10.60.123.10 with SMTP id lw10mr62855155oeb.102.1375184800590; 
+	Tue, 30 Jul 2013 04:46:40 -0700 (PDT)
+Original-Received: from [127.0.0.1] ([199.101.135.198]) by mx.google.com with ESMTPSA id
+	mq1sm94867101obb.14.2013.07.30.04.46.27 for <multiple recipients>
+	(version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+	Tue, 30 Jul 2013 04:46:40 -0700 (PDT)
+In-Reply-To: <CANEZrP2+jOTHsEv+qXpqLKJS3UATB_so2ZwQdL+AyJTd2zti4A@mail.gmail.com>
+X-Mailer: Apple Mail (2.1283)
+X-Gm-Message-State: ALoCoQm+xGd6fETXxoNXkQ3YnYvlB9BUPoedDyW4kRs0GHlClQXn4RzMr7H9sfXDQtP2LZzJndji
+X-Spam-Score: 2.7 (++)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	1.5 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+	[199.101.135.198 listed in psbl.surriel.com]
+	1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in bl.spamcop.net
+	[Blocked - see <http://www.spamcop.net/bl.shtml?199.101.135.198>]
+X-Headers-End: 1V48oC-0000nt-8Z
+X-BeenThere: bitcoin-development@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-development.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-development>,
+	<mailto:bitcoin-development-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development>
+List-Post: <mailto:bitcoin-development@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-development-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-development>,
+	<mailto:bitcoin-development-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-development-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.devel:2627 gmane.comp.bitcoin.user:13
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.devel/2627>
+
+Can you explain this process for those of us not too familiar with TPM chips?
+
+-wendell
+
+grabhive.com | twitter.com/grabhive | gpg: 6C0C9411
+
+On Jul 30, 2013, at 10:40 AM, Mike Hearn wrote:
+
+> As a testament to the seriousness with which Pond takes forward security, it can use the NVRAM in a TPM chip to reliably destroy keys for data that an SSD device might have otherwise made un-erasable.
+
+------------------------------------------------------------------------------
+Get your SQL database under version control now!
+Version control is standard for application code, but databases havent 
+caught up. So what steps can you take to put your SQL databases under 
+version control? Why should you start doing it? Read more to find out.
+http://pubads.g.doubleclick.net/gampad/clk?id=49501711&iu=/4140/ostg.clktrk

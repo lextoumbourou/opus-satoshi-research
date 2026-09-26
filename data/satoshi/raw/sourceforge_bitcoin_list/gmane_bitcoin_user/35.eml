@@ -1,0 +1,125 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?RMOibmllbA==?= Fraga <fragabr@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Suggestion: easy way to restore wallet.dat backup
+Date: Tue, 3 Dec 2013 17:21:24 -0200
+Organization: http://www.youtube.com/DanielFragaBR
+Lines: 28
+Approved: news@gmane.org
+Message-ID: <l7lav9$25l$1@ger.gmane.org>
+References: <l6ilu5$hsg$1@ger.gmane.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Trace: ger.gmane.org 1386098552 3661 80.91.229.3 (3 Dec 2013 19:22:32 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 3 Dec 2013 19:22:32 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Tue Dec 03 20:22:39 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VnvYM-0005qM-Ju
+	for gcbd-bitcoin-list@m.gmane.org; Tue, 03 Dec 2013 20:22:38 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VnvXY-0006bv-0W; Tue, 03 Dec 2013 19:21:48 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VnvXW-0006bo-0B
+	for bitcoin-list@lists.sourceforge.net; Tue, 03 Dec 2013 19:21:46 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.3 as permitted sender)
+	client-ip=80.91.229.3;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org;
+	helo=plane.gmane.org; 
+Original-Received: from plane.gmane.org ([80.91.229.3])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1VnvXU-0003yn-Ab
+	for bitcoin-list@lists.sourceforge.net; Tue, 03 Dec 2013 19:21:45 +0000
+Original-Received: from list by plane.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VnvXN-0005HZ-7a
+	for bitcoin-list@lists.sourceforge.net; Tue, 03 Dec 2013 20:21:37 +0100
+Original-Received: from 201-69-230-106.dial-up.telesp.net.br ([201.69.230.106])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Tue, 03 Dec 2013 20:21:37 +0100
+Original-Received: from fragabr by 201-69-230-106.dial-up.telesp.net.br with local
+	(Gmexim 0.1 (Debian)) id 1AlnuQ-0007hv-00
+	for <bitcoin-list@lists.sourceforge.net>;
+	Tue, 03 Dec 2013 20:21:37 +0100
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 27
+Original-X-Complaints-To: usenet@ger.gmane.org
+X-Gmane-NNTP-Posting-Host: 201-69-230-106.dial-up.telesp.net.br
+X-Newsreader: Claws Mail 3.9.0cvs128 (GTK+ 2.24.20; x86_64-unknown-linux-gnu)
+X-Spam-Score: -0.3 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(fragabr[at]gmail.com)
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [80.91.229.3 listed in list.dnswl.org]
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+	CUSTOM_MED
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: mcxnow.com]
+	1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit,
+	and not from a mailing list
+X-Headers-End: 1VnvXU-0003yn-Ab
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:35
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/35>
+
+T24gV2VkLCAyMCBOb3YgMjAxMyAxMzo1Mzo1MiAtMDIwMApEw6JuaWVsIEZyYWdhIDxmcmFnYWJy
+QGdtYWlsLmNvbT4gd3JvdGU6Cgo+IAlUb2RheSwgd2hlbiBhIHVzZXIgdXNlcyBiaXRjb2luLXF0
+IGNsaWVudCwgaXQgY2FuIG1ha2UgYSBiYWNrdXAKPiBvZiB3YWxsZXQuZGF0IGVhc2lseSB0aHJv
+dWdoIG1lbnUsIGJ1dCB3aGVuIGhlL3NoZSBuZWVkcyB0byByZXN0b3JlCj4gdGhpcyBiYWNrdXAs
+IGhlL3NoZSBtdXN0IGNvcHkgdGhlIGZpbGUgdG8gdGhlIGNvcnJlY3QgZm9sZGVyIGFuZAo+IGV4
+ZWN1dGUgImJpdGNvaW4tcXQgLXJlc2NhbiIuCj4gCj4gCU15IHN1Z2dlc3Rpb246IGJpdGNvaW4t
+cXQgZGV2ZWxvcGVycyBjb3VsZCBpbXBsZW1lbnQgYW4gZWFzaWVyCj4gd2F5IHRvIHJlc3RvcmUu
+IEZvciBleGFtcGxlOiBhIG9wdGlvbiBpbiB0aGUgRmlsZSBtZW51ICJSZXN0b3JlIFdhbGxldCIK
+PiBvciAiUmVjb3ZlciBXYWxsZXQiIHdoZXJlIGl0IHdvdWxkIHNob3cgYSBkaWFsb2cgYXNraW5n
+IGZvciB0aGUgYmFja3VwCj4gZmlsZSBhbmQgZXZlcnl0aGluZyB3b3VsZCBiZSBkb25lIGF1dG9t
+YXRpY2FsbHkgKG5vIG5lZWQgdG8gZG8gaXQKPiBtYW51YWxseSkuCj4gCj4gCUlmIHdlIHdhbnQg
+ZXZlcnlib2R5IHRvIHVzZSBiaXRjb2luLCB0aGVzZSBvcGVyYXRpb25zIHNob3VsZAo+IGJlIGFz
+IGVhc3kgYXMgcG9zc2libGUuCj4gCj4gCVdoYXQgZG8geW91IHRoaW5rPwoKCU5vYm9keT8KCi0t
+IApMaW51eCAzLjEyLjA6IE9uZSBHaWFudCBMZWFwIGZvciBGcm9na2luZApodHRwOi8vd3d3Lnlv
+dXR1YmUuY29tL0RhbmllbEZyYWdhQlIKaHR0cDovL21jeG5vdy5jb20KQml0Y29pbjogMTJINjY2
+MXlvTERVWmFZUGRhaDZ1clpTNVdpWHdUQVVnTAoKCgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KUmFw
+aWRseSB0cm91Ymxlc2hvb3QgcHJvYmxlbXMgYmVmb3JlIHRoZXkgYWZmZWN0IHlvdXIgYnVzaW5l
+c3MuIE1vc3QgSVQgCm9yZ2FuaXphdGlvbnMgZG9uJ3QgaGF2ZSBhIGNsZWFyIHBpY3R1cmUgb2Yg
+aG93IGFwcGxpY2F0aW9uIHBlcmZvcm1hbmNlIAphZmZlY3RzIHRoZWlyIHJldmVudWUuIFdpdGgg
+QXBwRHluYW1pY3MsIHlvdSBnZXQgMTAwJSB2aXNpYmlsaXR5IGludG8geW91ciAKSmF2YSwuTkVU
+LCAmIFBIUCBhcHBsaWNhdGlvbi4gU3RhcnQgeW91ciAxNS1kYXkgRlJFRSBUUklBTCBvZiBBcHBE
+eW5hbWljcyBQcm8hCmh0dHA6Ly9wdWJhZHMuZy5kb3VibGVjbGljay5uZXQvZ2FtcGFkL2Nsaz9p
+ZD04NDM0OTM1MSZpdT0vNDE0MC9vc3RnLmNsa3RyawpfX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fXwpiaXRjb2luLWxpc3QgbWFpbGluZyBsaXN0CmJpdGNvaW4t
+bGlzdEBsaXN0cy5zb3VyY2Vmb3JnZS5uZXQKaHR0cHM6Ly9saXN0cy5zb3VyY2Vmb3JnZS5uZXQv
+bGlzdHMvbGlzdGluZm8vYml0Y29pbi1saXN0Cg==
+

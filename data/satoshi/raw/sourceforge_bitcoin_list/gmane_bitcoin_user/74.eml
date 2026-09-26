@@ -1,0 +1,116 @@
+Path: news.gmane.org!not-for-mail
+From: grarpamp <grarpamp@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Bitcoind error at block 322082 (The network does
+ not appear to fully agree)
+Date: Sun, 15 Mar 2015 05:39:06 -0400
+Lines: 36
+Approved: news@gmane.org
+Message-ID: <CAD2Ti2_-AhtEKGriFSPE1PrrRw0i8BbHnQJcN0rtU7JsTy4_-g@mail.gmail.com>
+References: <1392201618.4392052.1426126381202.JavaMail.yahoo@mail.yahoo.com>
+	<55036AA4.60300@sky-ip.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1426412443 13678 80.91.229.3 (15 Mar 2015 09:40:43 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 15 Mar 2015 09:40:43 +0000 (UTC)
+To: "bitcoin-list@lists.sourceforge.net" <bitcoin-list@lists.sourceforge.net>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Mar 15 10:40:38 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YX52E-0002fF-3P
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 15 Mar 2015 10:40:38 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YX50w-0006kc-28; Sun, 15 Mar 2015 09:39:18 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <grarpamp@gmail.com>) id 1YX50u-0006kW-Qe
+	for bitcoin-list@lists.sourceforge.net; Sun, 15 Mar 2015 09:39:16 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.213.182 as permitted sender)
+	client-ip=209.85.213.182; envelope-from=grarpamp@gmail.com;
+	helo=mail-ig0-f182.google.com; 
+Original-Received: from mail-ig0-f182.google.com ([209.85.213.182])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1YX50p-0006w2-Fa
+	for bitcoin-list@lists.sourceforge.net; Sun, 15 Mar 2015 09:39:16 +0000
+Original-Received: by igbue6 with SMTP id ue6so18301575igb.1
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sun, 15 Mar 2015 02:39:06 -0700 (PDT)
+X-Received: by 10.107.7.141 with SMTP id g13mr63635101ioi.52.1426412346241;
+	Sun, 15 Mar 2015 02:39:06 -0700 (PDT)
+Original-Received: by 10.36.104.78 with HTTP; Sun, 15 Mar 2015 02:39:06 -0700 (PDT)
+In-Reply-To: <55036AA4.60300@sky-ip.org>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(grarpamp[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1YX50p-0006w2-Fa
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:74
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/74>
+
+On Fri, Mar 13, 2015 at 6:54 PM, s7r <s7r@sky-ip.org> wrote:
+> What is curious is that it still sates version : 90300, regardless I
+
+realpath bitcoind
+[absolute path]
+
+/<absolute_path_to>/bitcoind -\? | head -1
+[bitcoind version]
+
+ldd /<absolute_path_to>/bitcoind | grep libssl
+strings <that libssl> | grep OpenSSL
+[ssl version]
+
+If fully static, strings /.../bitcoind | grep OpenSSL
+[ssl version]
+
+> everything is up to date, all dependencies are installed and
+
+Without seeing your complete command history from download
+through build to exec, these are ambiguous phrases.
+
+Brief read of the net says bitcoind 0.10x with openssl 1.0.1l
+should work. Could be paths to bitcoind/libssl/libcrypto, or mixed
+up/old versions. Or the bit of net I read is wrong.
+
+You probably don't want to subject bitcoind to the randomness
+of packaging systems. Static build in a private directory should
+fix that. Today the static part may be something like:
+CPPFLAGS=-static LDFLAGS=-static ./configure
+
+------------------------------------------------------------------------------
+Dive into the World of Parallel Programming The Go Parallel Website, sponsored
+by Intel and developed in partnership with Slashdot Media, is your hub for all
+things parallel software development, from weekly thought leadership blogs to
+news, videos, case studies, tutorials and more. Take a look and join the 
+conversation now. http://goparallel.sourceforge.net/

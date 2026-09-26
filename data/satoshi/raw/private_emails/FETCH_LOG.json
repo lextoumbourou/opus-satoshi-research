@@ -1,0 +1,262 @@
+{
+ "adam_back/adam-back-exhibit-ab1-1.pdf": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "COPA v Wright exhibit AB1",
+  "sha256": "aa30732a9d26cb1b46aefcef5bb344ff3440bff800c4ee12fa0e292c668eee7a",
+  "url_candidates": [
+   "https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf",
+   "https://web.archive.org/web/20260831145317id_/https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf"
+  ]
+ },
+ "andresen/eleven-years-ago-today.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "rendered",
+  "sha256": "700801ee07235d94057a7edfc95c209d4c761d1998d1e59e0aa2a55c2b3a73e7",
+  "url_candidates": [
+   "https://gavinandresen.ninja/eleven-years-ago-today"
+  ]
+ },
+ "andresen/eleven-years-ago-today.wikitext": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "raw wikitext",
+  "sha256": "31ddf9fe35287a3a12ba765251f5d08422487856f727bb9334452dac7226a5ca",
+  "url_candidates": [
+   "https://riski.wiki/index.php?title=User:Gavinandresen/Blog/2022-04-26_Eleven_years_ago_today%E2%80%A6&action=raw"
+  ]
+ },
+ "hal_finney/coindesk-2020-11-26.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "CoinDesk article",
+  "sha256": "ca8af6b681ee098929fcd0f4b11b7b806f08728a89ec4b2c2c6c5858fc583287",
+  "url_candidates": [
+   "https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-satoshi-nakamoto-present-a-new-puzzle"
+  ]
+ },
+ "hal_finney/coindesk_049528492755b8dc909f2ea99364076cf0453884-1258x698.png": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Satoshi -> Hal 2009-01-09 'Re: Bitcoin v0.1' (raw mbox screenshot)",
+  "sha256": "cd76c12447fef514bc597721dc93762137ff47bdc7c363c05a9ed4dceeed0ab1",
+  "url_candidates": [
+   "https://cdn.sanity.io/images/s3y3vcno/production/049528492755b8dc909f2ea99364076cf0453884-1258x698.png"
+  ]
+ },
+ "hal_finney/coindesk_a14c90a82690ccdd33ec98d0381c6f5e5cb78c66-1426x634.png": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Satoshi -> Hal 2009-01-09 'Bitcoin v0.1' (raw mbox screenshot)",
+  "sha256": "7cc9f68980414dfa7c3dbebc51dc37358d92d9fbe623e67f27d26b4e371587de",
+  "url_candidates": [
+   "https://cdn.sanity.io/images/s3y3vcno/production/a14c90a82690ccdd33ec98d0381c6f5e5cb78c66-1426x634.png"
+  ]
+ },
+ "hal_finney/coindesk_c165ef7cffc1392f4ed4e166e814cb65d8feedce-1212x914.png": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Hal -> Satoshi 2008-11-19 (raw mbox screenshot)",
+  "sha256": "b28b072ee15512521c26e08462c540a0137e5abdc7bd344c77de72215b1e233a",
+  "url_candidates": [
+   "https://cdn.sanity.io/images/s3y3vcno/production/c165ef7cffc1392f4ed4e166e814cb65d8feedce-1212x914.png"
+  ]
+ },
+ "hal_finney/finneynakamotoemails.pdf": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "WSJ 2014",
+  "sha256": "41b4fc834cb2ebf6eb87f6042f3d0d108c51f1801df8ad8d1abae660102655d2",
+  "url_candidates": [
+   "https://online.wsj.com/public/resources/documents/finneynakamotoemails.pdf"
+  ]
+ },
+ "hanyecz/reddit-36vnmr-wayback.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Popper reddit post (archived)",
+  "sha256": "ea8618cf5f4941b460a7c5e365fcacf8070e939cd827208bf12cb36d021de99e",
+  "url_candidates": [
+   "https://web.archive.org/web/20250803142229id_/https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/"
+  ]
+ },
+ "hearn/First-Witness-Statement-of-Michael-Christopher-Hearn.pdf": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "COPA witness statement (context; exhibits are screenshots)",
+  "sha256": "3ea8f0af9beb53ab315ae6157d34ddbbe8ed05204ac6d5dfcf76365983c106ae",
+  "url_candidates": [
+   "https://bitcoindefense.org/assets/documents/First-Witness-Statement-of-Michael-Christopher-Hearn.pdf"
+  ]
+ },
+ "hearn/index.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Hearn's page",
+  "sha256": "39d0adce93c935ab85575c7f3886ca515bb8bff9e05c41ce32f56bd4d4889517",
+  "url_candidates": [
+   "https://plan99.net/~mike/"
+  ]
+ },
+ "hearn/pastebin_JF3USKFT.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "thread 4 text",
+  "sha256": "81092a5f15e324a77ea895cad102770f8e6ac502e186c1de23781d3833313d75",
+  "url_candidates": [
+   "https://pastebin.com/raw/JF3USKFT",
+   "https://web.archive.org/web/20230610115741id_/https://pastebin.com/raw/JF3USKFT"
+  ]
+ },
+ "hearn/pastebin_Na5FwkQ4.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "thread 1 text",
+  "sha256": "6d8d6521fc19b61a2617ce88f44efa4d9b0977bd2b45987c1249d533a41d21d1",
+  "url_candidates": [
+   "https://pastebin.com/raw/Na5FwkQ4",
+   "https://web.archive.org/web/20230319170845id_/https://pastebin.com/raw/Na5FwkQ4"
+  ]
+ },
+ "hearn/pastebin_syrmi3ET.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "thread 5 text",
+  "sha256": "a04523bbccf04b0cb5d3f9d7e705ece590a9b36b2d0a0e25fb5eed2277e3f32e",
+  "url_candidates": [
+   "https://pastebin.com/raw/syrmi3ET"
+  ]
+ },
+ "hearn/pastebin_wA9Jn100.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "thread 3 text",
+  "sha256": "85f336da99b6523637871d2175ec20569bfe2fc06d6f4b771ac9171c4e3a1a21",
+  "url_candidates": [
+   "https://pastebin.com/raw/wA9Jn100"
+  ]
+ },
+ "hearn/thread1.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Gmail print view",
+  "sha256": "4cf3fd6749653aadfe710392fb10dfed8bb63edb4a398e84f4e01bb435ec9e00",
+  "url_candidates": [
+   "https://plan99.net/~mike/satoshi-emails/thread1.html"
+  ]
+ },
+ "hearn/thread2.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Gmail print view",
+  "sha256": "0dc6d0858c9a3a0c638039e1811be879aa568b64b93388357d0710d91c5e4117",
+  "url_candidates": [
+   "https://plan99.net/~mike/satoshi-emails/thread2.html"
+  ]
+ },
+ "hearn/thread3.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Gmail print view",
+  "sha256": "4875cb18a4f76dc47a97fb467944017bddc4a1131ad29a8ad43279abdc88468b",
+  "url_candidates": [
+   "https://plan99.net/~mike/satoshi-emails/thread3.html"
+  ]
+ },
+ "hearn/thread4.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Gmail print view",
+  "sha256": "20d3291430c217afc4578bd404992039c709162a5dd4ecc5661a673690580198",
+  "url_candidates": [
+   "https://plan99.net/~mike/satoshi-emails/thread4.html"
+  ]
+ },
+ "hearn/thread5.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Gmail print view",
+  "sha256": "e687652a9e0a2b5ece55400342198b95444d24f0515f25e42432d4adb7c9d6f0",
+  "url_candidates": [
+   "https://plan99.net/~mike/satoshi-emails/thread5.html"
+  ]
+ },
+ "malmi/index.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Malmi's own publication (live)",
+  "sha256": "feefc9377090a14740b8f76ac836b244ec753fce7a37b09cf97648bd87c3d4c0",
+  "url_candidates": [
+   "https://mmalmi.github.io/satoshi/"
+  ]
+ },
+ "malmi/index.pinned-6e20611f.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "same page at the 2024-02-23 commit",
+  "sha256": "feefc9377090a14740b8f76ac836b244ec753fce7a37b09cf97648bd87c3d4c0",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/mmalmi/mmalmi.github.io/6e20611f204a9b9afd9e9f83e2ffe69754118465/satoshi/index.html"
+  ]
+ },
+ "matonis/bitcoinfoundation-forum-topic-54.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "Matonis forum post",
+  "sha256": "c7925b61e32ffafd9077e25e156b2d0b1dea00a0649bb2ea3e41a8ec341d363e",
+  "url_candidates": [
+   "https://web.archive.org/web/20140511100607id_/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/",
+   "https://web.archive.org/web/20200516155319id_/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/"
+  ]
+ },
+ "secondary_lugaxker/66FEUFUEIVC3LOIOA6ESVKGGKM.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "84cd98c69990b9e69d5e87c362053666fc94e7950fd1dc0ea165433b95ad9a28",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/66FEUFUEIVC3LOIOA6ESVKGGKM.txt"
+  ]
+ },
+ "secondary_lugaxker/QEI3NJOWY5FXJOOR7CEMNT7O3U.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "5e14287b6240f8b437957a2385931146016c2720ae2aba32fd97b0718add320b",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/QEI3NJOWY5FXJOOR7CEMNT7O3U.txt"
+  ]
+ },
+ "secondary_lugaxker/WQEY5CWEN5ASLKLCSGSL5ZNXLQ.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "c710dfc351864a44b81edac4837af937e7857494b32ae362bd91cf7d43bc5286",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/WQEY5CWEN5ASLKLCSGSL5ZNXLQ.txt"
+  ]
+ },
+ "secondary_lugaxker/email-to-gavin-andresen.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "54df9b4eeee2aa895ccd9efabf6c034d697f771bfa9174564875ceeba3fa7c8f",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/email-to-gavin-andresen.txt"
+  ]
+ },
+ "secondary_lugaxker/email-to-jon-matonis.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "d5141357a3bfedde41e1f66c9ec7dfa62d984cb63d46c54ddedf7b6287c006ab",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/email-to-jon-matonis.txt"
+  ]
+ },
+ "secondary_lugaxker/email-to-laszlo-hanyecz.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "ff43fbc8aa1ca235b2cd145df4f1e4ee2f0dc1358601262f6457a99559be3b20",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/email-to-laszlo-hanyecz.txt"
+  ]
+ },
+ "secondary_lugaxker/nakamoto-dai-emails.txt": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "secondary",
+  "sha256": "a0fe5a04e729a271266223c733bc9207d1a25c33d300bd7945c927928324204a",
+  "url_candidates": [
+   "https://raw.githubusercontent.com/lugaxker/nakamoto-archive/8405b13482ae1a1bc55d6fe5bb3a5f2f46a58ffc/src/nakamoto-dai-emails.txt"
+  ]
+ },
+ "trammell/Satoshi_Nakamoto.zip": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "raw mbox zip",
+  "sha256": "00d6d54372c34454c54c2d20aba498d82376b6b3750e7d17ca105487476aa2cc",
+  "url_candidates": [
+   "https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip"
+  ]
+ },
+ "wei_dai/gwern-2008-nakamoto.html": {
+  "fetched_utc": "pre-existing file (downloaded 2026-09-26 from one of url_candidates)",
+  "note": "gwern.net page",
+  "sha256": "a3133bf6f59c63617a5efcb2b252255654f477eea79a9c9adf8f28068e1e9783",
+  "url_candidates": [
+   "https://gwern.net/doc/bitcoin/2008-nakamoto"
+  ]
+ }
+}

@@ -1,0 +1,197 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?RMOibmllbA==?= Fraga <fragabr@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: =?utf-8?q?bitcoin-qt_latest_git_compilation_issue_?=
+ =?utf-8?q?=28error=3A_conversion_from_=E2=80=98uint64=5Ft_=7Baka_long_uns?=
+ =?utf-8?b?aWduZWQgaW50feKAmSB0byDigJhjb25zdCBWYWx1ZV90eXBlIHtha2EgY29u?=
+ =?utf-8?q?st_json=5Fspirit=3A=3AValue=5Fimpl=3Cjson=5Fspirit=3A=3AConfig?=
+ =?utf-8?b?X3ZlY3RvcjxzdGQ6OmJhc2ljX3N0cmluZzxjaGFyPiA+ID594oCZIGlzIGFt?=
+ =?utf-8?q?biguous=29?=
+Date: Fri, 6 Sep 2013 20:24:26 -0300
+Organization: http://www.youtube.com/DanielFragaBR
+Lines: 100
+Approved: news@gmane.org
+Message-ID: <l0do72$anp$1@ger.gmane.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Trace: ger.gmane.org 1378510249 19335 80.91.229.3 (6 Sep 2013 23:30:49 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 6 Sep 2013 23:30:49 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Sep 07 01:30:53 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VI5UK-0001f5-9y
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 07 Sep 2013 01:30:52 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VI5Ti-0002g9-SL; Fri, 06 Sep 2013 23:30:14 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VI5Tg-0002g2-V5
+	for bitcoin-list@lists.sourceforge.net; Fri, 06 Sep 2013 23:30:12 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.3 as permitted sender)
+	client-ip=80.91.229.3;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org;
+	helo=plane.gmane.org; 
+Original-Received: from plane.gmane.org ([80.91.229.3])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1VI5Tf-0002UI-5i
+	for bitcoin-list@lists.sourceforge.net; Fri, 06 Sep 2013 23:30:12 +0000
+Original-Received: from list by plane.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VI5TY-0001BY-5j
+	for bitcoin-list@lists.sourceforge.net; Sat, 07 Sep 2013 01:30:04 +0200
+Original-Received: from 177.102.86.225 ([177.102.86.225])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 07 Sep 2013 01:30:04 +0200
+Original-Received: from fragabr by 177.102.86.225 with local (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 07 Sep 2013 01:30:04 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 97
+Original-X-Complaints-To: usenet@ger.gmane.org
+X-Gmane-NNTP-Posting-Host: 177.102.86.225
+X-Newsreader: Claws Mail 3.9.0cvs128 (GTK+ 2.24.20; x86_64-unknown-linux-gnu)
+X-Spam-Score: -0.3 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [80.91.229.3 listed in list.dnswl.org]
+	1.5 FSL_HELO_BARE_IP_2     FSL_HELO_BARE_IP_2
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(fragabr[at]gmail.com)
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+	CUSTOM_MED
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.9 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	-2.4 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain 1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit,
+	and not from a mailing list
+X-Headers-End: 1VI5Tf-0002UI-5i
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:22
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/22>
+
+CUkgYWx3YXlzIGxpa2UgdG8gY29tcGlsZSBteSBzb2Z0d2FyZSBhbmQgSSd2ZSBiZWVuIGRvaW5n
+IHRoaXMKZm9yIGEgbG9uZyB0aW1lLCBidXQgbm93IHdpdGggbGF0ZXN0IGdpdCBvZiBiaXRjb2lu
+LXF0IEkgZ2V0IHRob3NlCmVycm9ycyB3aXRoIGdjYyA0LjguMiAoMjAxMzA4MjIpOgoKY2QgL3Vz
+ci9sb2NhbC9zcmMvZ2l0L2JpdGNvaW4vc3JjL2xldmVsZGIgJiYgQ0M9Z2NjIENYWD1nKysgbWFr
+ZSBPUFQ9Ii1tNjQgLXBpcGUgLWZzdGFjay1wcm90ZWN0b3ItYWxsIC1EX0ZPUlRJRllfU09VUkNF
+PTIgLU8yIiBsaWJsZXZlbGRiLmEgbGlibWVtZW52LmEKbWFrZVsxXTogRW50ZXJpbmcgZGlyZWN0
+b3J5IGAvdXNyL2xvY2FsL3NyYy9naXQvYml0Y29pbi9zcmMvbGV2ZWxkYicKbWFrZVsxXTogYGxp
+YmxldmVsZGIuYScgaXMgdXAgdG8gZGF0ZS4KbWFrZVsxXTogYGxpYm1lbWVudi5hJyBpcyB1cCB0
+byBkYXRlLgptYWtlWzFdOiBMZWF2aW5nIGRpcmVjdG9yeSBgL3Vzci9sb2NhbC9zcmMvZ2l0L2Jp
+dGNvaW4vc3JjL2xldmVsZGInCmNkIC91c3IvbG9jYWwvc3JjL2dpdC9iaXRjb2luOyAvYmluL3No
+IHNoYXJlL2dlbmJ1aWxkLnNoIGJ1aWxkL2J1aWxkLmgKZysrIC1jIC1tNjQgLXBpcGUgLWZzdGFj
+ay1wcm90ZWN0b3ItYWxsIC1EX0ZPUlRJRllfU09VUkNFPTIgLU8yIC1EX1JFRU5UUkFOVCAtZmRp
+YWdub3N0aWNzLXNob3ctb3B0aW9uIC1XYWxsIC1XZXh0cmEgLVdmb3JtYXQgLVdmb3JtYXQtc2Vj
+dXJpdHkgLVduby11bnVzZWQtcGFyYW1ldGVyIC1Xc3RhY2stcHJvdGVjdG9yIC1EQk9PU1RfVEhS
+RUFEX1VTRV9MSUIgLURCT09TVF9TUElSSVRfVEhSRUFEU0FGRSAtRFVTRV9VUE5QPTEgLURTVEFU
+SUNMSUIgLURVU0VfSVBWNj0xIC1ESEFWRV9CVUlMRF9JTkZPIC1ETElOVVggLURfRklMRV9PRkZT
+RVRfQklUUz02NCAtRFFUX05PX0RFQlVHIC1EUVRfR1VJX0xJQiAtRFFUX05FVFdPUktfTElCIC1E
+UVRfQ09SRV9MSUIgLURRVF9TSEFSRUQgLUkuLi8uLi8uLi9Ucm9sbHRlY2gvUXQtNC44LjQvbWtz
+cGVjcy9saW51eC1nKystNjQgLUkuLi8uLi8uLi9Ucm9sbHRlY2gvUXQtNC44LjQvaW5jbHVkZS9R
+dENvcmUgLUkuLi8uLi8uLi9Ucm9sbHRlY2gvUXQtNC44LjQvaW5jbHVkZS9RdE5ldHdvcmsgLUku
+Li8uLi8uLi9Ucm9sbHRlY2gvUXQtNC44LjQvaW5jbHVkZS9RdEd1aSAtSS4uLy4uLy4uL1Ryb2xs
+dGVjaC9RdC00LjguNC9pbmNsdWRlIC1Jc3JjIC1Jc3JjL2pzb24gLUlzcmMvcXQgLUlzcmMvbGV2
+ZWxkYi9pbmNsdWRlIC1Jc3JjL2xldmVsZGIvaGVscGVycyAtSS4uLy4uLy4uL0JlcmtlbGV5REIu
+NS4zL2luY2x1ZGUgLUkuLi8uLi8uLi9zc2wvaW5jbHVkZSAtSWJ1aWxkIC1JYnVpbGQgLW8gYnVp
+bGQvcnBjbWluaW5nLm8gc3JjL3JwY21pbmluZy5jcHAKSW4gZmlsZSBpbmNsdWRlZCBmcm9tIHNy
+Yy9iaXRjb2lucnBjLmg6MTc6MCwKICAgICAgICAgICAgICAgICBmcm9tIHNyYy9ycGNtaW5pbmcu
+Y3BwOjEwOgpzcmMvanNvbi9qc29uX3NwaXJpdF93cml0ZXJfdGVtcGxhdGUuaDogSW4gZnVuY3Rp
+b24g4oCYU3RyaW5nX3R5cGUganNvbl9zcGlyaXQ6Om5vbl9wcmludGFibGVfdG9fc3RyaW5nKHVu
+c2lnbmVkIGludCnigJk6CnNyYy9qc29uL2pzb25fc3Bpcml0X3dyaXRlcl90ZW1wbGF0ZS5oOjMx
+OjUwOiB3YXJuaW5nOiB0eXBlZGVmIOKAmENoYXJfdHlwZeKAmSBsb2NhbGx5IGRlZmluZWQgYnV0
+IG5vdCB1c2VkIFstV3VudXNlZC1sb2NhbC10eXBlZGVmc10KICAgICAgICAgdHlwZWRlZiB0eXBl
+bmFtZSBTdHJpbmdfdHlwZTo6dmFsdWVfdHlwZSBDaGFyX3R5cGU7CiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXgpzcmMvcnBjbWluaW5nLmNwcDogSW4g
+ZnVuY3Rpb24g4oCYanNvbl9zcGlyaXQ6OlZhbHVlIGdldG1pbmluZ2luZm8oY29uc3QgQXJyYXkm
+LCBib29sKeKAmToKc3JjL3JwY21pbmluZy5jcHA6ODk6Njg6IGVycm9yOiBjb252ZXJzaW9uIGZy
+b20g4oCYdWludDY0X3Qge2FrYSBsb25nIHVuc2lnbmVkIGludH3igJkgdG8g4oCYY29uc3QgVmFs
+dWVfdHlwZSB7YWthIGNvbnN0IGpzb25fc3Bpcml0OjpWYWx1ZV9pbXBsPGpzb25fc3Bpcml0OjpD
+b25maWdfdmVjdG9yPHN0ZDo6YmFzaWNfc3RyaW5nPGNoYXI+ID4gPn3igJkgaXMgYW1iaWd1b3Vz
+CiAgICAgb2JqLnB1c2hfYmFjayhQYWlyKCJjdXJyZW50YmxvY2tzaXplIiwgKHVpbnQ2NF90KW5M
+YXN0QmxvY2tTaXplKSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgXgpzcmMvcnBjbWluaW5nLmNwcDo4OTo2ODogbm90
+ZTogY2FuZGlkYXRlcyBhcmU6CkluIGZpbGUgaW5jbHVkZWQgZnJvbSBzcmMvanNvbi9qc29uX3Nw
+aXJpdF9yZWFkZXJfdGVtcGxhdGUuaDo5OjAsCiAgICAgICAgICAgICAgICAgZnJvbSBzcmMvYml0
+Y29pbnJwYy5oOjE2LAogICAgICAgICAgICAgICAgIGZyb20gc3JjL3JwY21pbmluZy5jcHA6MTA6
+CnNyYy9qc29uL2pzb25fc3Bpcml0X3ZhbHVlLmg6MjgzOjU6IG5vdGU6IGpzb25fc3Bpcml0OjpW
+YWx1ZV9pbXBsPENvbmZpZz46OlZhbHVlX2ltcGwoZG91YmxlKSBbd2l0aCBDb25maWcgPSBqc29u
+X3NwaXJpdDo6Q29uZmlnX3ZlY3RvcjxzdGQ6OmJhc2ljX3N0cmluZzxjaGFyPiA+XQogICAgIFZh
+bHVlX2ltcGw8IENvbmZpZyA+OjpWYWx1ZV9pbXBsKCBkb3VibGUgdmFsdWUgKQogICAgIF4Kc3Jj
+L2pzb24vanNvbl9zcGlyaXRfdmFsdWUuaDoyNzU6NTogbm90ZToganNvbl9zcGlyaXQ6OlZhbHVl
+X2ltcGw8Q29uZmlnPjo6VmFsdWVfaW1wbChib29zdDo6dWludDY0X3QpIFt3aXRoIENvbmZpZyA9
+IGpzb25fc3Bpcml0OjpDb25maWdfdmVjdG9yPHN0ZDo6YmFzaWNfc3RyaW5nPGNoYXI+ID47IGJv
+b3N0Ojp1aW50NjRfdCA9IGxvbmcgbG9uZyB1bnNpZ25lZCBpbnRdCiAgICAgVmFsdWVfaW1wbDwg
+Q29uZmlnID46OlZhbHVlX2ltcGwoIGJvb3N0Ojp1aW50NjRfdCB2YWx1ZSApCiAgICAgXgpzcmMv
+anNvbi9qc29uX3NwaXJpdF92YWx1ZS5oOjI2Nzo1OiBub3RlOiBqc29uX3NwaXJpdDo6VmFsdWVf
+aW1wbDxDb25maWc+OjpWYWx1ZV9pbXBsKGJvb3N0OjppbnQ2NF90KSBbd2l0aCBDb25maWcgPSBq
+c29uX3NwaXJpdDo6Q29uZmlnX3ZlY3RvcjxzdGQ6OmJhc2ljX3N0cmluZzxjaGFyPiA+OyBib29z
+dDo6aW50NjRfdCA9IGxvbmcgbG9uZyBpbnRdCiAgICAgVmFsdWVfaW1wbDwgQ29uZmlnID46OlZh
+bHVlX2ltcGwoIGJvb3N0OjppbnQ2NF90IHZhbHVlICkKICAgICBeCnNyYy9qc29uL2pzb25fc3Bp
+cml0X3ZhbHVlLmg6MjU5OjU6IG5vdGU6IGpzb25fc3Bpcml0OjpWYWx1ZV9pbXBsPENvbmZpZz46
+OlZhbHVlX2ltcGwoaW50KSBbd2l0aCBDb25maWcgPSBqc29uX3NwaXJpdDo6Q29uZmlnX3ZlY3Rv
+cjxzdGQ6OmJhc2ljX3N0cmluZzxjaGFyPiA+XQogICAgIFZhbHVlX2ltcGw8IENvbmZpZyA+OjpW
+YWx1ZV9pbXBsKCBpbnQgdmFsdWUgKQogICAgIF4Kc3JjL2pzb24vanNvbl9zcGlyaXRfdmFsdWUu
+aDoyNTE6NTogbm90ZToganNvbl9zcGlyaXQ6OlZhbHVlX2ltcGw8Q29uZmlnPjo6VmFsdWVfaW1w
+bChib29sKSBbd2l0aCBDb25maWcgPSBqc29uX3NwaXJpdDo6Q29uZmlnX3ZlY3RvcjxzdGQ6OmJh
+c2ljX3N0cmluZzxjaGFyPiA+XQogICAgIFZhbHVlX2ltcGw8IENvbmZpZyA+OjpWYWx1ZV9pbXBs
+KCBib29sIHZhbHVlICkKICAgICBeCnNyYy9qc29uL2pzb25fc3Bpcml0X3ZhbHVlLmg6MjE5OjU6
+IG5vdGU6IGpzb25fc3Bpcml0OjpWYWx1ZV9pbXBsPENvbmZpZz46OlZhbHVlX2ltcGwoanNvbl9z
+cGlyaXQ6OlZhbHVlX2ltcGw8Q29uZmlnPjo6Q29uc3Rfc3RyX3B0cikgW3dpdGggQ29uZmlnID0g
+anNvbl9zcGlyaXQ6OkNvbmZpZ192ZWN0b3I8c3RkOjpiYXNpY19zdHJpbmc8Y2hhcj4gPjsganNv
+bl9zcGlyaXQ6OlZhbHVlX2ltcGw8Q29uZmlnPjo6Q29uc3Rfc3RyX3B0ciA9IGNvbnN0IGNoYXIq
+XSA8bmVhciBtYXRjaD4KICAgICBWYWx1ZV9pbXBsPCBDb25maWcgPjo6VmFsdWVfaW1wbCggY29u
+c3QgQ29uc3Rfc3RyX3B0ciB2YWx1ZSApCiAgICAgXgpzcmMvanNvbi9qc29uX3NwaXJpdF92YWx1
+ZS5oOjIxOTo1OiBub3RlOiAgIG5vIGtub3duIGNvbnZlcnNpb24gZm9yIGFyZ3VtZW50IDEgZnJv
+bSDigJh1aW50NjRfdCB7YWthIGxvbmcgdW5zaWduZWQgaW50feKAmSB0byDigJhqc29uX3NwaXJp
+dDo6VmFsdWVfaW1wbDxqc29uX3NwaXJpdDo6Q29uZmlnX3ZlY3RvcjxzdGQ6OmJhc2ljX3N0cmlu
+ZzxjaGFyPiA+ID46OkNvbnN0X3N0cl9wdHIge2FrYSBjb25zdCBjaGFyKn3igJkKc3JjL2pzb24v
+anNvbl9zcGlyaXRfdmFsdWUuaDo0Mzk6NTogZXJyb3I6ICAgaW5pdGlhbGl6aW5nIGFyZ3VtZW50
+IDIgb2Yg4oCYanNvbl9zcGlyaXQ6OlBhaXJfaW1wbDxDb25maWc+OjpQYWlyX2ltcGwoY29uc3Qg
+U3RyaW5nX3R5cGUmLCBjb25zdCBWYWx1ZV90eXBlJikgW3dpdGggQ29uZmlnID0ganNvbl9zcGly
+aXQ6OkNvbmZpZ192ZWN0b3I8c3RkOjpiYXNpY19zdHJpbmc8Y2hhcj4gPjsganNvbl9zcGlyaXQ6
+OlBhaXJfaW1wbDxDb25maWc+OjpTdHJpbmdfdHlwZSA9IHN0ZDo6YmFzaWNfc3RyaW5nPGNoYXI+
+OyBqc29uX3NwaXJpdDo6UGFpcl9pbXBsPENvbmZpZz46OlZhbHVlX3R5cGUgPSBqc29uX3NwaXJp
+dDo6VmFsdWVfaW1wbDxqc29uX3NwaXJpdDo6Q29uZmlnX3ZlY3RvcjxzdGQ6OmJhc2ljX3N0cmlu
+ZzxjaGFyPiA+ID5d4oCZCiAgICAgUGFpcl9pbXBsPCBDb25maWcgPjo6UGFpcl9pbXBsKCBjb25z
+dCBTdHJpbmdfdHlwZSYgbmFtZSwgY29uc3QgVmFsdWVfdHlwZSYgdmFsdWUgKQogICAgIF4KCgkq
+KioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKgoKCUFueSBoaW50
+cz8gVGhhbmtzLgoKLS0gCkxpbnV4IDMuMTEuMDogTGludXggZm9yIFdvcmtncm91cHMKaHR0cDov
+L3d3dy55b3V0dWJlLmNvbS9EYW5pZWxGcmFnYUJSCmh0dHA6Ly93d3cubGliZXJ0YXJpb3Mub3Jn
+LmJyCgoKCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpMZWFybiB0aGUgbGF0ZXN0LS1WaXN1YWwgU3R1
+ZGlvIDIwMTIsIFNoYXJlUG9pbnQgMjAxMywgU1FMIDIwMTIsIG1vcmUhCkRpc2NvdmVyIHRoZSBl
+YXN5IHdheSB0byBtYXN0ZXIgY3VycmVudCBhbmQgcHJldmlvdXMgTWljcm9zb2Z0IHRlY2hub2xv
+Z2llcwphbmQgYWR2YW5jZSB5b3VyIGNhcmVlci4gR2V0IGFuIGluY3JlZGlibGUgMSw1MDArIGhv
+dXJzIG9mIHN0ZXAtYnktc3RlcAp0dXRvcmlhbCB2aWRlb3Mgd2l0aCBMZWFybkRldk5vdy4gU3Vi
+c2NyaWJlIHRvZGF5IGFuZCBzYXZlIQpodHRwOi8vcHViYWRzLmcuZG91YmxlY2xpY2submV0L2dh
+bXBhZC9jbGs/aWQ9NTgwNDEzOTEmaXU9LzQxNDAvb3N0Zy5jbGt0cmsKX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18KYml0Y29pbi1saXN0IG1haWxpbmcgbGlz
+dApiaXRjb2luLWxpc3RAbGlzdHMuc291cmNlZm9yZ2UubmV0Cmh0dHBzOi8vbGlzdHMuc291cmNl
+Zm9yZ2UubmV0L2xpc3RzL2xpc3RpbmZvL2JpdGNvaW4tbGlzdAo=
+

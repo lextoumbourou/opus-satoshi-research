@@ -1,0 +1,112 @@
+Path: news.gmane.org!not-for-mail
+From: "David H. Lipman" <DLipman@Verizon.Net>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: BitCoin miner trojans
+Date: Mon, 21 Nov 2011 19:33:47 -0500
+Organization: DHL
+Lines: 18
+Approved: news@gmane.org
+Message-ID: <jaeqlg$6fd$1@dough.gmane.org>
+Reply-To: "David H. Lipman" <DLipman@Verizon.Net>
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: dough.gmane.org 1321922745 11052 80.91.229.12 (22 Nov 2011 00:45:45 GMT)
+X-Complaints-To: usenet@dough.gmane.org
+NNTP-Posting-Date: Tue, 22 Nov 2011 00:45:45 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Tue Nov 22 01:45:41 2011
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by lo.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1RSeUW-0002iY-QL
+	for gcbd-bitcoin-list@m.gmane.org; Tue, 22 Nov 2011 01:45:41 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1RSeUI-00052v-Fm; Tue, 22 Nov 2011 00:45:26 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1RSeUH-00052q-Gu
+	for bitcoin-list@lists.sourceforge.net; Tue, 22 Nov 2011 00:45:25 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.12 as permitted sender)
+	client-ip=80.91.229.12;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org; helo=lo.gmane.org; 
+Original-Received: from lo.gmane.org ([80.91.229.12])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1RSeUD-0005OG-50
+	for bitcoin-list@lists.sourceforge.net; Tue, 22 Nov 2011 00:45:25 +0000
+Original-Received: from list by lo.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1RSeU1-0002XD-7Z
+	for bitcoin-list@lists.sourceforge.net; Tue, 22 Nov 2011 01:45:09 +0100
+Original-Received: from pool-173-63-253-104.nwrknj.fios.verizon.net ([173.63.253.104])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Tue, 22 Nov 2011 01:45:09 +0100
+Original-Received: from DLipman by pool-173-63-253-104.nwrknj.fios.verizon.net with
+	local (Gmexim 0.1 (Debian)) id 1AlnuQ-0007hv-00
+	for <bitcoin-list@lists.sourceforge.net>;
+	Tue, 22 Nov 2011 01:45:09 +0100
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 10
+Original-X-Complaints-To: usenet@dough.gmane.org
+X-Gmane-NNTP-Posting-Host: pool-173-63-253-104.nwrknj.fios.verizon.net
+X-MSMail-Priority: Normal
+X-Newsreader: Microsoft Outlook Express 6.00.2900.5931
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.6157
+FL-Build: Fidolook 2007 (HV) 6.0.6000.97 - 24/12/2008 20:32:05
+X-RFC2646: Format=Flowed; Original
+X-Face: #!*YlHW<3BNQH,W(*HlLHp!!3C^o,W53`lH?w!P/BI9U&X#l41]a]{(_lFi9uvKIhejF;
+	N7"3{((o^}#4TsAASuyib+4gO;
+	T`p'iU-gC?0Lj'1MyYrhAWCVxHKD~0Jqt9=du~_{E+uqoYt4O$L?M:a>s4@)NMgJjld$%3QOzA[8
+X-Comment-To: All
+X-Debug: On
+X-Spam-Score: -0.6 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	1.3 UNCLOSED_BRACKET       Headers contain an unclosed bracket
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-1.2 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain 0.8 AWL AWL: From: address is in the auto white-list
+X-Headers-End: 1RSeUD-0005OG-50
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:2
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/2>
+
+I see that a new GMane group was created concerning BitCoin.
+
+I wondering if this community knows the amount of BitCoin miner trojans I am seeing.
+
+-- 
+Dave
+Multi-AV Scanning Tool - http://multi-av.thespykiller.co.uk
+http://www.pctipp.ch/downloads/dl/35905.asp 
+
+
+
+
+------------------------------------------------------------------------------
+All the data continuously generated in your IT infrastructure 
+contains a definitive record of customers, application performance, 
+security threats, fraudulent activity, and more. Splunk takes this 
+data and makes sense of it. IT sense. And common sense.
+http://p.sf.net/sfu/splunk-novd2d

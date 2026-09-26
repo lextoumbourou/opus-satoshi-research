@@ -1,0 +1,108 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Tue, 11 Nov 2008 06:18:20 +0800
+Lines: 61
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-e7d495e7-8668-2fc6-0dc3-489b2b580e8d@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226413848 13127 80.91.229.12 (11 Nov 2008 14:30:48 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 11 Nov 2008 14:30:48 +0000 (UTC)
+Cc: cryptography@metzdowd.com
+To: jamesd@echeque.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Tue Nov 11 15:31:49 2008
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KzuHH-0007RD-Oo
+	for gcc-cryptography@m.gmane.org; Tue, 11 Nov 2008 15:31:36 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 20B9D6DA4B; Tue, 11 Nov 2008 09:30:09 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id BBE0E6DA46
+	for <cryptography@metzdowd.com>; Tue, 11 Nov 2008 09:30:08 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 742D2EF552
+	for <cryptography@metzdowd.com>; Tue, 11 Nov 2008 09:30:08 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 31DC18D1FC8; Tue, 11 Nov 2008 09:30:08 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id D1CB36DA2A
+	for <cryptography@metzdowd.com>; Mon, 10 Nov 2008 17:52:00 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Tue, 11 Nov 2008 06:51:48 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12623
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12623>
+
+James A. Donald wrote:
+> So what happened to the coin that lost the race?
+>
+> ... it is a bit harsh if the guy who came second=20
+> is likely to lose his coin.
+
+When there are multiple double-spent versions of the same transaction, o=
+ne and only one will become valid.
+
+The receiver of a payment must wait an hour or so before believing that =
+it's valid.  The network will resolve any possible double-spend races by=
+ then.
+
+The guy who received the double-spend that became invalid never thought =
+he had it in the first place.  His software would have shown the transac=
+tion go from "unconfirmed" to "invalid".  If necessary, the UI can be ma=
+de to hide transactions until they're sufficiently deep in the block cha=
+in.
+
+
+> Further, your description of events implies restrictions
+> on timing and coin generation - that the entire network
+> generates coins slowly compared to the time required for
+> news of a new coin to flood the network
+
+Sorry if I didn't make that clear.  The target time between blocks will =
+probably be 10 minutes.
+
+Every block includes its creation time.  If the time is off by more than=
+ 36 hours, other nodes won't work on it.  If the timespan over the last =
+6*24*30 blocks is less than 15 days, blocks are being generated too fast=
+ and the proof-of-work difficulty doubles.  Everyone does the same calcu=
+lation with the same chain data, so they all get the same result at the =
+same link in the chain.
+
+
+> We want spenders to have certainty that their
+> transaction is valid at the time it takes a spend to
+> flood the network, not at the time it takes for branch
+> races to be resolved.
+
+Instantant non-repudiability is not a feature, but it's still much faste=
+r than existing systems.  Paper cheques can bounce up to a week or two l=
+ater.  Credit card transactions can be contested up to 60 to 180 days la=
+ter.  Bitcoin transactions can be sufficiently irreversible in an hour o=
+r two.
+
+
+> If one node is ignoring all spends that it does not=20
+> care about, it suffers no adverse consequences.
+
+With the transaction fee based incentive system I recently posted, nodes=
+ would have an incentive to include all the paying transactions they rec=
+eive.
+
+Satoshi Nakamoto
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

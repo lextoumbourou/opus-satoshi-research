@@ -1,0 +1,103 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?TWFydGlueCAtIOOCuOOCp+ODvOODoOOCug==?=
+	<thiagocmartinsc@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user,gmane.comp.bitcoin.devel
+Subject: Re: Running a full node
+Date: Thu, 4 Dec 2014 12:32:19 -0200
+Lines: 22
+Approved: news@gmane.org
+Message-ID: <CAJSM8J1LW2DJx4AFUqAFNYs4syEtB221uMWS4Vrstvzwp3WAjg@mail.gmail.com>
+References: <545B5323.3000403@numlog.fr> <545F86AD.3050002@numlog.fr>
+	<CAD2Ti2_AgRK=Fbz+i=HvUZis8ZwLx7PsHWHzgAUOF=jb19oGqQ@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1417703636 3434 80.91.229.3 (4 Dec 2014 14:33:56 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Thu, 4 Dec 2014 14:33:56 +0000 (UTC)
+Cc: Bitcoin Dev <bitcoin-development@lists.sourceforge.net>,
+	bitcoin-list@lists.sourceforge.net
+To: grarpamp <grarpamp@gmail.com>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Thu Dec 04 15:33:49 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XwXTZ-0005Nj-B1
+	for gcbd-bitcoin-list@m.gmane.org; Thu, 04 Dec 2014 15:33:49 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XwXSn-00037p-MH; Thu, 04 Dec 2014 14:33:01 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <thiagocmartinsc@gmail.com>)
+	id 1XwXSn-00037g-5m; Thu, 04 Dec 2014 14:33:01 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.212.170 as permitted sender)
+	client-ip=209.85.212.170;
+	envelope-from=thiagocmartinsc@gmail.com;
+	helo=mail-wi0-f170.google.com; 
+Original-Received: from mail-wi0-f170.google.com ([209.85.212.170])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1XwXSm-00070y-7g; Thu, 04 Dec 2014 14:33:01 +0000
+Original-Received: by mail-wi0-f170.google.com with SMTP id bs8so36527427wib.5
+	for <multiple recipients>; Thu, 04 Dec 2014 06:32:54 -0800 (PST)
+X-Received: by 10.194.109.201 with SMTP id hu9mr16230487wjb.45.1417703574123; 
+	Thu, 04 Dec 2014 06:32:54 -0800 (PST)
+Original-Received: by 10.194.83.72 with HTTP; Thu, 4 Dec 2014 06:32:19 -0800 (PST)
+In-Reply-To: <CAD2Ti2_AgRK=Fbz+i=HvUZis8ZwLx7PsHWHzgAUOF=jb19oGqQ@mail.gmail.com>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(thiagocmartinsc[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1XwXSm-00070y-7g
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:67 gmane.comp.bitcoin.devel:6563
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/67>
+
+Bitcoind|qt needs Dual-Stack support.   ;-)
+
+Cheers!
+Thiago
+
+On 9 November 2014 at 15:52, grarpamp <grarpamp@gmail.com> wrote:
+> You may also wish to consider linking your node into
+> the Tor, I2P, and maybe even CJDNS networks. Details
+> on their respective mailing lists.
+>
+> ------------------------------------------------------------------------------
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+
+------------------------------------------------------------------------------
+Download BIRT iHub F-Type - The Free Enterprise-Grade BIRT Server
+from Actuate! Instantly Supercharge Your Business Reports and Dashboards
+with Interactivity, Sharing, Native Excel Exports, App Integration & more
+Get technology previously reserved for billion-dollar corporations, FREE
+http://pubads.g.doubleclick.net/gampad/clk?id=164703151&iu=/4140/ostg.clktrk

@@ -1,0 +1,2745 @@
+commit 629e37dde1fa93f6ce31544d1ebb5ee5c19052cb
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-15T22:43:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-15T22:43:51Z
+
+    get external ip from irc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@202 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit fc73ad644f0b87b91f49b7f6f6b2348f78bdbbf4
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-13T16:26:14Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-13T16:26:14Z
+
+    -- version 0.3.19 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@201 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 986b5e257e2bb9d7aaed5111ca335732f8808b2d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-12T18:38:02Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-12T18:38:02Z
+
+    correction
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@200 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 97ee01ad898b0699c2319a1283313881ef4ba430
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-12T18:20:36Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-12T18:20:36Z
+
+    added some DoS limits, removed safe mode
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@199 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 82201801336f64ee77851b9eaab9383ee4e442f0
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-08T23:23:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-08T23:23:48Z
+
+    -- version 0.3.18 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@198 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 865c3a23832e36d50cb873d38c976032b027b5d3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-06T15:59:28Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-06T15:59:28Z
+
+    fix wallet.dat compatibility problem if you downgrade from 0.3.17 and then upgrade again
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@196 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f03304a9c79a6cc6096ed501ad38702fd012e7f7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-12-05T09:29:30Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-12-05T09:29:30Z
+
+    preps for future client-only mode,
+    jgarzik's initial download speedup
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@195 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 84d7c981dc52cc738053f9ec48648ab6fbf9311b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-27T23:12:41Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-27T23:12:41Z
+
+    added boost tuples to serialize.h
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@192 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 24324d83e8d9f0b9403ca1c333b594b77eaefb4c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-25T20:41:57Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-25T20:41:57Z
+
+    -- version 0.3.17 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@191 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit b7ccd48dd8dd2fb5c37f81e734673e998fd2d78a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-25T16:40:25Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-25T16:40:25Z
+
+    still working on account-based commands getbalance, move and sendfrom, they're only for testing for now
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@190 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 776d0f34595fd616129d4816a337662ff39de7c6
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-23T19:16:36Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-23T19:16:36Z
+
+    new getwork
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@189 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 298a7714943dc3f1ebc582ed2426d3b71fb68466
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-21T22:46:19Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-21T22:46:19Z
+
+    added transaction fee setting in UI options menu,
+    cut free transaction area from 50KB to 26KB
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@187 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 51d9b435cd1fc6efe5fc418e8adb48ef33c9e836
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-20T02:12:03Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-20T02:12:03Z
+
+    small bugfix
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@186 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f35e21e2e4fcc0aa52edd9f9b58bd19e347597da
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-19T23:37:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-19T23:37:05Z
+
+    require some minimal priority for free transactions to slow down transaction spam
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@185 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 683bcb9154422011ef01e8c5677bad2c4b323436
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-19T20:22:46Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-19T20:22:46Z
+
+    efficiently sort transaction dependencies in one pass
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@184 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 910bd45756dda126465cfdf13b4833e0356808ff
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-14T00:06:10Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-14T00:06:10Z
+
+    -- version 0.3.15 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@179 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e2a186af10d81a0e27b2e7c34783711d65caeae7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-09T19:47:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-09T19:47:07Z
+
+    SelectCoins first pass tries not to use coins with less than 6 confirmations
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@177 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 461764cbbea5965ebbd248f221876743d7a9ccd4
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-11-08T22:06:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-11-08T22:06:07Z
+
+    -paytxfee is now per KB,
+    BitcoinMiner prioritise transactions by how old their dependencies are
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@176 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c891967b6fcab2e8dc4ce0c787312b36c07efa4d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-23T17:43:53Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-23T17:43:53Z
+
+    bugfixes from Dean Gores,
+    addr system changes,
+    make sure no gen before block 74000
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@173 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2ce73dbe8546b0bfb5e512a6b11e201871374147
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-21T16:47:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-21T16:47:16Z
+
+    -- version 0.3.14 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@171 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d9c6b09ac42d21abd151a0feaff676b8a8a24bb9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-20T16:12:23Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-20T16:12:23Z
+
+    Gavin Andresen: multiple instance check, -testnet use port 18333
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@170 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 5cbf75324d1509a1262b65c5073314a4da3f6d77
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-19T17:16:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-19T17:16:51Z
+
+    Gavin's TEST network as -testnet switch, misc fixes
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@168 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 83082f04a47d6540f40dd656d1baed54eb17e76b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-11T15:12:17Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-11T15:12:17Z
+
+    dkaparis: boost::bind build fix for c++0x
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@164 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 103849419a9c014a69c76b6f96e48b66cbc838ca
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-09T19:33:35Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-09T19:33:35Z
+
+    key pool for safer wallet backup
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@163 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 0a27bd065e4803a35e436c610bedb06fe39123c6
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-06T15:43:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-06T15:43:04Z
+
+    updated Russian translation
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@162 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit b22c88423160d026e93130e606d2e1afc4ca40d5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-06T02:19:47Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-06T02:19:47Z
+
+    recursive function to determine if own unconfirmed transaction can be spent
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@161 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit dc8adc3b48bb2201f2bd796a5ffa0733c30aa6e1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-10-04T01:40:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-10-04T01:40:50Z
+
+    Russian translation by eurekafag
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@160 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 178152f604aed37df703336344ff334e6d0fd244
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-30T23:54:15Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-30T23:54:15Z
+
+    fixed linux build,
+    dkaparis: _WIN32_WINNT 0x500
+    -- version 0.3.13 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@159 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit a790fa46f40d751307f86c37a709eb119768ce5b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-30T16:23:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-30T16:23:07Z
+
+    don't count or spend payments until they have 1 confirmation,
+    misc cleanup,
+    changed internal version number from 312 to 31300
+    -- version 0.3.13
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@158 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 9b8eb4d6907502e9b1e74b62a850a11655d50ab5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-23T16:01:44Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-23T16:01:44Z
+
+    changed free transactions per block threshold
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@157 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 8d13ca1f11c206188e016546e5ebf7c18c884021
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-23T16:01:44Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-23T16:01:44Z
+
+    changed free transactions per block threshold
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@157 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 172f006020965ae8763a0610845c051ed1e3b522
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-19T21:20:34Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-19T21:20:34Z
+
+    only accept transactions sent by IP address if -allowreceivebyip is specified
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@156 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6aeb45187b9bdc824fa37aee98aa99d472b6f060
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-19T21:20:34Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-19T21:20:34Z
+
+    only accept transactions sent by IP address if -allowreceivebyip is specified
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@156 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit efae3da41d821b12d1481de8b8e0b2e105d36ae3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-15T22:10:13Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-15T22:10:13Z
+
+    config option -rpcallowip= to accept json-rpc connections from another machine
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@155 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit fe37c350185c946cb735d1415c124657e7839558
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-15T22:10:13Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-15T22:10:13Z
+
+    config option -rpcallowip= to accept json-rpc connections from another machine
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@155 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 3df62878c3cece15a8921fbbdee7859ee9368768
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-13T22:14:24Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-13T22:14:24Z
+
+    reorganize BitcoinMiner to make it easier to add different SHA256 routines
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@154 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 71cc095cb26c4967ed9e9ebf89b6eb1e685c3844
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-13T22:14:24Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-13T22:14:24Z
+
+    reorganize BitcoinMiner to make it easier to add different SHA256 routines
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@154 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit fdbf76d4f49c220e2ed4412a3d8d8cd6efd74826
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-12T17:30:15Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-12T17:30:15Z
+
+    dropped DB_PRIVATE from dbenv.open
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@153 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c8ad9b8375f5308bb46a124f096a80926ea42fba
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-12T17:30:15Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-12T17:30:15Z
+
+    dropped DB_PRIVATE from dbenv.open
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@153 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c39b06866eea2a17785d18e0c24f915606bd25bc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-10T18:07:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-10T18:07:48Z
+
+    fix build on non-intel architectures, thanks teknohog
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@152 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2323664a37f9336380741399b4c731c22478c617
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-10T18:07:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-10T18:07:48Z
+
+    fix build on non-intel architectures, thanks teknohog
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@152 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 4968232490896f522065b2526ffa8648ce2358cd
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-10T16:58:59Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-10T16:58:59Z
+
+    fix problem sending the last cent with sub-cent fractional change
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@151 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 00728c24e7866963c78360c1df8c182f3c19c2e0
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-10T16:58:59Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-10T16:58:59Z
+
+    fix problem sending the last cent with sub-cent fractional change
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@151 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7629d36a530087806e80ed3c5866e8ec64319828
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-09T01:00:40Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-09T01:00:40Z
+
+    try to auto-detect whether to use 128-bit 4-way SSE2
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@150 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 8555125a1a1af68c9a89b7d4f9447d19ed1736ca
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-09T01:00:40Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-09T01:00:40Z
+
+    try to auto-detect whether to use 128-bit 4-way SSE2
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@150 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 3f647537790e02e892701f4bb2586ccd964c2631
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-08T19:24:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-08T19:24:32Z
+
+    Gavin Andresen: clean shutdown on SIGTERM
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@149 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 14002c8eba6fe03bec721bcacf4bed0b3cbca6d5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-08T19:24:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-08T19:24:32Z
+
+    Gavin Andresen: clean shutdown on SIGTERM
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@149 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f1e1fb4bdef878c8fc1564fa418d44e7541a7e83
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-07T01:12:53Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-07T01:12:53Z
+
+    cleanup,
+    catch some recoverable exceptions and continue
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@148 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 8c9479c6bbbc38b897dc97de9d04e4d5a5a36730
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-07T01:12:53Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-07T01:12:53Z
+
+    cleanup,
+    catch some recoverable exceptions and continue
+    -- version 0.3.12 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@148 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d743f0355269e2e03fe3f982e250d07999d72b98
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-09-06T21:03:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-09-06T21:03:04Z
+
+    Gavin Andresen: json-rpc return standard error objects with error code numbers,
+    json-rpc command line client return exit code,
+    added rpc backupwallet command
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@147 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 0a61b0df1224a5470bcddab302bc199ca5a9e356
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-29T16:58:15Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-29T16:58:15Z
+
+    propset svn:eol-style native
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@146 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 343328c6b8db85e58a1feea85f0d10e62967fa19
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-28T00:55:50Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-28T00:55:50Z
+
+    added -testsafemode switch
+    -- version 0.3.11 release
+
+commit d3631907d62f605b725b4cc433173cec15c9d082
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-28T00:55:19Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-28T00:55:19Z
+
+    change switch name to -disablesafemode
+
+commit 87cfcfd3741e0cd38da671db79b199fe5bfb2949
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-28T00:54:37Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-28T00:54:37Z
+
+    more rpc methods allowed in safe mode
+
+commit 522dfe3422f562368ebdaeb2b1a13cc9ebafa333
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-28T00:51:52Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-28T00:51:52Z
+
+    alert system
+    -- version 0.3.11
+
+commit c545563d46b965583794e96f63326c54f1cf8d70
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-28T00:50:40Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-28T00:50:40Z
+
+    warning message if clock is too far off
+
+commit 7a37c906a1c712fe1dbfddc0723d132fdb95f75f
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-28T00:49:30Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-28T00:49:30Z
+
+    block index checking on load, extra redundant checks, misc refactoring
+
+commit 5b721607b1057df4dfe97f80d235ed372312f398
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-25T17:53:09Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-25T17:53:09Z
+
+    added -testsafemode switch
+    -- version 0.3.11 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@145 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2ef9cfa5b81877b1023f2fcb82f5a638b1eb013c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-25T16:33:38Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-25T16:33:38Z
+
+    change switch name to -disablesafemode
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@144 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7d7797b141dbd4ed9db1dda94684beb3395c2534
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-25T14:18:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-25T14:18:56Z
+
+    more rpc methods allowed in safe mode
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@143 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 401926283a200994ecd7df8eae8ced8e0b067c46
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-25T00:05:37Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-25T00:05:37Z
+
+    alert system
+    -- version 0.3.11
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@142 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2201a0808ea240617a66823f98dda3433d2546b0
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-20T16:55:14Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-20T16:55:14Z
+
+    warning message if clock is too far off
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@141 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 05454818dc7ed92f577a1a1ef6798049f17a52e7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-19T22:43:19Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-19T22:43:19Z
+
+    block index checking on load, extra redundant checks, misc refactoring
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@140 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 43deefa4355981e53f4fdfe9aa1c4003941e2a8e
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-16T20:55:54Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-16T20:55:54Z
+
+    do an extra CheckBlock in ConnectBlock
+
+commit 21ca2d833b85673c482803b1c382bbe948b2c44a
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-16T20:54:47Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-16T20:54:47Z
+
+    erase the bad chain after disconnecting it
+
+commit bb3fd02930ba5cb8e8a3a92ede9612955edeee05
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-16T20:53:49Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-16T20:53:49Z
+
+    blocks-1,
+    verify block chain on load, so wouldn't have needed to delete blk*.dat, it would have done a reorg automatically
+
+commit c923cdbd5b5d143a77ee5f2c3f0bd72aa4f1716e
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-16T20:52:36Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-16T20:52:36Z
+
+    wrap sha256.cpp in FOURWAYSSE2 #ifdef
+
+commit 019b456605f90f13cdc8ecc02aa8492b4e65846e
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-16T20:51:46Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-16T20:51:46Z
+
+    added -march=amdfam10 to sha256.cpp in makefile.unix
+
+commit 7d489192fd74f9e739d2d95c4e58f26361a30bcc
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-16T20:50:37Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-16T20:50:37Z
+
+    makefile.unix to build with option to enable tcatm's 4-way SSE2 SHA-256 with -4way switch on Linux
+
+commit 44a0de1861a78a693ad3331f0f7b06003a78a9d7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-16T18:46:02Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-16T18:46:02Z
+
+    do an extra CheckBlock in ConnectBlock
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@139 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit a01d5876fa6a9a9fe28cff3ad3ed0e91d5612125
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-16T17:51:10Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-16T17:51:10Z
+
+    erase the bad chain after disconnecting it
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@138 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 15399da9fe29336f119121340146d78973b601a5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-16T17:05:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-16T17:05:50Z
+
+    blocks-1,
+    verify block chain on load, so wouldn't have needed to delete blk*.dat, it would have done a reorg automatically
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@137 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6da916d4acf0c26be81b4547da0e4160d53aacc8
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-16T13:37:00Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-16T13:37:00Z
+
+    wrap sha256.cpp in FOURWAYSSE2 #ifdef
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@136 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e540144b2eeb009db254766f13692ca741257b01
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-16T13:11:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-16T13:11:32Z
+
+    added -march=amdfam10 to sha256.cpp in makefile.unix
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@135 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 76793dc969f5ee9feadb6827845c1682b11914a6
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-15T23:09:29Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-15T23:09:29Z
+
+    fix for block 74638 overflow output transaction
+
+commit 6ac7f9f144757f5f1a049c059351b978f83d1476
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-15T23:06:05Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-15T23:06:05Z
+
+    misc changes
+
+commit 08fee75201e82f2e34fcc1549ee8edd152f5d040
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-15T22:46:58Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-15T22:46:58Z
+
+    makefile.unix to build with option to enable tcatm's 4-way SSE2 SHA-256 with -4way switch on Linux
+    -- version 0.3.10 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@134 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 85de7d7c0cbb1e9aa311606644b697674c84f6f9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-15T22:21:03Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-15T22:21:03Z
+
+    scanback check to prevent adding to the 74638 overflow chain
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@133 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d4c6b90ca3f9b47adb1b2724a0c3514f80635c84
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-15T21:35:24Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-15T21:35:24Z
+
+    fix for block 74638 overflow output transaction
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@132 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 4bd188c4383d6e614e18f79dc337fbabe8464c82
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-15T21:05:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-15T21:05:16Z
+
+    misc changes
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@131 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7f71fd13ae5c61bf844591d93e74803e85601931
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-13T02:23:46Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-13T02:23:46Z
+
+    fix -datadir=./subdir relative path,
+    autostart off by default except on windows,
+    fix occasional "vector iterator not dereferencable" assertion with msvc,
+    fix readlink compile warning on linux build,
+    use sys/param.h and BSD define instead of __BSD__,
+    -paytxfee switch
+
+commit 01cd2fdaf3ac6071304ceb80fb7436ac02b1059e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-12T21:13:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-12T21:13:43Z
+
+    fix -datadir=./subdir relative path,
+    autostart off by default except on windows,
+    fix occasional "vector iterator not dereferencable" assertion with msvc,
+    fix readlink compile warning on linux build,
+    use sys/param.h and BSD define instead of __BSD__,
+    -paytxfee switch
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@130 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 819adfff6fda7ba2ccf5c4b9fb8b5fdc7a1b535c
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-12T13:28:22Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-12T13:28:22Z
+
+    fix build, thanks jgarzik
+
+commit f5d2bc8a36dda0bd80a44afaab5fb3c0323d2da2
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-12T13:26:20Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-12T13:26:20Z
+
+    disable SSE2 on 32-bit
+
+commit 9db7bf5f52194b0018272ce3f719115f8637da5c
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-12T13:23:02Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-12T13:23:02Z
+
+    gethashespersec and added version and hashespersec to getinfo
+
+commit 410b618d18d712db680de8f173a671bb637ff2b0
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-12T13:20:57Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-12T13:20:57Z
+
+    json-spirit print reals with 8 decimal places,
+    bitcoind help <command> instead of bitcoind <command> -?
+
+commit 42877327973889c6a99f07025bd1bc72cf6dd2b7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-11T01:38:24Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-11T01:38:24Z
+
+    fix build, thanks jgarzik
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@129 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 0cff7a8aa706d0e8ded5a58e1035f3db8f711c45
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-10T23:43:37Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-10T23:43:37Z
+
+    disable SSE2 on 32-bit
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@128 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit fb83d28768e62eb46f83d15afaf67bdfb4675d9d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-10T22:55:23Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-10T22:55:23Z
+
+    gethashespersec and added version and hashespersec to getinfo
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@127 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 342e1b73385cac5a5b2fc7316d82a2b55b3a85d4
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-10T19:21:17Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-10T19:21:17Z
+
+    json-spirit print reals with 8 decimal places,
+    bitcoind help <command> instead of bitcoind <command> -?
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@126 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c2fa70ddfd7711d514a701b3a7c8adb561acc3ff
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-10T16:03:01Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-10T16:03:01Z
+
+    always make 8 outbound connections even if have inbound,
+    limit one outbound connection per a.b.?.? range,
+    switch -maxconnections=#
+
+commit 8a38d5663ad6b98983c951b67c58aff2e94ff453
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-10T16:01:23Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-10T16:01:23Z
+
+    enable SSE2 in all builds to fix crypto++ SHA-256 on 64-bit
+
+commit dd9e71843bc79e8c7e33734cc8b975275992cc05
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-10T15:57:38Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-10T15:57:38Z
+
+    correct typo for mac compile, update makefile to use llvm
+
+commit 94cfec07fd302c9ff9b6a80c47418d4fe56596ae
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-09T20:00:17Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-09T20:00:17Z
+
+    always make 8 outbound connections even if have inbound,
+    limit one outbound connection per a.b.?.? range,
+    switch -maxconnections=#
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@125 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e6b7ab57496c9267c5d0bbad2be8e942a01731dc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-09T19:54:40Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-09T19:54:40Z
+
+    enable SSE2 in all builds to fix crypto++ SHA-256 on 64-bit
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@124 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit b34e8c3c369331189c01bcbb7682af9d7daa42cd
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-08-04T01:51:34Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-08-04T01:51:34Z
+
+    new safety feature displays a warning message and locks down RPC if it detects a problem that may require an upgrade
+    -- version 0.3.8
+
+commit 2c06be915de967494920bdbb3096bbb455ccf99f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-08-03T18:25:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-08-03T18:25:05Z
+
+    new safety feature displays a warning message and locks down RPC if it detects a problem that may require an upgrade
+    -- version 0.3.8
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@122 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 73aa262647ff9948eaf95e83236ec323347e95d0
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-31T20:12:05Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-31T20:12:05Z
+
+    fixed segfault in bignum.h, additional security limits, refactoring
+    -- version 0.3.7
+
+commit 6ff5f718b6a67797b2b3bab8905d607ad216ee21
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-31T19:15:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-31T19:15:48Z
+
+    fixed segfault in bignum.h,
+    additional security limits,
+    refactoring
+    -- version 0.3.7
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@121 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e1cb7ce0177de72b00e06dc4c8fe1d414723a9e7
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-31T14:14:41Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-31T14:14:41Z
+
+    simplified makefile.unix, updated build-unix.txt instructions to include boost 1.37
+
+commit 01bed1828b9ee64b9b38a7d0345c775de40fdd91
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-30T23:22:55Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-30T23:22:55Z
+
+    simplified makefile.unix, updated build-unix.txt instructions to include boost 1.37
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@120 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit a75560d828464c3f1138f52cf247e956fc8f937d
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-30T17:36:06Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-30T17:36:06Z
+
+    reverted makefile.unix wx-config -- version 0.3.6
+
+commit ec82517c8919f9cb7194511dc322a2575745e39e
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-30T17:35:17Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-30T17:35:17Z
+
+    Fredrik Roubert: simplified makefile.unix with wx-config, misc
+
+commit 31ffe954b6f415b724c3214de5bffd7bba5872c0
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-30T17:31:39Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-30T17:31:39Z
+
+    fixed makefile.osx
+
+commit 872d60f6e4aa599a4821372c30a285f67f9faa77
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-30T17:31:05Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-30T17:31:05Z
+
+    fixed makefile.vc
+
+commit 757f0769d8360ea043f469f3a35f6ec204740446
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-29T20:27:12Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-29T20:27:12Z
+
+    reverted makefile.unix wx-config -- version 0.3.6
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@119 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 17b2740289268c037c5adb5956989f134982bf80
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-29T15:34:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-29T15:34:48Z
+
+    Fredrik Roubert: simplified makefile.unix with wx-config,
+    misc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@118 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f6f8237a748e3627bd4a201ed2e376d8c42c3bac
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-28T21:17:35Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-28T21:17:35Z
+
+    fixed makefile.osx
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@117 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 0bd084011a3f95cf3fdc7a20b7017bfe06c7223f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-28T21:11:09Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-28T21:11:09Z
+
+    fixed makefile.vc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@116 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2689f4d02b0632926c815e58363e8e7292586242
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-27T20:46:41Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-27T20:46:41Z
+
+    better IsInitialBlockDownload
+
+commit 3dd20ff2f87958a440c9dceae8abe3967aa48fcf
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-27T20:43:55Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-27T20:43:55Z
+
+    added a subset of Crypto++ 5.6.0 with 48% faster ASM SHA-256, combined speedup 2.5x faster vs 0.3.3, thanks BlackEye for figuring out the alignment problem
+
+commit f79751c2997a72447f46927f200d78a6da50048d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-27T19:43:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-27T19:43:04Z
+
+    better IsInitialBlockDownload
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@115 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 813505cc1313b7e191b787f93e573acb91fa1464
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-27T18:14:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-27T18:14:32Z
+
+    added a subset of Crypto++ 5.6.0 with 48% faster ASM SHA-256, combined speedup 2.5x faster vs 0.3.3, thanks BlackEye for figuring out the alignment problem
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@114 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 9f35575ca34eb15b20d1d5374b56ac9d4c8cc2bf
+Author:     --author=Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-27T14:21:02Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-27T14:21:02Z
+
+    tcatm's cached SHA256 state idea, about 70% faster generating
+
+commit 520f3673196dd6517982e3f662cf62afda368341
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-27T01:14:33Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-27T01:14:33Z
+
+    tcatm's cached SHA256 state idea, about 70% faster generating
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@113 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit b6dc3b517b74ef2baa0e707f837a65b4ff5a6f2e
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-26T17:44:51Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-26T17:44:51Z
+
+    bitcoind now compiles without wxWidgets or wxBase
+
+commit 40cd0369419323f8d7385950e20342e998c994e1
+Author:     Satoshi Nakamoto <satoshin@gmx.com>
+AuthorDate: 2010-07-26T17:40:05Z
+Commit:     Gavin Andresen <gavinandresen@gmail.com>
+CommitDate: 2010-07-26T17:40:05Z
+
+    Gavin Andresen's JSON-RPC HTTP authentication,
+    faster initial block download
+    -- version 0.3.3
+
+commit 793200e5e918a6e993ddf701967a8b6535a6828f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-26T17:15:18Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-26T17:15:18Z
+
+    bitcoind now compiles without wxWidgets or wxBase
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@112 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6966768a554575ca329fbcd4aad0d4f21c702f9a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-25T21:49:21Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-25T21:49:21Z
+
+    Gavin: BIO_FLAGS_BASE64_NO_NL
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@111 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7d46f9250cef06d248617085a7439e8ef8841cd7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-25T21:29:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-25T21:29:07Z
+
+    Lachesis: remove newlines every 64 characters in EncodeBase64
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@110 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 3b7cd5d89a226426df9c723d1f9ddfe08b7d1def
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-25T16:45:21Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-25T16:45:21Z
+
+    Gavin Andresen's JSON-RPC HTTP authentication,
+    faster initial block download
+    -- version 0.3.3
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@109 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e8bff10f07b80d820545661cee9337d8664a64cb
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-18T20:47:29Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-18T20:47:29Z
+
+    minor UI tweaks, removed some outdated txt files,
+    (and json-rpc password -rpcpw= switch, which we're going to revert)
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@108 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit ae922a36a4b54a8e78d3a2a2cb2af7f03960fce3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-17T23:51:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-17T23:51:16Z
+
+    security safeguards,
+    limited addr messages
+    -- version 0.3.2
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@107 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 673a6d15d9867275e3a4ffb33b14b5fe7112cc42
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-16T23:12:58Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-16T23:12:58Z
+
+    version 0.3.1 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@106 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 0bbc812f4822d90d0cbad3c30d28fe810ea608de
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-15T19:11:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-15T19:11:51Z
+
+    Spanish translation by milkiway,
+    French translation by aidos
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@105 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d01eaf0421b534b9d15b2376573fbc5e36c35928
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-15T16:46:46Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-15T16:46:46Z
+
+    version 0.3.1 rc1
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@104 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit a30b56ebe76ffff9f9cc8a6667186179413c6349
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-15T00:18:45Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-15T00:18:45Z
+
+    fix openssl linkage problems,
+    disable minimize to tray on Linux because it has too many problems including a CPU peg bug
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@103 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6e5d67e827904571658213054fab6f0399b48801
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-09T15:29:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-09T15:29:48Z
+
+    switched from wxStandardPaths to GetDefaultDataDir, fixes bug reported by m0mchil when username contains non-lower-ASCII characters
+    -- version 0.3.1
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@102 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f32339e70021775861466636f8a387aaf5ddf728
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-09T15:29:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-09T15:29:48Z
+
+    switched from wxStandardPaths to GetDefaultDataDir, fixes bug reported by m0mchil when username contains non-lower-ASCII characters
+    -- version 0.3.1
+
+commit 20c6bfad1e0f5438b6f016f53d0eac9a0415236a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-09T02:11:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-09T02:11:50Z
+
+    Gavin Andresen: implementation of autostart on system startup option on Linux
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@101 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c8063ff034797a1f8fe90e0ed959392ebdc3807d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-09T02:11:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-09T02:11:50Z
+
+    Gavin Andresen: implementation of autostart on system startup option on Linux
+
+commit 50d49d9c2ee610785e00181744b7adfae558a6a3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-08T18:07:14Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-08T18:07:14Z
+
+    Portuguese translation by Tiago Faria
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@100 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit cefe611ce54b4a60acc30d8bab644d1f1cc42625
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-08T18:07:14Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-08T18:07:14Z
+
+    Portuguese translation by Tiago Faria
+
+commit d882773789ea3894de7163f7bb880c5b23072882
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-08T16:14:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-08T16:14:56Z
+
+    Laszlo's fix to make generate threads idle priority on Linux,
+    replaced some wxBase dependencies: wxMutex, wxFileExists, wxStandardPaths, wxGetLocalTimeMillis
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@99 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit a280b4e661560943265cb443745b0b08374985a2
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-08T16:14:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-08T16:14:56Z
+
+    Laszlo's fix to make generate threads idle priority on Linux,
+    replaced some wxBase dependencies: wxMutex, wxFileExists, wxStandardPaths, wxGetLocalTimeMillis
+
+commit d77eac25b2ecd8e6ff5619cfa57d0ebc0682ed09
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-04T06:15:06Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-04T06:15:06Z
+
+    version 0.3 release
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@97 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 603c7ccea84a6e906c9095d73dff8552e79bb5ac
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-04T06:15:06Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-04T06:15:06Z
+
+    version 0.3 release
+
+commit f077bc0f48bf0853cbe5d01b0e10df93c04917ab
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-02T23:43:29Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-02T23:43:29Z
+
+    reduced max outbound connections from 15 to 8 --version 0.3 rc4
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@96 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 64f9370691007410d45d1a5af624edfb0291224c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-07-02T23:43:29Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-07-02T23:43:29Z
+
+    reduced max outbound connections from 15 to 8 --version 0.3 rc4
+
+commit 06c47163962ce418569d9386770001c7a79c026e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-26T15:47:45Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-26T15:47:45Z
+
+    version 0.3 rc2
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@95 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e2bf70145466264a4f082aaa313fd8de5663aeff
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-26T15:47:45Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-26T15:47:45Z
+
+    version 0.3 rc2
+
+commit 8700fae12ada51f131e783ad65c196a16d70d347
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-26T00:23:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-26T00:23:16Z
+
+    build-unix.txt: updated a few version numbers
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@94 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c929529f9f223e23fc00efa41bb656ab797d4c74
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-26T00:23:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-26T00:23:16Z
+
+    build-unix.txt: updated a few version numbers
+
+commit 340120853fdf41597a3b7de21bae70f716728d5b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-24T16:07:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-24T16:07:51Z
+
+    updated build-unix.txt instructions: sudo apt-get install libboost-all-dev
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@93 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6cc56d8e8367de0e1465e4ac22e42b099e2fc5f2
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-24T16:07:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-24T16:07:51Z
+
+    updated build-unix.txt instructions: sudo apt-get install libboost-all-dev
+
+commit 3c3fc50c79cbbc2f1da042bf48b34b5900428db6
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-23T22:51:31Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-23T22:51:31Z
+
+    added instructions to build-unix.txt for building wxBase, which is needed to compile bitcoind
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@92 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2adc9062d873935ef201236ebb8aadf420503f5d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-23T22:51:31Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-23T22:51:31Z
+
+    added instructions to build-unix.txt for building wxBase, which is needed to compile bitcoind
+
+commit 6344edc36f885ba1c2003ebe2c43feeafc0b13d2
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-22T17:59:00Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-22T17:59:00Z
+
+    version 0.3 rc1
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@91 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6970bd96d16137fae5c52449137941be5f9f71b5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-22T17:59:00Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-22T17:59:00Z
+
+    version 0.3 rc1
+
+commit 445520bf38670bbf2be5d1560db409082e71cb1a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-22T16:28:15Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-22T16:28:15Z
+
+    added new files to setup.nsi, updated version numbers
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@90 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d63b0adabdbfea4f638c496be7a225e3bdfb8ea1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-22T16:28:15Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-22T16:28:15Z
+
+    added new files to setup.nsi, updated version numbers
+
+commit 8efd8f7f47bb84e3bfca07e64693514a8f90240b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-22T03:45:37Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-22T03:45:37Z
+
+    re-enable hiding taskbar button on minimize on linux, though it doesn't work cleanly
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@89 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit bed3ad104e038259654ceb257d746ab4cb6479c5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-22T03:45:37Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-22T03:45:37Z
+
+    re-enable hiding taskbar button on minimize on linux, though it doesn't work cleanly
+
+commit 36bb88e1b9825f84c49c04643461dce823f70455
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-21T18:41:34Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-21T18:41:34Z
+
+    fix system tray icon on windows
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@88 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit dbe23aadaea44a4078f9975681af37e37f40b427
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-21T18:41:34Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-21T18:41:34Z
+
+    fix system tray icon on windows
+
+commit 161c38ba6025fba019e84dd4b799addc544ea1b3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-21T17:11:26Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-21T17:11:26Z
+
+    80x80 xpm icon for ubuntu, alignment tweaked to scale nicely to 20x20 and 16x16
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@87 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit a66d097cbe5f1b8f4327a75cc5e4c169d6d55e52
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-21T17:11:26Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-21T17:11:26Z
+
+    80x80 xpm icon for ubuntu, alignment tweaked to scale nicely to 20x20 and 16x16
+
+commit 68b973a913fd1569d3a9a444d4233b15f7866e3e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-21T01:33:44Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-21T01:33:44Z
+
+    fixed colors on ubuntu lucid,
+    enabled -O2 in makefile.unix,
+    boost removed -mt from their library names in 1.40,
+    updated bitcoin icon,
+    hashmeter,
+    generated and hashmeter log entries
+    -- version 0.2.13
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@86 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 3ca507a6eb1cecbf40a907a52c27128efb666ec0
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-21T01:33:44Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-21T01:33:44Z
+
+    fixed colors on ubuntu lucid,
+    enabled -O2 in makefile.unix,
+    boost removed -mt from their library names in 1.40,
+    updated bitcoin icon,
+    hashmeter,
+    generated and hashmeter log entries
+    -- version 0.2.13
+
+commit 24ba1b64e93baafba2657ba7d8b63c759c3439ce
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-18T03:14:24Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-18T03:14:24Z
+
+    use seed nodes as fallback if IRC fails or with TOR
+    -- version 0.2.12
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@85 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit c58e10565e923c64a38a423b10e797b49a136ad4
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-18T03:14:24Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-18T03:14:24Z
+
+    use seed nodes as fallback if IRC fails or with TOR
+    -- version 0.2.12
+
+commit 6a4a35549bde3cd8cc4143d10356a8ec83255395
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-16T16:35:34Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-16T16:35:34Z
+
+    German translation by DataWraith
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@84 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 904ff7d07b06a4a48b146a575666b75db04236b1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-16T16:35:34Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-16T16:35:34Z
+
+    German translation by DataWraith
+
+commit e5681bb12154bae75977d091190e924d8e6984cd
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-15T18:26:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-15T18:26:32Z
+
+    more addr message error checking
+    -- version 0.2.11
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@83 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d0ac235c8fecb15beddde9563e2a0964c670fff9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-15T18:26:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-15T18:26:32Z
+
+    more addr message error checking
+    -- version 0.2.11
+
+commit bed005b639a0db8c8d98022609fe03e0ec55e18a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-14T22:34:33Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-14T22:34:33Z
+
+    revert makefile.unix from -02 back to -00 to fix compile on linux, -02 doesn't really help on linux anyway
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@82 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 78c7bb8e26c53a4be3104410d9330a2b8e0ffd78
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-14T22:34:33Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-14T22:34:33Z
+
+    revert makefile.unix from -02 back to -00 to fix compile on linux, -02 doesn't really help on linux anyway
+
+commit f93d5f9ffe1e12079e560a735111735924726a06
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-10T23:10:30Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-10T23:10:30Z
+
+    automatically change displayed address whenever it receives anything,
+    added help and -? for daemon command line rpc commands,
+    only relay addr messages to 5 random nodes to save bandwidth,
+    started setting wtx.fFromMe flag,
+    trickle out tx inventory messages to protect privacy
+     -- version 0.2.10
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@81 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 3b318ed09588d383e7a1d79b167e71386205db63
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-10T23:10:30Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-10T23:10:30Z
+
+    automatically change displayed address whenever it receives anything,
+    added help and -? for daemon command line rpc commands,
+    only relay addr messages to 5 random nodes to save bandwidth,
+    started setting wtx.fFromMe flag,
+    trickle out tx inventory messages to protect privacy
+     -- version 0.2.10
+
+commit 2ca17588327858947590fda78d68cfad79e633bc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-02T22:10:06Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-02T22:10:06Z
+
+    Dutch translation by Xunie (93% complete)
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@80 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit d9dac6772f58e79cce0e2417c083547326056cc8
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-06-02T22:10:06Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-06-02T22:10:06Z
+
+    Dutch translation by Xunie (93% complete)
+
+commit 1da44d2e96cd2461eb25ffd17c417cf2e5aef9de
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-27T14:11:03Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-27T14:11:03Z
+
+    Italian translation by Joozero
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@79 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 5fe8bc0b4dc15ffb266d4498fce59047d76bb8f2
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-27T14:11:03Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-27T14:11:03Z
+
+    Italian translation by Joozero
+
+commit 42605ce8bcc9bd01b86491c74fee14de77960868
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-26T00:05:26Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-26T00:05:26Z
+
+    better prevention of inventory relaying during initial download,
+    message checksum between nodes with 0.2.9 or higher,
+    optimization level up from -O0 to -O2,
+    rpc functions: setlabel, getlabel, getaddressesbylabel, getreceivedbyaddress, getreceivedbylabel, listreceivedbyaddress, listreceivedbylabel
+     -- version 0.2.9
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@78 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7a47324c7846ab0e500b974cd1f40e4030a7c0d2
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-26T00:05:26Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-26T00:05:26Z
+
+    better prevention of inventory relaying during initial download,
+    message checksum between nodes with 0.2.9 or higher,
+    optimization level up from -O0 to -O2,
+    rpc functions: setlabel, getlabel, getaddressesbylabel, getreceivedbyaddress, getreceivedbylabel, listreceivedbyaddress, listreceivedbylabel
+     -- version 0.2.9
+
+commit 124baa4ccbf3ecb78eab7ecdd40105fb54ee0369
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-25T23:58:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-25T23:58:27Z
+
+    build-osx.txt build instructions and makefile.osx from Laszlo
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@77 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 9c1e9f0b6a1d073a5f450c847850ef1d8df74137
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-25T23:58:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-25T23:58:27Z
+
+    build-osx.txt build instructions and makefile.osx from Laszlo
+
+commit 2d98de1b3ae2ade8b1e5493bc63c0c1d776deeb1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-19T00:26:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-19T00:26:56Z
+
+    Mac OS build fixes by laszlo
+    -- version 0.2.8
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@76 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 240f3fbe2faca50a99e171afade28104cd7b0e30
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-05-19T00:26:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-05-19T00:26:56Z
+
+    Mac OS build fixes by laszlo
+    -- version 0.2.8
+
+commit 966cca4bd4a6d869583fb47f5f66ed4672c007ff
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-03-05T02:55:09Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-03-05T02:55:09Z
+
+    misc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@75 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 288424ad632da2eade1d8937bb513add131e22dd
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-03-05T02:55:09Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-03-05T02:55:09Z
+
+    misc
+
+commit 2cffa7ce315d9b98d35192d16927b44d21b9e1a7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-03-05T01:13:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-03-05T01:13:27Z
+
+    fixed runaway memory alloc bug on 64-bit in ParseString found by sirius-m
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@74 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 91e615bfecaa0958cb178176a52318edca3dfda5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-03-05T01:13:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-03-05T01:13:27Z
+
+    fixed runaway memory alloc bug on 64-bit in ParseString found by sirius-m
+
+commit d7d80a74d58152453cfb0c71a08f6b424d2493c9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-28T15:00:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-28T15:00:32Z
+
+    fix unsafe string handling in wxGetTranslation
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@73 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 9a3358220449e75966bb188f2dc49310107b676d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-28T15:00:32Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-28T15:00:32Z
+
+    fix unsafe string handling in wxGetTranslation
+
+commit 6557910ccf36e098b1a0de4841be7c04c4ffd58a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-26T16:09:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-26T16:09:43Z
+
+    wx/utils.h and wx/clipbrd.h not needed on bitcoind wxbase build
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@72 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 8a46ed83cc65707fab87f93ab59e9a611dd02a06
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-26T16:09:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-26T16:09:43Z
+
+    wx/utils.h and wx/clipbrd.h not needed on bitcoind wxbase build
+
+commit c2430126d75318508836a24f90d3524320190465
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-25T21:55:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-25T21:55:27Z
+
+    GUI-less build target bitcoind that links to wxBase and shouldn't need GTK,
+    split init and shutdown from ui.cpp into init.cpp,
+    support wxUSE_GUI=0
+    -- version 0.2.7
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@71 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 5eede9d4d9932969cd75a47dc0d6fd4c090f0342
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-25T21:55:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-25T21:55:27Z
+
+    GUI-less build target bitcoind that links to wxBase and shouldn't need GTK,
+    split init and shutdown from ui.cpp into init.cpp,
+    support wxUSE_GUI=0
+    -- version 0.2.7
+
+commit cb420a1dfc23d3c11c5281ed8f7ae003c2f61594
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-23T22:01:39Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-23T22:01:39Z
+
+    run as daemon without GUI,
+    hooked wxApp::Initialize to ignore gtk-init-check failure if no GUI,
+    fork to daemonize,
+    rpc getinfo, getconnectioncount, getbalance, getgenerate, setgenerate,
+    -- version 0.2.6
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@70 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 30158c77e99a099cbdd556bacbac18b431c3870c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-23T22:01:39Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-23T22:01:39Z
+
+    run as daemon without GUI,
+    hooked wxApp::Initialize to ignore gtk-init-check failure if no GUI,
+    fork to daemonize,
+    rpc getinfo, getconnectioncount, getbalance, getgenerate, setgenerate,
+    -- version 0.2.6
+
+commit 0184604aaf21f8279df9ecbee7be4fbf0bbf99c1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-21T21:42:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-21T21:42:01Z
+
+    transaction filter tabs instead of view->show generated
+    -- version 0.2.5
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@69 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit ee618d7540107aef543a0b252509b3005a15409c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-21T21:42:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-21T21:42:01Z
+
+    transaction filter tabs instead of view->show generated
+    -- version 0.2.5
+
+commit 75199de534a590329a3b636d63fade2e4544ce97
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-20T21:59:59Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-20T21:59:59Z
+
+    Address Book with tabs instead of separate Your Address book,
+    with live update of default address in main window,
+    New... button on main window for creating new receiving address,
+    made receiving address labels more visible,
+    ask user before paying transaction fee,
+    when sending to bitcoin address also use a bitcoin address for the change,
+    added some event.Skip() to fix UI glitches
+    -- version 0.2.4
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@68 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6ff4388ffa56fcf2fb398bd893a79f008af7efdc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-20T21:59:59Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-20T21:59:59Z
+
+    Address Book with tabs instead of separate Your Address book,
+    with live update of default address in main window,
+    New... button on main window for creating new receiving address,
+    made receiving address labels more visible,
+    ask user before paying transaction fee,
+    when sending to bitcoin address also use a bitcoin address for the change,
+    added some event.Skip() to fix UI glitches
+    -- version 0.2.4
+
+commit c6ab3cf6d9cf5f5ade3b8fc48590e1bc4794cb43
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-17T23:55:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-17T23:55:43Z
+
+    safer wxGetTranslation wrapper
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@67 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 794298063de40a6837736f9d928d28c2d6712a73
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-17T23:55:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-17T23:55:43Z
+
+    safer wxGetTranslation wrapper
+
+commit e4806597650d8a17f1da7a5b5501eb367ea786fc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-17T17:22:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-17T17:22:01Z
+
+    all builds are now with wxWidgets-2.9.0, we are now using UTF-8,
+    added support for language translation file locale/<lang>/LC_MESSAGES/bitcoin.mo
+    -- version 0.2.2
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@66 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit bcd27140384ec3703f3fd18ec89b0046a0ef17d3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-17T17:22:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-17T17:22:01Z
+
+    all builds are now with wxWidgets-2.9.0, we are now using UTF-8,
+    added support for language translation file locale/<lang>/LC_MESSAGES/bitcoin.mo
+    -- version 0.2.2
+
+commit 2b63e68bbfebc370aa6f2d542419a6e5680f33c5
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-15T20:36:55Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-15T20:36:55Z
+
+    fix mingw makefile to use correct wxWidgets include,
+    this is the last version of makefile and makefile.vc for wxWidgets-2.8
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@65 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f3cd4206b8f65048c332ccf2274fb976cfebf08c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-15T20:36:55Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-15T20:36:55Z
+
+    fix mingw makefile to use correct wxWidgets include,
+    this is the last version of makefile and makefile.vc for wxWidgets-2.8
+
+commit 5253d1ab77fab1995ede03fb934edd67f1359ba8
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-15T04:03:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-15T04:03:07Z
+
+    strip out unfinished product, review and market stuff,
+    enable _() instead of wxT() in uiproject.fbp so it uses wxGetTranslation for the wxFormBuilder generated part of the UI
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@64 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit cc4b78d59f566ff43881f57797a16ce45eb1b80e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-15T04:03:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-15T04:03:07Z
+
+    strip out unfinished product, review and market stuff,
+    enable _() instead of wxT() in uiproject.fbp so it uses wxGetTranslation for the wxFormBuilder generated part of the UI
+
+commit 64a474a49b20a66453fbcd2382e4b042427b0a0f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-14T22:27:13Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-14T22:27:13Z
+
+    renamed a few rpc methods
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@63 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 297a50a06350e2094213a0930e896c10744256b9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-14T22:27:13Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-14T22:27:13Z
+
+    renamed a few rpc methods
+
+commit c4319e678f693d5fbc49bd357ded1c8f951476e9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-14T00:08:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-14T00:08:27Z
+
+    Workaround for bug on wxWidgets 2.9.0 Ubuntu 9.10 64-bit where first character of the hidden columns were displayed so status column had three numbers overprinted.  Fixed by adding a leading space to the hidden columns.  64-bit compile with wxWidgets 2.9.0 seems to be fully working normally now.
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@62 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7271c7ff35b74b7fa0bb9dd2db95b99fb9f9db01
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-14T00:08:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-14T00:08:27Z
+
+    Workaround for bug on wxWidgets 2.9.0 Ubuntu 9.10 64-bit where first character of the hidden columns were displayed so status column had three numbers overprinted.  Fixed by adding a leading space to the hidden columns.  64-bit compile with wxWidgets 2.9.0 seems to be fully working normally now.
+
+commit c85dfb148a1e3d75773bc5f6b7cad14363fd666b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-13T02:09:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-13T02:09:07Z
+
+    updated build-unix.txt
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@61 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 19765903dc39a641af614443f5876190fe56931d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-13T02:09:07Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-13T02:09:07Z
+
+    updated build-unix.txt
+
+commit 98500d70a8cf25af4bab80526fd128ccdc36ceeb
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-12T20:38:44Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-12T20:38:44Z
+
+    command line and JSON-RPC first draft, requires Boost 1.35 or higher for boost::asio,
+    added SetBitcoinAddress and GetBitcoinAddress methods on CScript,
+    critsect interlocks around mapAddressBook,
+    added some random delays in tx broadcast to improve privacy,
+    now compiles with MSVC 8.0
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@60 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 22f721dbf23cf5ce9e3ded9bcfb65a3894cc0f8c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-12T20:38:44Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-12T20:38:44Z
+
+    command line and JSON-RPC first draft, requires Boost 1.35 or higher for boost::asio,
+    added SetBitcoinAddress and GetBitcoinAddress methods on CScript,
+    critsect interlocks around mapAddressBook,
+    added some random delays in tx broadcast to improve privacy,
+    now compiles with MSVC 8.0
+
+commit fa9dbd6b62ab161c29c9b8cf97b9c8da8ef4346e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-10T19:46:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-10T19:46:04Z
+
+    better error message in check_type(), tell the types by name instead of by number
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@59 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 73278c0a16cf0d68fb9011203a2112c3499df195
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-10T19:46:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-10T19:46:04Z
+
+    better error message in check_type(), tell the types by name instead of by number
+
+commit 75990a46a7e4999729ff67c4268c2241c98e486f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-10T19:41:22Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-10T19:41:22Z
+
+    JSON Spirit library from http://www.codeproject.com/KB/recipes/JSON_Spirit.aspx, MIT license
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@58 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 40d324f102295b8eea70ec9ac6b42be417cbbfb8
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-10T19:41:22Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-10T19:41:22Z
+
+    JSON Spirit library from http://www.codeproject.com/KB/recipes/JSON_Spirit.aspx, MIT license
+
+commit c41226d847c7d32ade7f02c0d53c85b0800fc71b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-10T19:33:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-10T19:33:04Z
+
+    revert revision 56, going in different direction with boost::asio and JSON-RPC
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@57 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 1c5d5e58c67e63fd83afd945c7db1190de62514a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-10T19:33:04Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-10T19:33:04Z
+
+    revert revision 56, going in different direction with boost::asio and JSON-RPC
+
+commit 53d508072b02d522371bde148dcc3e925f472be7
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-03T22:58:40Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-03T22:58:40Z
+
+    update fSpent flag on wallet transactions if they're seen spent in case copy of wallet.dat was used elsewhere or restored from backup,
+    better error dialog box if try to spend already spent coins,
+    got rid of unused notebook with only one tab on main dialog,
+    nicer looking About dialog,
+    resize About dialog better on linux
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@55 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2939cab06d65548abdaeb1ff218550eb47b93362
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-02-03T22:58:40Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-02-03T22:58:40Z
+
+    update fSpent flag on wallet transactions if they're seen spent in case copy of wallet.dat was used elsewhere or restored from backup,
+    better error dialog box if try to spend already spent coins,
+    got rid of unused notebook with only one tab on main dialog,
+    nicer looking About dialog,
+    resize About dialog better on linux
+
+commit 8be979d9aef606f2a196a2addcf80473d571185b
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-01-28T21:49:20Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-01-28T21:49:20Z
+
+    now compiles on 64-bit Ubuntu Karmic with wxWidgets-2.9.0,
+    fixes for wxWidgets-2.9.0,
+    added superfluous GetEventHandler()'s,
+    there's still a bug on wx2.9.0 that the status number is mashed up for some reason otherwise seems to run fine
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@54 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 9e56521b4b79a90cfae63c658ed2ecb67acebfca
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-01-28T21:49:20Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-01-28T21:49:20Z
+
+    now compiles on 64-bit Ubuntu Karmic with wxWidgets-2.9.0,
+    fixes for wxWidgets-2.9.0,
+    added superfluous GetEventHandler()'s,
+    there's still a bug on wx2.9.0 that the status number is mashed up for some reason otherwise seems to run fine
+
+commit cb0f89646f065800d38d7cfc10ba1e855563296a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-01-28T00:31:00Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-01-28T00:31:00Z
+
+    simplify AddAddress,
+    readcompactsize limit,
+    fixed a 64-bit compile error in serialize.h,
+    change status "# blocks" to "# confirmations" and widen the column.
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@53 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 80264be428b7ec7692e6633a0f21232c63a0b62c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2010-01-28T00:31:00Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2010-01-28T00:31:00Z
+
+    simplify AddAddress,
+    readcompactsize limit,
+    fixed a 64-bit compile error in serialize.h,
+    change status "# blocks" to "# confirmations" and widen the column.
+
+commit 9a36562347122482fd1e6e77c74df66ad8cf2c3f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-17T23:16:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-17T23:16:27Z
+
+    command line switch -noui
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@52 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 95d839f15c2ae418939bbecdc95228f00ea4466d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-17T23:16:27Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-17T23:16:27Z
+
+    command line switch -noui
+
+commit 312c2c42b6d38dc7bfeef849722c8e231c38e8e4
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-17T18:15:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-17T18:15:50Z
+
+    a few header changes for freebsd from madhatter
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@51 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 9228c53cf59b8b24bddb04dbc0485d583e79bf4a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-17T18:15:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-17T18:15:50Z
+
+    a few header changes for freebsd from madhatter
+
+commit e2c2648c14f4b87d331dbc30f0f2bd4aab9ce7e6
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-14T02:12:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-14T02:12:01Z
+
+    filter out duplicate getblocks and don't relay inv messages during initial block download -- 0.2 rc2
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@49 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2da02dd7749060b55fd5e14696277b64583b8100
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-14T02:12:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-14T02:12:01Z
+
+    filter out duplicate getblocks and don't relay inv messages during initial block download -- 0.2 rc2
+
+commit adb50ffe32c5c37c84ff35d94bb486004e14a7cc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-13T02:34:45Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-13T02:34:45Z
+
+    misc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@48 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 2ed2b9a3e42110beb657efb51360cb545c6a72f8
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-13T02:34:45Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-13T02:34:45Z
+
+    misc
+
+commit e899779450bcd940dcdb0108d27c35eae92cc1e1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-13T02:13:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-13T02:13:43Z
+
+    restrict file permissions on linux to the user only
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@47 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit bd336ba27283106a5ae6b77f8a77561c644f114c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-13T02:13:43Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-13T02:13:43Z
+
+    restrict file permissions on linux to the user only
+
+commit e39bc50eb4dd4f0a34ee4c264af83043f13543dd
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-13T00:13:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-13T00:13:16Z
+
+    misc exit code, updated setup.nsi
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@46 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 25b12b8839be4fc5a051656aad82870c083cce4d
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-13T00:13:16Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-13T00:13:16Z
+
+    misc exit code, updated setup.nsi
+
+commit 651d33556982d038d39f04373b9f63913bf03187
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-11T17:19:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-11T17:19:51Z
+
+    misc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@45 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 433fb54b25397d2df117e81345507c08832dfb06
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-11T17:19:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-11T17:19:51Z
+
+    misc
+
+commit 4ea3f3da1a0c00ea74e85c31a22ea94d18bbdf06
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-11T16:49:21Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-11T16:49:21Z
+
+    retry IRC if name in use,
+    resize to fit ubuntu's giant default font,
+    scroll debug.log,
+    pause gen during initial block download
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@44 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 0bbbee96b742e4ad0fd5e1d3c33e4bd2247e4445
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-11T16:49:21Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-11T16:49:21Z
+
+    retry IRC if name in use,
+    resize to fit ubuntu's giant default font,
+    scroll debug.log,
+    pause gen during initial block download
+
+commit b075bbf9862df41cdf5265026ba787b7d0fecb07
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-06T00:38:11Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-06T00:38:11Z
+
+    misc
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@43 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit ba0909e96afd15a56420456595f4b201c1582c16
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-06T00:38:11Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-06T00:38:11Z
+
+    misc
+
+commit 107d9e288df8207e83f4273a8dcd631412f89889
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-06T00:29:09Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-06T00:29:09Z
+
+    fix transaction fee bug in CreateTransaction, higher size cutoff for free transactions in GetMinFee
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@42 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 658b5b414afd7ec4d73d2b0140037778c66c18d1
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-12-06T00:29:09Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-12-06T00:29:09Z
+
+    fix transaction fee bug in CreateTransaction, higher size cutoff for free transactions in GetMinFee
+
+commit 52f4cb48590a706caf7a492e8d94b85620d5cd33
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-24T21:04:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-24T21:04:50Z
+
+    minor fix to batched initial download in case requester has more than 500 block non-main branch
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@41 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 70918a6645a324c635925fb68a0d41f7c7b40403
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-24T21:04:50Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-24T21:04:50Z
+
+    minor fix to batched initial download in case requester has more than 500 block non-main branch
+
+commit c5c7911dab8732861affbe66849a100da62f7464
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-18T19:19:41Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-18T19:19:41Z
+
+    bugfix Db::open/close and zombie sockets bugs fix double-close of socket handle,
+    keep databases open,
+    close db cursors,
+    initial block download in batches of 500 blocks,
+    fix misc warnings,
+    subver linux-test8
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@40 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e4db374421cac4c6fd0d9f9b337d9073e5207c21
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-18T19:19:41Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-18T19:19:41Z
+
+    bugfix Db::open/close and zombie sockets bugs fix double-close of socket handle,
+    keep databases open,
+    close db cursors,
+    initial block download in batches of 500 blocks,
+    fix misc warnings,
+    subver linux-test8
+
+commit b349e3dca89dfff5fe70669f9fd3f3a1ec60a498
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-14T18:04:08Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-14T18:04:08Z
+
+    misc compile error
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@39 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 01fe1d2137d5e0a1d38f4c3be241b69ceccc578c
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-14T18:04:08Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-14T18:04:08Z
+
+    misc compile error
+
+commit 70e79525c97c33a5fca8674d47d86cc2b7ae197a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-13T01:23:08Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-13T01:23:08Z
+
+    monitor ThreadSocketHandler and terminate and restart if hung, convert _beginthread to CreateThread wrapper, disconnect inactive connections, ping, break up long messages to speed up initial download, better priorities for initiating connections, track how many nodes have requested our blocks and transactions, status #/offline and warning message on unsent blocks, minimize on close as separate option -- linux-test5
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@38 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 31e6ea7f5d5b3d73f4084261465142c9fe0fb894
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-13T01:23:08Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-13T01:23:08Z
+
+    monitor ThreadSocketHandler and terminate and restart if hung, convert _beginthread to CreateThread wrapper, disconnect inactive connections, ping, break up long messages to speed up initial download, better priorities for initiating connections, track how many nodes have requested our blocks and transactions, status #/offline and warning message on unsent blocks, minimize on close as separate option -- linux-test5
+
+commit 956468c29adcbff83ab7c2e52d91f8e87b704853
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-08T04:24:52Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-08T04:24:52Z
+
+    Get local host IP on Linux, Shutdown() a little cleaner -- linux-0.1.6-test1 waypoint
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@37 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e9c2b5c84d7bbb7f173cbe6035f6299248e14769
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-08T04:24:52Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-08T04:24:52Z
+
+    Get local host IP on Linux, Shutdown() a little cleaner -- linux-0.1.6-test1 waypoint
+
+commit b4e235f9f23b492539eeeddbbd1e7a7ef1b6793e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-07T18:51:41Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-07T18:51:41Z
+
+    ui tweaks, multiple xpm icon sizes
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@36 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 158ea66c6c6653a033f884f13dc082046a58f74a
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-07T18:51:41Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-07T18:51:41Z
+
+    ui tweaks, multiple xpm icon sizes
+
+commit 8b4cefd3245c349cad14baaf2ba42380dcc88112
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-07T05:05:03Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-07T05:05:03Z
+
+    UI tweaks, use BindListenPort to detect instance already running, setsockopt(SO_REUSEADDR) so can bind during TIME_WAIT after exit and restart
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@35 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 1a01afab238cbf48331559f4be4b20f9027c53b4
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-07T05:05:03Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-07T05:05:03Z
+
+    UI tweaks, use BindListenPort to detect instance already running, setsockopt(SO_REUSEADDR) so can bind during TIME_WAIT after exit and restart
+
+commit 8acda009d921a65dab87bd0a40f63981a1586561
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-06T18:53:26Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-06T18:53:26Z
+
+    UIThreadCall, ThreadSafeMessageBox
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@34 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 85c33b960211722e2183e90b2fa0460f5fe52467
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-06T18:53:26Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-06T18:53:26Z
+
+    UIThreadCall, ThreadSafeMessageBox
+
+commit 300d4608f2504e3e4a02a13b6c6000b52c436975
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-06T05:50:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-06T05:50:05Z
+
+    got rid of CheckForShutdown, replaced some thread-unsafe wxWidgets calls, Linux fixes, socket send MSG_NOSIGNAL, bind INADDR_ANY, works reliably on Linux now except if wxMessageBox is used in a thread other than the GUI thread
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@33 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 93cfb02acb13b74198b8e0ab72f039313ecf9f1f
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-06T05:50:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-06T05:50:05Z
+
+    got rid of CheckForShutdown, replaced some thread-unsafe wxWidgets calls, Linux fixes, socket send MSG_NOSIGNAL, bind INADDR_ANY, works reliably on Linux now except if wxMessageBox is used in a thread other than the GUI thread
+
+commit e4c05d31778a85014b2a52e2f20753b38dfbf950
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-05T04:41:36Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-05T04:41:36Z
+
+    unix build merged in, bitmap resources from xpm instead of rc, better addr relay, better selection of addrs by time last seen for faster connect
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@32 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit fba40889418cb1861440a3fdccee048c69f0fb89
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-05T04:41:36Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-05T04:41:36Z
+
+    unix build merged in, bitmap resources from xpm instead of rc, better addr relay, better selection of addrs by time last seen for faster connect
+
+commit b7362c07ae42ac4282361ee95b82424d502f1b82
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-04T04:58:46Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-04T04:58:46Z
+
+    renamed build.txt to build-msw.txt
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@28 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit f7d3cc0e584e7184b9f5cd9736d34f41c5e70182
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-04T04:58:46Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-04T04:58:46Z
+
+    renamed build.txt to build-msw.txt
+
+commit 4ac57f013e20da2d0f87fff69625cbd4419089f3
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-01T01:16:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-01T01:16:51Z
+
+    move debug.log and db.log to data dir, portable GetDataDir, optimize GetBalance, fix repaint bogdown, -addnode and -? switches
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@25 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit e66ec79b18717bf83b7dbbe54f844b4463dabdeb
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-11-01T01:16:51Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-11-01T01:16:51Z
+
+    move debug.log and db.log to data dir, portable GetDataDir, optimize GetBalance, fix repaint bogdown, -addnode and -? switches
+
+commit 32d490313b21d5cea64f99ca9db4388591bb3ab9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-30T00:57:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-30T00:57:05Z
+
+    make CheckDiskSpace portable
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@22 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 8938414f0c1e325a3c2242b703f24411956aee15
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-30T00:57:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-30T00:57:05Z
+
+    make CheckDiskSpace portable
+
+commit e8474beb6f2c5e2654f8ebc671b3dbf5fae78563
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-29T20:10:46Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-29T20:10:46Z
+
+    better wallet.dat flush, consolidated QueryPerformanceCounter, PRI64d printf portability
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@20 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 7be46ce487e2f3c6e145b9bc56cc37d8de97df9e
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-29T20:10:46Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-29T20:10:46Z
+
+    better wallet.dat flush, consolidated QueryPerformanceCounter, PRI64d printf portability
+
+commit dc73b326f97f2ed7ec7b7e8485ebc9eb46e05ddb
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-29T05:55:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-29T05:55:56Z
+
+    CCriticalSection using wxWidgets instead of Windows OS calls
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@19 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit fc0e97a70ee295da44096fa590a1f7674b936590
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-29T05:55:56Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-29T05:55:56Z
+
+    CCriticalSection using wxWidgets instead of Windows OS calls
+
+commit dd519206a684c772a4a06ceecc87c665ad09d8be
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-29T02:52:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-29T02:52:48Z
+
+    addr relaying fixes, proxy option and privacy patches, detect connect to self, non-final tx locktime changes, fix hide unconfirmed generated
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@18 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit cc0b4c3b62367a2aebe5fc1f4d0ed4b97e9c2ac9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-29T02:52:48Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-29T02:52:48Z
+
+    addr relaying fixes, proxy option and privacy patches, detect connect to self, non-final tx locktime changes, fix hide unconfirmed generated
+
+commit fa2a0338d3f8b1c3a1d75bff39ff42e436cee0dc
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-25T04:35:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-25T04:35:01Z
+
+    fix display of new generated coins, fix assertion in bitcoinminer
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@17 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 6ccefea62ae5644c9b318234c6a8a6c077d00922
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-25T04:35:01Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-25T04:35:01Z
+
+    fix display of new generated coins, fix assertion in bitcoinminer
+
+commit 99cef996c788755af95a0a614d7154a30928d4b9
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-21T01:08:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-21T01:08:05Z
+
+    flush wallet.dat, multi-proc, reorg options, revert to startup folder shortcut
+    
+    git-svn-id: https://bitcoin.svn.sourceforge.net/svnroot/bitcoin/trunk@15 1a98c847-1fd6-4fd8-948a-caf3550aa51b
+
+commit 52109986881e77ba2f7a2e3dfe39f2f842732f16
+Author:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+AuthorDate: 2009-10-21T01:08:05Z
+Commit:     s_nakamoto <s_nakamoto@1a98c847-1fd6-4fd8-948a-caf3550aa51b>
+CommitDate: 2009-10-21T01:08:05Z
+
+    flush wallet.dat, multi-proc, reorg options, revert to startup folder shortcut

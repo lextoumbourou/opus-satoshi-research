@@ -1,0 +1,1630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="Gentoo Linux Ebuild" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>Gentoo Linux Ebuild</title><!--ebf45461d66ef9d20a135ccf3c94c2bcd90a004b0fe081a7bc6f8b7b9fab0a135ccf3c94c2bcd90a004b0fe081a7eb32dbd90a135ccf3c94c2bcd90a004b0fe081a7ed6d--><link rel="canonical" href="https://bitcointalk.org/index.php?topic=930.0" />
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.msgcl1 {padding: 1px 1px 0 1px;}
+
+</style>
+
+
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" />
+	<link rel="prev" href="https://bitcointalk.org/index.php?topic=930.0;prev_next=prev" />
+	<link rel="next" href="https://bitcointalk.org/index.php?topic=930.0;prev_next=next" />
+	<link rel="index" href="https://bitcointalk.org/index.php?board=6.0" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		function showhide(msgnr)
+		{
+			if (document.getElementById("message"+msgnr).style.display == "")
+			    {document.getElementById("message"+msgnr).style.display = "none";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "hidden";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "";
+			     document.getElementById("ignfooter"+msgnr).style.display = "none";
+			     document.getElementById("ignprofile"+msgnr).style.display = "none";
+			    }
+			    else
+			    {document.getElementById("message"+msgnr).style.display = "";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "visible";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "none";
+			     document.getElementById("ignfooter"+msgnr).style.display = "";
+			     document.getElementById("ignprofile"+msgnr).style.display = "";
+			     }
+		}
+// ]]></script>
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">September 26, 2026, 02:17:57 AM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoincore.org/en/releases/">31.1</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-31.1.torrent">Torrent</a>]</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+						<input type="hidden" name="topic" value="930" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="/more.php">More</a>
+				</td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+<a name="top"></a>
+<a name="msg11252"></a>
+<div><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=6.0" class="nav">Development &amp; Technical Discussion</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=930.0" class="nav">Gentoo Linux Ebuild</a></b></div></div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext" valign="bottom" style="padding-bottom: 4px;">Pages:  [<b>1</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=930.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=930.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=930.60">4</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=930.20">&#187;</a> </span>&nbsp;<a href="https://bitcointalk.org/index.php?topic=930.0;all">All</a> </td>
+		<td align="right" style="padding-right: 1ex;">
+			<div class="nav" style="margin-bottom: 2px;"> <a href="https://bitcointalk.org/index.php?topic=930.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=930.0;prev_next=next#new">next topic &raquo;</a></div>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="mirrortab_first">&nbsp;</td>
+		<td class="mirrortab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=930.0" target="_blank">Print</a></td>
+		<td class="mirrortab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellpadding="3" cellspacing="0" border="0" class="tborder" style="border-bottom: 0;">
+		<tr class="catbg3">
+				<td valign="middle" width="2%" style="padding-left: 6px;">
+					<img src="https://bitcointalk.org/Themes/custom1/images/topic/hot_post.gif" align="bottom" alt="" />
+				</td>
+				<td width="13%"> Author</td>
+				<td valign="middle" width="85%" style="padding-left: 6px;" id="top_subject">
+						Topic: Gentoo Linux Ebuild &nbsp;(Read 21675 times)
+				</td>
+		</tr>
+</table>
+<form action="https://bitcointalk.org/index.php?action=quickmod2;topic=930.0" method="post" accept-charset="ISO-8859-1" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return in_edit_mode == 1 ? modify_save('0a135ccf3c94c2bcd90a004b0fe081a7') : confirm('Are you sure you want to do this?');">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="bordercolor"><tr><td class="msgcl1">
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11252#msg11252"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11252"><a href="https://bitcointalk.org/index.php?topic=930.msg11252#msg11252">Gentoo Linux Ebuild</a></div>
+												<div class="smalltext"><span title="Last edit: April 28, 2011, 11:34:20 AM by mizerydearia" class="edited">August 26, 2010, 06:10:29 AM</span><span class="editplain"><br />Last edit: April 28, 2011, 11:34:20 AM by mizerydearia</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns1" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11252#msg11252">#1</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><del><a class="ul" href="http://github.com/mizerydearia/bitcoin_gentoo_ebuild">bitcoin ebuilds for gentoo linux</a><br /><br />2011.03.02: bitcoin-git-9999 ebuild updated</del> outdated<br /><br />Come to #bitcoin-gentoo on Freenode for latest</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11252">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11342"></a><a name="new"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=3" title="View the profile of satoshi">satoshi</a></b>
+							<div class="smalltext">
+								Founder<br />
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/founder.gif" alt="*" border="0" /><br />
+<img style="padding-top:2px" src="https://bitcointalk.org/Themes/custom1/images/badges/qt.png" title="Bitcoin core developer" alt="qt" class="badgeimg" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 364<br />
+								Merit: 9151<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=3"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11342#msg11342"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11342"><span style="opacity: 30%;">&#8702;&nbsp;</span><a style="color: black" href="https://bitcointalk.org/index.php?topic=930.msg11342#msg11342">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 27, 2010, 12:49:43 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns2" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11342#msg11342">#2</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Try -datadir=<br /><br />Last time I tried $(shell /usr/bin/wx-config), there was immediate hollering about build problems with it. &nbsp;There wasn&#039;t time to investigate at the time.<br /><br />One problem with $(shell /usr/bin/wx-config) is it will pick up any version (wx 2.8 ) and any configuration (non-UTF-8 ) of wxWidgets that happens to be there. &nbsp;-lwx_gtk2ud-2.9 only matches the right configuration. &nbsp;It fails if wxWidgets was built with the wrong configuration. <br /><br /><div class="quoteheader">Quote</div><div class="quote">Iirc, chatting in #wxwidgets on freenode, the devs there were baffled why that was used.<br /></div>Did they say why they were baffled? <br /><br /><div class="quoteheader">Quote</div><div class="quote">This is because on my system the path is /usr/include/wx-2.9/wx/wx.h<br /></div>Why is it there? &nbsp;Was it included by the OS, or did you have to build it? &nbsp;If you built it, I wonder why it would put itself in a different place.<br /><br />Has wxWidgets 2.9 finally started to become available as a debian package?<br /><br />Maybe we should do this:<br /><br />INCLUDEPATHS= \<br />&nbsp;-I&quot;/usr/local/include/wx-2.9&quot; \<br />&nbsp;-I&quot;/usr/local/lib/wx/include/gtk2-unicode-debug-static-2.9&quot; \<br />&nbsp;-I&quot;/usr/include/wx-2.9&quot; \<br />&nbsp;-I&quot;/usr/lib/wx/include/gtk2-unicode-debug-static-2.9&quot;<br /><br />Again, those paths help make sure it&#039;s only 2.9 and will fail with 2.8.<br /><br />wxWidgets 2.8 comes in ANSI and UTF-16, both wrong for us. &nbsp;It&#039;s tempting because it&#039;s so easily available as a package; a lot of people were frustrated by it until we started hardcoding 2.9 into the makefile.<br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11342">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11356"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11356"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 27, 2010, 05:22:35 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns3" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">#3</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Some things:<br /><br />1) Remind that you will need to fix the header.<br />2) wxgtk is only needed when building the gui, not the daemon (make that use flag dependable)<br />3) gtk+ is then dependency of wxgtk, don&#039;t ask for it yourself.<br />4) Check other programs if and how they use wxwidgets through eselect (you can have 2.6 and 2.8 slotted on the same system, you will need 2.9)<br />4) /home/bticoin?<br />5) Strip optimizations from the Makefile and let the user provide them (or strip them properly)<br />6) Don&#039;t build static code. I have a Makefile that builds dynamic code. If you want I can send it to you. You will need to make changes to it.<br /><br />Valuable reading material:<br /><a class="ul" href="http://devmanual.gentoo.org/">http://devmanual.gentoo.org/</a><br /><a class="ul" href="http://www.gentoo.org/proj/en/devrel/handbook/handbook.xml">http://www.gentoo.org/proj/en/devrel/handbook/handbook.xml</a><br /><br /><br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11356">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11370"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11370"><a href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext"><span title="Last edit: August 27, 2010, 08:22:35 AM by mizerydearia" class="edited">August 27, 2010, 08:03:27 AM</span><span class="editplain"><br />Last edit: August 27, 2010, 08:22:35 AM by mizerydearia</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns4" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370">#4</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11342#msg11342">Quote from: satoshi on August 27, 2010, 12:49:43 AM</a></div><div class="quote">Last time I tried $(shell /usr/bin/wx-config), there was immediate hollering about build problems with it. &nbsp;There wasn&#039;t time to investigate at the time.<br /><br />One problem with $(shell /usr/bin/wx-config) is it will pick up any version (wx 2.8 ) and any configuration (non-UTF-8 ) of wxWidgets that happens to be there. &nbsp;-lwx_gtk2ud-2.9 only matches the right configuration. &nbsp;It fails if wxWidgets was built with the wrong configuration.</div><br />For reference purpose, Gentoo has the following work-around for specific wxWidgets versions:<br /><br /><div class="codeheader">Code:</div><div class="code">$ eselect wxwidgets list<br />Available wxWidgets profiles:<br />&nbsp;&nbsp;[1] &nbsp; gtk2-ansi-release-2.6<br />&nbsp;&nbsp;[2] &nbsp; gtk2-unicode-2.9 *<br />&nbsp;&nbsp;[3] &nbsp; gtk2-unicode-release-2.6<br />&nbsp;&nbsp;[4] &nbsp; gtk2-unicode-release-2.8<br /><br />$ /usr/bin/wx-config --version<br />2.9.1<br /><br /># eselect wxwidgets set 1<br /><br />Setting wxWidgets profile to gtk2-ansi-release-2.6<br /><br />$ /usr/bin/wx-config --version<br />2.6.4</div><br />I&#039;m not sure about other distros though.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11342#msg11342">Quote from: satoshi on August 27, 2010, 12:49:43 AM</a></div><div class="quote"><div class="quoteheader">Quote</div><div class="quote">This is because on my system the path is /usr/include/wx-2.9/wx/wx.h<br /></div>Why is it there? &nbsp;Was it included by the OS, or did you have to build it? &nbsp;If you built it, I wonder why it would put itself in a different place.</div><br /><div class="quoteheader">Quote from: bonsaikitten</div><div class="quote">&lt;bonsaikitten&gt; necrodearia: it is there because that&#039;s the correct location<br />&lt;bonsaikitten&gt; necrodearia: it is not in /usr/local because that&#039;s not the correct location<br />&lt;bonsaikitten&gt; further questions might be resolved by reading FHS</div><br /><a class="ul" href="http://www.pathname.com/fhs/">http://www.pathname.com/fhs/</a><br /><br />Gentoo Linux is designed so that all (99.99%) packages are compiled from source, so yes, I compiled wxGTK using an ebuild from Portage, the Gentoo Linux package management software.<br /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">1) Remind that you will need to fix the header.</div>I don&#039;t understand this. &nbsp;Which header?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">4) /home/bticoin?</div>I don&#039;t see where I misspelled bitcoin. &nbsp;Which file?<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">5) Strip optimizations from the Makefile and let the user provide them (or strip them properly)</div>I am uncertain what &quot;optimizations&quot; are.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">6) Don&#039;t build static code. I have a Makefile that builds dynamic code. If you want I can send it to you. You will need to make changes to it.</div>I am not familiar with which parts of code are static and could be converted to dynamic. &nbsp;I only prepared an ebuild because it seems nobody else has. &nbsp;I am not skilled enough to perfect the ebuild, however, if anyone else would like to contribute towards making it better, I set up a git repository: <a class="ul" href="http://github.com/mizerydearia/bitcoin_gentoo_ebuild">http://github.com/mizerydearia/bitcoin_gentoo_ebuild</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11370">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11414"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11414#msg11414"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11414"><a href="https://bitcointalk.org/index.php?topic=930.msg11414#msg11414">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext"><span title="Last edit: August 27, 2010, 07:14:06 PM by BioMike" class="edited">August 27, 2010, 06:52:53 PM</span><span class="editplain"><br />Last edit: August 27, 2010, 07:14:06 PM by BioMike</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns5" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11414#msg11414">#5</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370">Quote from: mizerydearia on August 27, 2010, 08:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">1) Remind that you will need to fix the header.</div>I don&#039;t understand this. &nbsp;Which header?<br /></div><br /><div class="codeheader">Code:</div><div class="code"># Copyright 1999-2010 Gentoo Foundation<br /># Distributed under the terms of the GNU General Public License v2<br /># $Header: /var/cvsroot/gentoo-x86/app-mobilephone/lightblue/lightblue-0.4.ebuild,v 1.3 2010/03/27 17:57:36 arfrever Exp $<br /></div><br />That header <img src="https://bitcointalk.org/Smileys/default/wink.gif" alt="Wink" border="0" /><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370">Quote from: mizerydearia on August 27, 2010, 08:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">4) /home/bticoin?</div>I don&#039;t see where I misspelled bitcoin. &nbsp;Which file?<br /></div><br />My mistake. I meant to write /home/bitcoin. My point is that this should be /var/lib/bitcoin.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370">Quote from: mizerydearia on August 27, 2010, 08:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">5) Strip optimizations from the Makefile and let the user provide them (or strip them properly)</div>I am uncertain what &quot;optimizations&quot; are.<br /></div><br />Things like &quot;-msse2 -O3 -march=amdfam10&quot;. Gentoo users normally specify them themselves in /etc/make.conf.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11370#msg11370">Quote from: mizerydearia on August 27, 2010, 08:03:27 AM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11356#msg11356">Quote from: BioMike on August 27, 2010, 05:22:35 AM</a></div><div class="quote">6) Don&#039;t build static code. I have a Makefile that builds dynamic code. If you want I can send it to you. You will need to make changes to it.</div>I am not familiar with which parts of code are static and could be converted to dynamic. &nbsp;I only prepared an ebuild because it seems nobody else has. &nbsp;I am not skilled enough to perfect the ebuild, however, if anyone else would like to contribute towards making it better, I set up a git repository: <a class="ul" href="http://github.com/mizerydearia/bitcoin_gentoo_ebuild">http://github.com/mizerydearia/bitcoin_gentoo_ebuild</a><br /></div><br />I can help you with that. One other thing that might be nice is an init.d script to start and stop the daemon at boot. &lt;edit&gt;oh... it&#039;s already there.&lt;/edit&gt;</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11414">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11435"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=677" title="View the profile of checker">checker</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 340<br />
+								Merit: 252<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_677.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=677"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11435#msg11435"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11435"><a href="https://bitcointalk.org/index.php?topic=930.msg11435#msg11435">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 27, 2010, 09:31:30 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns6" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11435#msg11435">#6</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">ebuild for bitcoin-9999 was updated. I had installed it just with &quot;emerge bitcoin&quot; .<br />Just synced overlay (booboo) before.<br />p.s. it would be excelent to make bitcoind .</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11435">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig677">Xo&#1095;e&#1096;&#1100; o&#1090;&#1073;&#1083;a&#1075;o&#1076;ap&#1080;&#1090;&#1100; - &#1082;&#1080;&#1085;&#1100; &#1073;&#1080;&#1090;&#1082;o&#1080;&#1085;o&#1074;, c&#1082;o&#1083;&#1100;&#1082;o &#1085;e &#1078;a&#1083;&#1082;o- &#1073;y&#1076;y pa&#1076;!<br />(If u want to say me thanx - give me some bitcoins <img src="https://bitcointalk.org/Smileys/default/smiley.gif" alt="Smiley" border="0" /> )<br />1NXsbppu1B2exLUY8i5cYbQxbc2zWtiTAY</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11447"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11447#msg11447"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11447"><a href="https://bitcointalk.org/index.php?topic=930.msg11447#msg11447">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 27, 2010, 10:39:24 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns7" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11447#msg11447">#7</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">I used the live ebuild as a base to make a new ebuild against 0.3.10. The daemon seems to build fine, but for the graphical client I still need to adjust the Makefile (whole wxGTK part is missing there), but the ebuild already takes most of wxGTK into account. The daemon/graphical client are build on basis of use flags.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11447">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11559"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11559#msg11559"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11559"><a href="https://bitcointalk.org/index.php?topic=930.msg11559#msg11559">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 29, 2010, 04:28:56 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns8" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11559#msg11559">#8</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11414#msg11414">Quote from: BioMike on August 27, 2010, 06:52:53 PM</a></div><div class="quote"><div class="codeheader">Code:</div><div class="code"># Copyright 1999-2010 Gentoo Foundation<br /># Distributed under the terms of the GNU General Public License v2<br /># $Header: /var/cvsroot/gentoo-x86/app-mobilephone/lightblue/lightblue-0.4.ebuild,v 1.3 2010/03/27 17:57:36 arfrever Exp $<br /></div><br />That header <img src="https://bitcointalk.org/Smileys/default/wink.gif" alt="Wink" border="0" /></div><br />Oooh.<br /><br /><div class="quoteheader">Quote from: #gentoo</div><div class="quote">&lt;monttyle&gt; necrodearia: &nbsp;if you wrote the ebuild, I think you could remove the lines.<br />&lt;monttyle&gt; How much has to be left of the originals for it to be considered derivitave?</div><br /><div class="quoteheader">Quote from: #gentoo-dev-help</div><div class="quote">&lt;necrodearia&gt; I wrote an ebuild and released it on github. &nbsp;I mistakenly left in the three lines starting with # Copyright 1999-2010 Gentoo Foundation from copying from another ebuild file. &nbsp;Since I had released the file with that in the header, do I no longer own the copyright?<br />&lt;necrodearia&gt; <a class="ul" href="http://bitcointalk.org/index.php?topic=930.msg11414#msg11414">http://bitcointalk.org/index.php?topic=930.msg11414#msg11414</a><br />&lt;floppym&gt; If anyone has downloaded it, you would have a difficult time suing them.<br />&lt;necrodearia&gt; That isn&#039;t my intention. &nbsp;I would like to maintain gpl if I am able to.<br />&lt;floppym&gt; Also, since you copied an existing ebuild, yours would probably be considered a derrivative work under the GPL.<br />&lt;necrodearia&gt; I agree. &nbsp;How can I proceed safely so that my derivation is still acceptable? &nbsp;Is it okay to remove the $Header line?<br />&lt;floppym&gt; I&#039;m not an expert on the GPL, but I believe you need to maintain a record of the original author(s).<br />&lt;necrodearia&gt; mm, I imagine so. &nbsp;However, someone pointed out that I should fix the header. &nbsp;I am uncertain how to &quot;fix&quot; it.</div><br />Any ideas on proper or best method to &quot;fix&quot; this? &nbsp;I am not so knowledgeable of copyright.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11559">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11560"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11560#msg11560"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11560"><a href="https://bitcointalk.org/index.php?topic=930.msg11560#msg11560">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 29, 2010, 04:31:06 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns9" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11560#msg11560">#9</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Sent as a private message, reposting here since I am unfamiliar with how to prepare an ebuild to support foreign languages.<br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?action=profile;u=677">Quote from: checker on August 27, 2010, 08:56:44 AM</a></div><div class="quote">I had&nbsp; a problem with emerging boinc-9999 - can u help me to fix it?<br /><div class="quoteheader">Quote</div><div class="quote">/usr/lib/gcc/x86_64-pc-linux-gnu/4.4.4/../../../../x86_64-pc-linux-gnu/bin/ld: cannot find -lboost_system<br />collect2: &#1074;&#1099;&#1087;o&#1083;&#1085;e&#1085;&#1080;e ld &#1079;a&#1074;ep&#1096;&#1080;&#1083;oc&#1100; c &#1082;o&#1076;o&#1084; &#1074;o&#1079;&#1074;pa&#1090;a 1<br />make: *** [bitcoin] Error 1<br />&gt;&gt;&gt; Source prepared.<br />&gt;&gt;&gt; Configuring source in /var/tmp/portage/net-p2p/bitcoin-9999/work/bitcoin-9999 ...<br />&gt;&gt;&gt; Source configured.<br />&gt;&gt;&gt; Compiling source in /var/tmp/portage/net-p2p/bitcoin-9999/work/bitcoin-9999 ...<br />make -j3 <br />make: *** He &#1079;a&#1076;a&#1085;&#1099; &#1094;e&#1083;&#1080; &#1080; &#1085;e &#1085;a&#1081;&#1076;e&#1085; make-&#1092;a&#1081;&#1083;.&nbsp; Oc&#1090;a&#1085;o&#1074;.<br />emake failed<br />&gt;&gt;&gt; Source compiled.<br />&gt;&gt;&gt; Test phase [not enabled]: net-p2p/bitcoin-9999<br /><br />&gt;&gt;&gt; Install bitcoin-9999 into /var/tmp/portage/net-p2p/bitcoin-9999/image/ category net-p2p<br />!!! dobin: bitcoin does not exist<br />dobin failed<br />!!! dobin: bitcoind does not exist<br />dobin failed<br />&gt;&gt;&gt; Completed installing bitcoin-9999 into /var/tmp/portage/net-p2p/bitcoin-9999/image/<br /><br />&nbsp;* QA Notice: file does not exist:<br />&nbsp;* <br />&nbsp;* &nbsp;&nbsp;&nbsp;dobin: bitcoin does not exist<br />&nbsp;* &nbsp;&nbsp;&nbsp;dobin: bitcoind does not exist<br /><br />&gt;&gt;&gt; Installing (1 of 1) net-p2p/bitcoin-9999<br />&gt;&gt;&gt; Auto-cleaning packages...<br /></div></div></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11560">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11566"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=35" title="View the profile of theymos">theymos</a></b>
+							<div class="smalltext">
+								Administrator<br />
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/admin.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 6048<br />
+								Merit: 16148<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=35"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11566#msg11566"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11566"><a href="https://bitcointalk.org/index.php?topic=930.msg11566#msg11566">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 29, 2010, 06:05:01 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns10" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11566#msg11566">#10</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11559#msg11559">Quote from: mizerydearia on August 29, 2010, 04:28:56 AM</a></div><div class="quote">Any ideas on proper or best method to &quot;fix&quot; this? &nbsp;I am not so knowledgeable of copyright.<br /></div><br />Including &quot;Copyright 1999-2010 Gentoo Foundation&quot; didn&#039;t assign your copyright to the Gentoo Foundation.<br /><br />Looking at <a class="ul" href="http://github.com/mizerydearia/bitcoin_gentoo_ebuild/blob/b8e8140b6208c20fab18d42f17e77087561b266f/net-p2p/bitcoin/bitcoin-9999.ebuild">this</a>, you can just remove the header (and the other comments if they&#039;re copied). It&#039;s pretty generic stuff.<br /><br />If the work is not derivative, there&#039;s no legal risk in placing it under another license or even keeping full copyright. Old code will still be usable under the GPL, but new code will be under the new license only (you aren&#039;t required to put it under the GPL if you&#039;re the sole copyright holder).<br /><br />For a derivative work, you would change the header to something like this:<br /><div class="codeheader">Code:</div><div class="code"># Copyright 2010 mizerydearia<br /># Distributed under the terms of the GNU General Public License v2<br /># Based on the ebuild for LightBlue:<br /># /var/cvsroot/gentoo-x86/app-mobilephone/lightblue/lightblue-0.4.ebuild,v 1.3 2010/03/27 17:57:36 arfrever Exp<br /># Copyright 1999-2010 Gentoo Foundation</div>I don&#039;t think it is derivative, though, if you remove the header.<br /><br />(IANAL)</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11566">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig35">1NXYoJ5xU91Jp83XfVMHwwTUyZFK64BoAD</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11567"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11567#msg11567"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11567"><a href="https://bitcointalk.org/index.php?topic=930.msg11567#msg11567">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 29, 2010, 06:42:02 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns11" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11567#msg11567">#11</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Thanks to BioMike/Myckel for pointing out <a class="ul" href="http://devmanual.gentoo.org/ebuild-writing/file-format/index.html">http://devmanual.gentoo.org/ebuild-writing/file-format/index.html</a> I used the official header provided at /usr/portage/header.txt</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11567">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11795"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=579" title="View the profile of O01eg">O01eg</a></b>
+							<div class="smalltext">
+								Full Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 209<br />
+								Merit: 100<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_579.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=579"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="http://bnw.im/u/o01eg" title="" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11795#msg11795"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11795"><a href="https://bitcointalk.org/index.php?topic=930.msg11795#msg11795">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 31, 2010, 06:42:14 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns12" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11795#msg11795">#12</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Ebuild for net-p2p/bitcoin is in overlay &quot;booboo&quot;.<br /><a class="ul" href="http://bin.mypage.sk/FILES/bitcoin-9999-Makefile.patch">http://bin.mypage.sk/FILES/bitcoin-9999-Makefile.patch</a> is patch for makefile.unix to compile bitcoin with system boost and wxGTK.<br />Use overlay &quot;dirtyepic&quot; for wxGTK:2.9.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11795">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig579">BC: 1LhZ2ooo1egD7wKT5pBmEhN6wpUExYek2H<br />&quot;Co&#1094;&#1080;a&#1083;&#1080;&#1079;&#1084; -- &#1101;&#1090;o &#1101;&#1082;o&#1085;o&#1084;&#1080;&#1095;ec&#1082;a&#1103; &#1087;o&#1083;&#1080;&#1090;&#1080;&#1082;a &#1090;o&#1083;&#1087;&#1099;, &#1084;acc, &#1083;&#1080;&#1096;e&#1085;&#1085;&#1099;x &#1087;o&#1085;&#1080;&#1084;a&#1085;&#1080;&#1103; &#1087;p&#1080;po&#1076;&#1099; &#1101;&#1082;o&#1085;o&#1084;&#1080;&#1095;ec&#1082;o&#1081; &#1076;e&#1103;&#1090;e&#1083;&#1100;&#1085;oc&#1090;&#1080;. Co&#1094;&#1080;a&#1083;&#1080;c&#1090;&#1080;&#1095;ec&#1082;a&#1103; &#1090;eop&#1080;&#1103; ec&#1090;&#1100; pe&#1079;y&#1083;&#1100;&#1090;a&#1090; &#1080;x &#1087;o&#1076;xo&#1076;a &#1082; &#1101;&#1082;o&#1085;o&#1084;&#1080;&#1095;ec&#1082;&#1080;&#1084; &#1074;o&#1087;poca&#1084;. O&#1085;a co&#1079;&#1076;a&#1085;a &#1080; &#1087;o&#1076;&#1076;ep&#1078;&#1080;&#1074;ae&#1090;c&#1103; &#1090;e&#1084;&#1080;, &#1076;&#1083;&#1103; &#1082;o&#1075;o &#1101;&#1082;o&#1085;o&#1084;&#1080;&#1095;ec&#1082;a&#1103; &#1078;&#1080;&#1079;&#1085;&#1100; &#1074;pa&#1078;&#1076;e&#1073;&#1085;a, &#1082;&#1090;o &#1085;e &#1087;o&#1085;&#1080;&#1084;ae&#1090; ee.&quot; &#1051;&#1102;&#1076;&#1074;&#1080;&#1075; &#1092;o&#1085; M&#1080;&#1079;ec<br />&quot;The rotter who simpers that he sees no difference between the power of the dollar and the power of the whip, ought to learn the difference on his own hide – as, I think, he will.&quot; Francisco d’Anconia</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11799"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11799#msg11799"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11799"><a href="https://bitcointalk.org/index.php?topic=930.msg11799#msg11799">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">August 31, 2010, 07:23:31 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns13" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11799#msg11799">#13</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg11795#msg11795">Quote from: O01eg on August 31, 2010, 06:42:14 PM</a></div><div class="quote">Ebuild for net-p2p/bitcoin is in overlay &quot;booboo&quot;.<br /><a class="ul" href="http://bin.mypage.sk/FILES/bitcoin-9999-Makefile.patch">http://bin.mypage.sk/FILES/bitcoin-9999-Makefile.patch</a> is patch for makefile.unix to compile bitcoin with system boost and wxGTK.<br />Use overlay &quot;dirtyepic&quot; for wxGTK:2.9.<br /></div><br />wxGTK 2.9 is already in tree. I&#039;ve already send mizerydearia an ebuild with makefile to build bitcoind and bitcoin based on use flags with autodetected berkdb, cflags and ldflags. Also localisation files are installed based on LINGUAS. For bitcoind init.d script is installed that seem to work fine under the bitcoin user. The ebuild isn&#039;t finished yet, but it is getting along.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11799">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11911"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11911#msg11911"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11911"><a href="https://bitcointalk.org/index.php?topic=930.msg11911#msg11911">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">September 02, 2010, 04:04:25 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns14" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11911#msg11911">#14</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><a class="ul" href="http://github.com/mizerydearia/bitcoin_gentoo_ebuild">http://github.com/mizerydearia/bitcoin_gentoo_ebuild</a><br />I updated bitcoin-9999.ebuild<br />Any feedback is appreciated.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11911">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11946"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11946#msg11946"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11946"><a href="https://bitcointalk.org/index.php?topic=930.msg11946#msg11946">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">September 02, 2010, 08:13:19 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns15" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11946#msg11946">#15</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">On my side, documentation (readme and license) are installed, and a .desktop menu entry is made when the gui is installed (to start bitcoin from the menu). Did some permission fixing for /var/lib/bitcoin (daemon), but not validated yet if it is correct.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11946">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11948"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11948#msg11948"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11948"><a href="https://bitcointalk.org/index.php?topic=930.msg11948#msg11948">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">September 02, 2010, 08:22:58 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns16" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11948#msg11948">#16</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><a class="ul" href="http://devmanual.gentoo.org/ebuild-writing/variables/index.html">http://devmanual.gentoo.org/ebuild-writing/variables/index.html</a><br /><br />freenode / #gentoo-dev-help:<br /><div class="quoteheader">Quote</div><div class="quote">&lt;mizerydearia&gt; In regards to compiling a package (bitcoin) from source and using useflags to determine whether to compile bitcoin binary (gui requiring wxwidgets-2.9) and/or bitcoind binary (daemon), which useflag method does anyone suggest: use &quot;gui&quot; and &quot;daemon&quot;, use &quot;wxwidgets&quot; or something else?<br />&lt;mizerydearia&gt; Does it matter or is it important what useflags are used?<br />&lt;mizerydearia&gt; Perhaps it would be acceptable to use useflags &quot;bitcoin&quot; and &quot;bitcoind?&quot;<br />&lt;nao&gt; mizerydearia: maybe client and server use-flags are better?<br />&lt;mizerydearia&gt; nao, I don&#039;t think so because bitcoin is a gui-based p2p client that connects to the p2p network and bitcoind is a daemon-based p2p client that connects tot he p2p network.<br />&lt;mizerydearia&gt; Both have server and client characteristics<br />&lt;nao&gt; mizerydearia: they share some code or they are completly different?<br />&lt;mizerydearia&gt; nao: They share code<br />&lt;nao&gt; mizerydearia: they share some libs or other resources? e.g. Can you compile +gui -daemon, install it, then compile -gui +daemon and install again without collision with previous?<br />&lt;mizerydearia&gt; hmm, I used &quot;wxidgets&quot; and &quot;daemon&quot; useflags. &nbsp;&quot;wxwidgets&quot; provides gui binary and &quot;daemon&quot; provides daemon and init.d/conf.d scripts<br />&lt;mizerydearia&gt; It is possible to install only the gui or only the daemon<br />&lt;nao&gt; mizerydearia: IMHO wxidgets is not the best variant, maybe use &quot;gui&quot;?<br />&lt;mizerydearia&gt; hmm, really? &nbsp;I thought it was better than gui<br />&lt;nao&gt; mizerydearia: gui is more generic<br />&lt;mizerydearia&gt; And in the case in future that a second gui is available to be compiled that isn&#039;t reliant on wxwidgets, then how to separate them?<br />&lt;mizerydearia&gt; gui2?<br />&lt;nao&gt; mizerydearia: hm... seems you are right<br />&lt;nao&gt; mizerydearia: can this package be splitted into two?<br />&lt;nao&gt; two separate ebuild<br />&lt;nao&gt; ebuilds<br />&lt;mizerydearia&gt; I suppose, but they would download content from same repository and use same files<br />&lt;mizerydearia&gt; and there only be very minor difference in indicating to build bitcoind or bitcoin binary.<br />&lt;mizerydearia&gt; It would seem pointless to split into two.<br />&lt;mizerydearia&gt; dry (don&#039;t repeat yourself)?<br />&lt;nao&gt; mizerydearia: IMHO, if files are not overlap... splitting may be useful<br />&lt;mizerydearia&gt; nao, Can you provide examples of ebuilds in portage that have been split?<br />&lt;nao&gt; mizerydearia: dev-games/renpy -&gt; dev-games/renpy, dev-games/renpy-modules is splitted by me in sunrise <img src="https://bitcointalk.org/Smileys/default/wink.gif" alt="Wink" border="0" /><br />&lt;mizerydearia&gt; Any examples in portage?<br />&lt;mizerydearia&gt; in main? &nbsp;not sure of name<br />&lt;nao&gt; mizerydearia: but no, there was a special reason for that<br />&lt;nao&gt; mizerydearia: try this:<br />&lt;nao&gt; mizerydearia: cat /var/db/pkg/*/*/SRC_URI | tr &#039; &#039; &#039;\n&#039; | grep &#039;^http\|^ftp\|^mirror&#039; | sed &#039;s@^.*/\([^/]*\)$@\1@&#039; | sort | uniq -dc | sort -n<br />&lt;nao&gt; mizerydearia: hmm... there are some bug in my script;) wait...<br />&lt;nao&gt; mizerydearia: *-ant packages, vim-core and gvim<br />&lt;nao&gt; mizerydearia: i.e. splitting is not used widely<br />&lt;mizerydearia&gt; I agree<br />&lt;nao&gt; mizerydearia: then not forget to test if at last one of the flags enabled<br />&lt;nao&gt; mizerydearia: you can use confutils.eclass for that</div><br /><div class="quoteheader">Quote</div><div class="quote">&lt;mizerydearia&gt; nao, Here is the ebuild. &nbsp;How does it look? <a class="ul" href="http://github.com/mizerydearia/bitcoin_gentoo_ebuild/blob/master/net-p2p/bitcoin/bitcoin-9999.ebuild">http://github.com/mizerydearia/bitcoin_gentoo_ebuild/blob/master/net-p2p/bitcoin/bitcoin-9999.ebuild</a><br />&lt;nao&gt; mizerydearia: The name of ebuild (package) can be removed from description<br />&lt;nao&gt; mizerydearia: Add / to the end of HOMEPAGE<br />&lt;nao&gt; mizerydearia: bitcoin in SRC_URI can be replaced by ${PN}<br />&lt;nao&gt; mizerydearia: sort DEPEND<br />&lt;nao&gt; mizerydearia: min version of app-admin/eselect-wxwidgets in portage is 1.1, so you can drop version<br />&lt;nao&gt; mizerydearia: using ${PN} in enewuser... don`t know, better to ask someone on the channel<br />&lt;nao&gt; mizerydearia: don`t use &#039;cd trunk&#039;, you can set S variable for that<br />&lt;nao&gt; mizerydearia: try to use emake instead of make<br />&lt;mizerydearia&gt; S variable?<br />&lt;mizerydearia&gt; $ grep &quot;enewuser.*PN&quot; */*/*.ebuild<br />&lt;mizerydearia&gt; Shows a couple packages using ${PN}<br />&lt;mizerydearia&gt; Not too many though<br />&lt;mizerydearia&gt; nao, Thanks for tips. &nbsp;Anything else?<br />&lt;nao&gt; mizerydearia: lines 45,46 can be expanded to more lines<br />&lt;nao&gt; mizerydearia: inlines with if fi is not readable<br />&lt;nao&gt; mizerydearia: nls? needs gettext, or maybe virtual/libintl<br />&lt;mizerydearia&gt; Which is better to rely on: sys-devel/gettext or virtual/libintl?<br />&lt;mizerydearia&gt; I&#039;ll use sys-devel/gettext<br />&lt;nao&gt; mizerydearia: don`t know. but many of ebuilds in portage rely on sys-devel/gettext<br />&lt;nao&gt; mizerydearia: I just found &#039;domo&#039; helper <img src="https://bitcointalk.org/Smileys/default/smiley.gif" alt="Smiley" border="0" /> you can use it for .mo files<br />&lt;mizerydearia&gt; mm, domo?<br />&lt;nao&gt; mizerydearia: And, I think, if LINGUAS is not set, you need to install all mo files<br />&lt;mizerydearia&gt; ah<br />&lt;mizerydearia&gt; Only a few ebuilds use domo<br />&lt;mizerydearia&gt; Very few even<br />&lt;nao&gt; mizerydearia: yes, but you can use it:)<br />&lt;nao&gt; mizerydearia: don`t know much about stuff on lines 56-70. hope you know it better<br />&lt;nao&gt; mizerydearia: I don`t have more comments on your ebuild</div></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11948">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg11977"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg11977#msg11977"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_11977"><a href="https://bitcointalk.org/index.php?topic=930.msg11977#msg11977">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">September 03, 2010, 05:11:59 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns17" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg11977#msg11977">#17</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Some interesting tips in there (last part), especially the domo command. The gui/daemon flags aren&#039;t a big issue currently. Development of an ebuild isn&#039;t working to an end point, but always ongoing. Splitting isn&#039;t useful here, can be done, but the package is IMHO to small for a split.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_11977">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg12010"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg12010#msg12010"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_12010"><a href="https://bitcointalk.org/index.php?topic=930.msg12010#msg12010">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">September 04, 2010, 07:51:04 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns18" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg12010#msg12010">#18</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">domo is not usable in this case (bitcoin doesn&#039;t use the standard gettext localisation (po) dir). Bitcoin doesn&#039;t handle gettext directly, as far as I can see, so no dependency on gettext.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_12010">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg12045"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=464" title="View the profile of BioMike">BioMike</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1658<br />
+								Merit: 1002<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=464"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg12045#msg12045"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_12045"><a href="https://bitcointalk.org/index.php?topic=930.msg12045#msg12045">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext">September 05, 2010, 10:33:29 AM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns19" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg12045#msg12045">#19</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">My current ebuild is now also available from github. <img src="https://bitcointalk.org/Smileys/default/smiley.gif" alt="Smiley" border="0" /><br /><br />Please test.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_12045">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg12056"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=338" title="View the profile of mizerydearia">mizerydearia</a></b> <span title="This member is the topic-starter" style="cursor: help;">(OP)</span>
+							<div class="smalltext">
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 574<br />
+								Merit: 513<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_338.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=338"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=930.msg12056#msg12056"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_12056"><a href="https://bitcointalk.org/index.php?topic=930.msg12056#msg12056">Re: Gentoo Linux Ebuild</a></div>
+												<div class="smalltext"><span title="Last edit: September 05, 2010, 08:02:36 PM by mizerydearia" class="edited">September 05, 2010, 06:30:57 PM</span><span class="editplain"><br />Last edit: September 05, 2010, 08:02:36 PM by mizerydearia</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns20" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=930.msg12056#msg12056">#20</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">You should specify which ebuild is yours so that others know. &nbsp;Currently there are two ebuild versions in the repository.<br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg12058#msg12058">Quote from: BioMike on September 05, 2010, 07:24:00 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=930.msg12056#msg12056">Quote from: mizerydearia on September 05, 2010, 06:30:57 PM</a></div><div class="quote">You should specify which ebuild is yours so that others know.&nbsp; Currently there are two ebuild versions in the repository.<br /></div><br />Message says:<br />&quot;bitcoin-0.3.11 ebuild from BioMike&quot;<br /></div><br />Ah, I didn&#039;t check git repository</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_12056">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr><td style="padding: 0 0 1px 0;"></td></tr>
+</table>
+<a name="lastPost"></a>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext">Pages:  [<b>1</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=930.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=930.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=930.60">4</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=930.20">&#187;</a> </span>&nbsp;<a href="https://bitcointalk.org/index.php?topic=930.0;all">All</a> </td>
+		<td align="right" style="padding-right: 1ex;">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="maintab_first">&nbsp;</td>
+		<td class="maintab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=930.0" target="_blank">Print</a></td>
+		<td class="maintab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/xml_topic.js"></script>
+<script language="JavaScript" type="text/javascript">//<!--
+	quickReplyCollapsed = true;
+
+	smf_topic = 930;
+	smf_start = 0;
+	smf_show_modify = 0;
+
+	// On quick modify, this is what the body will look like.
+	var smf_template_body_edit = '<div id="error_box" style="padding: 4px; color: red;"></div><textarea class="editor" name="message" rows="12" style="width: 94%; margin-bottom: 10px;">%body%</textarea><br /><input type="hidden" name="sc" value="0a135ccf3c94c2bcd90a004b0fe081a7" /><input type="hidden" name="topic" value="930" /><input type="hidden" name="msg" value="%msg_id%" /><div style="text-align: center;"><input type="submit" name="post" value="Save" onclick="return modify_save(\'0a135ccf3c94c2bcd90a004b0fe081a7\');" accesskey="s" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" onclick="return modify_cancel();" /></div>';
+
+	// And this is the replacement for the subject.
+	var smf_template_subject_edit = '<input type="text" name="subject" value="%subject%" size="60" style="width: 99%;"  maxlength="80" />';
+
+	// Restore the message to this after editing.
+	var smf_template_body_normal = '%body%';
+	var smf_template_subject_normal = '<a href="https://bitcointalk.org/index.php?topic=930.msg%msg_id%#msg%msg_id%">%subject%</a>';
+	var smf_template_top_subject = "Topic: %subject% &nbsp;(Read 21675 times)"
+
+	if (window.XMLHttpRequest)
+		showModifyButtons();
+// --></script>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 1ex;">
+		<tr>
+				<td valign="top"><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=6.0" class="nav">Development &amp; Technical Discussion</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=930.0" class="nav">Gentoo Linux Ebuild</a></b></div></td> 
+				<td valign="top" align="right" class="nav"> <a href="https://bitcointalk.org/index.php?topic=930.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=930.0;prev_next=next#new">next topic &raquo;</a></td>
+		</tr>
+</table>
+	<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 1ex;">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</form>
+<div class="tborder"><div class="titlebg2" style="padding: 4px;" align="right">
+	<form action="https://bitcointalk.org/index.php" method="get" accept-charset="ISO-8859-1" style="padding:0; margin: 0;">
+		<span class="smalltext">Jump to:</span>
+		<select name="jumpto" id="jumpto" onchange="if (this.selectedIndex > 0 &amp;&amp; this.options[this.selectedIndex].value) window.location.href = smf_scripturl + this.options[this.selectedIndex].value.substr(smf_scripturl.indexOf('?') == -1 || this.options[this.selectedIndex].value.substr(0, 1) != '?' ? 0 : 1);">
+			<option value="">Please select a destination:</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#1">Bitcoin</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=1.0"> => Bitcoin Discussion</option>
+			<option value="?board=74.0"> ===> Legal</option>
+			<option value="?board=77.0"> ===> Press</option>
+			<option value="?board=86.0"> ===> Meetups</option>
+			<option value="?board=87.0"> ===> Important Announcements</option>
+			<option value="?board=6.0" selected="selected"> => Development &amp; Technical Discussion</option>
+			<option value="?board=37.0"> ===> Wallet software</option>
+			<option value="?board=98.0"> =====> Electrum</option>
+			<option value="?board=100.0"> =====> Bitcoin Wallet for Android</option>
+			<option value="?board=138.0"> =====> BitcoinJ</option>
+			<option value="?board=97.0"> =====> Armory</option>
+			<option value="?board=231.0"> =====> Mycelium</option>
+			<option value="?board=261.0"> =====> Hardware wallets</option>
+			<option value="?board=14.0"> => Mining</option>
+			<option value="?board=40.0"> ===> Mining support</option>
+			<option value="?board=41.0"> ===> Pools</option>
+			<option value="?board=42.0"> ===> Mining software (miners)</option>
+			<option value="?board=76.0"> ===> Hardware</option>
+			<option value="?board=137.0"> =====> Group buys</option>
+			<option value="?board=81.0"> ===> Mining speculation</option>
+			<option value="?board=4.0"> => Bitcoin Technical Support</option>
+			<option value="?board=12.0"> => Project Development</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#3">Economy</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=7.0"> => Economics</option>
+			<option value="?board=57.0"> ===> Speculation</option>
+			<option value="?board=5.0"> => Marketplace</option>
+			<option value="?board=51.0"> ===> Goods</option>
+			<option value="?board=75.0"> =====> Computer hardware</option>
+			<option value="?board=93.0"> =====> Digital goods</option>
+			<option value="?board=234.0"> =======> Invites &amp; Accounts</option>
+			<option value="?board=217.0"> =====> Collectibles</option>
+			<option value="?board=52.0"> ===> Services</option>
+			<option value="?board=53.0"> ===> Currency exchange</option>
+			<option value="?board=56.0"> ===> Gambling</option>
+			<option value="?board=71.0"> =====> Games and rounds</option>
+			<option value="?board=207.0"> =====> Investor-based games</option>
+			<option value="?board=228.0"> =====> Gambling discussion</option>
+			<option value="?board=65.0"> ===> Lending</option>
+			<option value="?board=88.0"> =====> Long-term offers</option>
+			<option value="?board=78.0"> ===> Securities</option>
+			<option value="?board=73.0"> ===> Auctions</option>
+			<option value="?board=84.0"> ===> Service Announcements</option>
+			<option value="?board=212.0"> =====> Micro Earnings</option>
+			<option value="?board=85.0"> ===> Service Discussion</option>
+			<option value="?board=222.0"> =====> Web Wallets</option>
+			<option value="?board=223.0"> =====> Exchanges</option>
+			<option value="?board=8.0"> => Trading Discussion</option>
+			<option value="?board=83.0"> ===> Scam Accusations</option>
+			<option value="?board=129.0"> ===> Reputation</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#4">Other</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=24.0"> => Meta</option>
+			<option value="?board=168.0"> ===> Bitcoin Wiki</option>
+			<option value="?board=34.0"> => Politics &amp; Society</option>
+			<option value="?board=39.0"> => Beginners &amp; Help</option>
+			<option value="?board=9.0"> => Off-topic</option>
+			<option value="?board=250.0"> => Serious discussion</option>
+			<option value="?board=251.0"> ===> Ivory Tower</option>
+			<option value="?board=59.0"> => Archival</option>
+			<option value="?board=167.0"> ===> New forum software</option>
+			<option value="?board=92.0"> ===> &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;</option>
+			<option value="?board=44.0"> ===> CPU/GPU Bitcoin mining hardware</option>
+			<option value="?board=17.0"> ===> Chinese students</option>
+			<option value="?board=25.0"> ===> Obsolete (buying)</option>
+			<option value="?board=26.0"> ===> Obsolete (selling)</option>
+			<option value="?board=99.0"> ===> MultiBit</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#6">Alternate cryptocurrencies</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=67.0"> => Altcoin Discussion</option>
+			<option value="?board=159.0"> => Announcements (Altcoins)</option>
+			<option value="?board=240.0"> ===> Tokens (Altcoins)</option>
+			<option value="?board=160.0"> => Mining (Altcoins)</option>
+			<option value="?board=199.0"> ===> Pools (Altcoins)</option>
+			<option value="?board=161.0"> => Marketplace (Altcoins)</option>
+			<option value="?board=197.0"> ===> Service Announcements (Altcoins)</option>
+			<option value="?board=198.0"> ===> Service Discussion (Altcoins)</option>
+			<option value="?board=238.0"> ===> Bounties (Altcoins)</option>
+			<option value="?board=224.0"> => Speculation (Altcoins)</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#5">Local</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=241.0"> => &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; (Arabic)</option>
+			<option value="?board=242.0"> ===> &#1575;&#1604;&#1593;&#1605;&#1604;&#1575;&#1578; &#1575;&#1604;&#1576;&#1583;&#1610;&#1604;&#1577; (Altcoins)</option>
+			<option value="?board=265.0"> =====> &#1575;&#1604;&#1606;&#1602;&#1575;&#1588;&#1575;&#1578;</option>
+			<option value="?board=253.0"> ===> &#1573;&#1587;&#1578;&#1601;&#1587;&#1575;&#1585;&#1575;&#1578; &#1608; &#1571;&#1587;&#1574;&#1604;&#1577; &#1575;&#1604;&#1605;&#1576;&#1578;&#1583;&#1574;&#1610;&#1606;</option>
+			<option value="?board=266.0"> ===> &#1575;&#1604;&#1578;&#1593;&#1583;&#1610;&#1606;</option>
+			<option value="?board=267.0"> ===> &#1575;&#1604;&#1606;&#1602;&#1575;&#1588;&#1575;&#1578; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609;</option>
+			<option value="?board=271.0"> ===> &#1605;&#1606;&#1589;&#1575;&#1578; &#1575;&#1604;&#1578;&#1576;&#1575;&#1583;&#1604;</option>
+			<option value="?board=191.0"> => Bahasa Indonesia (Indonesian)</option>
+			<option value="?board=193.0"> ===> Marketplace (Bahasa Indonesia)</option>
+			<option value="?board=194.0"> ===> Mining (Bahasa Indonesia)</option>
+			<option value="?board=192.0"> ===> Altcoins (Bahasa Indonesia)</option>
+			<option value="?board=276.0"> ===> Trading dan Spekulasi</option>
+			<option value="?board=277.0"> ===> Ekonomi, Politik, dan Budaya</option>
+			<option value="?board=278.0"> ===> Topik Lainnya</option>
+			<option value="?board=27.0"> => Español (Spanish)</option>
+			<option value="?board=31.0"> ===> Mercado y Economía</option>
+			<option value="?board=202.0"> =====> Servicios</option>
+			<option value="?board=203.0"> =====> Trading y especulación</option>
+			<option value="?board=32.0"> ===> Hardware y Minería</option>
+			<option value="?board=33.0"> ===> Esquina Libre</option>
+			<option value="?board=101.0"> ===> Mercadillo</option>
+			<option value="?board=102.0"> =====> Mexico</option>
+			<option value="?board=103.0"> =====> Argentina</option>
+			<option value="?board=104.0"> =====> España</option>
+			<option value="?board=105.0"> =====> Centroamerica y Caribe</option>
+			<option value="?board=130.0"> ===> Primeros pasos y ayuda</option>
+			<option value="?board=151.0"> ===> Altcoins (criptomonedas alternativas)</option>
+			<option value="?board=177.0"> =====> Minería de altcoins</option>
+			<option value="?board=204.0"> =====> Servicios</option>
+			<option value="?board=254.0"> =====> Tokens (Español)</option>
+			<option value="?board=30.0"> => &#20013;&#25991; (Chinese)</option>
+			<option value="?board=117.0"> ===> &#36339;&#34468;&#24066;&#22330;</option>
+			<option value="?board=118.0"> ===> &#23665;&#23528;&#24065;</option>
+			<option value="?board=119.0"> ===> &#23186;&#20307;</option>
+			<option value="?board=146.0"> ===> &#25366;&#30719;</option>
+			<option value="?board=196.0"> ===> &#31163;&#39064;&#19975;&#37324;</option>
+			<option value="?board=201.0"> => Hrvatski (Croatian)</option>
+			<option value="?board=220.0"> ===> Trgovina</option>
+			<option value="?board=221.0"> ===> Altcoins (Hrvatski)</option>
+			<option value="?board=273.0"> =====> Announcements (Hrvatski)</option>
+			<option value="?board=272.0"> ===> Off-topic (Hrvatski)</option>
+			<option value="?board=16.0"> => Deutsch (German)</option>
+			<option value="?board=62.0"> ===> Anfänger und Hilfe</option>
+			<option value="?board=60.0"> ===> Mining (Deutsch)</option>
+			<option value="?board=61.0"> ===> Trading und Spekulation</option>
+			<option value="?board=63.0"> ===> Projektentwicklung</option>
+			<option value="?board=64.0"> ===> Off-Topic (Deutsch)</option>
+			<option value="?board=139.0"> ===> Treffen</option>
+			<option value="?board=140.0"> ===> Presse </option>
+			<option value="?board=152.0"> ===> Altcoins (Deutsch)</option>
+			<option value="?board=270.0"> =====> Announcements (Deutsch)</option>
+			<option value="?board=269.0"> ===> Marktplatz</option>
+			<option value="?board=141.0"> =====> Auktionen</option>
+			<option value="?board=36.0"> =====> Suche</option>
+			<option value="?board=35.0"> =====> Biete</option>
+			<option value="?board=120.0"> => &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Greek)</option>
+			<option value="?board=136.0"> ===> &#913;&#947;&#959;&#961;&#940;</option>
+			<option value="?board=195.0"> ===> Mining Discussion (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=179.0"> ===> Altcoins (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=246.0"> =====> Altcoin Announcements (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=247.0"> =====> Altcoin Mining (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=95.0"> => &#1506;&#1489;&#1512;&#1497;&#1514; (Hebrew)</option>
+			<option value="?board=13.0"> => Français</option>
+			<option value="?board=183.0"> ===> Actualité et News</option>
+			<option value="?board=208.0"> ===> Débutants</option>
+			<option value="?board=47.0"> ===> Discussions générales et utilisation du Bitcoin</option>
+			<option value="?board=48.0"> ===> Mining et Hardware</option>
+			<option value="?board=187.0"> ===> Économie et spéculation</option>
+			<option value="?board=49.0"> ===> Place de marché</option>
+			<option value="?board=209.0"> =====> Échanges</option>
+			<option value="?board=210.0"> =====> Produits et services</option>
+			<option value="?board=211.0"> =====> Petites annonces</option>
+			<option value="?board=188.0"> ===> Le Bitcoin et la loi</option>
+			<option value="?board=54.0"> ===> Wiki, documentation et traduction</option>
+			<option value="?board=186.0"> ===> Développement et technique</option>
+			<option value="?board=184.0"> ===> Vos sites et projets</option>
+			<option value="?board=50.0"> ===> Hors-sujet</option>
+			<option value="?board=149.0"> ===> Altcoins (Français)</option>
+			<option value="?board=258.0"> =====> Annonces</option>
+			<option value="?board=89.0"> => India</option>
+			<option value="?board=121.0"> ===> Mining (India)</option>
+			<option value="?board=122.0"> ===> Marketplace (India)</option>
+			<option value="?board=123.0"> ===> Regional Languages (India)</option>
+			<option value="?board=124.0"> ===> Press &amp; News from India</option>
+			<option value="?board=125.0"> ===> Alt Coins (India)</option>
+			<option value="?board=126.0"> ===> Buyer/ Seller Reputations (India)</option>
+			<option value="?board=127.0"> ===> Off-Topic (India)</option>
+			<option value="?board=28.0"> => Italiano (Italian)</option>
+			<option value="?board=153.0"> ===> Guide (Italiano)</option>
+			<option value="?board=169.0"> ===> Progetti</option>
+			<option value="?board=205.0"> ===> Discussioni avanzate e sviluppo</option>
+			<option value="?board=175.0"> ===> Trading, analisi e speculazione</option>
+			<option value="?board=170.0"> ===> Mercato</option>
+			<option value="?board=46.0"> =====> Mercato valute</option>
+			<option value="?board=107.0"> =====> Beni</option>
+			<option value="?board=171.0"> =====> Servizi</option>
+			<option value="?board=172.0"> =====> Esercizi commerciali</option>
+			<option value="?board=173.0"> =====> Hardware/Mining (Italiano)</option>
+			<option value="?board=200.0"> =====> Gambling (Italiano)</option>
+			<option value="?board=162.0"> ===> Accuse scam/truffe</option>
+			<option value="?board=115.0"> ===> Mining (Italiano)</option>
+			<option value="?board=132.0"> ===> Alt-Currencies (Italiano)</option>
+			<option value="?board=176.0"> =====> Annunci</option>
+			<option value="?board=144.0"> ===> Raduni/Meeting (Italiano)</option>
+			<option value="?board=165.0"> ===> Crittografia e decentralizzazione</option>
+			<option value="?board=145.0"> ===> Off-Topic (Italiano)</option>
+			<option value="?board=252.0"> => &#26085;&#26412;&#35486; (Japanese)</option>
+			<option value="?board=255.0"> ===> &#12450;&#12523;&#12488;&#12467;&#12452;&#12531;</option>
+			<option value="?board=79.0"> => Nederlands (Dutch)</option>
+			<option value="?board=80.0"> ===> Markt</option>
+			<option value="?board=94.0"> ===> Gokken/lotterijen</option>
+			<option value="?board=116.0"> ===> Mining (Nederlands)</option>
+			<option value="?board=143.0"> ===> Beurzen</option>
+			<option value="?board=147.0"> ===> Alt Coins (Nederlands)</option>
+			<option value="?board=148.0"> ===> Off-topic (Nederlands)</option>
+			<option value="?board=150.0"> ===> Meetings (Nederlands)</option>
+			<option value="?board=275.0"> => Nigeria (Naija)</option>
+			<option value="?board=279.0"> ===> Politics and society (Naija)</option>
+			<option value="?board=280.0"> ===> Off-topic (Naija)</option>
+			<option value="?board=82.0"> => &#54620;&#44397;&#50612; (Korean)</option>
+			<option value="?board=182.0"> ===> &#45824;&#52404;&#53076;&#51064; Alt Coins (&#54620;&#44397;&#50612;)</option>
+			<option value="?board=219.0"> => Pilipinas</option>
+			<option value="?board=243.0"> ===> Altcoins (Pilipinas)</option>
+			<option value="?board=260.0"> =====> Altcoin Announcements (Pilipinas)</option>
+			<option value="?board=268.0"> ===> Pamilihan</option>
+			<option value="?board=274.0"> ===> Others (Pilipinas)</option>
+			<option value="?board=142.0"> => Polski</option>
+			<option value="?board=163.0"> ===> Tablica og&#322;osze&#324;</option>
+			<option value="?board=164.0"> ===> Alternatywne kryptowaluty</option>
+			<option value="?board=263.0"> =====> Nowe kryptowaluty i tokeny</option>
+			<option value="?board=264.0"> =====> Tablica og&#322;osze&#324; (altcoiny)</option>
+			<option value="?board=29.0"> => Português (Portuguese)</option>
+			<option value="?board=131.0"> ===> Primeiros Passos (Iniciantes)</option>
+			<option value="?board=69.0"> ===> Economia &amp; Mercado</option>
+			<option value="?board=70.0"> ===> Mineração em Geral</option>
+			<option value="?board=206.0"> ===> Desenvolvimento &amp; Discussões Técnicas</option>
+			<option value="?board=181.0"> ===> Criptomoedas Alternativas</option>
+			<option value="?board=134.0"> ===> Brasil</option>
+			<option value="?board=135.0"> ===> Portugal</option>
+			<option value="?board=10.0"> => &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russian)</option>
+			<option value="?board=22.0"> ===> &#1053;&#1086;&#1074;&#1080;&#1095;&#1082;&#1080;</option>
+			<option value="?board=23.0"> ===> Cep&#1074;&#1080;c&#1099;</option>
+			<option value="?board=236.0"> =====> &#1041;&#1072;&#1088;&#1072;&#1093;&#1086;&#1083;&#1082;&#1072;</option>
+			<option value="?board=237.0"> =====> &#1054;&#1073;&#1084;&#1077;&#1085;&#1085;&#1080;&#1082;&#1080;</option>
+			<option value="?board=90.0"> ===> &#1048;&#1076;&#1077;&#1080;</option>
+			<option value="?board=66.0"> ===> &#1050;&#1086;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=21.0"> ===> &#1052;&#1072;&#1081;&#1085;&#1077;&#1088;&#1099;</option>
+			<option value="?board=91.0"> ===> &#1055;&#1086;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;</option>
+			<option value="?board=20.0"> ===> &#1058;&#1088;&#1077;&#1081;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=72.0"> ===> &#1040;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090;&#1099;</option>
+			<option value="?board=248.0"> =====> &#1058;&#1086;&#1082;&#1077;&#1085;&#1099;</option>
+			<option value="?board=256.0"> =====> &#1041;ay&#1085;&#1090;&#1080; &#1080; a&#1080;p&#1076;po&#1087;&#1099;</option>
+			<option value="?board=55.0"> ===> &#1061;&#1072;&#1081;&#1087;&#1099;</option>
+			<option value="?board=185.0"> ===> &#1056;&#1072;&#1073;&#1086;&#1090;&#1072;</option>
+			<option value="?board=18.0"> ===> &#1056;&#1072;&#1079;&#1085;&#1086;&#1077;</option>
+			<option value="?board=262.0"> ===> O&#1073;cy&#1078;&#1076;e&#1085;&#1080;e Bitcoin</option>
+			<option value="?board=128.0"> =====> &#1053;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080;</option>
+			<option value="?board=19.0"> =====> &#1070;&#1088;&#1080;&#1089;&#1090;&#1099;</option>
+			<option value="?board=108.0"> => Român&#259; (Romanian)</option>
+			<option value="?board=109.0"> ===> Anunturi importante</option>
+			<option value="?board=110.0"> ===> Offtopic</option>
+			<option value="?board=111.0"> ===> Market</option>
+			<option value="?board=257.0"> =====> Discutii Servicii</option>
+			<option value="?board=166.0"> ===> Minerit</option>
+			<option value="?board=112.0"> ===> Tutoriale</option>
+			<option value="?board=113.0"> ===> Bine ai venit!</option>
+			<option value="?board=114.0"> ===> Presa</option>
+			<option value="?board=259.0"> ===> Altcoins (Monede Alternative)</option>
+			<option value="?board=178.0"> =====> Anunturi Monede Alternative</option>
+			<option value="?board=45.0"> => Skandinavisk</option>
+			<option value="?board=133.0"> => Türkçe (Turkish)</option>
+			<option value="?board=180.0"> ===> Bitcoin Haberleri</option>
+			<option value="?board=155.0"> ===> Pazar Alan&#305;</option>
+			<option value="?board=156.0"> ===> Madencilik</option>
+			<option value="?board=189.0"> ===> Ekonomi</option>
+			<option value="?board=190.0"> ===> Servisler</option>
+			<option value="?board=232.0"> =====> Fonlar</option>
+			<option value="?board=229.0"> ===> Proje Geli&#351;tirme</option>
+			<option value="?board=157.0"> ===> Alternatif Kripto-Paralar</option>
+			<option value="?board=235.0"> =====> Madencilik (Alternatif Kripto-Paralar)</option>
+			<option value="?board=239.0"> =====> Duyurular (Alternatif Kripto-Paralar)</option>
+			<option value="?board=158.0"> ===> Konu D&#305;&#351;&#305;</option>
+			<option value="?board=174.0"> ===> Yeni Ba&#351;layanlar &amp; Yard&#305;m</option>
+			<option value="?board=230.0"> ===> Bulu&#351;malar</option>
+			<option value="?board=11.0"> => Other languages/locations</option>
+		</select>&nbsp;
+		<input type="button" value="go" onclick="if (this.form.jumpto.options[this.form.jumpto.selectedIndex].value) window.location.href = 'https://bitcointalk.org/index.php' + this.form.jumpto.options[this.form.jumpto.selectedIndex].value;" />
+	</form>
+</div></div><br />
+	</div><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+
+(function ()
+{
+   const allCodeHeaders = document.querySelectorAll("div.codeheader");
+   for (const codeHeader of allCodeHeaders)
+   {
+      codeHeader.style.cursor = "help";
+      codeHeader.title = "(Click/tap to select contents)";
+      codeHeader.onclick = function ()
+      {
+         const range = document.createRange();
+         const selection = document.getSelection();
+         range.selectNodeContents(codeHeader.nextElementSibling);
+         selection.removeAllRanges();
+         selection.addRange(range);
+         return false;
+      };
+   }
+})();
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

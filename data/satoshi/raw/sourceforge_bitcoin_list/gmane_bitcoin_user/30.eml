@@ -1,0 +1,208 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?R3VubmFyIEd1w7B2YXLDsGFyc29u?= <gunni@wave.is>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Stable download URLs
+Date: Fri, 4 Oct 2013 23:14:51 +0000
+Lines: 110
+Approved: news@gmane.org
+Message-ID: <CAGpHeBCmmFdJNVE_ap0zgudnFUHMacU6nTWD+b=yYt0DcUDwqw@mail.gmail.com>
+References: <CAHR2jZPOF8AEwZiWPuY92friVYkxf1_spKUzUfR-+gP009=8=Q@mail.gmail.com>
+	<CABsx9T1QVAq_jrm7XEwKX08O-=UB=hOr3KgSGnAxhZ0SJOGNbA@mail.gmail.com>
+	<CAHR2jZMJ3avZ=a3XLxuLhhfkAAc=6Q2ek71nUsuP+cZGaZFiCA@mail.gmail.com>
+	<CANEZrP2iV+A=oA8vJvkJ-8PCVgWyDoM+iSbaf=fOV63RGhcf-g@mail.gmail.com>
+	<CAD=_8RR5De7+HdKeCZ9POTnATz1MvLmtFU6hqJx=pSA9GQkAdg@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1380930018 897 80.91.229.3 (4 Oct 2013 23:40:18 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 4 Oct 2013 23:40:18 +0000 (UTC)
+Cc: bitcoin-list@lists.sourceforge.net
+To: Maciej Trebacz <maciej@bitalo.com>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Oct 05 01:40:23 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VSEys-0005S7-Ie
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 05 Oct 2013 01:40:22 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VSEyU-0001Fq-BP; Fri, 04 Oct 2013 23:39:58 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gunni@wave.is>) id 1VSEyR-0001Fi-Uf
+	for bitcoin-list@lists.sourceforge.net; Fri, 04 Oct 2013 23:39:56 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of wave.is
+	designates 209.85.223.173 as permitted sender)
+	client-ip=209.85.223.173; envelope-from=gunni@wave.is;
+	helo=mail-ie0-f173.google.com; 
+Original-Received: from mail-ie0-f173.google.com ([209.85.223.173])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1VSEyP-0000NM-W1
+	for bitcoin-list@lists.sourceforge.net; Fri, 04 Oct 2013 23:39:55 +0000
+Original-Received: by mail-ie0-f173.google.com with SMTP id ar20so10949042iec.32
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 04 Oct 2013 16:39:48 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:mime-version:in-reply-to:references:date
+	:message-id:subject:from:to:cc:content-type;
+	bh=3G8NjSz6NhJLu/0X9VJaICfhlGmu7/b1wF0o6iMaDBc=;
+	b=Wct2Tu+f46ofWJO/0tQDwguZh1ZScEAuCZLV3i91qOCV3sPesRi6lfTGpJg0i4pUzF
+	Aclc5jBFgMZM1NyiZMbDVstuRmOrrs9wLft6h7Uk5XBPyOxpmquMnOtmYv1q3Q+/mxji
+	RInyVLs031EVQocpgc3EA1pKuHlUKlvbe2OyP1Y2trD/m2jy3zjFRxVDlaPtI8+a+4Z1
+	hZNechzbeVYuWJ5GYU5vdtnl6v91c1FaixOImbXNrfkdWfY77NSYhjd366V8ZzaVhinY
+	QckOeQDl+Qrhpu9f0yVu4mdjxZMKNPpd7ZbpDrxGyhPGkoi/EAs6/2tcRMWsYHK3gGIg
+	tzhQ==
+X-Gm-Message-State: ALoCoQlprXtSHiU57yikPQ8C96nWQDiZortWE0mg2BjET4bKtng57tUGoSgo0REgdavOHiJK6qNG
+X-Received: by 10.50.122.40 with SMTP id lp8mr8612484igb.24.1380928491202;
+	Fri, 04 Oct 2013 16:14:51 -0700 (PDT)
+Original-Received: by 10.64.128.129 with HTTP; Fri, 4 Oct 2013 16:14:51 -0700 (PDT)
+X-Originating-IP: [130.208.247.2]
+In-Reply-To: <CAD=_8RR5De7+HdKeCZ9POTnATz1MvLmtFU6hqJx=pSA9GQkAdg@mail.gmail.com>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: doubleclick.net]
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1VSEyP-0000NM-W1
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:30
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/30>
+
+I like this idea, a simple symlink is enough to do this.
+
+I know debian does this, here's an example:
+http://draupnir.rhnet.is/debian/dists/stable/main/installer-amd64/current/images/netboot/mini.iso
+I can use "current", or i can pick a certain version:
+http://draupnir.rhnet.is/debian/dists/stable/main/installer-amd64/20130613/images/netboot/mini.iso
+~ Gunnar
+
+
+On 4 October 2013 20:11, Maciej Trebacz <maciej@bitalo.com> wrote:
+> There's probably a very easy solution for that: let's have a link like this:
+>
+> http://downloads.sourceforge.net/project/bitcoin/bitcoin-latest/bitcoin-latest-win32-setup.exe<http://downloads.sourceforge.net/project/bitcoin/bitcoin-0.8.1/bitcoin-0.8.1-win32-setup.exe>
+>
+> Of course the downside is that it isn't immediately obvious which version
+> you are downloading, you can be pretty sure then that it's the latest one.
+> Some projects that I know use that notation.
+>
+>
+> On Fri, Oct 4, 2013 at 10:48 AM, Mike Hearn <mike@plan99.net> wrote:
+>
+>> What's he's saying is that it's intentional they become invalid, because
+>> it's a bad idea for people to download old versions of the app. Your app
+>> store needs to be able to keep users on the latest version - old links
+>> breaking shouldn't be an issue for that.
+>>
+>>
+>> On Fri, Oct 4, 2013 at 10:14 AM, Tim Lebedkov <tim.lebedkov@gmail.com
+>> >wrote:
+>>
+>> > Hello Gavin,
+>> >
+>> > Just to make sure you understand all the implications: once in a month
+>> > all links over the web to Bitcoin-Qt binaries become invalid. Is this
+>> > OK?
+>> >
+>> > Would it be at least possible to copy the newest version under "Obsolete"
+>> > too?
+>> >
+>> > --
+>> >
+>> > On Fri, Oct 4, 2013 at 3:09 AM, Gavin Andresen <gavinandresen@gmail.com>
+>> > wrote:
+>> > > On Thu, Oct 3, 2013 at 9:13 PM, Tim Lebedkov <tim.lebedkov@gmail.com>
+>> > wrote:
+>> > >>
+>> > >> would it be possible to *not* move older versions of Bitcoin-Qt to the
+>> > >> "Obsolete" directory?
+>> > >
+>> > >
+>> > > No; they are in "obsolete" because they are obsolete, and should not be
+>> > > used.
+>> > >
+>> > >> This makes linking to a binary impossible and requires much more work
+>> > >> in the default Npackd repository
+>> > >> (https://npackd.appspot.com/p/org.bitcoin.BitcoinQ)
+>> > >
+>> > >
+>> > > That is a feature, not a bug.
+>> > >
+>> > > --
+>> > > --
+>> > > Gavin Andresen
+>> >
+>> >
+>> >
+>> ------------------------------------------------------------------------------
+>> > October Webinars: Code for Performance
+>> > Free Intel webinars can help you accelerate application performance.
+>> > Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most
+>> > from
+>> > the latest Intel processors and coprocessors. See abstracts and register
+>> >
+>> >
+>> http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk
+>> > _______________________________________________
+>> > bitcoin-list mailing list
+>> > bitcoin-list@lists.sourceforge.net
+>> > https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+>> >
+>>
+>> ------------------------------------------------------------------------------
+>> October Webinars: Code for Performance
+>> Free Intel webinars can help you accelerate application performance.
+>> Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most
+>> from
+>> the latest Intel processors and coprocessors. See abstracts and register >
+>> http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk
+>> _______________________________________________
+>> bitcoin-list mailing list
+>> bitcoin-list@lists.sourceforge.net
+>> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+>>
+> ------------------------------------------------------------------------------
+> October Webinars: Code for Performance
+> Free Intel webinars can help you accelerate application performance.
+> Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most from
+> the latest Intel processors and coprocessors. See abstracts and register >
+> http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+
+------------------------------------------------------------------------------
+October Webinars: Code for Performance
+Free Intel webinars can help you accelerate application performance.
+Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most from 
+the latest Intel processors and coprocessors. See abstracts and register >
+http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk

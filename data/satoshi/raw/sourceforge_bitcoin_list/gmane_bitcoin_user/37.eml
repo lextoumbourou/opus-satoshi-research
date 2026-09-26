@@ -1,0 +1,154 @@
+Path: news.gmane.org!not-for-mail
+From: David Irvine <david.irvine@maidsafe.net>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Meeting place to discuss 'the decentralised
+	internet' projects
+Date: Sun, 26 Jan 2014 15:51:36 +0000
+Lines: 70
+Approved: news@gmane.org
+Message-ID: <CAGYUzra6V51ZDFo2iR0W2JCB1QStDV=rXyp231KSqCJRnYHtrA@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1390753002 15630 80.91.229.3 (26 Jan 2014 16:16:42 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 26 Jan 2014 16:16:42 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Jan 26 17:16:51 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1W7SO8-0006cM-PI
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 26 Jan 2014 17:16:49 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1W7SNG-00080h-Hh; Sun, 26 Jan 2014 16:15:54 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <david.irvine@maidsafe.net>) id 1W7SNE-00080a-WC
+	for bitcoin-list@lists.sourceforge.net; Sun, 26 Jan 2014 16:15:53 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of maidsafe.net
+	designates 209.85.219.43 as permitted sender)
+	client-ip=209.85.219.43; envelope-from=david.irvine@maidsafe.net;
+	helo=mail-oa0-f43.google.com; 
+Original-Received: from mail-oa0-f43.google.com ([209.85.219.43])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1W7SND-0003LM-33
+	for bitcoin-list@lists.sourceforge.net; Sun, 26 Jan 2014 16:15:52 +0000
+Original-Received: by mail-oa0-f43.google.com with SMTP id h16so5785061oag.30
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sun, 26 Jan 2014 08:15:43 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+	:content-type;
+	bh=84SYcErORLnjn96eWIhY9advNihahWUrYNIbZ+bMaEw=;
+	b=TClxwoFnFT/MkhwnhmhSO/36NAL0gP1+BBRJeygcBOViD7U5DyIeCe7upq8y1Lu/Ui
+	VMYigBJi+PQ6baQl6kcbPTOxpsR9dXAoxolRxYHzck1uJCZ3N1uUWyrn/sIZXGVGSF/m
+	irWZjD7QJNvxz49Rd9JpGvdZEv4fTHSaIMHhkN2gJFE0z+WASXpjsqC57DZTNmLg11Vq
+	h2z8v31be202gs5u124IGxOBqjHPs9r205hFYMXdulIb9j7nmcP3TeLo5pj3WBHTHOH5
+	tAoQde/xqrWVah0jmKYs/p+hv6sD5vVc3ZY+130CV4vnnZuYvmmYPAFsAWA+TGf1FByv
+	2a1A==
+X-Gm-Message-State: ALoCoQlzPG8XmO/PgmcOMoexu81wR+/1bBq4aZW2lfX2r4VzIojf5C80pRqWZ82SkkbSAeSL9AIr
+X-Received: by 10.60.228.135 with SMTP id si7mr17556031oec.4.1390751516144;
+	Sun, 26 Jan 2014 07:51:56 -0800 (PST)
+Original-Received: by 10.60.146.227 with HTTP; Sun, 26 Jan 2014 07:51:36 -0800 (PST)
+X-Spam-Score: -0.5 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+X-Headers-End: 1W7SND-0003LM-33
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:37
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/37>
+
+Hi sorry for barging in, but with all of the projects now based around
+decentralisation, I thought a common place to exchange ideas would be good.
+I have created a subreddit
+http://www.reddit.com/r/decentralisedinternet/as a place for as many
+projects to collaborate and share experiences,
+research and general comments.
+
+I am hoping to make this an open environment for discussion and technical
+debate, but not a place of project wars. This is essential and to that end
+I would like to engage with you and have you all sign up to the subreddit.
+I believe as we recodnise more projects then at least one person from each
+project should be a moderator. This should add stability and ensure that
+each project is protected as they all have their own path to follow. I
+suggest each project puts forward an admin and I will add them immediately.
+I believe there is enough of a push now to decentralise services and
+working together to achieve all of our goals can only be a good thing.
+
+Below is the sidebar text as it stands, this is all open for debate.
+########################
+This is a reddit of logic and not emotion, please base all debate on logic.
+We do not want project wars here, so no vim/emacs type debate between
+projects. Keep focussed and logical if at all possible.
+
+Whilst people will prefer one project over another, the point of this
+subreddit is to find the technically best solutions to the miriad of issues
+and share technology and discussion between projects. Advertising is not a
+goal of this subreddit, although new information about projects is
+encouraged.
+
+Submissions that are mostly about some other server based solutions belong
+elsewhere.
+
+Please avoid repetition =97 /r/decentralisedinternet is a subreddit devoted
+to new information and discussion about decentralisation of the Internet.
+New projects are welcome to announce themselves via this reddit, but after
+those have been announced they are no longer news and should not be
+re-posted. New news will be accepted. Aside from new project announcements,
+those interested in advertising to our audience should consider Reddit's
+self-serve advertising system.
+
+Projects so far (please request to be added by posting a link to your
+project, if it is upvoted and agreed by redditors to be accepted it will be
+added here)
+
+Freenet
+Tahoe
+bitcoin
+MaidSafe
+bitcloud
+twister
+##########################
+I am sending this message to each of the projects mentioned and any others
+that should be included as we progress.
+
+
+-- =
+
+
+David Irvine
+maidsafe.net <http://www.maidsafe.net/>
+twitter: @metaquestions
+blog:  http://metaquestions.me
+---------------------------------------------------------------------------=
+---
+CenturyLink Cloud: The Leader in Enterprise Cloud Services.
+Learn Why More Businesses Are Choosing CenturyLink Cloud For
+Critical Workloads, Development Environments & Everything In Between.
+Get a Quote or Start a Free Trial Today.
+http://pubads.g.doubleclick.net/gampad/clk?id=3D119420431&iu=3D/4140/ostg.c=
+lktrk

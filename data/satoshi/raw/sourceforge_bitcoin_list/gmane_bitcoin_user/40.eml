@@ -1,0 +1,117 @@
+Path: news.gmane.org!not-for-mail
+From: "Stefan George" <stefan.george@genesisware.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Bitcoin theft countermeasure
+Date: Fri, 28 Feb 2014 20:32:44 +0100
+Lines: 53
+Approved: news@gmane.org
+Message-ID: <00be01cf34bb$db40f5f0$91c2e1d0$@genesisware.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393617071 25189 80.91.229.3 (28 Feb 2014 19:51:11 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 28 Feb 2014 19:51:11 +0000 (UTC)
+To: <bitcoin-list@lists.sourceforge.net>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Feb 28 20:51:19 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJTSn-0005wb-2W
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 28 Feb 2014 20:51:17 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJTSJ-0003xZ-Pa; Fri, 28 Feb 2014 19:50:47 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <stefan.george@genesisware.com>) id 1WJTSI-0003xT-GD
+	for bitcoin-list@lists.sourceforge.net; Fri, 28 Feb 2014 19:50:46 +0000
+Original-Received: from dd11004.kasserver.com ([85.13.133.149])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1WJTSH-0000ZR-2p
+	for bitcoin-list@lists.sourceforge.net; Fri, 28 Feb 2014 19:50:46 +0000
+Original-Received: from StefanGeorgeAcer (port-92-195-59-57.dynamic.qsc.de
+	[92.195.59.57])
+	by dd11004.kasserver.com (Postfix) with ESMTPA id 6A8E1D00262
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 28 Feb 2014 20:32:48 +0100 (CET)
+X-Mailer: Microsoft Outlook 15.0
+Thread-Index: Ac80u3fFBCVoONmmQQeFcJLnCNCgEQ==
+Content-Language: de
+X-Spam-Score: 0.0 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+X-Headers-End: 1WJTSH-0000ZR-2p
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:40
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/40>
+
+Hello Bitcoin-enthusiasts,
+
+I am new to this mailing list and would like to share/discuss an idea that
+crossed my mind today.
+
+To lower the rate of thefts in the future there are 2 possible ways:
+
+	1. Increase the security. E.g. use of multi sig wallets.
+	2. Decrease the value of thefts.
+
+For 2. stolen BTC have to be identified and there has to be a penalty for
+them. 
+
+There are two problems with it:
+
+1. Who has the responsibility to declare if a BTC is stolen or not and where
+is the information available?
+2. BTC can spread over so many accounts easily and get new owners that it
+becomes very difficult to actually 
+     identify all stolen BTC and the penalty could affect people that didn't
+stole them.
+
+The idea:
+1. The big damage can be caused by hacking the biggest exchanges that hold
+most of the Bitcoins (Coinbase, Kraken etc.). 
+These exchanges should maintain and share a central database, where they
+mark BTC as stolen. 
+This database can be read by anyone but only big and legally trustworthy
+services (exchanges) maintain them.
+
+2. To lower the possibility to spread stolen BTC, clients can (optionally)
+check the database and refuse BTC that are listed here. 
+Of course the theft will try to spread the BTC right after the theft.
+Therefore it should be possible to REFUSE to receive Bitcoins 
+that have been involved in any transaction within the last 24h/48h (or just
+send them back). This way, if a big service detects a theft, it can act
+within 
+24h/48h to submit this info into the central database and the theft could
+not benefit from the stolen coins anymore.
+
+This is just an idea but it would be great to hear your thoughts!
+
+Thanks,
+
+Stefan
+
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

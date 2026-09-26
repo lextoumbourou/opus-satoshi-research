@@ -1,0 +1,123 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?RMOibmllbA==?= Fraga <fragabr@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Noob question about mining pools
+Date: Fri, 15 Nov 2013 22:27:54 -0200
+Organization: http://www.youtube.com/DanielFragaBR
+Lines: 25
+Approved: news@gmane.org
+Message-ID: <l66e60$gn1$1@ger.gmane.org>
+References: <5283F4EC.70906@nimbios.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1384561720 20919 80.91.229.3 (16 Nov 2013 00:28:40 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 16 Nov 2013 00:28:40 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Nov 16 01:28:47 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VhTkk-00065b-IM
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 16 Nov 2013 01:28:46 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VhTkF-0003l7-8O; Sat, 16 Nov 2013 00:28:15 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VhTkD-0003l1-BM
+	for bitcoin-list@lists.sourceforge.net; Sat, 16 Nov 2013 00:28:13 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.3 as permitted sender)
+	client-ip=80.91.229.3;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org;
+	helo=plane.gmane.org; 
+Original-Received: from plane.gmane.org ([80.91.229.3])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1VhTkB-0006k1-R0
+	for bitcoin-list@lists.sourceforge.net; Sat, 16 Nov 2013 00:28:13 +0000
+Original-Received: from list by plane.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1VhTk4-0005eB-Ad
+	for bitcoin-list@lists.sourceforge.net; Sat, 16 Nov 2013 01:28:04 +0100
+Original-Received: from 177.102.80.98 ([177.102.80.98])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 16 Nov 2013 01:28:04 +0100
+Original-Received: from fragabr by 177.102.80.98 with local (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 16 Nov 2013 01:28:04 +0100
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 17
+Original-X-Complaints-To: usenet@ger.gmane.org
+X-Gmane-NNTP-Posting-Host: 177.102.80.98
+X-Newsreader: Claws Mail 3.9.0cvs128 (GTK+ 2.24.20; x86_64-unknown-linux-gnu)
+X-Spam-Score: 2.6 (++)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [80.91.229.3 listed in list.dnswl.org]
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(fragabr[at]gmail.com)
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+	CUSTOM_MED
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.9 RCVD_NUMERIC_HELO Received: contains an IP address used for HELO
+	-0.0 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: libertarios.org.br]
+	2.0 FSL_HELO_BARE_IP_2     FSL_HELO_BARE_IP_2
+	1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit,
+	and not from a mailing list
+X-Headers-End: 1VhTkB-0006k1-R0
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:32
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/32>
+
+On Wed, 13 Nov 2013 16:53:48 -0500
+Michael Peek <peek@nimbios.org> wrote:
+
+> I downloaded bitcoin-0.8.5-linux.tar.gz.  Will this software allow me to
+> join a mining pool?
+
+	No. This is only a client. If you want to mine, you have to use
+a miner like BFGMiner:
+
+http://bfgminer.org/
+
+-- 
+Linux 3.12.0: One Giant Leap for Frogkind
+http://www.youtube.com/DanielFragaBR
+http://www.libertarios.org.br
+Bitcoin: 12H6661yoLDUZaYPdah6urZS5WiXwTAUgL
+
+
+
+------------------------------------------------------------------------------
+DreamFactory - Open Source REST & JSON Services for HTML5 & Native Apps
+OAuth, Users, Roles, SQL, NoSQL, BLOB Storage and External API Access
+Free app hosting. Or install the open source package on any LAMP server.
+Sign up and see examples for AngularJS, jQuery, Sencha Touch and Native!
+http://pubads.g.doubleclick.net/gampad/clk?id=63469471&iu=/4140/ostg.clktrk

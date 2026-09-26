@@ -1,0 +1,145 @@
+Path: news.gmane.org!not-for-mail
+From: s7r <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: solution for a bitcoin contract (maybe with oracle
+	script)
+Date: Fri, 10 Apr 2015 13:11:43 +0300
+Lines: 49
+Approved: news@gmane.org
+Message-ID: <5527A1DF.7090509@sky-ip.org>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1428660818 19649 80.91.229.3 (10 Apr 2015 10:13:38 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 10 Apr 2015 10:13:38 +0000 (UTC)
+To: bitcoin-list <bitcoin-list@lists.sourceforge.net>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Apr 10 12:13:29 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YgVwC-000181-Jm
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 10 Apr 2015 12:13:24 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YgVv3-00073W-CD; Fri, 10 Apr 2015 10:12:13 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1YgVv2-00073Q-9F
+	for bitcoin-list@lists.sourceforge.net; Fri, 10 Apr 2015 10:12:12 +0000
+Received-SPF: neutral (sog-mx-4.v43.ch3.sourceforge.com: 162.222.225.9 is
+	neither permitted nor denied by domain of sky-ip.org)
+	client-ip=162.222.225.9; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.9])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1YgVun-0005VD-Ht
+	for bitcoin-list@lists.sourceforge.net; Fri, 10 Apr 2015 10:12:12 +0000
+Original-Received: from [0.0.0.0] (unknown [198.51.75.165])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id 468EB1A13DC
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 10 Apr 2015 10:11:46 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.6.0
+X-CTCH-RefID: str=0001.0A020205.5527A1E3.026A, ss=1, re=0.001, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.001
+X-CTCH-Rules: C_4847,
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Scanned-By: MIMEDefang 2.72 on 172.18.214.92
+X-Spam-Score: 0.8 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [162.222.225.9 listed in list.dnswl.org]
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.7 SPF_NEUTRAL SPF: sender does not match SPF record (neutral)
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	0.0 T_DKIM_INVALID DKIM-Signature header exists but is not valid
+X-Headers-End: 1YgVun-0005VD-Ht
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:75
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/75>
+
+Hi,
+
+been reading the contracts page under bitcoin.it wiki. I find the
+features available in bitcoin amazing. However, I didn't find something
+which would allow me to build a custom contract and I think there has to
+be something in script which can be used for this purpose. If you can
+think of a solution (using whatever OP_), please let me know.
+
+Here is the description of the contract:
+
+We have a p2sh (multisig) address 3/3 signatures generated with Alice's
+pubkey, Bob's pubkey and the John's pubkey.
+
+In this address, both Alice and Bob need to send 1 BTC each, but each is
+afraid the other party will not send if he/she sends first.
+
+Let's assume Alice generates a TX to send the coins, but does not
+broadcast it, and just provides the TXid to Bob and John.
+
+Can the other 2 parties which have a pubkey in this address (Bob and
+John) sign a second TX which spends Alice's TX back to Alice, but will
+be valid only if Bob doesn't send his 1 BTC? Something like "signature
+valid only if address balance < 2 BTC (Bob didn't send) and maybe with
+an nLockTime of 24 hours (time allowed for Bob to send his coin)".
+
+The simple goal is for Alice to be able to claim her coin back without
+trusting anyone if Bob doesn't send his coin, in a way that will not
+require Alice to depend on either Bob or John (other 2 parties in the
+p2sh multisig address). At the same time Bob wants to be sure that if he
+sends his 1 BTC, Alice will not be able to claim her 1 BTC back after that.
+
+Note: I know that given the fact that Alice will have a TX signed by Bob
+and John which spends her first TX only, she will only be able to claim
+her 1 BTC back and have no control over Bob's 1 BTC (if he sends), but
+the goal is for Alice not to be able to claim even her 1 BTC back if Bob
+actually does send within an agreed time frame.
+
+Thank you in advance for your suggestions.
+
+
+
+
+
+------------------------------------------------------------------------------
+BPM Camp - Free Virtual Workshop May 6th at 10am PDT/1PM EDT
+Develop your own process in accordance with the BPMN 2 standard
+Learn Process modeling best practices with Bonita BPM through live exercises
+http://www.bonitasoft.com/be-part-of-it/events/bpm-camp-virtual- event?utm_
+source=Sourceforge_BPM_Camp_5_6_15&utm_medium=email&utm_campaign=VA_SF

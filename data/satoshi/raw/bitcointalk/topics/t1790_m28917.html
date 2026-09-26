@@ -1,0 +1,1651 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="BitDNS and Generalizing Bitcoin" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="keywords" content="bitcoin, forum, bitcoin forum, bitcointalk" />
+	<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/script.js"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "https://bitcointalk.org/Themes/custom1";
+		var smf_images_url = "https://bitcointalk.org/Themes/custom1/images";
+		var smf_scripturl = "https://bitcointalk.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>BitDNS and Generalizing Bitcoin</title><!--3a52198db3a7c0c80a135ccf3c94c2bcd90a004b0fe081a74843d6a0382fb24873a40a135ccf3c94c2bcd90a004b0fe081a78434--><link rel="canonical" href="https://bitcointalk.org/index.php?topic=1790.240" />
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/custom1/style.css" />
+	 <!--[if !IE]> -->
+	 <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 650px)" href="https://bitcointalk.org/Themes/custom1/mobile.css" />
+	 <!-- <![endif]-->
+	<link rel="stylesheet" type="text/css" href="https://bitcointalk.org/Themes/default/print.css" media="print" /><style type="text/css">
+.msgcl1 {padding: 1px 1px 0 1px;}
+
+</style>
+
+
+
+	<link rel="help" href="https://bitcointalk.org/index.php?action=help" target="_blank" />
+	<link rel="search" href="https://bitcointalk.org/index.php?action=search" />
+	<link rel="contents" href="https://bitcointalk.org/index.php" />
+	<link rel="alternate" type="application/rss+xml" title="Bitcoin Forum - RSS" href="https://bitcointalk.org/index.php?type=rss;action=.xml" />
+	<link rel="prev" href="https://bitcointalk.org/index.php?topic=1790.0;prev_next=prev" />
+	<link rel="next" href="https://bitcointalk.org/index.php?topic=1790.0;prev_next=next" />
+	<link rel="index" href="https://bitcointalk.org/index.php?board=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		function showhide(msgnr)
+		{
+			if (document.getElementById("message"+msgnr).style.display == "")
+			    {document.getElementById("message"+msgnr).style.display = "none";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "hidden";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "";
+			     document.getElementById("ignfooter"+msgnr).style.display = "none";
+			     document.getElementById("ignprofile"+msgnr).style.display = "none";
+			    }
+			    else
+			    {document.getElementById("message"+msgnr).style.display = "";
+			     document.getElementById("ignmsgbttns"+msgnr).style.visibility = "visible";
+			     document.getElementById("ignoremessage"+msgnr).style.display = "none";
+			     document.getElementById("ignfooter"+msgnr).style.display = "";
+			     document.getElementById("ignprofile"+msgnr).style.display = "";
+			     }
+		}
+// ]]></script>
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script></head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="smfheader">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Bitcoin Forum</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="https://bitcointalk.org/Themes/custom1/images/smflogo.gif" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">September 26, 2026, 02:20:19 AM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="https://bitcointalk.org/Themes/custom1/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2" id="variousheadlinks"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="https://bitcointalk.org/index.php?action=login">login</a> or <a href="https://bitcointalk.org/index.php?action=register">register</a>.				</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: Latest Bitcoin Core release: <a class="ul" href="https://bitcoincore.org/en/releases/">31.1</a> [<a class="ul" href="https://bitcointalk.org/bitcoin-31.1.torrent">Torrent</a>]</span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="https://bitcointalk.org/index.php?action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="https://bitcointalk.org/index.php?action=search;advanced"><img src="https://bitcointalk.org/Themes/custom1/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+						<input type="hidden" name="topic" value="1790" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="https://bitcointalk.org/index.php">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=search">Search</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="https://bitcointalk.org/index.php?action=register">Register</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="/more.php">More</a>
+				</td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+<a name="top"></a>
+<a name="msg28878"></a>
+<div><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=1.0" class="nav">Bitcoin Discussion</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=1790.0" class="nav">BitDNS and Generalizing Bitcoin</a></b></div></div>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext" valign="bottom" style="padding-bottom: 4px;">Pages: <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.220">&#171;</a> </span><a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.0">1</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.60">4</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.80">5</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.100">6</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.120">7</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.140">8</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.160">9</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.180">10</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.200">11</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.220">12</a> [<b>13</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.260">14</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.280">15</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.300">16</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.320">17</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.340">18</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.360">19</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.380">20</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.260">&#187;</a> </span>&nbsp;<a href="https://bitcointalk.org/index.php?topic=1790.0;all">All</a> </td>
+		<td align="right" style="padding-right: 1ex;">
+			<div class="nav" style="margin-bottom: 2px;"> <a href="https://bitcointalk.org/index.php?topic=1790.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=1790.0;prev_next=next#new">next topic &raquo;</a></div>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="mirrortab_first">&nbsp;</td>
+		<td class="mirrortab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=1790.0" target="_blank">Print</a></td>
+		<td class="mirrortab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" cellpadding="3" cellspacing="0" border="0" class="tborder" style="border-bottom: 0;">
+		<tr class="catbg3">
+				<td valign="middle" width="2%" style="padding-left: 6px;">
+					<img src="https://bitcointalk.org/Themes/custom1/images/topic/veryhot_post.gif" align="bottom" alt="" />
+				</td>
+				<td width="13%"> Author</td>
+				<td valign="middle" width="85%" style="padding-left: 6px;" id="top_subject">
+						Topic: BitDNS and Generalizing Bitcoin &nbsp;(Read 123575 times)
+				</td>
+		</tr>
+</table>
+<form action="https://bitcointalk.org/index.php?action=quickmod2;topic=1790.240" method="post" accept-charset="ISO-8859-1" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return in_edit_mode == 1 ? modify_save('0a135ccf3c94c2bcd90a004b0fe081a7') : confirm('Are you sure you want to do this?');">
+<table cellpadding="0" cellspacing="0" border="0" width="100%" class="bordercolor"><tr><td class="msgcl1">
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=392" title="View the profile of ribuck">ribuck</a></b>
+							<div class="smalltext">
+								Donator<br />
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/donator.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 826<br />
+								Merit: 1112<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=392"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28878#msg28878"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28878"><a href="https://bitcointalk.org/index.php?topic=1790.msg28878#msg28878">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 02:59:27 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns241" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28878#msg28878">#241</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28876#msg28876">Quote from: bitcoinex on December 10, 2010, 02:51:50 PM</a></div><div class="quote">&quot;powerdns&quot; can work with plugins and with bind9 configs by default. We can write a plugin for it.<br /></div><br />No-one has made a proof-of-concept, but we <i>think</i> that all we need is a program that trawls through the block chain, extracts the registration details, and writes them out in bind&#039;s data format. No plugin or hacks should be needed.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28878">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28879"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=392" title="View the profile of ribuck">ribuck</a></b>
+							<div class="smalltext">
+								Donator<br />
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/donator.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 826<br />
+								Merit: 1112<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=392"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28879#msg28879"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28879"><a href="https://bitcointalk.org/index.php?topic=1790.msg28879#msg28879">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 03:01:40 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns242" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28879#msg28879">#242</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">I have fleshed out the DomainChain spec quite a bit more:<br /><a class="ul" href="http://domainchain.org/wiki/doku.php?id=start">http://domainchain.org/wiki/doku.php?id=start</a><br /><br /><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28873#msg28873">Quote from: bitcoinex on December 10, 2010, 02:41:39 PM</a></div><div class="quote">Also names should be allowed to specify 3rd or more level domain names too.<br /></div><br />Yep, that&#039;s in the spec. But it&#039;s only useful if you know that someone is going to serve them. For example, the owner of some.domain might announce that they will serve any subdomain that people register of the form something.some.domain</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28879">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28881"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=577" title="View the profile of bitcoinex">bitcoinex</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 350<br />
+								Merit: 252<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_577.png" alt="" class="avatar" border="0" /></div><br />
+								probiwon.com<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=577"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="https://probiwon.com/" title="Bitcoin lottery" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28881#msg28881"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28881"><a href="https://bitcointalk.org/index.php?topic=1790.msg28881#msg28881">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 03:11:21 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns243" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28881#msg28881">#243</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28878#msg28878">Quote from: ribuck on December 10, 2010, 02:59:27 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28876#msg28876">Quote from: bitcoinex on December 10, 2010, 02:51:50 PM</a></div><div class="quote">&quot;powerdns&quot; can work with plugins and with bind9 configs by default. We can write a plugin for it.<br /></div><br />No-one has made a proof-of-concept, but we <i>think</i> that all we need is a program that trawls through the block chain, extracts the registration details, and writes them out in bind&#039;s data format. No plugin or hacks should be needed.<br /></div><br />bind9 is not the best format. pdns have a simple interface for plugins, do not worry.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28881">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig577">New bitcoin lottery: <b><a rel="ugc" class="ul" href="http://probiwon.com">probiwon.com</a></b><br />- Mo&#1078;e&#1090;, &#1090;&#1099; e&#1097;&#1105; &#1080; &#1074; He&#1074;&#1080;&#1076;&#1080;&#1084;y&#1102; Py&#1082;y P&#1099;&#1085;&#1082;a &#1074;epye&#1096;&#1100;? - &#1047;a&#1095;e&#1084; &#1078;e &#1074;epo&#1074;a&#1090;&#1100; &#1074; &#1090;o, &#1095;&#1090;o &#1084;o&#1078;&#1085;o &#1085;a&#1073;&#1083;&#1102;&#1076;a&#1090;&#1100; &#1085;e&#1087;ocpe&#1076;c&#1090;&#1074;e&#1085;&#1085;o?</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28899"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=344" title="View the profile of RHorning">RHorning</a></b>
+							<div class="smalltext">
+								Full Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 224<br />
+								Merit: 145<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=344"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28899#msg28899"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28899"><a href="https://bitcointalk.org/index.php?topic=1790.msg28899#msg28899">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 04:50:01 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns244" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28899#msg28899">#244</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28877#msg28877">Quote from: ribuck on December 10, 2010, 02:57:37 PM</a></div><div class="quote"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28857#msg28857">Quote from: RHorning on December 10, 2010, 01:39:27 PM</a></div><div class="quote">... Keep in mind that once a fee is processed in Bitcoin, it is irreversible.&nbsp; If there is a chain split on the domain records due to a formatting/authentication dispute ... those Bitcoin transactions may be going to an authenticator who in fact never did get the registration done because the majority of the network has ignored that domain registration block<br /></div><br />That doesn&#039;t really reflect how it works. If there is a chain split, eventually the network will settle on one of the chains. The generator that mined the block in the &quot;winning&quot; chain gets the transaction fee.<br /><br />There is no &quot;irreversible&quot; payment to the generator in the &quot;losing&quot; chain. Well, in a sense it is irreversible but as they can only spend it in the losing chain it&#039;s not much use to them.<br /></div><br />I think you got the context mixed up here.&nbsp; The reason why the payment is irreversible is because it is derived from a completely different chain.&nbsp; If there is a chain split in the domain registry chain, the fees spent as bitcoins (going into a completely different system) will have already been spent for those block in the &quot;losing&quot; chain.&nbsp; Transaction going into that &quot;losing block&quot; are essentially a wasted effort.<br /><br />I&#039;m suggesting that somebody simply sets up enough of the protocol to be able to appear to be following the domain processing rules so as to appear &quot;legit&quot;, but they only have to make an appearance to get a block accepted.&nbsp; Perhaps they even get some blocks accepted, but then start to make up stuff or somebody attempts to register an existing name (as a scammer claiming they can hijack a domain from somebody else or however).&nbsp; If there is any reason why the rest of the network doesn&#039;t accept the block, for any reason, all of the fees collected by that &quot;miner&quot; or &quot;registrar&quot; would still be collected by that scammer regardless of if it actually gets into the chain.<br /><br />On the other hand, if the block being &quot;authenticated&quot; is a part of the same chain that creates the currency, this isn&#039;t a problem.&nbsp; If the blocks get rejected by the network, any fees (set up in a system like how transaction fees are done with Bitcoin) are also similarly rejected by the network too.&nbsp; Any chain splits remove any fees paid to &quot;losing&quot; blocks and therefore can be ignored.&nbsp; This is why the authentication must happen in the same chain as the transaction.&nbsp; Either that is in Bitcoin or a parallel currency, but if it is with Bitcoin, the authentication must happen within the Bitcoin network too.&nbsp; Otherwise, there isn&#039;t a way to get payment to the miner with an outside currency that is similar to Bitcoin without fraud and a significant attack on the payment system.&nbsp; This is fraud because a service is being claimed and paid for, but the service isn&#039;t being rendered.<br /><br />Hacking the data into Bitcoin transactions does not perform authentication of the data and pushes that need somewhere else.&nbsp; In effect, it permits &quot;double spending&quot; of a domain name or allocation of a domain name to more than one person with ambiguity over who actually owns that domain.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28899">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28904"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=392" title="View the profile of ribuck">ribuck</a></b>
+							<div class="smalltext">
+								Donator<br />
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/donator.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 826<br />
+								Merit: 1112<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=392"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28904#msg28904"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28904"><a href="https://bitcointalk.org/index.php?topic=1790.msg28904#msg28904">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 04:58:15 PM</div><div class="smalltext"><i><span style="color:green">Merited</span> by <a href="/index.php?action=profile;u=18321">OgNasty</a> (2)</i></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns245" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28904#msg28904">#245</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28899#msg28899">Quote from: RHorning on December 10, 2010, 04:50:01 PM</a></div><div class="quote">The reason why the payment is irreversible is because it is derived from a completely different chain.</div><br />Got you now. Yes, keeping two chains synchronised is fraught with difficulty.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28904">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28917"></a><a name="new"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=3" title="View the profile of satoshi">satoshi</a></b>
+							<div class="smalltext">
+								Founder<br />
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/founder.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 364<br />
+								Merit: 9151<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=3"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28917"><span style="opacity: 30%;">&#8702;&nbsp;</span><a style="color: black" href="https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext"><span title="Last edit: December 11, 2010, 12:28:48 PM by satoshi" class="edited">December 10, 2010, 05:29:28 PM</span><span class="editplain"><br />Last edit: December 11, 2010, 12:28:48 PM by satoshi</span></div><div class="smalltext"><i><span style="color:green">Merited</span> by <a href="/index.php?action=profile;u=140584">EFS</a> (100), <a href="/index.php?action=profile;u=2552182">garlonicon</a> (100), <a href="/index.php?action=profile;u=359716">ABCbits</a> (59), <a href="/index.php?action=profile;u=18321">OgNasty</a> (50), <a href="/index.php?action=profile;u=35501">cAPSLOCK</a> (25), <a href="/index.php?action=profile;u=379147">pooya87</a> (10), <a href="/index.php?action=profile;u=33156">vapourminer</a> (5), <a href="/index.php?action=profile;u=2775483">BlackHatCoiner</a> (4), <a href="/index.php?action=profile;u=1582324">DdmrDdmr</a> (1), <a href="/index.php?action=profile;u=30">BitcoinFX</a> (1), <a href="/index.php?action=profile;u=982288">Vispilio</a> (1), <a href="/index.php?action=profile;u=2269783">DaCryptoRaccoon</a> (1), <a href="/index.php?action=profile;u=2718018">vjudeu</a> (1), <a href="/index.php?action=profile;u=1804392">darosior</a> (1)</i></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns246" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917">#246</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Piling every proof-of-work quorum system in the world into one dataset doesn&#039;t scale.<br /><br />Bitcoin and BitDNS can be used separately. &nbsp;Users shouldn&#039;t have to download all of both to use one or the other. &nbsp;BitDNS users may not want to download everything the next several unrelated networks decide to pile in either.<br /><br />The networks need to have separate fates. &nbsp;BitDNS users might be completely liberal about adding any large data features since relatively few domain registrars are needed, while Bitcoin users might get increasingly tyrannical about limiting the size of the chain so it&#039;s easy for lots of users and small devices.<br /><br />Fears about securely buying domains with Bitcoins are a red herring. &nbsp;It&#039;s easy to trade Bitcoins for other non-repudiable commodities.<br /><br />If you&#039;re still worried about it, it&#039;s cryptographically possible to make a risk free trade. &nbsp;The two parties would set up transactions on both sides such that when they both sign the transactions, the second signer&#039;s signature triggers the release of both. &nbsp;The second signer can&#039;t release one without releasing the other.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28917">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28935"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=392" title="View the profile of ribuck">ribuck</a></b>
+							<div class="smalltext">
+								Donator<br />
+								Hero Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/donator.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 826<br />
+								Merit: 1112<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=392"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28935#msg28935"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28935"><a href="https://bitcointalk.org/index.php?topic=1790.msg28935#msg28935">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 06:55:35 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns247" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28935#msg28935">#247</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917">Quote from: satoshi on December 10, 2010, 05:29:28 PM</a></div><div class="quote">Piling every proof-of-work quorum system in the world into one dataset doesn&#039;t scale.</div><br />If you say &quot;no&quot; after you&#039;ve seen how this runs on the test network, I will totally respect that and won&#039;t generate domain registrations on the live network.<br /><br />Bitcoin is your bird, and if you don&#039;t want it to soar as high as it can, that&#039;s OK.<br /><br />But even if the domain name stuff is on a separate chain, there is still going to be a Bitcoin transaction for every DNS registration. So having two chains would cause no reduction in the <i>number</i> of Bitcoin transactions, just 40 or 50 bytes reduction in the <i>size</i> of the transactions in the Bitcoin chain.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28935">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28936"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=344" title="View the profile of RHorning">RHorning</a></b>
+							<div class="smalltext">
+								Full Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 224<br />
+								Merit: 145<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=344"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28936#msg28936"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28936"><a href="https://bitcointalk.org/index.php?topic=1790.msg28936#msg28936">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext"><span title="Last edit: December 10, 2010, 07:13:50 PM by RHorning" class="edited">December 10, 2010, 07:03:24 PM</span><span class="editplain"><br />Last edit: December 10, 2010, 07:13:50 PM by RHorning</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns248" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28936#msg28936">#248</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28917#msg28917">Quote from: satoshi on December 10, 2010, 05:29:28 PM</a></div><div class="quote">Fears about securely buying domains with Bitcoins are a red herring. &nbsp;It&#039;s easy to trade Bitcoins for other non-repudiable commodities.</div><br />I dont see how this was a red herring. &nbsp;Unfortuantely if you use a Bitcoin-like system of authentication of a transaction, you can&#039;t conduct that transaction in Bitcoins, at least for authentication transaction fees.<br /><br /><div class="quoteheader">Quote</div><div class="quote">If you&#039;re still worried about it, it&#039;s cryptographically possible to make a risk free trade. &nbsp;The two parties would set up transactions on both sides such that when they both sign the transactions, the second signer&#039;s signature triggers the release of both. &nbsp;The second signer can&#039;t release one without releasing the other.<br /></div><br />I&#039;m really curious about how you make this sort of transaction risk-free without having it integral to Bitcoin as some sort of authentication mechanism.<br /><br />One thing that really makes this nasty is that the &quot;miner&quot; is unknown until the block is added into an authentication hash tree. &nbsp;You don&#039;t have the two key release mechanism because one of the parties in the transaction is unknown until after the hash is successfully put in, and even that is conditional.<br /><br />It makes it much more secure and coincidentally easier to scale to treat it as a simple exchange between two currencies, something that happens entirely outside of the system as evidenced by the various exchanges that already exist between Bitcoin and other currencies. &nbsp;BTW, I agree that Bitcoin or any other monolithic application should not be the ultimate repository of all human knowledge and interaction, as I don&#039;t think any sort of system can possibly scale to that size. &nbsp;I&#039;m not even sure TCP/IP itself can scale to that size.<br /><br />This is much of what Jgarzik has said that it is unworkable, but going from a different perspective. &nbsp;The problem is that everybody is trying to get these fees paid for with bitcoins, and I don&#039;t think that can be done at all, at least directly. &nbsp;As an indirect mechanism, perhaps, such as a floating currency that isn&#039;t locked down until after the exchange takes place.<br /><br />BTW, the idea of a &quot;locking exchange&quot; would be a fantastic idea for a peer-to-peer currency exchange network, particularly for electronic currencies like Bitcoin or Liberty Reserve. &nbsp;I just don&#039;t see how you can put any sort of authentication transaction fee in a block that is denominated by a currency other than the currency represented by that block itself.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28936">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28937"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=643" title="View the profile of MoonShadow">MoonShadow</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1708<br />
+								Merit: 1013<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_643.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=643"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28937#msg28937"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28937"><a href="https://bitcointalk.org/index.php?topic=1790.msg28937#msg28937">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 07:11:28 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns249" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28937#msg28937">#249</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Also, why on Earth would a BitDNS want a blockchain that updates every 10 minutes?&nbsp; Why not an hour instead?&nbsp; Or every minute?&nbsp; Why be chained to the cycles set for another purpose?&nbsp; It&#039;s less than ideal from the beginning.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28937">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig643">&quot;The powers of financial capitalism had another far-reaching aim, nothing less than to create a world system of financial control in private hands able to dominate the political system of each country and the economy of the world as a whole. This system was to be controlled in a feudalist fashion by the central banks of the world acting in concert, by secret agreements arrived at in frequent meetings and conferences. The apex of the systems was to be the Bank for International Settlements in Basel, Switzerland, a private bank owned and controlled by the world&#39;s central banks which were themselves private corporations. Each central bank...sought to dominate its government by its ability to control Treasury loans, to manipulate foreign exchanges, to influence the level of economic activity in the country, and to influence cooperative politicians by subsequent economic rewards in the business world.&quot;<br /><br />- Carroll Quigley, CFR member, mentor to Bill Clinton, from &#39;Tragedy And Hope&#39;</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28938"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2436" title="View the profile of Hal">Hal</a></b>
+							<div class="smalltext">
+								VIP<br />
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/vip.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 314<br />
+								Merit: 5057<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2436.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2436"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28938#msg28938"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28938"><a href="https://bitcointalk.org/index.php?topic=1790.msg28938#msg28938">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 07:14:04 PM</div><div class="smalltext"><i><span style="color:green">Merited</span> by <a href="/index.php?action=profile;u=18321">OgNasty</a> (50)</i></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns250" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28938#msg28938">#250</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">Satoshi, are you endorsing the idea that additional block chains would each create their own flavor of coins, which would trade with bitcoins on exchanges? These chain-specific coins would be used to reward miners on those chains, and to purchase some kinds of rights or privileges within the domain of that chain?</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28938">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2436">Hal Finney</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28946"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=344" title="View the profile of RHorning">RHorning</a></b>
+							<div class="smalltext">
+								Full Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 224<br />
+								Merit: 145<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=344"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28946#msg28946"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28946"><a href="https://bitcointalk.org/index.php?topic=1790.msg28946#msg28946">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 07:20:44 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns251" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28946#msg28946">#251</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28937#msg28937">Quote from: creighto on December 10, 2010, 07:11:28 PM</a></div><div class="quote">Also, why on Earth would a BitDNS want a blockchain that updates every 10 minutes? &nbsp;Why not an hour instead? &nbsp;Or every minute? &nbsp;Why be chained to the cycles set for another purpose? &nbsp;It&#039;s less than ideal from the beginning.<br /></div><br />This is indeed something that can be tweaked, but the issue has to do with network latency, which is independent of the purpose for which the &quot;currency&quot; was created. &nbsp;10 minutes is a guess that has worked out pretty well. &nbsp;Yes, it could be longer or shorter. &nbsp;Shorter intervals increase hash collisions from multiple &quot;miners&quot; and a longer intervals decrease those collisions. &nbsp;10 minutes is also something tolerable on average to somebody used to using computers, certainly if you have experienced sending information and expecting a reply by e-mail. &nbsp;Domain registrations in particular may take a day or so for processing, depending on the registrar and the method of payment, so anything less than a 10 minute interval seems like a waste of effort.<br /><br />In short, the reasons why 10 minute intervals would apply to Bitcoin apply equally well to any other peer-to-peer cryptocurrency with what other applications are using similar principles.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28946">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28949"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=541" title="View the profile of jgarzik">jgarzik</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1596<br />
+								Merit: 1164<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=541"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28949#msg28949"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28949"><a href="https://bitcointalk.org/index.php?topic=1790.msg28949#msg28949">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 07:22:40 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns252" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28949#msg28949">#252</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28938#msg28938">Quote from: Hal on December 10, 2010, 07:14:04 PM</a></div><div class="quote">Satoshi, are you endorsing the idea that additional block chains would each create their own flavor of coins, which would trade with bitcoins on exchanges? These chain-specific coins would be used to reward miners on those chains, and to purchase some kinds of rights or privileges within the domain of that chain?<br /></div><br />It might be coins, but it doesn&#039;t have to be.&nbsp; Your reward could be a portion of namespace, ie. the domains themselves.<br /><br />The possibilities are endless.<br /><br />Bitcoin rewards you, essentially, with a piece of [digital] property.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28949">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig541">Jeff Garzik, Bloq CEO, former bitcoin core dev team; opinions are my own.<br />Visit bloq.com / metronome.io<br />Donations / tip jar: 1BrufViLKnSWtuWGkryPsKsxonV2NQ7Tcj</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28955"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=344" title="View the profile of RHorning">RHorning</a></b>
+							<div class="smalltext">
+								Full Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 224<br />
+								Merit: 145<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=344"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28955#msg28955"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28955"><a href="https://bitcointalk.org/index.php?topic=1790.msg28955#msg28955">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 07:35:48 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns253" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28955#msg28955">#253</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28949#msg28949">Quote from: jgarzik on December 10, 2010, 07:22:40 PM</a></div><div class="quote">It might be coins, but it doesn&#039;t have to be.&nbsp; Your reward could be a portion of namespace, ie. the domains themselves.<br /><br />The possibilities are endless.<br /><br />Bitcoin rewards you, essentially, with a piece of [digital] property.<br /></div><br />If you are a miner and you &quot;win&quot; the block, yes, you can throw in any domains to the chain for free I suppose, and the network could accept or reject your block depending on whatever rules that network sets up to regulate that behavior.&nbsp; That is like a Bitcoin miner can throw any transactions they care for as much as they care without having to pay a transaction fee, since they are paying for themselves.&nbsp; Including a transaction fee in the process is just rearranging coins and doesn&#039;t change the net amount actually being spent or received.<br /><br />I think that is of limited utility, unless you are saying that miners can eventually &quot;earn&quot; the &quot;right&quot; to a top-level domain after a certain number of hashes and inclusions into the domain registry.&nbsp; That would be an artificial form of scarcity that would be interesting to implement, but it still fails to get fees paid by registrants to the registrar.&nbsp; It would just make you &quot;god-king&quot; over a particular TLD... if you really &quot;owned&quot; that.<br /><br />Such a non-coin &quot;reward&quot; also doesn&#039;t provide any incentive to maintain the database, while a coin-based reward would.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28955">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28956"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=541" title="View the profile of jgarzik">jgarzik</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1596<br />
+								Merit: 1164<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=541"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28956#msg28956"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28956"><a href="https://bitcointalk.org/index.php?topic=1790.msg28956#msg28956">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 07:41:41 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns254" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28956#msg28956">#254</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">bitcoin itself is artificial scarcity.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28956">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig541">Jeff Garzik, Bloq CEO, former bitcoin core dev team; opinions are my own.<br />Visit bloq.com / metronome.io<br />Donations / tip jar: 1BrufViLKnSWtuWGkryPsKsxonV2NQ7Tcj</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28959"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=3" title="View the profile of satoshi">satoshi</a></b>
+							<div class="smalltext">
+								Founder<br />
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/founder.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 364<br />
+								Merit: 9151<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=3"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28959#msg28959"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28959"><a href="https://bitcointalk.org/index.php?topic=1790.msg28959#msg28959">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext"><span title="Last edit: December 10, 2010, 10:16:10 PM by satoshi" class="edited">December 10, 2010, 07:55:12 PM</span><span class="editplain"><br />Last edit: December 10, 2010, 10:16:10 PM by satoshi</span></div><div class="smalltext"><i><span style="color:green">Merited</span> by <a href="/index.php?action=profile;u=140584">EFS</a> (100), <a href="/index.php?action=profile;u=18321">OgNasty</a> (50), <a href="/index.php?action=profile;u=359716">ABCbits</a> (2), <a href="/index.php?action=profile;u=950474">Aveatrex</a> (1)</i></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns255" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28959#msg28959">#255</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28938#msg28938">Quote from: Hal on December 10, 2010, 07:14:04 PM</a></div><div class="quote">additional block chains would each create their own flavor of coins, which would trade with bitcoins on exchanges? These chain-specific coins would be used to reward miners on those chains, and to purchase some kinds of rights or privileges within the domain of that chain?<br /></div>Right, the exchange rate between domains and bitcoins would float.<br /><br />A longer interval than 10 minutes would be appropriate for BitDNS.<br /><br />So far in this discussion there&#039;s already a lot of housekeeping data required. &nbsp;It will be much easier if you can freely use all the space you need without worrying about paying fees for expensive space in Bitcoin&#039;s chain. &nbsp;Some transactions:<br /><br />Changing the IP record.<br /><br />Name change. &nbsp;A domain object could entitle you to one domain, and you could change it at will to any name that isn&#039;t taken. &nbsp;This would encourage users to free up names they don&#039;t want anymore. &nbsp;Generated domains start out blank and the miner sells it to someone who changes it to what they want. &nbsp;<br /><br />Renewal. &nbsp;Could be free, or maybe require consuming another domain object to renew. &nbsp;In that case, domain objects (domaincoins?) could represent the right to own a domain for a year. &nbsp;The spent fee goes to the miners in the next block fee.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28959">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28961"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=491" title="View the profile of kiba">kiba</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 980<br />
+								Merit: 1029<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=491"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28961#msg28961"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28961"><a href="https://bitcointalk.org/index.php?topic=1790.msg28961#msg28961">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 08:03:14 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns256" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28961#msg28961">#256</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28956#msg28956">Quote from: jgarzik on December 10, 2010, 07:41:41 PM</a></div><div class="quote">bitcoin itself is artificial scarcity.<br /></div><br />The supply of bitcoin is just an integer determined by network. Otherwise, bitcoin are non-scarce. I can copy a wallet a millllllllllllioooooooooon of time and it will contain the same integer. It&#039;s a very weird form of scarcity and non-scarcity.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28961">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig491"><b><a rel="ugc" class="ul" href="http://bitcoinweekly.com/">Bitcoin Weekly, bitcoin analysis and commentary</a></b></div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28962"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=2436" title="View the profile of Hal">Hal</a></b>
+							<div class="smalltext">
+								VIP<br />
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/vip.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 314<br />
+								Merit: 5057<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_2436.png" alt="" class="avatar" border="0" /></div><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=2436"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28962#msg28962"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28962"><a href="https://bitcointalk.org/index.php?topic=1790.msg28962#msg28962">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 08:12:02 PM</div><div class="smalltext"><i><span style="color:green">Merited</span> by <a href="/index.php?action=profile;u=140584">EFS</a> (50), <a href="/index.php?action=profile;u=18321">OgNasty</a> (20)</i></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns257" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28962#msg28962">#257</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">OK so if there are going to be bitdnscoins (aka DCCs, DomainChain Coins) then they have to be useful for something. Otherwise every BitDNS miner is going to fill every block with his own domain name registrations, rather than replace one with someone else&#039;s registration in exchange for a transaction fee in a useless currency.<br /><br />The rules have to be that you have to spend a certain amount of bitdnscoins/DCCs in order to register your names and/or do other BitDNS transactions. That&#039;s the only way to make this alternative currency desirable and valuable.<br /><br />(Well we could do like Bitcoin and say there would only ever be 22 million DCCs ever created, so they&#039;d get valuable from scarcity just like bitcoins. But that seems weak.)</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28962">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig2436">Hal Finney</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28963"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=3" title="View the profile of satoshi">satoshi</a></b>
+							<div class="smalltext">
+								Founder<br />
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/founder.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 364<br />
+								Merit: 9151<br /><br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=3"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28963#msg28963"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28963"><a href="https://bitcointalk.org/index.php?topic=1790.msg28963#msg28963">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext"><span title="Last edit: December 11, 2010, 12:30:09 PM by satoshi" class="edited">December 10, 2010, 08:19:39 PM</span><span class="editplain"><br />Last edit: December 11, 2010, 12:30:09 PM by satoshi</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns258" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28963#msg28963">#258</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">I agree.&nbsp; All transactions, IP changes, renewals, etc. should have some fee that goes to the miners.<br /><br />You might consider a certain amount of work to generate a domain, instead of a fixed total circulation. &nbsp;The work per domain could be on a schedule that grows with Moore&#039;s Law. &nbsp;That way the number of domains would grow with demand and the number of people using it.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28963">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg28973"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=577" title="View the profile of bitcoinex">bitcoinex</a></b>
+							<div class="smalltext">
+								Sr. Member<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><img src="https://bitcointalk.org/Themes/custom1/images/star.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 350<br />
+								Merit: 252<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_577.png" alt="" class="avatar" border="0" /></div><br />
+								probiwon.com<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=577"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a>
+								<a href="https://probiwon.com/" title="Bitcoin lottery" ><img src="https://bitcointalk.org/Themes/custom1/images/www_sm.gif" alt="WWW" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg28973#msg28973"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_28973"><a href="https://bitcointalk.org/index.php?topic=1790.msg28973#msg28973">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext">December 10, 2010, 08:41:45 PM</div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns259" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg28973#msg28973">#259</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post"><div class="quoteheader"><a href="https://bitcointalk.org/index.php?topic=1790.msg28937#msg28937">Quote from: creighto on December 10, 2010, 07:11:28 PM</a></div><div class="quote">Also, why on Earth would a BitDNS want a blockchain that updates every 10 minutes?&nbsp; Why not an hour instead?&nbsp; Or every minute?&nbsp; Why be chained to the cycles set for another purpose?&nbsp; It&#039;s less than ideal from the beginning.<br /></div><br />Then be sure to add the ability to specify multiple authoritative servers for one domain. This is possible for DNS as I know (MS Windows AD does it)<br /><br />So those who do not want what their site to be able to shutdown can make a lot of spare servers and when they turned off by Big Brother name owner just change the settings by removing old servers and adding new ones.</div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_28973">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig577">New bitcoin lottery: <b><a rel="ugc" class="ul" href="http://probiwon.com">probiwon.com</a></b><br />- Mo&#1078;e&#1090;, &#1090;&#1099; e&#1097;&#1105; &#1080; &#1074; He&#1074;&#1080;&#1076;&#1080;&#1084;y&#1102; Py&#1082;y P&#1099;&#1085;&#1082;a &#1074;epye&#1096;&#1100;? - &#1047;a&#1095;e&#1084; &#1078;e &#1074;epo&#1074;a&#1090;&#1100; &#1074; &#1090;o, &#1095;&#1090;o &#1084;o&#1078;&#1085;o &#1085;a&#1073;&#1083;&#1102;&#1076;a&#1090;&#1100; &#1085;e&#1087;ocpe&#1076;c&#1090;&#1074;e&#1085;&#1085;o?</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr><tr><td class="msgcl1">
+		<a name="msg29033"></a>
+		<table width="100%" cellpadding="3" cellspacing="0" border="0">
+			<tr><td class="windowbg2">
+				<table width="100%" cellpadding="5" cellspacing="0" style="table-layout: fixed;">
+					<tr>
+								<td valign="top" width="16%" rowspan="2" style="overflow: hidden;" class="poster_info">
+							<b><a href="https://bitcointalk.org/index.php?action=profile;u=1882" title="View the profile of da2ce7">da2ce7</a></b>
+							<div class="smalltext">
+								Legendary<br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/legendary.gif" alt="*" border="0" /><br />
+								<img src="https://bitcointalk.org/Themes/custom1/images/useroff.gif" alt="Offline" border="0" style="margin-top: 2px;" /><br /><br />
+								Activity: 1222<br />
+								Merit: 1016<br /><br />
+								<div style="overflow: auto; width: 100%;"><img src="/useravatars/avatar_1882.png" alt="" class="avatar" border="0" /></div><br />
+								Live and Let Live<br />
+								<br />
+								
+								
+								
+								<br />
+								<a href="https://bitcointalk.org/index.php?action=profile;u=1882"><img src="https://bitcointalk.org/Themes/custom1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" border="0" /></a><br />
+							</div>
+						</td>
+								<td valign="top" width="85%" height="100%" style="padding: 2px;" class="td_headerandpost with_column_bug">
+							<table width="100%" border="0"><tr>
+								<td valign="middle" width="26"><a href="https://bitcointalk.org/index.php?topic=1790.msg29033#msg29033"><img src="https://bitcointalk.org/Themes/custom1/images/post/xx.gif" alt="" border="0" /></a></td>
+								<td valign="middle">
+												<div style="font-weight: bold;" class="subject" id="subject_29033"><a href="https://bitcointalk.org/index.php?topic=1790.msg29033#msg29033">Re: BitDNS and Generalizing Bitcoin</a></div>
+												<div class="smalltext"><span title="Last edit: December 11, 2010, 03:43:57 AM by da2ce7" class="edited">December 11, 2010, 12:01:00 AM</span><span class="editplain"><br />Last edit: December 11, 2010, 03:43:57 AM by da2ce7</span></div></td>
+										  <td align="right" valign="middle" height="20" style="font-size: smaller; padding-top: 4px;" class="td_buttons" ><div id="ignmsgbttns260" style="visibility: visible;">  <a class="message_number" style="vertical-align: middle;" href="https://bitcointalk.org/index.php?topic=1790.msg29033#msg29033">#260</a>
+		 </div>
+								</td>
+							</tr></table>
+									 <hr width="100%" size="1" class="hrcolor"  style="margin-top: 4px;" />
+							<div class="post">It seems like killing two birds with one stone isn’t enough on the bitcoin forum; one has to kill three.<br /><br />Firstly, I would like to commend nanotube&#039;s+theymos proposal. &nbsp;I like it because it makes economic sense, and it is simple.<br />The design that I am proposing in this post is backwards compatible with nanotube&#039;s+theymos proposal, however solves all the ‘issues’ said. (I still think there is really nothing wrong about how it is proposed to work as it is. &nbsp;However, if there is a better way of doing it, why not?)<br /><br />Before we start, one must state that domain names a fundamentally different to currency, as they obtain their value in a very different manner; currency obtains values from being something that has restricted supply. &nbsp;Domain names, rather have values from the quality of the name, i.e. a short dictionary word has more value that a long random sequence.<br /><br />If a restriction of the total number of domain names is made, it would be an arbitrary restriction, causing a lower efficiency market, thus reducing the attractiveness of using that market.<br />So with this in mind, lets design a system that can have an unlimited number of domain names; providing people are willing to pay for the service of claiming the domain name.<br /><br /><br />The main concern on the forum is the inclusion of ‘other data’ in the block chain; the problem isn’t a fundamental one, as the bitcoin transactions block chain is indeed data in its own right.<br />In discussions elsewhere, it has been shown that:<br />1.&nbsp;&nbsp;&nbsp;Generators will happily include any data that is profitable to include.<br />2.&nbsp;&nbsp;&nbsp;The block size will grow to a size that balances data demands and the profitably of the miners.<br />3.&nbsp;&nbsp;&nbsp;Clients only need to ‘keep’ data that they interested in. &nbsp;Data that is irrelevant to the client may be forgotten once processed.<br />4.&nbsp;&nbsp;&nbsp;Transaction balances may be used to cull the chain of old transactions.<br />Therefore it has already been shown that the amount of data in the chain is not an issue with: generation (they get paid for it), or storage (they only keep what they want). &nbsp;The only outstanding issue is: transfers.<br /><br />What has been discussed is that every client must download the entire block chain (before it is culled) then, every new block generated and check it. &nbsp;Only after processing may a client delete any data that it doesn’t want. &nbsp;This accounts for a small amount of work while the chain is small, however the fear is when large amounts of irrelevant data (to any particular client) is included in the chain this task will become overly taxing.<br /><br /><br />I propose, a design hinted at by Satoshi, to solve this problem: &nbsp;Split bitcoin transactions into multiple groups.<br />While keeping the important tie between data and bitcoin transactions, (every bit of data still must include it’s compensation to the miners as a bitcoin transaction fee).<br />Group the transactions by templates. &nbsp;For example: &nbsp;Put the ‘vanilla template’ bitcoin transactions into the vanilla group, the ‘bitdns template’ bitcoin transactions into the bitdns group, the ‘bitpgp template’ bitcoin transactions into the bitpgp group, and so on.<br /><br />Finally include a ‘summary’ group that contains only the changes to the transaction balances accumulated in all the other groups.<br /><br />A Block could contain something like this:<br /><img class="userimg" src="https://ip.bitcointalk.org/?u=http%3A%2F%2Fbitcointalk.org%2Findex.php%3Faction%3Ddlattach%3Btopic%3D1790.0%3Battach%3D645&amp;t=690&amp;c=dSpNQ5LgqmSocA" alt="" border="0" /><br /><br />Once one block has confirmed the previous block (checking that all the accounting is correct in the summary block), only downloading the merkle tree and the summary group is required to keep up2date about the changes. &nbsp;This is in-effect less data than is required to download now! If the client decides that it needs some in-particular bit of data from one of the other groups after checking the summary, it can optionally download that also.<br /><br />The important thing to notice is it that there is no free lunch, every bit of data must still include the appropriate transaction fees, in bitcoins.<br /><br /><br />Nanotube and Teymos’s design fits very nicely on top of this design, as the transactions that the BitDNS system makes will simply be automatically grouped by the template that the generators use to check the BitDNS transactions before accepting them. Allowing clients to download the BitDNS data if they want it, or just download the transaction summaries.<br /></div>
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom" class="smalltext" width="85%">
+							<table width="100%" border="0" style="table-layout: fixed;"><tr>
+								<td colspan="2" class="smalltext" width="100%">
+								</td>
+							</tr><tr>
+								<td valign="bottom" class="smalltext" id="modified_29033">
+								</td>
+								<td align="right" valign="bottom" class="smalltext">
+									<img src="https://bitcointalk.org/Themes/custom1/images/ip.gif" alt="" border="0" />
+								</td>
+							</tr></table>
+							<hr width="100%" size="1" class="hrcolor" />
+							<div class="signature sig1882">One off NP-Hard.</div>
+						</td>
+					</tr>
+				</table>
+			</td></tr>
+		</table>
+	</td></tr>
+	<tr><td style="padding: 0 0 1px 0;"></td></tr>
+</table>
+<a name="lastPost"></a>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td class="middletext">Pages: <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.220">&#171;</a> </span><a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.0">1</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.20">2</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.40">3</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.60">4</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.80">5</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.100">6</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.120">7</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.140">8</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.160">9</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.180">10</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.200">11</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.220">12</a> [<b>13</b>] <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.260">14</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.280">15</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.300">16</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.320">17</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.340">18</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.360">19</a> <a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.380">20</a> <span class="prevnext"><a class="navPages" href="https://bitcointalk.org/index.php?topic=1790.260">&#187;</a> </span>&nbsp;<a href="https://bitcointalk.org/index.php?topic=1790.0;all">All</a> </td>
+		<td align="right" style="padding-right: 1ex;">
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					
+		<td class="maintab_first">&nbsp;</td>
+		<td class="maintab_back"><a href="https://bitcointalk.org/index.php?action=printpage;topic=1790.0" target="_blank">Print</a></td>
+		<td class="maintab_last">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<script language="JavaScript" type="text/javascript" src="https://bitcointalk.org/Themes/default/xml_topic.js"></script>
+<script language="JavaScript" type="text/javascript">//<!--
+	quickReplyCollapsed = true;
+
+	smf_topic = 1790;
+	smf_start = 240;
+	smf_show_modify = 0;
+
+	// On quick modify, this is what the body will look like.
+	var smf_template_body_edit = '<div id="error_box" style="padding: 4px; color: red;"></div><textarea class="editor" name="message" rows="12" style="width: 94%; margin-bottom: 10px;">%body%</textarea><br /><input type="hidden" name="sc" value="0a135ccf3c94c2bcd90a004b0fe081a7" /><input type="hidden" name="topic" value="1790" /><input type="hidden" name="msg" value="%msg_id%" /><div style="text-align: center;"><input type="submit" name="post" value="Save" onclick="return modify_save(\'0a135ccf3c94c2bcd90a004b0fe081a7\');" accesskey="s" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" onclick="return modify_cancel();" /></div>';
+
+	// And this is the replacement for the subject.
+	var smf_template_subject_edit = '<input type="text" name="subject" value="%subject%" size="60" style="width: 99%;"  maxlength="80" />';
+
+	// Restore the message to this after editing.
+	var smf_template_body_normal = '%body%';
+	var smf_template_subject_normal = '<a href="https://bitcointalk.org/index.php?topic=1790.msg%msg_id%#msg%msg_id%">%subject%</a>';
+	var smf_template_top_subject = "Topic: %subject% &nbsp;(Read 123575 times)"
+
+	if (window.XMLHttpRequest)
+		showModifyButtons();
+// --></script>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 1ex;">
+		<tr>
+				<td valign="top"><div class="nav" style="font-size: smaller; margin-bottom: 2ex; margin-top: 2ex;"><b><a href="https://bitcointalk.org/index.php" class="nav">Bitcoin Forum</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php#1" class="nav">Bitcoin</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?board=1.0" class="nav">Bitcoin Discussion</a></b>&nbsp;>&nbsp;<b><a href="https://bitcointalk.org/index.php?topic=1790.0" class="nav">BitDNS and Generalizing Bitcoin</a></b></div></td> 
+				<td valign="top" align="right" class="nav"> <a href="https://bitcointalk.org/index.php?topic=1790.0;prev_next=prev#new">&laquo; previous topic</a> <a href="https://bitcointalk.org/index.php?topic=1790.0;prev_next=next#new">next topic &raquo;</a></td>
+		</tr>
+</table>
+	<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 1ex;">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+</form>
+<div class="tborder"><div class="titlebg2" style="padding: 4px;" align="right">
+	<form action="https://bitcointalk.org/index.php" method="get" accept-charset="ISO-8859-1" style="padding:0; margin: 0;">
+		<span class="smalltext">Jump to:</span>
+		<select name="jumpto" id="jumpto" onchange="if (this.selectedIndex > 0 &amp;&amp; this.options[this.selectedIndex].value) window.location.href = smf_scripturl + this.options[this.selectedIndex].value.substr(smf_scripturl.indexOf('?') == -1 || this.options[this.selectedIndex].value.substr(0, 1) != '?' ? 0 : 1);">
+			<option value="">Please select a destination:</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#1">Bitcoin</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=1.0" selected="selected"> => Bitcoin Discussion</option>
+			<option value="?board=74.0"> ===> Legal</option>
+			<option value="?board=77.0"> ===> Press</option>
+			<option value="?board=86.0"> ===> Meetups</option>
+			<option value="?board=87.0"> ===> Important Announcements</option>
+			<option value="?board=6.0"> => Development &amp; Technical Discussion</option>
+			<option value="?board=37.0"> ===> Wallet software</option>
+			<option value="?board=98.0"> =====> Electrum</option>
+			<option value="?board=100.0"> =====> Bitcoin Wallet for Android</option>
+			<option value="?board=138.0"> =====> BitcoinJ</option>
+			<option value="?board=97.0"> =====> Armory</option>
+			<option value="?board=231.0"> =====> Mycelium</option>
+			<option value="?board=261.0"> =====> Hardware wallets</option>
+			<option value="?board=14.0"> => Mining</option>
+			<option value="?board=40.0"> ===> Mining support</option>
+			<option value="?board=41.0"> ===> Pools</option>
+			<option value="?board=42.0"> ===> Mining software (miners)</option>
+			<option value="?board=76.0"> ===> Hardware</option>
+			<option value="?board=137.0"> =====> Group buys</option>
+			<option value="?board=81.0"> ===> Mining speculation</option>
+			<option value="?board=4.0"> => Bitcoin Technical Support</option>
+			<option value="?board=12.0"> => Project Development</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#3">Economy</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=7.0"> => Economics</option>
+			<option value="?board=57.0"> ===> Speculation</option>
+			<option value="?board=5.0"> => Marketplace</option>
+			<option value="?board=51.0"> ===> Goods</option>
+			<option value="?board=75.0"> =====> Computer hardware</option>
+			<option value="?board=93.0"> =====> Digital goods</option>
+			<option value="?board=234.0"> =======> Invites &amp; Accounts</option>
+			<option value="?board=217.0"> =====> Collectibles</option>
+			<option value="?board=52.0"> ===> Services</option>
+			<option value="?board=53.0"> ===> Currency exchange</option>
+			<option value="?board=56.0"> ===> Gambling</option>
+			<option value="?board=71.0"> =====> Games and rounds</option>
+			<option value="?board=207.0"> =====> Investor-based games</option>
+			<option value="?board=228.0"> =====> Gambling discussion</option>
+			<option value="?board=65.0"> ===> Lending</option>
+			<option value="?board=88.0"> =====> Long-term offers</option>
+			<option value="?board=78.0"> ===> Securities</option>
+			<option value="?board=73.0"> ===> Auctions</option>
+			<option value="?board=84.0"> ===> Service Announcements</option>
+			<option value="?board=212.0"> =====> Micro Earnings</option>
+			<option value="?board=85.0"> ===> Service Discussion</option>
+			<option value="?board=222.0"> =====> Web Wallets</option>
+			<option value="?board=223.0"> =====> Exchanges</option>
+			<option value="?board=8.0"> => Trading Discussion</option>
+			<option value="?board=83.0"> ===> Scam Accusations</option>
+			<option value="?board=129.0"> ===> Reputation</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#4">Other</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=24.0"> => Meta</option>
+			<option value="?board=168.0"> ===> Bitcoin Wiki</option>
+			<option value="?board=34.0"> => Politics &amp; Society</option>
+			<option value="?board=39.0"> => Beginners &amp; Help</option>
+			<option value="?board=9.0"> => Off-topic</option>
+			<option value="?board=250.0"> => Serious discussion</option>
+			<option value="?board=251.0"> ===> Ivory Tower</option>
+			<option value="?board=59.0"> => Archival</option>
+			<option value="?board=167.0"> ===> New forum software</option>
+			<option value="?board=92.0"> ===> &#1050;&#1086;&#1088;&#1079;&#1080;&#1085;&#1072;</option>
+			<option value="?board=44.0"> ===> CPU/GPU Bitcoin mining hardware</option>
+			<option value="?board=17.0"> ===> Chinese students</option>
+			<option value="?board=25.0"> ===> Obsolete (buying)</option>
+			<option value="?board=26.0"> ===> Obsolete (selling)</option>
+			<option value="?board=99.0"> ===> MultiBit</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#6">Alternate cryptocurrencies</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=67.0"> => Altcoin Discussion</option>
+			<option value="?board=159.0"> => Announcements (Altcoins)</option>
+			<option value="?board=240.0"> ===> Tokens (Altcoins)</option>
+			<option value="?board=160.0"> => Mining (Altcoins)</option>
+			<option value="?board=199.0"> ===> Pools (Altcoins)</option>
+			<option value="?board=161.0"> => Marketplace (Altcoins)</option>
+			<option value="?board=197.0"> ===> Service Announcements (Altcoins)</option>
+			<option value="?board=198.0"> ===> Service Discussion (Altcoins)</option>
+			<option value="?board=238.0"> ===> Bounties (Altcoins)</option>
+			<option value="?board=224.0"> => Speculation (Altcoins)</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="#5">Local</option>
+			<option value="" disabled="disabled">-----------------------------</option>
+			<option value="?board=241.0"> => &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; (Arabic)</option>
+			<option value="?board=242.0"> ===> &#1575;&#1604;&#1593;&#1605;&#1604;&#1575;&#1578; &#1575;&#1604;&#1576;&#1583;&#1610;&#1604;&#1577; (Altcoins)</option>
+			<option value="?board=265.0"> =====> &#1575;&#1604;&#1606;&#1602;&#1575;&#1588;&#1575;&#1578;</option>
+			<option value="?board=253.0"> ===> &#1573;&#1587;&#1578;&#1601;&#1587;&#1575;&#1585;&#1575;&#1578; &#1608; &#1571;&#1587;&#1574;&#1604;&#1577; &#1575;&#1604;&#1605;&#1576;&#1578;&#1583;&#1574;&#1610;&#1606;</option>
+			<option value="?board=266.0"> ===> &#1575;&#1604;&#1578;&#1593;&#1583;&#1610;&#1606;</option>
+			<option value="?board=267.0"> ===> &#1575;&#1604;&#1606;&#1602;&#1575;&#1588;&#1575;&#1578; &#1575;&#1604;&#1571;&#1582;&#1585;&#1609;</option>
+			<option value="?board=271.0"> ===> &#1605;&#1606;&#1589;&#1575;&#1578; &#1575;&#1604;&#1578;&#1576;&#1575;&#1583;&#1604;</option>
+			<option value="?board=191.0"> => Bahasa Indonesia (Indonesian)</option>
+			<option value="?board=193.0"> ===> Marketplace (Bahasa Indonesia)</option>
+			<option value="?board=194.0"> ===> Mining (Bahasa Indonesia)</option>
+			<option value="?board=192.0"> ===> Altcoins (Bahasa Indonesia)</option>
+			<option value="?board=276.0"> ===> Trading dan Spekulasi</option>
+			<option value="?board=277.0"> ===> Ekonomi, Politik, dan Budaya</option>
+			<option value="?board=278.0"> ===> Topik Lainnya</option>
+			<option value="?board=27.0"> => Español (Spanish)</option>
+			<option value="?board=31.0"> ===> Mercado y Economía</option>
+			<option value="?board=202.0"> =====> Servicios</option>
+			<option value="?board=203.0"> =====> Trading y especulación</option>
+			<option value="?board=32.0"> ===> Hardware y Minería</option>
+			<option value="?board=33.0"> ===> Esquina Libre</option>
+			<option value="?board=101.0"> ===> Mercadillo</option>
+			<option value="?board=102.0"> =====> Mexico</option>
+			<option value="?board=103.0"> =====> Argentina</option>
+			<option value="?board=104.0"> =====> España</option>
+			<option value="?board=105.0"> =====> Centroamerica y Caribe</option>
+			<option value="?board=130.0"> ===> Primeros pasos y ayuda</option>
+			<option value="?board=151.0"> ===> Altcoins (criptomonedas alternativas)</option>
+			<option value="?board=177.0"> =====> Minería de altcoins</option>
+			<option value="?board=204.0"> =====> Servicios</option>
+			<option value="?board=254.0"> =====> Tokens (Español)</option>
+			<option value="?board=30.0"> => &#20013;&#25991; (Chinese)</option>
+			<option value="?board=117.0"> ===> &#36339;&#34468;&#24066;&#22330;</option>
+			<option value="?board=118.0"> ===> &#23665;&#23528;&#24065;</option>
+			<option value="?board=119.0"> ===> &#23186;&#20307;</option>
+			<option value="?board=146.0"> ===> &#25366;&#30719;</option>
+			<option value="?board=196.0"> ===> &#31163;&#39064;&#19975;&#37324;</option>
+			<option value="?board=201.0"> => Hrvatski (Croatian)</option>
+			<option value="?board=220.0"> ===> Trgovina</option>
+			<option value="?board=221.0"> ===> Altcoins (Hrvatski)</option>
+			<option value="?board=273.0"> =====> Announcements (Hrvatski)</option>
+			<option value="?board=272.0"> ===> Off-topic (Hrvatski)</option>
+			<option value="?board=16.0"> => Deutsch (German)</option>
+			<option value="?board=62.0"> ===> Anfänger und Hilfe</option>
+			<option value="?board=60.0"> ===> Mining (Deutsch)</option>
+			<option value="?board=61.0"> ===> Trading und Spekulation</option>
+			<option value="?board=63.0"> ===> Projektentwicklung</option>
+			<option value="?board=64.0"> ===> Off-Topic (Deutsch)</option>
+			<option value="?board=139.0"> ===> Treffen</option>
+			<option value="?board=140.0"> ===> Presse </option>
+			<option value="?board=152.0"> ===> Altcoins (Deutsch)</option>
+			<option value="?board=270.0"> =====> Announcements (Deutsch)</option>
+			<option value="?board=269.0"> ===> Marktplatz</option>
+			<option value="?board=141.0"> =====> Auktionen</option>
+			<option value="?board=36.0"> =====> Suche</option>
+			<option value="?board=35.0"> =====> Biete</option>
+			<option value="?board=120.0"> => &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Greek)</option>
+			<option value="?board=136.0"> ===> &#913;&#947;&#959;&#961;&#940;</option>
+			<option value="?board=195.0"> ===> Mining Discussion (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=179.0"> ===> Altcoins (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=246.0"> =====> Altcoin Announcements (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=247.0"> =====> Altcoin Mining (&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;)</option>
+			<option value="?board=95.0"> => &#1506;&#1489;&#1512;&#1497;&#1514; (Hebrew)</option>
+			<option value="?board=13.0"> => Français</option>
+			<option value="?board=183.0"> ===> Actualité et News</option>
+			<option value="?board=208.0"> ===> Débutants</option>
+			<option value="?board=47.0"> ===> Discussions générales et utilisation du Bitcoin</option>
+			<option value="?board=48.0"> ===> Mining et Hardware</option>
+			<option value="?board=187.0"> ===> Économie et spéculation</option>
+			<option value="?board=49.0"> ===> Place de marché</option>
+			<option value="?board=209.0"> =====> Échanges</option>
+			<option value="?board=210.0"> =====> Produits et services</option>
+			<option value="?board=211.0"> =====> Petites annonces</option>
+			<option value="?board=188.0"> ===> Le Bitcoin et la loi</option>
+			<option value="?board=54.0"> ===> Wiki, documentation et traduction</option>
+			<option value="?board=186.0"> ===> Développement et technique</option>
+			<option value="?board=184.0"> ===> Vos sites et projets</option>
+			<option value="?board=50.0"> ===> Hors-sujet</option>
+			<option value="?board=149.0"> ===> Altcoins (Français)</option>
+			<option value="?board=258.0"> =====> Annonces</option>
+			<option value="?board=89.0"> => India</option>
+			<option value="?board=121.0"> ===> Mining (India)</option>
+			<option value="?board=122.0"> ===> Marketplace (India)</option>
+			<option value="?board=123.0"> ===> Regional Languages (India)</option>
+			<option value="?board=124.0"> ===> Press &amp; News from India</option>
+			<option value="?board=125.0"> ===> Alt Coins (India)</option>
+			<option value="?board=126.0"> ===> Buyer/ Seller Reputations (India)</option>
+			<option value="?board=127.0"> ===> Off-Topic (India)</option>
+			<option value="?board=28.0"> => Italiano (Italian)</option>
+			<option value="?board=153.0"> ===> Guide (Italiano)</option>
+			<option value="?board=169.0"> ===> Progetti</option>
+			<option value="?board=205.0"> ===> Discussioni avanzate e sviluppo</option>
+			<option value="?board=175.0"> ===> Trading, analisi e speculazione</option>
+			<option value="?board=170.0"> ===> Mercato</option>
+			<option value="?board=46.0"> =====> Mercato valute</option>
+			<option value="?board=107.0"> =====> Beni</option>
+			<option value="?board=171.0"> =====> Servizi</option>
+			<option value="?board=172.0"> =====> Esercizi commerciali</option>
+			<option value="?board=173.0"> =====> Hardware/Mining (Italiano)</option>
+			<option value="?board=200.0"> =====> Gambling (Italiano)</option>
+			<option value="?board=162.0"> ===> Accuse scam/truffe</option>
+			<option value="?board=115.0"> ===> Mining (Italiano)</option>
+			<option value="?board=132.0"> ===> Alt-Currencies (Italiano)</option>
+			<option value="?board=176.0"> =====> Annunci</option>
+			<option value="?board=144.0"> ===> Raduni/Meeting (Italiano)</option>
+			<option value="?board=165.0"> ===> Crittografia e decentralizzazione</option>
+			<option value="?board=145.0"> ===> Off-Topic (Italiano)</option>
+			<option value="?board=252.0"> => &#26085;&#26412;&#35486; (Japanese)</option>
+			<option value="?board=255.0"> ===> &#12450;&#12523;&#12488;&#12467;&#12452;&#12531;</option>
+			<option value="?board=79.0"> => Nederlands (Dutch)</option>
+			<option value="?board=80.0"> ===> Markt</option>
+			<option value="?board=94.0"> ===> Gokken/lotterijen</option>
+			<option value="?board=116.0"> ===> Mining (Nederlands)</option>
+			<option value="?board=143.0"> ===> Beurzen</option>
+			<option value="?board=147.0"> ===> Alt Coins (Nederlands)</option>
+			<option value="?board=148.0"> ===> Off-topic (Nederlands)</option>
+			<option value="?board=150.0"> ===> Meetings (Nederlands)</option>
+			<option value="?board=275.0"> => Nigeria (Naija)</option>
+			<option value="?board=279.0"> ===> Politics and society (Naija)</option>
+			<option value="?board=280.0"> ===> Off-topic (Naija)</option>
+			<option value="?board=82.0"> => &#54620;&#44397;&#50612; (Korean)</option>
+			<option value="?board=182.0"> ===> &#45824;&#52404;&#53076;&#51064; Alt Coins (&#54620;&#44397;&#50612;)</option>
+			<option value="?board=219.0"> => Pilipinas</option>
+			<option value="?board=243.0"> ===> Altcoins (Pilipinas)</option>
+			<option value="?board=260.0"> =====> Altcoin Announcements (Pilipinas)</option>
+			<option value="?board=268.0"> ===> Pamilihan</option>
+			<option value="?board=274.0"> ===> Others (Pilipinas)</option>
+			<option value="?board=142.0"> => Polski</option>
+			<option value="?board=163.0"> ===> Tablica og&#322;osze&#324;</option>
+			<option value="?board=164.0"> ===> Alternatywne kryptowaluty</option>
+			<option value="?board=263.0"> =====> Nowe kryptowaluty i tokeny</option>
+			<option value="?board=264.0"> =====> Tablica og&#322;osze&#324; (altcoiny)</option>
+			<option value="?board=29.0"> => Português (Portuguese)</option>
+			<option value="?board=131.0"> ===> Primeiros Passos (Iniciantes)</option>
+			<option value="?board=69.0"> ===> Economia &amp; Mercado</option>
+			<option value="?board=70.0"> ===> Mineração em Geral</option>
+			<option value="?board=206.0"> ===> Desenvolvimento &amp; Discussões Técnicas</option>
+			<option value="?board=181.0"> ===> Criptomoedas Alternativas</option>
+			<option value="?board=134.0"> ===> Brasil</option>
+			<option value="?board=135.0"> ===> Portugal</option>
+			<option value="?board=10.0"> => &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russian)</option>
+			<option value="?board=22.0"> ===> &#1053;&#1086;&#1074;&#1080;&#1095;&#1082;&#1080;</option>
+			<option value="?board=23.0"> ===> Cep&#1074;&#1080;c&#1099;</option>
+			<option value="?board=236.0"> =====> &#1041;&#1072;&#1088;&#1072;&#1093;&#1086;&#1083;&#1082;&#1072;</option>
+			<option value="?board=237.0"> =====> &#1054;&#1073;&#1084;&#1077;&#1085;&#1085;&#1080;&#1082;&#1080;</option>
+			<option value="?board=90.0"> ===> &#1048;&#1076;&#1077;&#1080;</option>
+			<option value="?board=66.0"> ===> &#1050;&#1086;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=21.0"> ===> &#1052;&#1072;&#1081;&#1085;&#1077;&#1088;&#1099;</option>
+			<option value="?board=91.0"> ===> &#1055;&#1086;&#1083;&#1080;&#1090;&#1080;&#1082;&#1072;</option>
+			<option value="?board=20.0"> ===> &#1058;&#1088;&#1077;&#1081;&#1076;&#1077;&#1088;&#1099;</option>
+			<option value="?board=72.0"> ===> &#1040;&#1083;&#1100;&#1090;&#1077;&#1088;&#1085;&#1072;&#1090;&#1080;&#1074;&#1085;&#1099;&#1077; &#1082;&#1088;&#1080;&#1087;&#1090;&#1086;&#1074;&#1072;&#1083;&#1102;&#1090;&#1099;</option>
+			<option value="?board=248.0"> =====> &#1058;&#1086;&#1082;&#1077;&#1085;&#1099;</option>
+			<option value="?board=256.0"> =====> &#1041;ay&#1085;&#1090;&#1080; &#1080; a&#1080;p&#1076;po&#1087;&#1099;</option>
+			<option value="?board=55.0"> ===> &#1061;&#1072;&#1081;&#1087;&#1099;</option>
+			<option value="?board=185.0"> ===> &#1056;&#1072;&#1073;&#1086;&#1090;&#1072;</option>
+			<option value="?board=18.0"> ===> &#1056;&#1072;&#1079;&#1085;&#1086;&#1077;</option>
+			<option value="?board=262.0"> ===> O&#1073;cy&#1078;&#1076;e&#1085;&#1080;e Bitcoin</option>
+			<option value="?board=128.0"> =====> &#1053;&#1086;&#1074;&#1086;&#1089;&#1090;&#1080;</option>
+			<option value="?board=19.0"> =====> &#1070;&#1088;&#1080;&#1089;&#1090;&#1099;</option>
+			<option value="?board=108.0"> => Român&#259; (Romanian)</option>
+			<option value="?board=109.0"> ===> Anunturi importante</option>
+			<option value="?board=110.0"> ===> Offtopic</option>
+			<option value="?board=111.0"> ===> Market</option>
+			<option value="?board=257.0"> =====> Discutii Servicii</option>
+			<option value="?board=166.0"> ===> Minerit</option>
+			<option value="?board=112.0"> ===> Tutoriale</option>
+			<option value="?board=113.0"> ===> Bine ai venit!</option>
+			<option value="?board=114.0"> ===> Presa</option>
+			<option value="?board=259.0"> ===> Altcoins (Monede Alternative)</option>
+			<option value="?board=178.0"> =====> Anunturi Monede Alternative</option>
+			<option value="?board=45.0"> => Skandinavisk</option>
+			<option value="?board=133.0"> => Türkçe (Turkish)</option>
+			<option value="?board=180.0"> ===> Bitcoin Haberleri</option>
+			<option value="?board=155.0"> ===> Pazar Alan&#305;</option>
+			<option value="?board=156.0"> ===> Madencilik</option>
+			<option value="?board=189.0"> ===> Ekonomi</option>
+			<option value="?board=190.0"> ===> Servisler</option>
+			<option value="?board=232.0"> =====> Fonlar</option>
+			<option value="?board=229.0"> ===> Proje Geli&#351;tirme</option>
+			<option value="?board=157.0"> ===> Alternatif Kripto-Paralar</option>
+			<option value="?board=235.0"> =====> Madencilik (Alternatif Kripto-Paralar)</option>
+			<option value="?board=239.0"> =====> Duyurular (Alternatif Kripto-Paralar)</option>
+			<option value="?board=158.0"> ===> Konu D&#305;&#351;&#305;</option>
+			<option value="?board=174.0"> ===> Yeni Ba&#351;layanlar &amp; Yard&#305;m</option>
+			<option value="?board=230.0"> ===> Bulu&#351;malar</option>
+			<option value="?board=11.0"> => Other languages/locations</option>
+		</select>&nbsp;
+		<input type="button" value="go" onclick="if (this.form.jumpto.options[this.form.jumpto.selectedIndex].value) window.location.href = 'https://bitcointalk.org/index.php' + this.form.jumpto.options[this.form.jumpto.selectedIndex].value;" />
+	</form>
+</div></div><br />
+	</div><script type="text/javascript">
+//<!--
+Array.prototype.forEach.call(document.getElementsByClassName("userimg"), checkImg);
+
+(function ()
+{
+   const allCodeHeaders = document.querySelectorAll("div.codeheader");
+   for (const codeHeader of allCodeHeaders)
+   {
+      codeHeader.style.cursor = "help";
+      codeHeader.title = "(Click/tap to select contents)";
+      codeHeader.onclick = function ()
+      {
+         const range = document.createRange();
+         const selection = document.getSelection();
+         range.selectNodeContents(codeHeader.nextElementSibling);
+         selection.removeAllRanges();
+         selection.addRange(range);
+         return false;
+      };
+   }
+})();
+//-->
+</script>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="https://bitcointalk.org/Themes/custom1/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="https://bitcointalk.org/Themes/custom1/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.19</a> | 
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2006-2009, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="https://bitcointalk.org/Themes/custom1/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="https://bitcointalk.org/Themes/custom1/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>

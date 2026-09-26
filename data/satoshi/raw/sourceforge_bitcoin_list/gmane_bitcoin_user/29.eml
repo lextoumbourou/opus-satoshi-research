@@ -1,0 +1,179 @@
+Path: news.gmane.org!not-for-mail
+From: Maciej Trebacz <maciej@bitalo.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Stable download URLs
+Date: Fri, 4 Oct 2013 22:11:16 +0200
+Lines: 89
+Approved: news@gmane.org
+Message-ID: <CAD=_8RR5De7+HdKeCZ9POTnATz1MvLmtFU6hqJx=pSA9GQkAdg@mail.gmail.com>
+References: <CAHR2jZPOF8AEwZiWPuY92friVYkxf1_spKUzUfR-+gP009=8=Q@mail.gmail.com>
+	<CABsx9T1QVAq_jrm7XEwKX08O-=UB=hOr3KgSGnAxhZ0SJOGNbA@mail.gmail.com>
+	<CAHR2jZMJ3avZ=a3XLxuLhhfkAAc=6Q2ek71nUsuP+cZGaZFiCA@mail.gmail.com>
+	<CANEZrP2iV+A=oA8vJvkJ-8PCVgWyDoM+iSbaf=fOV63RGhcf-g@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1380926918 27653 80.91.229.3 (4 Oct 2013 22:48:38 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 4 Oct 2013 22:48:38 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Oct 05 00:48:40 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VSEAo-00088N-Lt
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 05 Oct 2013 00:48:39 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VSEA9-0003pa-GU; Fri, 04 Oct 2013 22:47:57 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <maciej@bitalo.com>) id 1VSEA7-0003pV-PQ
+	for bitcoin-list@lists.sourceforge.net; Fri, 04 Oct 2013 22:47:55 +0000
+Received-SPF: softfail (sog-mx-1.v43.ch3.sourceforge.com: transitioning domain
+	of bitalo.com does not designate 74.125.82.197 as permitted
+	sender) client-ip=74.125.82.197; envelope-from=maciej@bitalo.com;
+	helo=mail-we0-f197.google.com; 
+Original-Received: from mail-we0-f197.google.com ([74.125.82.197])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1VSEA4-0004F3-1e
+	for bitcoin-list@lists.sourceforge.net; Fri, 04 Oct 2013 22:47:55 +0000
+Original-Received: by mail-we0-f197.google.com with SMTP id p61so4873099wes.8
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 04 Oct 2013 15:47:44 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:mime-version:in-reply-to:references:date
+	:message-id:subject:from:to:content-type;
+	bh=3lXsNN+vop0FTx2gFdoW9o8sUmHDzChQR+nMiTj1oYE=;
+	b=nBunmoS76YGaBJY8DDPKaRNnR55mz/nlteKHmVrz/iUB8CbwIYFCOkxKvPq68KuimK
+	zNXKZjn/g7SvinYZ6OdE5EXeLGYN2HHu4RKlX3dt4HZYtOfA69ULgyjVPxaOVcFjhYP1
+	K4N0BIH329s3mbz3H7JSJ9nguOc4dd24vQHgb554ydm5nDfqU2/PAv6KPItFl643pbPC
+	iw3YC/DshksoynXw9loWJo3DpcY7tvdK69f0IlvPjB5L3Y6Hrh+v8Ui/jNtwAOv2JaMA
+	EuzQKl5PT4OovNhKOrVkZDnD+WmCqIIFMOmjCdq1n7mC+T7dC0UdXTB1gIBJBfa7kFo2
+	FL3w==
+X-Gm-Message-State: ALoCoQmWJJZ89V4K3wDDKv2gLmoqKr1qj2mutK/tdDMbEuCSTFHjdrYWsmQxts3volMENp90njvK
+X-Received: by 10.194.173.163 with SMTP id bl3mr14291701wjc.10.1380917476353; 
+	Fri, 04 Oct 2013 13:11:16 -0700 (PDT)
+Original-Received: by 10.216.166.132 with HTTP; Fri, 4 Oct 2013 13:11:16 -0700 (PDT)
+In-Reply-To: <CANEZrP2iV+A=oA8vJvkJ-8PCVgWyDoM+iSbaf=fOV63RGhcf-g@mail.gmail.com>
+X-Spam-Score: 2.0 (++)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: doubleclick.net]
+	1.0 SPF_SOFTFAIL SPF: sender does not match SPF record (softfail)
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+X-Headers-End: 1VSEA4-0004F3-1e
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:29
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/29>
+
+There's probably a very easy solution for that: let's have a link like this:
+
+http://downloads.sourceforge.net/project/bitcoin/bitcoin-latest/bitcoin-latest-win32-setup.exe<http://downloads.sourceforge.net/project/bitcoin/bitcoin-0.8.1/bitcoin-0.8.1-win32-setup.exe>
+
+Of course the downside is that it isn't immediately obvious which version
+you are downloading, you can be pretty sure then that it's the latest one.
+Some projects that I know use that notation.
+
+
+On Fri, Oct 4, 2013 at 10:48 AM, Mike Hearn <mike@plan99.net> wrote:
+
+> What's he's saying is that it's intentional they become invalid, because
+> it's a bad idea for people to download old versions of the app. Your app
+> store needs to be able to keep users on the latest version - old links
+> breaking shouldn't be an issue for that.
+>
+>
+> On Fri, Oct 4, 2013 at 10:14 AM, Tim Lebedkov <tim.lebedkov@gmail.com
+> >wrote:
+>
+> > Hello Gavin,
+> >
+> > Just to make sure you understand all the implications: once in a month
+> > all links over the web to Bitcoin-Qt binaries become invalid. Is this
+> > OK?
+> >
+> > Would it be at least possible to copy the newest version under "Obsolete"
+> > too?
+> >
+> > --
+> >
+> > On Fri, Oct 4, 2013 at 3:09 AM, Gavin Andresen <gavinandresen@gmail.com>
+> > wrote:
+> > > On Thu, Oct 3, 2013 at 9:13 PM, Tim Lebedkov <tim.lebedkov@gmail.com>
+> > wrote:
+> > >>
+> > >> would it be possible to *not* move older versions of Bitcoin-Qt to the
+> > >> "Obsolete" directory?
+> > >
+> > >
+> > > No; they are in "obsolete" because they are obsolete, and should not be
+> > > used.
+> > >
+> > >> This makes linking to a binary impossible and requires much more work
+> > >> in the default Npackd repository
+> > >> (https://npackd.appspot.com/p/org.bitcoin.BitcoinQ)
+> > >
+> > >
+> > > That is a feature, not a bug.
+> > >
+> > > --
+> > > --
+> > > Gavin Andresen
+> >
+> >
+> >
+> ------------------------------------------------------------------------------
+> > October Webinars: Code for Performance
+> > Free Intel webinars can help you accelerate application performance.
+> > Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most
+> > from
+> > the latest Intel processors and coprocessors. See abstracts and register
+> >
+> >
+> http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk
+> > _______________________________________________
+> > bitcoin-list mailing list
+> > bitcoin-list@lists.sourceforge.net
+> > https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+> >
+>
+> ------------------------------------------------------------------------------
+> October Webinars: Code for Performance
+> Free Intel webinars can help you accelerate application performance.
+> Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most
+> from
+> the latest Intel processors and coprocessors. See abstracts and register >
+> http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+>
+------------------------------------------------------------------------------
+October Webinars: Code for Performance
+Free Intel webinars can help you accelerate application performance.
+Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most from 
+the latest Intel processors and coprocessors. See abstracts and register >
+http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk

@@ -1,0 +1,201 @@
+<html>
+<head>
+    <title> Mike Hearn </title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <script>
+        function getTarget(e) {
+            var targ;
+            if (!e) var e = window.event;
+            if (e.target) targ = e.target;
+            else if (e.srcElement) targ = e.srcElement;
+
+            if (targ.nodeType == 3) // defeat Safari bug
+                targ = targ.parentNode;
+
+            if (targ.nodeName == "A") // ignore the A element
+                targ = targ.parentNode;
+
+            return targ;
+        }
+
+        function buttonMouseOver(e) {
+            var el = getTarget(e);
+            if (el.nodeName == "TD")
+                el.style.borderBottom = "2px black solid";
+            return false;
+        }
+
+        function buttonMouseOut(e) {
+            var el = getTarget(e);
+            if (el.nodeName == "TD")
+                el.style.borderBottom = "2px white solid";
+            return false;
+        }
+
+        // this runaround is for a11y reasons: we want an A element so text-based browsers
+        // or browsers without javascript can follow the links, but we want to style it nicely
+        function buttonClick(e) {
+            var el = getTarget(e);
+            if (el.nodeName == "TD") el = el.firstChild;
+            window.location = el.href;
+        }
+    </script>
+</head>
+
+<body onmousemove="mouseMove()">
+<center>
+    <table cellpadding="0px" cellspacing="0px" height="100%">
+        <tr>
+            <td class="left" style="width: 160px"></td>
+            <td class="centre" style="width: 960px" valign="top">
+
+
+                <!-- header -->
+                <table cellspacing="0px" cellpadding="0px">
+                    <tr>
+                        <td width="100%" colspan="2" nowrap="true"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <table cellpadding="0px" cellspacing="0px">
+                                <tr>
+                                    <td id="b1" class="button about-me" onclick="buttonClick(event)"
+                                        onmouseout="buttonMouseOut(event)" onmouseover="buttonMouseOver(event)"><a
+                                            href="#top">about me</a></td>
+                                    <td id="b2" class="button past-work" onclick="buttonClick(event)"
+                                        onmouseout="buttonMouseOut(event)" onmouseover="buttonMouseOver(event)"><a
+                                            href="#work">past work</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!-- end header -->
+
+                <div class="content">
+                    <a name="top"><h1> Who is this? </h1></a>
+
+                    <table id="toptable">
+                        <script>
+                            if (document.all) document.getElementById("toptable").style.width = "90%";
+                        </script>
+                        <tr>
+                            <td valign="center">
+                                <center>
+                                    <img src="mike2015.jpg" width="200px" style="margin: 5px"><br>
+                                </center>
+                            </td>
+                            <td valign="top">
+                                <p>
+                                    I'm a software developer. I was previously a senior software engineer and tech lead
+                                    at Google, where I worked for around eight years on Maps/Earth, Gmail anti spam,
+                                    signup abuse and login security. In 2014 I left Google to focus on Bitcoin
+                                    development full time. After two years of doing that, I joined <a
+                                        href="https://www.r3.com">R3</a> as the lead platform engineer, where I led
+                                    development of the <a href="https://www.corda.net">Corda</a> project. I am currently
+                                    leading <a href="https://www.hydraulic.software">Hydraulic Software</a>, a developer tools company.
+                                </p>
+
+                                <p>I write a blog at <a href="https://blog.plan99.net">blog.plan99.net</a>, which covers
+                                    a mix of programming, politics and economics.</a>
+
+                                <p>
+                                    You can <a href="mailto:mike@plan99.net">email me at mike@plan99.net</a>
+                                    or contact me on <a href="https://kotlinlang.slack.com//">the Kotlin Slack</a>. I don't use
+                                    Twitter.
+                                </p>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan=2>
+                                <h1>Satoshi Emails</h1>
+
+                                <p>I was a Bitcoin developer for about five years, and one of the earliest Bitcoin
+                                    users. I had a variety of conversations over email with Satoshi Nakamoto before he
+                                    departed the project, which I have since published as documents of historical
+                                    interest. Many of the discussions cover topics that were long since documented or
+                                    resolved, but back in these early years very little about Bitcoin was documented or
+                                    understood, so asking Satoshi directly was the only way to get clear answers. None
+                                    of these email discussions contain any clue as to his identity.</p>
+
+                                <ul>
+                                    <li><a href="satoshi-emails/thread1.html">Questions about BitCoin</a></li>
+                                    <li><a href="satoshi-emails/thread2.html">Lack of chargeback support</a></li>
+                                    <li><a href="satoshi-emails/thread3.html">More BitCoin questions</a></li>
+                                    <li><a href="satoshi-emails/thread4.html">Open sourced my Java SPV impl</a></li>
+                                    <li><a href="satoshi-emails/thread5.html">Holding coins in an unspendable state for
+                                        a rolling time window</a></li>
+                                </ul>
+
+                                <h1>Talks</h1>
+
+                                <p>I have given a variety of talks on Gmail, Bitcoin, Corda and the future in
+                                    general.</p>
+
+                                <center><p>
+
+                                    <p>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FgckOPDxPQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <br><i>A talk on why the web makes it hard to create decentralized apps.</i>
+                                    </p>
+
+                                    <p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/MVyv4t0OKe4"
+                                                frameborder="0" allow="autoplay; encrypted-media"
+                                                allowfullscreen></iframe>
+                                        <br><i>A talk on autonomous agents</i><br>
+                                        <br>
+                                        <iframe src="https://www.slideshare.net/slideshow/embed_code/26663148"
+                                                width="427" height="356" frameborder="0" marginwidth="0"
+                                                marginheight="0" scrolling="no"
+                                                style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"
+                                                allowfullscreen></iframe>
+                                    </p>
+
+                                    <a href="http://videos.theconference.se/mike-hearn-robots-humans-and"><img
+                                            src="https://mediaevolution.23video.com/10820444/12072628/a107cf662c3cbf0520a4a95f4e24068e/large"
+                                            width="560" height="315"></a>
+                                    <p><i>Fighting for the right to be ruled by machines</i>, at <a
+                                            href="http://2015.theconference.se/">The Conference</a> in Malmo</p>
+
+                                    <iframe width="560" height="315" src="//www.youtube.com/embed/2MtUKr05Y3I"
+                                            frameborder="0" allowfullscreen></iframe>
+                                    <br>
+                                    <i>General thoughts on Bitcoin and how it's doing, how it might work out</i>
+
+                                    <p>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/BDQGq14irbM"
+                                                frameborder="0" allow="autoplay; encrypted-media"
+                                                allowfullscreen></iframe>
+                                        <br><br>
+                                        <i>CordaCon 2018 - some thoughts on where the project is going</i></p>
+
+                                    <p>
+                                        <iframe width="560" height="315" src="//www.youtube.com/embed/mD4L7xDNCmA"
+                                                frameborder="0" allowfullscreen></iframe>
+                                        <br><br>
+                                        <i>Future of Bitcoin and rebuilding the financial system</i></p>
+
+
+                                    <p>
+                                        <iframe width="853" height="480"
+                                                src="https://www.youtube-nocookie.com/embed/XwsaZ4-3muA?rel=0"
+                                                frameborder="0" allowfullscreen></iframe>
+                                        <br><br>
+                                        <i>The state of our fight against Gmail hacking and spam/abuse circa 2012.</i>
+                                    </p>
+                                </center>
+
+                            </td>
+                        </tr>
+                </div>
+            </td>
+        </tr>
+    </table>
+</center>
+<div id="debug"></div>
+</body>
+</html>

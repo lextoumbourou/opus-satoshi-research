@@ -1,0 +1,2 @@
+c412eb84a1d97df9114a6bf4dea300820965c0a7 2026-07-13T16:20:08-05:00
+Source: https://github.com/NakamotoInstitute/nakamotoinstitute.org (shallow clone 2026-09-26); trimmed to server/data/, LICENSE, README.md

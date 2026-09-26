@@ -26,9 +26,18 @@ SUMMARY = os.path.join(ROOT, "data", "satoshi", "summary.md")
 
 REQUIRED = ["id", "source_type", "venue", "recipient", "thread", "timestamp_utc", "timestamp_raw",
             "timestamp_precision", "url", "text", "text_raw", "notes"]
-ORDER = REQUIRED[:7] + ["timestamp_precision", "timestamp_source", "timestamp_tz_raw", "timezone_basis", "timestamps_other",
+ORDER = REQUIRED[:7] + ["timestamp_precision", "timestamp_source", "timestamp_tz_raw", "timezone_basis", "authenticity", "timestamps_other",
                         "url", "raw_path", "whitespace_preserved", "whitespace_notes", "text", "text_raw", "notes"]
 SOURCE_TYPES = {"email", "forum", "mailing_list", "p2pfoundation", "svn_commit", "code_comment", "whitepaper"}
+ANNOTATIONS = {
+    "p2pfoundation-ning-comment-52186": {
+        "authenticity": "disputed",
+        "authenticity_notes": "2014-03-07 'I am not Dorian Nakamoto' from Satoshi's P2P Foundation account, "
+                              "3 years after the last accepted communication; account security questioned. "
+                              "Excluded from the hour-of-day tables."},
+}
+# (kept, duplicate) pairs: the same e-mail distributed to two lists
+SAME_MESSAGE = [("metzdowd-015014", "bitcoin-list-21356305")]
 # files not part of the corpus proper
 SKIP_FILES = {"svn_commits_git_mirror.jsonl"}
 
@@ -69,6 +78,14 @@ def main():
     default_basis = {"forum": "verified", "svn_commit": "explicit", "whitepaper": "explicit",
                      "code_comment": "none"}
     for r in items:
+        if not r.get("timezone_basis") and r.get("timestamp_utc"):
+            f = r.get("_file")
+            if f == "bitcoin_list.jsonl" and not r.get("timestamp_tz_raw"):
+                r["timezone_basis"] = "verified"  # SourceForge archive time = UTC arrival (37 Gmane anchors)
+            elif f == "p2pfoundation_ning.jsonl":
+                r["timezone_basis"] = "verified"  # Ning display zone = UTC (Wayback relative-time anchors)
+            elif f == "sourceforge_forums.jsonl":
+                r["timezone_basis"] = "explicit"  # page shows "UTC"
         if not r.get("timezone_basis"):
             if r["source_type"] in default_basis and (r["source_type"] != "forum" or (r.get("venue") or "").startswith("bitcointalk")):
                 r["timezone_basis"] = default_basis[r["source_type"]]
@@ -97,15 +114,26 @@ def main():
     if errors:
         print("\n".join(errors[:50]), file=sys.stderr)
 
+    # annotations: authenticity and same-message duplicates across venues
+    for r in items:
+        r.setdefault("authenticity", ANNOTATIONS.get(r["id"], {}).get("authenticity", "accepted"))
+        for k, v in ANNOTATIONS.get(r["id"], {}).items():
+            r[k] = v
+    # one e-mail Cc'd to two lists appears as two list posts: keep both, flag the second
+    for a, b in SAME_MESSAGE:
+        for r in items:
+            if r["id"] == b:
+                r["duplicate_message_of"] = a
+
     # near-duplicate text across items (same text posted to several venues)
     by_hash = collections.defaultdict(list)
     for r in items:
         n = norm(r.get("text"))
-        if len(n) >= 200:
+        if len(n) >= 200 and r["source_type"] != "code_comment":
             by_hash[hashlib.sha1(n[:400].encode()).hexdigest()].append(r["id"])
     for r in items:
         n = norm(r.get("text"))
-        if len(n) >= 200:
+        if len(n) >= 200 and r["source_type"] != "code_comment":
             others = [i for i in by_hash[hashlib.sha1(n[:400].encode()).hexdigest()] if i != r["id"]]
             if others:
                 r["same_text_as"] = others
@@ -154,7 +182,8 @@ def main():
         lines.append("")
 
     def hist_table(title, pred):
-        sel = [r for r in items if r.get("timestamp_utc") and r.get("timestamp_precision") in ("second", "minute") and pred(r)]
+        sel = [r for r in items if r.get("timestamp_utc") and r.get("timestamp_precision") in ("second", "minute")
+               and r.get("authenticity") != "disputed" and not r.get("duplicate_message_of") and pred(r)]
         types = sorted({r["source_type"] for r in sel})
         hist = {t: collections.Counter() for t in types}
         for r in sel:
@@ -162,19 +191,37 @@ def main():
         lines.append(title)
         lines.append("")
         lines.append("```")
-        lines.append("hour  " + "  ".join(f"{t[:12]:>12}" for t in types) + "         all")
+        lines.append("hour  " + "  ".join(f"{t[:13]:>13}" for t in types) + "         all")
         for h in range(24):
             row = [hist[t][h] for t in types]
-            lines.append(f"{h:02d}    " + "  ".join(f"{c:>12}" for c in row) + f"  {sum(row):>10}")
-        lines.append("total " + "  ".join(f"{sum(hist[t].values()):>12}" for t in types) +
+            lines.append(f"{h:02d}    " + "  ".join(f"{c:>13}" for c in row) + f"  {sum(row):>10}")
+        lines.append("total " + "  ".join(f"{sum(hist[t].values()):>13}" for t in types) +
                      f"  {len(sel):>10}")
         lines.append("```")
         lines.append("")
 
     hist_table("UTC hour-of-day of Satoshi's items, A: only items whose time zone is explicit in the source or verified "
-               "(second/minute precision):", lambda r: r.get("timezone_basis") in ("explicit", "verified"))
-    hist_table("UTC hour-of-day, B: all items with a UTC timestamp incl. inferred/assumed zones (second/minute precision):",
+               "(second/minute precision; excludes authenticity=disputed and duplicate_message_of items):", lambda r: r.get("timezone_basis") in ("explicit", "verified"))
+    hist_table("UTC hour-of-day, B: all items with a UTC timestamp incl. inferred/assumed zones (same exclusions):",
                lambda r: True)
+    # whitespace sanity data (no interpretation): sentence boundaries followed by 1 vs 2+ spaces in `text`
+    lines.append("Whitespace sanity data: count of sentence ends ('.', '?', '!' followed by spaces and a capital letter) "
+                 "in `text`, by number of spaces, for items with whitespace_preserved == true (text inside [code] blocks "
+                 "is not excluded):")
+    lines.append("")
+    lines.append("| source_type | venue group | items | 1 space | 2 spaces | 3+ spaces |")
+    lines.append("|---|---|---:|---:|---:|---:|")
+    for (st, vg), rs in sorted(groups.items()):
+        rs = [r for r in rs if r.get("whitespace_preserved") is True]
+        if not rs:
+            continue
+        c = collections.Counter()
+        for r in rs:
+            for m in re.finditer(r"[.?!]( +)[A-Z]", r.get("text") or ""):
+                c[min(len(m.group(1)), 3)] += 1
+        lines.append(f"| {st} | {vg} | {len(rs)} | {c[1]} | {c[2]} | {c[3]} |")
+    lines.append("")
+
     # bitcointalk edit times (separate activity events)
     edits = collections.Counter()
     ne = 0

@@ -1,0 +1,159 @@
+Path: news.gmane.org!not-for-mail
+From: s7r <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Bitcoind error at block 322082 (The network does not
+ appear to fully agree)
+Date: Tue, 10 Mar 2015 16:14:14 +0200
+Lines: 64
+Approved: news@gmane.org
+Message-ID: <54FEFC36.3000102@sky-ip.org>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1425998165 14913 80.91.229.3 (10 Mar 2015 14:36:05 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Tue, 10 Mar 2015 14:36:05 +0000 (UTC)
+To: bitcoin-list <bitcoin-list@lists.sourceforge.net>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Tue Mar 10 15:35:54 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YVLG8-0000n8-7v
+	for gcbd-bitcoin-list@m.gmane.org; Tue, 10 Mar 2015 15:35:48 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YVLEK-0001GB-S4; Tue, 10 Mar 2015 14:33:56 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1YVLEJ-0001Fz-Or
+	for bitcoin-list@lists.sourceforge.net; Tue, 10 Mar 2015 14:33:55 +0000
+Received-SPF: neutral (sog-mx-1.v43.ch3.sourceforge.com: 162.222.225.18 is
+	neither permitted nor denied by domain of sky-ip.org)
+	client-ip=162.222.225.18; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.18])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1YVLE4-0000MD-EE
+	for bitcoin-list@lists.sourceforge.net; Tue, 10 Mar 2015 14:33:55 +0000
+Original-Received: from [0.0.0.0] (exit2.telostor.ca [62.210.74.186])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id 7DCCC78079C
+	for <bitcoin-list@lists.sourceforge.net>;
+	Tue, 10 Mar 2015 14:14:19 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+X-CTCH-RefID: str=0001.0A020203.54FEFC3C.0122, ss=1, re=0.001, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.001
+X-CTCH-Rules: C_4847,
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Spam-Score: 0.8 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [162.222.225.18 listed in list.dnswl.org]
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.7 SPF_NEUTRAL SPF: sender does not match SPF record (neutral)
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	0.0 TIME_LIMIT_EXCEEDED    Exceeded time limit / deadline
+X-Headers-End: 1YVLE4-0000MD-EE
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:69
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/69>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hello,
+
+I run several bitcoind full nodes, some accessible only via Tor hidden
+services and some dual-stack (Tor hidden service + clearnet).
+
+Since Tails Linux (https://tails.boum.org/) now ships Electrum wallet
+by default, I also added support for Electrum-Server, so the Tor
+Electrum wallet users can benefit of some reliable servers accessible
+via Tor hidden services.
+
+Just one of the nodes won't let me complete the setup. When adding
+electrum-server, there is also the need to add txindex=1 in
+bitcoin.conf and -reindex the blockchain (in my setups). I did it on
+the other nodes with no problem. On the current one, I tried to do it
+2 times and it freezes at this stage:
+
+{
+    "version" : 90300,
+    "protocolversion" : 70002,
+    "blocks" : 322082,
+    "timeoffset" : -1,
+    "connections" : 41,
+    "proxy" : "",
+    "difficulty" : 29829733124.04041672,
+    "testnet" : false,
+    "relayfee" : 0.00001000,
+    "errors" : "Warning: The network does not appear to fully agree!
+Some miners appear to be experiencing issues."
+}
+
+At this stage it is not consuming any CPU, while until block 322082
+while it was reindexing the previous blocks, the CPU usage was between
+90% and 100%. Now it's frozen at block 322082 for over 7 hours.
+
+Type: virtual machine
+OS: Debian Wheezy 64 bit
+CPU: Intel(R) Xeon(R) CPU           E5606  @ 2.13GHz (1 virtual core)
+RAM: 8 GB
+Bitcoin: bitcoind 0.9.3 installed via git, from github.
+
+What are the possible solutions? One would be to delete all the data
+and let it sync again from scratch with txindex=1 from starters, but
+still, I would like to figure out, why is this node behaving like this?
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+
+iQEcBAEBCAAGBQJU/vw2AAoJEIN/pSyBJlsR3qMIAJzq0N47eXfR3jcDfHhdYl45
+X1oKcJhtfEtn5NIdPffnOSEriS78njA3PQcAftWIChtVDXa/nk6XZt0vDnO5ejDW
+1VBckVnfQ9pg7ogxrA+CfRgz0MyGIkZZxfXmXyuwCyqV9elSwR4SXDE3xVMu4A95
+Ir/aJQXeSeyIm3PnEthlLc/8T1uszZnhNbKWJIov6+NrnIVJv9adsBxwKUDcIFj6
+I2Lrp6vYy5nhTzwV/kQQnlXYni23o72FWfWaj6QKy6Y3SNrr0ljF3ZD5xWlwJPiV
+LdwOWDkFzoa1tQyawmVd9m9BZ34+0VCI9PArYOiYZfgKs1zc2gyRs6sGIFbXaNs=
+=tiAW
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Dive into the World of Parallel Programming The Go Parallel Website, sponsored
+by Intel and developed in partnership with Slashdot Media, is your hub for all
+things parallel software development, from weekly thought leadership blogs to
+news, videos, case studies, tutorials and more. Take a look and join the 
+conversation now. http://goparallel.sourceforge.net/

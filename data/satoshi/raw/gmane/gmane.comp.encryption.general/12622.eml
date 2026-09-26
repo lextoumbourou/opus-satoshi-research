@@ -1,0 +1,67 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Mon, 10 Nov 2008 10:14:30 +0800
+Lines: 20
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-41c54a12-e2ac-4042-255f-1fcda7a4a00b@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226344219 3450 80.91.229.12 (10 Nov 2008 19:10:19 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Mon, 10 Nov 2008 19:10:19 +0000 (UTC)
+Cc: cryptography@metzdowd.com
+To: jamesd@echeque.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Mon Nov 10 20:11:20 2008
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1Kzc9l-0005as-1P
+	for gcc-cryptography@m.gmane.org; Mon, 10 Nov 2008 20:10:37 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 8BC0B6DA58; Mon, 10 Nov 2008 14:08:11 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id A833F6DA53
+	for <cryptography@metzdowd.com>; Mon, 10 Nov 2008 14:08:10 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 41322EF34E
+	for <cryptography@metzdowd.com>; Mon, 10 Nov 2008 14:08:10 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id EE10D8D20AD; Mon, 10 Nov 2008 14:08:09 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id BD7996DA4E
+	for <cryptography@metzdowd.com>; Sun,  9 Nov 2008 21:23:21 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Mon, 10 Nov 2008 10:23:07 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12622
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12622>
+
+James A. Donald wrote:
+> Furthermore, it cannot be made to work, as in the
+> proposed system the work of tracking who owns what coins
+> is paid for by seigniorage, which requires inflation.
+
+If you're having trouble with the inflation issue, it's easy to tweak it=
+ for transaction fees instead.  It's as simple as this: let the output v=
+alue from any transaction be 1 cent less than the input value.  Either t=
+he client software automatically writes transactions for 1 cent more tha=
+n the intended payment value, or it could come out of the payee's side. =
+ The incentive value when a node finds a proof-of-work for a block could=
+ be the total of the fees in the block.
+
+Satoshi Nakamoto
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

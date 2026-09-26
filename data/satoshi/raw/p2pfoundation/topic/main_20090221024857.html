@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bitcoin open source implementation of P2P currency - P2P Foundation</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="I've developed a new open source P2P e-cash system called Bitcoin. It's completely decentralized, with no central server or trusted parties, because everything is based on crypto proof instead of trust. Give it a try, or take a look at the screenshots and design paper:
+
+Download Bitcoin v0.1 at http://www.bitcoin.org
+
+The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible.
+
+A generation ago, multi-user time-sharing computer systems had a similar problem. Before strong encryption, users had to rely on password protection to secure their files, placing trust in the system administrator to keep their information private. Privacy could always be overridden by the admin based on his judgment call weighing the principle of privacy against other concerns, or at the behest of his superiors. Then strong encryption became available to the masses, and trust was no longer required. Data could be secured in a way that was physically impossible for others to access, no matter for what reason, no matter how good the excuse, no matter what.
+
+It's time we had the same thing for money. With e-currency based on cryptographic proof, without the need to trust a third party middleman, money can be secure and transactions effortless.
+
+One of the fundamental building blocks for such a system is digital signatures. A digital coin contains the public key of its owner. To transfer it, the owner signs the coin together with the public key of the next owner. Anyone can check the signatures to verify the chain of ownership. It works well to secure ownership, but leaves one big problem unsolved: double-spending. Any owner could try to re-spend an already spent coin by signing it again to another owner. The usual solution is for a trusted company with a central database to check for double-spending, but that just gets back to the trust model. In its central position, the company can override the users, and the fees needed to support the company make micropayments impractical.
+
+Bitcoin's solution is to use a peer-to-peer network to check for double-spending. In a nutshell, the network works like a distributed timestamp server, stamping the first transaction to spend a coin. It takes advantage of the nature of information being easy to spread but hard to stifle. For details on how it works, see the design paper at http://www.bitcoin.org/bitcoin.pdf
+
+The result is a distributed system with no single point of failure. Users hold the crypto keys to their own money and transact directly with each other, with the help of the P2P network to check for double-spending.
+
+Satoshi Nakamoto
+http://www.bitcoin.org" />
+<link rel="alternate" type="application/atom+xml" title="Bitcoin open source implementation of P2P currency - P2P Foundation" href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?feed=yes&amp;xn_auth=no" /><link rel="alternate" type="application/atom+xml" title="Discussion Forum - P2P Foundation" href="http://p2pfoundation.ning.com/forum?sort=mostRecent&amp;feed=yes&amp;xn_auth=no" />    <script type="text/javascript">
+        djConfig = { baseScriptUri: 'http://p2pfoundation.ning.com/xn/static-6.11.8.1/js/dojo-0.3.1-ning/', isDebug: false }
+        ning = {"CurrentApp":{"viewSourceUrl":"http:\/\/www.ning.com\/view-source.html?appUrl=p2pfoundation","premium":false,"iconUrl":"http:\/\/api.ning.com\/icons\/appatar\/2003008?default=2003008&width=64&height=64","url":"http:\/\/p2pfoundation.ning.com","domains":[],"online":true,"privateSource":false,"id":"p2pfoundation","description":"","name":"P2P Foundation","owner":"jdaviescoates","createdDate":"2008-02-14T13:54:16.851Z","runOwnAds":false,"tags":["p2p","peer","to","commons","network","production"]},"CurrentProfile":null};
+    </script>
+    
+
+
+
+    
+    
+        <style type="text/css" media="screen,projection">
+@import url("http://static.ning.com/xn/css?host=http%3A%2F%2Fp2pfoundation.ning.com&v=81e090da&href=%2Fxn_resources%2Fwidgets%2Findex%2Fcss%2Fcommon.css");
+@import url("http://static.ning.com/xn/css?host=http%3A%2F%2Fp2pfoundation.ning.com&v=81e090da&href=%2Fxn_resources%2Fwidgets%2Fforum%2Fcss%2Fcomponent.css");
+@import url("http://static.ning.com/xn/css?host=http%3A%2F%2Fp2pfoundation.ning.com&v=81e090da&href=%2Fxn_resources%2Fwidgets%2Findex%2Fcss%2Ftypography-normal.css");
+@import url("http://static.ning.com/xn/css?host=http%3A%2F%2Fp2pfoundation.ning.com&v=81e090da&href=%2Fxn_resources%2Fwidgets%2Findex%2Fcss%2Ficon%2Ficons-663.css");
+@import url("http://static.ning.com/xn/css?host=http%3A%2F%2Fp2pfoundation.ning.com&v=81e090da&href=%2Ftheme42.css");
+@import url("http://static.ning.com/xn/css?host=http%3A%2F%2Fp2pfoundation.ning.com&v=81e090da&href=%2Fcustom5.css");
+</style>
+<script type="text/javascript">
+            google_ad_client = "pub-5349214509828986";
+            google_ad_width = 160;
+            google_ad_height = 600;
+            google_ad_format = "160x600_as";
+            google_ad_type = "text";
+            google_ad_channel = "";
+            google_color_border = "F9F9F9";
+            google_color_bg = "F9F9F9";
+            google_color_link = "69523B";
+            google_color_text = "333333";
+            google_color_url = "69523B";
+        </script>
+    </head>
+
+<body>
+    <script>
+        window.xg = {};
+        xg.addOnRequire = function(f) { xg.addOnRequire.functions.push(f); };
+        xg.addOnRequire.functions = [];
+    </script>
+<div id="xn_bar">
+    <div id="xn_bar_menu">
+        <div id="xn_bar_menu_branding">
+            <p id="xn_brand"><a href="http://www.ning.com"><span>Ning</span></a></p>
+                            <p id="xn_gyo_link">
+                    <a href="http://www.ning.com/?appUrl=p2pfoundation">Create Your Own Social Network</a>
+                </p>
+                    </div>
+
+        <div id="xn_bar_menu_more">
+            <form id="xn_bar_menu_search" method="GET" action="http://p2pfoundation.ning.com/main/search/search">
+                <fieldset>
+                    <input type="text" name="q" id="xn_bar_menu_search_query" value="" accesskey="4" class="text" />
+                    <a id="xn_bar_menu_search_submit" href="#" onclick="document.getElementById('xn_bar_menu_search').submit();return false">Search</a><span class="after"></span>
+                </fieldset>
+            </form>
+        </div>
+
+        <ul id="xn_bar_menu_tabs">
+                    </ul>
+    </div>
+</div>
+<div id="xg" class=" xg_widget_forum xg_widget_forum_topic xg_widget_forum_topic_show">
+    <div id="xg_head">
+                    <div id="xg_masthead">
+                <p id="xg_sitename"><a id="application_name_header_link" href="/">P2P Foundation</a></p>
+                <p id="xg_sitedesc">The Foundation for Peer to Peer Alternatives</p>            </div>
+            <div id="xg_navigation" >
+                <ul>
+                    <li id="xg_tab_main"><a href='http://p2pfoundation.ning.com/'>Main</a></li>
+<li id="xg_tab_profile"><a href='http://p2pfoundation.ning.com/profiles'>My Page</a></li>
+<li id="xg_tab_members"><a href='http://p2pfoundation.ning.com/profiles/members/'>Members</a></li>
+<li id="xg_tab_video"><a href='http://p2pfoundation.ning.com/video'>Videos</a></li>
+<li id="xg_tab_forum" class='this'><a href='http://p2pfoundation.ning.com/forum'>Forum</a></li>
+<li id="xg_tab_groups"><a href='http://p2pfoundation.ning.com/groups'>Groups</a></li>
+<li id="xg_tab_blogs"><a href='http://p2pfoundation.ning.com/profiles/blog/list'>Blogs</a></li>
+                </ul>
+            </div>
+            </div>
+<div id="xg_body" class="xg_forum">
+    <div class="xg_column xg_span-16">
+        <ul class="navigation">
+            <li><a href="http://p2pfoundation.ning.com/forum">All Discussions</a></li>
+        <li><a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?">My Discussions</a></li>
+            <li class="right"><a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopic%2Fnew%3Ftarget%3Dhttp%253A%252F%252Fp2pfoundation.ning.com%252Fforum%252Ftopics%252Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopic%2Fnew%3Ftarget%3Dhttp%253A%252F%252Fp2pfoundation.ning.com%252Fforum%252Ftopics%252Fbitcoin-open-source" class="xg_sprite xg_sprite-add">Add a Discussion</a></li>
+    </ul>
+        <div id="discussion_closed_module" class="xg_module" style="display:none">
+            <div class="xg_module_body errordesc">
+                <p class="last-child">We're sorry, but this discussion has just been closed to further replies.</p>
+            </div>
+        </div>
+                <div class="xg_module">
+            <div class="xg_headline xg_headline-img xg_headline-2l">
+    <div class="ib">        <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_0ye0gncqg772o"  title="Satoshi Nakamoto"><img class="photo"  src="http://api.ning.com/icons/profile/36554024?default=36554024&amp;crop=1%3A1&amp;width=64&amp;height=64" height="64" width="64" alt="Satoshi Nakamoto" /></a></span>
+    </div>
+    <div class="tb">
+        <h1>Bitcoin open source implementation of P2P currency</h1>
+        <ul class="navigation byline">
+            <li><a class="nolink">Posted by </a><a href="/xn/detail/u_0ye0gncqg772o">Satoshi Nakamoto</a><a class="nolink"> on 11 February 2009 at 10:27pm</a></li>
+            <li><a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=0ye0gncqg772o">View Discussions</a></li>
+        </ul>
+    </div>
+</div>
+            <div class="xg_module_body">
+                <div class="discussion">
+                    <div class="description">
+                                                I've developed a new open source P2P e-cash system called Bitcoin. It's completely decentralized, with no central server or trusted parties, because everything is based on crypto proof instead of trust. Give it a try, or take a look at the screenshots and design paper:<br />
+<br />
+Download Bitcoin v0.1 at <a href="http://www.bitcoin.org">http://www.bitcoin.org</a><br />
+<br />
+The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust. Banks must be trusted to hold our money and transfer it electronically, but they lend it out in waves of credit bubbles with barely a fraction in reserve. We have to trust them with our privacy, trust them not to let identity thieves drain our accounts. Their massive overhead costs make micropayments impossible.<br />
+<br />
+A generation ago, multi-user time-sharing computer systems had a similar problem. Before strong encryption, users had to rely on password protection to secure their files, placing trust in the system administrator to keep their information private. Privacy could always be overridden by the admin based on his judgment call weighing the principle of privacy against other concerns, or at the behest of his superiors. Then strong encryption became available to the masses, and trust was no longer required. Data could be secured in a way that was physically impossible for others to access, no matter for what reason, no matter how good the excuse, no matter what.<br />
+<br />
+It's time we had the same thing for money. With e-currency based on cryptographic proof, without the need to trust a third party middleman, money can be secure and transactions effortless.<br />
+<br />
+One of the fundamental building blocks for such a system is digital signatures. A digital coin contains the public key of its owner. To transfer it, the owner signs the coin together with the public key of the next owner. Anyone can check the signatures to verify the chain of ownership. It works well to secure ownership, but leaves one big problem unsolved: double-spending. Any owner could try to re-spend an already spent coin by signing it again to another owner. The usual solution is for a trusted company with a central database to check for double-spending, but that just gets back to the trust model. In its central position, the company can override the users, and the fees needed to support the company make micropayments impractical.<br />
+<br />
+Bitcoin's solution is to use a peer-to-peer network to check for double-spending. In a nutshell, the network works like a distributed timestamp server, stamping the first transaction to spend a coin. It takes advantage of the nature of information being easy to spread but hard to stifle. For details on how it works, see the design paper at <a href="http://www.bitcoin.org/bitcoin.pdf">http://www.bitcoin.org/bitcoin.pdf</a><br />
+<br />
+The result is a distributed system with no single point of failure. Users hold the crypto keys to their own money and transact directly with each other, with the help of the P2P network to check for double-spending.<br />
+<br />
+Satoshi Nakamoto<br />
+<a href="http://www.bitcoin.org">http://www.bitcoin.org</a>                    </div>
+                </div>
+                <p><a class="xg_sprite xg_sprite-share" href="http://p2pfoundation.ning.com/main/sharing/share?id=2003008%253ATopic%253A9402">Share</a></p>
+                                    <dl class="discussion noindent">
+                    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd>                </dl>
+            </div>
+                    </div>
+        <div class="xg_module">
+            <div id="discussionReplies" >
+                                <div class="xg_module_body">
+                    <h3 id="comments">Replies to This Discussion</h3>
+                                            <dl class="discussion clear i0 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9416"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_8wbjqz2kevz8"  title="Sepp Hasslberger"><img class="photo left"  src="http://api.ning.com/files/fWRvRJn3uAAs6UP1sk7qMW7bvrZ*Imaz2FZ4KEwiD3Q_/seppfoto.gif?width=48&amp;height=48&amp;crop=1%3A1" height="48" width="48" alt="Sepp Hasslberger" /></a></span>
+    <a name="2003008Comment9416" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9416" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=8wbjqz2kevz8" class="fn url">Sepp Hasslberger</a> on <span class="timestamp">12 February 2009 at 2:44pm</span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9416">Great stuff.<br />
+<br />
+This is the first real innovation in money since the Bank of England started to issue its promissory notes for gold in the vaults, which then became known as banknotes.<br />
+<br />
+I believe an open source currency has great potential. A bit like Google becoming the default search engine for many of us.</div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+<dl class="discussion clear i0 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9478"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_8wbjqz2kevz8"  title="Sepp Hasslberger"><img class="photo left"  src="http://api.ning.com/files/fWRvRJn3uAAs6UP1sk7qMW7bvrZ*Imaz2FZ4KEwiD3Q_/seppfoto.gif?width=48&amp;height=48&amp;crop=1%3A1" height="48" width="48" alt="Sepp Hasslberger" /></a></span>
+    <a name="2003008Comment9478" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9478" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=8wbjqz2kevz8" class="fn url">Sepp Hasslberger</a> on <span class="timestamp">14 February 2009 at 3:30pm</span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9478"><a href="http://p2pfoundation.ning.com/profile/DanteGabryellMonson">Dante</a>, in an email, has mentioned a UK project called Open Coin. It seems to go in a similar direction.<br />
+<br />
+Could there be synergies with bitcoin?<br />
+<br />
+<a href="http://opencoin.org/">http://opencoin.org/</a></div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+<dl class="discussion clear i1 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9493"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_0ye0gncqg772o"  title="Satoshi Nakamoto"><img class="photo left"  src="http://api.ning.com/icons/profile/36554024?default=36554024&amp;crop=1%3A1&amp;width=48&amp;height=48" height="48" width="48" alt="Satoshi Nakamoto" /></a></span>
+    <a name="2003008Comment9493" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9493" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=0ye0gncqg772o" class="fn url">Satoshi Nakamoto</a> on <span class="timestamp">15 February 2009 at 4:42pm</span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9493">Could be. They're talking about the old Chaumian central mint stuff, but maybe only because that was the only thing available. Maybe they would be interested in going in a new direction.<br />
+<br />
+A lot of people automatically dismiss e-currency as a lost cause because of all the companies that failed since the 1990's. I hope it's obvious it was only the centrally controlled nature of those systems that doomed them. I think this is the first time we're trying a decentralized, non-trust-based system.</div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+<dl class="discussion clear i2 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9543"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_24q11n26nnik1"  title="Joerg Baach"><img class="photo left"  src="http://api.ning.com/files/oByp8vftRT0mAgyF8EG20uxZ*nXIC2apyeGY3fAKw74-wzoTg6w-FnwZ3gdq1onBCwLX-5Jqu1xBFzLstknhaGkiDafn-dx*/jhb_black.jpg?width=48&amp;height=48&amp;crop=1%3A1" height="48" width="48" alt="Joerg Baach" /></a></span>
+    <a name="2003008Comment9543" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9543" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=24q11n26nnik1" class="fn url">Joerg Baach</a> on <span class="timestamp">17 February 2009 at 10:42am</span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9543">Hi Satoshi,<br />
+<br />
+we are actually really talking about the old Chaumian central stuff. That was because a) it was there b) it was patent free (we have to think a bit about the US). I had a read of your paper on the weekend - thanks a lot for doing that work. Interesting read.<br />
+<br />
+What I did not understand about your system - how would you use it for a currency of any sort? Everybody can create a coin as they like, as far as I understood, so therefore there is no trusted supply of tokens / coins.<br />
+Or the other way around: if you don't trust the double spending database, because its a central instance, you surely couldn't trust a central issuer to issue and redeem. How would a currency work otherwise? Would you use it for a mutual credit system in which the transactions are shown online?<br />
+<br />
+Cheers,<br />
+<br />
+Joerg</div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+<dl class="discussion clear i2 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9559"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_8wbjqz2kevz8"  title="Sepp Hasslberger"><img class="photo left"  src="http://api.ning.com/files/fWRvRJn3uAAs6UP1sk7qMW7bvrZ*Imaz2FZ4KEwiD3Q_/seppfoto.gif?width=48&amp;height=48&amp;crop=1%3A1" height="48" width="48" alt="Sepp Hasslberger" /></a></span>
+    <a name="2003008Comment9559" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9559" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=8wbjqz2kevz8" class="fn url">Sepp Hasslberger</a> on <span class="timestamp">18 February 2009 at 2:41pm</span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9559">I have two questions, Satoshi.<br />
+<br />
+the first one ties in with Joerg's doubts about the trusted supply of tokens/coins.<br />
+<br />
+As far as I understand, there will be a limit of the total amount of tokens that can be created, and a changing gradient of difficulty in making the tokens, where the elaboration gets more and more difficult with time. Is that correct?<br />
+<br />
+It is important that there be a limit in the amount of tokens/coins. But it is also important that this limit be adjustable to take account of how many people adopt the system. If the number of users changes with time, it will also be necessary to change the total amount of coins.<br />
+<br />
+Is there a formula to decide on what should be the total amount of tokens, and if so, what is the formula?<br />
+<br />
+If there is no formula, who gets to make that decision and based on what criteria will it be made?<br />
+<br />
+I will keep my second question for later. One thing at a time...</div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+<dl class="discussion clear i2 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9562"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_0ye0gncqg772o"  title="Satoshi Nakamoto"><img class="photo left"  src="http://api.ning.com/icons/profile/36554024?default=36554024&amp;crop=1%3A1&amp;width=48&amp;height=48" height="48" width="48" alt="Satoshi Nakamoto" /></a></span>
+    <a name="2003008Comment9562" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=0ye0gncqg772o" class="fn url">Satoshi Nakamoto</a> on <span class="timestamp">18 February 2009 at 8:50pm</span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9562">It is a global distributed database, with additions to the database by consent of the majority, based on a set of rules they follow:<br />
+<br />
+- Whenever someone finds proof-of-work to generate a block, they get some new coins<br />
+- The proof-of-work difficulty is adjusted every two weeks to target an average of 6 blocks per hour (for the whole network)<br />
+- The coins given per block is cut in half every 4 years<br />
+<br />
+You could say coins are issued by the majority. They are issued in a limited, predetermined amount.<br />
+<br />
+As an example, if there are 1000 nodes, and 6 get coins each hour, it would likely take a week before you get anything.<br />
+<br />
+To Sepp's question, indeed there is nobody to act as central bank or federal reserve to adjust the money supply as the population of users grows. That would have required a trusted party to determine the value, because I don't know a way for software to know the real world value of things. If there was some clever way, or if we wanted to trust someone to actively manage the money supply to peg it to something, the rules could have been programmed for that.<br />
+<br />
+In this sense, it's more typical of a precious metal. Instead of the supply changing to keep the value the same, the supply is predetermined and the value changes. As the number of users grows, the value per coin increases. It has the potential for a positive feedback loop; as users increase, the value goes up, which could attract more users to take advantage of the increasing value.</div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+<dl class="discussion clear i3 xg_lightborder">
+    <dt class="byline">
+        <a name="2003008:Comment:9578"></a>                 <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_8wbjqz2kevz8"  title="Sepp Hasslberger"><img class="photo left"  src="http://api.ning.com/files/fWRvRJn3uAAs6UP1sk7qMW7bvrZ*Imaz2FZ4KEwiD3Q_/seppfoto.gif?width=48&amp;height=48&amp;crop=1%3A1" height="48" width="48" alt="Sepp Hasslberger" /></a></span>
+    <a name="2003008Comment9578" href="http://p2pfoundation.ning.com/xn/detail/2003008:Comment:9578" title="Permalink to this Reply" class="xg_icon xg_icon-permalink">Permalink</a> Reply by <a href="http://p2pfoundation.ning.com/forum/topic/listForContributor?user=8wbjqz2kevz8" class="fn url">Sepp Hasslberger</a> <span class="timestamp">17 hours ago </span>    </dt>
+        <dd>
+                        <div class="description" id="desc_2003008Comment9578">So in other words, "the early adopter finds the worm" in this system.<br />
+<br />
+This would mean that - the earlier someone gets in on the bitcoin system establishing a node, the more chance they have of becoming lucky and being able to generate coins. Nothing against that, it would work to promote adoption of the system.<br />
+<br />
+However there should also be a method of adjusting the total number of coins extant. I would propose to link the total number of coins to the number of active nods.<br />
+<br />
+This way, you have two parameters that keep a balance. One is the halving of coins given per block, the other is a continual (or periodic?) adjustment of the target total of coins to the number of active users. That should self-balance the system.<br />
+<br />
+The reason balance of the system is important: if it's going to be used for payments, you don't want to have large changes in the value of the coins. It would lead to distortions, I believe, by continually increasing the "purchasing power" of a single coin.<br />
+<br />
+Stability of the coins' value is desirable for long term use.</div>
+                </dd>
+    <dd>
+             <p class="toggle">
+            <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"><span><!--[if IE]>&#9658;<![endif]--><![if !IE]>&#9654;<![endif]></span> Reply to This</a>
+        </p>
+    </dd></dl>
+                                    </div>
+                <div class="xg_module_foot">
+                                            <p class="left">
+                            <a class="xg_sprite xg_sprite-rss" href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?feed=yes&amp;xn_auth=no">RSS</a>
+                        </p>
+                                        <p class="right"><a href="#" dojoType="FollowLink" _isFollowed="0" _addUrl="http://p2pfoundation.ning.com/main/content/startFollowing?id=2003008%3ATopic%3A9402&amp;xn_out=json" _removeUrl="http://p2pfoundation.ning.com/main/content/stopFollowing?id=2003008%3ATopic%3A9402&amp;xn_out=json" _addDescription="E-mail me when people reply" _removeDescription="Don't e-mail me when people reply" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signUpUrl="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source"></a></p>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="xg_column xg_span-4 xg_last">
+            <div class="xg_module" id="xg_module_account">
+		<div class="xg_module_body xg_signup xg_lightborder">
+			<p>Welcome to<br />P2P Foundation</p>
+			<p class="last-child">
+				<big><strong><a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source">Sign Up</a></strong></big><br/>
+            	or <a href="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source" style="white-space:nowrap">Sign In</a>			</p>
+        </div>
+    </div>
+<div class="xg_module xg_ads">
+    <div class="xg_module_body">
+        <!-- Do not delete this comment - fix for BAZ-929 -->
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+    </div>
+</div><div class="xg_module module_about">
+    <div class="xg_module_head">
+        <h2>About P2P Foundation</h2>
+    </div>
+    <div class="xg_module_body xg_module_ning">
+        <p class="vcard small">
+                    <span class="xg_avatar"><a class="fn url" href="http://p2pfoundation.ning.com/xn/detail/u_jdaviescoates"  title="Josef Davies-Coates"><img class="photo"  src="http://api.ning.com/files/oCiOQxZSEthroVhES5gYF9dSXcxve61fnID0s8u94mw_/19566165.bin?width=48&amp;height=48&amp;crop=1%3A1" height="48" width="48" alt="Josef Davies-Coates" /></a></span>
+                <span class="fn"><a href="/xn/detail/u_jdaviescoates">Josef Davies-Coates</a></span>
+            created this social network on <a href="http://www.ning.com">Ning</a>.        </p>
+                    <p class="clear small"><a href="http://www.ning.com">Create your own social network on Ning for free!</a></p>
+            </div>
+    </div><div class="xg_module module_badge">
+    <div class="xg_module_head">
+    <h2>P2P Foundation Badge</h2>
+    </div>
+    <div class="xg_module_body">
+		<div id="embedRenderDiv1123238258" style="width:100%; height:104px;"></div>
+<script type="text/javascript">
+xg.addOnRequire(function() {
+	setTimeout(function() {
+		embedDiv = dojo.byId('embedRenderDiv1123238258');
+		embedDiv.innerHTML = "<embed src=\"http:\/\/static.ning.com\/p2pfoundation\/widgets\/index\/swf\/badge.swf?v=3.13.4%3A15557\"\n        quality=\"high\" scale=\"noscale\" salign=\"lt\" wmode=\"transparent\" bgcolor=\"#ffffff\" type=\"application\/x-shockwave-flash\" pluginspage=\"http:\/\/www.macromedia.com\/go\/getflashplayer\"\n        width=\"100%\"\n        height=\"104\"\n        allowScriptAccess=\"always\"\n        flashvars=\"networkUrl=http%3A%2F%2Fp2pfoundation.ning.com%2F&amp;panel=network_small&amp;configXmlUrl=http%3A%2F%2Fstatic.ning.com%2Fp2pfoundation%2Finstances%2Fmain%2Fembeddable%2Fbadge-config.xml%3Ft%3D1235068197\" \/>";
+	},250);
+});
+</script>
+    </div>
+    <div class="xg_module_foot">
+        <p class="right"><a href="http://p2pfoundation.ning.com/main/embeddable/list">Get More Badges</a></p>
+    </div>
+</div>
+
+<!-- Template Start:  -->
+    </div>
+</div>
+    <div id="xg_foot">
+        <p class="left">
+                            © 2009 &nbsp; Created by <a href="/xn/detail/u_jdaviescoates">Josef Davies-Coates</a> on Ning.                &nbsp; <a href="http://www.ning.com">Create your own social network</a>
+                    </p>
+                    <p class="right xg_lightfont">
+                <a href="http://p2pfoundation.ning.com/main/embeddable/list">Badges</a> &nbsp;|&nbsp;
+                                    <a href="http://p2pfoundation.ning.com/main/authorization/signUp?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fmain%2Findex%2Freport" dojoType="PromptToJoinLink" _joinPromptText="Like what you see on P2P Foundation? Join Now!" _signInUrl="http://p2pfoundation.ning.com/main/authorization/signIn?target=http%3A%2F%2Fp2pfoundation.ning.com%2Fmain%2Findex%2Freport">Report an Issue</a> &nbsp;|&nbsp;
+                                <a href="http://p2pfoundation.ning.com/main/authorization/privacyPolicy?previousUrl=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source">Privacy</a> &nbsp;|&nbsp;
+                <a href="http://p2pfoundation.ning.com/main/authorization/termsOfService?previousUrl=http%3A%2F%2Fp2pfoundation.ning.com%2Fforum%2Ftopics%2Fbitcoin-open-source">Terms of Service</a>
+            </p>
+            </div>
+
+</div>
+<noscript>
+	<style type="text/css" media="screen">
+        #xg { position:relative;top:120px; }
+        #xn_bar { top:120px; }
+	</style>
+	<div class="errordesc noscript">
+		<div>
+            <h3><strong>Hello, you need to enable JavaScript to use this network.</strong></h3>
+            <p>Please check your browser settings or contact your system administrator.</p>
+			<img src="/xn_resources/widgets/index/gfx/jstrk_off.gif" height="1" width="1" />
+		</div>
+	</div>
+</noscript>
+<script type="text/javascript" src="http://static.ning.com/p2pfoundation/widgets/lib/core.min.js?v=3.13.4%3A15557"></script>
+    <script type="text/javascript">
+        if (!ning._) {ning._ = {}}
+        ning._.compat = { encryptedToken: "<empty>" }
+        ning._.CurrentServerTime = "2009-02-21T02:48:56+00:00";
+        ning._.probableScreenName = "";
+        ning._.domains = {
+            base: 'ning.com',
+            ports: { http: '80', ssl: '443' }
+        };
+    </script>
+<script>
+ning.loader.version = '3.13.4:15557_3';
+djConfig.parseWidgets = false;
+</script>
+<script type="text/javascript">
+        xg.token = '';
+    xg.cdnHost = 'static.ning.com';
+    xg.version = '3.13.4:15557';
+    xg.useMultiCdn = true;
+        xg.cdnDefaultPolicyHost = 'static';
+    xg.cdnPolicy = [];
+        xg.global = xg.global||{}; xg.global.currentMozzle = 'forum';
+    xg.global.userCanInvite = false;
+    xg.global.appIsLaunched = true;
+    xg.global.requestBase = '';
+    xg.global.locale = 'en_GB';
+    xg.num_thousand_sep = ",";
+if ("undefined" != typeof dojo) {
+    (function(){
+        var cnt = 0, onLoadHandler = function() {
+                        if (cnt++ != 1) return;
+                        xg.shared.util.parseWidgets();            var addOnRequireFunctions = xg.addOnRequire.functions;
+            xg.addOnRequire = function(f) { f(); };
+            if (addOnRequireFunctions) { dojo.lang.forEach(addOnRequireFunctions, function(onRequire) { onRequire.apply(); }); }
+        };
+        dojo.addOnLoad(onLoadHandler);
+                ning.loader.require('xg.custom.shared.common', 'xg.shared.InPlaceEditor', 'xg.index.actionicons', 'xg.index.bulk', 'xg.forum.topic.DeleteCommentLink', 'xg.shared.TagLink', 'xg.forum.topic.show', 'xg.shared.AddAsFriendLink', 'xg.shared.FollowLink', onLoadHandler);
+    })();
+}
+</script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-184755-20";
+urchinTracker();
+</script><script>
+    if ("undefined" != typeof dojo && dojo.byId('baz8252')) {
+        var marker = dojo.byId('baz8252').innerHTML;
+        dojo.io.bind({
+            url: 'http://p2pfoundation.ning.com/main/index/logBaz8252',
+            method: 'post',
+            mimetype: 'text/json',
+            encoding: 'utf-8',
+            preventCache: true,
+            content: { marker: marker }
+        });
+    }
+</script>
+<div id="xg_overlay" style="display:none">
+<!--[if lte IE 6.5]><iframe></iframe><![endif]-->
+</div>
+
+<script type="text/javascript" charset="utf-8">
+if (top != self) { top.location.replace('http://p2pfoundation.ning.com'); }
+</script>
+</body>
+</html>

@@ -80,6 +80,10 @@ def strip_quotes(body):
             if j < n and re.match(r"^\s*>", lines[j]):
                 continue
         keep.append(ln)
+    while keep and not keep[0].strip():
+        keep.pop(0)
+    while keep and not keep[-1].strip():
+        keep.pop()
     out = "\n".join(keep)
     out = re.sub(r"\n{3,}", "\n\n", out).strip("\n") + "\n"
     return out

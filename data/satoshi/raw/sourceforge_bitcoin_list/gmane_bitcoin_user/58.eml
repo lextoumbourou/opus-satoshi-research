@@ -1,0 +1,139 @@
+Path: news.gmane.org!not-for-mail
+From: s7r <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: bitcoind node dual stack (tor and clearnet)
+Date: Fri, 26 Sep 2014 02:27:56 +0300
+Lines: 43
+Approved: news@gmane.org
+Message-ID: <5424A4FC.90108@sky-ip.org>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1411687790 5530 80.91.229.3 (25 Sep 2014 23:29:50 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Thu, 25 Sep 2014 23:29:50 +0000 (UTC)
+To: bitcoin-list <bitcoin-list@lists.sourceforge.net>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Sep 26 01:29:39 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XXITi-0004R6-Jw
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 26 Sep 2014 01:29:38 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XXISk-0003oB-Ny; Thu, 25 Sep 2014 23:28:38 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1XXISj-0003o6-KZ
+	for bitcoin-list@lists.sourceforge.net; Thu, 25 Sep 2014 23:28:37 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of sky-ip.org
+	designates 162.222.225.29 as permitted sender)
+	client-ip=162.222.225.29; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.29])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1XXISf-0002ea-Vs
+	for bitcoin-list@lists.sourceforge.net; Thu, 25 Sep 2014 23:28:37 +0000
+Original-Received: from [0.0.0.0] (worf.pulsedmedia.com [195.154.226.66])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id BA4D7869331
+	for <bitcoin-list@lists.sourceforge.net>;
+	Thu, 25 Sep 2014 23:28:00 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.6.0
+X-CTCH-RefID: str=0001.0A020205.5424A50E.0062, ss=1, re=0.000, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.000
+X-CTCH-Rules: 
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Scanned-By: MIMEDefang 2.72 on 172.18.214.93
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1XXISf-0002ea-Vs
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:58
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/58>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+I run some Tor hidden bitcoin nodes, I would like them to be dual
+stack (connect to clearnet nodes too). But want to use the same
+directory data (blockchain) and in the same time not exchange the
+onion address listed at external IP with the clearnet peers and vice
+versa (to avoid clernet peers knowing there's an onion node on the
+same machine too and onion noes knowing the clearnet IP address). How
+can this be done? I currently have in bitcoin.conf, among others, the
+following entries for network settings:
+
+onlynet=tor
+externalip=foo.onion
+proxy=127.0.0.1:9050
+listen=1
+bind=127.0.0.1:8333
+
+Advices? Thanks in advance!
+- -- 
+s7r
+PGP Fingerprint: 7C36 9232 5ABD FB0B 3021 03F1 837F A52C 8126 5B11
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+
+iQEcBAEBAgAGBQJUJKT7AAoJEIN/pSyBJlsRmlUH/jcG5BNp04A+U2vMw0uECMFZ
+vQhoXLS9TYmRhimSwxZ6NjXCxeAOFPHszu6wBooSgSZDxjd1L5Q0Un5GSrUJOVtb
+wAiApad7kbi/a35M6EubYSSXoYeeNMBiCWLBYhAFggLgjlg/p/6mSstZHQ+7pYkE
+cHmeIUi2ilhezIknWHLE0StMRF+liQuP+sXuCQrSSIcaf4A4f1rv96JOByIbOTCO
+RF2JJdY0c89kG4/untheOu09ZAYK0+Ds13OrdbwmsPN8GaXLYpKNEJ0rLLu2cGWf
+WjK/cQoZcCLqdczAJA/69OCWSC+mpHG+Y0AdFrvf20PMGNFc1j4LSvb/zZAl2AQ=
+=xbT+
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Meet PCI DSS 3.0 Compliance Requirements with EventLog Analyzer
+Achieve PCI DSS 3.0 Compliant Status with Out-of-the-box PCI DSS Reports
+Are you Audit-Ready for PCI DSS 3.0 Compliance? Download White paper
+Comply to PCI DSS 3.0 Requirement 10 and 11.5 with EventLog Analyzer
+http://pubads.g.doubleclick.net/gampad/clk?id=154622311&iu=/4140/ostg.clktrk

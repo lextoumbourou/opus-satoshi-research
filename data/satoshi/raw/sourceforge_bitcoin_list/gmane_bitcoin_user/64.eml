@@ -1,0 +1,124 @@
+Path: news.gmane.org!not-for-mail
+From: Francis GASCHET <fg@numlog.fr>
+Newsgroups: gmane.comp.bitcoin.user,gmane.comp.bitcoin.devel
+Subject: Re: Running a full node
+Date: Sun, 09 Nov 2014 16:22:21 +0100
+Lines: 42
+Approved: news@gmane.org
+Message-ID: <545F86AD.3050002@numlog.fr>
+References: <545B5323.3000403@numlog.fr>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-15"
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1415546591 3946 80.91.229.3 (9 Nov 2014 15:23:11 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 9 Nov 2014 15:23:11 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net, 
+	bitcoin-development@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Nov 09 16:23:04 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XnUKV-00034d-29
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 09 Nov 2014 16:23:03 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XnUKD-0006SN-Mc; Sun, 09 Nov 2014 15:22:45 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <fg@numlog.fr>)
+	id 1XnUK9-0006Rx-2m; Sun, 09 Nov 2014 15:22:41 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of numlog.fr
+	designates 5.56.47.166 as permitted sender)
+	client-ip=5.56.47.166; envelope-from=fg@numlog.fr;
+	helo=mail1.numlog.fr; 
+Original-Received: from mail.numlog.fr ([5.56.47.166] helo=mail1.numlog.fr)
+	by sog-mx-3.v43.ch3.sourceforge.com with smtp (Exim 4.76)
+	id 1XnUK7-0007is-EQ; Sun, 09 Nov 2014 15:22:40 +0000
+Original-Received: from localhost (localhost [127.0.0.1])
+	by mail1.numlog.fr (Postfix) with ESMTP id 8DFE91E08D2;
+	Sun,  9 Nov 2014 16:22:32 +0100 (CET)
+X-Virus-Scanned: amavisd-new at numlog.fr
+Original-Received: from mail1.numlog.fr ([127.0.0.1])
+	by localhost (mail.numlog.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with SMTP id Mn-Zdd+NiawO; Sun,  9 Nov 2014 16:22:23 +0100 (CET)
+Original-Received: from num8.numlog.priv (unknown [192.168.13.8])
+	by mail1.numlog.fr (Postfix) with ESMTP id 661361E08CE;
+	Sun,  9 Nov 2014 16:22:23 +0100 (CET)
+Original-Received: from [192.168.20.109] (pcfg.mcz [192.168.20.109])
+	by num8.numlog.priv (Postfix) with ESMTP id 21C676038098;
+	Sun,  9 Nov 2014 16:22:23 +0100 (CET)
+User-Agent: Mozilla/5.0 (X11; Linux i686;
+	rv:24.0) Gecko/20100101 Thunderbird/24.4.0
+In-Reply-To: <545B5323.3000403@numlog.fr>
+X-Spam-Score: -2.1 (--)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.6 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain
+X-Headers-End: 1XnUK7-0007is-EQ
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:64 gmane.comp.bitcoin.devel:6510
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/64>
+
+Dear all,
+
++1 !
+
+Thanks to those who sent me some details and links.
+
+My node is up and running on 5.56.40.1:8333
+
+Techno : Linux HA + dual homed Internet transit.
+It should be stable as from now.
+
+Best regards
+--
+Francis
+
+Le 06/11/2014 11:53, Francis GASCHET a =E9crit :
+> Dear all,
+>
+> I'm currently discovering the Bitcoin's universe.
+> I installedbitcoind on my PC and I'm currently testing different =
+
+> things on testnet.
+> I just read an article saying that the risk for Bitcoin in the future =
+
+> is the decreasing number of full nodes, with appropriate resources. =
+
+> There are only few of them in France !
+>
+> My company operates a dual homed Internet access and has some capacity =
+
+> to host an HA server in a secured environment. So I'm thinking about =
+
+> setting up a full node.
+> But I'd like to know what storage, RAM  and bandwidth resources are =
+
+> needed. I guess that the problem is not the CPU.
+>
+> Thanks in advance for details.
+
+
+---------------------------------------------------------------------------=
+---

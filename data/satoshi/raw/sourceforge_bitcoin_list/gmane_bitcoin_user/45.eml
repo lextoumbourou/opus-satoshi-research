@@ -1,0 +1,160 @@
+Path: news.gmane.org!not-for-mail
+From: "s7r@sky-ip.org" <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: decentralized exchange user-to-user using
+	contracts/multisig
+Date: Sun, 02 Mar 2014 14:26:08 +0200
+Lines: 77
+Approved: news@gmane.org
+Message-ID: <53132360.7090308@sky-ip.org>
+References: <53128965.3070001@sky-ip.org> <5312ADF0.1030507@echeque.com>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393763235 23369 80.91.229.3 (2 Mar 2014 12:27:15 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 2 Mar 2014 12:27:15 +0000 (UTC)
+Cc: bitcoin-list@lists.sourceforge.net
+To: jamesd@echeque.com
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Mar 02 13:27:24 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WK5UI-0003xB-Sl
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 02 Mar 2014 13:27:23 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WK5Tr-0007Mv-V0; Sun, 02 Mar 2014 12:26:56 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1WK5Tq-0007Mq-Th
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 12:26:54 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of sky-ip.org
+	designates 162.222.225.28 as permitted sender)
+	client-ip=162.222.225.28; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.28])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1WK5Tm-0000vw-4U
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 12:26:54 +0000
+Original-Received: from [0.0.0.0] (herngaard.torservers.net [96.44.189.102])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id 4AE5C1508004;
+	Sun,  2 Mar 2014 12:26:11 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 5.1;
+	rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+In-Reply-To: <5312ADF0.1030507@echeque.com>
+X-Enigmail-Version: 1.6
+X-Scanned-By: MIMEDefang 2.72 on 172.18.214.93
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1WK5Tm-0000vw-4U
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:45
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/45>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+On 3/2/2014 6:05 AM, James A. Donald wrote:
+> On 2014-03-02 11:29, s7r@sky-ip.org wrote:
+>> -----BEGIN PGP SIGNED MESSAGE----- Hash: SHA1
+>> 
+>> Hi,
+>> 
+>> I want to build a marketplace where users can exchange bitcoin
+>> for fiat currencies without having to go through a centralized
+>> escrow or exchanger (directly user-to-user). This can be done by
+>> bitcoin multisign option (contracts) where 2 users can agree on a
+>> mediator and proceed with a transaction.
+>> 
+>> The problem is: if the users don't go through a centralized
+>> escrow or exchanger and they don't add funds  or add bitcoins to
+>> their accounts, how can we verify the authenticity of sell or buy
+>> postings and build a strong and accurate order book, without
+>> users being able to abuse it by posting abusive sell or buy
+>> offers which will break the supply and demand calculation for
+>> price determination. This is a real possible vulnerability since
+>> it's not a centralized system and users do not deposit funds in
+>> their accounts, you cannot verify if the user has or doesn't have
+>> the bitcoins or the fiat currency.
+> 
+> You can verify that the user has the bitcoins.
+> 
+> For the fiat currency, need a reputation system that looks like
+> silk road or ebay, but is decentralized.  This is a problem, since
+> what is to stop someone from building reputation by doing a
+> thousand fake transactions with himself?
+> 
+> This sybil attack could be defeated by clustering analysis,
+> identifying groups that give positive ratings to each other, but do
+> not receive positive ratings from outsiders.
+> 
+> 
+
+That sounds about right. So, to repeat, the system will create random
+groups of N users, chosen randomly by the system (the users cannot
+choose a group they want to be a part of) and reputation will be built
+only by people inside that group, nobody from outside will be able to
+positive or negative feedback? In this case, the chances for an
+malicious person to create 1000 fake accounts to transact with himself
+and all of them to be part of the same group are considerably smaller.
+Not inexistent, though.
+
+But in centralized exchangers, what prevents users from doing this? If
+a malicious person is willing and can afford to lose the exchanger fee
+of .5 or .7 or whatever, he can transact with himself manipulating the
+price with just the cost of the exchanger fee?
+
+I doubt the current exchangers have any protection against this what
+do you think?
+
+
+- -- 
+PGP Public key: http://www.sky-ip.org/s7r@sky-ip.org.asc
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.17 (MingW32)
+
+iQEcBAEBAgAGBQJTEyNgAAoJEIN/pSyBJlsRzSwIAMDwOJPPRaGxX5NjGDviO3Tu
+tD9opHU2S6mb820f31D0o+XlwKx+DA2yZ3M8GmGsEjEbESH//kJT2Dcvnpd4TLoC
+TwS2mfyEZDpWrdZuC/uULj5ZVl6PGDs+KVGvNNJwuuosUa9Ni8PHboyhW/sf5unJ
+xQGHfLtDnUu2T+w1fklvfOj+73nonf8499ueQCLGGaUSVtG2sTKRmb+RZVKwX588
+6o06FvT+TbASTs+9K74gh/S/l9F9lmGlKcqVFFbsdU1124aQy03TiLTbRhrABCY/
+E26AWjWW+3aPoK9Y244yi29KmncBcdvuO0A7OteyF6f9h3OcyCsQQd0s+gXUKDA=
+=PCLW
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

@@ -1,0 +1,102 @@
+Path: news.gmane.org!not-for-mail
+From: Tim Lebedkov <tim.lebedkov@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Stable download URLs
+Date: Thu, 3 Oct 2013 13:13:33 +0200
+Lines: 22
+Approved: news@gmane.org
+Message-ID: <CAHR2jZPOF8AEwZiWPuY92friVYkxf1_spKUzUfR-+gP009=8=Q@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1380798857 8428 80.91.229.3 (3 Oct 2013 11:14:17 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Thu, 3 Oct 2013 11:14:17 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Thu Oct 03 13:14:22 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VRgrN-0002tU-NB
+	for gcbd-bitcoin-list@m.gmane.org; Thu, 03 Oct 2013 13:14:21 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VRgqj-00026Z-Bc; Thu, 03 Oct 2013 11:13:41 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <tim.lebedkov@gmail.com>) id 1VRgqi-00026U-8k
+	for bitcoin-list@lists.sourceforge.net; Thu, 03 Oct 2013 11:13:40 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.212.170 as permitted sender)
+	client-ip=209.85.212.170; envelope-from=tim.lebedkov@gmail.com;
+	helo=mail-wi0-f170.google.com; 
+Original-Received: from mail-wi0-f170.google.com ([209.85.212.170])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1VRgqh-0003DK-GU
+	for bitcoin-list@lists.sourceforge.net; Thu, 03 Oct 2013 11:13:40 +0000
+Original-Received: by mail-wi0-f170.google.com with SMTP id cb5so590423wib.5
+	for <bitcoin-list@lists.sourceforge.net>;
+	Thu, 03 Oct 2013 04:13:33 -0700 (PDT)
+X-Received: by 10.194.104.42 with SMTP id gb10mr6701351wjb.16.1380798813311;
+	Thu, 03 Oct 2013 04:13:33 -0700 (PDT)
+Original-Received: by 10.194.32.66 with HTTP; Thu, 3 Oct 2013 04:13:33 -0700 (PDT)
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(tim.lebedkov[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: npackd.appspot.com]
+X-Headers-End: 1VRgqh-0003DK-GU
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:25
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/25>
+
+Hello,
+
+would it be possible to *not* move older versions of Bitcoin-Qt to the
+"Obsolete" directory?
+Example: the URL
+http://downloads.sourceforge.net/project/bitcoin/bitcoin-0.8.1/bitcoin-0.8.1-win32-setup.exe
+is not available anymore
+Now the right URL is
+http://downloads.sourceforge.net/project/bitcoin/Obsolete/bitcoin-0.8.1/bitcoin-0.8.1-win32-setup.exe
+
+This makes linking to a binary impossible and requires much more work
+in the default Npackd repository
+(https://npackd.appspot.com/p/org.bitcoin.BitcoinQ)
+
+Tim
+
+------------------------------------------------------------------------------
+October Webinars: Code for Performance
+Free Intel webinars can help you accelerate application performance.
+Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most from 
+the latest Intel processors and coprocessors. See abstracts and register >
+http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk

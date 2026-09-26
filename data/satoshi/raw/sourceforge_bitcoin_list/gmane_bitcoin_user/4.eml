@@ -1,0 +1,153 @@
+Path: news.gmane.org!not-for-mail
+From: Gavin Andresen <gavinandresen@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Bitcoin version 0.6.2 available
+Date: Tue, 8 May 2012 19:57:14 -0400
+Lines: 75
+Approved: news@gmane.org
+Message-ID: <CABsx9T3-apZiARf6vSZunXu00Mo3kBSM8TTV08VCN8LPrjd7eA@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: dough.gmane.org 1336521472 22575 80.91.229.3 (8 May 2012 23:57:52 GMT)
+X-Complaints-To: usenet@dough.gmane.org
+NNTP-Posting-Date: Tue, 8 May 2012 23:57:52 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Wed May 09 01:57:52 2012
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1SRuHv-0001Fo-Ep
+	for gcbd-bitcoin-list@m.gmane.org; Wed, 09 May 2012 01:57:51 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1SRuHT-0002bA-78; Tue, 08 May 2012 23:57:23 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gavinandresen@gmail.com>) id 1SRuHR-0002b2-GC
+	for bitcoin-list@lists.sourceforge.net; Tue, 08 May 2012 23:57:21 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.217.175 as permitted sender)
+	client-ip=209.85.217.175; envelope-from=gavinandresen@gmail.com;
+	helo=mail-lb0-f175.google.com; 
+Original-Received: from mail-lb0-f175.google.com ([209.85.217.175])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1SRuHQ-00041A-L0
+	for bitcoin-list@lists.sourceforge.net; Tue, 08 May 2012 23:57:21 +0000
+Original-Received: by lbol5 with SMTP id l5so6265482lbo.34
+	for <bitcoin-list@lists.sourceforge.net>;
+	Tue, 08 May 2012 16:57:14 -0700 (PDT)
+Original-Received: by 10.152.112.100 with SMTP id ip4mr19951979lab.1.1336521434092;
+	Tue, 08 May 2012 16:57:14 -0700 (PDT)
+Original-Received: by 10.112.60.39 with HTTP; Tue, 8 May 2012 16:57:14 -0700 (PDT)
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(gavinandresen[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.0 T_FRT_ADULT2           BODY: ReplaceTags: Adult
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+	-0.0 AWL AWL: From: address is in the auto white-list
+X-Headers-End: 1SRuHQ-00041A-L0
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:4
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/4>
+
+Bitcoin version 0.6.2 is now available for download at:
+  http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.6.2/
+
+This is a bug-fix and code-cleanup release, with no major new features.
+
+NOTABLE CHANGES
+===============
+
+Much faster shutdowns. However, the blkindex.dat file is no longer
+portable to different data directories by default. If you need a
+portable blkindex.dat file then run with the new -detachdb=1 option
+or the "Detach databases at shutdown" GUI preference.
+
+Fixed https://github.com/bitcoin/bitcoin/issues/1065, a bug that
+could cause long-running nodes to crash.
+
+Mac and Windows binaries are compiled against OpenSSL 1.0.1b (Linux
+binaries are dynamically linked to the version of OpenSSL on the system).
+
+
+CHANGE SUMMARY
+==============
+
+Use 'git shortlog --no-merges v0.6.0..' for a summary of this release.
+
+Source codebase changes:
+- Many source code cleanups and warnings fixes.  Close to building with -Wall
+- Locking overhaul, and several minor locking fixes
+- Several source code portability fixes, e.g. FreeBSD
+
+JSON-RPC interface changes:
+- addmultisigaddress enabled for mainnet (previously only enabled for testnet)
+
+Network protocol changes:
+- protocol version 60001
+- added nonce value to "ping" message (BIP 31)
+- added new "pong" message (BIP 31)
+
+Backend storage changes:
+- Less redundant database flushing, especially during initial block download
+- Shutdown improvements (see above)
+
+Qt user interface:
+- minor URI handling improvements
+- progressbar improvements
+- error handling improvements (show message box rather than console exception,
+  etc.)
+- by popular request, make 4th bar of connection icon green
+
+
+
+Thanks to everybody who contributed to this release:
+
+Chris Moore
+Dwayne C. Litzenberger
+Gavin Andresen
+Jeff Garzik
+Luke Dashjr
+Matt Corallo
+Philip Kaufmann
+Pieter Wuille
+R E Broadley
+Timothy Redaelli
+Wladimir J. van der Laan
+cardpuncher
+freewil
+graingert
+sje397
+
+------------------------------------------------------------------------------
+Live Security Virtual Conference
+Exclusive live event will cover all the ways today's security and 
+threat landscape has changed and how IT managers can respond. Discussions 
+will include endpoint security, mobile security and the latest in malware 
+threats. http://www.accelacomm.com/jaw/sfrnl04242012/114/50122263/

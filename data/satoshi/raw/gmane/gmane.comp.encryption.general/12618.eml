@@ -1,0 +1,83 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Mon, 10 Nov 2008 00:31:26 +0800
+Lines: 36
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-de81b8e4-4d72-7438-d1fc-d3d2c02148ea@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226258255 16527 80.91.229.12 (9 Nov 2008 19:17:35 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 9 Nov 2008 19:17:35 +0000 (UTC)
+Cc: cryptography@metzdowd.com
+To: jamesd@echeque.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Sun Nov 09 20:18:38 2008
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KzFnu-0003mp-Tx
+	for gcc-cryptography@m.gmane.org; Sun, 09 Nov 2008 20:18:35 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 5B2F26DA52; Sun,  9 Nov 2008 14:15:39 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id A1B6D6DA4B
+	for <cryptography@metzdowd.com>; Sun,  9 Nov 2008 14:15:38 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 86C77EF4E6
+	for <cryptography@metzdowd.com>; Sun,  9 Nov 2008 14:15:38 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 47F638D1FC8; Sun,  9 Nov 2008 14:15:38 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 8DC0F6DA36
+	for <cryptography@metzdowd.com>; Sun,  9 Nov 2008 11:40:56 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Mon, 10 Nov 2008 00:40:45 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12618
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12618>
+
+James A. Donald wrote:
+>OK, suppose one node incorporates a bunch of
+>transactions in its proof of work, all of them honest
+>legitimate single spends and another node incorporates a
+>different bunch of transactions in its proof of
+>work, all of them equally honest legitimate single
+>spends, and both proofs are generated at about the same
+>time.
+>
+>What happens then?
+
+They both broadcast their blocks.  All nodes receive them and keep both,=
+ but only work on the one they received first.  We'll suppose exactly ha=
+lf received one first, half the other. =20
+
+In a short time, all the transactions will finish propagating so that ev=
+eryone has the full set.  The nodes working on each side will be trying =
+to add the transactions that are missing from their side.  When the next=
+ proof-of-work is found, whichever previous block that node was working =
+on, that branch becomes longer and the tie is broken.  Whichever side it=
+ is, the new block will contain the other half of the transactions, so i=
+n either case, the branch will contain all transactions.  Even in the un=
+likely event that a split happened twice in a row, both sides of the sec=
+ond split would contain the full set of transactions anyway.
+
+It's not a problem if transactions have to wait one or a few extra cycle=
+s to get into a block.=20
+
+Satoshi Nakamoto
+
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

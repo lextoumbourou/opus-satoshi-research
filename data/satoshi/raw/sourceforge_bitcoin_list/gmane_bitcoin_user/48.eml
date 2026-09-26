@@ -1,0 +1,141 @@
+Path: news.gmane.org!not-for-mail
+From: s7r <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Difficulty adjustment mechanism
+Date: Sat, 13 Sep 2014 16:15:51 +0300
+Lines: 47
+Approved: news@gmane.org
+Message-ID: <54144387.8050406@sky-ip.org>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1410615221 22525 80.91.229.3 (13 Sep 2014 13:33:41 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 13 Sep 2014 13:33:41 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Sep 13 15:33:34 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XSnSI-0003l7-4B
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 13 Sep 2014 15:33:34 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XSnQu-0004yK-5d; Sat, 13 Sep 2014 13:32:08 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1XSnQr-0004yE-UG
+	for bitcoin-list@lists.sourceforge.net; Sat, 13 Sep 2014 13:32:05 +0000
+Received-SPF: pass (sog-mx-4.v43.ch3.sourceforge.com: domain of sky-ip.org
+	designates 162.222.225.28 as permitted sender)
+	client-ip=162.222.225.28; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.28])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1XSnQk-0003ZQ-Si
+	for bitcoin-list@lists.sourceforge.net; Sat, 13 Sep 2014 13:32:05 +0000
+Original-Received: from [0.0.0.0] (orion1601.startdedicated.de [85.25.44.111])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id 8070D3C0172
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 13 Sep 2014 13:15:56 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.6.0
+X-CTCH-RefID: str=0001.0A020207.5414438E.0276, ss=1, re=0.000, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.000
+X-CTCH-Rules: 
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Scanned-By: MIMEDefang 2.72 on 172.18.214.93
+X-Spam-Score: -1.4 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	0.0 T_DKIM_INVALID DKIM-Signature header exists but is not valid
+X-Headers-End: 1XSnQk-0003ZQ-Si
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:48
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/48>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi there,
+
+I have an contradictory discussion with an altcoin supporter and want
+to bring some solid arguments in a public talk, so require little help
+to respond to a question with simplest answer.
+
+The problem is within the difficulty adjustment mechanism, that it
+happens at every 2016 blocks. In case the hash power will suddenly
+decrease, the 2016 blocks will take a lot of time to solve, therefor
+freeze the network in a non-operational way. I know by far this is
+just a joke, because this is very unlikely to happen anytime (people
+paid for mining equipment and make money) but for the sake of
+discussion, let's just assume it 'could' happen.
+
+Can this really freeze the network for unlimited time and bitcoin has
+no mechanism to balance it back? A resourceful party with the intent
+to attack the network in an irrational way, brings lot of hashing
+power and keeps it for 2016 blocks, then removes it leaving the other
+2016 blocks to solve at very high difficulty but with low hash power
+in the network causing a 'blackout'? Thank you in advance for your
+answers.
+
+
+- -- 
+s7r
+PGP Fingerprint: 7C36 9232 5ABD FB0B 3021 03F1 837F A52C 8126 5B11
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+
+iQEcBAEBAgAGBQJUFEOHAAoJEIN/pSyBJlsR3OgIAL0fvQ6MoftEdqoMZUHpjdYT
+bRE6pXY52O5YIznaVljfbtQinApdWQUJ50VpiJd7KX3zOWFeo+KoUHyYlXTwoUEw
+fK1cbrA5KC8IogHfTCcQxP/lE0mxgCSW3/vQda71IWaOyU4MUT2BSZ/4wwMctI4f
+8tNVPPmzPo/wpO0+NOejowsGLmuzfzy0RMwCTXSbhPJuXr3yvdOTjzkfgy4TsJSU
+K4RmBxqDh6LCrMQTpJfvqCUVEyqckG3AITQ2txdnWiMq1Ep94mvXb2L94Galmz00
+yQzvo9F+G9HL0KgBAmZMrlFjsm58YDTblMTRKzBipozfuOk113XUecV+jHBvBrU=
+=tcCa
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Want excitement?
+Manually upgrade your production database.
+When you want reliability, choose Perforce
+Perforce version control. Predictably reliable.
+http://pubads.g.doubleclick.net/gampad/clk?id=157508191&iu=/4140/ostg.clktrk

@@ -1,0 +1,103 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Sun, 09 Nov 2008 11:09:49 +0800
+Lines: 55
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-5f8f9f20-db9d-36ee-c584-302e967cc244@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226258065 15290 80.91.229.12 (9 Nov 2008 19:14:25 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 9 Nov 2008 19:14:25 +0000 (UTC)
+Cc: cryptography@metzdowd.com
+To: jamesd@echeque.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Sun Nov 09 20:15:28 2008
+connect(): Connection refused
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KzFkt-0002ti-Pq
+	for gcc-cryptography@m.gmane.org; Sun, 09 Nov 2008 20:15:28 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 774786DA47; Sun,  9 Nov 2008 14:13:45 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id DC6E76DA3D
+	for <cryptography@metzdowd.com>; Sun,  9 Nov 2008 14:13:44 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id B2712EF4E7
+	for <cryptography@metzdowd.com>; Sun,  9 Nov 2008 14:13:44 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 6E13A8D23D9; Sun,  9 Nov 2008 14:13:44 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id DC3A56DA37
+	for <cryptography@metzdowd.com>; Sat,  8 Nov 2008 22:14:33 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Sun, 09 Nov 2008 11:14:21 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12613
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12613>
+
+James A. Donald wrote:
+> The core concept is that lots of entities keep complete and consistent
+> information as to who owns which bitcoins.
+>
+> But maintaining consistency is tricky. It is not clear to me what
+> happens when someone reports one transaction to one maintainer, and
+> someone else transports another transaction to another maintainer. The
+> transaction cannot be known to be valid until it has been incorporated
+> into a globally shared view of all past transactions, and no one can
+> know that a globally shared view of all past transactions is globally
+> shared until after some time has passed, and after many new
+> transactions have arrived.
+>
+> Did you explain how to do this, and it just passed over my head, or
+> were you confident it could be done, and a bit vague as to the details=
+?
+
+The proof-of-work chain is the solution to the synchronisation problem, =
+and to knowing what the globally shared view is without having to trust =
+anyone.
+
+A transaction will quickly propagate throughout the network, so if two v=
+ersions of the same transaction were reported at close to the same time,=
+ the one with the head start would have a big advantage in reaching many=
+ more nodes first.  Nodes will only accept the first one they see, refus=
+ing the second one to arrive, so the earlier transaction would have many=
+ more nodes working on incorporating it into the next proof-of-work.  In=
+ effect, each node votes for its viewpoint of which transaction it saw f=
+irst by including it in its proof-of-work effort.
+
+If the transactions did come at exactly the same time and there was an e=
+ven split, it's a toss up based on which gets into a proof-of-work first=
+, and that decides which is valid.
+
+When a node finds a proof-of-work, the new block is propagated throughou=
+t the network and everyone adds it to the chain and starts working on th=
+e next block after it.  Any nodes that had the other transaction will st=
+op trying to include it in a block, since it's now invalid according to =
+the accepted chain.
+
+The proof-of-work chain is itself self-evident proof that it came from t=
+he globally shared view.  Only the majority of the network together has =
+enough CPU power to generate such a difficult chain of proof-of-work.  A=
+ny user, upon receiving the proof-of-work chain, can see what the majori=
+ty of the network has approved.  Once a transaction is hashed into a lin=
+k that's a few links back in the chain, it is firmly etched into the glo=
+bal history.
+
+Satoshi Nakamoto
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

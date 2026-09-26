@@ -1,0 +1,205 @@
+Path: news.gmane.org!not-for-mail
+From: s7r <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Bitcoind error at block 322082 (The network does
+ not appear to fully agree)
+Date: Sat, 14 Mar 2015 00:54:28 +0200
+Lines: 108
+Approved: news@gmane.org
+Message-ID: <55036AA4.60300@sky-ip.org>
+References: <1392201618.4392052.1426126381202.JavaMail.yahoo@mail.yahoo.com>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Trace: ger.gmane.org 1426287350 14760 80.91.229.3 (13 Mar 2015 22:55:50 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 13 Mar 2015 22:55:50 +0000 (UTC)
+Cc: "bitcoin-list@lists.sourceforge.net" <bitcoin-list@lists.sourceforge.net>
+To: Thy Shizzle <thashiznets@yahoo.com.au>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Mar 13 23:55:39 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YWYUU-0003r7-Q3
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 13 Mar 2015 23:55:39 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YWYTp-0004W0-Bd; Fri, 13 Mar 2015 22:54:57 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1YWYTn-0004Vu-Gd
+	for bitcoin-list@lists.sourceforge.net; Fri, 13 Mar 2015 22:54:57 +0000
+Received-SPF: neutral (sog-mx-4.v43.ch3.sourceforge.com: 162.222.225.21 is
+	neither permitted nor denied by domain of sky-ip.org)
+	client-ip=162.222.225.21; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.21])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1YWYTc-0002dx-4U
+	for bitcoin-list@lists.sourceforge.net; Fri, 13 Mar 2015 22:54:55 +0000
+Original-Received: from [0.0.0.0] (exit5.telostor.ca [62.210.74.143])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id 267D07809DB;
+	Fri, 13 Mar 2015 22:54:34 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:31.0) Gecko/20100101 Thunderbird/31.5.0
+In-Reply-To: <1392201618.4392052.1426126381202.JavaMail.yahoo@mail.yahoo.com>
+X-CTCH-RefID: str=0001.0A020204.55036AAE.0165, ss=1, re=0.001, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.001
+X-CTCH-Rules: C_4847,
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Spam-Score: 0.8 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 RCVD_IN_DNSWL_NONE RBL: Sender listed at http://www.dnswl.org/,
+	no trust [162.222.225.21 listed in list.dnswl.org]
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.7 SPF_NEUTRAL SPF: sender does not match SPF record (neutral)
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	0.0 T_DKIM_INVALID DKIM-Signature header exists but is not valid
+X-Headers-End: 1YWYTc-0002dx-4U
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:73
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/73>
+
+LS0tLS1CRUdJTiBQR1AgU0lHTkVEIE1FU1NBR0UtLS0tLQpIYXNoOiBTSEEyNTYKClNvbWV0aGlu
+ZyBpcyByZWFsbHkgc3RyYW5nZSB3aXRoIHRoYXQgcGFydGljdWxhciBibG9jay4KCkkgaGF2ZSBj
+bGVhcmVkIHRoZSBiaXRjb2luIGRhdGEgKGJsb2NrcywgcGVlcnMuZGF0LCBldmVyeXRoaW5nIHRv
+IHN0YXJ0CmZyb20gc2NyYXRjaCkuCgpJIGhhZCBiaXRjb2luZCBpbnN0YWxsZWQgZnJvbSBnaXRo
+dWIsIHYgMC45LjMsIGNvbXBpbGVkIGluIGZvbGRlcgp+L2JpdGNvaW5zcmMKCkkgZGlkIGEgcm0g
+LXJmIH4vYml0Y29pbnNyYywgY2xvbmVkIGFnYWluIGZyb20gZ2l0aHViLCBjaGVja2VkIG91dApp
+bnRvIDAuMTAgYnJhbmNoLCBpbnN0YWxsZWQgdGhlIGFkZGl0aW9uYWwgcmVxdWlyZWQgZGVwZW5k
+ZW5jaWVzCihsaWJkYisrLWRldiBhbmQgbGlidG9vbCkgYW5kIGluc3RhbGxlZCB0aGUgbGF0ZXN0
+IGJpdGNvaW5kLiBJIGxldCBpdAp0byBzeW5jIGFnYWluIGZyb20gc2NyYXRjaCwgYW5kIGl0IGlz
+IGJsb2NrZWQgYWdhaW4gYXQgdGhlIHNhbWUgYmxvY2s6CnsKICAgICJ2ZXJzaW9uIiA6IDkwMzAw
+LAogICAgInByb3RvY29sdmVyc2lvbiIgOiA3MDAwMiwKICAgICJibG9ja3MiIDogMzIyMDgyLAog
+ICAgInRpbWVvZmZzZXQiIDogLTEsCiAgICAiY29ubmVjdGlvbnMiIDogMzUsCiAgICAicHJveHki
+IDogIiIsCiAgICAiZGlmZmljdWx0eSIgOiAyOTgyOTczMzEyNC4wNDA0MTY3MiwKICAgICJ0ZXN0
+bmV0IiA6IGZhbHNlLAogICAgInJlbGF5ZmVlIiA6IDAuMDAwMDEwMDAsCiAgICAiZXJyb3JzIiA6
+ICJXYXJuaW5nOiBUaGUgbmV0d29yayBkb2VzIG5vdCBhcHBlYXIgdG8gZnVsbHkgYWdyZWUhClNv
+bWUgbWluZXJzIGFwcGVhciB0byBiZSBleHBlcmllbmNpbmcgaXNzdWVzLiIKfQoKV2hhdCBpcyBj
+dXJpb3VzIGlzIHRoYXQgaXQgc3RpbGwgc2F0ZXMgdmVyc2lvbiA6IDkwMzAwLCByZWdhcmRsZXNz
+IEkKaGF2ZSB1cGRhdGVkLgoKQ2FuIHNvbWVvbmUgcGxlYXNlIHdyaXRlIGFuIGVhc3kgZ3VpZGUg
+dG8gZml4IHRoaXM/IE1heWJlIEkgZGlkIG5vdAp1bmluc3RhbGwgdGhlIHByZXZpb3VzIDAuOS4z
+IGNvcnJlY3RseT8uIE15IE9wZW5TU0wgaXMgdXAgdG8gZGF0ZS4KT1MgaXMgRGViaWFuIFdoZWV6
+eSA2NCBiaXQuIEkgZG9uJ3Qga25vdyB3aGF0IGVsc2UgdG8gZG8sCmV2ZXJ5dGhpbmcgaXMgdXAg
+dG8gZGF0ZSwgYWxsIGRlcGVuZGVuY2llcyBhcmUgaW5zdGFsbGVkIGFuZAouL2F1dG9nZW4uc2gg
+YW5kIC4vY29uZmlndXJlIGZvciB2LjAuMTAgZGlkIG5vdCBnaXZlIGFueSBlcnJvcnMgYW5kCnBh
+c3NlZCBqdXN0IGZpbmUuCgpPbiAzLzEyLzIwMTUgNDoxMyBBTSwgVGh5IFNoaXp6bGUgd3JvdGU6
+Cj4gSGV5LCBJIHJlYWQgc29tZXRoaW5nIGFib3V0IDAuOS4zIG5vdCB3b3JraW5nIHByb3Blcmx5
+IHdpdGggdGhlIAo+IGxhdGVzdCBPcGVuU1NMLgo+IAo+IEFyZSB5b3UgYnVpbGRpbmcgeW91ciBv
+d24gMC45LjMgbm9kZXMgYW5kIHB1bGxpbmcgaW4gdGhlIGxhdGVzdCAKPiBPcGVuU1NMPyBUaGlz
+IG1pZ2h0IGJlIHlvdXIgcHJvYmxlbT8gVGhleSBzYWlkIHRvIGdldCAwLjkuNCBhbmQgCj4gdGhl
+biBnZXQgdGhlIGxhdGVzdCBPcGVuU1NMIGlmIHlvdSBhcmUgZG9pbmcgdGhhdC4KPiAKPiBBbHNv
+IGp1c3QgZm91bmQgdGhpcyAiTGFyZ2UgdmFsaWQgZm9yayBmb3VuZCIgLCBzdHVjayBhdCBibG9j
+ayAKPiAzMjIwODIgwrcgSXNzdWUgIzU2NDUgwrcgYml0Y29pbi9iaXRjb2luIAo+IDxodHRwczov
+L2dpdGh1Yi5jb20vYml0Y29pbi9iaXRjb2luL2lzc3Vlcy81NjQ1Pgo+IAo+IAo+IGltYWdlIDxo
+dHRwczovL2dpdGh1Yi5jb20vYml0Y29pbi9iaXRjb2luL2lzc3Vlcy81NjQ1Pgo+IAo+IAo+IAo+
+IAo+IAo+IAo+IAo+IAo+IAo+ICJMYXJnZSB2YWxpZCBmb3JrIGZvdW5kIiAsIHN0dWNrIGF0IGJs
+b2NrIDMyMjA4MiDCtyBJc3N1ZS4uLiAKPiA8aHR0cHM6Ly9naXRodWIuY29tL2JpdGNvaW4vYml0
+Y29pbi9pc3N1ZXMvNTY0NT4gSSBnZXQgdGhpcyBlcnJvcjogCj4gMjAxNS0wMS0xMiAwNTowMDoy
+NyBDaGVja0ZvcmtXYXJuaW5nQ29uZGl0aW9uczogV2FybmluZzogTGFyZ2UgCj4gdmFsaWQgZm9y
+ayBmb3VuZCBmb3JraW5nIHRoZSBjaGFpbiBhdCBoZWlnaHQgMzIyMDgyIAo+ICgwMDAwMDAwMDAw
+MDAwMDAwMWU2ZGEuLi4gVmlldyBvbiBnaXRodWIuY29tIAo+IDxodHRwczovL2dpdGh1Yi5jb20v
+Yml0Y29pbi9iaXRjb2luL2lzc3Vlcy81NjQ1PiAgUHJldmlldyBieSBZYWhvbwo+IAo+IAo+IAo+
+IEhvcGUgdGhpcyBoZWxwcyA6KQo+IAo+IEhlbGxvLAo+IAo+IEkgcnVuIHNldmVyYWwgYml0Y29p
+bmQgZnVsbCBub2Rlcywgc29tZSBhY2Nlc3NpYmxlIG9ubHkgdmlhIFRvciAKPiBoaWRkZW4gc2Vy
+dmljZXMgYW5kIHNvbWUgZHVhbC1zdGFjayAoVG9yIGhpZGRlbiBzZXJ2aWNlICsgCj4gY2xlYXJu
+ZXQpLgo+IAo+IFNpbmNlIFRhaWxzIExpbnV4IChodHRwczovL3RhaWxzLmJvdW0ub3JnLykgbm93
+IHNoaXBzIEVsZWN0cnVtIAo+IHdhbGxldCBieSBkZWZhdWx0LCBJIGFsc28gYWRkZWQgc3VwcG9y
+dCBmb3IgRWxlY3RydW0tU2VydmVyLCBzbwo+IHRoZSBUb3IgRWxlY3RydW0gd2FsbGV0IHVzZXJz
+IGNhbiBiZW5lZml0IG9mIHNvbWUgcmVsaWFibGUgc2VydmVycyAKPiBhY2Nlc3NpYmxlIHZpYSBU
+b3IgaGlkZGVuIHNlcnZpY2VzLgo+IAo+IEp1c3Qgb25lIG9mIHRoZSBub2RlcyB3b24ndCBsZXQg
+bWUgY29tcGxldGUgdGhlIHNldHVwLiBXaGVuIGFkZGluZwo+ICBlbGVjdHJ1bS1zZXJ2ZXIsIHRo
+ZXJlIGlzIGFsc28gdGhlIG5lZWQgdG8gYWRkIHR4aW5kZXg9MSBpbiAKPiBiaXRjb2luLmNvbmYg
+YW5kIC1yZWluZGV4IHRoZSBibG9ja2NoYWluIChpbiBteSBzZXR1cHMpLiBJIGRpZCBpdCAKPiBv
+biB0aGUgb3RoZXIgbm9kZXMgd2l0aCBubyBwcm9ibGVtLiBPbiB0aGUgY3VycmVudCBvbmUsIEkg
+dHJpZWQgdG8gCj4gZG8gaXQgMiB0aW1lcyBhbmQgaXQgZnJlZXplcyBhdCB0aGlzIHN0YWdlOgo+
+IAo+IHsgInZlcnNpb24iIDogOTAzMDAsICJwcm90b2NvbHZlcnNpb24iIDogNzAwMDIsICJibG9j
+a3MiIDogMzIyMDgyLAo+ICAidGltZW9mZnNldCIgOiAtMSwgImNvbm5lY3Rpb25zIiA6IDQxLCAi
+cHJveHkiIDogIiIsICJkaWZmaWN1bHR5Igo+IDogMjk4Mjk3MzMxMjQuMDQwNDE2NzIsICJ0ZXN0
+bmV0IiA6IGZhbHNlLCAicmVsYXlmZWUiIDogMC4wMDAwMTAwMCwKPiAgImVycm9ycyIgOiAiV2Fy
+bmluZzogVGhlIG5ldHdvcmsgZG9lcyBub3QgYXBwZWFyIHRvIGZ1bGx5IGFncmVlISAKPiBTb21l
+IG1pbmVycyBhcHBlYXIgdG8gYmUgZXhwZXJpZW5jaW5nIGlzc3Vlcy4iIH0KPiAKPiBBdCB0aGlz
+IHN0YWdlIGl0IGlzIG5vdCBjb25zdW1pbmcgYW55IENQVSwgd2hpbGUgdW50aWwgYmxvY2sgMzIy
+MDgyCj4gd2hpbGUgaXQgd2FzIHJlaW5kZXhpbmcgdGhlIHByZXZpb3VzIGJsb2NrcywgdGhlIENQ
+VSB1c2FnZSB3YXMKPiBiZXR3ZWVuIDkwJSBhbmQgMTAwJS4gTm93IGl0J3MgZnJvemVuIGF0IGJs
+b2NrIDMyMjA4MiBmb3Igb3ZlciA3Cj4gaG91cnMuCj4gCj4gVHlwZTogdmlydHVhbCBtYWNoaW5l
+IE9TOiBEZWJpYW4gV2hlZXp5IDY0IGJpdCBDUFU6IEludGVsKFIpIAo+IFhlb24oUikgQ1BVICAg
+ICAgICAgICBFNTYwNiAgQCAyLjEzR0h6ICgxIHZpcnR1YWwgY29yZSkgUkFNOiA4IEdCIAo+IEJp
+dGNvaW46IGJpdGNvaW5kIDAuOS4zIGluc3RhbGxlZCB2aWEgZ2l0LCBmcm9tIGdpdGh1Yi4KPiAK
+PiBXaGF0IGFyZSB0aGUgcG9zc2libGUgc29sdXRpb25zPyBPbmUgd291bGQgYmUgdG8gZGVsZXRl
+IGFsbCB0aGUgCj4gZGF0YSBhbmQgbGV0IGl0IHN5bmMgYWdhaW4gZnJvbSBzY3JhdGNoIHdpdGgg
+dHhpbmRleD0xIGZyb20gCj4gc3RhcnRlcnMsIGJ1dCBzdGlsbCwgSSB3b3VsZCBsaWtlIHRvIGZp
+Z3VyZSBvdXQsIHdoeSBpcyB0aGlzIG5vZGUgCj4gYmVoYXZpbmcgbGlrZSB0aGlzPwo+IAo+IC0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLQo+Cj4KPiAKRGl2ZSBpbnRvIHRoZSBXb3JsZCBvZiBQYXJhbGxl
+bCBQcm9ncmFtbWluZyBUaGUgR28gUGFyYWxsZWwgV2Vic2l0ZSwKPiBzcG9uc29yZWQgYnkgSW50
+ZWwgYW5kIGRldmVsb3BlZCBpbiBwYXJ0bmVyc2hpcCB3aXRoIFNsYXNoZG90IAo+IE1lZGlhLCBp
+cyB5b3VyIGh1YiBmb3IgYWxsIHRoaW5ncyBwYXJhbGxlbCBzb2Z0d2FyZSBkZXZlbG9wbWVudCwg
+Cj4gZnJvbSB3ZWVrbHkgdGhvdWdodCBsZWFkZXJzaGlwIGJsb2dzIHRvIG5ld3MsIHZpZGVvcywg
+Y2FzZQo+IHN0dWRpZXMsIHR1dG9yaWFscyBhbmQgbW9yZS4gVGFrZSBhIGxvb2sgYW5kIGpvaW4g
+dGhlIGNvbnZlcnNhdGlvbgo+IG5vdy4gaHR0cDovL2dvcGFyYWxsZWwuc291cmNlZm9yZ2UubmV0
+LyAKPiBfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXyBiaXRj
+b2luLWxpc3QgCj4gbWFpbGluZyBsaXN0IGJpdGNvaW4tbGlzdEBsaXN0cy5zb3VyY2Vmb3JnZS5u
+ZXQgYml0Y29pbi1saXN0IC0tIAo+IDxodHRwczovL2xpc3RzLnNvdXJjZWZvcmdlLm5ldC9saXN0
+cy9saXN0aW5mby9iaXRjb2luLWxpc3Q+Cj4gCj4gCj4gCj4gCj4gCj4gCj4gCj4gCj4gCj4gCj4g
+Yml0Y29pbi1saXN0IC0tIAo+IDxodHRwczovL2xpc3RzLnNvdXJjZWZvcmdlLm5ldC9saXN0cy9s
+aXN0aW5mby9iaXRjb2luLWxpc3Q+IFRvIHNlZSAKPiB0aGUgY29sbGVjdGlvbiBvZiBwcmlvciBw
+b3N0aW5ncyB0byB0aGUgbGlzdCwgdmlzaXQgdGhlIAo+IGJpdGNvaW4tbGlzdCBBcmNoaXZlcy4g
+VmlldyBvbiBsaXN0cy5zb3VyY2Vmb3JnZS5uZXQgCj4gPGh0dHBzOi8vbGlzdHMuc291cmNlZm9y
+Z2UubmV0L2xpc3RzL2xpc3RpbmZvL2JpdGNvaW4tbGlzdD4gUHJldmlldwo+IGJ5IFlhaG9vCj4g
+Cj4gCj4gCi0tLS0tQkVHSU4gUEdQIFNJR05BVFVSRS0tLS0tClZlcnNpb246IEdudVBHIHYyLjAu
+MjIgKE1pbmdXMzIpCgppUUVjQkFFQkNBQUdCUUpWQTJxa0FBb0pFSU4vcFN5Qkpsc1JobDhILzJ2
+NTdjeklyRWtMY1dEYlhheHU3UXo1ClloR1ZyQ0xYZzByL0lxdnFJVXV2QlZldFd6RjBpVGhPTUhP
+OTJaakpIOXdscDVTWTNsbkxvc0hMSS9laWxlVlAKZGZ0TU1VYXZMZHdmN09xMHdwNFZxWnpZQ09M
+ODI1MkFCM2lCV2ZlVUdHeE9CcmwzczE5UnowbFlwMmFqR2R4MwpxS09GMDQ5bzY3TEhOQ3lPRUds
+eDlheDFhdlkzMGNLTzROMndJbzRUbnFYdzdaOHpwZWZwWVBOaUJxNU9VQnFJClNrSW9IZFIraklE
+UjdsSGFNWkw5bHF3d0g1NE1nV1RXYjl3TXpDN3V4S0dpOXBoNW01REI1ZVBEL0hxUG9RVlgKRzZQ
+QllhWko5TEp2WHVxemorU0h6RW1JZzNtTE9CUlYveWlKVWJvTjFRWUJPNHltTTc2NVQ2ejczeHYy
+VW1JPQo9dkNHUwotLS0tLUVORCBQR1AgU0lHTkFUVVJFLS0tLS0KCi0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLQpEaXZlIGludG8gdGhlIFdvcmxkIG9mIFBhcmFsbGVsIFByb2dyYW1taW5nIFRoZSBHbyBQ
+YXJhbGxlbCBXZWJzaXRlLCBzcG9uc29yZWQKYnkgSW50ZWwgYW5kIGRldmVsb3BlZCBpbiBwYXJ0
+bmVyc2hpcCB3aXRoIFNsYXNoZG90IE1lZGlhLCBpcyB5b3VyIGh1YiBmb3IgYWxsCnRoaW5ncyBw
+YXJhbGxlbCBzb2Z0d2FyZSBkZXZlbG9wbWVudCwgZnJvbSB3ZWVrbHkgdGhvdWdodCBsZWFkZXJz
+aGlwIGJsb2dzIHRvCm5ld3MsIHZpZGVvcywgY2FzZSBzdHVkaWVzLCB0dXRvcmlhbHMgYW5kIG1v
+cmUuIFRha2UgYSBsb29rIGFuZCBqb2luIHRoZSAKY29udmVyc2F0aW9uIG5vdy4gaHR0cDovL2dv
+cGFyYWxsZWwuc291cmNlZm9yZ2UubmV0LwpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fXwpiaXRjb2luLWxpc3QgbWFpbGluZyBsaXN0CmJpdGNvaW4tbGlzdEBs
+aXN0cy5zb3VyY2Vmb3JnZS5uZXQKaHR0cHM6Ly9saXN0cy5zb3VyY2Vmb3JnZS5uZXQvbGlzdHMv
+bGlzdGluZm8vYml0Y29pbi1saXN0Cg==
+

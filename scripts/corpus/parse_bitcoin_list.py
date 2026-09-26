@@ -16,7 +16,7 @@ Inputs (all under data/satoshi/raw/):
 TIMESTAMPS. SourceForge's archive shows "YYYY-MM-DD HH:MM:SS" without a zone. Using the 2011-2014
 bitcoin-list messages that Gmane also archived raw, the SourceForge display equals, to the second,
 the `Received: ... by sfs-ml-N.v29.ch3.sourceforge.com ...; <date> +0000` hop (arrival at the
-SourceForge list server) in UTC in every matchable case (15/15), and NOT the Date: header (e.g.
+SourceForge list server) in UTC in every matchable case (37/37, see intermediate/bitcoin_list_sf_tz_anchor.json), and NOT the Date: header (e.g.
 Date 20:11:16Z vs SF 22:47:55Z; a sender with a fast clock: Date 03:39:34Z vs SF 03:37:03Z).
 So `sf_display` = UTC time of arrival at SourceForge. Where the sender's Date: header is known from
 another copy (Malmi's / Trammell's received copies, metzdowd/Gmane raw, or a Thunderbird
@@ -135,19 +135,61 @@ def strip_quotes(body):
     for i, ln in enumerate(lines):
         if re.match(r"^\s*>", ln):
             continue
-        if re.search(r"(wrote|writes):\s*$", ln):
+        if re.search(r"(wrote|writes):\s*$", ln) or re.match(r"^From: .*\d{4}-\d\d-\d\d \d\d:\d\d\s*$", ln):
             j = i + 1
             while j < len(lines) and lines[j].strip() == "":
                 j += 1
             if j < len(lines) and re.match(r"^\s*>", lines[j]):
                 continue
         keep.append(ln)
+    while keep and not keep[0].strip():
+        keep.pop(0)
+    while keep and not keep[-1].strip():
+        keep.pop()
     out = "\n".join(keep)
     return re.sub(r"\n{3,}", "\n\n", out).strip("\n") + "\n"
 
 
 def norm(t):
     return re.sub(r"\s+", " ", t).strip()
+
+
+def sf_timezone_anchor(lug):
+    """Compare SourceForge display times (lugaxker transcription of the Allura listing) with the raw
+    headers of the same messages in Gmane (gmane.comp.bitcoin.user, 2011+). Writes
+    intermediate/bitcoin_list_sf_tz_anchor.json and returns (n_match_arrival, n_compared)."""
+    import email
+    import email.header
+    import glob
+    rows = []
+    for f in sorted(glob.glob(os.path.join(RAWD, "gmane_bitcoin_user", "*.eml")),
+                    key=lambda x: int(os.path.basename(x)[:-4])):
+        msg = email.message_from_bytes(open(f, "rb").read())
+        subj = norm(str(email.header.make_header(email.header.decode_header(msg["Subject"] or ""))))
+        try:
+            date = parsedate_to_datetime(msg["Date"]).astimezone(timezone.utc)
+        except Exception:
+            continue
+        arrival = None
+        for k, v in msg.items():
+            if k == "Original-Received" and "by sfs-ml" in v and "from sog-mx" in v:
+                arrival = parsedate_to_datetime(norm(v.split(";")[-1])).astimezone(timezone.utc)
+        name = (msg["From"] or "").split("<")[0].strip().strip('"').split(" ")[0].lower()
+        core = re.sub(r"^(Re: )?(\[bitcoin-list\] )?", "", subj)[:40]
+        cands = [x for x in lug if re.sub(r"^(Re: )?(\[bitcoin-list\] )?", "", x["subject"])[:40] == core
+                 and name and name in x["from"].lower()]
+        if len(cands) != 1 or arrival is None:
+            continue
+        sf = datetime.strptime(cands[0]["sf_display"], "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+        rows.append({"gmane_article": os.path.basename(f), "subject": subj[:60], "date_header_utc": iso(date),
+                     "sf_list_server_received_utc": iso(arrival), "sf_display": cands[0]["sf_display"],
+                     "sf_minus_received_s": (sf - arrival).total_seconds(), "sf_minus_date_s": (sf - date).total_seconds()})
+    n_ok = sum(1 for r in rows if abs(r["sf_minus_received_s"]) <= 1)
+    with open(os.path.join(os.path.dirname(OUT), "bitcoin_list_sf_tz_anchor.json"), "w") as f:
+        json.dump({"conclusion": f"SourceForge display == UTC arrival at SourceForge list server (+-1 s) in {n_ok}/{len(rows)} "
+                                 "unambiguously matched 2011-2014 messages; differs from Date: header",
+                   "rows": rows}, f, indent=1)
+    return n_ok, len(rows)
 
 
 def main():
@@ -272,6 +314,11 @@ def main():
                              "be earlier than timestamp_utc.")
             else:
                 notes.append("Timestamp is SourceForge arrival; for GMX-era posts with known Date: headers the lag was 16 s - 28 min.")
+        if "gm..." in frm:
+            wsn += (" GMX-era posts were sent with Thunderbird (format=flowed): a trailing space at a line end "
+                    "marks a soft wrap; a line starting with an extra space is space-stuffing.")
+        else:
+            wsn += " vistomail-era posts are hard-wrapped plain text (Chilkat mailer via anonymousspeech web mail)."
         fa = re.search(r"<(.*?)>", frm)
         disp_addr = fa.group(1) if fa else None
         items.append({
@@ -302,6 +349,8 @@ def main():
             "subject": subj,
             "notes": " ".join(notes) or None,
         })
+    ok, n = sf_timezone_anchor(lug)
+    print(f"SF time-zone anchor: display == UTC SF arrival in {ok}/{n} matched Gmane messages")
     with open(OUT, "w") as f:
         for it in items:
             f.write(json.dumps(it, ensure_ascii=False) + "\n")

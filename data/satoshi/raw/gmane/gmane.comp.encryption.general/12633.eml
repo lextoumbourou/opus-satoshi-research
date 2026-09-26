@@ -1,0 +1,104 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Sat, 15 Nov 2008 02:55:35 +0800
+Lines: 57
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-41a4bab8-9538-d1ea-d079-b843b2667bec@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226701776 25074 80.91.229.12 (14 Nov 2008 22:29:36 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 14 Nov 2008 22:29:36 +0000 (UTC)
+Cc: cryptography@metzdowd.com, jamesd@echeque.com
+To: hal@finney.org
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Fri Nov 14 23:30:36 2008
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1L17BS-0004bq-Ld
+	for gcc-cryptography@m.gmane.org; Fri, 14 Nov 2008 23:30:34 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 5B8D76DA37; Fri, 14 Nov 2008 17:29:09 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id E25B46DA34
+	for <cryptography@metzdowd.com>; Fri, 14 Nov 2008 17:29:08 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 95D8DEF3CE
+	for <cryptography@metzdowd.com>; Fri, 14 Nov 2008 17:29:08 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 21E638D200F; Fri, 14 Nov 2008 17:29:08 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 090B76DA38
+	for <cryptography@metzdowd.com>; Fri, 14 Nov 2008 13:59:15 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Sat, 15 Nov 2008 02:58:57 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12633
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12633>
+
+Hal Finney wrote:
+> I think it is necessary that nodes keep a separate=20
+> pending-transaction list associated with each candidate chain.=20
+> ... One might also ask ... how many candidate chains must=20
+> a given node keep track of at one time, on average?
+
+Fortunately, it's only necessary to keep a pending-transaction pool for =
+the current best branch.  When a new block arrives for the best branch, =
+ConnectBlock removes the block's transactions from the pending-tx pool. =
+ If a different branch becomes longer, it calls DisconnectBlock on the m=
+ain branch down to the fork, returning the block transactions to the pen=
+ding-tx pool, and calls ConnectBlock on the new branch, sopping back up =
+any transactions that were in both branches.  It's expected that reorgs =
+like this would be rare and shallow.
+
+With this optimisation, candidate branches are not really any burden.  T=
+hey just sit on the disk and don't require attention unless they ever be=
+come the main chain.
+
+
+> Or as James raised earlier, if the network broadcast=20
+> is reliable but depends on a potentially slow flooding=20
+> algorithm, how does that impact performance?
+
+Broadcasts will probably be almost completely reliable.  TCP transmissio=
+ns are rarely ever dropped these days, and the broadcast protocol has a =
+retry mechanism to get the data from other nodes after a while.  If broa=
+dcasts turn out to be slower in practice than expected, the target time =
+between blocks may have to be increased to avoid wasting resources.  We =
+want blocks to usually propagate in much less time than it takes to gene=
+rate them, otherwise nodes would spend too much time working on obsolete=
+ blocks.
+
+I'm planning to run an automated test with computers randomly sending pa=
+yments to each other and randomly dropping packets.
+
+
+> 3. The bitcoin system turns out to be socially useful and valuable, so
+> that node operators feel that they are making a beneficial contributio=
+n
+> to the world by their efforts (similar to the various "@Home" compute
+> projects where people volunteer their compute resources for good cause=
+s).
+>=20
+> In this case it seems to me that simple altruism can suffice to keep t=
+he
+> network running properly.
+
+It's very attractive to the libertarian viewpoint if we can explain it p=
+roperly.  I'm better with code than with words though.
+
+Satoshi Nakamoto
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

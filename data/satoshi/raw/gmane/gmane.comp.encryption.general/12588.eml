@@ -1,0 +1,91 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Bitcoin P2P e-cash paper
+Date: Sat, 01 Nov 2008 02:10:00 +0800
+Lines: 44
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-dd013ecc-8c7f-fc14-b1c5-cc9fd0181098@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1225581400 27728 80.91.229.12 (1 Nov 2008 23:16:40 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 1 Nov 2008 23:16:40 +0000 (UTC)
+To: cryptography@metzdowd.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Sun Nov 02 00:17:42 2008
+connect(): Connection refused
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KwPiv-0007aU-NR
+	for gcc-cryptography@m.gmane.org; Sun, 02 Nov 2008 00:17:42 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 723486DA3F; Sat,  1 Nov 2008 19:15:35 -0400 (EDT)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id D2FB06DA3C
+	for <cryptography@metzdowd.com>; Sat,  1 Nov 2008 19:15:34 -0400 (EDT)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id 89D55EEE71
+	for <cryptography@metzdowd.com>; Sat,  1 Nov 2008 19:15:33 -0400 (EDT)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 3AC278D1FC8; Sat,  1 Nov 2008 19:15:33 -0400 (EDT)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 778A66DA47
+	for <cryptography@metzdowd.com>; Fri, 31 Oct 2008 14:20:34 -0400 (EDT)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Sat, 01 Nov 2008 02:20:18 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12588
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12588>
+
+I've been working on a new electronic cash system that's fully
+peer-to-peer, with no trusted third party.
+
+The paper is available at:
+http://www.bitcoin.org/bitcoin.pdf
+
+The main properties:
+ Double-spending is prevented with a peer-to-peer network.
+ No mint or other trusted parties.
+ Participants can be anonymous.
+ New coins are made from Hashcash style proof-of-work.
+ The proof-of-work for new coin generation also powers the
+    network to prevent double-spending.
+
+Bitcoin: A Peer-to-Peer Electronic Cash System
+
+Abstract.  A purely peer-to-peer version of electronic cash would
+allow online payments to be sent directly from one party to another
+without the burdens of going through a financial institution.
+Digital signatures provide part of the solution, but the main
+benefits are lost if a trusted party is still required to prevent
+double-spending.  We propose a solution to the double-spending
+problem using a peer-to-peer network.  The network timestamps
+transactions by hashing them into an ongoing chain of hash-based
+proof-of-work, forming a record that cannot be changed without
+redoing the proof-of-work.  The longest chain not only serves as
+proof of the sequence of events witnessed, but proof that it came
+from the largest pool of CPU power.  As long as honest nodes control
+the most CPU power on the network, they can generate the longest
+chain and outpace any attackers.  The network itself requires
+minimal structure.  Messages are broadcasted on a best effort basis,
+and nodes can leave and rejoin the network at will, accepting the
+longest proof-of-work chain as proof of what happened while they
+were gone.
+
+Full paper at:
+http://www.bitcoin.org/bitcoin.pdf
+
+Satoshi Nakamoto
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

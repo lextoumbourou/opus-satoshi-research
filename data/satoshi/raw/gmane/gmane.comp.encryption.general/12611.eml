@@ -1,0 +1,81 @@
+Path: news.gmane.org!not-for-mail
+From: "Satoshi Nakamoto" <satoshi@vistomail.com>
+Newsgroups: gmane.comp.encryption.general
+Subject: Re: Bitcoin P2P e-cash paper
+Date: Sun, 09 Nov 2008 02:54:38 +0800
+Lines: 34
+Approved: news@gmane.org
+Message-ID: <CHILKAT-MID-5d46339d-6ba0-f7f4-8383-78016ca7ca16@server123>
+Reply-To: satoshi@vistomail.com
+NNTP-Posting-Host: lo.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+X-Trace: ger.gmane.org 1226180323 16140 80.91.229.12 (8 Nov 2008 21:38:43 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 8 Nov 2008 21:38:43 +0000 (UTC)
+To: cryptography@metzdowd.com
+Original-X-From: owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com Sat Nov 08 22:39:46 2008
+connect(): Connection refused
+Return-path: <owner-cryptography+gcc-cryptography=m.gmane.org@metzdowd.com>
+Envelope-to: gcc-cryptography@m.gmane.org
+Original-Received: from green.metzdowd.com ([166.84.7.15])
+	by lo.gmane.org with esmtp (Exim 4.50)
+	id 1KyvWq-00026t-Aj
+	for gcc-cryptography@m.gmane.org; Sat, 08 Nov 2008 22:39:36 +0100
+Original-Received: by green.metzdowd.com (Postfix, from userid 1101)
+	id 881CB6DA3F; Sat,  8 Nov 2008 16:37:49 -0500 (EST)
+Delivered-To: cryptography@metzdowd.com
+Original-Received: from hacklheber.piermont.com (hacklheber.piermont.com [166.84.7.14])
+	by green.metzdowd.com (Postfix) with ESMTP id CBB916DA37
+	for <cryptography@metzdowd.com>; Sat,  8 Nov 2008 16:37:48 -0500 (EST)
+Original-Received: from snark.piermont.com (localhost [127.0.0.1])
+	by hacklheber.piermont.com (Postfix) with ESMTP id AEE3AEF4C8
+	for <cryptography@metzdowd.com>; Sat,  8 Nov 2008 16:37:48 -0500 (EST)
+Original-Received: by snark.piermont.com (Postfix, from userid 1000)
+	id 6460F8D206C; Sat,  8 Nov 2008 16:37:48 -0500 (EST)
+Original-Received: from mail.anonymousspeech.com (anonymousspeech.com [124.217.253.42])
+	by green.metzdowd.com (Postfix) with ESMTP id 34D236DA32
+	for <cryptography@metzdowd.com>; Sat,  8 Nov 2008 16:30:20 -0500 (EST)
+Original-Received: from server123 ([124.217.253.42]) by anonymousspeech.com with MailEnable ESMTP; Sun, 09 Nov 2008 05:30:08 +0800
+X-Mailer: Chilkat Software Inc (http://www.chilkatsoft.com)
+X-Priority: 3 (Normal)
+Original-Sender: owner-cryptography@metzdowd.com
+Precedence: bulk
+Xref: news.gmane.org gmane.comp.encryption.general:12611
+Archived-At: <http://permalink.gmane.org/gmane.comp.encryption.general/12611>
+
+Ray Dillinger:
+> the "currency" is inflationary at about 35%=20
+> as that's how much faster computers get annually
+> ... the inflation rate of 35% is almost guaranteed=20
+> by the technology
+
+Increasing hardware speed is handled: "To compensate for increasing hard=
+ware speed and varying interest in running nodes over time, the proof-of=
+-work difficulty is determined by a moving average targeting an average =
+number of blocks per hour. If they're generated too fast, the difficulty=
+ increases."
+
+As computers get faster and the total computing power applied to creatin=
+g bitcoins increases, the difficulty increases proportionally to keep th=
+e total new production constant.  Thus, it is known in advance how many =
+new bitcoins will be created every year in the future.
+
+The fact that new coins are produced means the money supply increases by=
+ a planned amount, but this does not necessarily result in inflation.  I=
+f the supply of money increases at the same rate that the number of peop=
+le using it increases, prices remain stable.  If it does not increase as=
+ fast as demand, there will be deflation and early holders of money will=
+ see its value increase.
+
+Coins have to get initially distributed somehow, and a constant rate see=
+ms like the best formula.
+
+Satoshi Nakamoto
+
+
+---------------------------------------------------------------------
+The Cryptography Mailing List
+Unsubscribe by sending "unsubscribe cryptography" to majordomo@metzdowd.com
+

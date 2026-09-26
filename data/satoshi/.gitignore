@@ -1,0 +1,7 @@
+# Partial bare clone of bitcoin/bitcoin (commits only, ~40 MB). Re-create with:
+#   git clone --bare --filter=tree:0 https://github.com/bitcoin/bitcoin.git data/satoshi/raw/bitcoin-git
+# The relevant data is preserved in raw/bitcoin-git-satoshi-log.txt and intermediate/svn_commits.jsonl.
+raw/bitcoin-git/
+# Raw Malmi archive pages contain old (invalidated) credentials that Malmi published;
+# kept locally, re-download from https://mmalmi.github.io/satoshi/
+raw/private_emails/malmi/

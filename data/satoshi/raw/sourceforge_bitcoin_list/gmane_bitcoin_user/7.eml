@@ -1,0 +1,111 @@
+Path: news.gmane.org!not-for-mail
+From: "Joseph A. Nagy, Jr" <jnagyjr1978@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Bitcoin xpm's for Linux and FreeBSD
+Date: Mon, 01 Jul 2013 05:56:53 -0500
+Organization: Boo-LaLa (Enterprises)
+Lines: 25
+Approved: news@gmane.org
+Message-ID: <51D16075.4040701@gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1372676343 13177 80.91.229.3 (1 Jul 2013 10:59:03 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Mon, 1 Jul 2013 10:59:03 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Mon Jul 01 12:59:03 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1Utbp0-0007jN-HS
+	for gcbd-bitcoin-list@m.gmane.org; Mon, 01 Jul 2013 12:59:02 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1UtboP-0007zp-Hr; Mon, 01 Jul 2013 10:58:25 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <jnagyjr1978@gmail.com>) id 1UtboO-0007zj-1q
+	for bitcoin-list@lists.sourceforge.net; Mon, 01 Jul 2013 10:58:24 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.213.50 as permitted sender)
+	client-ip=209.85.213.50; envelope-from=jnagyjr1978@gmail.com;
+	helo=mail-yh0-f50.google.com; 
+Original-Received: from mail-yh0-f50.google.com ([209.85.213.50])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1UtboM-00075F-DK
+	for bitcoin-list@lists.sourceforge.net; Mon, 01 Jul 2013 10:58:24 +0000
+Original-Received: by mail-yh0-f50.google.com with SMTP id i72so2394312yha.23
+	for <bitcoin-list@lists.sourceforge.net>;
+	Mon, 01 Jul 2013 03:58:17 -0700 (PDT)
+X-Received: by 10.236.45.66 with SMTP id o42mr11866005yhb.198.1372676296949;
+	Mon, 01 Jul 2013 03:58:16 -0700 (PDT)
+Original-Received: from [206.74.220.62] (vid-62.dhcp.grp17.tnmmrl.infoave.net.
+	[206.74.220.62])
+	by mx.google.com with ESMTPSA id d68sm32459119yhk.7.2013.07.01.03.58.15
+	for <bitcoin-list@lists.sourceforge.net>
+	(version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+	Mon, 01 Jul 2013 03:58:16 -0700 (PDT)
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64;
+	rv:17.0) Gecko/20130221 Thunderbird/17.0.3
+X-Spam-Score: -1.4 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(jnagyjr1978[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+	digit (jnagyjr1978[at]gmail.com)
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1UtboM-00075F-DK
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:7
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/7>
+
+Hi everyone,
+
+For anyone using bitcoin-qt on Linux or FreeBSD I have made some xpm's 
+which I'm distributing. There are two images in every WindowMaker tile 
+size from 24x24 to 96x96. 
+http://www.joseph-a-nagy-jr.us/downloads/xpm-bitcoin-qt.tar.gz All 
+released under the OWL (http://copyfree.org/licenses/owl/license.txt).
+
+Enjoy!
+-- 
+Yours in Christ,
+
+Joseph A Nagy Jr
+"Whoever loves instruction loves knowledge, But he who hates correction
+is stupid." -- Proverbs 12:1
+Emails are not formal business letters, whatever businesses may want.
+Original content CopyFree (F) under the OWL 
+http://copyfree.org/licenses/owl/license.txt
+
+------------------------------------------------------------------------------
+This SF.net email is sponsored by Windows:
+
+Build for Windows Store.
+
+http://p.sf.net/sfu/windows-dev2dev

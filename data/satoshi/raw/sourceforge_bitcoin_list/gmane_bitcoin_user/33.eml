@@ -1,0 +1,113 @@
+Path: news.gmane.org!not-for-mail
+From: Gregory Nemitz <000mail@beefjerky.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Beefjerky.com Accepts Bitcoin
+Date: Fri, 15 Nov 2013 17:43:59 -0700
+Lines: 29
+Approved: news@gmane.org
+Message-ID: <E1VhUPA-0001YI-2b@sfs-ml-1.v29.ch3.sourceforge.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1384564264 11705 80.91.229.3 (16 Nov 2013 01:11:04 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 16 Nov 2013 01:11:04 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Nov 16 02:11:09 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VhUPk-00086t-TL
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 16 Nov 2013 02:11:09 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VhUPA-0001YI-2b; Sat, 16 Nov 2013 01:10:32 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <000mail@beefjerky.com>) id 1VhUP8-0001YC-Lb
+	for bitcoin-list@lists.sourceforge.net; Sat, 16 Nov 2013 01:10:30 +0000
+X-ACL-Warn: 
+Original-Received: from biz123.inmotionhosting.com ([173.247.247.50])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1VhUP4-00083n-L1
+	for bitcoin-list@lists.sourceforge.net; Sat, 16 Nov 2013 01:10:30 +0000
+Original-Received: from 67-60-214-206.cpe.cableone.net ([67.60.214.206]:59603
+	helo=Gateway.beefjerky.com)
+	by biz123.inmotionhosting.com with esmtpsa
+	(TLSv1:DHE-RSA-AES256-SHA:256) (Exim 4.80)
+	(envelope-from <000mail@beefjerky.com>) id 1VhTzX-0004Wt-6A
+	for bitcoin-list@lists.sourceforge.net; Fri, 15 Nov 2013 16:44:04 -0800
+X-Mailer: QUALCOMM Windows Eudora Version 7.1.0.9
+X-OutGoing-Spam-Status: No, score=-1.7
+X-AntiAbuse: This header was added to track abuse,
+	please include it with any abuse report
+X-AntiAbuse: Primary Hostname - biz123.inmotionhosting.com
+X-AntiAbuse: Original Domain - lists.sourceforge.net
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - beefjerky.com
+X-Get-Message-Sender-Via: biz123.inmotionhosting.com: authenticated_id:
+	000mail+beefjerky.com/only user confirmed/virtual account not
+	confirmed
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Score: 1.6 (+)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	0.6 FROM_STARTS_WITH_NUMS  From: starts with several numbers
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: beefjerky.com]
+	1.0 MISSING_MID            Missing Message-Id: header
+X-Headers-End: 1VhUP4-00083n-L1
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:33
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/33>
+
+Beefjerky.com is accepting Bitcoin for our excellent, fresh beef 
+jerky.  We have six premium flavors.
+
+Stop by soon to http://www.beefjerky.com and choose some really fine 
+beef jerky.
+
+We offer FREE shipping to almost every country in the world.  We 
+always send it to you by Priority Mail, so you get your beef jerky fast!
+
+Our BTC transactions are processed via Coinbase at the current 
+USD/BTC exchange rate.
+
+
+Cheers!
+Greg
+
+
+
+FRESH beef jerky, directly from http://Beefjerky.com
+Why wait?  Order some today.
+
+
+
+------------------------------------------------------------------------------
+DreamFactory - Open Source REST & JSON Services for HTML5 & Native Apps
+OAuth, Users, Roles, SQL, NoSQL, BLOB Storage and External API Access
+Free app hosting. Or install the open source package on any LAMP server.
+Sign up and see examples for AngularJS, jQuery, Sencha Touch and Native!
+http://pubads.g.doubleclick.net/gampad/clk?id=63469471&iu=/4140/ostg.clktrk

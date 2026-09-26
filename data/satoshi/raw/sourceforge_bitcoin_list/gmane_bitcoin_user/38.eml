@@ -1,0 +1,140 @@
+Path: news.gmane.org!not-for-mail
+From: s7r <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: forever lost BTC number is growing dramatically
+Date: Fri, 28 Feb 2014 03:09:38 +0200
+Lines: 43
+Approved: news@gmane.org
+Message-ID: <530FE1D2.9000501@sky-ip.org>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393550907 28992 80.91.229.3 (28 Feb 2014 01:28:27 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 28 Feb 2014 01:28:27 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Feb 28 02:28:35 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJCFe-0002G1-BI
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 28 Feb 2014 02:28:34 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJCFB-0000Jw-IK; Fri, 28 Feb 2014 01:28:05 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1WJCFA-0000Jr-58
+	for bitcoin-list@lists.sourceforge.net; Fri, 28 Feb 2014 01:28:04 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of sky-ip.org
+	designates 162.222.225.9 as permitted sender)
+	client-ip=162.222.225.9; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.9])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1WJCF5-0007vx-FO
+	for bitcoin-list@lists.sourceforge.net; Fri, 28 Feb 2014 01:28:04 +0000
+Original-Received: from [0.0.0.0] (tor-exit.xshells.net [178.217.187.39])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id D59E5190835E
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 28 Feb 2014 01:09:43 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+X-Enigmail-Version: 1.6
+X-CTCH-RefID: str=0001.0A020201.530FE1D8.0100, ss=1, re=0.000, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.000
+X-CTCH-Rules: 
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Scanned-By: MIMEDefang 2.72 on 70.87.28.138
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1WJCF5-0007vx-FO
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:38
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/38>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+Watching the block chain explorer I saw that there are now over 2,5
+MILLION XCP's (Counterparty cryptocurrency).
+
+Counterparty is a cryptocurrency to lazy to build its own network and
+it is using bitcoin's blockchain with the OP_RETURN function.
+
+XCP (counterparty) are issued based on a proof-of-burn BTC. Example:
+sending bitcoincs to an unspendable address, an address to which
+nobody has the private keys. Clearly, BTCs lost forever - this is how
+XCP's are issued.
+
+Now with over 2.5 million XCP's issued (automatically over 2.5 million
+BTC's lost forever), plus the coins lost due to accidents, negligence
+which are estimated to be more than 2.5 million including what mtgox
+may have lost forever due to their wallet problems and malleability
+attack - where are we going this cannot be good under any circumstances.
+
+Thoughts?
+
+U.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (MingW32)
+
+iQEcBAEBAgAGBQJTD+HSAAoJEIN/pSyBJlsRdkwIAKOq2upsZiL+C6yhKvPJ7hby
+/FZzXLP+VG6v55mKAVvoYPVPSfAEPYyaFrcIn95QMxSP9Ul5TLIZ+XAfOif+HSjo
+1no2z4BhsmtzEwDm0YJeVqRG12eBwXRf2fcaicnIIuXQCaZwNZeLZfkFV/ahrRsH
+feRJILNv3sTx4N5O+DUXAEV31skJqo/AVRU1pc4tL0zvFSHq6nAiNViR11a3Jyme
+F/RFKkZx2HnEwSohOXPKkWxD3znleMr21PTYcDfSci66p+Vmm4NxvxpOX3GbI6Yc
+90cnyozFsXFpBQEcvZAvYrC2IRgpoPHX+7xEFucYc5vALKU1uF25LLs+XGujSNE=
+=Yc6I
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

@@ -153,8 +153,23 @@ def main():
                       if e["source"] == "bitcoin-list" and e["sent_from"] == "Satoshi Nakamoto"})
     sat_months = sorted({e["date"][:7].replace("-", "") for e in emails
                          if e["source"] == "bitcoin-list" and e["sent_from"] == "Satoshi Nakamoto"})
-    default = ["cdxlegacy", "legacythreads", "allura", "months"]
+    default = ["lugaxker", "cdxlegacy", "legacythreads", "allura", "months"]
     only = only or default
+
+    # 0. lugaxker/nakamoto-archive's text transcription of the Allura month listings (made via
+    #    Wayback in May 2022); used as a cross-check / fallback. Pinned to the commit that added it.
+    if "lugaxker" in only:
+        rel = "lugaxker_bitcoin-list-archive.txt"
+        if not os.path.exists(os.path.join(OUT, rel)):
+            url = ("https://raw.githubusercontent.com/lugaxker/nakamoto-archive/"
+                   "37baa4a384d37f3f08ab86d36df0d84133bf661f/src/bitcoin-list-archive.txt")
+            r = sess.get(url, timeout=120)
+            r.raise_for_status()
+            with open(os.path.join(OUT, rel), "wb") as f:
+                f.write(r.content)
+        meta[rel] = {"original": "https://github.com/lugaxker/nakamoto-archive/blob/main/src/bitcoin-list-archive.txt",
+                     "pinned_commit": "37baa4a384d37f3f08ab86d36df0d84133bf661f (2024-07-23)",
+                     "note": "text transcription of sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=YYYYMM via Wayback, May 2022"}
 
     # 1. Allura message pages for Satoshi's bitcoin-list messages
     if "allura" in only:

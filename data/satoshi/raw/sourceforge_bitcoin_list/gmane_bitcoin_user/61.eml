@@ -1,0 +1,134 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?RMOibmllbA==?= Fraga <fragabr@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Bitcoin-QT git compilation error: "libtool:
+ link: unable to infer tagged configuration"
+Date: Sat, 27 Sep 2014 19:22:50 -0300
+Organization: http://www.youtube.com/DanielFragaBR
+Lines: 41
+Approved: news@gmane.org
+Message-ID: <m07dbr$v3m$1@ger.gmane.org>
+References: <m06ubn$abe$1@ger.gmane.org>
+	<5426FDB3.7080307@kdemail.net>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Trace: ger.gmane.org 1411856646 1935 80.91.229.3 (27 Sep 2014 22:24:06 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 27 Sep 2014 22:24:06 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Sep 28 00:24:01 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XY0PH-0001G7-I2
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 28 Sep 2014 00:23:59 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XY0OV-00064C-El; Sat, 27 Sep 2014 22:23:11 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1XY0OT-000645-KL
+	for bitcoin-list@lists.sourceforge.net; Sat, 27 Sep 2014 22:23:09 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.3 as permitted sender)
+	client-ip=80.91.229.3;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org;
+	helo=plane.gmane.org; 
+Original-Received: from plane.gmane.org ([80.91.229.3])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1XY0OS-00025x-8D
+	for bitcoin-list@lists.sourceforge.net; Sat, 27 Sep 2014 22:23:09 +0000
+Original-Received: from list by plane.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1XY0OL-00011W-KX
+	for bitcoin-list@lists.sourceforge.net; Sun, 28 Sep 2014 00:23:01 +0200
+Original-Received: from 200-206-160-225.dsl.telesp.net.br ([200.206.160.225])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Sun, 28 Sep 2014 00:23:01 +0200
+Original-Received: from fragabr by 200-206-160-225.dsl.telesp.net.br with local (Gmexim
+	0.1 (Debian)) id 1AlnuQ-0007hv-00
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sun, 28 Sep 2014 00:23:01 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 52
+Original-X-Complaints-To: usenet@ger.gmane.org
+X-Gmane-NNTP-Posting-Host: 200-206-160-225.dsl.telesp.net.br
+X-Newsreader: Claws Mail 3.10.1-149-g7d0fc8 (GTK+ 2.24.24;
+	x86_64-unknown-linux-gnu)
+X-Spam-Score: -1.2 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(fragabr[at]gmail.com)
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+	CUSTOM_MED
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.9 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain 1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit,
+	and not from a mailing list
+X-Headers-End: 1XY0OS-00025x-8D
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:61
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/61>
+
+CUhpIEthbWlsLiBObywgSSdtIG5vdCB1c2luZyBjY2FjaGUuCgoJQW55IGhpbnRzPwoKT24gU2F0
+LCAyNyBTZXAgMjAxNCAyMDoxMDo1OSArMDIwMApLYW1pbCBEb21hxYRza2kgPGtkb21hbnNraUBr
+ZGVtYWlsLm5ldD4gd3JvdGU6Cgo+IEhpIERhbmllbCwKPiBhcmUgeW91IHVzaW5nIGNjYWNoZT8K
+PiAKPiBCZXN0IHJlZ2FyZHMsCj4gS2FtaWwKPiAKPiBPbiAwOS8yNy8yMDE0IDA4OjA2IFBNLCBE
+w6JuaWVsIEZyYWdhIHdyb3RlOgo+ID4gCUkgYWx3YXlzIGNvbXBpbGVkIEJpdGNvaW4tUVQgZnJv
+bSBnaXQsIGJ1dCBub3cgSSBnZXQgdGhlCj4gPiBmb2xsb3dpbmcgZXJyb3IgKEknbSB1c2luZyBs
+aWJ0b29sIDIuNC4yKToKPiA+Cj4gPiAgICBDWFhMRCAgICB0ZXN0L3Rlc3RfYml0Y29pbgo+ID4g
+ICAgQ1hYICAgICAgcXQvcXRfYml0Y29pbl9xdC1iaXRjb2luLm8KPiA+ICAgIE9CSkNYWExEIHF0
+L2JpdGNvaW4tcXQKPiA+IGxpYnRvb2w6IGxpbms6IHVuYWJsZSB0byBpbmZlciB0YWdnZWQgY29u
+ZmlndXJhdGlvbgo+ID4gbGlidG9vbDogbGluazogc3BlY2lmeSBhIHRhZyB3aXRoIGAtLXRhZycK
+PiA+IE1ha2VmaWxlOjIzMDU6IHJlY2lwZSBmb3IgdGFyZ2V0ICdxdC9iaXRjb2luLXF0JyBmYWls
+ZWQKPiA+IG1ha2VbMV06ICoqKiBbcXQvYml0Y29pbi1xdF0gRXJyb3IgMQo+ID4gbWFrZVsxXTog
+TGVhdmluZyBkaXJlY3RvcnkgJy91c3IvbG9jYWwvc3JjL2dpdC9iaXRjb2luL3NyYycKPiA+IE1h
+a2VmaWxlOjU1MTogcmVjaXBlIGZvciB0YXJnZXQgJ2FsbC1yZWN1cnNpdmUnIGZhaWxlZAo+ID4g
+bWFrZTogKioqIFthbGwtcmVjdXJzaXZlXSBFcnJvciAxCj4gPgo+ID4gCSoqKgo+ID4KPiA+IAlB
+bnkgaGludHM/IFRoYW5rcy4KPiA+Cj4gCj4gCj4gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCj4gTWVl
+dCBQQ0kgRFNTIDMuMCBDb21wbGlhbmNlIFJlcXVpcmVtZW50cyB3aXRoIEV2ZW50TG9nIEFuYWx5
+emVyCj4gQWNoaWV2ZSBQQ0kgRFNTIDMuMCBDb21wbGlhbnQgU3RhdHVzIHdpdGggT3V0LW9mLXRo
+ZS1ib3ggUENJIERTUyBSZXBvcnRzCj4gQXJlIHlvdSBBdWRpdC1SZWFkeSBmb3IgUENJIERTUyAz
+LjAgQ29tcGxpYW5jZT8gRG93bmxvYWQgV2hpdGUgcGFwZXIKPiBDb21wbHkgdG8gUENJIERTUyAz
+LjAgUmVxdWlyZW1lbnQgMTAgYW5kIDExLjUgd2l0aCBFdmVudExvZyBBbmFseXplcgo+IGh0dHA6
+Ly9wdWJhZHMuZy5kb3VibGVjbGljay5uZXQvZ2FtcGFkL2Nsaz9pZD0xNTQ2MjIzMTEmaXU9LzQx
+NDAvb3N0Zy5jbGt0cmsKPiBfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fXwo+IGJpdGNvaW4tbGlzdCBtYWlsaW5nIGxpc3QKPiBiaXRjb2luLWxpc3RAbGlzdHMu
+c291cmNlZm9yZ2UubmV0Cj4gaHR0cHM6Ly9saXN0cy5zb3VyY2Vmb3JnZS5uZXQvbGlzdHMvbGlz
+dGluZm8vYml0Y29pbi1saXN0CgoKLS0gCkxpbnV4IDMuMTYuMC0wMDExNS1nMTk1ODNjYTogU2h1
+ZmZsaW5nIFpvbWJpZSBKdXJvcgpodHRwOi8vd3d3LnlvdXR1YmUuY29tL0RhbmllbEZyYWdhQlIK
+aHR0cDovL2V4Y2hhbmdld2FyLmluZm8KQml0Y29pbjogMTJINjY2MXlvTERVWmFZUGRhaDZ1clpT
+NVdpWHdUQVVnTAoKCgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KTWVldCBQQ0kgRFNTIDMuMCBDb21w
+bGlhbmNlIFJlcXVpcmVtZW50cyB3aXRoIEV2ZW50TG9nIEFuYWx5emVyCkFjaGlldmUgUENJIERT
+UyAzLjAgQ29tcGxpYW50IFN0YXR1cyB3aXRoIE91dC1vZi10aGUtYm94IFBDSSBEU1MgUmVwb3J0
+cwpBcmUgeW91IEF1ZGl0LVJlYWR5IGZvciBQQ0kgRFNTIDMuMCBDb21wbGlhbmNlPyBEb3dubG9h
+ZCBXaGl0ZSBwYXBlcgpDb21wbHkgdG8gUENJIERTUyAzLjAgUmVxdWlyZW1lbnQgMTAgYW5kIDEx
+LjUgd2l0aCBFdmVudExvZyBBbmFseXplcgpodHRwOi8vcHViYWRzLmcuZG91YmxlY2xpY2submV0
+L2dhbXBhZC9jbGs/aWQ9MTU0NjIyMzExJml1PS80MTQwL29zdGcuY2xrdHJrCl9fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fCmJpdGNvaW4tbGlzdCBtYWlsaW5n
+IGxpc3QKYml0Y29pbi1saXN0QGxpc3RzLnNvdXJjZWZvcmdlLm5ldApodHRwczovL2xpc3RzLnNv
+dXJjZWZvcmdlLm5ldC9saXN0cy9saXN0aW5mby9iaXRjb2luLWxpc3QK
+

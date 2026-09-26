@@ -1,0 +1,245 @@
+Path: news.gmane.org!not-for-mail
+From: Gavin Andresen <gavinandresen@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Version 0.8.0 released
+Date: Wed, 20 Feb 2013 15:36:49 -0500
+Lines: 167
+Approved: news@gmane.org
+Message-ID: <CABsx9T0BRKyN_iYNqEbqNAW3HxCa4N+c3gZxEzSgMOR-036mRA@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1361392675 20684 80.91.229.3 (20 Feb 2013 20:37:55 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Wed, 20 Feb 2013 20:37:55 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Wed Feb 20 21:38:17 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1U8GQe-0004k5-PU
+	for gcbd-bitcoin-list@m.gmane.org; Wed, 20 Feb 2013 21:38:13 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-2.v29.ch3.sourceforge.com)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1U8GPX-0001Wo-IV; Wed, 20 Feb 2013 20:37:03 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-2.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gavinandresen@gmail.com>) id 1U8GPV-0001Wi-Rl
+	for bitcoin-list@lists.sourceforge.net; Wed, 20 Feb 2013 20:37:01 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 74.125.82.177 as permitted sender)
+	client-ip=74.125.82.177; envelope-from=gavinandresen@gmail.com;
+	helo=mail-we0-f177.google.com; 
+Original-Received: from mail-we0-f177.google.com ([74.125.82.177])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1U8GPP-00005x-EM
+	for bitcoin-list@lists.sourceforge.net; Wed, 20 Feb 2013 20:37:01 +0000
+Original-Received: by mail-we0-f177.google.com with SMTP id d7so6899385wer.36
+	for <bitcoin-list@lists.sourceforge.net>;
+	Wed, 20 Feb 2013 12:36:49 -0800 (PST)
+X-Received: by 10.180.104.10 with SMTP id ga10mr35400111wib.23.1361392609198; 
+	Wed, 20 Feb 2013 12:36:49 -0800 (PST)
+Original-Received: by 10.194.176.164 with HTTP; Wed, 20 Feb 2013 12:36:49 -0800 (PST)
+X-Spam-Score: -0.6 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(gavinandresen[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1U8GPP-00005x-EM
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:6
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/6>
+
+Bitcoin-Qt version 0.8.0 are now available from:
+  http://sourceforge.net/projects/bitcoin/files/Bitcoin/bitcoin-0.8.0/
+
+This is a major release designed to improve performance and handle the
+increasing volume of transactions on the network.
+
+Please report bugs using the issue tracker at github:
+  https://github.com/bitcoin/bitcoin/issues
+
+How to Upgrade
+--------------
+
+If you are running an older version, shut it down. Wait
+until it has completely shut down (which might take a few minutes for older
+versions), then run the installer (on Windows) or just copy over
+/Applications/Bitcoin-Qt (on Mac) or bitcoind/bitcoin-qt (on Linux).
+
+The first time you run after the upgrade a re-indexing process will be
+started that will take anywhere from 30 minutes to several hours,
+depending on the speed of your machine.
+
+Incompatible Changes
+--------------------
+
+This release no longer maintains a full index of historical transaction ids
+by default, so looking up an arbitrary transaction using the
+getrawtransaction
+RPC call will not work. If you need that functionality, you must run once
+with -txindex=1 -reindex=1 to rebuild block-chain indices (see below for
+more
+details).
+
+Improvements
+------------
+
+Mac and Windows binaries are signed with certificates owned by the Bitcoin
+Foundation, to be compatible with the new security features in OSX 10.8 and
+Windows 8.
+
+LevelDB, a fast, open-source, non-relational database from Google, is
+now used to store transaction and block indices.  LevelDB works much better
+on machines with slow I/O and is faster in general. Berkeley DB is now only
+used for the wallet.dat file (public and private wallet keys and
+transactions
+relevant to you).
+
+Pieter Wuille implemented many optimizations to the way transactions are
+verified, so a running, synchronized node uses less working memory and does
+much less I/O. He also implemented parallel signature checking, so if you
+have a multi-CPU machine all CPUs will be used to verify transactions.
+
+New Features
+------------
+
+"Bloom filter" support in the network protocol for sending only relevant
+transactions to
+lightweight clients.
+
+contrib/verifysfbinaries is a shell-script to verify that the binary
+downloads
+at sourceforge have not been tampered with. If you are able, you can help
+make
+everybody's downloads more secure by running this occasionally to check PGP
+signatures against download file checksums.
+
+contrib/spendfrom is a python-language command-line utility that
+demonstrates
+how to use the "raw transactions" JSON-RPC api to send coins received from
+particular
+addresses (also known as "coin control").
+
+New/changed settings (command-line or bitcoin.conf file)
+--------------------------------------------------------
+
+dbcache : controls LevelDB memory usage.
+
+par : controls how many threads to use to validate transactions. Defaults
+to the number
+of CPUs on your machine, use -par=1 to limit to a single CPU.
+
+txindex : maintains an extra index of old, spent transaction ids so they
+will be found
+by the getrawtransaction JSON-RPC method.
+
+reindex : rebuild block and transaction indices from the downloaded block
+data.
+
+New JSON-RPC API Features
+-------------------------
+
+lockunspent / listlockunspent allow locking transaction outputs for a
+period of time so
+they will not be spent by other processes that might be accessing the same
+wallet.
+
+addnode / getaddednodeinfo methods, to connect to specific peers without
+restarting.
+
+importprivkey now takes an optional boolean parameter (default true) to
+control whether
+or not to rescan the blockchain for transactions after importing a new
+private key.
+
+Important Bug Fixes
+-------------------
+
+Privacy leak: the position of the "change" output in most transactions was
+not being
+properly randomized, making network analysis of the transaction graph to
+identify
+users' wallets easier.
+
+Zero-confirmation transaction vulnerability: accepting zero-confirmation
+transactions
+(transactions that have not yet been included in a block) from somebody you
+do not
+trust is still not recommended, because there will always be ways for
+attackers to
+double-spend zero-confirmation transactions. However, this release includes
+a bug
+fix that makes it a little bit more difficult for attackers to double-spend
+a
+certain type ("lockTime in the future") of zero-confirmation transaction.
+
+Dependency Changes
+------------------
+
+Qt 4.8.3 (compiling against older versions of Qt 4 should continue to work)
+
+
+Thanks to everybody who contributed to this release:
+----------------------------------------------------
+
+Alexander Kjeldaas
+Andrey Alekseenko
+Arnav Singh
+Christian von Roques
+Eric Lombrozo
+Forrest Voight
+Gavin Andresen
+Gregory Maxwell
+Jeff Garzik
+Luke Dashjr
+Matt Corallo
+Mike Cassano
+Mike Hearn
+Peter Todd
+Philip Kaufmann
+Pieter Wuille
+Richard Schwab
+Robert Backhaus
+Rune K. Svendsen
+Sergio Demian Lerner
+Wladimir J. van der Laan
+burger2
+default
+fanquake
+grimd34th
+justmoon
+redshark1802
+tucenaber
+xanatos
+------------------------------------------------------------------------------
+Everyone hates slow websites. So do we.
+Make your web apps faster with AppDynamics
+Download AppDynamics Lite for free today:
+http://p.sf.net/sfu/appdyn_d2d_feb

@@ -1,0 +1,152 @@
+Path: news.gmane.org!not-for-mail
+From: Adam Weiss <adam@signal11.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Bitcoind error at block 322082 (The network does
+ not appear to fully agree)
+Date: Wed, 11 Mar 2015 10:26:56 -0400
+Lines: 70
+Approved: news@gmane.org
+Message-ID: <CAFVoEQT=oGBTC2roq4ahkrBc2UQ0tPhPzJH=8N6QQZdiQ-bkzw@mail.gmail.com>
+References: <54FEFC36.3000102@sky-ip.org>
+	<CAD2Ti29ejh0TLEN+XHCk3JPL2GDhttd_DS6WUJU_bX-2Brftrw@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1426084118 7328 80.91.229.3 (11 Mar 2015 14:28:38 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Wed, 11 Mar 2015 14:28:38 +0000 (UTC)
+Cc: bitcoin-list <bitcoin-list@lists.sourceforge.net>
+To: grarpamp <grarpamp@gmail.com>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Wed Mar 11 15:28:34 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YVhce-00070Y-5Y
+	for gcbd-bitcoin-list@m.gmane.org; Wed, 11 Mar 2015 15:28:32 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YVhbL-0004p5-93; Wed, 11 Mar 2015 14:27:11 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <adam@signal11.com>) id 1YVhbK-0004ou-9J
+	for bitcoin-list@lists.sourceforge.net; Wed, 11 Mar 2015 14:27:10 +0000
+X-ACL-Warn: 
+Original-Received: from mail-ob0-f174.google.com ([209.85.214.174])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1YVhbE-0008Sr-4A
+	for bitcoin-list@lists.sourceforge.net; Wed, 11 Mar 2015 14:27:10 +0000
+Original-Received: by obcuz6 with SMTP id uz6so9136212obc.7
+	for <bitcoin-list@lists.sourceforge.net>;
+	Wed, 11 Mar 2015 07:26:56 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=1e100.net; s=20130820;
+	h=x-gm-message-state:mime-version:in-reply-to:references:date
+	:message-id:subject:from:to:cc:content-type;
+	bh=5GxzpGbKqWVUaz37Ruxc0cliF2E5h8guR1a+/vivegU=;
+	b=kVq048JbjjVDRf8AwuaOZHaNr4gqWTzL3GuFf1O4FRV8sPkwwVz1jsOS2dtEBsIKK/
+	UMmUaxDQCGl3A+LwVX8aQdMQnZhjbb/mxv8nzLAxaI9rc9yB1RLjr4341MaPIoTGOhuA
+	ZLC43C7Ae+jn056W5GsrRgEETMtw4l701fyMfRuo1zbY84wKAjZfqkUXqW0yCk5wg9Fd
+	CPbbuNTKAWDamNcOPXHmXYUTIkVplgxmvzO1CL2enXt+J8XdS1xq3CDIFRP4Cr05mcbS
+	qAEx9iYWQx6vbQN5rglkDxvU+zNTVKhTQQ32FlVhL/VZRDogH9bBTdzCX451PDlK8XBT
+	fbIA==
+X-Gm-Message-State: ALoCoQmu+iqI6GXWIjqtjit7QLlxVvV9xXobIEhBMPUD9DxDSqtO5wZzT51oU5PAuzLp9N9BqME+
+X-Received: by 10.182.75.194 with SMTP id e2mr29625962obw.17.1426084016466;
+	Wed, 11 Mar 2015 07:26:56 -0700 (PDT)
+Original-Received: by 10.202.7.193 with HTTP; Wed, 11 Mar 2015 07:26:56 -0700 (PDT)
+In-Reply-To: <CAD2Ti29ejh0TLEN+XHCk3JPL2GDhttd_DS6WUJU_bX-2Brftrw@mail.gmail.com>
+X-Spam-Score: 1.0 (+)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+X-Headers-End: 1YVhbE-0008Sr-4A
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:71
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/71>
+
+A recent patch made to OpenSSL is incompatible with 0.9.3.  If you're
+building yourself and not using the dependency system (ie: make depends)
+you'll get stuck on any block with a non-canonical DER signature.  I
+believe 322082 is the first one.
+
+To avoid the problem, either use the 0.9.4 hotfix branch or build with the
+dependency build system "make depends".  If this is a node you care about,
+I would suggest you use the dependency build system or the release builds
+to ensure that an external library change doesn't break things, given how
+delicate consensus type things can be.
+
+--adam
+
+
+On Wed, Mar 11, 2015 at 2:53 AM, grarpamp <grarpamp@gmail.com> wrote:
+
+> On Tue, Mar 10, 2015 at 10:14 AM, s7r <s7r@sky-ip.org> wrote:
+> > 90% and 100%. Now it's frozen at block 322082 for over 7 hours.
+>
+> See what the tubes say about this block if anything. Grab a gcore
+> for the devs. Then kill and restart it and see what happens.
+>
+> > Type: virtual machine
+> > OS: Debian Wheezy 64 bit
+> > CPU: Intel(R) Xeon(R) CPU           E5606  @ 2.13GHz (1 virtual core)
+> > RAM: 8 GB
+>
+> This is financial data, potentially yours. Assuming you own it,
+> the box should be using ECC RAM and a sha256 checksum ZFS.
+>
+> > Bitcoin: bitcoind 0.9.3 installed via git, from github.
+>
+> Well v0.9.4 tag is long since out and 0.9 branch has 10 subsequent
+> commits. Similar for the 10.x series.
+>
+> > What are the possible solutions? One would be to delete all the data
+>
+> If the restart locks up again you could debug that.
+>
+> Or you could snapshot ZFS and torrent sync the blocks back to whatever
+> the current signed torrent feed is, or just delete some blockfiles, and
+> try from there.
+>
+> Or upgrade bitcoind, and move on.
+>
+> There are scripts in the torrent feed post on bitcointalk that can
+> be used to compare your blocks to theirs if bandwidth from
+> deleting all the blocks is an issue.
+>
+>
+> ------------------------------------------------------------------------------
+> Dive into the World of Parallel Programming The Go Parallel Website,
+> sponsored
+> by Intel and developed in partnership with Slashdot Media, is your hub for
+> all
+> things parallel software development, from weekly thought leadership blogs
+> to
+> news, videos, case studies, tutorials and more. Take a look and join the
+> conversation now. http://goparallel.sourceforge.net/
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+>
+------------------------------------------------------------------------------
+Dive into the World of Parallel Programming The Go Parallel Website, sponsored
+by Intel and developed in partnership with Slashdot Media, is your hub for all
+things parallel software development, from weekly thought leadership blogs to
+news, videos, case studies, tutorials and more. Take a look and join the 
+conversation now. http://goparallel.sourceforge.net/

@@ -1,0 +1,154 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?TWFydGlueCAtIOOCuOOCp+ODvOODoOOCug==?=
+	<thiagocmartinsc@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: bitcoind node dual stack (tor and clearnet)
+Date: Thu, 4 Dec 2014 12:30:42 -0200
+Lines: 73
+Approved: news@gmane.org
+Message-ID: <CAJSM8J3zqahvRZVmnGN6twCFCdBOA=0EFWt9peJNLRaNMZOdsA@mail.gmail.com>
+References: <5424A4FC.90108@sky-ip.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1417703597 2972 80.91.229.3 (4 Dec 2014 14:33:17 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Thu, 4 Dec 2014 14:33:17 +0000 (UTC)
+Cc: bitcoin-list <bitcoin-list@lists.sourceforge.net>
+To: s7r@sky-ip.org
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Thu Dec 04 15:33:10 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XwXSv-0004yI-DE
+	for gcbd-bitcoin-list@m.gmane.org; Thu, 04 Dec 2014 15:33:09 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XwXRD-0008FJ-V4; Thu, 04 Dec 2014 14:31:23 +0000
+Original-Received: from sog-mx-3.v43.ch3.sourceforge.com ([172.29.43.193]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <thiagocmartinsc@gmail.com>) id 1XwXRC-0008FE-Rr
+	for bitcoin-list@lists.sourceforge.net; Thu, 04 Dec 2014 14:31:22 +0000
+Received-SPF: pass (sog-mx-3.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.212.172 as permitted sender)
+	client-ip=209.85.212.172;
+	envelope-from=thiagocmartinsc@gmail.com;
+	helo=mail-wi0-f172.google.com; 
+Original-Received: from mail-wi0-f172.google.com ([209.85.212.172])
+	by sog-mx-3.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1XwXR8-0000co-Sp
+	for bitcoin-list@lists.sourceforge.net; Thu, 04 Dec 2014 14:31:22 +0000
+Original-Received: by mail-wi0-f172.google.com with SMTP id n3so34851080wiv.17
+	for <bitcoin-list@lists.sourceforge.net>;
+	Thu, 04 Dec 2014 06:31:12 -0800 (PST)
+X-Received: by 10.180.8.70 with SMTP id p6mr21793674wia.72.1417703472807; Thu,
+	04 Dec 2014 06:31:12 -0800 (PST)
+Original-Received: by 10.194.83.72 with HTTP; Thu, 4 Dec 2014 06:30:42 -0800 (PST)
+In-Reply-To: <5424A4FC.90108@sky-ip.org>
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(thiagocmartinsc[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1XwXR8-0000co-Sp
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:66
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/66>
+
+Hi!
+
+I also need a Bitcoin Daemon with full support for Dual-Stacked node.
+
+My bitcoind on Ubuntu have:
+
+1- IPv4 - fake
+1- IPv6 - public
+1- IPv6 from Hyperboria
+
+I prefer Hyperboria, instead of Tor...
+
+Currently, I can use only IPv6 or only IPv4, which sucks... With
+dual-stack, 1 Bitcoind can serve 3 different networks!
+
+Best!
+Thiago
+
+On 25 September 2014 at 20:27, s7r <s7r@sky-ip.org> wrote:
+> -----BEGIN PGP SIGNED MESSAGE-----
+> Hash: SHA1
+>
+> Hi,
+>
+> I run some Tor hidden bitcoin nodes, I would like them to be dual
+> stack (connect to clearnet nodes too). But want to use the same
+> directory data (blockchain) and in the same time not exchange the
+> onion address listed at external IP with the clearnet peers and vice
+> versa (to avoid clernet peers knowing there's an onion node on the
+> same machine too and onion noes knowing the clearnet IP address). How
+> can this be done? I currently have in bitcoin.conf, among others, the
+> following entries for network settings:
+>
+> onlynet=tor
+> externalip=foo.onion
+> proxy=127.0.0.1:9050
+> listen=1
+> bind=127.0.0.1:8333
+>
+> Advices? Thanks in advance!
+> - --
+> s7r
+> PGP Fingerprint: 7C36 9232 5ABD FB0B 3021 03F1 837F A52C 8126 5B11
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v2.0.22 (MingW32)
+>
+> iQEcBAEBAgAGBQJUJKT7AAoJEIN/pSyBJlsRmlUH/jcG5BNp04A+U2vMw0uECMFZ
+> vQhoXLS9TYmRhimSwxZ6NjXCxeAOFPHszu6wBooSgSZDxjd1L5Q0Un5GSrUJOVtb
+> wAiApad7kbi/a35M6EubYSSXoYeeNMBiCWLBYhAFggLgjlg/p/6mSstZHQ+7pYkE
+> cHmeIUi2ilhezIknWHLE0StMRF+liQuP+sXuCQrSSIcaf4A4f1rv96JOByIbOTCO
+> RF2JJdY0c89kG4/untheOu09ZAYK0+Ds13OrdbwmsPN8GaXLYpKNEJ0rLLu2cGWf
+> WjK/cQoZcCLqdczAJA/69OCWSC+mpHG+Y0AdFrvf20PMGNFc1j4LSvb/zZAl2AQ=
+> =xbT+
+> -----END PGP SIGNATURE-----
+>
+> ------------------------------------------------------------------------------
+> Meet PCI DSS 3.0 Compliance Requirements with EventLog Analyzer
+> Achieve PCI DSS 3.0 Compliant Status with Out-of-the-box PCI DSS Reports
+> Are you Audit-Ready for PCI DSS 3.0 Compliance? Download White paper
+> Comply to PCI DSS 3.0 Requirement 10 and 11.5 with EventLog Analyzer
+> http://pubads.g.doubleclick.net/gampad/clk?id=154622311&iu=/4140/ostg.clktrk
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+
+------------------------------------------------------------------------------
+Download BIRT iHub F-Type - The Free Enterprise-Grade BIRT Server
+from Actuate! Instantly Supercharge Your Business Reports and Dashboards
+with Interactivity, Sharing, Native Excel Exports, App Integration & more
+Get technology previously reserved for billion-dollar corporations, FREE
+http://pubads.g.doubleclick.net/gampad/clk?id=164703151&iu=/4140/ostg.clktrk

@@ -1,0 +1,95 @@
+Path: news.gmane.org!not-for-mail
+From: Henning Kopp <henning.kopp@uni-ulm.de>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Bitcoin learning material
+Date: Wed, 6 May 2015 17:35:53 +0200
+Lines: 26
+Approved: news@gmane.org
+Message-ID: <20150506153553.GE2086@banane.informatik.uni-ulm.de>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1430926697 29614 80.91.229.3 (6 May 2015 15:38:17 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Wed, 6 May 2015 15:38:17 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Wed May 06 17:38:08 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1Yq1Od-0005gQ-Tp
+	for gcbd-bitcoin-list@m.gmane.org; Wed, 06 May 2015 17:38:04 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-1.v29.ch3.sourceforge.com)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1Yq1Mu-0003zE-BG; Wed, 06 May 2015 15:36:16 +0000
+Original-Received: from sog-mx-4.v43.ch3.sourceforge.com ([172.29.43.194]
+	helo=mx.sourceforge.net)
+	by sfs-ml-1.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <henning.kopp@uni-ulm.de>) id 1Yq1Mt-0003z6-B9
+	for bitcoin-list@lists.sourceforge.net; Wed, 06 May 2015 15:36:15 +0000
+X-ACL-Warn: 
+Original-Received: from smtp.uni-ulm.de ([134.60.1.26])
+	by sog-mx-4.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1Yq1Mo-00022W-KG
+	for bitcoin-list@lists.sourceforge.net; Wed, 06 May 2015 15:36:15 +0000
+Original-Received: from banane.informatik.uni-ulm.de (banane.informatik.uni-ulm.de
+	[134.60.77.114]) (authenticated bits=0)
+	by mail.uni-ulm.de (8.14.9/8.14.7) with ESMTP id t46FZwxo015628
+	(version=TLSv1/SSLv3 cipher=AES128-GCM-SHA256 bits=128 verify=NOT)
+	for <bitcoin-list@lists.sourceforge.net>;
+	Wed, 6 May 2015 17:35:59 +0200 (CEST)
+Content-Disposition: inline
+User-Agent: Mutt/1.5.23 (2014-03-12)
+X-DCC-sonic.net-Metrics: poseidon 1156; Body=1 Fuz1=1 Fuz2=1
+X-Virus-Scanned: by amavisd-new
+X-Spam-Score: -0.0 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-0.0 T_RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain
+X-Headers-End: 1Yq1Mo-00022W-KG
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:76
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/76>
+
+Hi Guys,
+I am a PhD sudent from Ulm University and I am preparing an exercise
+for a course about practical IT-security.
+My idea is to let the students connect to the testnet, get some coins
+from a faucet, do some transactions and search them in the blockchain.
+
+Do you have any other ideas for an exercise for masterstudents?
+
+All to best
+Henning
+
+-- 
+Henning Kopp
+Institute of Distributed Systems
+University of Ulm, Germany
+
+Office: O27 - 3402
+Phone: +49 731 50-24138
+Web: http://www.uni-ulm.de/in/vs/~kopp
+
+------------------------------------------------------------------------------
+One dashboard for servers and applications across Physical-Virtual-Cloud 
+Widest out-of-the-box monitoring support with 50+ applications
+Performance metrics, stats and reports that give you Actionable Insights
+Deep dive visibility with transaction tracing using APM Insight.
+http://ad.doubleclick.net/ddm/clk/290420510;117567292;y

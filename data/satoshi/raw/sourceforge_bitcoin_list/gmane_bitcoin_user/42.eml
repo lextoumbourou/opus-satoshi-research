@@ -1,0 +1,142 @@
+Path: news.gmane.org!not-for-mail
+From: "s7r@sky-ip.org" <s7r@sky-ip.org>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: decentralized exchange user-to-user using
+	contracts/multisig
+Date: Sun, 02 Mar 2014 03:29:09 +0200
+Lines: 44
+Approved: news@gmane.org
+Message-ID: <53128965.3070001@sky-ip.org>
+Reply-To: s7r@sky-ip.org
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1393723797 382 80.91.229.3 (2 Mar 2014 01:29:57 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sun, 2 Mar 2014 01:29:57 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sun Mar 02 02:30:05 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJvEC-0000uX-3m
+	for gcbd-bitcoin-list@m.gmane.org; Sun, 02 Mar 2014 02:30:04 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1WJvDh-0003kh-5l; Sun, 02 Mar 2014 01:29:33 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <s7r@sky-ip.org>) id 1WJvDe-0003kZ-SP
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 01:29:31 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of sky-ip.org
+	designates 162.222.225.11 as permitted sender)
+	client-ip=162.222.225.11; envelope-from=s7r@sky-ip.org;
+	helo=outbound.mailhostbox.com; 
+Original-Received: from outbound.mailhostbox.com ([162.222.225.11])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtp (Exim 4.76)
+	id 1WJvDZ-0005MW-MX
+	for bitcoin-list@lists.sourceforge.net; Sun, 02 Mar 2014 01:29:30 +0000
+Original-Received: from [0.0.0.0] (lumumba.torservers.net [77.247.181.163])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	(Authenticated sender: s7r@sky-ip.org)
+	by outbound.mailhostbox.com (Postfix) with ESMTPSA id 50075190842D
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sun,  2 Mar 2014 01:29:15 +0000 (GMT)
+User-Agent: Mozilla/5.0 (Windows NT 5.1;
+	rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+X-Enigmail-Version: 1.6
+X-CTCH-RefID: str=0001.0A020206.5312896E.000E, ss=1, re=0.000, recu=0.000,
+	reip=0.000, cl=1, cld=1, fgs=0
+X-CTCH-VOD: Unknown
+X-CTCH-Spam: Unknown
+X-CTCH-Score: 0.000
+X-CTCH-Rules: 
+X-CTCH-Flags: 0
+X-CTCH-ScoreCust: 0.000
+X-CTCH-SenderID: s7r@sky-ip.org
+X-CTCH-SenderID-TotalMessages: 1
+X-CTCH-SenderID-TotalSpam: 0
+X-CTCH-SenderID-TotalSuspected: 0
+X-CTCH-SenderID-TotalBulk: 0
+X-CTCH-SenderID-TotalConfirmed: 0
+X-CTCH-SenderID-TotalRecipients: 0
+X-CTCH-SenderID-TotalVirus: 0
+X-CTCH-SenderID-BlueWhiteFlag: 0
+X-Scanned-By: MIMEDefang 2.72 on 70.87.28.138
+X-Spam-Score: -1.6 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1WJvDZ-0005MW-MX
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:42
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/42>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Hi,
+
+I want to build a marketplace where users can exchange bitcoin for
+fiat currencies without having to go through a centralized escrow or
+exchanger (directly user-to-user). This can be done by bitcoin
+multisign option (contracts) where 2 users can agree on a mediator and
+proceed with a transaction.
+
+The problem is: if the users don't go through a centralized escrow or
+exchanger and they don't add funds  or add bitcoins to their accounts,
+how can we verify the authenticity of sell or buy postings and build a
+strong and accurate order book, without users being able to abuse it
+by posting abusive sell or buy offers which will break the supply and
+demand calculation for price determination. This is a real possible
+vulnerability since it's not a centralized system and users do not
+deposit funds in their accounts, you cannot verify if the user has or
+doesn't have the bitcoins or the fiat currency.
+
+Any suggestions?
+
+
+- -- 
+U.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.17 (MingW32)
+
+iQEcBAEBAgAGBQJTEollAAoJEIN/pSyBJlsRo3UIALEKep1mK1RL5EqftvMVZVTZ
+b1kUu1kxkznETvgv5da6QqOYMj3LF5QTDSAuuRCxyme98hRTITxpVxnFBWi+agLl
+hNeJl6wlYqWLINe3oQff1HQDzfcw6BPzy2wRkQFNTjdQla6KjhJ3/lO5Q5Pgdno0
+rMpc3DCmhfAxRXl36tcn/4MLo4TeBR8OzxfpZo69K89q1Hd3+Wb3QGj2hf8vVMJP
+HoRhgrUh78r8d24qAHpTu+qECY1DdhyTx1GPqgNT6lp7tA+2LhkjDlq4tThUtuuc
+LZaI36ZrbgJv6P6PlmRQIb009sHQKxHBJVwkNXEG0DNbUF8Yw9zK67nEcsEUOIc=
+=Cl2L
+-----END PGP SIGNATURE-----
+
+------------------------------------------------------------------------------
+Flow-based real-time traffic analytics software. Cisco certified tool.
+Monitor traffic, SLAs, QoS, Medianet, WAAS etc. with NetFlow Analyzer
+Customize your own dashboards, set traffic alerts and generate reports.
+Network behavioral analysis & security monitoring. All-in-one tool.
+http://pubads.g.doubleclick.net/gampad/clk?id=126839071&iu=/4140/ostg.clktrk

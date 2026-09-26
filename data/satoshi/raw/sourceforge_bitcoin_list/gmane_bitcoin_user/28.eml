@@ -1,0 +1,147 @@
+Path: news.gmane.org!not-for-mail
+From: Mike Hearn <mike@plan99.net>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Re: Stable download URLs
+Date: Fri, 4 Oct 2013 10:48:19 +0200
+Lines: 61
+Approved: news@gmane.org
+Message-ID: <CANEZrP2iV+A=oA8vJvkJ-8PCVgWyDoM+iSbaf=fOV63RGhcf-g@mail.gmail.com>
+References: <CAHR2jZPOF8AEwZiWPuY92friVYkxf1_spKUzUfR-+gP009=8=Q@mail.gmail.com>
+	<CABsx9T1QVAq_jrm7XEwKX08O-=UB=hOr3KgSGnAxhZ0SJOGNbA@mail.gmail.com>
+	<CAHR2jZMJ3avZ=a3XLxuLhhfkAAc=6Q2ek71nUsuP+cZGaZFiCA@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1380876539 3375 80.91.229.3 (4 Oct 2013 08:48:59 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 4 Oct 2013 08:48:59 +0000 (UTC)
+Cc: bitcoin-list@lists.sourceforge.net
+To: Tim Lebedkov <tim.lebedkov@gmail.com>
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Oct 04 10:49:01 2013
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VS14G-0004S8-V7
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 04 Oct 2013 10:49:01 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-4.v29.ch3.sourceforge.com)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1VS13n-0006MF-AR; Fri, 04 Oct 2013 08:48:31 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-4.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <mh.in.england@gmail.com>) id 1VS13m-0006M9-0f
+	for bitcoin-list@lists.sourceforge.net; Fri, 04 Oct 2013 08:48:30 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.214.43 as permitted sender)
+	client-ip=209.85.214.43; envelope-from=mh.in.england@gmail.com;
+	helo=mail-bk0-f43.google.com; 
+Original-Received: from mail-bk0-f43.google.com ([209.85.214.43])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1VS13i-000403-FC
+	for bitcoin-list@lists.sourceforge.net; Fri, 04 Oct 2013 08:48:29 +0000
+Original-Received: by mail-bk0-f43.google.com with SMTP id mz13so1393866bkb.16
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 04 Oct 2013 01:48:20 -0700 (PDT)
+X-Received: by 10.204.68.142 with SMTP id v14mr11658999bki.18.1380876499883;
+	Fri, 04 Oct 2013 01:48:19 -0700 (PDT)
+Original-Received: by 10.204.237.74 with HTTP; Fri, 4 Oct 2013 01:48:19 -0700 (PDT)
+In-Reply-To: <CAHR2jZMJ3avZ=a3XLxuLhhfkAAc=6Q2ek71nUsuP+cZGaZFiCA@mail.gmail.com>
+X-Google-Sender-Auth: ZudsrW7RCmtsn3DUzl_pBlRR6oU
+X-Spam-Score: -0.5 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	0.0 URIBL_BLOCKED ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+	See
+	http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+	for more information. [URIs: doubleclick.net]
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(mh.in.england[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+X-Headers-End: 1VS13i-000403-FC
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:28
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/28>
+
+What's he's saying is that it's intentional they become invalid, because
+it's a bad idea for people to download old versions of the app. Your app
+store needs to be able to keep users on the latest version - old links
+breaking shouldn't be an issue for that.
+
+
+On Fri, Oct 4, 2013 at 10:14 AM, Tim Lebedkov <tim.lebedkov@gmail.com>wrote:
+
+> Hello Gavin,
+>
+> Just to make sure you understand all the implications: once in a month
+> all links over the web to Bitcoin-Qt binaries become invalid. Is this
+> OK?
+>
+> Would it be at least possible to copy the newest version under "Obsolete"
+> too?
+>
+> --
+>
+> On Fri, Oct 4, 2013 at 3:09 AM, Gavin Andresen <gavinandresen@gmail.com>
+> wrote:
+> > On Thu, Oct 3, 2013 at 9:13 PM, Tim Lebedkov <tim.lebedkov@gmail.com>
+> wrote:
+> >>
+> >> would it be possible to *not* move older versions of Bitcoin-Qt to the
+> >> "Obsolete" directory?
+> >
+> >
+> > No; they are in "obsolete" because they are obsolete, and should not be
+> > used.
+> >
+> >> This makes linking to a binary impossible and requires much more work
+> >> in the default Npackd repository
+> >> (https://npackd.appspot.com/p/org.bitcoin.BitcoinQ)
+> >
+> >
+> > That is a feature, not a bug.
+> >
+> > --
+> > --
+> > Gavin Andresen
+>
+>
+> ------------------------------------------------------------------------------
+> October Webinars: Code for Performance
+> Free Intel webinars can help you accelerate application performance.
+> Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most
+> from
+> the latest Intel processors and coprocessors. See abstracts and register >
+> http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk
+> _______________________________________________
+> bitcoin-list mailing list
+> bitcoin-list@lists.sourceforge.net
+> https://lists.sourceforge.net/lists/listinfo/bitcoin-list
+>
+------------------------------------------------------------------------------
+October Webinars: Code for Performance
+Free Intel webinars can help you accelerate application performance.
+Explore tips for MPI, OpenMP, advanced profiling, and more. Get the most from 
+the latest Intel processors and coprocessors. See abstracts and register >
+http://pubads.g.doubleclick.net/gampad/clk?id=60134791&iu=/4140/ostg.clktrk

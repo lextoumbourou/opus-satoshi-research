@@ -1,0 +1,112 @@
+Path: news.gmane.org!not-for-mail
+From: Kristov Atlas <kristovatlas.lists@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Request for Comment: Bitcoin Wallet Privacy Ratings
+	Criteria
+Date: Fri, 16 Jan 2015 15:16:09 -0500
+Lines: 31
+Approved: news@gmane.org
+Message-ID: <CAGH37SL6pdFSY-LywBDovf-Ps_ANZSjSEKEATG0Qk=GpntV8PQ@mail.gmail.com>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1421439400 22800 80.91.229.3 (16 Jan 2015 20:16:40 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Fri, 16 Jan 2015 20:16:40 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Fri Jan 16 21:16:40 2015
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YCDJw-0007s1-1s
+	for gcbd-bitcoin-list@m.gmane.org; Fri, 16 Jan 2015 21:16:40 +0100
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1YCDJb-0007hi-Cg; Fri, 16 Jan 2015 20:16:19 +0000
+Original-Received: from sog-mx-1.v43.ch3.sourceforge.com ([172.29.43.191]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <kristovatlas.lists@gmail.com>) id 1YCDJa-0007hc-Bp
+	for bitcoin-list@lists.sourceforge.net; Fri, 16 Jan 2015 20:16:18 +0000
+Received-SPF: pass (sog-mx-1.v43.ch3.sourceforge.com: domain of gmail.com
+	designates 209.85.215.42 as permitted sender)
+	client-ip=209.85.215.42;
+	envelope-from=kristovatlas.lists@gmail.com;
+	helo=mail-la0-f42.google.com; 
+Original-Received: from mail-la0-f42.google.com ([209.85.215.42])
+	by sog-mx-1.v43.ch3.sourceforge.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.76) id 1YCDJY-0003eB-Ap
+	for bitcoin-list@lists.sourceforge.net; Fri, 16 Jan 2015 20:16:18 +0000
+Original-Received: by mail-la0-f42.google.com with SMTP id gd6so20912447lab.1
+	for <bitcoin-list@lists.sourceforge.net>;
+	Fri, 16 Jan 2015 12:16:10 -0800 (PST)
+X-Received: by 10.112.25.7 with SMTP id y7mr17387192lbf.94.1421439369976; Fri,
+	16 Jan 2015 12:16:09 -0800 (PST)
+Original-Received: by 10.152.148.35 with HTTP; Fri, 16 Jan 2015 12:16:09 -0800 (PST)
+X-Spam-Score: 0.4 (/)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(kristovatlas.lists[at]gmail.com)
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	1.0 HTML_MESSAGE           BODY: HTML included in message
+	-0.1 DKIM_VALID_AU Message has a valid DKIM or DK signature from
+	author's domain
+	0.1 DKIM_SIGNED            Message has a DKIM or DK signature,
+	not necessarily valid
+	-0.1 DKIM_VALID Message has at least one valid DKIM or DK signature
+	1.0 FREEMAIL_REPLY         From and body contain different freemails
+X-Headers-End: 1YCDJY-0003eB-Ap
+X-Content-Filtered-By: Mailman/MimeDel 2.1.9
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:68
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/68>
+
+The Open Bitcoin Privacy Project is seeking public comment on our ratings
+criteria for Bitcoin wallet privacy. Please provide your feedback within
+the next week through Jan 23, 2015 to ensure that it will be considered for
+version 1.0 of the document.
+
+https://github.com/OpenBitcoinPrivacyProject/wallet-ratings/blob/master/criteria.md
+
+In conjunction with a scoring matrix that will determine the weight of each
+sub-category, this criteria will be used to evaluate and score a variety of
+Bitcoin wallets, which will be published on our website at
+openbitcoinprivacyproject.org.
+
+Feedback through this mailing list is, of course, welcome; if you have a
+GitHub account, this is the preferred medium for proposing changes to the
+document.
+
+The current version of the criteria was authored by myself, as well as
+other OBPP members including Justus Ranvier (Monetas), Chris Pacia (Bitcoin
+Authenticator), and Samuel Patterson (Open Bazaar).
+
+Thank you in advance for your feedback,
+
+Kristov Atlas
+kristovatlas@gmail.com
+author@anonymousbitcoinbook.com
+------------------------------------------------------------------------------
+New Year. New Location. New Benefits. New Data Center in Ashburn, VA.
+GigeNET is offering a free month of service with a new server in Ashburn.
+Choose from 2 high performing configs, both with 100TB of bandwidth.
+Higher redundancy.Lower latency.Increased capacity.Completely compliant.
+http://p.sf.net/sfu/gigenet

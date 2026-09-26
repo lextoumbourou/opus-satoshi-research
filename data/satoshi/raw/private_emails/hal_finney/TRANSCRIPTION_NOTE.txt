@@ -1,0 +1,6 @@
+coindesk_*_transcription.mbox.txt are manual transcriptions (made 2026-09-26 for this corpus) of the
+raw-mbox screenshots coindesk_a14c90a8...png and coindesk_04952849...png published by CoinDesk on
+2020-11-26 (emails supplied by Fran Finney via Nathaniel Popper). The screenshots are rendered in a
+monospace font, so the number of spaces (e.g. the two spaces after "Sure thing.") was read from the
+glyph columns; the header continuation-line indentation (tab vs spaces) cannot be determined from the
+image and is written as a tab. Body is quoted-printable as shown ("cha=" soft line breaks).

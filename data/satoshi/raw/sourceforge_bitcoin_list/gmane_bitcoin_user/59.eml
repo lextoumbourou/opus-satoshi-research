@@ -1,0 +1,123 @@
+Path: news.gmane.org!not-for-mail
+From: =?UTF-8?B?RMOibmllbA==?= Fraga <fragabr@gmail.com>
+Newsgroups: gmane.comp.bitcoin.user
+Subject: Bitcoin-QT git compilation error: "libtool: link:
+ unable to infer tagged configuration"
+Date: Sat, 27 Sep 2014 15:06:47 -0300
+Organization: http://www.youtube.com/DanielFragaBR
+Lines: 32
+Approved: news@gmane.org
+Message-ID: <m06ubn$abe$1@ger.gmane.org>
+NNTP-Posting-Host: plane.gmane.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+X-Trace: ger.gmane.org 1411841312 13132 80.91.229.3 (27 Sep 2014 18:08:32 GMT)
+X-Complaints-To: usenet@ger.gmane.org
+NNTP-Posting-Date: Sat, 27 Sep 2014 18:08:32 +0000 (UTC)
+To: bitcoin-list@lists.sourceforge.net
+Original-X-From: bitcoin-list-bounces@lists.sourceforge.net Sat Sep 27 20:08:27 2014
+Return-path: <bitcoin-list-bounces@lists.sourceforge.net>
+Envelope-to: gcbd-bitcoin-list@m.gmane.org
+Original-Received: from lists.sourceforge.net ([216.34.181.88])
+	by plane.gmane.org with esmtp (Exim 4.69)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XXwPx-0000Qd-Ff
+	for gcbd-bitcoin-list@m.gmane.org; Sat, 27 Sep 2014 20:08:25 +0200
+Original-Received: from localhost ([127.0.0.1] helo=sfs-ml-3.v29.ch3.sourceforge.com)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <bitcoin-list-bounces@lists.sourceforge.net>)
+	id 1XXwOk-0007X0-PS; Sat, 27 Sep 2014 18:07:10 +0000
+Original-Received: from sog-mx-2.v43.ch3.sourceforge.com ([172.29.43.192]
+	helo=mx.sourceforge.net)
+	by sfs-ml-3.v29.ch3.sourceforge.com with esmtp (Exim 4.76)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1XXwOj-0007Wt-O4
+	for bitcoin-list@lists.sourceforge.net; Sat, 27 Sep 2014 18:07:09 +0000
+Received-SPF: pass (sog-mx-2.v43.ch3.sourceforge.com: domain of m.gmane.org
+	designates 80.91.229.3 as permitted sender)
+	client-ip=80.91.229.3;
+	envelope-from=gcbd-bitcoin-list@m.gmane.org;
+	helo=plane.gmane.org; 
+Original-Received: from plane.gmane.org ([80.91.229.3])
+	by sog-mx-2.v43.ch3.sourceforge.com with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.76) id 1XXwOi-0005Jb-9d
+	for bitcoin-list@lists.sourceforge.net; Sat, 27 Sep 2014 18:07:09 +0000
+Original-Received: from list by plane.gmane.org with local (Exim 4.69)
+	(envelope-from <gcbd-bitcoin-list@m.gmane.org>) id 1XXwOY-0008H9-BZ
+	for bitcoin-list@lists.sourceforge.net; Sat, 27 Sep 2014 20:06:58 +0200
+Original-Received: from 200-206-160-225.dsl.telesp.net.br ([200.206.160.225])
+	by main.gmane.org with esmtp (Gmexim 0.1 (Debian))
+	id 1AlnuQ-0007hv-00 for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 27 Sep 2014 20:06:58 +0200
+Original-Received: from fragabr by 200-206-160-225.dsl.telesp.net.br with local (Gmexim
+	0.1 (Debian)) id 1AlnuQ-0007hv-00
+	for <bitcoin-list@lists.sourceforge.net>;
+	Sat, 27 Sep 2014 20:06:58 +0200
+X-Injected-Via-Gmane: http://gmane.org/
+Original-Lines: 24
+Original-X-Complaints-To: usenet@ger.gmane.org
+X-Gmane-NNTP-Posting-Host: 200-206-160-225.dsl.telesp.net.br
+X-Newsreader: Claws Mail 3.10.1-149-g7d0fc8 (GTK+ 2.24.24;
+	x86_64-unknown-linux-gnu)
+X-Spam-Score: -1.2 (-)
+X-Spam-Report: Spam Filtering performed by mx.sourceforge.net.
+	See http://spamassassin.org/tag/ for more details.
+	-1.5 SPF_CHECK_PASS SPF reports sender host as permitted sender for
+	sender-domain
+	0.0 FREEMAIL_FROM Sender email is commonly abused enduser mail provider
+	(fragabr[at]gmail.com)
+	-0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+	0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+	CUSTOM_MED
+	-0.0 SPF_PASS               SPF: sender matches SPF record
+	-0.9 RP_MATCHES_RCVD Envelope sender domain matches handover relay
+	domain 1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit,
+	and not from a mailing list
+X-Headers-End: 1XXwOi-0005Jb-9d
+X-BeenThere: bitcoin-list@lists.sourceforge.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <bitcoin-list.lists.sourceforge.net>
+List-Unsubscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>, 
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=unsubscribe>
+List-Archive: <http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-list>
+List-Post: <mailto:bitcoin-list@lists.sourceforge.net>
+List-Help: <mailto:bitcoin-list-request@lists.sourceforge.net?subject=help>
+List-Subscribe: <https://lists.sourceforge.net/lists/listinfo/bitcoin-list>,
+	<mailto:bitcoin-list-request@lists.sourceforge.net?subject=subscribe>
+Errors-To: bitcoin-list-bounces@lists.sourceforge.net
+Xref: news.gmane.org gmane.comp.bitcoin.user:59
+Archived-At: <http://permalink.gmane.org/gmane.comp.bitcoin.user/59>
+
+	I always compiled Bitcoin-QT from git, but now I get the
+following error (I'm using libtool 2.4.2):
+
+  CXXLD    test/test_bitcoin
+  CXX      qt/qt_bitcoin_qt-bitcoin.o
+  OBJCXXLD qt/bitcoin-qt
+libtool: link: unable to infer tagged configuration
+libtool: link: specify a tag with `--tag'
+Makefile:2305: recipe for target 'qt/bitcoin-qt' failed
+make[1]: *** [qt/bitcoin-qt] Error 1
+make[1]: Leaving directory '/usr/local/src/git/bitcoin/src'
+Makefile:551: recipe for target 'all-recursive' failed
+make: *** [all-recursive] Error 1
+
+	***
+
+	Any hints? Thanks.
+
+-- 
+Linux 3.16.0-00115-g19583ca: Shuffling Zombie Juror
+http://www.youtube.com/DanielFragaBR
+http://exchangewar.info
+Bitcoin: 12H6661yoLDUZaYPdah6urZS5WiXwTAUgL
+
+
+
+------------------------------------------------------------------------------
+Meet PCI DSS 3.0 Compliance Requirements with EventLog Analyzer
+Achieve PCI DSS 3.0 Compliant Status with Out-of-the-box PCI DSS Reports
+Are you Audit-Ready for PCI DSS 3.0 Compliance? Download White paper
+Comply to PCI DSS 3.0 Requirement 10 and 11.5 with EventLog Analyzer
+http://pubads.g.doubleclick.net/gampad/clk?id=154622311&iu=/4140/ostg.clktrk
