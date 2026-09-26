@@ -19,6 +19,25 @@ This note is about **machine settings** (clocks, time zones), which are differen
 | 2010-10-03 | bitcointalk msg15116 ("Version 0.3.13, please upgrade", posted **20:02:24 UTC**, never edited). It contains Satoshi's own `diff -u` output with Windows paths and ctime-style local mtimes: `--- old\main.cpp  Sun Oct 03 20:57:20 2010` / `+++ new\main.cpp  Sun Oct 03 20:57:54 2010` (also serialize.h at 20:57:45/20:57:54). | The edited file must predate the post, so the **dev machine's local time was ≥ UTC+0:55**. That rules out fixed UTC and every American zone. On **BST (+1)** the file was saved at 19:57:54 UTC, **4.5 min before he posted**, between his 19:49 and 20:02 posts. CEST (+2) is possible (18:57 UTC, also inside his session). The same evening his Thunderbird email to Malmi is stamped `Sun, 03 Oct 2010 21:27:29 +0100`. | VERIFIED data; INFERENCE: not UTC/Americas (high), BST (medium-high) | Spotted by the corpus subagent; not found in prior art |
 | 2010-08-15 | bitcointalk msg9359 (03:40:29 UTC): `--- \old\sha.cpp Mon Jul 26 13:31:11 2010` / `+++ \new\sha.cpp Sat Aug 14 20:21:08 2010` | Only requires ≥ UTC−7h19m. Consistent with BST (saved 19:21 UTC, posted 8 h later at 04:40 BST, night-owl pattern). Not discriminating on its own. | VERIFIED; weak | — |
 
+### Same-message check: Date offset vs Message-ID time (VERIFIED)
+
+For the same message, Thunderbird writes the Message-ID (hex UTC seconds from `PR_Now()`) and the `Date:` header (local time + OS offset) at the moment of sending. Where both survive (Malmi's or the list archive's copies, via `data/satoshi/posts.jsonl`), **local time − offset equals the Message-ID time to the second**:
+
+| Message | `Date:` header | Message-ID | Hex → UTC |
+|---|---|---|---|
+| p2p-research, P2P Foundation list | Wed, 11 Feb 2009 22:30:54 +0000 | `<4993519E.8080300@gmx.com>` | 2009-02-11 22:30:54Z |
+| p2p-research | Fri, 13 Feb 2009 02:31:20 +0000 | `<4994DB78.5080602@gmx.com>` | 2009-02-13 02:31:20Z |
+| bitcoin-list, "Bitcoin 0.2 released" | Thu, 17 Dec 2009 06:49:02 +0000 | `<4B29D45E.4080906@gmx.com>` | 2009-12-17 06:49:02Z |
+| bitcoin-list, "Bitcoin 0.3 released!" | Tue, 06 Jul 2010 22:53:07 **+0100** | `<4C33A5C3.6060705@gmx.com>` | 2010-07-06 21:53:07Z |
+| bitcoin-list, 0.3.6 alert | Fri, 30 Jul 2010 06:34:38 **+0100** | `<4C52646E.9040206@gmx.com>` | 2010-07-30 05:34:38Z |
+| bitcoin-list, 15 Aug alert | Sun, 15 Aug 2010 21:37:28 **+0100** | `<4C685008.2060106@gmx.com>` | 2010-08-15 20:37:28Z |
+| bitcoin-list | Wed, 08 Dec 2010 23:09:45 +0000 | `<4D001039.4060007@gmx.com>` | 2010-12-08 23:09:45Z |
+| bitcoin-list, "Bitcoin 0.3.19 is released" | Mon, 13 Dec 2010 16:11:53 +0000 | `<4D0645C9.6010109@gmx.com>` | 2010-12-13 16:11:53Z |
+
+Also `Sat, 24 Oct 2009 00:55:06 +0100` (bitcoin-list, a day before the EU switch). SourceForge's arrival times lag by 16 s to 28 min, so his clock was right.
+
+Conclusion (VERIFIED mechanism, INFERENCE on meaning): Satoshi used Thunderbird with his GMX account **from at least 11 Feb 2009** (the P2P Foundation posts) to Dec 2010. The OS time zone of that machine followed UK rules the whole time.
+
 ## Inference
 
 INFERENCE (medium-high): from January 2009 to at least February 2011, the computers Satoshi used to build releases and send email were set to **UK time**: GMT in winter and BST in summer, switching on the EU dates, with accurate clocks. The only outliers are the two white paper PDFs (US offsets, Oct 2008 and Mar 2009). Those were made by OpenOffice on a Windows machine with MS Office fonts, possibly a different machine, VM or deliberate setting.
