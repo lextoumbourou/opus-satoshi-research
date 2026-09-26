@@ -43,7 +43,31 @@ What the archives show:
    - Satoshi need not have read the printed proceedings, or even the Benelux paper itself.
    - Ducrée's geolocation inference ("Benelux", "KU Leuven library"), his "hard fact #2", and his use of it to exclude US-based candidates therefore have no support.
    - **For the user's theory:** this removes the argument Ducrée uses against Finney and Szabo, and the special KU Leuven route he proposes for Sassaman. Anyone with a web browser could have built this bibliography. (Side note: Back's own 2002 hashcash paper cites a CiteSeer URL, showing he used CiteSeer, which was normal for the field. Weak.)
-6. **Novelty.** Rosario (Medium, 1 Nov 2018) links the paper on UCL's current site. No published work found that dates its online availability to 2002–2007, traces [2] to the WETICE self-citation / CiteSeer string, or traces [3], [4] and [7] to the "Secure Names" reference list. Searched 6 queries (Brave/WebSearch), 2026-09-26. **Not found published.**
+6. **Competing source hypothesis: the Springer encyclopedia (Clark via Miller, Apr 2026).** Haber & Massias, "Time-stamping", *Encyclopedia of Cryptography and Security* (Springer 2005, ed. van Tilborg; `data/prior-research/citations/springer-ecs-2005-time-stamping.txt`) lists four of Satoshi's five timestamping refs ([2], [3], [4], [7]; not [5]). Feature check, VERIFIED text comparison:
+
+   | Distinctive feature in Satoshi's list | WETICE/CiteSeer string | Haber & Stornetta 1997 list | Springer 2005 entry | Massias Benelux paper |
+   |---|---|---|---|---|
+   | [2] "X.S. Avila" | ✓ "X. S. Avila" | – | ✗ "X. Serret Avila" | ✗ "X. Serret Avila" |
+   | [2] plural "requirements" | ✓ | – | ✓ | ✗ |
+   | [2] "20th Symposium…", no page numbers | ✓ | – | ✗ "Twentieth…", pp. 79–86 | – |
+   | [3] "vol 3, no 2, pages 99-111" | – | ✓ "Vol. 3, No. 2, pp. 99–111" | ~ "3 (2), 99–111" | ✗ "3(2):99–112" |
+   | [3]/[4] hyphenated "time-stamp(ing)" | – | ✓ | ✓ | ✗ |
+   | [4] "Sequences II … 1993" | – | ✓ | ✓ | ✗ "Sequences'91 … 1992" |
+   | [7] "In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980" | – | ✓ (identical, incl. "April 1980") | ~ "Proceedings of the 1980 Symposium … IEEE Computer Society Press, Los Alamitos, CA, 122–133" (no month) | not cited |
+   | [5] "…Computer and Communications Security, pages 28-35, April 1997" | ✓ (CiteSeer record) | (is [5]) | not cited | ✗ "Communication Security … ACM Press" |
+
+   INFERENCE (medium-high): Haber & Stornetta 1997 for [3], [4], [7], plus the WETICE/CiteSeer string for [2] (and CiteSeer's record for [5]), fits every distinctive feature. The encyclopedia fits "requirements" and "Sequences II/1993" but misses "X.S.", "20th", the no-pages form, "vol/no" and "April 1980". Either way, every candidate source was online before 2008.
+7. **Novelty.**
+   - **Already published:**
+     - Rosario (Medium, 1 Nov 2018) links the paper on UCL's current site.
+     - Peter Miller (Medium, 13 Apr 2026; `data/prior-research/sassaman/miller-2026-04-13-…txt`) noted the plural "requirements" and the missing page numbers ("Maybe he did not have access to the paper, at all"). He relayed Jeremy Clark's suggestion that Satoshi took it from an online encyclopedia entry.
+     - The opposite claim ("print-only … until 2020", a Sassaman/KU Leuven clue) was pushed on X by David Seroy and Nic Carter in April 2026 (REPORTED via `data/prior-research/sassaman/eventhorizoniq-…txt`).
+   - **Not found published:**
+     - That the Benelux paper itself was downloadable from UCL 2002–2007 and on CiteSeer 2004–2008, directly falsifying "print-only".
+     - The exact WETICE/CiteSeer string match ("X. S. Avila", no pages, "20th").
+     - The Haber & Stornetta 1997 list as the source of [3], [4], [7].
+     - The feature comparison showing the Springer entry is a weaker fit.
+   - Searches: 6 web queries plus the Miller/Substack threads, 2026-09-26.
 
 ## The Bank of Japan/IMES lead (Quisquater 2017, via Ducrée)
 
