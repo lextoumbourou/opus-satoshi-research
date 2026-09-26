@@ -8,3 +8,6 @@ data/claims/C-malmi-satoshi-index.html
 # COPA v Wright court exhibits: contain private individuals' contact details
 # and old passwords. Kept locally only; see data/copa-README.md for the source.
 data/copa/
+# bulky extracted trees (reproducible from committed sources/tarballs)
+data/releases/wx28/wxWidgets-WX_2_8_9/
+data/satoshi-hal/bitcoin-org-20090303/
