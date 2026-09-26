@@ -11,3 +11,6 @@ data/copa/
 # bulky extracted trees (reproducible from committed sources/tarballs)
 data/releases/wx28/wxWidgets-WX_2_8_9/
 data/satoshi-hal/bitcoin-org-20090303/
+# third-party published works are not committed (see data/SOURCES.md)
+data/prior-research/
+scripts/__pycache__/
